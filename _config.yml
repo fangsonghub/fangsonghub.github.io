@@ -13,7 +13,7 @@ relative_permalinks: false
 # permalink:   /:categories/:title/
 permalink:   /:title/
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge #pygments
 sass:
   sass_dir: _sass
   style: compressed
