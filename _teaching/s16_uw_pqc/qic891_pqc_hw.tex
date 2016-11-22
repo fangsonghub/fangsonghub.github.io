@@ -1,0 +1,129 @@
+%% HOW TO USE THIS TEMPLATE:
+
+%% Ensure that you replace "YOUR NAME HERE" with your own name.  Type
+%% your solution to each problem part within
+%% the \begin{solution} \end{solution} environment immediately
+
+% the "answers" option causes the solutions to be printed; make sure
+% you change the variable \answers to 1. 
+\def\answers{0}
+\ifnum\answers=1
+\documentclass[12pt,answers,addpoints]{exam}
+\else
+\documentclass[12pt,addpoints]{exam}
+\fi
+
+% header macros, ignore
+\newcommand{\handout}[5]{
+%   \renewcommand{\thepage}{#1-\arabic{page}}
+   \renewcommand{\thepage}{\arabic{page}} 
+  \noindent
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill {QIC 891 {Topics in Quantum Safe Cryptography}} \hfill }
+       \vspace{2mm}
+        \hbox to 5.78in { \hfill {Module 1: {\em Post-Quantum Cryptography}} \hfill  }
+	\vspace{2mm}
+	       % \hbox to 5.78in { {Lecturer: { Fang Song, University of Waterloo}} \hfill  }
+	%\vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { {\it #3 \hfill #4} }
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+
+\newcommand{\hw}[4]{\handout{#1}{#2}{Student:#3}{Due date:
+    #4}{Homework #1}}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fixltx2e}
+\usepackage{enumitem}
+\usepackage{color,graphicx}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{hyperref}
+\usepackage{fourier} % charter, fourier, mathpazo, times
+\usepackage[hmargin=1in,vmargin=1in]{geometry} %
+
+\begin{document}
+\hw{}{b}{{Your Name Here}}{June 2, 2016} % Put YOUR NAME HERE
+
+{\sf You are encouraged to write up your solution using \LaTeX. A
+  template .tex file is available at the course webpage.} 
+
+\begin{questions}
+  \question Review a few major directions for post-quantum
+  cryptography: \emph{lattice}-based, \emph{code}-based,
+  \emph{multivariate quadratic polynomial} (MQ)-based.
+\begin{parts}
+  \part[3] For each direction, give examples of proposed schemes for
+  public-key \textbf{encryption} and \textbf{signature}.
+  \part[3] For each direction, give examples of some hard problems and
+  popular algorithms for them.
+\end{parts}
+  % \begin{itemize}
+  % \item Lattice-based.
+  % \item Code-based. 
+  % \item MQ-based. 
+  % \end{itemize}
+\begin{solution}
+... Answer here ... 
+\end{solution}
+
+\question Digital signature.
+\begin{parts}
+  \part[2] Hash-based signature scheme is based on a generic
+  construction from one-way functions. Describe the two steps of the
+  generic construction.
+\begin{solution}
+... Answer here ... 
+\end{solution}
+  \part[2] Given a 3-round identification scheme $(G,(P,V))$. Describe
+  how to turn it into a signature scheme by the Fiat-Shamir
+  transformation.
+\begin{solution}
+... Answer here ... 
+\end{solution}
+
+  \part[2] Suppose that we want to prove the security of an
+  identification scheme and the Fiat-Shamir transformation against
+  quantum attackers. Describe two (or more) challenges.
+\begin{solution}
+... Answer here ... 
+\end{solution}
+
+\end{parts}
+
+\question Public-key encryption.  
+
+\begin{parts}
+  \part[4] Based on lattices, codes and MQ each, describe a candidate
+  function $f$ and a corresponding trapdoor $f^{-1}$.
+\begin{solution}
+... Answer here ... 
+\end{solution}
+\part[4] Describe a method of constructing an IND-CPA encryption
+scheme from a injective trapdoor one-way function $(f,f^-1)$ and a
+random oracle $\mathcal{O}$. Give your justification why the
+construction is secure and explain possible difficulties of proving
+security against quantum attackers.
+\begin{solution}
+... Answer here ... 
+\end{solution}
+
+\end{parts}
+
+\begin{solution}
+... Answer here ... 
+\end{solution}
+
+\end{questions}
+
+% \newpage
+%  \bibliographystyle{alpha}
+%  \small{\bibliography{../pqc.bib}}
+
+\end{document}

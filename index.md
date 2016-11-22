@@ -1,0 +1,17 @@
+---
+layout: page
+title: Home
+excerpt: "Academic homepage of Fang Song"
+modified: 
+logo: true
+---
+
+I am an Assistant Professor in the [Computer Science Department](http://www.pdx.edu/computer-science/) at the [Portland State University](http://www.pdx.edu/). I was a postdoctoral fellow at the [Institute for Quantum Computing](http://iqc.uwaterloo.ca) and the [Department of Combinatorics and Optimization](http://math.uwaterloo.ca/combinatorics-and-optimization/) at the [University of Waterloo](http://uwaterloo.ca) during 2013 to 2016. I completed my PhD in 2013 in [Computer Science and Engineering](http://www.cse.psu.edu/) at the [Pennsylvania State University](http://www.psu.edu), under the supervision of Prof. [Sean Hallgren](http://www.cse.psu.edu/~hallgren). Prior to that, I received my bachelor's degree from [University of Science & Technology of China](http://en.ustc.edu.cn/) in 2008.
+
+My research interests lie in cryptography, especially in the presence of quantum attacks (a.k.a. post-quantum crypto), quantum algorithms, computational complexity and theoretical computer science broadly.
+
+## News
+
+*   I am looking for self-motivated students who are interested in pursuing a Ph.D degree with me. Please feel free to reach me!
+*   I will serve on the program committee of [QIP 2017](https://www.stationq.com/qip-2017/){:target="_blank"}, hosted by at Microsoft Research in **Redmond, Washington** during Jan 14-20, 2017\. You may as well visit me pre or post QIP [driving 3 hours south](https://goo.gl/maps/aH7GfTLs4tP2){:target="_blank"}.
+*   I will serve on the program committee of [PKC 2017](http://www.iacr.org/workshops/pkc2017/index.php){:target="_blank"} to be held at the artistic city of **Amsterdam**. Please submit your nice papers!

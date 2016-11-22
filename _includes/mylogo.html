@@ -1,0 +1,50 @@
+<style>
+.left {
+    float: left;
+    width: 30%;
+}
+.right {
+    float: right;
+    width: 70%;
+}
+.group:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 480px) {
+    .left, 
+    .right {
+        float: none;
+        width: auto;
+    }
+}
+
+</style>
+
+<header class="masthead">
+	<div class="wrap">
+<div class="left">
+  		<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
+    </div>
+  <div class="right">
+<h1 style="margin-top:0px;margin-bottom:3px;color:#FF6347;">Fang Song <span lang="zh-Hans"
+    style="font-family:FangSong,STFangsong;color:black">宋方</span>
+</h1>  
+<h3 style="margin-top:5px;margin-bottom:0px;color:black">Assistant Professor</h3>
+
+<p style="font-size:1.1em;margin-top:5px;margin-bottom:0"><a href="http://www.pdx.edu/computer-science/">Computer Science
+Department</a>, <a href="http://www.pdx.edu/">Portland State
+University</a></p>
+<p style="margin-top:10px;margin-bottom:5px" align="left">
+<b>Office</b>: FAB 120-07 <br>
+<b>Phone</b>: +1 503-725-4060 <br>
+<b>Email</b>: fang.song "at" pdx.edu (best way to reach me)
+</p>
+    </div>
+	</div>
+</header>

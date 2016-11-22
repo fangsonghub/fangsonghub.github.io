@@ -1,0 +1,22 @@
+<div class="navigation-wrapper">
+  <!--	<nav role="navigation" id="site-nav" class="animated drop"> -->
+ <nav role="navigation" id="site-nav">
+	    <ul>
+      {% for link in site.data.navigation %}
+		    {% if link.url contains 'http' %}
+		        {% assign domain = '' %}
+		        {% else %}
+		        {% assign domain = site.url %}
+      {% endif %}
+      {% if page.title == link.title %}
+      <li><a class="active" href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+      {% else %}
+      <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+      {% endif %} {% endfor %}
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+{% include browser-upgrade.html %}
+
+<div class="js-menu-screen menu-screen"></div>
