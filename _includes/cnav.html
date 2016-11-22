@@ -19,13 +19,30 @@
   <nav role="navigation" id="course-nav">
     <ul>
       <!--      <li><a href="{{base}}{{page.homeurl}}">{{page.courseid}}</a></li> -->
-      
+      {% for link in site.data.course %}
+          	    {% if link.url contains 'http' %}
+		        {% assign domain = '' %}
+		        {% else %}
+		        {% assign domain = base %}
+                    {% endif %}
+      {% if link.courseid == page.courseid and link.nav == true %}
+      {% if link.title == page.title  %}
+      <li><a class="active" href="{{ domain }}{{ link.url }}">{{ link.desc }}</a></li>
+      {% else %}
+      <li><a href="{{ domain }}{{ link.url }}"
+	     {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.desc }}</a></li>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+
+      <!-- working example 
       {% for tpage in site.teaching %}
       {% if tpage.courseid == page.courseid %}
       {% if page.title == tpage.title %}
       <li><a class="active" href="{{ tpage.permalink }}">{{ tpage.desc }}</a></li> {% else %}
       <li><a href="{{ tpage.permalink }}">{{ tpage.desc }}</a></li>
       {% endif %} {% endif %}{% endfor %}
+      -->
 <!--      {% for tpage in site.teaching %}
       {% if tpage.courseid == page.courseid %}
       <li><a href="{{ tpage.permalink }}">{{ tpage.desc }}</a></li>

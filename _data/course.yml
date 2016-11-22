@@ -1,0 +1,22 @@
+# course pages
+
+# W17 IoCrypto
+- courseid: w17 485/585
+  title: (Winter 2017) CS 485/585 - Intro to Cryptography
+  desc: w17 485/585
+  nav: true
+  url: /teaching/w17_4585_icrypto/
+    
+- courseid: w17 485/585
+  title: Winter 2017 CS 485/585 Intro to Cryptography
+  desc: Homework
+  nav: true
+  url: /teaching/w17_4585_icrypto/hm/
+
+- courseid: w17 485/585
+  title: CS 485/585 
+  desc: Resource
+  nav: true
+  url: /teaching/w17_4585_icrypto/resource/
+
+

@@ -1,8 +1,20 @@
 <!-- _includes/base.html -->
+<!--
 {% assign base = '' %}
-<!--{% assign depth = page.url | split: '/' | size | minus: 1 %}-->
 {% assign depth = page.url | split: '/' | size %}
 {% if    depth == 1 %}{% assign base = '.' %}
 {% elsif depth == 2 %}{% assign base = '..' %}
 {% elsif depth == 3 %}{% assign base = '../..' %}
 {% elsif depth == 4 %}{% assign base = '../../..' %}{% endif %}
+-->
+
+<!--
+{% assign canon = page.url | append: "page.html" | split: "/" %}
+{% for item in canon offset:2 %}
+{% assign base = base | append:"../" %}
+{% endfor %}
+  -->
+
+{% assign lvl = page.url | append:'X' | split:'/' | size %}
+{% capture base %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
