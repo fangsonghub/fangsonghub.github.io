@@ -59,7 +59,7 @@
    ========================================================================== */
 
 #course-nav{
-  display: inline-block;
+  display: none;
   z-index: 5;
   @include media($medium) {
     -webkit-animation-duration: 1s;
@@ -85,7 +85,7 @@
 }
 
 #site-nav {
-  display: inline-block;
+  display: none;
   z-index: 5;
   @include media($medium) {
     -webkit-animation-duration: 1s;
@@ -121,7 +121,7 @@
   vertical-align: top;
   margin: 0;
   padding: 6px 20px;
-  background-color: $black;
+  background-color: #696969;
   height: 44px;
   @include rounded(0);
   @include media($medium) {
