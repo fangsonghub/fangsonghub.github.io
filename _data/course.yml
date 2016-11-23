@@ -20,3 +20,16 @@
   url: /teaching/w17_4585_icrypto/resource/
 
 
+# S16 PQCrypto
+
+- courseid: s16uwpqc
+  desc: S16-QIC 891
+  url: /teaching/s16_uw_pqc/
+  nav: true
+
+- courseid: s16uwpqc
+  desc: Resource
+  url: /teaching/s16_uw_pqc/resource/
+  nav: true
+
+

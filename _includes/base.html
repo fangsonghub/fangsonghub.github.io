@@ -16,5 +16,8 @@
   -->
 
 {% assign lvl = page.url | append:'X' | split:'/' | size %}
-{% capture base %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+<!-- {% capture base %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %} -->
+{% capture base %}{% for i in (4..lvl) %}../{% endfor %}..{% endcapture %}
+
+{{base}}
 

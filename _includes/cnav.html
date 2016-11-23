@@ -26,7 +26,7 @@
 		        {% assign domain = base %}
                     {% endif %}
       {% if link.courseid == page.courseid and link.nav == true %}
-      {% if link.title == page.title  %}
+      {% if link.desc == page.desc  %}
       <li><a class="active" href="{{ domain }}{{ link.url }}">{{ link.desc }}</a></li>
       {% else %}
       <li><a href="{{ domain }}{{ link.url }}"
