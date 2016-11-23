@@ -73,7 +73,7 @@ span + .entry-title {
 
 .entry-title {
 	font-family: $alt-font;
-	font-style: italic;
+/* font-style: italic; */
 	@include font-size(32,no,20);
 	font-weight: 500;
 	line-height: 1;

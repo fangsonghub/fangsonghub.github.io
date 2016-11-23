@@ -222,3 +222,14 @@ pre {
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, .highlight {
 	@include transition(all .2s ease);
 }
+
+
+// markdown table border
+
+.mbtablestyle {
+        border-collapse: collapse;
+
+   > table, td, th {
+        border: 1px solid $black;
+        }
+}
