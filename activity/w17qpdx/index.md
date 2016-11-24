@@ -8,9 +8,8 @@ modified: <2016-11-23 Wed>
 
 ## About
 
-
 *   **When**: Friday January 13, 2017
-*   **Where**: TBD
+*   **Where**: TBD. Directions [below](# How to get here?). 
 *   **What**: Curious about what the new paradigm of **quantum computing** has to offer? How will it change the way computers work and how it will affect cryptography that we rely on for providing cybersecurity? This one-day public lectures will be your treat. World-leading experts will share their views and insights with you. 
 
 <!--- *   **Organizers**: 
@@ -19,8 +18,6 @@ modified: <2016-11-23 Wed>
     [Computer Science Department](www.pdx.edu/computer-science/){:target="blank"},
     [Maseeh College of Engineering and Computer Science](https://www.pdx.edu/cecs/){:target="blank"},
     [Portland State University](https://www.pdx.edu){:target="blank"}.
-
-## How to get here?
 
 ## Tentative program
 
@@ -35,6 +32,8 @@ modified: <2016-11-23 Wed>
 | 14:00 - 14:45 | **Quantum Randomness Amplification** | [Kai-Min Chung](http://www.iis.sinica.edu.tw/~kmchung/) <br> IIS @ Academia Sinica |
 | 14:45 - 15:30 | Free discussion and Farewell| |
 {:.mbtablestyle}
+
+## How to get here?
 
 ## Check out some fun stuff
 
