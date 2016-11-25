@@ -9,7 +9,7 @@ modified: <2016-11-23 Wed>
 ## About
 
 *   **When**: Friday January 13, 2017
-*   **Where**: TBD. Directions [below](# How to get here?). 
+*   **Where**: TBD. Directions [below](#direction). 
 *   **What**: Curious about what the new paradigm of **quantum computing** has to offer? How will it change the way computers work and how it will affect cryptography that we rely on for providing cybersecurity? This one-day public lectures will be your treat. World-leading experts will share their views and insights with you. 
 
 <!--- *   **Organizers**: 
@@ -33,7 +33,7 @@ modified: <2016-11-23 Wed>
 | 14:45 - 15:30 | Free discussion and Farewell| |
 {:.mbtablestyle}
 
-## How to get here?
+## <a name="direction"></a>How to get here?
 
 ## Check out some fun stuff
 
