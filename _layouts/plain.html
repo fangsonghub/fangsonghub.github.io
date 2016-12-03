@@ -13,8 +13,8 @@
   <article class="entry">
     <div class="entry-wrapper">
       <header class="entry-header">
-        <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
-        <h2 class="entry-title" style="font-style: italic">{{ page.subtitle }}</h2>
+        <h2 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h2>
+        <h4 class="entry-title" style="font-style: italic; font-size:24px; margin-top:0px; margin-bottom:4px">{{ page.subtitle }}</h4>
       </header>
       <div class="entry-content">
         {{ content }}
@@ -25,7 +25,6 @@
 
 <div class="footer-wrapper">
   <footer role="contentinfo" class="entry-wrapper">
-<span> {%if page.modified != null %} <i>Last update: </i> {{page.modified}}{% endif %}
     {% include footer.html %}
   </footer>
 </div><!-- /.footer-wrapper -->

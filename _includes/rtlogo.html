@@ -1,0 +1,52 @@
+<style>
+.left {
+    float: left;
+    width: 30%;
+}
+.right {
+    float: right;
+    width: 65%;
+}
+.group:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 480px) {
+    .left, 
+    .right {
+        float: none;
+        width: auto;
+    }
+}
+
+</style>
+
+<header class="masthead">
+	<div class="wrap">
+<div class="left">
+  		<a href="{{ site.url }}/" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="120" height="120" alt="{{ site.title }} logo"></a>
+    </div>
+  <div class="right">
+
+<h3 style="text-align:left;margin-top:0px;margin-bottom:2px;color:#FF6347;">Fang Song <span lang="zh-Hans"
+    style="font-family:FangSong,STFangsong;color:black">宋方</span> &nbsp;  &nbsp; <img src="{{ base }}/images/pdxcs.png" width="180" height="40"> 
+</h3>  
+
+
+<p style="text-align:left; margin-bottom: 2px">
+  <b>Assistant Professor</b>
+  <br>
+<a href="http://www.pdx.edu/computer-science/">Computer Science
+  Department</a>
+<br>
+<a href="http://www.pdx.edu/">Portland State
+University</a>
+  </p>
+    </div>
+	</div>
+</header>
