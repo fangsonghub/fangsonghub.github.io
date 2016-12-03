@@ -28,7 +28,7 @@ a postdoctoral fellow at the Institute for Quantum Computing and the
 Department of Combinatorics and Optimization at the University of
 Waterloo during 2013 to 2016. He completed his PhD in 2013 in Computer
 Science and Engineering at the Pennsylvania State University, under
-the supervision of Prof. Sean Hallgren. Prior to that, he received my
+the supervision of Prof. Sean Hallgren. Prior to that, he received his
 bachelor’s degree from University of Science & Technology of China in
 2008.
 
