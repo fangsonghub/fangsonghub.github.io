@@ -12,6 +12,6 @@ My research interests lie in cryptography, especially in the presence of quantum
 
 ## News
 
-*   I am looking for self-motivated students who are interested in pursuing a Ph.D degree with me. Please feel free to reach me!
+*   I am looking for self-motivated students who are interested in pursuing a Ph.D degree with me. Please feel free to reach me! Find more [here]({{base}}/recruit/).
 *   I will serve on the program committee of [QIP 2017](https://www.stationq.com/qip-2017/){:target="_blank"}, hosted by at Microsoft Research in **Redmond, Washington** during Jan 14-20, 2017\. You may as well visit me pre or post QIP [driving 3 hours south](https://goo.gl/maps/aH7GfTLs4tP2){:target="_blank"}.
 *   I will serve on the program committee of [PKC 2017](http://www.iacr.org/workshops/pkc2017/index.php){:target="_blank"} to be held at the artistic city of **Amsterdam**. Please submit your nice papers!
