@@ -86,7 +86,7 @@ before you apply.
   research
   [https://www.pdx.edu/computer-science/computer-science-academic-faculty][csfaculty]
 
-*  Check out the **Master's Program** ([https://www.pdx.edu/computer-science/master-of-science-in-computer-science][mslink]) too. A [poster]({{base}}/files/docs/mscs.pdf)
+*  Check out the **Master's Program** ([https://www.pdx.edu/computer-science/master-of-science-in-computer-science][mslink]) too. A [poster]({{base}}/files/docs/mscs.pdf).
 
 *  Want to reboost your career in Computer Science? Check out the post-bac and New Beginnings program here [https://www.pdx.edu/computer-science/program-preparation][postbac].
 

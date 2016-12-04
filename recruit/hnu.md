@@ -1,8 +1,8 @@
 ---
 layout: plain
 subtitle: Report and PhD. recruit @ Hunan University
-title: 湖南大学学术报告及招生宣传
-permalink: /recruit/hu/
+title: 学术报告及招生宣传@湖南大学
+permalink: /recruit/hnu/
 modified: <2016-12-02 Fri>
 ---
 
@@ -19,6 +19,9 @@ general. All all welcome, especially students who are interested in studying abr
 
 *  **时间 (When)**: 
 *  **地点 (Where)**: 
+*  **摘要 (Abstract)**: 量子计算的发展将带来密码学的一场革命。例如量子计算机会破解现在广泛使用的公钥密码学（例如RSA加密）。我将介绍密码学遇到的挑战与机遇，并重点分享重要而有趣的研究课题。
+
+   Quantum computing is revolutionizing cryptography. Many widely deployed cryptosystems (e.g. RSA) will be broken due to efficient quantum algorithms. I will introduce such challenges and opportunities that cryptography faces in a quantum era, and particularly share exciting research directions.
 
 #### **Brif Bio.** of Dr. Fang Song: 
 
