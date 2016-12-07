@@ -1,8 +1,8 @@
 ---
 layout: plain
-subtitle: Report and PhD. recruit @ Hunan University
-title: 学术报告及招生宣传@<b>湖南大学</b>
-permalink: /recruit/hnu/
+subtitle: Report and PhD. recruit @ Central South University
+title: 学术报告及招生宣传@<b>中南大学</b>
+permalink: /recruit/csu/
 modified: <2016-12-07 Wed>
 ---
 
@@ -17,11 +17,16 @@ opportunity to introduce the PhD positions he has available to work in
 cryptography, quantum computing and theoretical computer science in
 general. All are welcome, especially students who are interested in studying abroad!
 
-*  **时间 (When)**: 2016-12-08 Thursday 2:30 - 4:00pm
-*  **地点 (Where)**: 湖南大学信息科学与工程学院#542
+*  **时间 (When)**: 
+*  **地点 (Where)**: 
+*  **题目 (Title)**: 量子时代的密码学 (Cryptography in a quantum world)
 *  **摘要 (Abstract)**: 量子计算的发展将带来密码学的一场革命。许多现在广泛使用的公钥密码学（例如RSA加密）将会被量子计算机破解。我将介绍密码学遇到的挑战与机遇，并重点分享有趣的亟待解决的研究课题。
 
-   Quantum computing is revolutionizing cryptography. Many widely deployed cryptosystems (e.g. RSA) will be broken due to efficient quantum algorithms. I will introduce such challenges and opportunities that cryptography faces in a quantum era, and particularly share exciting research directions.
+   Quantum computing is revolutionizing cryptography. Many widely
+   deployed cryptosystems (e.g. RSA) will be broken due to efficient
+   quantum algorithms. I will introduce such challenges and
+   opportunities that cryptography faces in a quantum era, and share
+   exciting future research directions.
 
 #### **Brif Bio.** of Dr. Fang Song: 
 
@@ -33,7 +38,7 @@ Waterloo during 2013 to 2016. He completed his PhD in 2013 in Computer
 Science and Engineering at the Pennsylvania State University, under
 the supervision of Prof. Sean Hallgren. Prior to that, he received his
 bachelor’s degree from University of Science & Technology of China in
-2008.
+2008. He has served on the committee of [QIP 2017](){:target="_blank"} and [PKC 2017](http://www.iacr.org/workshops/pkc2017/index.php){:target="_blank"}. 
 
 His research interests lie in cryptography, especially in the presence
 of quantum attacks (a.k.a. post-quantum crypto), quantum algorithms,
