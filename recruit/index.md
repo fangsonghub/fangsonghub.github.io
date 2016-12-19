@@ -100,6 +100,8 @@ think again before you apply.
 
 *  Want to reboost your career in Computer Science? Check out the post-bac and New Beginnings program here [https://www.pdx.edu/computer-science/program-preparation][postbac].
 
+* December 2016, China Recuit Tour: @[Hunan University]({{base}}/recruit/hnu/); @[Central South University]({{base}}/recruit/csu/).
+
 [gradapplink]: https://www.pdx.edu/computer-science/graduate-admission
 [mslink]: https://www.pdx.edu/computer-science/master-of-science-in-computer-science
 [postbac]: https://www.pdx.edu/computer-science/program-preparation

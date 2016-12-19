@@ -13,10 +13,11 @@ modified: <2016-12-07 Wed>
 Dr. Fang Song will give a tour about his research on the challenges
 and opportunites that modern cryptography encounters due to the new
 computation paradigm of quantum computing. He will also take the
-opportunity to introduce the PhD positions he has available to work in
+opportunity to introduce the MS/PhD positions he has available to work in
 cryptography, quantum computing and theoretical computer science in
-general. All are welcome, especially students who are interested in studying abroad!
+general. All are welcome, especially students who are interested in studying abroad! More info. about the MS/PhD applications can be found [here](http://www.fangsong.info/recruit/){:target="_blank"}. 
 
+*  **官方通知 (Official announcement)**: [link](http://csee.hnu.edu.cn/Front/TZXX_Detail?TZXX_BH=20161207164413b9252864-db45-4656-a7f1-571ac2534f48){:target="_blank"}
 *  **时间 (When)**: 2016-12-08 Thursday 2:30 - 4:00pm
 *  **地点 (Where)**: 湖南大学信息科学与工程学院#542
 *  **摘要 (Abstract)**: 量子计算的发展将带来密码学的一场革命。许多现在广泛使用的公钥密码学（例如RSA加密）将会被量子计算机破解。我将介绍密码学遇到的挑战与机遇，并重点分享有趣的亟待解决的研究课题。
