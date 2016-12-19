@@ -1,6 +1,6 @@
 ---
 layout: plain
-title: Ph.D. in Cryptography and Quantum Computing
+title: M.S. & Ph.D. in Cryptography and Quantum Computing
 permalink: /recruit/
 modified: <2016-12-02 Fri>
 ---
@@ -9,9 +9,10 @@ modified: <2016-12-02 Fri>
 
 {% include rtlogo.html %}
 
-I am inviting PhD applications in _cryptography, quantum computing,
-and general areas of theoretical computer science_ (TCS) starting
-**Fall 2017**, in the [Computer Science Department](computer-science/)
+I am inviting Master and Ph.D. applications in _cryptography, quantum
+computing, and general areas of theoretical computer science_ (TCS)
+starting **Fall 2017**, in
+the [Computer Science Department](computer-science/)
 at [Portland State University](http://www.pdx.edu/). Portland State U
 is located in the heart
 of [Portland, Oregon](https://en.wikipedia.org/wiki/Portland,_Oregon),
@@ -39,10 +40,17 @@ hesitate to reach me for any questions.
 ## How to apply?
 Please refer to the application guideline
 here
-[https://www.pdx.edu/computer-science/graduate-admission][gradapplink]. Master's
-degree is **NOT** required for the PhD application. A Bachelor's
-degree suffices. Please **mention my name** in your application, or
-preferably get in touch with me during the application process. 
+[https://www.pdx.edu/computer-science/graduate-admission][gradapplink]. Check
+out more about the [**Master's Program**][mslink]{:target="_blank"}
+(a [poster]({{base}}/files/docs/mscs.pdf){:target="_blank"}), and
+the
+[**PhD program**](https://www.pdx.edu/computer-science/doctor-of-philosophy-in-computer-science){:target="_blank"}.
+
+
+*  Master's degree is **NOT** required for the PhD application. A Bachelor's degree suffices. 
+
+*  Please **mention my name** in your application, or preferably get
+   in touch with me during the application process.
 
 ## What do I do?
 
@@ -73,10 +81,14 @@ Feel free to scan through my [papers]({{base}}/research/) to get some idea.
 ## What am I expecting?
 
 Other than reasonable maturity in math (in particular _Probability_,
-_Linear Algebra_) and core CS knowledge, what TCS requires the most is your self-motivation and perseverance (true for PhD in general but more so in TCS). You have to enjoy what you do and lead your way by your curiosity and determination. Read the many web discussions on why go to TCS
+_Linear Algebra_) and core CS knowledge, what TCS requires the most is
+your self-motivation and perseverance (true for PhD in general but
+more so in TCS). You have to enjoy what you do and lead your way by
+your curiosity and determination. Read the many web discussions on why
+go to TCS
 (e.g. [http://cstheory.stackexchange.com/questions/1562/why-go-to-theoretical-computer-science-research][TCS]),
-and if you find NO resonance with those comments, you may think again
-before you apply.
+and if you find NO resonance with those comments, you may want to
+think again before you apply.
 
 ## More opportunities & info 
 
@@ -85,8 +97,6 @@ before you apply.
   vision etc. Check the other faculty members and their exciting
   research
   [https://www.pdx.edu/computer-science/computer-science-academic-faculty][csfaculty]
-
-*  Check out the **Master's Program** ([https://www.pdx.edu/computer-science/master-of-science-in-computer-science][mslink]) too. A [poster]({{base}}/files/docs/mscs.pdf).
 
 *  Want to reboost your career in Computer Science? Check out the post-bac and New Beginnings program here [https://www.pdx.edu/computer-science/program-preparation][postbac].
 
