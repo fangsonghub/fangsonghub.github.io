@@ -92,6 +92,12 @@ think again before you apply.
 
 ## More opportunities & info 
 
+* Master's students are typically admitted without fininal
+  aid. However, there are abundent TA positions available for
+  application every term, which comes with tuition waiver and
+  stipend. Depending on my grant status, I may support you with RAship
+  as well.
+
 * CS @ Portland State University is young and active. It is already
   strong in Programming Language, machine learning, systems, computer
   vision etc. Check the other faculty members and their exciting
@@ -100,7 +106,7 @@ think again before you apply.
 
 *  Want to reboost your career in Computer Science? Check out the post-bac and New Beginnings program here [https://www.pdx.edu/computer-science/program-preparation][postbac].
 
-* December 2016, China Recuit Tour: @[Hunan University]({{base}}/recruit/hnu/); @[Central South University]({{base}}/recruit/csu/).
+* December 2016, China Recuit Tour: @[Hunan University]({{base}}/recruit/hnu/); @[Central South University]({{base}}/recruit/csu/); @[Xidian University]({{base}}/recruit/xdu/).
 
 [gradapplink]: https://www.pdx.edu/computer-science/graduate-admission
 [mslink]: https://www.pdx.edu/computer-science/master-of-science-in-computer-science

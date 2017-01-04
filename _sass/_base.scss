@@ -233,3 +233,11 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
         border: 1px solid $black;
         }
 }
+
+.mbtablestylef {
+        border-collapse: collapse;
+
+   > table, td, th {
+        border: 1px solid lighten($black, 85);
+        }
+}
