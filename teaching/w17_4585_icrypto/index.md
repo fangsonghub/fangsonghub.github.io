@@ -10,8 +10,7 @@ modified:
 *  **Instructor**: [Fang Song]({{base}}/) @ FAB 120-07. Email: fsong"AT"pdx.edu.
 *  **Lectures**: Tu/Th 2:00 - 3:50 pm @ Fourth Ave Building 47.
 *  **Office hours**: Tu/Th 11am - 12pm, or by appointment. 
-*  **Course webpage**: [www.fangsong.info/teaching/w17_4585_icrypto/]({{base}}/teaching/w17_4585_icrypto/). Please check regularly for updates and announcements.
-* **Required Text**: [Introduction to Modern
+*  **Required Text**: [Introduction to Modern
 Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 (2nd edition) by [Jonathan
 Katz](http://www.cs.umd.edu/~jkatz){:target="_blank"} and [Yehuda
