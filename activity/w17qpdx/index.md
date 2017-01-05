@@ -3,7 +3,7 @@ layout: plain
 title: Winter'17 Quantum Day @ Portland
 subtitle: A Day Trip to Quantum computing and Cryptography
 permalink: /activity/w17qpdx/
-modified: <2016-11-23 Wed>
+modified: <2017-01-05 Thu>
 ---
 <p style="text-align: center;"><a href="{{base}}/activity/w17qpdx/">Web</a>  &nbsp; &nbsp; <a href="{{base}}/activity/w17qpdx/qpdxposter.pdf">PDF</a></p> 
 
@@ -38,7 +38,7 @@ modified: <2016-11-23 Wed>
 *  **Address**: 310 SW Lincoln Street
 Portland, OR 97201. [Google maps](https://www.google.com/maps/place/310+SW+Lincoln+St,+Portland,+OR+97201/data=!4m2!3m1!1s0x54950a14e3862c3f:0xfa2178846b1bfc50?sa=X&ei=NMhKVby4D5XtoATN0YC4Ag&ved=0CB4Q8gEwAA){:target="_blank"} <br> Parking available onsite as well as abundant street parking. 
 
-*  **Public transportation**: find info. on [Trimet](http://trimet.org/#/planner). Close to Bus Station at SW Lincoln & 1st (Stop ID: 3398), Lincoln St/SW 3rd Ave MAX Station (Orange line), and Portland Stree car station at SW Harrison Street. 
+*  **Public transportation**: find info. on [Trimet](http://trimet.org/#/planner){:target="_blank"}. Close to Bus Station at SW Lincoln & 1st (Stop ID: 3398), Lincoln St/SW 3rd Ave MAX Station (Orange line), and Portland Stree car station at SW Harrison Street. 
 
 ## Talk information
 
