@@ -4,12 +4,12 @@ title: (Winter 2017) CS 485/585 - Intro to Cryptography
 courseid: w17 485/585
 desc: w17 485/585
 permalink: /teaching/w17_4585_icrypto/
-modified: 
+modified: <2017-01-05 Thu>
 ---
 *  **Syllabus**: [PDF]({{base}}/teaching/w17_4585_icrypto/syllabus.pdf){:target="_blank"}, and more info. on the [Administratives]({{base}}/teaching/w17_4585_icrypto/admin/) page.
 *  **Instructor**: [Fang Song]({{base}}/) @ FAB 120-07. Email: fsong"AT"pdx.edu.
 *  **Lectures**: Tu/Th 2:00 - 3:50 pm @ Fourth Ave Building 47.
-*  **Office hours**: Tu/Th 11am - 12pm, or by appointment. 
+*  **Office hours**: Tu/W 4 - 5pm, or by appointment. 
 *  **Required Text**: [Introduction to Modern
 Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 (2nd edition) by [Jonathan

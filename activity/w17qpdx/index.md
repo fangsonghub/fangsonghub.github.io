@@ -62,7 +62,7 @@ by [Gorjan Alagic](http://www.alagic.org/).  <br>**Abstract**: In the 1980s, phy
     at
     [Portland State University](https://www.pdx.edu){:target="blank"}.
 	
-*  **Organizing team**: [Fang Song]({{base}}), with great support from: Kristine-Anne Ronquillo Sarreal, Evan Punongbayan, and Wu-chi Feng. CS @ PSU.
+*  **Organizing team**: [Fang Song]({{base}}/), with great support from: Kristine-Anne Ronquillo Sarreal, Evan Punongbayan, and Wu-chi Feng. CS @ PSU.
 
 *  **Special thanks** to
    Prof. [Xiaodi Wu](https://ix.cs.uoregon.edu/~xiaodiwu/) at

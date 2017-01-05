@@ -4,7 +4,7 @@
 
 *  **Instructor**: [Fang Song](http://www.fangsong.info) @ FAB 120-07. Email: fsong"AT"pdx.edu.
 *  **Lectures**: Tu/Th 2:00 - 3:50 pm @ Fourth Ave Building 47.
-*  **Office hours**: Tu/Th 11am - 12pm, or by appointment. 
+*  **Office hours**: Tuesday/Wednesday 4:00 - 5:00pm, or by appointment. 
 *  **Course webpage**: [http://www.fangsong.info/teaching/w17_4585_icrypto/](http://www.fangsong.info/teaching/w17_4585_icrypto/). Please check regularly for updates and announcements.
 * A **resource page** [http://www.fangsong.info/teaching/w17_4585_icrypto/resource/](http://www.fangsong.info/teaching/w17_4585_icrypto/resource/) with useful materials related to the course. 
 
