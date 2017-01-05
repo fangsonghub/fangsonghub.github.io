@@ -10,7 +10,7 @@ modified: <2017-01-05 Thu>
 ## About
 
 *   **When**: Friday January 13, 2017
-*   **Where**: Willamette hall, [University Place Hotel and Conference
+*   **Where**: Willamette Falls, [University Place Hotel and Conference
     Center](http://www.uplacehotel.com/contact-us/) at downtown Portland, OR. Directions [below](#direction).
 *   **What**: Curious about what the new paradigm of **quantum computing** has to offer? How will it change the way computers work and how it will affect **cryptography** that we rely on for providing cybersecurity? This one-day public lectures will be your treat. World-leading experts will share their views and insights with you. This event is open to the general audience. 
 
