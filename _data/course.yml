@@ -10,8 +10,14 @@
 - courseid: w17 485/585
   title: Winter 2017 CS 485/585 Intro to Cryptography
   desc: Homework
-  nav: true
+  nav: false
   url: /teaching/w17_4585_icrypto/hm/
+
+- courseid: w17 485/585
+  title: (Winter 2017) CS 485/585 - Intro to Cryptography
+  desc: Admin
+  nav: true
+  url: /teaching/w17_4585_icrypto/admin/
 
 - courseid: w17 485/585
   title: CS 485/585 
