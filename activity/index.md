@@ -8,4 +8,5 @@ modified: <2016-11-15 Tue>
 *   **Quantum Information Processing** (QIP) [2017](https://www.stationq.com/qip-2017/)
 
 ## Organizer
+*  **Quantum day at Portland** [mini-symposium]({{base}}/activity/w17qpdx) at Portland State University. January 13, 2017.
 *   **Post-quantum crypto** [seminar](https://sites.google.com/site/uwaterloopqcrypto/) at University of Waterloo. April 2015 - August. 2016
