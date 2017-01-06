@@ -28,7 +28,7 @@ modified: <2017-01-05 Thu>
 | 10:45 - 11:35 | **Quantum Cryptography**  [Abstract](#cs)    | [Christian Schaffner](http://homepages.cwi.nl/~schaffne/) <br> ILLC @ U of Amsterdam & CWI |
 | 11:40 - 12:00 | Free discussion |
 | 12:00 - 13:15 | Lunch <br>(Enjoy the fabulous food carts on Fourth Avenue) |  |
-| 13:15 - 14:05 | **Non-local Games and Quantum Interactive Proofs** [Abstract](#zj)| [Zhengfeng Ji](https://scholar.google.ca/citations?user=2uXdu7AAAAAJ) <br> QCIS @ U of Technology Sydney|
+| 13:15 - 14:05 | **Non-local Games** [Abstract](#zj)| [Zhengfeng Ji](https://scholar.google.ca/citations?user=2uXdu7AAAAAJ) <br> QCIS @ U of Technology Sydney|
 | 14:10 - 15:00 | **General Randomness Amplification with Non-signaling Security** [Abstract](#kc) | [Kai-Min Chung](http://www.iis.sinica.edu.tw/~kmchung/) <br> IIS @ Academia Sinica |
 | 15:00 - 15:30 | Free discussion, closing remarks and farewell| |
 {:.mbtablestyle}
@@ -45,7 +45,24 @@ Portland, OR 97201. [Google maps](https://www.google.com/maps/place/310+SW+Linco
 1. <a name="ga"></a>**Quantum algorithms and cryptography**
 by [Gorjan Alagic](http://www.alagic.org/).  <br>**Abstract**: In the 1980s, physicists speculated that it might be possible to engineer computational devices whose inner workings are based on the laws of quantum mechanics. In the early 90s, scientists realized that such “quantum computers” would perform a fundamentally new and different kind of computation. For instance, quantum computers could quickly solve some algorithmic problems which are effectively impossible for current “classical” computers (e.g., phones, laptops, supercomputers.) These problems are not purely of academic interest: they include factoring, which forms the basis of most public-key cryptography in use today. In this talk, I will discuss the fundamental concepts behind quantum computation, and sketch some of the basics of the underlying theory. I will then discuss some quantum algorithms and their applications, with a particular focus on consequences for cryptography. 
 
-2. <a name="cs"></a>**Quantum cryptography** by [Christian Schaffner](http://homepages.cwi.nl/~schaffne/). <br> **Abstract**: 
+2. <a name="cs"></a>**Quantum cryptography**
+by [Christian Schaffner](http://homepages.cwi.nl/~schaffne/). <br>
+**Abstract**: Cryptography provides methods for secure communication
+and information processing. The most well-known application is Quantum
+Key Distribution (QKD) which was invented in 1984 by Bennett and
+Brassard. QKD allows two players Alice and Bob to securely communicate
+over an insecure line which is overheard by an eavesdropper
+Eve. However, quantum cryptography offers a wide range of other
+applications that go beyond the task of key distribution. For
+instance, the goal of “position-based cryptography” is to use a
+player’s physical location as cryptographic credential. The
+combination of relativistic constraints (assuring that information
+cannot travel faster than the speed of light) and quantum mechanical
+effects (such as the impossibility to perfectly copy a quantum state)
+enables entirely new cryptographic applications like sending a message
+in such a way that it can only be read at a particular geographic
+position. In this talk, I will give a brief overview of these two
+applications.
 
 3. <a name="zj"></a>**Non-local games** by [Zhengfeng Ji](https://scholar.google.ca/citations?user=2uXdu7AAAAAJ). <br> **Abstract**:
 
