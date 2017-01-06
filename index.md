@@ -21,7 +21,6 @@ My research interests lie in cryptography, especially in the presence of quantum
        more
        [here](https://www.pdx.edu/computer-science/open-faculty-positions). You
        will like it here!
-
 *   I was at the
     Asia Forum on
     [Post-quantum cryptography](http://www.pqcforum.org/){:target="_blank"} at Seoul, Korea during Nov 28 -
