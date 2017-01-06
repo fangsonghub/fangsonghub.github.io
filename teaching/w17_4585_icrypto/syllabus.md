@@ -61,16 +61,16 @@ required for this course.
 
 * Part I: **Overview**. History, dawn of modern cryptography, the idea of provable
 security, and Shannon's perfect secrecy.
-* Part II: (Modern) **Private-key** (aka symmetric) cryptography.
-  * Computational security for encrytion, CPA & CCA, proof by reduction;
-  * Pseudorandom generators and stream ciphers, psuedorandom permutations and block ciphers;
-  * Data integrity, message authentication codes; 
-  * Hash functions, random oracle, applications.
-  * Practical and theoretical constructions of private-key primitives.
-* Part III: **Pubic-key** (aka asymmetric) cryptography.
-  * Diffie-Hellman key exchange, and the public-key evolution;
-  * Public-key encryption. Factoring and Discrete-log based PKE, trapdoor permutations, hybrid encryption;
-  * Digital signature. DSA, hash-based signatures. 
+* Part II: (Modern) **Private-key** (aka _symmetric_) cryptography.
+    * Computational security for encrytion, CPA & CCA, proof by reduction;
+    * Pseudorandom generators and stream ciphers, psuedorandom permutations and block ciphers;
+    * Data integrity, message authentication codes; 
+    * Hash functions, random oracle, applications;
+    * Practical and theoretical constructions of private-key primitives.
+* Part III: **Pubic-key** (aka _asymmetric_) cryptography.
+    * Diffie-Hellman key exchange, and the public-key evolution;
+    * Public-key encryption. Factoring and Discrete-log based PKE, trapdoor permutations, hybrid encryption;
+    * Digital signature. DSA, hash-based signatures. 
 * Part IV: **Selected** topics. Zero-knowledge proofs, secure computation, fully homomorphic encryption, quantum computing and quantum-safe cryptography. 
 
 ## Policy
