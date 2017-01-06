@@ -81,7 +81,10 @@ security, and Shannon's perfect secrecy.
 * **Grading Policy**: Homework 40% (10 each with lowest one dropped),
      Quizzes 20%, Participation 10%, Final exam 30%.
 
-* **Homework**: You must turn in hard copies of your assignments
+* **Homework**: Start working on your homework early! The more
+     iterations you go through a problem, the more likely you will get
+     some idea of approaching it. Do not expect to finish it the night
+     before due. You must turn in hard copies of your assignments
      before the lecture on the due date. The solutions must be
      intelligible. I encourage you to type your homework with Markdown
      or Latex (and submit the printouts). _Late homework_ is

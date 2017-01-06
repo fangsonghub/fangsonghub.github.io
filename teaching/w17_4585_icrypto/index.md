@@ -54,7 +54,7 @@ and Hall/CRC Press, Nov 2014.
 
 | Date  | Topic | Homework and Reading |
 | :---------: |:----------:|:-----:|
-| Tue Jan. 10  | Syllabus, intro, math background <br>Perfect secrecy, one-time pad | <br>Homework 1 out [PDF]() (due Tuesday, Jan. 24) |
+| Tue Jan. 10  | Syllabus, intro, math background <br>Perfect secrecy, one-time pad | **Reading**: [KL] Chapter 1, Sect. 2.1, Appendix A. <br>**Homework 1** out [PDF]() (due Tuesday, Jan. 24) |
 |Thu Jan. 12 |Limits of perfect secrecy <br> Private-key crypto |Reading:  |
 |Friday Jan. 13 |||
 |<s>Tue Jan. 17</s>| Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||
