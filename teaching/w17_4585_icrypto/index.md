@@ -56,7 +56,7 @@ and Hall/CRC Press, Nov 2014.
 | :---------: |:----------:|:-----:|
 | Tue Jan. 10  | Syllabus, intro, math background; <br>Perfect secrecy | **Reading**: [KL] Chapter 1, Sect. 2.1, Appendix A. <br>**Homework 1** out [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw1.pdf){:target="_blank"} (due Tuesday, Jan. 24) |
 |Thu Jan. 12 |One-time pad, limits of perfect secrecy; <br> Computational secrecy |**Reading**: [KL] Sect. 2.2,2.3,3.1,3.2.  |
-|Friday Jan. 13 | Catch a lecture at <br> [Quantum & crypto day @ Portland](http://www.fangsong.info/activity/w17qpdx/){:target="_blank"} | [Plan B]()|
+|Friday Jan. 13 | Catch a lecture at <br> [Quantum & crypto day @ Portland](http://www.fangsong.info/activity/w17qpdx/){:target="_blank"} | [Plan B](#mu)|
 |<s>Tue Jan. 17</s>| Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||
 |<s>Thu Jan. 19</s>|Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||
 |Tue Jan. 24|Quiz 1 <br> Pseudorandom generators and stream ciphers <br> proof by reduction| HW 1 due, HW 2 out|
@@ -77,3 +77,20 @@ and Hall/CRC Press, Nov 2014.
 |Thu Mar. 16| Quantum computing and effects on cryptography <br> Review for final exam||
 |Mon Mar. 20| Final Exam: 10:15am-12:05pm||
 {:.mbtablestylef}
+
+
+## Supplements
+
+### <a name="mu"></a> **Make-up lectures**
+*  Attend at least one of the talks
+   at
+   [Quantum day @ Portland](http://fangsong.info/activity/w17qpdx/),
+   January 13, 2017. 
+
+*  (**Plan B**) If you cannot attend any of the talks on Jan. 13,
+   please email me in advance. Upon approval, you have the option of
+   watching one of the recorded talks below instead.
+   *  Public lecture at [Qcrypt 2016](http://2016.qcrypt.net/){:target="_blank"}:
+      _Cryptography and Cybersecurity in the Quantum Era_ by Michele
+      Mosca. [Video](https://www.youtube.com/watch?v=vipU_-QGoOg&feature=youtu.be&list=PLUz_4vZOI0H0nfczvYk2C_UbE_BMs8cpY){:target="_blank"}.
+   *  One of the tutorials at the [PQCrypto 2016 winter school](https://pqcrypto2016.jp/winter/){:target="_blank"}.	  
