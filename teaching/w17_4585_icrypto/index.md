@@ -81,7 +81,7 @@ and Hall/CRC Press, Nov 2014.
 
 ## Supplements
 
-### <a name="mu"></a> **Make-up lectures**
+### <a name="mu"></a>**Make-up lectures**
 *  Attend at least one of the talks
    at
    [Quantum day @ Portland](http://fangsong.info/activity/w17qpdx/),
