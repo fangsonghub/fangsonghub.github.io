@@ -20,8 +20,11 @@ modified: 2017-01-05
 
 - [A Computational Introduction to Number Theory and Algebra](http://shoup.net/ntb/){:target="_blank"} by Victor Shoup. 
 
+- [Probability and Computing: Randomized Algorithms and Probabilistic Analysis](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521835404){:target="_blank"}, by Michael Mitzenmacher & Eli Upfal.
+
 ## Useful links
 
+*  MIT 6.042 [Mathematics for computer science](https://courses.csail.mit.edu/6.042/spring16/){:target="_blank"} and the draft [book](https://courses.csail.mit.edu/6.042/spring16/mcs.pdf){:target="_blank"}.
 *  Advice on reading and
    writing
    [mathematical proofs](http://www.math.ucsd.edu/~ebender/Supplements/proofs.html){:target="_blank"}.
