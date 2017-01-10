@@ -54,9 +54,9 @@ and Hall/CRC Press, Nov 2014.
 
 | Date  | Topic | Homework and Reading |
 | :---------: |:----------:|:-----:|
-| Tue Jan. 10  | Syllabus, intro, math background <br>Perfect secrecy, one-time pad | **Reading**: [KL] Chapter 1, Sect. 2.1, Appendix A. <br>**Homework 1** out [PDF]() (due Tuesday, Jan. 24) |
-|Thu Jan. 12 |Limits of perfect secrecy <br> Private-key crypto |Reading:  |
-|Friday Jan. 13 |||
+| Tue Jan. 10  | Syllabus, intro, math background; <br>Perfect secrecy | **Reading**: [KL] Chapter 1, Sect. 2.1, Appendix A. <br>**Homework 1** out [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw1.pdf){:target="_blank"} (due Tuesday, Jan. 24) |
+|Thu Jan. 12 |One-time pad, limits of perfect secrecy; <br> Computational secrecy |**Reading**: [KL] Sect. 2.2,2.3,3.1,3.2.  |
+|Friday Jan. 13 | Catch a lecture at <br> [Quantum & crypto day @ Portland](http://www.fangsong.info/activity/w17qpdx/){:target="_blank"} | [Plan B]()|
 |<s>Tue Jan. 17</s>| Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||
 |<s>Thu Jan. 19</s>|Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||
 |Tue Jan. 24|Quiz 1 <br> Pseudorandom generators and stream ciphers <br> proof by reduction| HW 1 due, HW 2 out|

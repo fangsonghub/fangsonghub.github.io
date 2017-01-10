@@ -95,7 +95,7 @@ security, and Shannon's perfect secrecy.
      collaborators.
 
 * **Quiz and exam**: Quizzes are closed book. You are allowed to bring
-    in two double-sided pages of notes for the final exam.
+    in two double-sided letter-size pages of notes for the final exam.
 
 *  **Academic integrity**: Students will be responsible for following the [PSU Student Conduct Code](http://www.pdx.edu/dos/codeofconduct). 
 
