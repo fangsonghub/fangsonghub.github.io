@@ -99,4 +99,9 @@ security, and Shannon's perfect secrecy.
 
 *  **Academic integrity**: Students will be responsible for following the [PSU Student Conduct Code](http://www.pdx.edu/dos/codeofconduct). 
 
+*  **Students with disabilities**: If you need academic accommodations, you should register with
+   the
+   [Disability Resource Center](https://www.pdx.edu/drc/)
+   and notify the instructor immediately to arrange for support
+   services.
 
