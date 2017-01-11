@@ -20,8 +20,8 @@ and Hall/CRC Press, Nov 2014.
 
 
 ## Announcement
+*  <2017-01-10 Tue> Slides in Lecture 1, HW1 posted. 
 *  <2017-01-04 Wed> Course page up and running! Check it out~ 
-
 
 ## Schedule (subject to change)
 
@@ -54,7 +54,7 @@ and Hall/CRC Press, Nov 2014.
 
 | Date  | Topic | Homework and Reading |
 | :---------: |:----------:|:-----:|
-| Tue Jan. 10  | Syllabus, intro, math background; <br>Perfect secrecy | **Reading**: [KL] Chapter 1, Sect. 2.1, Appendix A. <br>**Homework 1** out [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw1.pdf){:target="_blank"} (due Tuesday, Jan. 24) |
+| Tue Jan. 10  | Syllabus, intro, math background; <br>Perfect secrecy<br> [Intro slides [PDF]({{base}}/teaching/w17_4585_icrypto/lec1_ppt.pdf){:target="_blank"} 3.8M] | **Reading**: [KL] Chapter 1, Sect. 2.1, Appendix A. <br>[**Homework 1** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw1.pdf){:target="_blank"}] out (due Tuesday, Jan. 24) |
 |Thu Jan. 12 |One-time pad, limits of perfect secrecy; <br> Computational secrecy |**Reading**: [KL] Sect. 2.2,2.3,3.1,3.2.  |
 |Friday Jan. 13 | Catch a lecture at <br> [Quantum & crypto day @ Portland](http://www.fangsong.info/activity/w17qpdx/){:target="_blank"} | [Plan B](#mu)|
 |<s>Tue Jan. 17</s>| Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||

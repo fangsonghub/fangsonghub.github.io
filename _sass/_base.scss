@@ -62,7 +62,7 @@ h1 {
 }
 h2 {
     @include font-size(24,10,1);
-    color: #FF6347;
+    color: $head2-color;
 }
 h3 {
     @include font-size(22,5,1);
@@ -94,7 +94,7 @@ a {
 	text-decoration: none;
 	color: $link-color;
 	&:visited {
-		color: lighten($link-color, 20);
+		color: lighten($vlink-color, 0);
 	}
 	&:hover {
 		color: darken($link-color, 20);

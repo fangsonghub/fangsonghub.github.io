@@ -178,11 +178,13 @@ span + .entry-title {
 	/* nice link underlines */
   p > a,
 	li > a {
-		border-bottom: 1px dotted lighten($link-color, 50);
-		&:hover {
-			border-bottom-style: solid;
-		}
-	}
+      		border-bottom: 1px dotted lighten($text-color, 5%);
+
+
+      &:hover {
+	  border-bottom-style: solid;
+      }
+  }
 }
 
 /*
