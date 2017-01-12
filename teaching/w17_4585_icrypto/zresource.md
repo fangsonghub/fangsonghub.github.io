@@ -18,9 +18,24 @@ modified: 2017-01-05
 
 ## Books 
 
-- [A Computational Introduction to Number Theory and Algebra](http://shoup.net/ntb/){:target="_blank"} by Victor Shoup. 
+### Applied crypto
 
-- [Probability and Computing: Randomized Algorithms and Probabilistic Analysis](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521835404){:target="_blank"}, by Michael Mitzenmacher & Eli Upfal.
+These tend to be less careful and precise about definitions and
+proofs, but they are excellent references for more examples of
+concrete cryptosystems used in practice. After this course, you should
+understand how to critically evaluate the merits or deficiencies of
+the cryptosystems described below (and any new cryptographic constructions you encounter). 
+
+* [Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/){:target="_blank"} by Alfred J. Menezes, Paul C. van Oorschot, and Scott A. Vanstone.
+* [Cryptography: Theory and Practice](http://cacr.uwaterloo.ca/~dstinson/CTAP.html){:target="_blank"} by Douglas R.  Stinson.
+* [Applied Cryptography](https://www.schneier.com/books/applied_cryptography/){:target="_blank"} by Bruce Schneier.
+
+### Math, algorithms, and complexity
+
+* [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms){:target="_blank"} by Thomas Cormen, Charles Leiserson, Ron Rivest, and Cliff Stein. 
+* [A Computational Introduction to Number Theory and Algebra](http://shoup.net/ntb/){:target="_blank"} by Victor Shoup. 
+* [Introduction to the Theory of Computation](http://www-math.mit.edu/~sipser/book.html){:target="_blank"} by Michael Sipser.
+* [Probability and Computing: Randomized Algorithms and Probabilistic Analysis](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521835404){:target="_blank"}, by Michael Mitzenmacher & Eli Upfal.
 
 ## Useful links
 
