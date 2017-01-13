@@ -7,6 +7,9 @@ modified: <2017-01-05 Thu>
 ---
 <p style="text-align: center;"><a href="{{base}}/activity/w17qpdx/">Web</a>  &nbsp; &nbsp; <a href="{{base}}/activity/w17qpdx/qpdxposter.pdf">PDF</a></p> 
 
+<i><span style="text-align: center;color:red;font-size:32px;"><b>Update</b>:</span> The event will run as scheduled! Let the science talks warm you up in
+extreme weather. Plenty of food provided!</i>
+
 ## About
 
 *   **When**: Friday January 13, 2017
@@ -64,7 +67,7 @@ in such a way that it can only be read at a particular geographic
 position. In this talk, I will give a brief overview of these two
 applications.
 
-3. <a name="zj"></a>**Non-local games** by [Zhengfeng Ji](https://scholar.google.ca/citations?user=2uXdu7AAAAAJ). <br> **Abstract**:
+3. <a name="zj"></a>**Non-local games** by [Zhengfeng Ji](https://scholar.google.ca/citations?user=2uXdu7AAAAAJ). <br> **Abstract**: Nonlocal games are important methods to reveal the nonlocal nature of entangled systems. The rigidity of nonlocal games provides a purely classical probe to quantum systems and has found applications in the study of quantum multi-prover interactive proof systems and device-independent quantum cryptography such as quantum key distribution. Previously, rigid nonlocal games utilize entangled states such as the EPR state or the GHZ state. In this talk, we attempt to define rigid nonlocal games for quantum error-correcting codes, which are strongly entangled subspaces. We will discuss the techniques for analyzing the rigidity properties of the games and introduce their applications in the study of quantum multi-prover interactive proofs.
 
 4. <a name="kc"></a> **General Randomness Amplification with Non-signaling Security** by [Kai-Min Chung](http://www.iis.sinica.edu.tw/~kmchung/). <br>**Abstract**: Highly unpredictable events appear to be abundant in life. However, when modeled rigorously, their existence in nature is far from evident. In fact, the world can be deterministic yet at the same time the predictions of quantum mechanics are consistent with observations. Assuming that randomness does exist but only in a weak form, could highly random events be certifiably demonstrated? 
 <br>  In this talk, we resolve this question positively by constructing the first no-signaling secure device-independent randomness amplification protocol that works for arbitrary weak sources with sufficient entorpy. Our result implies that the laws of physics either do not allow randomness or allow it in an almost perfect quality. The assumptions under which we derive our conclusion are minimal and in particular do not rely on any structural or independence conditions assumed in previous works. If in addition quantum mechanics is assumed to be complete, our result implies that an unbounded amount of almost perfect randomness can be experimentally produced from a single source of weak randomness. <br>Joint work with Yaoyun Shi and Xiaodi Wu.
