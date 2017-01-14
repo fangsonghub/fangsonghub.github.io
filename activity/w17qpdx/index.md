@@ -7,8 +7,9 @@ modified: <2017-01-05 Thu>
 ---
 <p style="text-align: center;"><a href="{{base}}/activity/w17qpdx/">Web</a>  &nbsp; &nbsp; <a href="{{base}}/activity/w17qpdx/qpdxposter.pdf">PDF</a></p> 
 
-<i><span style="text-align: center;color:red;font-size:32px;"><b>Update</b>:</span> The event will run as scheduled! Let the science talks warm you up in
-extreme weather. Plenty of food provided!</i>
+## Announcement
+*  <2017-01-14 Sat> Slides of the talks available for download. 
+*  <2017-01-12 Thu> The event will run **as scheduled**! Let the science talks warm you up in extreme weather. Plenty of food provided!
 
 ## About
 
