@@ -87,8 +87,7 @@ applications.
 
 *  **Special thanks** to
    Prof. [Xiaodi Wu](https://ix.cs.uoregon.edu/~xiaodiwu/) at
-   University of Oregon for assistance at earlier stage.
-
+   University of Oregon for assistance at early stage.
 
 ## Check out some fun stuff
 

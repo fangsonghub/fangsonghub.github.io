@@ -6,8 +6,8 @@ desc: w17 485/585
 permalink: /teaching/w17_4585_icrypto/
 modified: <2017-01-05 Thu>
 ---
-*  **Syllabus**: [PDF]({{base}}/teaching/w17_4585_icrypto/syllabus.pdf){:target="_blank"}, and more info. on the [Administratives]({{base}}/teaching/w17_4585_icrypto/admin/) page.
-*  **Instructor**: [Fang Song]({{base}}/) @ FAB 120-07. Email: fsong"AT"pdx.edu.
+*  **Syllabus**: [PDF]({{base}}/teaching/w17_4585_icrypto/syllabus.pdf){:target="_blank"}, and more on the [Administratives]({{base}}/teaching/w17_4585_icrypto/admin/) page.
+*  **Instructor**: [Fang Song]({{base}}/) @ FAB 120-07. Email: fsong "AT" pdx.edu.
 *  **Lectures**: Tu/Th 2:00 - 3:50 pm @ Fourth Ave Building 47.
 *  **Office hours**: Tu/W 4 - 5pm, or by appointment. 
 *  **Required Text**: [Introduction to Modern
@@ -18,12 +18,19 @@ Lindell](http://u.cs.biu.ac.il/~lindell/){:target="_blank"}.  Chapman
 and Hall/CRC Press, Nov 2014.
 * A **resource** [page]({{base}}/teaching/w17_4585_icrypto/resource/) with useful materials related to the course. 
 
-
 ## Announcement
+*  <2017-01-13 Fri> Jan. 12 lecture cancelled. Schedule, HW1 updated. 
 *  <2017-01-10 Tue> Slides in Lecture 1, HW1 posted. 
 *  <2017-01-04 Wed> Course page up and running! Check it out~ 
 
 ## Schedule (subject to change)
+
+<!--
+\[KL\]: Katz-Lindell [Introduction to Modern
+Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"} 
+
+\[BS\]: Boneh-Shoup [A Graduate Course on Applied Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"}.
+-->
 
 <!--
 | Date  | Topic | Homework and Reading |
@@ -54,17 +61,17 @@ and Hall/CRC Press, Nov 2014.
 
 | Date  | Topic | Homework and Reading |
 | :---------: |:----------:|:-----:|
-| Tue Jan. 10  | Syllabus, intro, math background; <br>Perfect secrecy<br> [Intro slides [PDF]({{base}}/teaching/w17_4585_icrypto/lec1_ppt.pdf){:target="_blank"} 3.8M] | **Reading**: [KL] Chapter 1, Sect. 2.1, Appendix A. <br>[**Homework 1** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw1.pdf){:target="_blank"}] out (due Tuesday, Jan. 24) |
-|Thu Jan. 12 |One-time pad, limits of perfect secrecy; <br> Computational secrecy |**Reading**: [KL] Sect. 2.2,2.3,3.1,3.2.  |
+| Tue Jan. 10  | Syllabus, intro, math background; <br>Perfect secrecy<br> [Intro slides [PDF]({{base}}/teaching/w17_4585_icrypto/lec1_ppt.pdf){:target="_blank"} 3.8M] | **Reading**: [KL] Chapter 1, Sect. 2.1, Appendix A. <br>[**Homework 1** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw1.pdf){:target="_blank"}] out (due Tuesday, Jan. 24)<br> <i style="color:red;">HW1 updated due to cancellation on Jan. 12</i> |
+|<s>Thu Jan. 12</s>| Cancelled due to [SNOW'17](http://www.opb.org/news/article/snowstorm-portland-region-school-closures-traffic/){:target="_blank"} ||
 |Friday Jan. 13 | Catch a lecture at <br> [Quantum & crypto day @ Portland](http://www.fangsong.info/activity/w17qpdx/){:target="_blank"} | [Plan B](#mu)|
 |<s>Tue Jan. 17</s>| Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||
 |<s>Thu Jan. 19</s>|Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||
-|Tue Jan. 24|Quiz 1 <br> Pseudorandom generators and stream ciphers <br> proof by reduction| HW 1 due, HW 2 out|
-|Thu Jan. 26|CPA, pseudorandom functions and block ciphers <br> CCA | |
-|Tue Jan. 31| Message authentication | |
-|Thu Feb. 2| Quiz 2 <br>MAC continued | |
-|Tue Feb. 7| Hash functions, random oracle model| HW 2 due, HW 3 out |
-|Thu Feb. 9| Hash function applications <br> block ciphers and stream ciphers in practice||
+|Tue Jan. 24 |**Quiz 1** <br> One-time pad, limits of perfect secrecy; <br> Computational secrecy | **Reading**: [KL] Sect. 2.2,2.3,3.1,3.2. <br> HW 1 due, [HW 2 [PDF](){:target="_blank"}] out|
+|Thu Jan. 26| Stream ciphers, pseudorandom generators |**Reading**: [KL] 3.3,6.1. <br> Supplement: [BS] Chapter 3 |
+|Tue Jan. 31| Block ciphers, pseudorandom functions | **Reading**: [KL] 3.5,3.6,6.1. <br> Supplement: [BS] Chapter 4  |
+|Thu Feb. 2| Quiz 2 <br> Data integrity, message authentication code | |
+|Tue Feb. 7|MAC continued | HW 2 due, HW 3 out |
+|Thu Feb. 9| Hash functions, random oracle, applications ||
 |Tue Feb. 14|Theoretical constructions of private-key primitives ||
 |Thu Feb. 16| Quiz 3 <br> Public-key revolution, Diffie-Hellman key exchange <br> number theory review||
 |Tue Feb. 21|Public-key encryption, CPA, CCA| HW 3 due, HW 4 out|
@@ -77,7 +84,6 @@ and Hall/CRC Press, Nov 2014.
 |Thu Mar. 16| Quantum computing and effects on cryptography <br> Review for final exam||
 |Mon Mar. 20| Final Exam: 10:15am-12:05pm||
 {:.mbtablestylef}
-
 
 ## Supplements
 
