@@ -28,7 +28,7 @@ extreme weather. Plenty of food provided!</i>
 |9:15 - 9:30| Opening Remarks||
 | 9:30 - 10:20  | **Quantum algorithms and applications to Cryptography** [[Abstract](#ga)] [Slides: [PPT]({{base}}/activity/w17qpdx/GAlagic.pptx) 7.3MB]| [Gorjan Alagic](http://www.alagic.org/) <br> QMATH @ U of Copenhagen |
 | 10:25 - 10:45 | Coffee Break      |  |
-| 10:45 - 11:35 | **Quantum Cryptography** <br> [[Abstract](#cs)] [Slides: [PDF]({{base}}/activity/w17qpdx/CSchaffner.pdf) 4.5MB, [LINKtoPPT](http://homepages.cwi.nl/~schaffne/talks.php)]    | [Christian Schaffner](http://homepages.cwi.nl/~schaffne/) <br> ILLC @ U of Amsterdam & CWI |
+| 10:45 - 11:35 | **Quantum Cryptography** <br> [[Abstract](#cs)] [Slides: [PDF]({{base}}/activity/w17qpdx/CSchaffnerPDF.pdf) 4.5MB, [LINKtoPPT](http://homepages.cwi.nl/~schaffne/talks.php)]    | [Christian Schaffner](http://homepages.cwi.nl/~schaffne/) <br> ILLC @ U of Amsterdam & CWI |
 | 11:40 - 12:00 | Free discussion |
 | 12:00 - 13:15 | Lunch <br>(Enjoy the fabulous food carts on Fourth Avenue) |  |
 | 13:15 - 14:05 | **Non-local Games** <br>[[Abstract](#zj)] [Slides: [LINK]()]| [Zhengfeng Ji](https://scholar.google.ca/citations?user=2uXdu7AAAAAJ) <br> QCIS @ U of Technology Sydney|
