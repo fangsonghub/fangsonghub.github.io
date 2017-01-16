@@ -63,11 +63,11 @@ Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 | :---------: |:----------:|:-----:|
 | Tue Jan. 10  | Syllabus, intro, math background; <br>Perfect secrecy<br> [Intro slides [PDF]({{base}}/teaching/w17_4585_icrypto/lec1_ppt.pdf){:target="_blank"} 3.8M] | **Reading**: [KL] Chapter 1, Sect. 2.1, Appendix A. <br>[**Homework 1** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw1.pdf){:target="_blank"}] out (due Tuesday, Jan. 24)<br> <i style="color:red;">HW1 updated due to cancellation on Jan. 12</i> |
 |<s>Thu Jan. 12</s>| Cancelled due to [SNOW'17](http://www.opb.org/news/article/snowstorm-portland-region-school-closures-traffic/){:target="_blank"} ||
-|Friday Jan. 13 | Catch a lecture at <br> [Quantum & crypto day @ Portland](http://www.fangsong.info/activity/w17qpdx/){:target="_blank"} | [Plan B](#mu)|
+|Fri Jan. 13 | Catch a lecture at <br> [Quantum & crypto day @ Portland](http://www.fangsong.info/activity/w17qpdx/){:target="_blank"} | [Plan B](#mu)|
 |<s>Tue Jan. 17</s>| Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||
 |<s>Thu Jan. 19</s>|Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||
 |Tue Jan. 24 |**Quiz 1** <br> One-time pad, limits of perfect secrecy; <br> Computational secrecy | **Reading**: [KL] Sect. 2.2,2.3,3.1,3.2. <br> HW 1 due, [HW 2 [PDF](){:target="_blank"}] out|
-|Thu Jan. 26| Stream ciphers, pseudorandom generators |**Reading**: [KL] 3.3,6.1. <br> Supplement: [BS] Chapter 3 |
+|Thu Jan. 26| Stream ciphers, pseudorandom generators |**Reading**: [KL] 3.3,6.1. <br> Supplement: [[BS](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"} V0.3] Chapter 3 |
 |Tue Jan. 31| Block ciphers, pseudorandom functions | **Reading**: [KL] 3.5,3.6,6.1. <br> Supplement: [BS] Chapter 4  |
 |Thu Feb. 2| Quiz 2 <br> Data integrity, message authentication code | |
 |Tue Feb. 7|MAC continued | HW 2 due, HW 3 out |
