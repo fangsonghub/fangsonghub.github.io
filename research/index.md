@@ -10,9 +10,16 @@ modified: <2016-11-14 Mon>
 *   **Zero-knowledge proof systems for QMA**
     *   Authors: Anne Broadbent, Zhengfeng Ji, Fang Song and John Watrous
     *   In _57th Annual IEEE Symposium on Foundations of Computer Science ([FOCS 2016](http://www.wisdom.weizmann.ac.il/~dinuri/focs16/CFP.html))_.
-    *   To be presented at _20th Annual Conference on Quantum Information Processing ([QIP 2017](https://www.stationq.com/qip-2017/))_.
-    *   [[arXiv](http://arxiv.org/abs/1604.02804)]
-        [Slides at FOCS: [PDF]({{base}}/files/talks/2016_focs_qzkqma.pdf){:target="blank"}]
+    *   Contributed talk at _20th Annual Conference on Quantum
+        Information Processing
+        ([QIP 2017](https://www.stationq.com/qip-2017/))_.
+    *   [[arXiv](http://arxiv.org/abs/1604.02804)] [Slides:
+        @FOCS
+        [PDF]({{base}}/files/talks/2016_focs_qzkqma.pdf){:target="blank"},
+        @QIP'17
+        [PDF]({{base}}/files/talks/qip17_qzkqma.pdf){:target="blank"} (slightly tuned to quantum
+        audience)
+        ]
 *   **Mitigating multi-target attacks in hash-based signatures**
     *   Authors: Andreas Hülsing, Joost Rijneveld and Fang Song
     *   In _19th International Conference on the Theory and Practice of Public-Key Cryptography ([PKC 2016](http://troll.iis.sinica.edu.tw/pkc16/index.shtml))_.
