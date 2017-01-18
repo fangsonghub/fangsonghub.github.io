@@ -32,7 +32,7 @@ modified: <2017-01-05 Thu>
 | 10:45 - 11:35 | **Quantum Cryptography** <br> [[Abstract](#cs)] [Slides: [PDF]({{base}}/activity/w17qpdx/CSchaffnerPDF.pdf) 4.5MB, [LINKtoPPT](http://homepages.cwi.nl/~schaffne/talks.php)]    | [Christian Schaffner](http://homepages.cwi.nl/~schaffne/) <br> ILLC @ U of Amsterdam & CWI |
 | 11:40 - 12:00 | Free discussion |
 | 12:00 - 13:15 | Lunch <br>(Enjoy the fabulous food carts on Fourth Avenue) |  |
-| 13:15 - 14:05 | **Non-local Games** <br>[[Abstract](#zj)] [Slides: [LINK]()]| [Zhengfeng Ji](https://scholar.google.ca/citations?user=2uXdu7AAAAAJ) <br> QCIS @ U of Technology Sydney|
+| 13:15 - 14:05 | **Non-local Games** <br>[[Abstract](#zj)] [Slides: [PDF]({{base}}/activity/w17qpdx/ZJi.pdf){:target="_blank"}]| [Zhengfeng Ji](https://scholar.google.ca/citations?user=2uXdu7AAAAAJ) <br> QCIS @ U of Technology Sydney|
 | 14:10 - 15:00 | **General Randomness Amplification with Non-signaling Security** <br>[[Abstract](#kc)] [Slides: [PPT]({{base}}/activity/w17qpdx/KMChung.pptx) 1.6MB] | [Kai-Min Chung](http://www.iis.sinica.edu.tw/~kmchung/) <br> IIS @ Academia Sinica |
 | 15:00 - 15:30 | Free discussion, closing remarks and farewell| |
 {:.mbtablestyle}
