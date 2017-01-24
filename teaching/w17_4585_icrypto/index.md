@@ -19,7 +19,8 @@ and Hall/CRC Press, Nov 2014.
 * A **resource** [page]({{base}}/teaching/w17_4585_icrypto/resource/) with useful materials related to the course. 
 
 ## Announcement
-*  <2017-01-13 Fri> Jan. 12 lecture cancelled. Schedule, HW1 updated. 
+*  <2017-01-24 Tue> Homework 2 posted. 
+*  <2017-01-13 Fri> Jan. 12 lecture cancelled. Schedule, HW1 updated.
 *  <2017-01-10 Tue> Slides in Lecture 1, HW1 posted. 
 *  <2017-01-04 Wed> Course page up and running! Check it out~ 
 
@@ -66,18 +67,18 @@ Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 |Fri Jan. 13 | Catch a lecture at <br> [Quantum & crypto day @ Portland](http://www.fangsong.info/activity/w17qpdx/){:target="_blank"} | [Plan B](#mu)|
 |<s>Tue Jan. 17</s>| Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||
 |<s>Thu Jan. 19</s>|Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||
-|Tue Jan. 24 |**Quiz 1** <br> One-time pad, limits of perfect secrecy; <br> Computational secrecy | **Reading**: [KL] Sect. 2.2,2.3,3.1,3.2. <br> HW 1 due, [HW 2 [PDF](){:target="_blank"}] out|
+|Tue Jan. 24 |**Quiz 1** <br> One-time pad, limits of perfect secrecy; <br> Computational secrecy | **Reading**: [KL] Sect. 2.2,2.3,3.1,3.2. <br> HW 1 **due**, [HW 2 [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw2.pdf){:target="_blank"}] out|
 |Thu Jan. 26| Stream ciphers, pseudorandom generators |**Reading**: [KL] 3.3,6.1. <br> Supplement: [[BS](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"} V0.3] Chapter 3 |
 |Tue Jan. 31| Block ciphers, pseudorandom functions | **Reading**: [KL] 3.5,3.6,6.1. <br> Supplement: [BS] Chapter 4  |
-|Thu Feb. 2| Quiz 2 <br> Data integrity, message authentication code | |
+|Thu Feb. 2| **Quiz 2** <br> Data integrity, message authentication code | |
 |Tue Feb. 7|MAC continued | HW 2 due, HW 3 out |
 |Thu Feb. 9| Hash functions, random oracle, applications ||
 |Tue Feb. 14|Theoretical constructions of private-key primitives ||
-|Thu Feb. 16| Quiz 3 <br> Public-key revolution, Diffie-Hellman key exchange <br> number theory review||
+|Thu Feb. 16| **Quiz 3** <br> Public-key revolution, Diffie-Hellman key exchange <br> number theory review||
 |Tue Feb. 21|Public-key encryption, CPA, CCA| HW 3 due, HW 4 out|
 |Thu Feb. 23|PKE examples: RSA, Elgamal, etc. ||
 |Tue Feb. 28|Theoretical constructions of PKE||
-|Thu Mar. 02| Quiz 4 <br>Digital signatures ||
+|Thu Mar. 02| **Quiz 4** <br>Digital signatures ||
 |Tue Mar. 07|Signature cont'd| HW 4 due, HW 5 out|
 |Thu Mar. 09|Zero-knowledge proofs <br> secure multi-party computation||
 |Tue Mar. 14|Lattice and fully homomorphic encryption||
