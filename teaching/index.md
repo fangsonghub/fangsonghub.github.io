@@ -11,7 +11,7 @@ modified: <2016-11-12 Tue>
 * CS 485/585 [Introduction to Cryptography]({{ base }}/teaching/w17_4585_icrypto/)
 
 ####  Spring 2017 
-* CS 410/510 Introduction to Quantum Computing
+* CS 410/510 [Introduction to Quantum Computing]({{ base }}/teaching/s17_4510_qc/)
 
 - - -
 
