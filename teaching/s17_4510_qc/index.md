@@ -14,10 +14,10 @@ modified: <2017-01-30 Mon>
 ## About
 
 The law of quantum physics is revolutionizing what feasible
-computation should be, and a new paradigm of **quantum computing** has
-been emerging. There are efficient quantum algorithms for solving
-important problems which we do not know how to otherwise on a
-classical computer. Numerous promising applications are being
+computation may look like, and a new paradigm of **quantum computing**
+has been emerging. Quantum computers can solve some fundamental
+problems efficiently, sometimes expoentially faster than we want we
+can on a classical computer. Numerous promising applications are being
 developed such as in chemistry, machine learning, and especially
 cryptography (the Internet will be **broken** by quantum
 attackers!). In this course, we will study the basic principles and
@@ -27,7 +27,7 @@ appreciate, further explore and (even better) devote to this exciting
 research area. Tentative topics include: quantum states and circuits,
 entanglement, quantum algorithms (e.g., Grover's search and Shor's
 factoring algorithms), quantum complexity theory, quantum
-error-correcting codes, and applications in cryptography. 
+error-correcting codes, and applications in cryptography.
 
 *  **Prerequisite**: maturity in algorithm analysis and mathematics
    (espeically basic probability thoery, group thoery, and linear
