@@ -1,5 +1,31 @@
 # course pages
 
+# S17 QC
+
+- courseid: s17 410/510
+  title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
+  desc: s17 410/510
+  nav: true
+  url: /teaching/s17_4510_qc/
+
+- courseid: s17 410/510
+  title: CS 410/510 
+  desc: Schedule
+  nav: true
+  url: /teaching/s17_4510_qc/schedule/
+
+- courseid: s17 410/510
+  title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
+  desc: Resource
+  nav: true
+  url: /teaching/w17_4510_qc/resource/
+
+- courseid: s17 410/510
+  title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
+  desc: Admin
+  nav: true
+  url: /teaching/s17_4510_qc/admin/
+
 # W17 IoCrypto
 - courseid: w17 485/585
   title: (Winter 2017) CS 485/585 - Intro to Cryptography
@@ -24,7 +50,6 @@
   desc: Resource
   nav: true
   url: /teaching/w17_4585_icrypto/resource/
-
 
 # S16 PQCrypto
 
