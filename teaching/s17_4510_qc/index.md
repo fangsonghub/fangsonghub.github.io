@@ -16,8 +16,8 @@ modified: <2017-01-30 Mon>
 The law of quantum physics is revolutionizing what feasible
 computation may look like, and a new paradigm of **quantum computing**
 has been emerging. Quantum computers can solve some fundamental
-problems efficiently, sometimes expoentially faster than we want we
-can on a classical computer. Numerous promising applications are being
+problems efficiently, sometimes expoentially faster than what we can
+on a classical computer. Numerous promising applications are being
 developed such as in chemistry, machine learning, and especially
 cryptography (the Internet will be **broken** by quantum
 attackers!). In this course, we will study the basic principles and
