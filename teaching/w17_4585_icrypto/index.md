@@ -67,18 +67,18 @@ Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 |Fri Jan. 13 | Catch a lecture at <br> [Quantum & crypto day @ Portland](http://www.fangsong.info/activity/w17qpdx/){:target="_blank"} | [Plan B](#mu)|
 |<s>Tue Jan. 17</s>| Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||
 |<s>Thu Jan. 19</s>|Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||
-|Tue Jan. 24 |**Quiz 1** <br> One-time pad, limits of perfect secrecy; <br> Computational secrecy <br> [Draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec2_note.pdf){:target="blank"}] | **Reading**: [KL] Sect. 2.2,2.3,3.1,3.2. <br> HW 1 **due**, [HW 2 [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw2.pdf){:target="_blank"}] out|
-|Thu Jan. 26| Stream ciphers, pseudorandom generators |**Reading**: [KL] 3.3,6.1. <br> Supplement: [[BS](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"} V0.3] Chapter 3 |
-|Tue Jan. 31| Block ciphers, pseudorandom functions | **Reading**: [KL] 3.5,3.6,6.1. <br> Supplement: [BS] Chapter 4  |
-|Thu Feb. 2| **Quiz 2** <br> Data integrity, message authentication code | |
-|Tue Feb. 7|MAC continued | HW 2 due, HW 3 out |
-|Thu Feb. 9| Hash functions, random oracle, applications ||
-|Tue Feb. 14|Theoretical constructions of private-key primitives ||
-|Thu Feb. 16| **Quiz 3** <br> Public-key revolution, Diffie-Hellman key exchange <br> number theory review||
+|Tue Jan. 24 |**Quiz 1** <br> One-time pad, limits of perfect secrecy; <br> Computational secrecy <br> [Draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec2_note.pdf){:target="blank"}] | **Reading**: [KL] Sect. 2.2,2.3,3.1,3.2. <br> HW 1 **due**, [**HW 2** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw2.pdf){:target="_blank"}] out|
+|Thu Jan. 26| Stream ciphers, pseudorandom generators |**Reading**: [KL] 3.3,6.1 <br> Supplement: [[BS](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"} V0.3] Chapter 3 |
+|Tue Jan. 31| Block ciphers, pseudorandom functions | **Reading**: [KL] 3.5,3.6,6.2 <br> Supplement: [BS] Chapter 4  |
+|Thu Feb. 2| CPA <br> Data integrity, message authentication code <br> **Quiz 2** |  **Reading**: [KL] 3.4,3.5,4.1,4.2  <br> Supplement: [BS] Chapter 5,6 |
+|Tue Feb. 7| MAC continued, domain extension |**Reading**: [KL] 4.3,4.4 <br> Supplement: [BS] Chapter 4   <br> HW 2 **due**, [**HW 3** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw3.pdf){:target="_blank"}] out |
+|Thu Feb. 9| Hash functions, random oracle, applications (MAC) |**Reading**: [KL] Chapter 5 <br> Supplement: [BS] Chapter 8|
+|Tue Feb. 14|Theoretical constructions of private-key primitives |**Reading**: [KL] Chapter 7 <br> Supplement: [BS] Chapter 4.5,4.6; [[Gol00](https://www.amazon.com/Foundations-Cryptography-1-Basic-Tools/dp/0521035368){:target="_blank"}] 2.5,3.4,3.7|
+|Thu Feb. 16|  Public-key revolution, Diffie-Hellman <br> Number theory review <br> **Quiz 3**||
 |Tue Feb. 21|Public-key encryption, CPA, CCA| HW 3 due, HW 4 out|
 |Thu Feb. 23|PKE examples: RSA, Elgamal, etc. ||
 |Tue Feb. 28|Theoretical constructions of PKE||
-|Thu Mar. 02| **Quiz 4** <br>Digital signatures ||
+|Thu Mar. 02|Digital signatures <br> **Quiz 4** | |
 |Tue Mar. 07|Signature cont'd| HW 4 due, HW 5 out|
 |Thu Mar. 09|Zero-knowledge proofs <br> secure multi-party computation||
 |Tue Mar. 14|Lattice and fully homomorphic encryption||
