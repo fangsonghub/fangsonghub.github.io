@@ -67,10 +67,10 @@ Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 |Fri Jan. 13 | Catch a lecture at <br> [Quantum & crypto day @ Portland](http://www.fangsong.info/activity/w17qpdx/){:target="_blank"} | [Plan B](#mu)|
 |<s>Tue Jan. 17</s>| Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||
 |<s>Thu Jan. 19</s>|Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||
-|Tue Jan. 24 |**Quiz 1** <br> One-time pad, limits of perfect secrecy; <br> Computational secrecy <br> [Draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec2_note.pdf){:target="blank"}] | **Reading**: [KL] Sect. 2.2,2.3,3.1,3.2. <br> HW 1 **due**, [**HW 2** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw2.pdf){:target="_blank"}] out|
-|Thu Jan. 26| Stream ciphers, pseudorandom generators |**Reading**: [KL] 3.3,6.1 <br> Supplement: [[BS](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"} V0.3] Chapter 3 |
-|Tue Jan. 31| Block ciphers, pseudorandom functions | **Reading**: [KL] 3.5,3.6,6.2 <br> Supplement: [BS] Chapter 4  |
-|Thu Feb. 2| CPA <br> Data integrity, message authentication code <br> **Quiz 2** |  **Reading**: [KL] 3.4,3.5,4.1,4.2  <br> Supplement: [BS] Chapter 5,6 |
+|Tue Jan. 24 |**Quiz 1** <br> One-time pad, limits of perfect secrecy; <br> Computational secrecy <br> [Lec2 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec2_note.pdf){:target="blank"}] | **Reading**: [KL] Sect. 2.2,2.3,3.1,3.2. <br> HW 1 **due**, [**HW 2** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw2.pdf){:target="_blank"}] out|
+|Thu Jan. 26| Stream ciphers, pseudorandom generators <br> [Lec3 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec3_note.pdf){:target="blank"}] |**Reading**: [KL] 3.3,6.1 <br> Supplement: [[BS](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"} V0.3] Chapter 3 |
+|Tue Jan. 31| Block ciphers, pseudorandom functions <br> [Lec4 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec4_note.pdf){:target="blank"}] | **Reading**: [KL] 3.5,3.6,6.2 <br> Supplement: [BS] Chapter 4  |
+|Thu Feb. 2| CPA; Message authentication intro <br> **Quiz 2** |  **Reading**: [KL] 3.4,3.5,4.1,4.2  <br> Supplement: [BS] Chapter 5,6 |
 |Tue Feb. 7| MAC continued, domain extension |**Reading**: [KL] 4.3,4.4 <br> Supplement: [BS] Chapter 4   <br> HW 2 **due**, [**HW 3** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw3.pdf){:target="_blank"}] out |
 |Thu Feb. 9| Hash functions, random oracle, applications (MAC) |**Reading**: [KL] Chapter 5 <br> Supplement: [BS] Chapter 8|
 |Tue Feb. 14|Theoretical constructions of private-key primitives |**Reading**: [KL] Chapter 7 <br> Supplement: [BS] Chapter 4.5,4.6; [[Gol00](https://www.amazon.com/Foundations-Cryptography-1-Basic-Tools/dp/0521035368){:target="_blank"}] 2.5,3.4,3.7|
