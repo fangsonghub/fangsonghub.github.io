@@ -18,7 +18,7 @@ modified: <2017-01-30 Mon>
 ## Advising
 I am looking for self-motivated students who are interested in
     pursuing MS/PhD degrees with me. Please find more information on
-    the [recruit page]({{base}}/recruit/). Don't hesitate to reach me! 
+    the [recruit page]({{base}}/recruit/){:target="_blank"}. Don't hesitate to reach me! 
 	
 ### Undergraduate 
 
