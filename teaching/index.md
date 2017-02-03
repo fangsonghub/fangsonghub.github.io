@@ -2,7 +2,7 @@
 layout: page
 title: Teaching
 excerpt: 
-modified: <2017-01-30 Mon>
+modified: <2017-02-03 Fri>
 ---
 
 ## Courses at Portland State U
