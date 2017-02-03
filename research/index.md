@@ -4,6 +4,8 @@ title: Research
 excerpt:
 modified: <2016-11-14 Mon>
 ---
+* Table of Contents
+{:toc}
 
 ## Publications
 
@@ -58,10 +60,20 @@ modified: <2016-11-14 Mon>
 ### Manuscripts
 
 *   **On the quantum attacks against schemes relying on the hardness of finding a short generator of an ideal in \\(\mathbb{Q}(\zeta_{p^n})\\)**
-
     *   Authors: Jean-François Biasse and Fang Song
     *   CACR Tech Report, [CACR2015-12](http://cacr.uwaterloo.ca/techreports/2015/cacr2015-12.pdf), September 2015\.
     *   Poster at [QIP'16](http://ucalgary.ca/qip2016/).
     *   Mentioned in "[A Tricky Path to Quantum-Safe Encryption](https://www.quantamagazine.org/20150908-quantum-safe-encryption)'', _Quanta Magazine_, September 9, 2015.
 
+- - -
+
+## Other Talks 
+
+* Invited speaker at [Asia Forum
+    on Post-quantum cryptography](http://www.pqcforum.org/){:target="_blank"}. _Seoul, Korea, Nov 28 - 29, 2016_.  
+	**What are we talking about when we talk about post-quantum
+    cryptography?**  
+	Available: [Slides [PDF]({{base}}/files/talks/201611_fspqcasia.pdf){:target="_blank"}] [[Video](http://www.pqcforum.org/m3/m3_7.asp?sMenu=sub7){:target="_blank"}].
+* [QuICS Seminar](http://quics.umd.edu/seminar){:target="_blank"}, _University of Maryland, October 12 2016_.  
+**Zero-knowledge proof systems for QMA**.  
 
