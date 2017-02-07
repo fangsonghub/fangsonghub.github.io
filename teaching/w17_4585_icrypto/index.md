@@ -4,7 +4,7 @@ title: (Winter 2017) CS 485/585 - Intro to Cryptography
 courseid: w17 485/585
 desc: w17 485/585
 permalink: /teaching/w17_4585_icrypto/
-modified: <2017-01-05 Thu>
+modified: <2017-02-07 Tue>
 ---
 *  **Syllabus**: [PDF]({{base}}/teaching/w17_4585_icrypto/syllabus.pdf){:target="_blank"}, and more on the [Administratives]({{base}}/teaching/w17_4585_icrypto/admin/) page.
 *  **Instructor**: [Fang Song]({{base}}/) @ FAB 120-07. Email: fsong "AT" pdx.edu.
@@ -19,6 +19,7 @@ and Hall/CRC Press, Nov 2014.
 * A **resource** [page]({{base}}/teaching/w17_4585_icrypto/resource/) with useful materials related to the course. 
 
 ## Announcement
+*  <2017-02-07 Tue> Quiz 1 solution posted on D2L. HW 3 out.
 *  <2017-01-24 Tue> Homework 2 posted. 
 *  <2017-01-13 Fri> Jan. 12 lecture cancelled. Schedule, HW1 updated.
 *  <2017-01-10 Tue> Slides in Lecture 1, HW1 posted. 
@@ -72,7 +73,7 @@ Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 |Tue Jan. 31| Block ciphers, pseudorandom functions <br> [Lec4 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec4_note.pdf){:target="blank"}] | **Reading**: [KL] 3.5,3.6,6.2 <br> Supplement: [BS] Chapter 4  |
 |Thu Feb. 2| CPA <br> **Quiz 2** <br> [Lec5 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec5_note.pdf){:target="_blank"}]|  **Reading**: [KL] 3.4,3.5 <br> Supplement: [BS] Chapter 5 |
 |Tue Feb. 7| Message authentication, domain extension |**Reading**: [KL] 4.1,4.2,4.3,4.4 <br> Supplement: [BS] Chapter 6  <br> HW 2 **due**, [**HW 3** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw3.pdf){:target="_blank"}] out |
-|Thu Feb. 9| Hash functions, random oracle, applications (MAC) |**Reading**: [KL] Chapter 5 <br> Supplement: [BS] Chapter 8|
+|Thu Feb. 9| Hash functions, random oracle, applications (MAC) |**Reading**: [KL] Chapter 5, Appendix A.4 <br> Supplement: [BS] Chapter 8|
 |Tue Feb. 14|Theoretical constructions of private-key primitives |**Reading**: [KL] Chapter 7 <br> Supplement: [BS] Chapter 4.5,4.6; [[Gol00](https://www.amazon.com/Foundations-Cryptography-1-Basic-Tools/dp/0521035368){:target="_blank"}] 2.5,3.4,3.7|
 |Thu Feb. 16|  Public-key revolution, Diffie-Hellman <br> Number theory review <br> **Quiz 3**||
 |Tue Feb. 21|Public-key encryption, CPA, CCA| HW 3 due, HW 4 out|
