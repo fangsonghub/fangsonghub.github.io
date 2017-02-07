@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt:
-modified: <2017-02-03 Fri>
+modified: <2017-02-06 Mon>
 ---
 * Table of Contents
 {:toc}
@@ -19,7 +19,7 @@ modified: <2017-02-03 Fri>
         @FOCS
         [PDF]({{base}}/files/talks/2016_focs_qzkqma.pdf){:target="blank"},
         @QIP'17
-        [PDF]({{base}}/files/talks/qip17_qzkqma.pdf){:target="blank"} (slightly tuned to quantum
+        [PDF]({{base}}/files/talks/qip17_qzkqma.pdf){:target="blank"} [Video](https://www.youtube.com/watch?v=1fXLJBN-KfI&feature=youtu.be){:target="_blank"} (slightly tuned to quantum
         audience)
         ]
 *   **Mitigating multi-target attacks in hash-based signatures**
@@ -73,7 +73,7 @@ modified: <2017-02-03 Fri>
     on Post-quantum cryptography](http://www.pqcforum.org/){:target="_blank"}. _Seoul, Korea, Nov 28 - 29, 2016_.  
 	**What are we talking about when we talk about post-quantum
     cryptography?**  
-	Available: [Slides [PDF]({{base}}/files/talks/201611_fspqcasia.pdf){:target="_blank"}] [[Video](http://www.pqcforum.org/m3/m3_7.asp?sMenu=sub7){:target="_blank"}].
+	Available: [Slides [PDF]({{base}}/files/talks/201611_fspqcasia.pdf){:target="_blank"}] [[Video](https://www.youtube.com/watch?v=n39-FOmNh5g){:target="_blank"}].
 * [QuICS Seminar](http://quics.umd.edu/seminar){:target="_blank"}, _University of Maryland, October 12 2016_.  
 **Zero-knowledge proof systems for QMA**.  
 

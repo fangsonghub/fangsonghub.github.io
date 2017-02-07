@@ -15,6 +15,7 @@ My research interests lie in cryptography, especially in the presence of quantum
 *   **I AM HIRING!** I am looking for self-motivated students who are
     interested in pursuing a MS/PhD degree with me. Please feel free
     to reach me! Find more [here]({{base}}/recruit/).
+*  My talk on **ZK for QMA** at QIP'17 is now avaible on [Youtube](https://www.youtube.com/watch?v=1fXLJBN-KfI&feature=youtu.be){:target="_blank"}.	
 <!--*  Our department has a tenure-track faculty position available. Read
        more
        [here](https://www.pdx.edu/computer-science/open-faculty-positions). You
