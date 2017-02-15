@@ -11,12 +11,28 @@ modified: 2017-01-05
 ## Crypto courses offered at other institutes
 
 *  [Salil Vadhan's course](http://people.seas.harvard.edu/~salil/cs120/index.html) at Harvard.
-*  [Yevgeniy Dodis's course](http://www.cs.nyu.edu/courses/fall08/G22.3210-001/index.html) at NYU.
+*  [Yevgeniy Dodis's course](http://www.cs.nyu.edu/courses/fnall08/G22.3210-001/index.html) at NYU.
 *  Dan Boneh's online course on [Coursera](https://www.coursera.org/learn/crypto){:target="_blank"}.
 *  [Theoretical foundations of Cryptography](https://wiki.cc.gatech.edu/theory/index.php/CS_8803TFC_-_Theoretical_Foundations_of_Cryptography,_Spring_2011){:target="_blank"}
    by Chris Peikert at Gorgia Tech.
 
 ## Books 
+
+### Text
+
+* (Required) [Introduction to Modern
+Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
+(2nd edition) by [Jonathan
+Katz](http://www.cs.umd.edu/~jkatz){:target="_blank"} and [Yehuda
+Lindell](http://u.cs.biu.ac.il/~lindell/){:target="_blank"}.  Chapman
+and Hall/CRC Press, Nov 2014. Katz is maintaining a
+[webpage](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"} with
+errta and other updates about the book.
+* We will refer to Boneh and Shoup's onging book occasionally:
+[A Graduate Course on Applied Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"}.
+* For thoery-oriented students, Goldreich's two volume text on theory
+  of cryptography is the place to go: [Foundations of
+  Cryptography](http://www.wisdom.weizmann.ac.il/~oded/foc-book.html){:target="_blank"}.
 
 ### Applied crypto
 
