@@ -74,9 +74,9 @@ Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 |Thu Feb. 2| CPA <br> **Quiz 2** <br> [Lec5 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec5_note.pdf){:target="_blank"}]|  **Reading**: [KL] 3.4,3.5 <br> Supplement: [BS] Chapter 5 |
 |Tue Feb. 7| Message authentication, domain extension <br> [Lec6 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec6_note.pdf){:target="_blank"}]|**Reading**: [KL] 4.1,4.2,4.3,4.4 <br> Supplement: [BS] Chapter 6  <br> HW 2 **due**, [**HW 3** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw3.pdf){:target="_blank"}] out |
 |Thu Feb. 9| Hash functions, random oracle, applications (MAC) <br> [Lec7 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec7_note.pdf){:target="_blank"}]|**Reading**: [KL] Chapter 5, Appendix A.4 <br> Supplement: [BS] Chapter 8|
-|Tue Feb. 14|Theoretical constructions of private-key primitives |**Reading**: [KL] Chapter 7 <br> Supplement: [BS] Chapter 4.5,4.6; [[Gol00](https://www.amazon.com/Foundations-Cryptography-1-Basic-Tools/dp/0521035368){:target="_blank"}] 2.5,3.4,3.7|
+|Tue Feb. 14|Theoretical constructions of private-key primitives <br> [Lec8 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec8_note.pdf){:target="_blank"}]|**Reading**: [KL] Chapter 7 <br> Supplement: [BS] Chapter 4.5,4.6; [[Gol00](https://www.amazon.com/Foundations-Cryptography-1-Basic-Tools/dp/0521035368){:target="_blank"}] 2.5,3.4,3.7|
 |Thu Feb. 16| Private-key crypto Review  <br> **Quiz 3**||
-|Tue Feb. 21|Public-key revolution, Diffie-Hellman <br> Number theory review| HW 3 due, HW 4 out|
+|Tue Feb. 21|Public-key revolution, Diffie-Hellman <br> Number theory review| **Reading**: [KL] 8.1,8.3.1,Chapter 10 <br> Notes on [algebra](https://people.eecs.berkeley.edu/~luca/cs276/notesalgebra.pdf){:target="_blank"} and number theory ([part I](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh1.pdf){:target="_blank"}, [Part II](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh2.pdf){:target="_blank"}) <br> HW 3 due, HW 4 out|
 |Thu Feb. 23|Public-key encryption <br> PKE examples: RSA, Elgamal, etc. ||
 |Tue Feb. 28|CCA <br>Theoretical constructions of PKE||
 |Thu Mar. 02|Digital signatures <br> **Quiz 4** | |
