@@ -12,6 +12,7 @@ My research interests lie in cryptography, especially in the presence of quantum
 
 ## News
 
+*  I will be offering an introductory course on **Quantum computing** in Spring 2017. Check out the course information [here]({{base}}/teaching/s17_4510_qc/). 
 *   **I AM HIRING!** I am looking for self-motivated students who are
     interested in pursuing a MS/PhD degree with me. Please feel free
     to reach me! Find more [here]({{base}}/recruit/).
