@@ -10,7 +10,7 @@ modified: 2017-01-05
 
 ## Crypto courses offered at other institutes
 
-*  [Salil Vadhan's course](http://people.seas.harvard.edu/~salil/cs127/fall06/handouts.html){:target="_blank"} (Fall 2016 at Harvard).
+*  [Salil Vadhan's course](http://people.seas.harvard.edu/~salil/cs127/fall06/handouts.html){:target="_blank"} (Fall 2006 at Harvard).
 * [Luca Trevisan's course](https://people.eecs.berkeley.edu/~luca/cs276/){:target="_blank"} (Spring 2009 at UC Berkeley)  
 *  [Theoretical foundations of Cryptography](https://wiki.cc.gatech.edu/theory/index.php/CS_8803TFC_-_Theoretical_Foundations_of_Cryptography,_Spring_2011){:target="_blank"} by Chris Peikert (Spring 2011 at Gorgia Tech).  
 *  [Yevgeniy Dodis's course](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/index.html){:target="_blank"}
