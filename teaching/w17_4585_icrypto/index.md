@@ -4,7 +4,7 @@ title: (Winter 2017) CS 485/585 - Intro to Cryptography
 courseid: w17 485/585
 desc: w17 485/585
 permalink: /teaching/w17_4585_icrypto/
-modified: <2017-01-05 Thu>
+modified: <2017-02-07 Tue>
 ---
 *  **Syllabus**: [PDF]({{base}}/teaching/w17_4585_icrypto/syllabus.pdf){:target="_blank"}, and more on the [Administratives]({{base}}/teaching/w17_4585_icrypto/admin/) page.
 *  **Instructor**: [Fang Song]({{base}}/) @ FAB 120-07. Email: fsong "AT" pdx.edu.
@@ -19,6 +19,7 @@ and Hall/CRC Press, Nov 2014.
 * A **resource** [page]({{base}}/teaching/w17_4585_icrypto/resource/) with useful materials related to the course. 
 
 ## Announcement
+*  <2017-02-07 Tue> Quiz 1 solution posted on D2L. HW 3 out.
 *  <2017-01-24 Tue> Homework 2 posted. 
 *  <2017-01-13 Fri> Jan. 12 lecture cancelled. Schedule, HW1 updated.
 *  <2017-01-10 Tue> Slides in Lecture 1, HW1 posted. 
@@ -67,17 +68,17 @@ Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 |Fri Jan. 13 | Catch a lecture at <br> [Quantum & crypto day @ Portland](http://www.fangsong.info/activity/w17qpdx/){:target="_blank"} | [Plan B](#mu)|
 |<s>Tue Jan. 17</s>| Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||
 |<s>Thu Jan. 19</s>|Cancelled due to [QIP'17](https://www.stationq.com/qip-2017/){:target="_blank"}||
-|Tue Jan. 24 |**Quiz 1** <br> One-time pad, limits of perfect secrecy; <br> Computational secrecy <br> [Draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec2_note.pdf){:target="blank"}] | **Reading**: [KL] Sect. 2.2,2.3,3.1,3.2. <br> HW 1 **due**, [**HW 2** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw2.pdf){:target="_blank"}] out|
-|Thu Jan. 26| Stream ciphers, pseudorandom generators |**Reading**: [KL] 3.3,6.1 <br> Supplement: [[BS](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"} V0.3] Chapter 3 |
-|Tue Jan. 31| Block ciphers, pseudorandom functions | **Reading**: [KL] 3.5,3.6,6.2 <br> Supplement: [BS] Chapter 4  |
-|Thu Feb. 2| CPA <br> Data integrity, message authentication code <br> **Quiz 2** |  **Reading**: [KL] 3.4,3.5,4.1,4.2  <br> Supplement: [BS] Chapter 5,6 |
-|Tue Feb. 7| MAC continued, domain extension |**Reading**: [KL] 4.3,4.4 <br> Supplement: [BS] Chapter 4   <br> HW 2 **due**, [**HW 3** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw3.pdf){:target="_blank"}] out |
-|Thu Feb. 9| Hash functions, random oracle, applications (MAC) |**Reading**: [KL] Chapter 5 <br> Supplement: [BS] Chapter 8|
-|Tue Feb. 14|Theoretical constructions of private-key primitives |**Reading**: [KL] Chapter 7 <br> Supplement: [BS] Chapter 4.5,4.6; [[Gol00](https://www.amazon.com/Foundations-Cryptography-1-Basic-Tools/dp/0521035368){:target="_blank"}] 2.5,3.4,3.7|
-|Thu Feb. 16|  Public-key revolution, Diffie-Hellman <br> Number theory review <br> **Quiz 3**||
-|Tue Feb. 21|Public-key encryption, CPA, CCA| HW 3 due, HW 4 out|
-|Thu Feb. 23|PKE examples: RSA, Elgamal, etc. ||
-|Tue Feb. 28|Theoretical constructions of PKE||
+|Tue Jan. 24 |**Quiz 1** <br> One-time pad, limits of perfect secrecy; <br> Computational secrecy <br> [Lec2 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec2_note.pdf){:target="blank"}] | **Reading**: [KL] Sect. 2.2,2.3,3.1,3.2. <br> HW 1 **due**, [**HW 2** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw2.pdf){:target="_blank"}] out|
+|Thu Jan. 26| Stream ciphers, pseudorandom generators <br> [Lec3 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec3_note.pdf){:target="blank"}] |**Reading**: [KL] 3.3,6.1 <br> Supplement: [[BS](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"} V0.3] Chapter 3 |
+|Tue Jan. 31| Block ciphers, pseudorandom functions <br> [Lec4 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec4_note.pdf){:target="blank"}] | **Reading**: [KL] 3.5,3.6,6.2 <br> Supplement: [BS] Chapter 4  |
+|Thu Feb. 2| CPA <br> **Quiz 2** <br> [Lec5 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec5_note.pdf){:target="_blank"}]|  **Reading**: [KL] 3.4,3.5 <br> Supplement: [BS] Chapter 5 |
+|Tue Feb. 7| Message authentication, domain extension <br> [Lec6 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec6_note.pdf){:target="_blank"}]|**Reading**: [KL] 4.1,4.2,4.3,4.4 <br> Supplement: [BS] Chapter 6  <br> HW 2 **due**, [**HW 3** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw3.pdf){:target="_blank"}] out |
+|Thu Feb. 9| Hash functions, random oracle, applications (MAC) <br> [Lec7 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec7_note.pdf){:target="_blank"}]|**Reading**: [KL] Chapter 5, Appendix A.4 <br> Supplement: [BS] Chapter 8|
+|Tue Feb. 14|Theoretical constructions of private-key primitives <br> [Lec8 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec8_note.pdf){:target="_blank"}]|**Reading**: [KL] Chapter 7 <br> Supplement: [BS] Chapter 4.5,4.6; [[Gol00](https://www.amazon.com/Foundations-Cryptography-1-Basic-Tools/dp/0521035368){:target="_blank"}] 2.5,3.4,3.7|
+|Thu Feb. 16| Private-key crypto Review  <br> **Quiz 3**||
+|Tue Feb. 21|Public-key revolution, Diffie-Hellman <br> Number theory review| **Reading**: [KL] 8.1,8.3.1,Chapter 10 <br> Notes on [algebra](https://people.eecs.berkeley.edu/~luca/cs276/notesalgebra.pdf){:target="_blank"} and number theory ([part I](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh1.pdf){:target="_blank"}, [Part II](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh2.pdf){:target="_blank"}) <br> HW 3 due, HW 4 out|
+|Thu Feb. 23|Public-key encryption <br> PKE examples: RSA, Elgamal, etc. ||
+|Tue Feb. 28|CCA <br>Theoretical constructions of PKE||
 |Thu Mar. 02|Digital signatures <br> **Quiz 4** | |
 |Tue Mar. 07|Signature cont'd| HW 4 due, HW 5 out|
 |Thu Mar. 09|Zero-knowledge proofs <br> secure multi-party computation||

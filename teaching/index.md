@@ -2,7 +2,7 @@
 layout: page
 title: Teaching
 excerpt: 
-modified: <2017-01-30 Mon>
+modified: <2017-02-03 Fri>
 ---
 
 ## Courses at Portland State U
@@ -12,6 +12,19 @@ modified: <2017-01-30 Mon>
 
 #### Winter 2017 
 * CS 485/585 [Introduction to Cryptography]({{ base }}/teaching/w17_4585_icrypto/)
+
+- - -
+
+## Advising
+I am looking for self-motivated students who are interested in
+    pursuing MS/PhD degrees with me. Please find more information on
+    the [recruit page]({{base}}/recruit/){:target="_blank"}. Don't hesitate to reach me! 
+	
+### Undergraduate 
+
+* 2016.09 - .  Marko Balogh. Honors Thesis, Portland State University.
+* 2014.05 - 2014.08. Edward Eaton. REU, University of Waterloo. Now a
+M.Sc student at University of Waterloo.
 
 - - -
 
