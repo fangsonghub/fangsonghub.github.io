@@ -5,7 +5,7 @@ desc: Resource
 permalink: /teaching/s17_4510_qc/resource/
 title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
 subtitle: Resources
-modified: 2017-01-30
+modified: 2017-02-21
 ---
 ## Main materials for this course
 
@@ -18,7 +18,7 @@ modified: 2017-01-30
 *  [Quantum Computing since Democritus](http://www.cambridge.org/us/academic/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/quantum-computing-democritus?format=PB&isbn=9780521199568){:target="_blank"} by Scott Aaronson, based on his [lectures](http://www.scottaaronson.com/democritus/){:target="_blank"} (Fall 2006 at UWaterloo).
 *  [An Introduction to Quantum Computing](https://www.amazon.com/Introduction-Quantum-Computing-Phillip-Kaye/dp/019857049X){:target="_blank"}
 by by Phillip Kaye, Raymond Laflamme, Michele Mosca.
-*  [Quantum Computer Science: An Introduction](https://www.amazon.com/Quantum-Computer-Science-David-Mermin/dp/0521876583) by
+*  [Quantum Computer Science: An Introduction](https://www.amazon.com/Quantum-Computer-Science-David-Mermin/dp/0521876583){:target="_blank"} by
    David Mermin, based on his [lectures](http://www.lassp.cornell.edu/mermin/qcomp/CS483.html){:target="_blank"} (Spring 2006 at Cornell).
 
 ## Courses offered at other institutes

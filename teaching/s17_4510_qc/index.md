@@ -4,10 +4,11 @@ title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
 courseid: s17 410/510
 desc: s17 410/510
 permalink: /teaching/s17_4510_qc/
-modified: <2017-01-30 Mon>
+modified: <2017-02-21 Tue>
 ---
 
 ## Announcement
+*  <2017-02-21 Tue> Resource, Admin, Tentative schedule updated. 
 *  <2017-01-30 Mon> Course webpage is up and more to come! Please let
    me know for any questions or concerns. 
 
@@ -36,9 +37,9 @@ applications in cryptography.
    course will be theory-oriented involving reading and writing lots
    of mathematical proofs. I **strongly** recommend you skimming through the first few lectures of these notes by Watrous [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/all.pdf){:target="_blank"} and by Vazirani [link](https://people.eecs.berkeley.edu/~vazirani/quantum.html){:target="_blank"} to get a sense what we will be dealing with. If you feel uncertain, please email me to
    set an appoinment, and I'd be happy to discuss with you. 
-*  **Syllabus**: [PDF]({{base}}/teaching/s17_4510_qc/s17_syllabus.pdf){:target="_blank"}, and more on the [administratives]({{base}}/teaching/s17_4510_qc/admin/) page.
+*  **Syllabus**: [PDF]({{base}}/teaching/s17_4510_qc/s17_qc_syllabus.pdf){:target="_blank"}, and also on the [administratives]({{base}}/teaching/s17_4510_qc/admin/) page.
 *  **Instructor**: [Fang Song]({{base}}/) @ FAB 120-07. Email: fsong "AT" pdx.edu.
-*  **Lectures**: Tu/Th 2:00 - 3:50 pm @ TBD.
+*  **Lectures**: Tu/Th 2:00 - 3:50 pm @ FAB 47.
 *  **Office hours**: Tu/W 4 - 5pm, or by appointment. 
 *  **Text**: no required ones. We will primarily follow lecture notes
 and read research papers. See the
