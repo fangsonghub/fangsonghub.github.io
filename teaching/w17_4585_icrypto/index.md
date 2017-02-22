@@ -76,25 +76,24 @@ Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 |Thu Feb. 9| Hash functions, random oracle, applications (MAC) <br> [Lec7 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec7_note.pdf){:target="_blank"}]|**Reading**: [KL] Chapter 5, Appendix A.4 <br> Supplement: [BS] Chapter 8|
 |Tue Feb. 14|Theoretical constructions of private-key primitives <br> [Lec8 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec8_note.pdf){:target="_blank"}]|**Reading**: [KL] Chapter 7 <br> Supplement: [BS] Chapter 4.5,4.6; [[Gol00](https://www.amazon.com/Foundations-Cryptography-1-Basic-Tools/dp/0521035368){:target="_blank"}] 2.5,3.4,3.7|
 |Thu Feb. 16| Private-key crypto Review  <br> **Quiz 3** <br> [Lec9 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec9_note.pdf){:target="_blank"}]||
-|Tue Feb. 21|Public-key revolution, Diffie-Hellman <br> Number theory review| **Reading**: [KL] 8.1,8.3.1,Appendix B1,B2,Chapter 10 <br> Notes on [algebra](https://people.eecs.berkeley.edu/~luca/cs276/notesalgebra.pdf){:target="_blank"} and number theory ([part I](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh1.pdf){:target="_blank"}, [Part II](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh2.pdf){:target="_blank"}) <br> HW 3 due, [**HW 4** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw4.pdf){:target="_blank"}] out |
-|Thu Feb. 23|Public-key encryption <br> PKE examples: RSA, Elgamal, etc. ||
-|Tue Feb. 28|CCA <br>Theoretical constructions of PKE||
-|Thu Mar. 02|Digital signatures <br> **Quiz 4** | |
-|Tue Mar. 07|Signature cont'd| HW 4 due, HW 5 out|
+|Tue Feb. 21|Public-key revolution, Diffie-Hellman <br> Number theory review| **Reading**: [KL] 8.1,8.2.1,Appendix B1,B2,Chapter 10 <br> Notes on [algebra](https://people.eecs.berkeley.edu/~luca/cs276/notesalgebra.pdf){:target="_blank"} and number theory ([part I](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh1.pdf){:target="_blank"}, [Part II](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh2.pdf){:target="_blank"})<br> Fun reading: [History of PKC](#funpkc) <br> HW 3 **due**, [**HW 4** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw4.pdf){:target="_blank"}] out |
+|Thu Feb. 23| Public-key encryption <br> PKE examples: ElGamal, RSA and trapdoor permutations, OAEP | **Reading**: [KL] 8.2.3,8.2.4,8.3.1,8.3.2; 11.2,11.4.1,11.5.1,11.5.3,11.5.4|
+|Tue Feb. 28| Hybrid encryption <br> CCA | **Reading**: [KL] 11.3,3.7,4.5.4,11.2.3 |
+|Thu Mar. 02|Digital signatures, Full-domain-hash <br> **Quiz 4** | **Reading**: [KL] 12.1-12.4 |
+|Tue Mar. 07| DL-based signature <br> hash-based signature <br> SSL/TLS | **Reading**: 12.5.2,12.6,12.8 <br> HW 4 **due**, [**HW 5** [PDF](){:target="_blank"}] out|
 |Thu Mar. 09|Zero-knowledge proofs <br> secure multi-party computation||
 |Tue Mar. 14|Lattice and fully homomorphic encryption||
-|Thu Mar. 16| Quantum computing and effects on cryptography <br> Review for final exam||
+|Thu Mar. 16| Quantum computing and impacts on cryptography <br> Review for final exam||
 |Mon Mar. 20| Final Exam: 10:15am-12:05pm||
 {:.mbtablestylef}
 
 ## Supplements
 
-### <a name="mu"></a>**Make-up lectures**
+### <a name="mu"></a>**Make-up lectures (Week 2)**
 *  Attend at least one of the talks
    at
    [Quantum day @ Portland](http://fangsong.info/activity/w17qpdx/),
    January 13, 2017. 
-
 *  (**Plan B**) If you cannot attend any of the talks on Jan. 13,
    please email me in advance. Upon approval, you have the option of
    watching one of the recorded talks below instead.
@@ -102,3 +101,11 @@ Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
       _Cryptography and Cybersecurity in the Quantum Era_ by Michele
       Mosca. [Video](https://www.youtube.com/watch?v=vipU_-QGoOg&feature=youtu.be&list=PLUz_4vZOI0H0nfczvYk2C_UbE_BMs8cpY){:target="_blank"}.
    *  One of the tutorials at the [PQCrypto 2016 winter school](https://pqcrypto2016.jp/winter/){:target="_blank"}.	  
+
+### <a name="funpkc"></a>**History of PKC (Feb.21 Lecture)**
+
+*  First ten years of PKC by Whit
+   Diffie [PDF](http://cr.yp.to/bib/1988/diffie.pdf){:target="_blank"}
+*  1974 CS244 Project Proposal by Ralph
+   Merkle [HTML](http://www.merkle.com/1974/){:target="_blank"}
+*  Story of non-secret encryption at British Intelligence Agency [HTML](http://cryptome.org/jya/ellisdoc.htm){:target="_blank"}    
