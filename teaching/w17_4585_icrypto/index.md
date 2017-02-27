@@ -19,6 +19,8 @@ and Hall/CRC Press, Nov 2014.
 * A **resource** [page]({{base}}/teaching/w17_4585_icrypto/resource/) with useful materials related to the course. 
 
 ## Announcement
+*  <2017-02-27 Mon> Quiz 2&3 solutions available on D2L. 
+*  <2017-02-21 Thu> HW 4 Problem 4a) typo. Updated the PDF file on webpage. 
 *  <2017-02-07 Tue> Quiz 1 solution posted on D2L. HW 3 out.
 *  <2017-01-24 Tue> Homework 2 posted. 
 *  <2017-01-13 Fri> Jan. 12 lecture cancelled. Schedule, HW1 updated.
@@ -76,8 +78,8 @@ Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 |Thu Feb. 9| Hash functions, random oracle, applications (MAC) <br> [Lec7 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec7_note.pdf){:target="_blank"}]|**Reading**: [KL] Chapter 5, Appendix A.4 <br> Supplement: [BS] Chapter 8|
 |Tue Feb. 14|Theoretical constructions of private-key primitives <br> [Lec8 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec8_note.pdf){:target="_blank"}]|**Reading**: [KL] Chapter 7 <br> Supplement: [BS] Chapter 4.5,4.6; [[Gol00](https://www.amazon.com/Foundations-Cryptography-1-Basic-Tools/dp/0521035368){:target="_blank"}] 2.5,3.4,3.7|
 |Thu Feb. 16| Private-key crypto Review  <br> **Quiz 3** <br> [Lec9 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec9_note.pdf){:target="_blank"}]||
-|Tue Feb. 21|Public-key revolution, Diffie-Hellman <br> Number theory review| **Reading**: [KL] 8.1,8.2.1,Appendix B1,B2,Chapter 10 <br> Notes on [algebra](https://people.eecs.berkeley.edu/~luca/cs276/notesalgebra.pdf){:target="_blank"} and number theory ([part I](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh1.pdf){:target="_blank"}, [Part II](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh2.pdf){:target="_blank"})<br> Fun reading: [History of PKC](#funpkc) <br> HW 3 **due**, [**HW 4** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw4.pdf){:target="_blank"}] out |
-|Thu Feb. 23| Public-key encryption <br> trapdoor permutations | **Reading**: [KL] 8.2.3,8.2.4,8.3.1,8.3.2; 11.2,11.5.1,11.5.3|
+|Tue Feb. 21|Public-key revolution, Diffie-Hellman <br> Number theory review <br> [Lec10 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec10_note.pdf){:target="_blank"}]| **Reading**: [KL] 8.1,8.2.1,Appendix B1,B2,Chapter 10 <br> Notes on [algebra](https://people.eecs.berkeley.edu/~luca/cs276/notesalgebra.pdf){:target="_blank"} and number theory ([part I](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh1.pdf){:target="_blank"}, [Part II](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh2.pdf){:target="_blank"})<br> Fun reading: [History of PKC](#funpkc) <br> HW 3 **due**, [**HW 4** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw4.pdf){:target="_blank"}] out |
+|Thu Feb. 23| Public-key encryption <br> trapdoor permutations <br> [Lec11 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec11_note.pdf){:target="_blank"}]| **Reading**: [KL] 8.2.3,8.2.4,8.3.1,8.3.2; 11.2,11.5.1,11.5.3|
 |Tue Feb. 28| PKE from TDPs in RO <br> factoring & RSA, ElGamal <br> Hybrid encryption, CCA | **Reading**: [KL] 11.4.1,11.5.4, 11.3,3.7,4.5.4,11.2.3 |
 |Thu Mar. 02|Digital signatures, Full-domain-hash <br> **Quiz 4** | **Reading**: [KL] 12.1-12.4 |
 |Tue Mar. 07| DL-based signature <br> hash-based signature <br> SSL/TLS | **Reading**: 12.5.2,12.6,12.8 <br> HW 4 **due**, [**HW 5** [PDF](){:target="_blank"}] out|
