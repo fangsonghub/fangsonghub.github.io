@@ -22,7 +22,7 @@ My research interests lie in cryptography, especially in the presence of quantum
        [here](https://www.pdx.edu/computer-science/open-faculty-positions). You
        will like it here!-->
 *  [Asiacrypt 2017](http://www.cs.hku.hk/asiacrypt2017/){:target="_blank"} will be held in **Hong Kong**, and I am happy to serve on the program committee. Please submit your excellent papers!
-*  I will serve on the program committee of [PQCrypto 2017](https://2017.pqcrypto.org/conference/){:target="_blank"}.  **Utrecht, the Netherlands** is awaiting your nice research results! Deadline is approaching (Feb. 14 for initial submission, and Feb. 21 for final)!
+*  I will serve on the program committee of [PQCrypto 2017](https://2017.pqcrypto.org/conference/){:target="_blank"}.  **Utrecht, the Netherlands** is awaiting your nice research results!
 *  I organized a one-day event on quantum computing and
    cryptography at Portland, OR. Find the details [here]({{base}}/activity/w17qpdx/) or a poster [PDF]({{base}}/activity/w17qpdx/qpdxposter.pdf){:target="_blank"}.
     <!--*   I will serve on the program committee of [QIP 2017](https://www.stationq.com/qip-2017/){:target="_blank"}, hosted by at Microsoft Research in **Redmond, Washington** during Jan 14-20, 2017\. You may as well visit me pre or post QIP [driving 3 hours south](https://goo.gl/maps/aH7GfTLs4tP2){:target="_blank"}. -->

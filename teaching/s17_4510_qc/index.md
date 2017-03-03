@@ -8,6 +8,7 @@ modified: <2017-02-21 Tue>
 ---
 
 ## Announcement
+*  <2017-03-03 Fri> Schedule updated, course project page ongoing.
 *  <2017-02-21 Tue> Resource, Admin, Tentative schedule updated. 
 *  <2017-01-30 Mon> Course webpage is up and more to come! Please let
    me know for any questions or concerns. 
@@ -38,9 +39,10 @@ applications in cryptography.
    of mathematical proofs. I **strongly** recommend you skimming through the first few lectures of these notes by Watrous [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/all.pdf){:target="_blank"} and by Vazirani [link](https://people.eecs.berkeley.edu/~vazirani/quantum.html){:target="_blank"} to get a sense what we will be dealing with. If you feel uncertain, please email me to
    set an appoinment, and I'd be happy to discuss with you. 
 *  **Syllabus**: [PDF]({{base}}/teaching/s17_4510_qc/s17_qc_syllabus.pdf){:target="_blank"}, and also on the [administratives]({{base}}/teaching/s17_4510_qc/admin/) page.
-*  **Instructor**: [Fang Song]({{base}}/) @ FAB 120-07. Email: fsong "AT" pdx.edu.
+*  **Instructor**: Prof. [Fang Song]({{base}}/) @ FAB 120-07. Email: fsong "AT" pdx.edu.
 *  **Lectures**: Tu/Th 2:00 - 3:50 pm @ FAB 47.
 *  **Office hours**: Tu/W 4 - 5pm, or by appointment. 
+*  **Course mailing list**: s17qc@cs.pdx.edu. Follow this [link](https://mailhost.cecs.pdx.edu/mailman/listinfo/s17qc){:target="_blank"} to subscribe. 
 *  **Text**: no required ones. We will primarily follow lecture notes
 and read research papers. See the
 **resource** [page]({{base}}/teaching/s17_4510_qc/resource/) for

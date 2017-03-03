@@ -21,6 +21,12 @@
   url: /teaching/s17_4510_qc/resource/
 
 - courseid: s17 410/510
+  title: CS 410/510 
+  desc: Project
+  nav: true
+  url: /teaching/s17_4510_qc/project/
+
+- courseid: s17 410/510
   title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
   desc: Admin
   nav: true
