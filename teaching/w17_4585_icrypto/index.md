@@ -4,7 +4,7 @@ title: (Winter 2017) CS 485/585 - Intro to Cryptography
 courseid: w17 485/585
 desc: w17 485/585
 permalink: /teaching/w17_4585_icrypto/
-modified: <2017-02-07 Tue>
+modified: <2017-03-08 Wed>
 ---
 *  **Syllabus**: [PDF]({{base}}/teaching/w17_4585_icrypto/syllabus.pdf){:target="_blank"}, and more on the [Administratives]({{base}}/teaching/w17_4585_icrypto/admin/) page.
 *  **Instructor**: [Fang Song]({{base}}/) @ FAB 120-07. Email: fsong "AT" pdx.edu.
@@ -19,6 +19,7 @@ and Hall/CRC Press, Nov 2014.
 * A **resource** [page]({{base}}/teaching/w17_4585_icrypto/resource/) with useful materials related to the course. 
 
 ## Announcement
+*  <2017-03-08 Wed> HW 3 & Quiz 4 solutions available on D2L.
 *  <2017-02-27 Mon> Quiz 2&3 solutions available on D2L. 
 *  <2017-02-21 Thu> HW 4 Problem 4a) typo. Updated the PDF file on webpage. 
 *  <2017-02-07 Tue> Quiz 1 solution posted on D2L. HW 3 out.
