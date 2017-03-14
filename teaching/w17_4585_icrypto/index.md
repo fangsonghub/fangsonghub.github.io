@@ -19,6 +19,9 @@ and Hall/CRC Press, Nov 2014.
 * A **resource** [page]({{base}}/teaching/w17_4585_icrypto/resource/) with useful materials related to the course. 
 
 ## Announcement
+
+*  <2017-03-14 Tue> HW4 solution and pratice exam solution available on D2L. 
+*  <2017-03-09 Fri> Practice exam posted. Additional office hours in last week: Monday (Mar. 13) 2-3pm & Friday (Mar. 17) 1-2pm.
 *  <2017-03-08 Wed> HW 3 & Quiz 4 solutions available on D2L.
 *  <2017-02-27 Mon> Quiz 2&3 solutions available on D2L. 
 *  <2017-02-21 Thu> HW 4 Problem 4a) typo. Updated the PDF file on webpage. 
