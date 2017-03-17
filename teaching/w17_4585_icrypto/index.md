@@ -4,7 +4,7 @@ title: (Winter 2017) CS 485/585 - Intro to Cryptography
 courseid: w17 485/585
 desc: w17 485/585
 permalink: /teaching/w17_4585_icrypto/
-modified: <2017-03-08 Wed>
+modified: <2017-03-17 Fri>
 ---
 *  **Syllabus**: [PDF]({{base}}/teaching/w17_4585_icrypto/syllabus.pdf){:target="_blank"}, and more on the [Administratives]({{base}}/teaching/w17_4585_icrypto/admin/) page.
 *  **Instructor**: [Fang Song]({{base}}/) @ FAB 120-07. Email: fsong "AT" pdx.edu.
@@ -19,6 +19,8 @@ and Hall/CRC Press, Nov 2014.
 * A **resource** [page]({{base}}/teaching/w17_4585_icrypto/resource/) with useful materials related to the course. 
 
 ## Announcement
+*  <2017-03-20 Mon> Good luck on the final exam: 10:15 - 12:05pm @ FAB 47. Thanks to everyone for your effort! I hope you've enjoyed the class and find it rewarding!   
+*  <2017-03-17 Fri> Practice exam solution updated, hw5 solution available on D2L. 
 *  <2017-03-14 Tue> [Summer intern opportunity](https://www.iacr.org/jobs/#1218){:target="_blank"} on Cryptography at MSR Redmond.  
 *  <2017-03-14 Tue> HW4 solution and pratice exam solution available
    on D2L.
@@ -91,7 +93,7 @@ Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 |Tue Mar. 09|Lattice based crypto <br> fully homomorphic encryption| **Reading**: Notes by Barak <br> [[Lattice](http://www.boazbarak.org/cs127/chap12_lattices.html){:target="_blank"}, [FHE Part I](http://www.boazbarak.org/cs127/chap15_FHE.html){:target="_blank"}, [FHE Part II](http://www.boazbarak.org/cs127/chap16_FHE_part2.html){:target="_blank"}] <br> CACM [article](https://people.csail.mit.edu/vinodv/6892-Fall2013/GentryCACM.pdf){:target="_blank"} by Gentry|
 |Thu Mar. 14|Zero-knowledge proofs <br> secure multi-party computation| **Reading**: Trevisan's note on [ZK](https://people.eecs.berkeley.edu/~luca/cs276/lecture24.pdf){:target="_blank"} <br> Barak's note on [SC](http://www.boazbarak.org/cs127/chap17_SFE.html){:target="_blank"}<br> Vadhan's note on [2PC](http://people.seas.harvard.edu/~salil/cs127/fall06/docs/lec19.pdf){:target="_blank"} |
 |Thu Mar. 16| Quantum computing and impacts on cryptography <br> Review for final exam|**Reading**: FS's talk at PQC Asia <br> [Slides [PDF]({{base}}/files/talks/201611_fspqcasia.pdf){:target="_blank"}] [[Video](https://www.youtube.com/watch?v=n39-FOmNh5g){:target="_blank"}] <br> NSA's post-quantum [plan](https://www.iad.gov/iad/programs/iad-initiatives/cnsa-suite.cfm){:target="_blank"} <br> HW 5 **due**|
-|Mon Mar. 20| **Final Exam**: 10:15am-12:05pm| Practice exam [PDF]({{base}}/teaching/w17_4585_icrypto/w17_4585_pe.pdf){:target="_blank"} |
+|Mon Mar. 20| **Final Exam**: 10:15am-12:05pm @ FAB 47| Practice exam [PDF]({{base}}/teaching/w17_4585_icrypto/w17_4585_pe.pdf){:target="_blank"} |
 {:.mbtablestylef}
 
 ## Supplements
