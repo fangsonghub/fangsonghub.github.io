@@ -4,10 +4,11 @@ title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
 courseid: s17 410/510
 desc: s17 410/510
 permalink: /teaching/s17_4510_qc/
-modified: <2017-02-21 Tue>
+modified: <2017-03-31 Fri>
 ---
 
 ## Announcement
+*  <2017-03-31 Fri> <b style="color: red;">Room changed to Cramer Hall 449!</b> 
 *  <2017-03-03 Fri> Schedule updated, course project page ongoing.
 *  <2017-02-21 Tue> Resource, Admin, Tentative schedule updated. 
 *  <2017-01-30 Mon> Course webpage is up and more to come! Please let
@@ -40,7 +41,7 @@ applications in cryptography.
    set an appoinment, and I'd be happy to discuss with you. 
 *  **Syllabus**: [PDF]({{base}}/teaching/s17_4510_qc/s17_qc_syllabus.pdf){:target="_blank"}, and also on the [administratives]({{base}}/teaching/s17_4510_qc/admin/) page.
 *  **Instructor**: Prof. [Fang Song]({{base}}/) @ FAB 120-07. Email: fsong "AT" pdx.edu.
-*  **Lectures**: Tu/Th 2:00 - 3:50 pm @ FAB 47.
+*  **Lectures**: Tu/Th 2:00 - 3:50 pm @ <strike>FAB 47</strike> <b style="color: red;">Cramer Hall 449<b>.
 *  **Office hours**: Tu/W 4 - 5pm, or by appointment. 
 *  **Course mailing list**: s17qc@cs.pdx.edu. Follow this [link](https://mailhost.cecs.pdx.edu/mailman/listinfo/s17qc){:target="_blank"} to subscribe. 
 *  **Text**: no required ones. We will primarily follow lecture notes
