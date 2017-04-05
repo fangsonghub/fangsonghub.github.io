@@ -11,8 +11,10 @@ modified: 2017-03-02
 ## Week 1 
 * **April 04** Qubit, multiple qubit, unitary operations, measurement
   *  **Reading**: Aaronson Lec9 [HTML](http://www.scottaaronson.com/democritus/lec9.html){:target="_blank"}; Watrous Lec1 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/01.pdf){:target="_blank"}, Lec2 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/02.pdf){:target="_blank"}
+  *  **HW 1 Out** [[PDF]({{base}}/teaching/s17_4510_qc/s17_qc_hw1.pdf){:target="_blank"}], due April 18, 2017 before class. 
 * **April 06** Reversible computation, quantum circuit model
   *  **Reading**: Watrous Lec3 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/03.pdf){:target="_blank"}, Lec7 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/07.pdf){:target="_blank"}
+  *  **Scribe**: 
 
 ## Week 2 
 *  **April 11** Quantum query model, Deutsch's algorithm, Deutsch-Josza 
