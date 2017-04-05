@@ -8,6 +8,10 @@ subtitle: Admin
 modified: 2017-02-21
 ---
 
+##  Docs 
+*  Latex template [[PDF]({{base}}/teaching/s17_4510_qc/lec1.pdf){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/lec1.tex){:target="_blank"}] for you to scribing notes. 
+*  Use this [spreadsheet](https://docs.google.com/a/pdx.edu/spreadsheets/d/1KJ9amYylo2acxsylG8aIvFElpx3DPeAPtSjsnne4c_c/edit?usp=sharing){:target="_blank"} to sign up for scribe and final project presentation. 
+
 ## Policy
 
 * **Grading Policy**: Homework 50%, Project 40%, Participation 10%.

@@ -8,6 +8,9 @@ modified: <2017-03-31 Fri>
 ---
 
 ## Announcement
+*  <2017-04-04 Tue> Grad students please sign up for scirbe [here](https://docs.google.com/a/pdx.edu/spreadsheets/d/1KJ9amYylo2acxsylG8aIvFElpx3DPeAPtSjsnne4c_c/edit?usp=sharing){:targte="_blank"}. (PSU account needed for access). See [Admin]({{base}}/teaching/s17_4510_qc/admin/) page for a Latex template.  
+*  <2017-04-04 Tue> HW 1 is out (on [Schedule]({{base}}/teaching/s17_4510_qc/schedule/) page). TeX source file is provided too as a
+   template for you to typeset your solutions.
 *  <2017-03-31 Fri> <b style="color: red;">Room changed to Cramer Hall 449!</b> 
 *  <2017-03-03 Fri> Schedule updated, course project page ongoing.
 *  <2017-02-21 Tue> Resource, Admin, Tentative schedule updated. 

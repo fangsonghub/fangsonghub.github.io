@@ -1,0 +1,212 @@
+% Created by Fang Song on April 4 2017. Instructions: you don't need
+% to change anything in the macros, but feel free to define new
+% commands as you wish. Starting from the main body, change the specs
+% (e.g., your name). use \begin{solution} \end{solution} environment
+% to write your solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2017}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\kera}[1]{\ket{#1}\bra{#1}}
+
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+%\studentfalse
+
+\def\issuedate{April 3, 2017}
+\def\duedate{April 18, 2017} % 
+\def\yourname{your name} % put your name here
+%------------------------------%
+\ifstudent
+\hw{1}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{1}{Out: \issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.}
+%Solutions must be typeset in \LaTeX\ (a template for this homework is available on the course web page).
+Your solutions will be graded on \emph{correctness} and
+\emph{clarity}. You should only submit work that you believe to be
+correct; if you cannot solve a problem completely, you will get
+significantly more partial credit if you clearly identify the gap(s)
+in your solution. It is good practice to start any long solution with
+an informal (but accurate) ``proof summary'' that describes the main
+idea. For this problem set, a random subset of problems will be
+graded. Problems marked with ``\mG'' are required for graduate
+students. Undergraduate students will get bonus points for solving them.
+
+\medskip
+\noindent You may collaborate with others on this problem set% and consult external sources
+.  However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\def\coin{\mathrm{COIN}}
+\def\fail{\mathrm{FAIL}}
+\begin{questions}
+  \question (Tensor product) Recall the \emph{tensor product} of two
+  matrices $A$ and $B$ is $A\otimes B : = (a_{ij}B)$.
+  %\begin{solution}
+   % uncomment the environment and write your solution here
+  %\end{solution}
+  \begin{parts}
+    \part[5] Show that $(A\otimes B)^\dagger = A^\dagger \otimes
+    B^\dagger$.
+    \part[5] Show that if $U$ and $V$ are unitary matrices, then so is $U
+    \otimes V$. 
+  \end{parts}
+
+\question (Quantum states and gates)   
+\begin{parts}
+  \part[12] In each case, describe the resulting state.
+  $H = \frac{1}{\sqrt 2} \left(
+    \begin{array}{lr}
+      1 & 1\\
+      1 & -1
+    \end{array} \right)$
+  \begin{enumerate}[label=\roman*)]
+  \item Apply $H$ to the qubit $\frac{1}{\sqrt 2} (\ket{0} +
+    \ket{1})$.
+    \item Apply $H$ to the first qubit of state $\frac{1}{\sqrt 2}
+      (\ket{00} + \ket{11})$.
+    \item Apply $H$ to both qubits of $\frac{1}{\sqrt 2}
+      (\ket{00} + \ket{11})$.
+    \item Apply $\frac{1}{\sqrt 2} \left(
+    \begin{array}{lr}
+      1 & i\\
+      i & 1
+    \end{array} \right)$ to both qubits of state $\frac{1}{\sqrt 2}
+      (\ket{00} + \ket{11})$.
+    \end{enumerate}
+    \part[10] (1-qubit gates) Let $X = \frac{1}{\sqrt 2} \left(
+    \begin{array}{lr}
+      0 & 1\\
+      1 & 0
+    \end{array} \right)$ and $Z = \frac{1}{\sqrt 2} \left(
+    \begin{array}{lr}
+      1 & 0\\
+      0 & -1
+    \end{array} \right)$.
+  \begin{enumerate}[label=\roman*)]
+    \item Suppose we have a qubit and we first apply $X$ and then
+      $Z$. Is it equivalent to first applying $Z$ and then $X$?
+    \item Suppose we have two qubits. We apply $X$ to both and then
+      $Z$ to both. Is it equivalent to applying $Z$ to both and then
+      applying $X$ to both? Determine your answer by explicitly
+      computing $X\otimes X$, $Z\otimes Z$, and their products both
+      ways. 
+    \end{enumerate}
+    \part[8] (SWAP gate) A SWAP gate takes two inputs $a$ and $b$ and
+    outputs $b$ and $a$; i.e., it swaps the values of two input
+    registers. Show how to build a SWAP gate using only CNOT gates.
+    (Hint: you’ll need 3 of them.)
+  \end{parts}
+
+  
+  \question (Product states versus entangled states) In each of the
+  following, either express the 2-qubit state as a tensor product of
+  1-qubit states or prove that it cannot be expressed this way. 
+  \begin{parts}
+    \part[5] $\frac 1 2 \ket{00} - \frac 1 2 \ket{01} - \frac 1 2
+    \ket{10} + \frac 1 2 \ket{11}$ 
+    \part[5] $\frac 1 2 \ket{00} + \frac 1 2 \ket{01} +\frac1 2
+    \ket{10} - \frac{1}{2} \ket{11}$
+    \part[5] \mG $\frac{3}{4}\ket{00} + \frac{\sqrt
+      3}{4}\ket{01}+\frac{\sqrt 3}{4}\ket{10}+\frac{1}{4}\ket{11}$
+  \end{parts}
+
+  \question (Distinguishing states by local measurements) In this
+  question, we suppose Alice and Bob are physically separated from
+  each other, and are each given one of the qubits of some 2-qubit
+  state. Working as a team, they are required to distinguish between
+  State I and State II with only local measurements. Namely they can
+  each perform a local (one-qubit) unitary operation and then a
+  measurement (in the computational basis) of their own qubit. After
+  their measurements, they can send only classical bits to each
+  other. (This is usually referred to as LOCC: local operation and
+  classical communication.)  In each case below, either give a perfect
+  distinguishing procedure (that never errs) or explain why there is
+  no perfect distinguishing procedure (i.e., that for any procedure
+  the success probability must be less than 1).
+
+  \begin{parts}
+    \part[5] State I: $\frac{1}{\sqrt 2}(\ket{00} + \ket{11})$; State II: $\frac{1}{\sqrt 2}(\ket{01} + \ket{10})$ 
+    \part[5] State I: $\frac{1}{\sqrt 2} (\ket{00} + \ket{11})$; State
+    II: $\frac{1}{\sqrt 2} (\ket{00}-\ket{11})$
+    \part[5] \mG State I: $\frac{1}{\sqrt 2}(\ket{00} + i \ket{11})$;
+    State II: $\frac{1}{\sqrt 2}(\ket{00}-i\ket{11})$
+  \end{parts}
+
+  
+  \question (Simulating a biased coin) For $0 \leq p \leq 1$, let
+  $\coin_p$ denote a gate that has no input and one output, the output
+  being a random bit which is 1 with probability $p$ and 0 with
+  probability $1- p$. This question compairs the power of general
+  $\coin_p$ for an arbitrary rational $p$ and the special case of
+  fair coin gate $\coin_{1/2}$.
+  \begin{parts}
+    \part[10] In one sense, general $\coin_p$ gates are more powerful than
+    $\coin_{1/2}$ gates. Show that if we only allow $\coin_{1/2}$
+    gates (as well as AND, OR, NOT, etc.), it is impossible to
+    construct a circuit that exactly simulates $\coin_{1/3}$.
+
+    \part[10] However, in another sense, $\coin_p$ gates are not
+    fundamentally more powerful than $\coin_{1/2}$. Show that for any
+    $\veps > 0$, there is a circuit of $\coin_{1/2}$ (and AND, OR, NOT
+    etc.) of size $O(\log(1/\veps)$ that almost exactly simulates a
+    $\coin_{1/3}$ gate. Precisely, your circuit should have two output
+    bits, called $r$ and $\fail$. The output bit $\fail$ should be 1
+    with probability at most $\veps$ And the output bit $r$ should
+    have the property that $\Pr[r = 1 | \fail \neq 1] = 1/3$ exactly.
+
+    (Note: once you've figured how to do it for $1/3$, I believe
+    you'll be able to do so for any rational value $p$.)
+
+  \end{parts}
+
+\end{questions}
+
+
+\end{document}
