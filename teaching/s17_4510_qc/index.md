@@ -4,7 +4,7 @@ title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
 courseid: s17 410/510
 desc: s17 410/510
 permalink: /teaching/s17_4510_qc/
-modified: <2017-03-31 Fri>
+modified: <2017-04-04 Tue>
 ---
 
 ## Announcement
