@@ -58,5 +58,7 @@ U. Vazirani: @UC Berkeley Quantum Computation
   [introduction to LaTeX](https://en.wikibooks.org/wiki/LaTeX){:target="_blank"},
   and
   [guide](http://www.math.illinois.edu/~ajh/tex/basics.html){:target="_blank"}
-  on good style.
-   
+  on good style. Many online TeX editors available,
+  e.g., [Overleaf](https://www.overleaf.com/){:target="_blank"}
+  and [ShareLaTeX](https://www.sharelatex.com/){:target="_blank"}.
+*  [Qcircuit package](https://github.com/CQuIC/qcircuit){:target="_blank"} for drawing quantum circuits in LaTeX, and more examples [[PDF](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.pdf){:target="_blank"} [TeX](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.tex){:target="_blank"}] by Charemza.

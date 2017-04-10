@@ -9,7 +9,7 @@ modified: 2017-04-04
 ---
 
 ##  Docs 
-*  Latex template [[PDF]({{base}}/teaching/s17_4510_qc/lec1.pdf){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/lec1.tex){:target="_blank"}] for you to scribing notes. 
+*  Latex template [[PDF]({{base}}/teaching/s17_4510_qc/lec1.pdf){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/lec1.tex){:target="_blank"}] for you to scribe notes. Some onlie LaTeX editor such as [overleaf](https://www.overleaf.com/){:target="_blank"} is at hand if you do not want to install the TeX engine on your local machine. Drawing Quantum circuits with [qcircuit package](https://github.com/CQuIC/qcircuit){:target="_blank"}, and more examples [[PDF](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.pdf){:target="_blank"} [TeX](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.tex){:target="_blank"}] by Charemza.
 *  Use this [spreadsheet](https://docs.google.com/a/pdx.edu/spreadsheets/d/1KJ9amYylo2acxsylG8aIvFElpx3DPeAPtSjsnne4c_c/edit?usp=sharing){:target="_blank"} to sign up for scribe and final project presentation. 
 
 ## Policy
