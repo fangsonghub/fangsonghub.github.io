@@ -1,0 +1,94 @@
+\documentclass[11pt]{article}
+%============Macros==================%
+% you don't need to change anything. start editing from main body.
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%--------------Header------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2017}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 6in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 6in { \term \hfill \emph{#2}}
+       \hbox to 6in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\lecture}[4]{\handout{#1}{#2}{#3}{#4}{{Lecture #1}}}
+
+%=============Main Doc=================%
+\begin{document}
+%-----Specs: change accordingly--------%
+\def\lecdate{April 4, 2017} % put lecture date here
+\def\scribe{Scribe: your name} % put your name here
+\def\lecnum{1} % change the lecture number
+
+\lecture{\lecnum}{\lecdate}{\prof}{\scribe}%
+
+%==============================%
+\section*{Draw quantum circuits using the \texttt{qcircuit} package}
+%==============================%
+
+Instructions on github (\url{https://github.com/CQuIC/qcircuit}). A
+simple example here:
+\[
+\Qcircuit @C=1em @R=1em {
+& \ctrl{2} & \qw & \gate{H} & \ctrl{1} &
+\gate{H} & \qw \\
+& \qw & \ctrl{1} & \gate{H} & \targ &
+\gate{H} & \qw \\
+& \targ & \targ & \gate{Z} & \qw & \ctrl{-1} &
+\qw
+}
+\]
+
+%==============================%
+\section{Syllabus}
+%==============================%
+
+
+%==============================%
+\section{A probabilistic model}
+%==============================%
+
+%==============================%
+\section{Quantum theory: probabilistic model extended}
+%==============================%
+
+Postulates of quantum mechanics
+
+\begin{enumerate}
+\item Quantum superposition principle. Qubit and extension to
+  composite systems (multiple qubits).
+\item Measurement.
+\item Unitary operations.   
+\end{enumerate}
+
+
+%==============================%
+\section{Dirac notation}
+%==============================%
+
+
+\end{document}
