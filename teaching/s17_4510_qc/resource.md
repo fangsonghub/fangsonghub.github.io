@@ -5,7 +5,7 @@ desc: Resource
 permalink: /teaching/s17_4510_qc/resource/
 title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
 subtitle: Resources
-modified: 2017-02-21
+modified: 2017-04-11
 ---
 ## Main materials for this course
 
