@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Activities # Professional Activities # Service & Activities
-modified: <2017-02-03 Fri>
+modified: <2017-04-11 Tue>
 ---
 ## Conference Program Committee Member
-* **Asiacrypt** [2017](http://www.cs.hku.hk/asiacrypt2017/){:target="_blank"}
+* **Asiacrypt** [2017](http://asiacrypt.iacr.org/2017/){:target="_blank"}
 * **PQCrypto** (Post-Quantum Cryptography) [2017](https://2017.pqcrypto.org/conference/){:target="_blank"}
 *   **PKC** (Public Key Cryptography) [2017](http://www.iacr.org/workshops/pkc2017/index.php)
 *   **QIP** (Quantum Information Processing) [2017](https://www.stationq.com/qip-2017/)
