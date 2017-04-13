@@ -1,0 +1,472 @@
+\documentclass[11pt]{article}
+%============Macros==================%
+% you don't need to change anything. start editing from main body.
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\usepackage{physics}
+\usepackage{circuitikz}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%--------------Header------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2017}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 6in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 6in { \term \hfill \emph{#2}}
+       \hbox to 6in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\lecture}[4]{\handout{#1}{#2}{#3}{#4}{{Lecture #1}}}
+
+%=============Main Doc=================%
+\begin{document}
+%-----Specs: change accordingly--------%
+\def\lecdate{April 6, 2017} % put lecture date here
+\def\scribe{Scribe: Henry Cooney} % put your name here
+\def\lecnum{2} % change the lecture number
+\lecture{\lecnum}{\lecdate}{\prof}{\scribe}%
+
+\begin{center}
+{\textsc{Version: \today}}  
+\end{center}
+
+%==============================%
+\section{The tensor product}
+%==============================%
+
+Recall that we may represent bits as probability vectors. For example, suppose we have $u, v$ and: 
+
+\begin {align}
+u &= \begin{bmatrix}
+	3/4 \\ 
+	1/4
+\end{bmatrix} \\ 
+v &= \begin{bmatrix}
+	1/3 \\ 
+	2/3
+\end{bmatrix}
+\end{align}	
+
+Then the \textit{tensor product} of u and v, denoted $u \otimes v$, is the vector:
+
+\begin {align}
+u \otimes v &= \begin{bmatrix}
+	1/4 \\ 
+	1/2 \\
+	1/12 \\
+	1/6
+\end{bmatrix} \\ 
+\end{align}
+
+The tensor product is used to represent the \textit{joint probability} of multiple bits in a single vector. Each row simply corresponds to the probability of that bit combination: for example the probability that u is 1, and v is 0, is the element $(u \otimes v)_{10}$, which is 1/12.
+
+\subsection{Computing the Tensor Product}
+
+Suppose we have an $m \times n$ matrix A, and a $k \times l$ matrix B. So:
+
+\begin {align}
+A &= \begin{bmatrix}
+	a_{11} & \dots & a_{1n} \   \\ 
+	\vdots & \ddots & \vdots \\ 
+	a_{m1} & \dots & a_{mn}
+\end{bmatrix} \\ 
+B &= \begin{bmatrix}
+	b_{11} & \dots & b_{1k} \   \\ 
+	\vdots & \ddots & \vdots \\ 
+	b_{l1} & \dots & b_{lk}
+\end{bmatrix} \\ 
+\end{align}	
+
+The tensor product is computed by multiplying each element of A with the entire matrix B, and tiling the the result. So:
+
+\begin {align}
+A \otimes B &= \begin{bmatrix}
+	a_{11} B & \dots & a_{1n} B \   \\ 
+	\vdots & \ddots & \vdots \\ 
+	a_{m1} B & \dots & a_{mn} B
+\end{bmatrix} \\ 
+\end{align}
+
+Thus, the dimension of $A \otimes B$ is $mk \times nl$.
+
+So, for example, the tensor product of u and v, used above, is calculated as follows:
+
+\begin {align}
+u \otimes v &= \begin{bmatrix}
+	3/4 \begin{bmatrix} 1/3 \\ 2/3 \end{bmatrix} \\ 
+	1/4 \begin{bmatrix} 1/3 \\ 2/3 \end{bmatrix} 
+\end{bmatrix}  \\
+	&= 	\begin{bmatrix}
+		1/4 \\ 
+		1/2 \\
+		1/12 \\
+		1/6
+	\end{bmatrix}
+\end{align}
+
+\subsection {Properties of the Tensor Product}
+
+A few tensor product properties:
+
+\begin{enumerate}
+	\item 
+	Distributive: $A \otimes (B + C) = A \otimes B + A \otimes C$
+	\item
+	You can move a scalar around: $(\alpha A) \otimes B = A \otimes (\alpha B) = \alpha(A \oplus B)$
+	\item
+	Preserves unitary-ness: if u and v are unitary, $u \otimes v$ is unitary.
+	\item 
+	NOT commutative!! It is not always true that $A \otimes B = B \otimes A$.	
+\end{enumerate}
+% \\\\
+Another interesting property is that there are some vectors that cannot be written as a tensor product. For example, for the following vector x: 
+
+\begin {align}
+x &= \begin{bmatrix}
+	1/2 \\ 
+	0 \\
+	0 \\
+	1/2
+\end{bmatrix}
+\end{align}
+
+There is no pair of vectors u and v such that $u \otimes v = x$. In this case, we say that u and v are \textit{correlated}. Only uncorrelated systems may be written as a tensor product. This will be an important property later.
+
+\subsection{Tensor produces with qubits}
+
+We can use similarly use tensor products to describe associated probabilities on qubits. Suppose X and Y are qubits such that: 
+
+\begin {align}
+X: \ket{\phi} = \alpha \ket{0} + \beta \ket{1} =	\begin{bmatrix}
+	\alpha \\
+	\beta
+\end{bmatrix} \\
+Y: \ket{\psi} = \gamma \ket{0} + \delta \ket{1} =	\begin{bmatrix}
+	\gamma \\
+	\delta
+\end{bmatrix}
+\end{align}
+
+Note: this is using Dirac notation, covered in Lecture 1 -- or p. 10 of the Watrous notes (link on main course page).
+
+So, what is the state of the joint system? We can compute the tensor product to find out:
+
+
+\begin {align}
+X: \ket{\phi} \otimes \ket{\psi} = \begin{bmatrix}\alpha \\ \beta \end{bmatrix} \otimes \begin{bmatrix} \gamma \\ \delta \end{bmatrix} = \begin{bmatrix} \alpha \gamma \\ \alpha \delta \\ \beta \gamma \\ \beta \delta \end{bmatrix} \\
+\end{align}
+
+This can equivalently be written as: 
+
+\begin {align}
+\ket{\phi} \otimes \ket{\psi} = (\alpha \ket{0} + \beta \ket{1}) \otimes (\gamma \ket{0} + \delta \ket{1}) \\ 
+& = \alpha \gamma (\ket{0} \otimes \ket{0}) + \alpha \delta (\ket{0} \otimes \ket{1}) + \beta \gamma (\ket{1} \otimes \ket{0}) + \beta \delta (\ket{1} \otimes \ket{1})
+\end{align}
+
+\section{Multiple Qubits and Dirac Notation}
+
+Above, we ended up with the long expression, $\alpha \gamma (\ket{0} \otimes \ket{0}) + \alpha \delta (\ket{0} \otimes \ket{1}) + \beta \gamma (\ket{1} \otimes \ket{0}) + \beta \delta (\ket{1} \otimes \ket{1})$. Why write it this way? As it turns out, vectors like $\ket{0} \otimes \ket{1}$ form an orthonormal basis. There is a special notation for these vectors -- for example, $\ket{00} = \ket{0} \otimes \ket{0}$. We can also denote the tensor product of any two states $\phi$ and $\psi$ as follows: $\phi \otimes \psi = \ket{\phi} \ket{\psi}$.
+
+\break
+So, our four basic states that can result from $\ket{0}$ and $\ket{1}$ (and thus the orthonormal basis for 2-bit systems) are:
+
+\begin {align}
+\ket{00} &= \begin{bmatrix}
+	1 \\ 
+	0 \\
+	0 \\
+	0
+\end{bmatrix} \\ 
+\ket{01} &= \begin{bmatrix}
+	0 \\ 
+	1 \\
+	0 \\
+	0
+\end{bmatrix} \\
+\ket{10} &= \begin{bmatrix}
+	0 \\ 
+	0 \\
+	1 \\
+	0
+\end{bmatrix} \\
+\ket{11} &= \begin{bmatrix}
+	0 \\ 
+	0 \\
+	0 \\
+	1
+\end{bmatrix} 
+\end{align}
+
+These allow us to write certain superpositions more compactly using Dirac notation. For example: 
+
+\begin {align}
+\frac{1}{\sqrt{2}} (\ket{00} + \ket{11}) =   \begin{bmatrix}
+	\frac{1}{\sqrt{2}} \\ 
+	0 \\
+	0 \\
+	\frac{1}{\sqrt{2}}
+\end{bmatrix} 
+\end{align}
+
+Note that the superposition above is one of the special vectors which \textit{cannot be written as a tensor product}. A superposition which cannot be written as a tensor product is called \textit{entangled}. A superposition that can be written as a tensor product is called a \textit{product state}. Entangled superpositions will be important in the future. An pair of entangled qubits is also called an \textit{EPR pair}. \\
+
+As mentioned above, $\ket{00}$, $\ket{01}$, $\ket{10}$, and $\ket{11}$ form an orthonormal basis for $\mathbb{C}^4$.  More bits would mean an orthonormal basis for a higher-dimensional space. For example, suppose we have n qubits. Then: \\
+
+\begin{align}
+\{ \ket{0 ... 0} ... \ket{1...1} \}
+\end{align}
+
+Is the basis for $(\mathbb{C}^2)^n$, with dimensions $2^n$.
+
+\section {Circuit Models}
+
+\subsection {Classical Circuit Models}
+
+Circuit models represent computation as a network of logical gates. This model is equivalent in power to a Turing machine.\\ 
+
+Some basic gates are and, or, and not: 
+\\
+
+And: 
+\[
+\Qcircuit @C=1em @R=0em {
+	& \multigate{1}{\land} & \qw \\
+	& \ghost{\land} 
+}
+\]
+
+Or:
+\[
+\Qcircuit @C=1em @R=0em {
+		& \multigate{1}{\lor} & \qw \\
+		& \ghost{\lor} 
+}
+\]
+
+Not:
+\[
+\Qcircuit @C=1em @R=0em {
+		& \gate{\lnot} & \qw
+}
+\]
+
+These make a very powerful combination. A circuit with s gates maybe converted to a Turing machine that runs in $O(s \log{s})$ time. Similarly, a Turing machine that that runs in time t can be converted to a circuit with $O(t \log{t})$ gates. 
+One thing which classical circuits often lack is \textit{randomness}. Therefore, we also introduce the 'coin flip' gate, which randomly outputs 0 or 1:
+
+% \\
+
+Coin flip:
+\[
+\Qcircuit @C=1em @R=0em {
+	& \boxed{\$} \quad& \qw
+}
+\]
+
+We can use this to make a more interesting circuit:
+
+
+\[
+\Qcircuit @C=1em @R=1em {
+	& \boxed{\$} \quad & \ctrl{1} & \qw & x \\
+	& 1 \ & \gate{\land} & \qw & y
+}
+\]
+
+This circuit outputs either 11 or 00, each with probability 1/2.
+
+\subsection{Quantum Circuits}
+
+Quantum gates are different from classical circuit gates. Instead, they correspond to the unitary Pauli operators: 
+\\
+
+The X operator:
+
+\begin {align}
+X &= \begin{bmatrix}
+	0 & 1 \\
+	1 & 0
+\end{bmatrix} 
+\end{align}	
+
+\[
+\Qcircuit @C=1em @R=0em {
+	& \gate{X} & \qw
+}
+\]
+
+The Y operator:
+
+\begin {align}
+Y &= \begin{bmatrix}
+	0 & -i \\
+	i & 0
+\end{bmatrix} 
+\end{align}	
+
+\[
+\Qcircuit @C=1em @R=0em {
+& \gate{Y} & \qw
+}
+\]
+
+The Z operator:
+
+\begin {align}
+Z &= \begin{bmatrix}
+	1 & 0 \\
+	0 & -1
+\end{bmatrix} 
+\end{align}	
+
+\[
+\Qcircuit @C=1em @R=0em {
+& \gate{Z} & \qw
+}
+\]
+
+The Identity operator:
+
+\[
+\Qcircuit @C=1em @R=0em {
+	& \gate{I} & \qw
+}
+\]
+
+Finally, the Hadamard Operator:
+\begin {align}
+Z &= \begin{bmatrix}
+	\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} \\
+	\frac{1}{\sqrt{2}} & \frac{-1}{\sqrt{2}}
+\end{bmatrix} 
+\end{align}	
+
+We can also create 2-qubit gates by taking two 1-qubit gates and applying the tensor product to their matrices. Not that, as per the rules of the tensor product, this will yield a 4x4 matrix.
+
+\subsection{More Interesting Gates}
+
+A more interesting gate is the 'controlled not' gate, or CNOT. It has the following matrix:
+
+\begin {align}
+CNOT &= \begin{bmatrix}
+	1 & 0 & 0 & 0 \\
+	0 & 1 & 0 & 0 \\
+	0 & 0 & 0 & 1 \\
+	0 & 0 & 1 & 0
+\end{bmatrix} 
+\end{align}	
+
+CNOT takes as input a 'control' qubit and a 'target' qubit. The control qubit will pass through unchanged, but the target will be xored with the control. So, if the control is a and the target is b, CNOT will output a and $a \oplus b$. CNOT has a special circuit diagram, shown below: 
+
+\[
+\Qcircuit @C=1em @R=1em {
+	 & \lstick{a} & \qw & \ctrl{1} & \qw & \rstick{a}  \\ 
+	 & \lstick{b} & \qw & \targ & \qw & \rstick{a \oplus b}
+}
+\]
+
+For the basic 2-bit states, the output of CNOT looks like this:
+
+\begin{align}
+CNOT \ket{00} = \ket{00} \\ 
+CNOT \ket{01} = \ket{01} \\ 
+CNOT \ket{10} = \ket{11} \\ 
+CNOT \ket{11} = \ket{10} 
+\end{align}
+
+Note that, if the first bit is 1, the second bit is flipped -- as one would expect for an xor-like operation.
+
+
+Another complex gate is the Tofolli gate. This takes 3 input qubits, a, b, and c, and changes c to $c \oplus (a \land b)$. You can look up the matrix, but the Toffoli gate circuit looks like this: 
+\[
+\Qcircuit @C=1em @R=1em {
+	& \lstick{a}  & \ctrl{1} &  \rstick{a} \qw  \\ 
+	& \lstick{b}  & \ctrl{1} &  \rstick{b} \qw  \\
+	& \lstick{c}  & \targ &  \rstick{c \oplus (a \land b)}\qw
+} 
+\]
+
+A final unique gate type is the Measure gate. This represents actually measuring the qubit, collapsing it to a classical value. It's represented by a meter symbol:
+
+\[
+\Qcircuit @C=1em @R=0em {
+	& \meter & \qw
+}
+\]
+
+\subsection {An Example Quantum Circuit}
+
+\[
+\Qcircuit @C=1em @R=1em {
+	& \lstick{\ket{0}} & \gate{H} & \ctrl{1} & \meter & \qw  \\ 
+	& \lstick{\ket{0}} & \qw      & \targ  & \meter & \qw  
+}
+\]
+
+The possible outputs of this circuit are 00 and 11, each with probability 1/2. Note that, just before measurement, the state of the qubits is $\frac{1}{\sqrt{2}} (\ket{00} + \ket{11})$ -- the entangled state that was mentioned in equation (21). So, this circuit makes use of an EPR pair!
+
+\subsection{Partial measurement}
+
+Suppose we have the following quantum circuit:
+
+\[
+\Qcircuit @C=1em @R=1em {
+	& \lstick{\ket{0}} & \multigate{1}{QCKT} & \meter & \qw  \\ 
+	& \lstick{\ket{0}} & \ghost{QCKT}        & \qw    & \qw    
+}
+\]
+
+Here, QCKT is some arbitrary quantum circuit. Suppose we want to know the state of the qubits just before the measurement is taken, which will will call $\ket{\phi}$. Then we could write this as:
+
+\begin{align}
+\ket{\phi} = \alpha_{00}\ket{00} + \alpha_{01}\ket{01} + \alpha_{10}\ket{10} + \alpha_{11}\ket{11}
+\end{align}
+
+So, the probability of seeing a 0 in the first bit is: 
+
+\begin{align}
+	|\alpha_{00}|^2 + |\alpha_{01}|^2
+\end{align}
+
+And the probability of seeing 1 in the first bit is:
+
+\begin{align}
+|\alpha_{10}|^2 + |\alpha_{11}|^2
+\end{align}
+
+However, this is BEFORE measurement. After measurement, the probability on the other bit will change -- measuring the first bit gives you additional information about the second. Suppose you measure 0 for bit 1. Then bit 1's state is now:
+
+\begin{align}
+\frac{\alpha_{00}\ket{0} + \alpha_{01}\ket{1}} {\sqrt{|\alpha_{00}|^2 + |\alpha_{01}|^2 }}
+\end{align}
+
+And, if 1 is measured for bit 1, bit 2's state is:
+
+\begin{align}
+\frac{\alpha_{10}\ket{0} + \alpha_{11}\ket{1}} {\sqrt{|\alpha_{10}|^2 + |\alpha_{11}|^2 }}
+\end{align}
+
+Note that we must divide by the square root term to normalize the probabilities, so they still add up to one.
+A final note -- the order in which measurements are performed does NOT affect the output probabilities. You may measure in any order and still get the same result.
+
+\end{document}
