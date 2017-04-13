@@ -10,18 +10,20 @@ modified: 2017-04-04
 
 ## Week 1 
 * **April 04** Qubit, unitary operation, measurement
-  *  **Reading**: Aaronson Lec9 [HTML](http://www.scottaaronson.com/democritus/lec9.html){:target="_blank"}; Watrous Lec1 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/01.pdf){:target="_blank"}
-  *  **HW 1 Out** [[PDF]({{base}}/teaching/s17_4510_qc/s17_qc_hw1.pdf){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/s17_qc_hw1.tex){:target="_blank"}], due April 18, 2017 before class. 
+    *  **Reading**: Aaronson Lec9 [HTML](http://www.scottaaronson.com/democritus/lec9.html){:target="_blank"}; Watrous Lec1 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/01.pdf){:target="_blank"}
+    *  **HW 1 Out** [[PDF]({{base}}/teaching/s17_4510_qc/s17_qc_hw1.pdf){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/s17_qc_hw1.tex){:target="_blank"}], due April 18, 2017 before class. 
 * **April 06** Quantum circuit model
-  *  **Reading**: Watrous Lec2 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/02.pdf){:target="_blank"}, Lec3 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/03.pdf){:target="_blank"}
-<!--  *  **Scribe note** by _Henry Cooney_: [[PDF](){:target="_blank"} [TeX](){:target="_blank"}] -->
+    *  **Reading**: Watrous Lec2 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/02.pdf){:target="_blank"}, Lec3 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/03.pdf){:target="_blank"}
+    *  **Scribe note** by _Henry Cooney_: [[PDF]({{base}}/teaching/s17_4510_qc/170406_hc.pdf){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/170406_hc.tex){:target="_blank"}]
 
 ## Week 2 
 *  **April 11** Reversible computation, quantum query model, Deutsch's algorithm
-   *  **Reading**: Watrous Lec7 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/07.pdf){:target="_blank"}, Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"}
+    *  **Reading**: Watrous Lec7 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/07.pdf){:target="_blank"}, Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"}
+    *  **Scribe note** by _Ben Hamlin_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
 *  **April 13** Deutsch-Josza algorithm, Simon's Problem
-   *  **Reading**: Watrous Lec5 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/05.pdf){:target="_blank"}, Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"}; Vazirani Lec7 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lecture7.pdf){:target="_blank"}  
-
+    *  **Reading**: Watrous Lec5 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/05.pdf){:target="_blank"}, Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"}; Vazirani Lec7 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lecture7.pdf){:target="_blank"}  
+    *  **Scribe note** by _Mayank Sharma_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
+	
 ## Week 3
 *  **April 18** Quantum Fourier transform, Phase estimation
    *  Watrous Lec8 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"}, Lec9 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"}
