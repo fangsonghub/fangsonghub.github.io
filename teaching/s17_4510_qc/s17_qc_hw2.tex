@@ -1,0 +1,242 @@
+% Created by Fang Song on April 4 2017. Instructions: you don't need
+% to change anything in the macros, but feel free to define new
+% commands as you wish. Starting from the main body, change the specs
+% (e.g., your name). use \begin{solution} \end{solution} environment
+% to write your solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2017}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\def\complex{\mathbb{C}}
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\kera}[1]{\ket{#1}\bra{#1}}
+
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+%\studentfalse
+
+\def\issuedate{April 18, 2017}
+\def\duedate{May 02, 2017} % 
+\def\yourname{your name} % put your name here
+%------------------------------%
+\ifstudent
+\hw{2}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{2}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.}
+%Solutions must be typeset in \LaTeX\ (a template for this homework is available on the course web page).
+Your solutions will be graded on \emph{correctness} and
+\emph{clarity}. You should only submit work that you believe to be
+correct; if you cannot solve a problem completely, you will get
+significantly more partial credit if you clearly identify the gap(s)
+in your solution. It is good practice to start any long solution with
+an informal (but accurate) ``proof summary'' that describes the main
+idea. For this problem set, a random subset of problems will be
+graded. Problems marked with ``\mG'' are required for graduate
+students. Undergraduate students will get bonus points for solving them.
+
+\medskip
+\noindent You may collaborate with others on this problem set% and consult external sources
+.  However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\begin{questions}
+  \question (Norms) For a vector
+  $v = (v_0, \ldots, v_{N-1})\in \complex^N$, let
+  $\|v\|:=\sqrt{\sum_{i=0}^{N-1} |v_i|^2}$, which is the usual
+  Euclidean length of $v$. For any $N \times N$ matrix
+  $M\in \complex^{n\times n}$, define its \emph{spectral norm}
+  $\|M \|$ as $\|M\| = \max_{\ket{\psi}} \| M \ket{\psi}\|$, where the
+  maximum is taken over quantum states (i.e., vectors $\ket{\psi}$
+  such that $\| \ket{\psi}\| = 1$).  Define the distance between two
+  $N \times N$ unitary matrices $U_1$ and $U_2$ as $\|U_1 - U_2\|$.
+
+  \begin{parts}
+    \part[5] Show that $\|A - B\| \leq \|A - C\| + \| C - B \|$, for any
+    three $N \times N$ matrices A, B, and C. (Thus, this distance
+    measure satisfies the \emph{triangle inequality}.)
+    \part[5] Show that for any $A$ and identity matrix $I$,
+    $\|A \otimes I\| = \|A\|$.
+    \part[5] Show that, for any two $N\times N$ unitary matrices $U_1$
+    and $U_2$, and any matrix $A$, $\|U_1AU_2\| = \|A\|$.
+  \end{parts}
+  Note: more generally we can define $p$-norms for $v\in \complex^N$
+  as $\|v\|_p:= \left(\sum_i |v_i|^p\right)^{1/p}$ for
+  $1\leq p < \infty$ and $\|v\|_\infty:= \max_i \{|v_i|\}$. The
+  Euclidean distance is then the special case $\|\cdot\|_2$. These
+  vector norms give rise to \emph{induced norms} on matrices
+  $M \in \complex^{N\times N}$ by
+  $\|M\|_{p}:=\sup\{\|Mv\|_{p}: v\in \complex^N,
+  \|v\|_p=1\}$. Therefore the spectral norm is the induced Euclidean
+  ($p=2$) norm.
+  
+  \question (Quantum Fourier Transform)
+  \begin{parts}
+    
+
+  \part[12] Let $F_N$ denote the $N$-dimensional Fourier transform
+  \begin{equation*}
+    F_N := \frac{1}{\sqrt N}\left(
+    \begin{array}{ccccc}
+      1 & 1 & 1 & \cdots & 1\\
+      1 &\omega_N & \omega_N^2&\cdots& \omega_N^{N-1} \\
+      1 &\omega^2_N & \omega_N^4&\cdots& \omega_N^{2(N-1)}\\
+      \vdots &\vdots&\vdots&\vdots&\vdots\\
+      1 &\omega_N^{N-1} & \omega_N^{2(N-1)}&\cdots& \omega_N^{(N-1)^2}\\
+    \end{array} \right),  \text{ where } \omega_N := e^{2\pi i / N} (i =\sqrt {−1})
+  \end{equation*}
+
+  (an $N\times N$ matrix, with entry
+  $\frac{1}{\sqrt{N}} e^{(2\pi i /N)jk}$ position $j,k$ for
+  $j, k \in \{0, 1, \ldots, N-1\}$.
+  \begin{enumerate}[label=\roman*)]
+  \item Show that all rows in $F_N$ are vectors of length 1, and any
+    two rows are orthogonal.
+  \item What is $F_N^2$? (Hint: The matrix has a very simple form.)
+  \item What is the minimum $j$ such that $F_N^j = I$ is the identity?
+    
+  \end{enumerate}
+
+  \part[5] In class, we computed the QFT modulo $N=2^n$ by a quantum
+  circuit of size $O(n^2)$.  Recall that it uses gates of the form
+    \begin{equation*}
+      R_k = \left(
+    \begin{array}{lllc}
+      1 & 0 &0 &0\\
+      0 & 1 &0 &0 \\
+      0 & 0 & 1& 0 \\
+      0 & 0 & 0 & e^{2\pi i /{2^k}} 
+    \end{array} \right)   
+    \end{equation*}
+    for $k\in \{2,\ldots,n\}$. Show that $\|R_k - I\| \leq 2\pi/{2^k}$
+    , where I is the $4 \times 4$ identity matrix. (Thus, $R_k$ gets
+    very close to $I$ when $k$ increases.)
+    
+    \part[8] Here we compute an \emph{approximation} of this QFT
+    within $\veps$ by a quantum circuit of size $O(n
+    \log(n/\veps)$. The idea to start with the $O(n^2)$ circuit and
+    then remove some of its $R_k$ gates (it is equivalent to changing
+    the $R_k$ gate to identity gate). Removing an $R_k$ gate makes the
+    circuit smaller but also changes the unitary transformation, but
+    if $k$ is large then from above we can deduce that removing a
+    $P_k$ gate changes the unitary transformation by only a small
+    amount. Show how to use this approach to obtain a quantum circuit
+    of size $O(n\log (n/\veps)$ that computes a unitary transformation
+    $\tilde F_N$ such that $\| \tilde F_N − F_N \| \leq \veps$.
+    (Hint: Try removing all $R_k$ gates where $k\geq t$, for some
+    carefully chosen threshold $t$. The properties of our distance
+    measure from the previous question should be useful for your
+    analysis here.)
+\end{parts}
+
+\question (Square root of a quantum operation) Let $U$ be a unitary
+quantum circuit on $n$ qubits. In this problem, we want to construct
+another circuit that computes a square root of $U$ (i.e., a unitary
+$V$ such that $V^2 = U$).
+
+\begin{parts}
+  
+
+
+\part[5] Let $X = \left(
+    \begin{array}{lr}
+      0 & 1\\
+      1 & 0
+    \end{array} \right)$ be the matrix for a 1-qubit NOT gate. Find a $2\times 2$ matrix $V$ (i.e.,
+  1-qubit gate) such that $V^2 = X$.
+
+  \part[5] Suppose we construct $V$ by simply taking the square root
+  of each gate $U_i$ in circuit $U$, does this work, i.e. is
+  $V^2 = U$? Justify your answer.
+
+  \part[20] We explore a strategy of implementing $V$ using the
+  \emph{phase estimation} algorithm. Suppose $U$ is constituted by $s$
+  two-qubit gates. We study a simple case here. Let
+  $\{\ket{\psi_x}: x ∈ \{0,\ldots, 2^n - 1\}\}$ be a set of
+  orthonormal eigenvectors of $U$ with eigenvalues in
+  $\{\pm 1, \pm i\}$. Namely
+  $U \ket{\psi_x} = i^{\phi_x} \ket{\psi_x}$ with
+  $\phi_x \in \{0,1,2,3\}$. We outline a construction of $V$ as
+  follows such that $V\ket{\psi_x} = \omega^{\phi_x} \ket{\psi_x}$
+  where $\omega= e^{2\pi i /8}$:
+  \begin{itemize}
+  \item Construct a generalized-control-$U$, with two control-qubits,
+    i.e.,
+    $\ket{a b}\otimes \ket{c} \mapsto \ket{ab}\otimes U^{ab}{\ket{c}}$
+    (applying $U$ iff. both $a=1$ and $b=1$).
+  \item Then apply the phase-estimation algorithm to this
+    controlled-$U$ gate, which results in a circuit that computes
+    $ab = \phi_x$, in two ancillary qubits for any input
+    $\ket{\psi_x}$.
+  \item Apply gates to those two ancilliary qubits to induce the
+    mapping $\ket{ab} \mapsto \omega^{ab}\ket{ab}$.
+  \item Then apply the inverse of the phase-estimation circuit.
+\end{itemize}
+ Answer the following questions:
+ \begin{enumerate}[label=\roman*)]
+ \item Explain how to construct a circuit computing the two-qubit
+   controlled-$U$ operation using $3s$ 3-qubit gates.
+ \item Explain how to construct a circuit computing $ab = \phi_x$ on
+   input $\ket{\phi_x}$ using $3s$ 3-qubit gates, one 2-qubit gate,
+   and four 1-qubit gates.
+ \item Give a quantum circuit consisting of two 1-qubit gates that
+   maps each basis state $\ket{ab}$ to $\omega^{ab}\ket{ab}$.
+ \item Verify that the construction $V$ is correct, i.e.,
+   $V\ket{\psi_x} = \omega^{\phi_x} \ket{\psi_x}$. Explain why this
+   implies $V^2 = U$, namely $V$ computes the squre root of $U$ on any
+   input state $\ket{\psi}$.
+
+ \end{enumerate}
+ Note: the total gate cost is $6s$ 3-qubit gates plus two 2-qubit
+ gates plus eight 1-qubit gates. This can be converted into a circuit
+ consisting of $O(s)$ 2-qubit gates, not much more than the original
+ circuit.
+\end{parts}  
+\end{questions}
+
+
+\end{document}

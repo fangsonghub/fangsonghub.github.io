@@ -5,7 +5,7 @@ desc: Schedule
 permalink: /teaching/s17_4510_qc/schedule/
 title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (Subject to change)
-modified: 2017-04-04
+modified: 2017-04-18
 ---
 
 ## Week 1 
@@ -25,16 +25,23 @@ modified: 2017-04-04
     *  **Scribe note** by _Mayank Sharma_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
 	
 ## Week 3
-*  **April 18** Quantum Fourier transform, Phase estimation
-   *  Watrous Lec8 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"}, Lec9 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"}
-*  **April 20** Order finding, Kitaev's algorithm
-   * Watrous Lec10 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/10.pdf){:target="_blank"}; Vazirani Lec12 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/phase.pdf){:target="_blank"}  
+*  **April 18** Simon's algorithm cont'd, Phase estimation
+   *  Watrous Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"}, Lec8 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"}
+   *  HW 1 due.  **HW 2
+      Out**
+      [[PDF]({{base}}/teaching/s17_4510_qc/s17_qc_hw2.pdf){:target="_blank"}
+      [TeX]({{base}}/teaching/s17_4510_qc/s17_qc_hw2.tex){:target="_blank"}],
+      due May 02, 2017 before class.
+    *  **Scribe note** by _Nate Launchbury_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->	  
+*  **April 20** Phase estimation general case, Quantum Fourier Transform
+    * Watrous Lec9 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"}; Vazirani Lec12 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/phase.pdf){:target="_blank"}  
+	*  **Scribe note** by _John Donahue_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->	  
 
 ## Week 4
-*  **April 25** Factoring to order finding, Shor's algorithm
-   *  Vazirani Lec8 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/factoring1.pdf){:target="_blank"}; Watrous Lec11 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/11.pdf){:target="_blank"}  
-*  **April 27** Hidden subgroup problem framework
-   *  Vazirani Lec9 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec9.pdf){:target="_blank"}  
+*  **April 25** Order finding & factoring, Kitaev's algorithm
+   *  Watrous Lec10 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/10.pdf){:target="_blank"}, Lec11 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/11.pdf){:target="_blank"}; 
+*  **April 27** Shor's algorithm, Hidden subgroup problem framework
+   *  Vazirani Lec8 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/factoring1.pdf){:target="_blank"}, Lec9 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec9.pdf){:target="_blank"}  
 
 ## Week 5
 *  **May 02** Unstructured search, Grover's algorithm
