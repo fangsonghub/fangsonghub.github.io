@@ -33,7 +33,7 @@ problem (big congrats if you do!).
    including proper preliminary materials (e.g., notations &
    defintions), explaning some main technical results; and finally 4)
    further discussion and open questions.
-*  **Report Format**: follow the 2017 [ACM Article Template](https://www.acm.org/publications/proceedings-template){:target="_blank"} "**ACM Small**" format. Here is a sample [TeX]({{base}}/teaching/s17_4510_qc/sample-acmsmall.tex){:target="_blank"} and its [PDF]({{base}}/teaching/s17_4510_qc/sample-acmsmall.pdf){:target="_blank"}. MS Word templates and samples are available on [ACM's website](https://www.acm.org/publications/proceedings-template){:target="_blank"}. 
+*  **Report format**: single-column, single-space (between lines) format on letter-size paper. LaTeX and BibTeX are highly recommended. Here is a simple [[TeX]({{base}}/teaching/s17_4510_qc/sample-quantum.tex){:target="_blank"} [PDF]({{base}}/teaching/s17_4510_qc/sample-quantum.pdf){:target="_blank"}] template. You may follow a suitable 2017 [ACM Article Template](https://www.acm.org/publications/proceedings-template){:target="_blank"} (e.g., _ACM Small_ format). Many LaTeX and MS word templates are availabe there. <!-- Here is a sample [TeX]({{base}}/teaching/s17_4510_qc/sample-acmsmall.tex){:target="_blank"} and its [PDF]({{base}}/teaching/s17_4510_qc/sample-acmsmall.pdf){:target="_blank"}.MS Word templates and samples are available on [ACM's website](https://www.acm.org/publications/proceedings-template){:target="_blank"}. --> 
 
 ### Timeline 
 *  **Week 1 & 2**: forming groups.  
