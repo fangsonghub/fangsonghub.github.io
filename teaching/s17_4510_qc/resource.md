@@ -5,7 +5,7 @@ desc: Resource
 permalink: /teaching/s17_4510_qc/resource/
 title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
 subtitle: Resources
-modified: 2017-04-11
+modified: 2017-04-19
 ---
 ## Main materials for this course
 
@@ -62,3 +62,5 @@ U. Vazirani: @UC Berkeley Quantum Computation
   e.g., [Overleaf](https://www.overleaf.com/){:target="_blank"}
   and [ShareLaTeX](https://www.sharelatex.com/){:target="_blank"}.
 *  [Qcircuit package](https://github.com/CQuIC/qcircuit){:target="_blank"} for drawing quantum circuits in LaTeX, and more examples [[PDF](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.pdf){:target="_blank"} [TeX](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.tex){:target="_blank"}] by Charemza.
+* [QuTiP](http://qutip.org/) Quantum Toolbox in Python. 
+* IBM [Quantum Experience](http://research.ibm.com/ibm-q/qx/). 
