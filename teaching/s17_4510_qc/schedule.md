@@ -19,7 +19,7 @@ modified: 2017-04-18
 ## Week 2 
 *  **April 11** Reversible computation, quantum query model, Deutsch's algorithm
     *  **Reading**: Watrous Lec7 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/07.pdf){:target="_blank"}, Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"}
-    *  **Scribe note** by _Ben Hamlin_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
+    *  **Scribe note** by _Ben Hamlin_: [[PDF]({{base}}/teaching/s17_4510_qc/170411_bh.pdf){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/170411_bh.tex){:target="_blank"}]
 *  **April 13** Deutsch-Josza algorithm, Simon's Problem
     *  **Reading**: Watrous Lec5 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/05.pdf){:target="_blank"}, Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"}; Vazirani Lec7 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lecture7.pdf){:target="_blank"}  
     *  **Scribe note** by _Mayank Sharma_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->

@@ -1,0 +1,273 @@
+\documentclass[11pt]{article}
+%============Macros==================%
+% you don't need to change anything. start editing from main body.
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%--------------Header------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2017}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 6in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 6in { \term \hfill \emph{#2}}
+       \hbox to 6in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\lecture}[4]{\handout{#1}{#2}{#3}{#4}{{Lecture #1}}}
+
+\newcommand{\vecket}[2]{\begin{pmatrix}#1\\#2\end{pmatrix}}
+\newcommand{\rttwoinv}{\frac{1}{\sqrt{2}}}
+\newcommand{\ket}[1]{|#1\rangle}
+\newcommand{\poly}{\text{poly}}
+\newcommand{\makeroom}{\vspace{5mm}\noindent}
+\newcommand{\overwire}[1]{\text{\raisebox{5mm}{$^{#1}$}}}
+
+\newtheorem{theorem}{Theorem}
+
+%=============Main Doc=================%
+\begin{document}
+%-----Specs: change accordingly--------%
+\def\lecdate{April 11, 2017} % put lecture date here
+\def\scribe{Scribe: Ben Hamlin} % put your name here
+\def\lecnum{3} % change the lecture number
+
+\lecture{\lecnum}{\lecdate}{\prof}{\scribe}%
+
+\begin{center}
+{\textsc{Version: \today}}  
+\end{center}
+
+%==============================%
+\section{Measurement}
+%==============================%
+
+What is it doing?
+
+\makeroom
+Measurement in the standard, or ``computational'' basis:
+\begin{align*}
+\ket{\Phi}
+        = \alpha\ket{0} + \beta\ket{1}
+        = \vecket{\alpha}{\beta}
+        \in \mathbb{C}^2 && \text{where } |\alpha|^2 + |\beta|^2 = 1
+\end{align*}
+\begin{itemize}
+\item $\alpha$ and $\beta$ are ``amplitudes''.
+\item Projects $\vecket{\alpha}{\beta}$ onto one of $\vecket{0}{1}$ or
+      $\vecket{1}{0}$.
+\item Probability is magnitude: $|\alpha|^2$ or $|\beta|^2$.
+\end{itemize}
+
+\makeroom
+We can also measure in other orthonormal bases, e.g., the diagonal basis:
+\[\{\ket{+},\ket{-}\} = \left\{\rttwoinv\vecket{1}{1},
+  \rttwoinv\vecket{1}{-1} \right\}\]
+
+%==============================%
+\section{A General Quantum Circuit}
+%==============================%
+
+\[\Qcircuit @C=1em @R=1em {
+\ket{\Phi}      &&& {/}\qw & \multigate{1}{\mathcal{U}_f} & {/}\qw & \meter \\
+\ket{0 \dots 0} &&& {/}\qw &        \ghost{\mathcal{U}_f} & {/}\qw & {|}\qw
+}\]
+\begin{itemize}
+\item $\ket{\Phi}$ is an $n$-qubit register.
+\item The lower register are $\poly(n)$ scrap---or ``ancillary''---qubits.
+\item We measure $m$ qubits at the end and discard the rest.
+\end{itemize}
+
+\makeroom
+Note that we only measure at the end. Is this too restrictive? No
+
+\makeroom
+\textbf{Principle of Deferred Measurement:}
+\begin{theorem}
+\textit{Informally:} A quantum circuit with intermediate measurement can be
+simulated by a quantum circuit thet only measures at the end with linear
+overhead.
+\end{theorem}
+
+How? For any intermediate measurement on register $A$, replace it by
+introducing an ancillary register $B$ and apply CNOT gate with $A$
+being the control and $B$ as the target. $A$ goes through whatever
+operation that comes next and $B$ is left untouched till the endo of
+computation at which point it gets measured (i.e. discarded). The
+actual output registers will have the same distribution as the
+original circuit. Clearly the \emph{overhead} of the transformation is
+only linear in the size of the original circuit. 
+
+%==============================%
+\section{Reversible Computation}
+%==============================%
+
+Is a quantum circuit at least as powerful as a classical circuit? Yes.
+\begin{itemize}
+\item Since quantum gates are unitary matrices, they are reversible (bijective).
+\item Classical gates like \framebox{$\land$} are \textit{not} reversible.
+\item We can simulate classical gates reversibly with extra bits and Toffoli
+      gate:
+\end{itemize}
+
+\begin{align*}
+\text{\framebox{$\land$}} \-\ &\equiv \-\ \-\ \Qcircuit @C=1em @R=1em {
+a && \ctrl{2} & \qw & \qw & a \\
+b && \ctrl{1} & \qw & \qw & b \\
+0 && \targ    & \qw &     & a \land b
+} \\ \\
+\text{\framebox{$\lor$}} \-\ &\equiv \-\ \-\ \Qcircuit @C=1em @R=1em {
+a && \gate{\lnot} & \ctrl{2} & \qw          & \qw & \qw & a \\
+b && \gate{\lnot} & \ctrl{1} & \qw          & \qw & \qw & b \\
+0 && \qw          & \targ    & \gate{\lnot} & \qw &     & a \lor b
+} \\ \\
+\text{\framebox{FANOUT}} \-\ &\equiv \-\ \-\ \Qcircuit @C=1em @R=1em {
+a && \qw          & \ctrl{2} & \qw    & \qw & a \\
+0 && \gate{\lnot} & \ctrl{1} & {|}\qw &     &   \\
+0 && \qw          & \targ    & \qw    & \qw & a
+}
+\end{align*}
+
+\begin{theorem}\label{thm:rev}
+\textit{Informally:} A classical circuit $C_f$ implementing an arbitrary
+function $f : \{0,1\}^n \to \{0,1\}^m$ using \framebox{$\land$},
+\framebox{$\lor$}, and $\framebox{$\lnot$}$ can be simulated by a reversible
+circuit $RC_f$ using $\poly(n)$ \framebox{$\lnot$} and Toffoli gates. Such a
+reversible circuit will have an additional $\ell = \poly(n)$ junk input bits and
+an additional $n+\ell-m$ output junk bits.
+\end{theorem}
+
+\makeroom
+We can clean up the junk bits from Theorem \ref{thm:rev}. Given $RC_f$, we
+construct $RC_f^{-1}$ by flipping the order of application. Then we construct
+$U_f : (x,0^m) \mapsto (x,f(x))$ by composing the two:
+
+\[\Qcircuit @C=1em @R=1em {
+x \in \{0,1\}^n &&&& {/}\qw & \multigate{1}{RC_f} & {/}\qw & \ctrl{2} & \qw
+        & f(x) & & {/}\qw & \multigate{1}{RC_f^{-1}} & {/}\qw & \qw & x \\
+0^{\ell} && \qw & \qw & {/}\qw & \ghost{RC_f} & {/}\qw & \qw & \qw
+        & \qw & \qw & {/}\qw & \ghost{RC_f^{-1}} & {/}\qw & \qw & 0^{\ell} \\
+0^{m} && \qw & \qw & {/}\qw & \qw & \qw & \targ & \qw
+        & \qw & \qw & \qw & \qw & {/}\qw & \qw & f(x)
+}\]
+
+%==============================%
+\section{The Power of Quantum Circuits}
+%==============================%
+
+$U_f$ can be implemented as a quantum circuit, since it is unitary. And since
+the above construction is polynomial in time and space complexity,
+\[P \subseteq BQP\]
+
+\makeroom
+And since a quantum circuit has randomness (via applying $H$ and measuring),
+\[BPP \subseteq BQP\]
+
+\makeroom
+Can quantum algorithms do better than their classical counterparts? Consider the
+following toy example:
+
+\begin{align*}
+&\Qcircuit @C=1em @R=1em {
+\ket{0} && \qw & \gate{H} & {\overwire{\ket{+}}}\qw & \gate{H} & \meter & \qw & 0
+        &&& (1) \\
+\ket{0} && \qw & \gate{H} & \meter                  & \gate{H} & \meter & \qw & \phi
+        &&& (2)
+} \\
+&\phi = \begin{cases}
+                0 & \text{ w.p. } \frac{1}{2} \\
+                1 & \text{ w.p. } \frac{1}{2}
+        \end{cases}
+\end{align*}
+
+\makeroom
+In (1), defering measurement allow amplitudes to interfere, eliminating the
+possibility of evaluating to 1, whereas in (2), measuring after each gate limits
+us to classical probabilities.
+
+\makeroom
+Quantum speedup uses interference to
+\begin{itemize}
+\item reinforce the amplitudes of outcomes we want, and
+\item cancel out the amplitudes of ``undesired'' outcomes.
+\end{itemize}
+
+%==============================%
+\section{Query Model}
+%==============================%
+
+\textit{Given:}
+\begin{itemize}
+\item An oracle $O_f : (\ket{x}\otimes \ket{y}) \mapsto (\ket{x}\otimes \ket{f(x) \oplus y})$
+      for the function $f(\cdot)$.
+\item $O_f$ is a quantum circuit that can be queried in superposition.
+\end{itemize}
+
+\makeroom
+\textit{Goal:}
+\begin{itemize}
+\item Compute some information about $f(\cdot)$ by querying $O_f$.
+\item Complexity calculated in number of queries.
+\item Ideally pre-/post-processing is also time-efficient (polynomial), but
+      that's not the emphasis.
+\end{itemize}
+
+\makeroom
+\textit{Why do we study this model?}
+\begin{itemize}
+\item Simple and easy to analyze.
+\item Captures the essence of QC and provides insight.
+\item Despite its generality, captures concrete problems, such as factoring.
+\end{itemize}
+
+%==============================%
+\section{Deutsch's Problem and Algorithm}
+%==============================%
+
+\textit{Given:}
+\begin{itemize}
+\item A function $f : \{0,1\} \to \{0,1\}$.
+\item Classically, 2 queries are necessary and sufficient.
+\end{itemize}
+
+\makeroom
+\textit{Goal:} Decide whether $f(\cdot)$ is constant ($f(0) = f(1)$) or balanced
+($f(0) \not= f(1)$).
+
+\makeroom \emph{Classical algorithms}: no matter deterministic or
+randomized, it is easy to verify that 2 queries are both sufficient
+and necessary to solve this problems. However, there is a
+\emph{quantum} algorithm that needs only $\mathbf{1}$ query.
+
+\makeroom \textit{Quantum Algorithm:}
+\[\Qcircuit @C=1em @R=1em {
+\ket{0} && \gate{H} & \multigate{1}{O_f} & \gate{H} & \meter & \qw &&& z \in \{0,1\} \\
+\ket{1} && \gate{H} &        \ghost{O_f} & {|}\qw   &        &     &&&
+}\]
+\begin{itemize}
+\item $f(\cdot)$ is balanced iff $z = 1$.
+\item 1 query is sufficient.
+\end{itemize}
+
+\end{document}
