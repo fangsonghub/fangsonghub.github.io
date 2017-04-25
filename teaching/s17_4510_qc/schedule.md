@@ -40,9 +40,12 @@ modified: 2017-04-18
 ## Week 4
 *  **April 25** Order finding & factoring, Kitaev's algorithm
    *  Watrous Lec10 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/10.pdf){:target="_blank"}, Lec11 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/11.pdf){:target="_blank"}; 
+    *  **Scribe note** by _Thomas Patecky_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/170406_hc.pdf){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/170406_hc.tex){:target="_blank"}]-->
 *  **April 27** Shor's algorithm, Hidden subgroup problem framework
-   *  Vazirani Lec8 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/factoring1.pdf){:target="_blank"}, Lec9 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec9.pdf){:target="_blank"}  
-
+   *  Vazirani Lec8 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/factoring1.pdf){:target="_blank"}, Lec9 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec9.pdf){:target="_blank"}
+       *  **Scribe note** by _Alex Kelly_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/170406_hc.pdf){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/170406_hc.tex){:target="_blank"}]-->
+    * Project proposal **due by midnight**!
+	
 ## Week 5
 *  **May 02** Unstructured search, Grover's algorithm
    *  **Reading**: Vazirani Lec11 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/grover.pdf){:target="_blank"}; Watrous Lec12 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/12.pdf){:target="_blank"}, Lec13 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/13.pdf){:target="_blank"}  
