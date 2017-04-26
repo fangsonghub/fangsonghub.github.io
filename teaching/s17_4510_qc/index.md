@@ -8,6 +8,7 @@ modified: <2017-04-04 Tue>
 ---
 
 ## Announcement
+*  <2017-04-25 Tue> Correction to HW2: 2 (c) should be  $$\|\tilde F_N - F_N\|\leq \varepsilon$$. 
 *  <2017-04-04 Tue> Grad students please sign up for scirbe [here](https://docs.google.com/a/pdx.edu/spreadsheets/d/1KJ9amYylo2acxsylG8aIvFElpx3DPeAPtSjsnne4c_c/edit?usp=sharing){:targte="_blank"}. (PSU account needed for access). See [Admin]({{base}}/teaching/s17_4510_qc/admin/) page for a Latex template.  
 *  <2017-04-04 Tue> HW 1 is out (on [Schedule]({{base}}/teaching/s17_4510_qc/schedule/) page). TeX source file is provided too as a
    template for you to typeset your solutions.
