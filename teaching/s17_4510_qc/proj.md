@@ -267,6 +267,8 @@ There is a large body of research that explores abstractly the power and the lim
      M. Kaplan, S. Laplante, L. Salvail.
     * [[BCG+02](https://arxiv.org/abs/quant-ph/0205128)]
      _Authentication of Quantum Messages_ by Howard Barnum et al.
+	* Quantum **Secure Computation**: a nice (a litte
+      dated) [talk](http://pirsa.org/07040029/) by Adam Smith. 
     * **Quantum Money** [[AC12](https://arxiv.org/abs/1203.4740)]
      _Quantum Money from Hidden Subspaces_ by Scott Aaronson, Paul
      Christiano.
