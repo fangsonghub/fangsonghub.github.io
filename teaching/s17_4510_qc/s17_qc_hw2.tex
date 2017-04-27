@@ -170,7 +170,22 @@ students. Undergraduate students will get bonus points for solving them.
     (Hint: Try removing all $R_k$ gates where $k\geq t$, for some
     carefully chosen threshold $t$. The properties of our distance
     measure from the previous question should be useful for your
-    analysis here.)
+    analysis here.) For your reference the quantum circuit for QFT is
+    given below.
+
+    \begin{figure}[ht]
+\centerline{
+\Qcircuit @C=1em @R=0.75em {
+   \lstick{\ket{x_{n-1}}}   &   \gate{H}  &   \gate{R_2}   &   \gate{R_3}   &   \cdots      &   \gate{R_{n}}   &   \qw        &   \qw           &   \qw      &   \qw           &   \qw        &   \qw     &   \qw           &   \qw        &   \rstick{\ket{y_0}} \qw       \\
+   \lstick{\ket{x_{n-2}}}   &   \qw       &   \ctrl{-1}     &   \qw           &   \qw      &   \qw           &   \gate{H}   &   \gate{R_2}   &   \cdots      &   \gate{R_{n-1}}   &   \qw        &   \qw     &   \qw           &   \qw        &   \rstick{\ket{y_1}} \qw       \\
+   \lstick{\ket{x_{n-3}}}   &   \qw       &   \qw           &   \ctrl{-2}     &   \qw      &  \qw            &   \qw        &   \ctrl{-1}     &   \qw      &   \qw           &   \gate{H}   &   \qw     &   \gate{R_2}   &   \qw        &   \rstick{\ket{y_2}} \qw       \\
+   \lstick{\vdots }         &             &                 &                 &   \ddots   &                 &              &                 &   \ddots   &                 &              &   \ddots  &                 &              &   \rstick{\vdots }             \\
+   \lstick{\ket{x_{0}}}     &   \qw       &   \qw           &   \qw           &   \qw      &   \ctrl{-4}     &    \qw       &   \qw           &   \qw      &   \ctrl{-3}     &   \qw        &   \qw     &   \ctrl{-2}     &   \gate{H}   &   \rstick{\ket{y_{n-1}}} \qw
+}
+}
+\caption{QFT circuit in $\mathbb{Z}_{2^n}$.}
+\end{figure}
+   
 \end{parts}
 
 \question (Square root of a quantum operation) Let $U$ be a unitary
@@ -206,11 +221,10 @@ $V$ such that $V^2 = U$).
   \begin{itemize}
   \item Construct a generalized-control-$U$, with two control-qubits,
     i.e.,
-    $\ket{a b}\otimes \ket{c} \mapsto \ket{a b}\otimes U^{a\cdot
-      b}{\ket{c}}$ (applying $U$ iff. both $a=1$ and $b=1$). (A word
-    on notation: $ab$ is the two-bit string, e.g., $01$, identified
-    with an integer in $\{0,1,2,3\}$, and $a\cdot b = a \wedge b$ is
-    bit multiplication i.e., applying ADD gate).
+    $\ket{a b}\otimes \ket{c} \mapsto \ket{a b}\otimes
+    U^{ab}{\ket{c}}$. (A word on notation: $ab$ is the two-bit string,
+    e.g., $01$, and it is identified with an integer in
+    $\{0,1,2,3\}$.)
   \item Then apply the phase-estimation algorithm to this
     controlled-$U$ gate, which results in a circuit that computes
     $ab = \phi_x$, in two ancillary qubits
