@@ -17,6 +17,7 @@
 \usepackage{xspace}
 \usepackage[svgnames]{xcolor}
 \usepackage[sc]{mathpazo}
+\usepackage{soul} %strike
 \usepackage{enumitem}
 \setlist[enumerate]{itemsep=1pt,topsep=2pt}
 \setlist[itemize]{itemsep=1pt,topsep=2pt}
@@ -49,7 +50,7 @@
 \newcommand{\bra}[1]{\langle #1 \rvert}
 \newcommand{\ket}[1]{\lvert #1 \rangle}
 \newcommand{\kera}[1]{\ket{#1}\bra{#1}}
-
+\newcommand{\corr}[1]{{\color{blue}{#1}}}
 %=======Main document==============%
 \begin{document}
 
@@ -58,7 +59,7 @@
 \studenttrue 
 %\studentfalse
 
-\def\issuedate{April 18, 2017, Update: April 25}
+\def\issuedate{April 18, 2017, Update: April 30}
 \def\duedate{May 02, 2017} % 
 \def\yourname{your name} % put your name here
 %------------------------------%
@@ -163,7 +164,7 @@ students. Undergraduate students will get bonus points for solving them.
     the $R_k$ gate to identity gate). Removing an $R_k$ gate makes the
     circuit smaller but also changes the unitary transformation, but
     if $k$ is large then from above we can deduce that removing a
-    $P_k$ gate changes the unitary transformation by only a small
+    $\corr{R}_k$ gate changes the unitary transformation by only a small
     amount. Show how to use this approach to obtain a quantum circuit
     of size $O(n\log (n/\veps)$ that computes a unitary transformation
     $\tilde F_N$ such that $\| \tilde F_N - F_N \| \leq \veps$.
@@ -211,7 +212,7 @@ $V$ such that $V^2 = U$).
   \part[20] We explore a strategy of implementing $V$ using the
   \emph{phase estimation} algorithm. Suppose $U$ is constituted by $s$
   two-qubit gates. We study a simple case here. Let
-  $\{\ket{\psi_x}: x ∈ \{0,\ldots, 2^n - 1\}\}$ be a set of
+  $\{\ket{\psi_x}: x \corr{\in} \{0,\ldots, 2^n - 1\}\}$ be a set of
   orthonormal eigenvectors of $U$ with eigenvalues in
   $\{\pm 1, \pm i\}$. Namely
   $U \ket{\psi_x} = i^{\phi_x} \ket{\psi_x}$ with
@@ -236,10 +237,12 @@ $V$ such that $V^2 = U$).
  Answer the following questions:
  \begin{enumerate}[label=\roman*)]
  \item Explain how to construct a circuit computing the two-qubit
-   controlled-$U$ operation using $3s$ 3-qubit gates.
+   controlled-$U$ operation using $3s$ 3-qubit gates. (\corr{You may
+     assume that you can implement the single-qubit controlled version
+     of each two-qubit gate in $U$ by a 3-qubit gate.})
  \item Explain how to construct a circuit computing $ab = \phi_x$ on
-   input $\ket{\phi_x}$ using $3s$ 3-qubit gates, one 2-qubit gate,
-   and four 1-qubit gates.
+   input \st{$\ket{\phi_x}$} \corr{$\ket{\psi_x}$} using $3s$ 3-qubit
+   gates, one 2-qubit gate, and four 1-qubit gates.
  \item Give a quantum circuit consisting of two 1-qubit gates that
    maps each basis state $\ket{ab}$ to $\omega^{ab}\ket{ab}$.
  \item Verify that the construction $V$ is correct, i.e.,
