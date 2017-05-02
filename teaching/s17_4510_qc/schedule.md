@@ -44,15 +44,20 @@ modified: 2017-04-25
 *  **April 27** factoring, Shor's algorithm, Hidden subgroup problem
    framework
     *  Vazirani Lec8 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/factoring1.pdf){:target="_blank"}, Lec9 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec9.pdf){:target="_blank"}
-    *  **Scribe note** by _Alex Kelly_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/170406_hc.pdf){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/170406_hc.tex){:target="_blank"}]-->
+    *  **Scribe note** by _Thomas Patecky_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/170406_hc.pdf){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/170406_hc.tex){:target="_blank"}]-->
     * Project proposal **due by midnight** in any time zone!
 	
 ## Week 5
 *  **May 02** Unstructured search, Grover's algorithm
-   *  **Reading**: Vazirani Lec11 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/grover.pdf){:target="_blank"}; Watrous Lec12 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/12.pdf){:target="_blank"}, Lec13 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/13.pdf){:target="_blank"}  
+   *  **Reading**: Vazirani Lec11 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/grover.pdf){:target="_blank"}; Watrous Lec12 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/12.pdf){:target="_blank"}, Lec13 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/13.pdf){:target="_blank"}
+   *  HW 2 due.  **HW 3
+      Out**
+      [[PDF]({{base}}/teaching/s17_4510_qc/s17_qc_hw3.pdf){:target="_blank"}
+      [TeX]({{base}}/teaching/s17_4510_qc/s17_qc_hw3.tex){:target="_blank"}],
+      due May 16, 2017 before class.
 *  **May 04** Optimalilty of Grover's algorithm, quantum query complexity
-   *  **Reading**: Vazirani Lec10 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec10.pdf){:target="_blank"}; [[BBBV97](https://arxiv.org/pdf/quant-ph/9701001.pdf){:target="_blank"}]  
-
+   *  **Reading**: Vazirani Lec10 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec10.pdf){:target="_blank"}; [[BBBV97](https://arxiv.org/pdf/quant-ph/9701001.pdf){:target="_blank"}]
+   
 ## Week 6
 *  **May 09** Entanglement, superdense coding, Bell's inequality
    *  Vazirani Lec3 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lecture3.pdf){:target="_blank"}; Watrous Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"}, Lec20 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/20.pdf){:target="_blank"}

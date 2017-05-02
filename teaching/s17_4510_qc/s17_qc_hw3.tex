@@ -1,0 +1,247 @@
+% Created by Fang Song on April 4 2017. Instructions: you don't need
+% to change anything in the macros, but feel free to define new
+% commands as you wish. Starting from the main body, change the specs
+% (e.g., your name). use \begin{solution} \end{solution} environment
+% to write your solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{soul} %strike
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2017}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\def\complex{\mathbb{C}}
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\kera}[1]{\ket{#1}\bra{#1}}
+\newcommand{\bret}[2]{\langle{#1}|{#2}\rangle}
+\newcommand{\corr}[1]{{\color{blue}{#1}}}
+\newcommand{\bool}{\ensuremath{\{0,1\}}}
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+%\studenttrue 
+\studentfalse
+
+\def\hwnum{3} %number
+\def\issuedate{May 2, 2017}
+\def\duedate{May 16, 2017} % 
+\def\yourname{your name} % put your name here
+%------------------------------%
+\ifstudent
+\hw{\hwnum}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{\hwnum}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.}
+%Solutions must be typeset in \LaTeX\ (a template for this homework is available on the course web page).
+Your solutions will be graded on \emph{correctness} and
+\emph{clarity}. You should only submit work that you believe to be
+correct; if you cannot solve a problem completely, you will get
+significantly more partial credit if you clearly identify the gap(s)
+in your solution. It is good practice to start any long solution with
+an informal (but accurate) ``proof summary'' that describes the main
+idea. For this problem set, a random subset of problems will be
+graded. Problems marked with ``\mG'' are required for graduate
+students. Undergraduate students will get bonus points for solving them.
+
+\medskip
+\noindent You may collaborate with others on this problem set% and consult external sources
+.  However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\begin{questions}
+  \question (Shor's algorithm) In this problem, we study further
+  properties of quantum Fourier transform, and analyze Shor's
+  algorithm for order finding that we've seen briefly in class. Recall
+  the Quantum Fourier Transform $QFT_{\mathbb{Z}_M}$ for some integer
+  $M$:
+    \begin{equation*}
+      \ket{\alpha} = \sum_{x = 0}^{M-1} \alpha_x \ket{x}
+      \quad\stackrel{QFT_{\mathbb{Z}_N}}{\longmapsto} \quad \ket{\hat
+        \alpha}=\sum_{y=0}^{M-1} \hat \alpha_y \ket{y} 
+    \end{equation*}
+    where $\hat \alpha_y = \frac{1}{\sqrt M}\sum_{x} \omega_M^{xy}$,
+    $\omega_N = e^{2\pi i /M}$, for each $y \in [M]$.
+
+\begin{parts}
+  \part[5] Index shift. Let $j \in \mathbb{Z}_M$, and define
+  $\ket{\alpha_{+j}}:= \sum_x \alpha_x \ket{x + j \bmod M}$. Compute
+  $\ket{\hat \alpha_{+j}}:=QFT_{\mathbb{Z}_M} \ket{\alpha_{+j}} =?
+  $. Justify from your result that measuring $\ket{\hat \alpha}$ and
+  $\ket{\hat \alpha_{+j}}$ produce the same probability distribution.
+  \part[8] Periodic superposition. Consider an integer $r$ such that
+  $M= \ell \cdot r$ for some $\ell \in \mathbb{Z}$. Define
+  $\ket{P_r}:= \frac{1}{\sqrt{\ell}}\sum_{k = 0}^{\ell - 1} \ket{kr} =
+  \frac{1}{\sqrt{\ell}}(\ket{0} + \ket{r} + \ldots + \ket{(\ell - 1)
+    r})$. Show that applying $QFT_{\mathbb{Z}_M}$ on $\ket{P_r}$ gives
+  $\frac{1}{\sqrt{r}}\sum_{k=0}^{r-1}\ket{k\ell} = \frac{1}{\sqrt
+    r}(\ket{0} + \ket{\ell} + \ldots + \ket{(r-1)\ell})$.
+  \part[12] We can use the properties above to analyze Shor's order
+  finding algorithm as illustrated in the circuit below. Our goal is
+  to find the order of $a$ mod a positive integer $N$, namely the
+  smallest $r$ such that $a^r=1\bmod N$.
+  $E_a: \ket{x}\ket{y}\mapsto\ket{x}\ket{y+a^x\bmod N}$ is the unitary
+  circuit implementing the modular exponentiation function
+  $x\in\mathbb{Z}_{2^m} \mapsto a^x \bmod N$. 
+  \begin{figure}[ht]
+    \centerline{ \Qcircuit @C=2em @R=1.5em { \lstick{\ket{0^m}} &
+        \gate{H^{\otimes m}} & \multigate{1}{E_a} &
+        \gate{QFT_{\mathbb{Z}_{2^m}}} &  \meter & \qw \quad {s}  \\
+        \lstick{\ket{0^n}}& \qw &\ghost{E_a} & \qw & \qw & \qw } }
+    \caption{Shor's algorithm}
+  \end{figure}
+
+  \begin{enumerate}[label=\roman*)]
+  \item What is the quantum state right after applying $E_a$? Since
+    the bottom register will never be used, we may assume that it gets
+    measured immediately. What do you see as the measurement outcome?
+    Suppose that the outcome is $z$, what is the state on the top
+    register then?
+  \item Then QFT is applied on top followed by a measurement, we call
+    the outcome a sample $s$. Suppose that in this simple case, we are
+    able to pick $m$ such that $r | 2^m$. Show how to use multiple
+    samples to recover the order of $a$ with high probability.
+  \end{enumerate}
+  \part (Exercise. You do not need to turn it in.) In general, we do
+  not know an $m$ such that $r|2^m$ to run Shor's algorithm. Describe
+  how to compute the order $\text{ORD}_N(a)$ then. Note: the core
+  technique in Shor's algorithm is usually referred to as
+  \emph{Fourier sampling} as it produces random samples from the
+  Fourier transform of the function. Conceptually, you may view order
+  finding as a hidden subgroup problem on $\mathbb{Z}$ given the
+  function $x\in \mathbb{Z} \mapsto a^x \bmod N$, and Shor's algorithm
+  uses $QFT_{2^m}$ in order to \emph{approximately} Fourier sample
+  over $\mathbb{Z}$.
+\end{parts}
+\question (Grover's algorithm) This problem explores extensions of
+Grover's search algorithm. Consider as usual a function
+$f:\{0,1\}^n \to \{0,1\}$. Define
+$A = f^{-1}(1):= \{ x\in \bool^n: f(x) = 1\}$ and
+$B = f^{-1}(0) := \{x\in \bool^n: f(x) =0\}$. Let $a = |A|$ be the
+number of ``marked'' items and $b = N-a$ where $N=2^n$. We further
+define $\ket{A}: = \frac{1}{\sqrt a} \sum_{x\in A} \ket{x}$ and
+$\ket{B}:= \frac{1}{\sqrt b} \sum_{x\in B} \ket{x}$. 
+\begin{parts}
+  \part[5] Run Grover's algorithm with $f$ on input
+  $\ket{0^n}$. Namely we apply unitary $G := -HZ_0HZ_f$ repetitively
+  on $H\ket{0^n}$ where $Z_0: \ket{x}\mapsto - \ket{x}$ iff. $x = 0^n$
+  and $Z_f: \ket{x}\mapsto (-1)^{f(x)}\ket{x}$. Denote
+  $\ket{\psi^0} = H\ket{0^n}$ and $\ket{\psi^t}:= G^t\ket{\psi^0}$ for
+  $t\geq 1$.  Show that every $\ket{\psi^t}$ can be written as
+  $\cos(\theta_t)\ket{A} + \sin(\theta_t)\ket{B}$. How does $\theta_t$
+  change to $\theta_{t+1}$? (Hint: geometric interpretation of
+  Grover's algorithm)
+
+  \part[5] Show that if we pick $t$ to be the nearest integer to
+  $\frac 1 2 (\frac{\pi}{2\theta_0} - 1)$,
+  $|\bret{\psi^t}{A}|^2 \geq 1/2$. This implies that measuring
+  $\ket{\psi^t}$ will output an element $x$ of $A$ with probability at
+  least $1/2$. What is the distribution of $x$, conditioned on being
+  in $A$?
+
+  \part[5] Assuming $a$ is known to us. How to find an element of $A$
+  with high probability using $O(\sqrt{N/a})$ queries to the oracle?
+  \part[7] What if $a$ is unknown? Show that if one picks
+  $t\in \{1,\ldots, \sqrt N + 1\}$ at random and run Grover's
+  algorithm, it succeeds in finding a marked element with probability
+  at least $1/4$. 
+  \part[10] Show how to find a marked item with high probability
+  within $O(\sqrt{N/a})$ queries. (Hint: pick random
+  $t \in \{1,\ldots T\}$ with a small $T$ in the beginning and try. If
+  fail increment $T$ slowly but exponentially.)
+  \part[10] \mG One natural application of Grover's algorithm is
+  finding the minimum element in a list of $N$ numbers. Give a
+  $O(\sqrt N)$ quantum algorithm. (Hint: can you pick a \emph{random}
+  pivot element every time that is smaller than the current pivot
+  element? Part b) may be helpful.)
+ 
+\end{parts}
+\question (Mixed states and density matrix) 
+
+\begin{parts}
+  \part[5] A density matrix ρ corresponds to a pure state if and only if
+  $\rho = \kera{\psi}$. Show that $\rho$ corresponds to a pure state
+  if and only if $Tr(\rho^2) = 1$.
+  \part[5] Show that every $2\times 2$ density matrix $\rho$ can be
+  expressed as an equally weighted mixture of pure states. That is
+  $\rho = \frac 1 2 \kera{\psi_1} + \frac 1 2 \kera{\psi_2}$ (Note:
+  the two states do not need to be orthogonal).
+  % \part \mG Show that, for any matrix $\rho$ that is Hermitian,
+  % positive definite (i.e., has no negative eigenvalues) with trace 1,
+  % there is a probabilistic mixture of pure states whose denisty matrix
+  % is $\rho$.
+  \part[5] Imagine two parties Alice and Bob. Alice flips a biased coin
+  which is HEADS with probability $\cos^2(\pi/8)$. Alice prepares
+  $\ket{0}$ when she sees coin $0$ and $\ket{1}$ otherwise. From
+  Alice’s perspective (who knows the coin value), the density matrix
+  of the state she created will be either $\kera{0}$ or
+  $\kera{1}$. She then sends the qubit to Bob. What is the density
+  matrix of the state from Bob’s perspective (who does not know the
+  coin value)? Write down the matrix.
+\end{parts}
+
+\question[8] (Teleporting part of an entangled state.) Recall that, in the
+teleportation protocol, Alice and Bob initially have a joint state of
+the form
+$(\alpha\ket{0}_A + \beta\ket{1}_A) \frac{1}{\sqrt 2}
+(\ket{00}_{AB}+\ket{11}_{AB})$. (Subscripts indicate who possesses
+each qubit). At the end of the protocol, there remains only Bob’s
+qubit, and it is in state $\alpha\ket{0}_B + \beta\ket{1}_B$. Now we
+introduce a third party, Carol. Suppose that Alice possesses a qubit
+that she want to teleport to Bob, and this qubit is entangled with
+Carol’s qubit, in state
+$\frac{1}{\sqrt 2} \ket{00}_{CA} + \ket{11}_{CA}$. Set the initial
+state to
+
+\begin{equation*}
+  \frac{1}{\sqrt 2} (\ket{00}_{CA} + \ket{11}_{CA}) \otimes
+  \frac{1}{\sqrt 2}( \ket{00}_{AB} + \ket{11}_{AB}) \, .
+\end{equation*}
+
+Perform the teleportation protocol on Alice’s and Bob’s qubits. At the
+end of the protocol, there will remain two qubits: Carol’s and
+Bob’s. What is the state of Carol and Bob’s qubits? Justify your
+answer by a clear proof.
+\end{questions}
+
+
+\end{document}
