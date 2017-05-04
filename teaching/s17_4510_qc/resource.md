@@ -43,7 +43,7 @@ U. Vazirani: @UC Berkeley Quantum Computation
 
 ## Books 
    
-* [Quantum Computation and Quantum Information](http://www.cambridge.org/us/academic/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/quantum-computation-and-quantum-information-10th-anniversary-edition?format=PB&isbn=9781107002173){:target="_blank"} by Michael Nielsen and Isaac Chuang. The dense and comprehensive bible to have though a bit dated.  
+* [Quantum Computation and Quantum Information](http://www.cambridge.org/us/academic/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/quantum-computation-and-quantum-information-10th-anniversary-edition?format=PB&isbn=9781107002173){:target="_blank"} by Michael Nielsen and Isaac Chuang. The dense and comprehensive bible to have though a bit dated. Online view available via [PSU Library](http://search.library.pdx.edu/PSU:all:CP51230839460001451){:target="_blank"}.
 
 * [Classical and Quantum Computation (Graduate Studies in Mathematics)](https://www.amazon.com/Classical-Quantum-Computation-Graduate-Mathematics/dp/0821832298){:target="_blank"}, AMS, 2002, by A. Yu. Kitaev, A. H. Shen and M. N. Vyalyi. Concise, rigourous and insightful presentation.  
 
