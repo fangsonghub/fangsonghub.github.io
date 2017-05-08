@@ -4,10 +4,12 @@ title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
 courseid: s17 410/510
 desc: s17 410/510
 permalink: /teaching/s17_4510_qc/
-modified: <2017-04-04 Tue>
+modified: <2017-05-08 Mon>
 ---
 
 ## Announcement
+*  <2017-05-08 Mon> Solutions to HW1 and HW2 available on D2L.
+*  <2017-05-02 Tue> HW 3 out, due on May 16 before class. 
 *  <2017-04-25 Tue> Correction to HW2: 2 (c) should be  $$\|\tilde F_N - F_N\|\leq \varepsilon$$. 
 *  <2017-04-04 Tue> Grad students please sign up for scirbe [here](https://docs.google.com/a/pdx.edu/spreadsheets/d/1KJ9amYylo2acxsylG8aIvFElpx3DPeAPtSjsnne4c_c/edit?usp=sharing){:targte="_blank"}. (PSU account needed for access). See [Admin]({{base}}/teaching/s17_4510_qc/admin/) page for a Latex template.  
 *  <2017-04-04 Tue> HW 1 is out (on [Schedule]({{base}}/teaching/s17_4510_qc/schedule/) page). TeX source file is provided too as a

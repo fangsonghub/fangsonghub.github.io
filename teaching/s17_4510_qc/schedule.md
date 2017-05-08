@@ -5,7 +5,7 @@ desc: Schedule
 permalink: /teaching/s17_4510_qc/schedule/
 title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (Subject to change)
-modified: 2017-04-25
+modified: 2017-05-08
 ---
 
 ## Week 1 
@@ -27,12 +27,12 @@ modified: 2017-04-25
 ## Week 3
 *  **April 18** Simon's algorithm cont'd, Phase estimation
    *  Watrous Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"}, Lec8 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"}
-   *  HW 1 due.  **HW 2
+    *  **Scribe note** by _Nate Launchbury_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
+    *  HW 1 due.  **HW 2
       Out**
       [[PDF]({{base}}/teaching/s17_4510_qc/s17_qc_hw2.pdf){:target="_blank"}
       [TeX]({{base}}/teaching/s17_4510_qc/s17_qc_hw2.tex){:target="_blank"}],
       due May 02, 2017 before class.
-    *  **Scribe note** by _Nate Launchbury_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->	  
 *  **April 20** Phase estimation general case, Quantum Fourier Transform
     * Watrous Lec9 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"}; Vazirani Lec12 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/phase.pdf){:target="_blank"}  
 	*  **Scribe note** by _John Donahue_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->	  
@@ -50,17 +50,19 @@ modified: 2017-04-25
 ## Week 5
 *  **May 02** Unstructured search, Grover's algorithm
    *  **Reading**: Vazirani Lec11 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/grover.pdf){:target="_blank"}; Watrous Lec12 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/12.pdf){:target="_blank"}, Lec13 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/13.pdf){:target="_blank"}
+    *  **Scribe note** by _Mohamed Abidalrekab_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
    *  HW 2 due.  **HW 3
       Out**
       [[PDF]({{base}}/teaching/s17_4510_qc/s17_qc_hw3.pdf){:target="_blank"}
       [TeX]({{base}}/teaching/s17_4510_qc/s17_qc_hw3.tex){:target="_blank"}],
       due May 16, 2017 before class.
 *  **May 04** Optimalilty of Grover's algorithm, quantum query complexity
-   *  **Reading**: Vazirani Lec10 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec10.pdf){:target="_blank"}; [[BBBV97](https://arxiv.org/pdf/quant-ph/9701001.pdf){:target="_blank"}]
+    *  **Reading**: Vazirani Lec10 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec10.pdf){:target="_blank"}; [[BBBV97](https://arxiv.org/pdf/quant-ph/9701001.pdf){:target="_blank"}]
+    *  **Scribe note** by _Asher Toback_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
    
 ## Week 6
 *  **May 09** Entanglement, superdense coding, Bell's inequality
-   *  Vazirani Lec3 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lecture3.pdf){:target="_blank"}; Watrous Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"}, Lec20 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/20.pdf){:target="_blank"}
+    *  Vazirani Lec3 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lecture3.pdf){:target="_blank"}; Watrous Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"}, Lec20 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/20.pdf){:target="_blank"}
 *  **May 11** mixed states, density operators, POVM 
    *  Watrous Lec14 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/14.pdf){:target="_blank"}, Lec15 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/15.pdf){:target="_blank"}
    
