@@ -39,7 +39,7 @@ problem (big congrats if you do!).
 *  **Week 1 & 2**: forming groups.  
 *  **Week 3 & 4**: meeting and discussing project ideas.
 *  **April 27**: proposal due.
-*  **May 18**: mid-term report due.
+*  **May 18**: mid-term report due. <b style="color: red;">Extended till Monday, May 22!</b> 
 *  **Week 10**: in-class presentations. 
 *  **June 15**: final report due. 
 

@@ -61,18 +61,28 @@ modified: 2017-05-08
     *  **Scribe note** by _Asher Toback_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
    
 ## Week 6
-*  **May 09** Entanglement, superdense coding, Bell's inequality
+*  **May 09** Entanglement, teleportation, superdense coding
     *  Vazirani Lec3 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lecture3.pdf){:target="_blank"}; Watrous Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"}, Lec20 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/20.pdf){:target="_blank"}
-*  **May 11** mixed states, density operators, POVM 
+	 *  **Scribe note** by _Ben Hamlin_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
+*  **May 11** non-local games, density operators, mixed states
    *  Watrous Lec14 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/14.pdf){:target="_blank"}, Lec15 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/15.pdf){:target="_blank"}
-   
+    *  **Scribe note** by _Nate Launchbury_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
+
 ## Week 7
-*  **May 16** Entropy, Holevo's theorem
+*  **May 16** POVM, Entropy, Holevo's theorem
    *  Vazirani Lec13 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qinfo.pdf){:target="_blank"}, Lec17 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec17/lec17.pdf){:target="_blank"}
+    *  **Scribe note** by _Enis Inan_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
+	*  HW 3 due.  **HW 4
+      Out**
+      [[PDF]({{base}}/teaching/s17_4510_qc/s17_qc_hw4.pdf){:target="_blank"}
+      [TeX]({{base}}/teaching/s17_4510_qc/s17_qc_hw4.tex){:target="_blank"}],
+      due May 30 before class.
 *  **May 18** Quantum Error correcting and Fault tolerance
    *  Vazirani Lec21 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qecc.pdf){:target="_blank"}; Watrous Lec16 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/16.pdf){:target="_blank"}, Lec17 (CSS codes) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/17.pdf){:target="_blank"}
- 
+  *  **Scribe note** by _Asher Toback_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
+
 ## Week 8
+*  **May 22** Project mid-term report **due by midnight** in any time zone!
 *  **May 23** Quantum computational complexity
    *  Watrous Lec22 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/22.pdf){:target="_blank"} 
 *  **May 25** Quantum computational complexity
@@ -84,7 +94,7 @@ modified: 2017-05-08
 *  **June 01** Selected topic: non-abelian HSP, quantum walk, quantum adiabetic computation 
 
 ## Week 10
-*  **June 06** Project presntation
-*  **June 08** Project presntation
+*  **June 06** Project presentation
+*  **June 08** Project presentation
 
 ### Final project report due: Thursday, June 15, 11:59pm PDT. 
