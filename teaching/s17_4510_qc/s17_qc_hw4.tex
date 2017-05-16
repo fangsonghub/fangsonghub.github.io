@@ -103,7 +103,7 @@ them.
 
   \begin{parts}
     \part Give a sequence of $2\times 4$ matrices $A_1,\ldots, A_k$
-    with $\sum_{j = 1}^k A_j\dagger A_j = I$ that compute the OR
+    with $\sum_{j = 1}^k A_j^\dagger A_j = I$ that compute the OR
     operation in the sense that, for all $a, b\in\{0,1\}$, when
     $\rho = \kera{a,b}$,
     $\sum_{j = 1}^k A_j\rho A_j\dagger = \kera{a\vee b}$.
@@ -127,6 +127,44 @@ them.
   % standard basis. (Hint: consider $m 2^n \times 2^n}$ matrix $V$
   % formed by vertically stacking $E_j$. Show the columns are
   % orthogonal, and extend $V$ to a unitary of dimension $m2^n$.)
+
+  \question (Entropy) Let $H(\cdot)$ denote the Shannon entropy and
+  $S(\cdot)$ be the von Neumann entropy. $S(A:B)$ denotes quantum
+  mutual information.
+  \begin{parts}
+    \part (Exercise) Let $X$ be a random variable taking values in
+    $\{0,\ldots, 2^{m^2}\}$ with probability distribution $p_x =
+    \left\{
+      \begin{array}{c l}
+        1 - 1/m & \text{ if } x = 0\\
+        \frac{1}{m 2^{m^2}} & \text{ otherwise } \, .
+      \end{array} \right.$
+    Calculate $H(X)$? Conclude that $H(X) \to \infty$ as $m\to
+    \infty$, but one sample of $X$ is almost certainty 1. 
+    \part[5] Let $\rho = p \kera{0} + (1-p)\kera{+}$. Compute
+    $S(\rho)$. How does it compare to the entropy of a biased coin $X$
+    where HEADS appears with probability $p$?
+    \part[10] Suppose that $p_x$ are probabilities, $\ket{x}$ are
+    orthogonal states for a system $A$, and $\rho_x$ is any set of
+    density matrices for another system $B$.
+    \begin{enumerate}[label=\roman*)]
+    \item Show that
+    %\begin{equation*}
+      $ S\left( \sum_{x}p_x \kera{x} \otimes \rho_x \right) = H(p_x) +
+      \sum_{x} p_x S(\rho_x) \, .$
+      % \end{equation*}
+    \item Consider ensemble of density matrices
+      $\mathcal{E}: = \{p_x,\rho_x\}$. Show that the following two
+      definitions of Holevo's information quantity $\chi$ are equivalent.
+    \begin{eqnarray*}
+      & & \chi(\mathcal{E}):= S(A:B), \text{ with } \rho_{AB}= \sum_{x}p_x
+        \kera{x} \otimes \rho_x \, ;\\
+        \& && \chi(\mathcal{E}) := S(\sum_{x} p_x\rho_x) - \sum_{x} p_x
+             S(\rho_x)  \, .
+    \end{eqnarray*}
+  \end{enumerate}
+
+  \end{parts}
   
   \question (Quantum error-correcting) 
   \begin{parts}
@@ -224,9 +262,9 @@ them.
     \emph{monogamy of entanglement}: the more system $A$ is entangled
     with $B$, the less $A$ is entangled with another system $C$.
   \end{parts}
-  \question (Quantum rewinding) Let $Q$ be a unitary quantum circuit
-  that takes an $m$-qubit input state $\ket{\psi}$ and ancilla 
-  $\ket{0^k}$, and let the output state be 
+  \question (Bonus: Quantum rewinding.) Let $Q$ be a unitary quantum
+  circuit that takes an $m$-qubit input state $\ket{\psi}$ and ancilla
+  $\ket{0^k}$, and let the output state be
   \begin{equation*}
     Q \ket{\psi}\ket{0^k} = \sqrt{p(\psi)} \ket{0}\ket{\phi_0(\psi)}
     + \sqrt{1-p(\psi)}\ket{\phi_1(\psi)} \, .
@@ -238,18 +276,22 @@ them.
   produce $\ket{\phi_0(\psi)}$ from input state $\ket{\psi}$. If we
   have multiple copies of $\ket{\psi}$, we may repeat running $Q$ and
   hope to measure $0$ in one of the instances. This problem explores
-  when we can do so with just a single copy of $\ket{\psi}$.
+  when we can do so with just a single copy of (unknown)
+  $\ket{\psi}$. In general, measuring one qubit may already collapse
+  the state, and it is not clear if it is possible to get
+  $\ket{\phi_0(\psi)}$ if the measurement outcome was 1.
+  
   \begin{parts}
-    \part[5] Give an example of $Q$ and $\psi$ such that if we run $Q$
-    and unluckily get measurement outcome $1$, it becomes impossible
-    to produce $\ket{\phi_0(\psi)}$.
-    \part[5] Consider a special case of $Q$ where $p(\psi) = p$ for
-    all $\ket{\psi}$ (i.e., $p(\psi)$ is independent of
-    $\ket{\psi}$). Give such an example of $Q$. 
-    \part (Do not need to turn it in) Assume that the condition of
-    part (b) holds and for  is constant over all
-    choices of the $\ket{\psi}$ with $p\in (0,1)$). Show that for
-    every $\veps > 0$ there is a general quantum circuit $R$, with
+    % \part[5] Give an example of $Q$ and $\psi$ such that if we run $Q$
+    % and unluckily get measurement outcome $1$, it becomes impossible
+    % to produce $\ket{\phi_0(\psi)}$.
+    % \part[5] Consider a special case of $Q$ where $p(\psi) = p$ for
+    % all $\ket{\psi}$ (i.e., $p(\psi)$ is independent of
+    % $\ket{\psi}$). Give such an example of $Q$. 
+    \part (Do not need to turn it in) Consider a special case that
+    $p(\psi)=p$ is constant over all choices of the $\ket{\psi}$ with
+    $p\in (0,1)$). Show that for every $\veps > 0$ there is a general
+    quantum circuit $R$, with
     $\text{size}(R) = O(\log(1/\veps)\cdot \text{size}(Q))$ such that
     the output $\rho(\psi)$ of $R$ satisfies
     \begin{equation*}     
