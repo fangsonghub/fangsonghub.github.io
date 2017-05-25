@@ -141,7 +141,7 @@ them. Bonus problems in this homework have extended due date till June
         \frac{1}{m 2^{m^2}} & \text{ otherwise } \, .
       \end{array} \right.$
     Calculate $H(X)$? Conclude that $H(X) \to \infty$ as $m\to
-    \infty$, but one sample of $X$ is almost certainty 0. 
+    \infty$, but one sample of $X$ is almost \corr{certainly} 0. 
     \part[5] Let $\rho = p \kera{0} + (1-p)\kera{+}$. Compute
     $S(\rho)$. How does it compare to the entropy of a biased coin $X$
     where HEADS appears with probability $p$?
@@ -164,7 +164,9 @@ them. Bonus problems in this homework have extended due date till June
              S(\rho_x)  \, .
     \end{eqnarray*}
   \end{enumerate}
-
+  \corr{Update:} $S(A:B) = S(\rho_A) + S(\rho_B) - S(\rho_{AB})$ is
+  the quantum mutual information between system $A$ and $B$.
+  
   \end{parts}
   
   \question (Quantum error-correcting) 
@@ -182,9 +184,12 @@ them. Bonus problems in this homework have extended due date till June
     \item Write the 1-qubit Hadamard transform H as a linear combination
       of the four Pauli matrices.
     \item Suppose an $H$-error happens on the first qubit of
-      $\alpha\ket{\bar 0} + \beta\ket{1}$ using the 9-qubit code.
+      $\alpha\ket{\bar 0} + \beta\ket{\bar 1}$ using the 9-qubit code.
       Give the various steps in the error-correction procedure that
       corrects this error.
+
+      \corr{Note:} $\ket{\bar b}$ represents a logical qubit, which is
+      the encoded state of $\ket{b}$ under the considered code.
     \end{enumerate}
     \part[10] Show that there cannot be a quantum code that encodes
     one logical qubit by $2k$ physical qubits while being able to
