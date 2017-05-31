@@ -8,6 +8,7 @@ modified: <2017-05-08 Mon>
 ---
 
 ## Announcement
+*  <2017-05-30 Tue> Solutions to HW3 posted on D2L.
 *  <2017-05-08 Mon> Solutions to HW1 and HW2 available on D2L.
 *  <2017-05-02 Tue> HW 3 out, due on May 16 before class. 
 *  <2017-04-25 Tue> Correction to HW2: 2 (c) should be  $$\|\tilde F_N - F_N\|\leq \varepsilon$$. 

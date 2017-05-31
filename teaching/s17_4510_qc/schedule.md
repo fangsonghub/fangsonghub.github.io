@@ -90,11 +90,20 @@ modified: 2017-05-08
    
 ## Week 9
 *  **May 30** Quantum crypto and post-quantum crypto 
-   *  
-*  **June 01** Selected topic: non-abelian HSP, quantum walk, quantum adiabetic computation 
+   *  Watrous Lec18 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/18.pdf){:target="_blank"}; FS's talk at AsiaPQC Forum [[Video](https://www.youtube.com/watch?v=n39-FOmNh5g){:target="_blank"}]
+*  **June 01** Selected topic: simulating quantum systems
+    * Childs Lec9 [PDF](http://www.cs.umd.edu/~amchilds/teaching/w13/l09.pdf){:target="_blank"}
 
 ## Week 10
-*  **June 06** Project presentation
-*  **June 08** Project presentation
+*  **June 06** Project presentations
+    * Enis & Mohamed: Quantum Walks
+	* Mayank: Linear system quantum algorithm
+	* Jared & Nhut: Quantum speedup characteristics
+	* Marko & Devan: Quantum Neural Networks
+*  **June 08** Project presentations
+    * Jorden,Bishoy,Tim,Shashwat: Quantum software
+	* Ben S,John,Tom: Quantum error correcting
+	* Ben H,Nate,Steve: Quantum FHE
+	* Asher & Henry: Quantum secure computation
 
 ### Final project report due: Thursday, June 15, 11:59pm PDT. 
