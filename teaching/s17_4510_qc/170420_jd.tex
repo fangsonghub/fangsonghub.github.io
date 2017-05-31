@@ -1,0 +1,170 @@
+\documentclass[11pt]{article}
+%============Macros==================%
+% you don't need to change anything. start editing from main body.
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\usepackage{braket}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%--------------Header------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2017}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 6in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 6in { \term \hfill \emph{#2}}
+       \hbox to 6in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\lecture}[4]{\handout{#1}{#2}{#3}{#4}{{Lecture #1}}}
+
+\newcommand\fang[1]{{\color{red}[Fang: #1]}}
+%=============Main Doc=================%
+\begin{document}
+%-----Specs: change accordingly--------%
+\def\lecdate{April 20, 2017} % put lecture date here
+\def\scribe{Scribe: John Donahue} % put your name here
+\def\lecnum{6} % change the lecture number
+
+\lecture{\lecnum}{\lecdate}{\prof}{\scribe}%
+
+\begin{center}
+{\textsc{Version: \today}}  
+\end{center}
+
+%==============================%
+\section{Phase Estimation}
+%==============================%
+Remember, for this problem, our input is a quantum circuit for a unitary U, as well as the eigenvector $\ket{\psi}$. $U\ket{\psi}=e^{2\pi i \theta}\ket{\psi}$. Our goal is to approximate $\theta$.
+
+\[
+\Qcircuit @C=1em @R=1em {
+& \lstick{\ket{0}}    & \qw & \gate{H} & \qw & \ctrl{1} & \qw & \multigate{3}{\ \mathcal{F}\ } & \qw & \meter \\
+& \lstick{\ket{0}}    & \qw & \gate{H} & \qw & \ctrl{2} & \qw & \ghost{\ \mathcal{F}\ } & \qw & \meter \\
+& ...\\
+& \lstick{\ket{0}}    & \qw & \gate{H} & \qw & \ctrl{1} & \qw & \ghost{\ \mathcal{F}\ } & \qw & \meter \\
+& \lstick{\ket{\psi}} & \qw & \qw      & \qw & \gate{U} & \qw 
+}
+\]
+
+%==============================%
+\subsection{Special Case}
+%==============================%
+
+First, lets consider the special case $\theta =
+\frac{j}{{2^m}}$. Remember, the state going into $F$ is
+\[  \frac{1}{\sqrt[]{2^m}}\sum_{x \in \{0,1\}^m} e^{2 \pi
+    i \theta x} \ket{x} \]
+
+Let $\omega := e^{\frac{2\pi i}{2^m}}$, rewrite it as
+$ \frac{1}{\sqrt[]{2^m}}\sum_{x \in \{0,1\}^m} \omega^{j x} \ket{x} =
+: \ket{\phi_j}$. Therefore, computing $j$ amounts to distinguishing
+each $\ket{\phi_j}$. 
+
+Now, consider $\{ \ket{\phi_j} : j \in \{ 0,1 \}^m
+\}$. $\braket{\phi_j | \phi_{j'}'}$ will equal 1 if $j = j'$, and 0 if
+otherwise. This forma an orthonormal basis for $m$-qubit states in
+$\mathbb{C}$. There is also a standard basis
+$\{ \ket{j} : j \in \{ 0,1 \}^m \}$. We know that there exists a
+unitary F such that $\ket{\phi_j} \mapsto^F \ket{j}$. So, if we apply
+$F$ to $\ket{\phi_j}$, we will see $j$.
+
+But what is $F$? If $j = 0$, that means $F$ is the following
+$2^m \times 2^m$ matrix.
+
+\begin{align*}
+F = 
+\begin{bmatrix}
+1 & 1 & \dots & 1 & \dots & 1 \\
+1 & \omega & \dots & \omega^j & \dots & \dots \\
+\dots & \dots & \dots & \dots & \dots & \dots & \\
+1 & \omega^{2^m - 1} & \dots & \omega^{j(2^m - 1)} & \dots & \omega^{(2^m - 1)(2^m - 1)}
+\end{bmatrix}
+\end{align*}
+
+This is the discrete Fourier Transform.
+
+%==============================%
+\subsection{General Case}
+%==============================%
+
+Now, lets look at the general case, where $\theta \in [0,1)$. We will see the following.
+
+\begin{align*}
+F\ket{x} = \frac{1}{\sqrt[]{2^m}}\sum_{y \in \{0,1\}^m} \omega^{-y x} \ket{y}
+\end{align*}
+\begin{align*}
+F\ket{\phi} = \frac{1}{\sqrt[]{2^m}}\sum_{x \in \{0,1\}^m} \omega^{j x} F\ket{x}
+\end{align*}
+\begin{align*}
+F\ket{\phi} = \frac{1}{2^m}\sum_{x \in \{0,1\}^m} \omega^{j x} \sum_{y \in \{0,1\}^m} \omega^{-y x} \ket{y}
+\end{align*}
+\begin{align*}
+F\ket{\phi} = \frac{1}{2^m}\sum_{y \in \{0,1\}^m} (\sum_{x \in \{0,1\}^m} e^{2 \pi i x (\theta - \frac{y}{2^m})} )\ket{y}
+\end{align*}
+
+For measuring, we will see this.
+
+\begin{align*}
+Pr[y] = \left|\frac{1}{2^m}\sum_{x \in \{0,1\}^m} e^{2 \pi i x (\theta - \frac{y}{2^m})}\right|^2
+\end{align*}
+
+Note that this looks exactly like a geometric series. That means we can rewrite it without the $\sum$.
+
+\begin{align*}
+Pr[y] = \frac{1}{2^{2m}}|\frac{e^{2 \pi i (M\theta - y)} - 1}{e^{2 \pi i (\theta - \frac{y}{M})} - 1}|^2
+\end{align*}
+
+\fang{add the details of analysis}
+
+This means $\theta = \frac{j}{M} + \epsilon$, $|\epsilon| \leq \frac{1}{2^{m+1}}$. Essentially, this ends up showing $Pr[j] \geq \frac{4}{\pi^2} \geq 0.4$. The larger Pr[j] becomes, the more precise our approximation of $\theta$ will be. In short, the chance that we will have m bits corrext at least 40\% of the time.
+
+%==============================%
+\section{Quantum Fourier Transform}
+%==============================%
+
+\fang{More to add here}
+
+The following shows a quantum circuit for computing Fourier Transform.
+
+\begin{align*}
+R_k = 
+\begin{bmatrix}
+1 & 0 \\
+0 & e^{\frac{2 \pi i}{2^k}}
+\end{bmatrix}
+\end{align*}
+
+\[
+\Qcircuit @C=1em @R=1em {
+& \lstick{\ket{x_{m-1}}} & \qw & \gate{H} & \gate{R_2} & ... & \qw & \gate{R_{m-1}} & \gate{R_{m}} & \qw & \qw & \qw & \qw \\
+& \lstick{\ket{x_{m-2}}} & \qw & \qw & \ctrl{-1} & ... \\
+& ... \\
+& \lstick{\ket{x_1}} & \qw & \qw & \qw & \qw & \qw & \ctrl{-3} & \qw & \gate{H} & \gate{R_2} & \qw & \qw \\
+& \lstick{\ket{x_0}} & \qw & \qw & \qw & \qw & \qw & \qw & \ctrl{-4} & \qw & \ctrl{-1} & \gate{H} & \qw \\
+}
+\]
+
+Lastly, the outputs are all reversed such that $\ket{x_0}$ is on the top.
+
+\end{document}

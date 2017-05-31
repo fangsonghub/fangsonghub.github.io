@@ -27,7 +27,7 @@ modified: 2017-05-08
 ## Week 3
 *  **April 18** Simon's algorithm cont'd, Phase estimation
    *  Watrous Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"}, Lec8 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"}
-    *  **Scribe note** by _Nate Launchbury_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
+    *  **Scribe note** by _Nate Launchbury_: [[PDF]({{base}}/teaching/s17_4510_qc/170418_nl.pdf){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/170418_nl.tex){:target="_blank"}]
     *  HW 1 due.  **HW 2
       Out**
       [[PDF]({{base}}/teaching/s17_4510_qc/s17_qc_hw2.pdf){:target="_blank"}
@@ -35,7 +35,7 @@ modified: 2017-05-08
       due May 02, 2017 before class.
 *  **April 20** Phase estimation general case, Quantum Fourier Transform
     * Watrous Lec9 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"}; Vazirani Lec12 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/phase.pdf){:target="_blank"}  
-	*  **Scribe note** by _John Donahue_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->	  
+	*  **Scribe note** by _John Donahue_: [[PDF]({{base}}/teaching/s17_4510_qc/170420_jd.pdf){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/170420_jd.tex){:target="_blank"}]
 
 ## Week 4
 *  **April 25** Order finding, Kitaev's algorithm
@@ -78,19 +78,23 @@ modified: 2017-05-08
       [TeX]({{base}}/teaching/s17_4510_qc/s17_qc_hw4.tex){:target="_blank"}],
       due May 30 before class.
 *  **May 18** Quantum Error correcting and Fault tolerance
-   *  Vazirani Lec21 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qecc.pdf){:target="_blank"}; Watrous Lec16 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/16.pdf){:target="_blank"}, Lec17 (CSS codes) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/17.pdf){:target="_blank"}
-  *  **Scribe note** by _Asher Toback_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
+    *  Vazirani Lec21 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qecc.pdf){:target="_blank"}; Watrous Lec16 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/16.pdf){:target="_blank"}, Lec17 (CSS codes) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/17.pdf){:target="_blank"}
+    *  **Scribe note** by _Asher Toback_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
 
 ## Week 8
 *  **May 22** Project mid-term report **due by midnight** in any time zone!
 *  **May 23** Quantum computational complexity
-   *  Watrous Lec22 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/22.pdf){:target="_blank"} 
+    *  Watrous Lec22 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/22.pdf){:target="_blank"} 
+    *  **Scribe note** by _John Donahue_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"}
+       [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
 *  **May 25** Quantum computational complexity
-   *  Vazirani Lec6 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lecture6.pdf){:target="_blank"}, Lec19 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qma.pdf){:target="_blank"} 
+    *  Vazirani Lec6 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lecture6.pdf){:target="_blank"}, Lec19 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qma.pdf){:target="_blank"} 
+    *  **Scribe note** by _Enis Enan_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
    
 ## Week 9
 *  **May 30** Quantum crypto and post-quantum crypto 
-   *  Watrous Lec18 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/18.pdf){:target="_blank"}; FS's talk at AsiaPQC Forum [[Video](https://www.youtube.com/watch?v=n39-FOmNh5g){:target="_blank"}]
+    *  Watrous Lec18 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/18.pdf){:target="_blank"}; FS's talk at AsiaPQC Forum [[Video](https://www.youtube.com/watch?v=n39-FOmNh5g){:target="_blank"}]
+    *  **Scribe note** by _Henry Cooney_: <!--[[PDF]({{base}}/teaching/s17_4510_qc/){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/){:target="_blank"}]-->
 *  **June 01** Selected topic: simulating quantum systems
     * Childs Lec9 [PDF](http://www.cs.umd.edu/~amchilds/teaching/w13/l09.pdf){:target="_blank"}
 

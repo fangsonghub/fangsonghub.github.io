@@ -1,0 +1,214 @@
+\documentclass[11pt]{article}
+%============Macros==================%
+% you don't need to change anything. start editing from main body.
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{physics}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%--------------Header------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2017}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 6in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 6in { \term \hfill \emph{#2}}
+       \hbox to 6in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\lecture}[4]{\handout{#1}{#2}{#3}{#4}{{Lecture #1}}}
+
+%=============Main Doc=================%
+\begin{document}
+%-----Specs: change accordingly--------%
+\def\lecdate{April 18, 2017} % put lecture date here
+\def\scribe{Scribe: Nate Launchbury} % put your name here
+\def\lecnum{5} % change the lecture number
+
+\lecture{\lecnum}{\lecdate}{\prof}{\scribe}%
+
+\begin{center}
+{\textsc{Version: \today}}  
+\end{center}
+
+%==============================%
+\section{Simon's Problem}
+%==============================%
+\textbf{Input:} $f : \{0,1\}^n \rightarrow \{0,1\}^n$ as an oracle circuit, 
+
+\[
+\Qcircuit @C=1em @R=1em {
+  \lstick{\ket{x}} & \multigate{1}{\mathcal{O}_f} & \rstick{\ket{x}} \qw \\
+  \lstick{\ket{y}} & \ghost{\mathcal{O}_f} & \rstick{\ket{f(x) \oplus y}} \qw
+  }
+\] \\
+\textbf{Promise:} $\exists s \in \{0,1\}^n$ such that $\forall x,y \in \{0,1\}^n, $ 
+$f(x) = f(y)$ iff $x \oplus y = s$\\\\
+\textbf{Goal:} Find $s$ (using as few oracles queries as possible). \\
+
+Notice that the promise in Simon's problem says that there is some shift, $s$, so that the function $f$ returns the same value only on inputs $x$ and $x \oplus s$, for all inputs $x$. So, intuitively, if we ever observe two inputs that map to the same output value, we can recover $s$, which is our goal. This gives rise to our classical algorithms for solving Simon's problem. \\\\
+\textbf{Deterministic algorithm} (idea): query $\mathcal O_f$ until you observe two distinct inputs with the same output value. Since $f$ maps to $2^n/2$ unique outputs, the pigeon-hole principle tell us that we will need $2^n/2 + 1$ oracle queries in the worst case. \\\\
+\textbf{Randomized algorithm:} 
+\begin{enumerate}
+  \item pick $x_1, ..., x_k \in \{0,1\}^n$ at random
+  \item compute $y_1 = f(x_1), ..., y_k = f (x_k)$
+  \item check if $\exists x_i, x_j$ such that $y_i = y_j$ (call this event $E$) and return $x_i \oplus x_j$ if so
+\end{enumerate}
+How large must $k$ be so that $Pr[E] \geq 0.99$? We find a collision with probability $k^2/2^n$ (by Birthday bound) so we need $k \approx \sqrt{2^n}$ oracle queries to have a high chance of finding $s$.\\\\
+\textbf{Quantum algorithm:}
+\\\\
+Repeat the following quantum circuit, Q, $m$ times, 
+\[\Qcircuit @C=1em @R=1em {
+\ket{0^n}      &&& {/^n}\qw & \gate{H^{\otimes n}} & {/^n}\qw & \multigate{1}{\mathcal{O}_f} & {/^n}\qw & \gate{H^{\otimes n}} & {/^n}\qw & \meter & {/^n}\qw &&&& b_1b_2...b_n=z_j &&&&&&& b_i \in \{0,1\}\\
+\ket{0^n} &&& {/^n}\qw &  \qw &   \qw &   \ghost{\mathcal{U}_f} & {/^n}\qw & {|}\qw
+}\]
+Post-processing on $z_1, z_2, ..., z_m$ gives $s$ (each $z_j$ is the string made by the first $n$ output bits of the $j$-th repetition of the above circuit). \\\\
+%results table%
+\textbf{Results:}
+\begin{center}
+  \begin{tabular}{ l | c | r }
+    \hline
+    Deterministic & Randomized & Quantum \\ \hline
+    $2^n/2 + 1$ & $\Omega(2^n/2)$ & $O(n^2)$ \\ 
+    \hline
+  \end{tabular}
+\end{center}
+
+This is the first quantum algorithm we've seen to give exponential speedup!
+
+%==============================%
+\subsection{Analysis of quantum circuit Q}
+%==============================%
+\begin{align*}
+   \ket{0^n} \otimes \ket{0^n} \xrightarrow{\text{$H^{\otimes n}\otimes I$}}& \dfrac{1}{\sqrt{2^n}} \sum_{x \in \{0,1\}^n} \ket{x} \otimes \ket{0^n} \\
+   \xrightarrow{\text{$\;\;\;\;\;\mathcal{O}_f\;\;\;$}}& \dfrac{1}{\sqrt{2^n}} \sum_{x \in \{0,1\}^n} \ket{x} \otimes \ket{f(x) \oplus 0^n} \\
+   = &\dfrac{1}{\sqrt{2^n}} \sum_{x \in \{0,1\}^n} (\dfrac{1}{\sqrt{2^n}} \sum_{y \in \{0,1\}^n} (-1)^{x \cdot y} \ket{y} \;) \otimes \ket{f(x)} \;\;\;\;\; \text{by previous lemma} \\ 
+  = &\sum_{y \in \{0,1\}^n} (\sum_{x \in \{0,1\}^n} \dfrac{1}{2^n}  (-1)^{x \cdot y} \ket{f(x)} \;\;) \otimes \ket{y} \\
+   = &\ket{\psi_y} \otimes \ket{y}  \hspace*{30mm} \;\;\;\; \text{where} \ket{\psi_y}\;\; =  \sum_{x \in \{0,1\}^n} \frac{1}{2^n} (-1)^{x \cdot y} \ket{f(x)} \\
+   \xrightarrow{\text{measure}} &\;\;?
+\end{align*}
+
+We consider the possibilities after measuring $\ket{\psi_y}$. \\
+Let $\ket{\psi} = \sum_{y \in \{0, 1\}^n} \ket{\psi_y} \otimes \ket{y}$\\
+Define $A = range(f)$, then $|A| = 2^{n-1}$\\
+Notice if $f(x) = z$, there are two possible $x$s: $x_z$ and $x_{z\oplus s}$\\
+So  
+\begin{align*} \sum_{x}(-1)^{x \cdot y} \ket{f(x)} &= \sum_{z \in A} ( (-1)^{x_z \cdot y} + (-1)^{x_{z \oplus s} \cdot y}) \ket{z} \\
+&= \sum_{z \in A} (-1)^{x_z \cdot y}(1 + (-1)^{y \cdot s})  \ket{z}
+\end{align*}
+
+\textbf{Observation:}
+\begin{itemize}
+\item if $y \cdot s = 1$, then $1 + (-1)^{y \cdot s} = 0$
+\item if $y \cdot s = 0$, then $1 + (-1)^{y \cdot s} = 2 \neq 0$
+\item in addition, there are $2^{n-1}$ strings $y$ such that
+  $y \cdot s = 0$.
+\end{itemize}
+
+Therefore,
+\[
+Pr[\text{measure } y] = 
+\begin{cases}
+ 0 & \text{if } y \cdot s = 1 \\ 
+ \frac{1}{2^{n-1}} & \text{if } y \cdot s = 0
+\end{cases}
+\]
+
+
+%==============================%
+\subsection{Geometric interpretation}
+%==============================%
+View $\{0,1\}^n$ as a vector space and pick $m$ vectors on a hyperplane orthogonal to $s$
+We end up with:
+\begin{align*}
+ z_1 \cdot s &= 0 \\ 
+ z_2 \cdot s &= 0 \\
+  ...&\\
+ z_m \cdot s &= 0 \\
+\end{align*}
+since every $z_i$ is orthogonal to $s$. We need $n$ linearly independent equations to uniquely determine $s$ in this way. To get $n$ with high probability we need $m=O(n^2)$. 
+We can then solve for $s$ classically using Coppersmith-Winogard in $O(n^{2.376})$
+
+%==============================%
+\section{Phase Estimation}
+%==============================%
+Consider the following quantum circuit, Q: 
+\[\Qcircuit @C=1em @R=1em {
+& {/^n}\qw &  \qw &   \gate{Q} & \qw & {/^n}\qw & \qw
+}\]
+where Q implements a unitary transformation $U_{N \times N}$ for $N=2^n$ and has eigenvectors, $\{\ket{\psi_1}, \ket{\psi_2}, ..., \ket{\psi_N}\}$. Since $\ket{\psi_j}$ are eigenvectors, 
+\[
+U \ket{\psi_j} = \mathrm{e}^{2\pi i \theta_j}\ket{\psi_j} \text{    and also   } \\
+\ip{\psi_j}{\psi_k} = \begin{cases}
+ 1 & \text{if } j=k \\
+0 & \text{otherwise}
+\end{cases}
+\]
+This means that the set of eigenvectors is orthonormal. \\\\
+\textbf{Input:} \begin{enumerate}
+\item Q, a quantum circuit for $U$
+\item $\ket{\psi}$, an eigenvector of $U$ (so $U \ket{\psi} = \mathrm{e}^{2\pi i \theta}\ket{\psi})$.  \\
+\end{enumerate}
+\textbf{Goal:} Compute $\theta$ approximately. \\\\
+\textbf{Notation:} $\Lambda_m(U)\ket{k}\ket{\phi} = \ket{k}U^k\ket{\phi}$ is a \textit{controlled unitary} with $k \in \{0,...,2^{m-1}\}$:
+
+\[\Qcircuit @C=1em @R=1.6em {    \lstick{} & \cds{1}{\cdots} & \qw & \qw & \ctrl{2} & \qw & \cds{1}{\cdots} & \qw\\    \lstick{} & \qw & \qw & \qw & \ctrl{1} & \qw & \qw & \qw      \inputgroupv{1}{2}{.8em}{.8em}{\ket{k}}\\
+    \ket{\phi} && {/^n}\qw & \qw & \gate{U} & \qw & {/^n}\qw & \qw &&& U^k \ket{\phi}}\]
+   
+\textbf{Fact:} if $k= O(\log n)$ then we can implement $\Lambda_m(U)$ efficiently. \\
+%==============================%
+\subsection{Algorithm}
+%==============================%
+\[\Qcircuit @C=1em @R=1.6em {    \ket{0^m} && \qw & \gate{H^{\otimes n}} & \ctrl{1} & \gate{?} & {/}\qw & \meter & \qw\\
+    \ket{\psi} && \qw & {/^n}\qw & \gate{U} & \qw & {/^n}\qw & {|}\qw}\]
+Let's track how the state changes to figure out the $?$ gate. 
+
+\begin{align*}
+   \ket{0^m} \otimes \ket{\psi} \xrightarrow{\text{$H^{\otimes n}\otimes I$}}& \dfrac{1}{\sqrt{2^m}} \sum_{x \in \{0,1\}^m} \ket{x} \otimes \ket{\psi} \\
+   \xrightarrow{\text{$\;C-U\;\;$}}& \dfrac{1}{\sqrt{2^m}} \sum_{x \in \{0,1\}^m} \ket{x} \otimes U^x \ket{\psi} \\
+   = &\dfrac{1}{\sqrt{2^m}} \sum_{x \in \{0,1\}^m} \mathrm{e}^{2 \pi i \theta x}\ket{x} \otimes \ket{\psi}  \hspace{25mm} \text{since } U^x \ket{\psi} = \mathrm{e}^{2 \pi i \theta x} \ket{\psi} \\
+\end{align*}
+So right before we apply the $?$ gate, we have information about $\theta$. We just need to think of a way to extract that information so that we can recover $\theta$ after measuring (approximately and with high probability). \\
+
+%==============================%
+\subsection{Special case}
+%==============================%
+Consider the case where $\theta = j/2^m, \;\;\; j \in
+\mathbb{Z}$. Then,
+\[ \sum_{x \in \{0,1\}^m} \mathrm{e}^{2 \pi i \theta x}\ket{x} = \sum_{x \in \{0,1\}^m} \mathrm{e}^{2 \pi i (j/2^m) x}\ket{x} = \sum_{x \in \{0,1\}^m} \omega^{xj} \ket{x} \hspace{20mm} \text{where   } \omega = \mathrm{e}^{2 \pi i/2^m}\]
+Define: 
+\[ \ket{\phi_j} := \frac{1}{\sqrt{2^m}} \sum_{x \in \{0,1\}^m} \omega^{xj} \ket{x}, \;\;\;\;\; j \in \{0,...,2^{m-1}\} \]
+Notice, $\{\ket{\phi_j} : j \in \{0,...,2^{m-1}\} \;\}$ has the property that $\ip{\phi_j}{\phi_{j'}} =  \begin{cases}
+ 1 & \text{if } j=j' \\
+0 & \text{otherwise}
+\end{cases}$\\
+Then these form a basis for $m$-qubit states
+$(\mathbb{C}^{2})^{\otimes m}$.\\
+Of course, we also have the normal basis: $\{\; \ket{j}:  j \in \{0,1\}^m \;\}$. \\\\
+Do we have a transformation $F$ such that, $F \ket{\phi_j} = \ket{j}$
+? If we did, we could use $F$ for the $?$ gate and then our
+measurement would give us $j = \theta \cdot 2^m$ and we could easily
+recover $\theta$.  Figuring out $F$ and how to generalize this special
+case will give us a phase-estimation algorithm.
+
+\end{document}
