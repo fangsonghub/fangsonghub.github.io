@@ -2,13 +2,18 @@
 layout: page
 title: Research
 excerpt:
-modified: <2017-02-06 Mon>
+modified: <2017-06-02 Fri>
 ---
 * Table of Contents
 {:toc}
 
 ## Publications
 
+*  **Quantum Security of NMAC and Related Constructions**
+    *  Authors: Fang Song and Aaram Yun
+	*  To appear in _the 37th International Cryptology Conference
+       ([Crypto 2017](https://www.iacr.org/conferences/crypto2017/){:target="_blank"})_.
+	*  [[ePrint](https://eprint.iacr.org/2017/509){:target="_blank"}]
 *   **Zero-knowledge proof systems for QMA**
     *   Authors: Anne Broadbent, Zhengfeng Ji, Fang Song and John Watrous
     *   In _57th Annual IEEE Symposium on Foundations of Computer Science ([FOCS 2016](http://www.wisdom.weizmann.ac.il/~dinuri/focs16/CFP.html))_.
