@@ -5,7 +5,7 @@ desc: Project
 permalink: /teaching/s17_4510_qc/project/
 title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
 subtitle: Course Project
-modified: 2017-04-18
+modified: <2017-10-09 Mon>
 ---
 ## <b style="color: red;">New!</b>  Showroom
 Most students did a great job, especially considering some are undergraduates. 

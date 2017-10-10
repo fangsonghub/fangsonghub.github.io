@@ -5,7 +5,7 @@ desc: Schedule
 permalink: /teaching/s17_4510_qc/schedule/
 title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (Subject to change)
-modified: 2017-05-08
+modified: <2017-10-09 Mon>
 ---
 * Scribe notes have not been carefully proofread. Corrections and
   comments are welcome. (Missing: lec 4, 7, 8, 12, 15)

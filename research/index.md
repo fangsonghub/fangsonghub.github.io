@@ -2,13 +2,18 @@
 layout: page
 title: Research
 excerpt:
-modified: <2017-02-06 Mon>
+modified: <2017-10-09 Mon>
 ---
 * Table of Contents
 {:toc}
 
 ## Publications
 
+*  **Quantum Security of NMAC and Related Constructions**
+    *  Authors: Fang Song and Aaram Yun
+	*  In _the 37th International Cryptology Conference
+       ([Crypto 2017](https://www.iacr.org/conferences/crypto2017/){:target="_blank"})_.
+	*  [[Springer](https://doi.org/10.1007/978-3-319-63715-0_10){:target="_blank"}] [[ePrint](https://eprint.iacr.org/2017/509){:target="_blank"}]
 *   **Zero-knowledge proof systems for QMA**
     *   Authors: Anne Broadbent, Zhengfeng Ji, Fang Song and John Watrous
     *   In _57th Annual IEEE Symposium on Foundations of Computer Science ([FOCS 2016](http://www.wisdom.weizmann.ac.il/~dinuri/focs16/CFP.html))_.
@@ -59,9 +64,12 @@ modified: <2017-02-06 Mon>
 
 ### Manuscripts
 
+*   **Quantum Collision-Finding in Non-Uniform Random Functions**
+    *   Authors: Marko Balogh and Edward Eaton and Fang Song
+    *   Cryptology ePrint Archive: [Report 2017/688](http://ia.cr/2017/688){:target="_blank"}, July 2017.
 *   **On the quantum attacks against schemes relying on the hardness of finding a short generator of an ideal in \\(\mathbb{Q}(\zeta_{p^n})\\)**
     *   Authors: Jean-François Biasse and Fang Song
-    *   CACR Tech Report, [CACR2015-12](http://cacr.uwaterloo.ca/techreports/2015/cacr2015-12.pdf), September 2015\.
+    *   CACR Tech Report, [CACR2015-12](http://cacr.uwaterloo.ca/techreports/2015/cacr2015-12.pdf), September 2015.
     *   Poster at [QIP'16](http://ucalgary.ca/qip2016/).
     *   Mentioned in "[A Tricky Path to Quantum-Safe Encryption](https://www.quantamagazine.org/20150908-quantum-safe-encryption)'', _Quanta Magazine_, September 9, 2015.
 
