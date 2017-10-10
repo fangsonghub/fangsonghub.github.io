@@ -1,0 +1,366 @@
+\documentclass[11pt]{article}
+%============Macros==================%
+% you don't need to change anything. start editing from main body.
+\usepackage{amsmath,amsfonts,amssymb,amsthm, cancel, float, enumitem, hyperref}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%--------------Header------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2017}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 6in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 6in { \term \hfill \emph{#2}}
+       \hbox to 6in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\lecture}[4]{\handout{#1}{#2}{#3}{#4}{{Lecture #1}}}
+
+\def\complex{\mathbb{C}}
+\def\real{\mathbb{R}}
+\def\natural{\mathbb{N}}
+\def\integer{\mathbb{Z}}
+
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\snorm}[1]{\lVert#1\rVert}
+\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\set}[1]{\left\{ #1 \right\}}
+\newcommand{\vecb}[1]{\boldsymbol{\vec{#1}}}
+\newcommand{\conj}[1]{\overline{#1}}
+\newcommand{\op}[2]{#1#2#1^\dag}
+
+\newcommand{\h}{\operatorname{H}}
+\newcommand{\tf}{\operatorname{Tf}}
+\newcommand{\pr}{\operatorname{Pr}}
+\newcommand{\poly}{\operatorname{poly}}
+\newcommand{\sign}{\operatorname{sign}}
+\newcommand{\rank}{\operatorname{rank}}
+\renewcommand{\det}{\operatorname{Det}}
+
+\newcommand{\bqp}{\operatorname{BQP}}
+\newcommand{\bpp}{\operatorname{BPP}}
+\newcommand{\p}{\operatorname{P}}
+\newcommand{\np}{\operatorname{NP}}
+\newcommand{\pspace}{\operatorname{PSPACE}}
+\renewcommand{\exp}{\operatorname{EXP}}
+\newcommand{\pp}{\operatorname{PP}}
+\newcommand{\qma}{\operatorname{QMA}}
+\newcommand{\qnp}{\operatorname{QNP}}
+\newcommand{\ma}{\operatorname{MA}}
+\newcommand{\ip}{\operatorname{IP}}
+\newcommand{\qip}{\operatorname{QIP}}
+\newcommand{\gnm}{\operatorname{GNM}}
+
+
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\bret}[2]{\langle{#1}|{#2}\rangle}
+\newcommand{\dbret}[3]{\langle{#1}|{#2}|{#3}\rangle}
+\newcommand{\kret}[2]{\ket{#1}\bra{#2}}
+\newcommand{\kera}[1]{\kret{#1}{#1}}
+\newcommand{\Example}[1]{{\bf Example #1}:}
+
+\def\X{\mathcal{X}}
+\def\Y{\mathcal{Y}}
+\def\Z{\mathcal{Z}}
+\def\W{\mathcal{W}}
+\def\A{\mathcal{A}}
+\def\B{\mathcal{B}}
+\def\V{\mathcal{V}}
+\def\U{\mathcal{U}}
+\def\C{\mathcal{C}}
+\def\D{\mathcal{D}}
+\def\E{\mathcal{E}}
+\def\F{\mathcal{F}}
+\def\M{\mathcal{M}}
+\def\R{\mathcal{R}}
+\def\P{\mathcal{P}}
+\def\Q{\mathcal{Q}}
+\def\S{\mathcal{S}}
+\def\T{\mathcal{T}}
+\def\K{\mathcal{K}}
+\def\L{\mathcal{L}}
+
+\def\fill{   \hfill}
+
+%=============Main Doc=================%
+\begin{document}
+%-----Specs: change accordingly--------%
+\def\lecdate{May 25, 2017} % put lecture date here
+\def\scribe{Scribe: Enis K. Inan} % put your name here
+\def\lecnum{16} % change the lecture number
+
+\lecture{\lecnum}{\lecdate}{\prof}{\scribe}%
+
+\begin{center}
+{\textsc{Version: \today}}  
+\end{center}
+
+
+\noindent Last time we talked about quantum complexity classes. Recall
+that we used the quantum circuit model (1) as the basis for doing our
+quantum computations instead of quantum Turing machines (2). Both
+models are equivalent, it's just easier to use (1) instead of
+(2). With (1), we have a collection of quantum circuits
+$Q = \set{Q_x \: | \: x \in \set{0, 1}^*}$, i.e. $Q$ contains one
+quantum circuit for each string $x$. We say that $Q$ is
+\emph{polynomial-time uniform} or \emph{polynomial-time generated} if
+there exists a polynomial algorithm that outputs a classical
+description of $Q_x$ given input $x$. We then proceeded to state some
+important complexity classes.
+
+Of interest is $\bqp$, which states that a promise problem
+$A \in \bqp$ if there exists a collection of quantum circuits $Q$ such
+that for all $Q_x \in Q$ where $x$ is a valid input,
+$\abs{Q_x} = \poly(\abs{x})$, i.e. the circuit $Q_x$ is polynomial in
+the size of the input,
+\begin{itemize}
+\item If $x \in A_{y}$, then $\dbret{1}{Q_x}{1} \geq 2/3$.
+
+\item If $x \in A_{n}$, then $\dbret{1}{Q_x}{1} \leq 1/3$
+\end{itemize}
+where the fancy $\dbret{1}{Q_x}{1}$ is understood as follows. When we run $Q_x$, we do not start with any zeros. When $Q_x$ finishes its computation, we will end up with a 1-qubit mixed state (ignoring ancilla qubits) that we also denote as $Q_x$ since the circuit $Q_x$ produces it. Then $\dbret{1}{Q_x}{1}$ is the probability that $Q_x$ will measure the outcome $1$, i.e. output that input $x$ is a YES instance. Thus, Case 1 is saying that if $x$ is a YES instance, then $Q_x$ should indicate it is so with at least $2/3$ probability. Case 2 states that if $x$ is a NO instance, then $Q_x$ should give a false-positive YES result with \emph{at-most} $1/3$ probability. Note that Cases 1 and 2 are known as the \emph{completeness} and \emph{soundness} conditions, respectively.
+
+\fill
+
+\noindent \Example{1} Integer factorization is in $\bqp$.
+\begin{itemize}
+\item {\bf Input:} $(N, k)$, $2 \leq k \leq N$
+\item {\bf Output:} Whether there exists a proper factorization of $N$ where each factor $a \in \set{2, \dots, k}$. Using Shor's algorithm, we can answer this question in $O(\poly(\log(N)))$ time.
+\end{itemize}
+
+\fill
+
+\noindent Note that $\p \subseteq \bqp$ and $\bpp \subseteq \bqp$, but we do not know if $\bqp \subseteq \bpp$, i.e. if $\bqp = \bpp$. We know the first two statements are true because we have showed in the beginning of class that we can turn \emph{any} classical circuit into a quantum circuit in a polynomial number of steps with a polynomial change in size. 
+
+%==============================%
+\section{$\bqp \in \exp$}
+%==============================%
+We will now prove that $\bqp \in \exp$. Intuitively, this containment is formalizing the notion that a classical computer can simulate a quantum computer in exponential time. The proof idea is to take a quantum circuit $Q_x$ for an input $x$ that outputs $1$ with probability $p_1$ and $0$ with probability $p_0$ and create a classical algorithm which simulates it, i.e., given an input $x$, it outputs 1 with probability $\widetilde{p_1}$ and 0 with probability $\widetilde{p_0}$ such that $p_1 \approx \widetilde{p_1}$ and $p_0 \approx \widetilde{p_0}$. Remember that a classical algorithm and a classical circuit are the same thing, so what we really want to do is to create a classical circuit that sufficiently approximates our quantum circuit.
+
+\fill
+
+\noindent Now we proceed to the proof. First, note that \emph{any} quantum circuit can be approximated by a combination of Toffoli and Hadamard gates. As a brief recap, here's what these gates do:
+\begin{itemize}
+\item $\h$ acts on a single qubit, and induces the following mappings:
+\begin{equation*}
+\begin{split}
+\h\ket{0} &\rightarrow \frac{1}{\sqrt{2}}\left(\ket{0} + \ket{1}\right) \\
+\h\ket{1} &\rightarrow \frac{1}{\sqrt{2}}\left(\ket{0} - \ket{1}\right)
+\end{split}
+\end{equation*}
+
+\item $\tf$ acts on three qubits. Given a three qubit state $\ket{abc}$, we get the following mapping:
+\begin{equation*}
+\tf\ket{abc} \rightarrow \ket{ab}\ket{(a \land b) \oplus c}
+\end{equation*} 
+where the first two qubits do not change while the last qubit gets flipped if the first two qubits are both 1.
+\end{itemize}
+
+\fill
+
+\noindent The first thing we do is reconstruct $Q_x$ so that it consists of \emph{only} $\h$ and $\tf$ gates that are sequenced one after the other. For example if we want to apply $H^{\otimes 2}$, we break it up into the equivalent sequence $(H \otimes I)(I \otimes H)$. This can be done in polynomial time. From here on out when we reference $Q_x$, assume that it is the reconstructed version. Now pretend we are a classical computer trying to simulate $Q_x$ starting with an initial input $\ket{\psi_0}$. We go through $Q_x$ one gate at a time. If we encounter an $\h_x$ gate, where $\h_x$ is applying $\h$ to the $x^{th}$ qubit, then we branch off two computation paths: one with the $x^{th}$ qubit set to 0, and the other with the $x^{th}$ qubit set to 1, keeping track of the resulting amplitudes for each. This makes sense upon examining our description of $\h$ above, where we see that it turns a classical bit to a superposition -- forking off two distinct computational paths \emph{captures} that superposition in the classical world. If we encounter a $\tf_{xyz}$ gate, where $\tf_{xyz}$ is applying $\tf$ to the $x^{th}$, $y^{th}$ and $z^{th}$ qubits, then we follow our description of $\tf$ above: leave $x$ and $y$ alone but flip $z$ iff $x \land y = 1$. With $\tf$ then, we see that we do not need to fork any additional paths as it does not create a new superposition. Thus our simulation of $Q_x$ is really maintaining a \emph{tree} where the nodes represent intermediate stages in the computation. Assume that we have $m$ gates in our circuit. Then each level $i$ of the tree represents the resulting superposition after applying the first $i$ gates, where $0 \leq i \leq m$. The nodes of the tree are the components of the superposition at their corresponding level. Thus for each node, we would like to maintain two pieces of information: the binary representation of that specific component, and its corresponding amplitude. In fact because we are applying only $\h$ and $\tf$ gates, every node will have the same amplitude as any other node on that level; this amplitude is $\frac{1}{\sqrt{2^m}}$ where $m$ is the number of nodes on that level. The leaves of our tree will contain the final superposition. Thus, a path from the root to \emph{a} leaf represents \emph{one} possible outcome assuming that we measure all of our qubits. Because we are using $\tf$ and $\h$ gates, it is possible to have two \emph{different} computation paths that produce the same final result (i.e. nodes on the same level can have the same superposition component). The exponential time complexity comes from the size of our tree, where we need to compute each superposition component in the internal nodes  
+
+\fill
+
+\noindent \Example{2} Say our circuit consists of the gates $H_1$, $H_2$, $\tf$, and $H_1$ in that order. Assume that we start with an initial state of $\ket{000}$. Then our resulting computation tree will be: %NOTE: I couldn't create the tree from lecture, for some reason I was getting a ''no driver specified at all'' error when using qtree. So I have put this handwritten tree instead:
+
+\includegraphics[scale = 0.7]{tree}
+
+\fill
+
+\noindent Notice in our tree that we have two possible computation paths that result in $000$ as the final outcome. These are $000, 000, 000, 000, 000$ and $000, 100, 100, 100, 000$.
+
+\fill
+
+\noindent Assume without any loss of generality that the first qubit in our final superposition contains our desired output, i.e. that $\dbret{1}{Q_x}{1} \approx \widetilde{p_1} = \pr(\text{First qubit} = 1)$ -- the remaining qubits are ancilla qubits. Then, we see that $\widetilde{p_1}$ is just the absolute value squared of the sum of the amplitudes of all the qubit-leaves where the first qubit is $1$. Because each path from root to leaf is unique, we can represent our final superposition at the leaves using the individual paths as our orthonormal basis. Let $P$ be the set of computation paths. Then our superposition is expressed as:
+\begin{equation} \label{eq:bqp-psp}
+\sum_{p \in P} \left(\frac{1}{\sqrt{2}}\right)^{\abs{P}} \sign(p) \ket{p}
+\end{equation}
+where $\sign(p)$ is the signum function that indicates if the final superposition component upon traversing the path $p$ has negative or positive amplitude. Let $\alpha_x$ be the amplitude that represents outcome $x$ where $x \in \set{0, 1}^m$, with $m$ being the number of qubits at our leaf nodes. Then we see that our final superposition is also:
+\begin{equation} \label{eq:bqp-sp}
+\sum_{x \in \set{0, 1}^m} \alpha_x \ket{x}
+\end{equation}
+where
+\begin{equation} \label{eq:bqp-alph}
+\alpha_x =  
+\sum_{p \in P \text{ s.t. } p = x}  \left(\frac{1}{\sqrt{2}}\right)^{\abs{P}} \sign(p)
+\end{equation}
+where $p = x$ means that the path $p$ leads to the outcome $x$ -- remember that multiple paths can have the same outcome, which is why Eqn. \ref{eq:bqp-alph} is a summation. Thus, we see that we can calculate $\widetilde{p_1}$ as:
+\begin{equation} \label{eq:bqp-p1tilde}
+\widetilde{p_1} = \abs{\sum_{x \text{ s.t. } x_1 = 1} \alpha_x}^2
+\end{equation}
+where $x \in \set{0, 1}^m$ and $x_1 = 1$ indicates that $x$'s first qubit is $1$. Equation \ref{eq:bqp-p1tilde} is mathematically expressing what we said earlier.
+
+\fill
+
+\noindent Because new computational paths are only forked when we apply $\h$, our worst-case complexity for the size of our tree is when $Q_x$ has $h$ Hadamard gates. Here $|P| = 2^h$ so that there are $2^h$ leaves in the tree and hence $2^h$ possible paths, resulting in an exponential worst-case time. Thus, $\bqp \subseteq \exp$.
+
+\fill
+
+\noindent In fact if we reuse the space when calculating the amplitudes, it turns out that we only need polynomial space to calculate $\widetilde{p_1}$ so that $\bqp \subseteq \pspace$. We can adapt the proof even further to show that $\bqp \subseteq \pp$.
+
+%==============================%
+\section{$\qma$}
+%==============================%
+We will now present the quantum analogue of $\np$, $\qma$. We use $\ma$ instead of $\np$ because the quantum world is random. Like $\np$ for a classical computer, $\qma$ represents problems that are efficiently verifiable by a quantum computer.
+
+\fill
+
+\noindent We say that a promise $A \in \qma$ if there exists a collection of quantum circuits $Q$ such that for all $Q_x \in Q$ where $x$ is a valid input, $\abs{Q_x} = \poly(\abs{x})$,
+\begin{itemize}
+\item \emph{Completeness:} If $x \in A_y$ then there exists a state $\rho$ on $\poly(\abs{x})$ qubits such that
+\begin{equation*}
+\dbret{1}{Q_x(\rho)}{1} \geq \frac{2}{3}
+\end{equation*}
+We say that $\rho$ is a ``quantum certificate'' which verifies that $x \in A_y$.
+
+\item \emph{Soundness:} If $x \in A_n$ then for all states $\rho$ on $\poly(\abs{x})$ qubits:
+\begin{equation*}
+\dbret{1}{Q_x(\rho)}{1} \leq \frac{1}{3}
+\end{equation*}
+\end{itemize}
+We assume that in $Q_x$, the first qubit yields the answer to our decision problem.
+
+\fill
+
+\noindent Here are some things we can say about $\qma$. 
+\begin{enumerate}
+\item $\bqp \subseteq \qma$ and $\bpp \subseteq \qma$ since we do not need a certificate to decide a $\bqp$ or $\bpp$ instance -- we can just directly solve the problem by running $x$ through our circuit $Q_x$.
+
+\item $\np \subseteq \ma \subseteq \qma$. We know why $\np \subseteq \ma$. $\ma \subseteq \qma$ for the same reason as $\bpp \subseteq \bqp$ -- we can create a polynomial-size reversible quantum circuit from any classical circuit, and encode any classical certificate as a corresponding quantum certificate.
+
+\item $\qma \subseteq \pp$
+\end{enumerate}
+For more information on all the complexity classes out there, see the \href{https://complexityzoo.uwaterloo.ca/Complexity_Zoo}{Complexity Zoo}.
+
+%==============================%
+\section{Interactive Proofs}
+%==============================%
+There is a recurrent pattern in the complexity classes $\np$, $\ma$ and $\qma$. In each case, we have an all-powerful ``prover'' (think computing machine) that prepares a certificate $c$ which we pass along to a verifier. $c$ represents a possible ``solution'' candidate to a problem instance encoded by some input $x$. $A$ is the general category that these problems fall under, where $A_y$ represents instances that do have a solution and $A_n$ those instances that don't. For example if $A$ is integer factorization, then $x$ is the encoded input $(N, k)$. If $x$ \emph{has} a solution, i.e. if $x \in A_y$, then our verifier will accept any $c$ that \emph{is} a solution -- we don't care what it does for those $c$s that don't correspond to valid solutions. However if our problem does not have a solution, i.e. if $x \in A_n$, then our verifier will reject \emph{all} certificates $c$ -- it cannot be fooled by the prover into accepting a solution candidate for an unsolvable problem. Our verifier must makes its decision in polynomial time with respect to the input size, represented by the sizes of $x$ and $c$. What we have just now (informally) described is the complexity class $\np$. For $\ma$ and $\qma$, our verifier can make mistakes; the probability that it does so is bounded. In $\qma$ for example, we require our verifier to accept a solution certificate $c$ for $x \in A_y$ with at least $2/3$ probability (1), while ensuring that any certificate $c$ for an $x \in A_n$ is accepted with probability at most $1/3$ (2). The mistake in (1) is rejecting a solution certificate $c$ while in (2), it is accepting any certificate $c$. In both cases, the mistake probability is bounded above by $1/3$. 
+
+\fill
+
+\noindent We can generalize the interaction between the prover and the verifier by letting the prover send multiple certificates (messages) instead of a single certificate to the verifier, which is still required to make its decision in polynomial time. Here, we say that the prover and the verifier form an \emph{interactive proof system}. The complexity class $\ip$ represents those problems $A$ that have an interactive proof system; $\qip$ is similar to $\ip$ except that the prover can send quantum messages to the verifier in addition to classical ones. From our preceding discussion, $\np$ and $\ma$ are special cases of $\ip$ while $\qma$ is a special case of $\qip$. Several breakthrough results have shown that $\ip = \qip = \pspace$.
+
+\fill
+
+\noindent {\bf Aside:} You might be wondering why we coined the term $\ma$. The answer is from the tale of King Arthur. There, Merlin was an all-powerful wizard while Arthur was an ordinary mortal. In $\ip$, we have an ``all-powerful'' prover (Merlin) and a ``puny'' verifier (Arthur) -- putting Merlin and Arthur together, we get the name $\ma$.
+
+%==============================%
+\section{Group Non-membership}
+%==============================%
+We now present the group non-membership (GNM) problem. This is a problem that we know is in $\qma$ but not if it is in $\ma$. Experts think that it probably isn't. Here is our problem statement.
+\begin{itemize}
+\item {\bf Input:} $\left<g_1, \dots, g_k\right> = H \leq G$ and $x \in G$
+\item {\bf Output:} If $x \notin H$, then YES. Otherwise, NO.
+\end{itemize}
+where $g_1, \dots, g_k$ are the generators of some subgroup $H$ of a group $G$ -- remember from group theory that we can specify any group $G$ using only its generators. Informally, given a subgroup $H$ and an element $x$ from the subsuming group $G$, $\gnm$ asks if $x \notin  H$. We will now prove that $\gnm \in \qma$ by constructing our verifier.
+
+\fill
+
+\noindent We will represent the subgroup $H$ as a uniform superposition over its group elements, defined as:
+\begin{equation} \label{eq:gnm-h}
+\ket{H} = \frac{1}{\sqrt{\abs{H}}} \sum_{h \in H} \ket{h}
+\end{equation}
+Now consider $\ket{H_x}$ defined below:
+\begin{equation} \label{eq:gnm-hx}
+\ket{H_x} = \frac{1}{\sqrt{\abs{H}}} \sum_{h \in H} \ket{h\bullet x}
+\end{equation}
+where $H_x = \set{h_1x, h_2x, \dots} = Hx$ is a coset of $H$ in $G$. If $x \in H$, then we know from group theory that $H_x = H$ implying that $\ket{H_x} = \ket{H}$. Otherwise if $x \notin H_x$, then $H_x \cap H = \emptyset$. In quantum terms, this means that $\ket{H_x}$ is orthogonal to $\ket{H}$, i.e. that $\bret{H_x}{H} = 0$. This makes sense since here, $H_x$ and $H$ are independent sets and orthogonality captures independence. Now consider the following circuit that will form our verifier:
+
+\centerline{
+	\Qcircuit @C=1em @R=0.75em {
+		\lstick{\ket{0}} & \gate{\h} & \ctrl{1} & \gate{\h} & \meter \\
+		\lstick{\ket{H}} & \qw & \gate{M_x} & \qw & \qw
+	}
+}
+
+where $M_x$ is the controlled unitary that's defined as follows:
+\begin{equation*} \label{eq:gnm-mx}
+\begin{split}
+M_x\left(\ket{0}\ket{H}\right) &\rightarrow \ket{0}\ket{H} \\
+M_x\left(\ket{1}\ket{H}\right) &\rightarrow \ket{1}\ket{H_x}
+\end{split}
+\end{equation*}
+Let's see what this circuit does starting with the initial state $\ket{0}\ket{H}$. After applying the first Hadamard gate to the first qubit, we get:
+\begin{equation*}
+\frac{1}{\sqrt{2}}(\ket{0}\ket{H} + \ket{1}\ket{H})
+\end{equation*}
+Applying $M_x$, we get:
+\begin{equation*}
+\frac{1}{\sqrt{2}}(\ket{0}\ket{H} + \ket{1}\ket{H_x})
+\end{equation*}
+Finally applying the last Hadamard gate to the first qubit, we get:
+\begin{equation} \label{eq:gnm-final}
+\frac{1}{2}
+  \ket{0}\left(\ket{H} + \ket{H_x}\right)
++ \frac{1}{2}
+\ket{1}\left(\ket{H} - \ket{H_x}\right)
+\end{equation}
+We now have two cases to consider:
+\begin{enumerate}
+\item $x \in H$ so that $H_x = H$. Here, Eqn. \ref{eq:gnm-final} reduces to $\ket{0}\ket{H}$ so that we will measure $0$ with certainty.
+
+\item $x \notin H$. Then examining Eqn. \ref{eq:gnm-final}, we see that there is a $1/2$ chance of measuring $0$, and a $1/2$ chance of measuring $1$.
+\end{enumerate}
+Looking at Cases 1 and 2, we will say that our verifier outputs YES when we measure a $1$ on the first qubit, otherwise it outputs NO. Here's why we do this. When $x \in H$ and our prover gives us $\ket{H}$ as a certificate, we know for sure that our circuit will measure $0$ from Case 1 so we output NO to correctly reject $\ket{H}$ -- the case when the prover gives us a certificate that isn't $\ket{H}$ will be considered shortly.
+
+\fill
+
+\noindent Consider the \emph{completeness} requirement. Here, when $x \notin H$ and we are given $\ket{H}$ as our certificate, we want our verifier to output YES with probability $p \geq 2/3$. Unfortunately from Case 2, $p = 1/2$ so our verifier is not good enough. However, all is not lost. We can tweak our verifier to instead run the circuit at most $t$ times. This is OK since our prover is all powerful, so it can generate as many copies of $\ket{H}$ as we need. This time, our verifier will output YES as soon as it measures a $1$. Now, our probability $p$ is the chance that we measure $1$ \emph{at least} once within $t$ trials, which we can calculate using a binomial distribution as:
+\begin{equation*}
+p = 1 - \left(\frac{1}{2}\right)^t
+\end{equation*} 
+Setting $t = 2$ will yield $p = 3/4$, which is good enough.
+
+\fill
+
+\noindent Now we consider the \emph{soundness} requirement, using our tweaked verifier from above. Here we know that $x \in H$. We must show that our verifier will output NO for \emph{any} certificate given to it by the prover with probability \emph{at least} $2/3$ (complement of outputting YES with probability at most 1/3). We have two cases to consider here. If the prover gives us $\ket{H}$ as the certificate, then Case 1 from our analysis shows that we will always measure a $0$ in all $t$ iterations of running our circuit so that we correctly output NO with certainty. However if the prover gives us a certificate $c$ that isn't $\ket{H}$, we cannot pass $c$ into our verifier as-is because our circuit is only defined for $c = \ket{H}$. But we can construct a new circuit $T$ that does the following. If $c = \ket{H}$, it will run our verifier as described in the completeness proof above. Otherwise, $T$ will output NO. Thus, $T$ becomes our new verifier. The question now is how to test that $c = \ket{H}$. We cannot just check the generators of $H$ because the check is not always guaranteed to complete in polynomial time. 
+
+\fill
+
+\noindent What we can do, however, is use a slightly modified version of the main circuit as a part of our testing procedure. This circuit is below:
+
+\centerline{
+	\Qcircuit @C=1em @R=0.75em {
+		\lstick{\ket{0}} & \gate{\h} & \ctrl{1} & \gate{\h} & \meter \\
+		\lstick{c} & \qw & \gate{M_z} & \qw & \qw
+	}
+}
+
+\noindent where $M_z$ is the same as $M_x$ except that $z$ is a randomly chosen element of $H$, and we compute the coset $cz$ instead of $Hz$. From Case 1 above, if $c = \ket{H}$ then we will measure $0$ with certainty. Thus when we see a $1$, we know that $c \ne \ket{H}$ so that our test can output NO to correctly reject $c$. To ensure that our test works with the required probability for rejection, we can repeat our testing procedure several times using different, random elements of $z$ -- remember that our prover is all-powerful, so it can generate as many copies of $c$ as we need to do this. For more details on the analysis for this case, see \href{https://www.cs.cmu.edu/~odonnell/quantum15/lecture24.pdf}{these lectures notes}.
+
+\fill
+
+\noindent The above argument establishes that our new verifier exhibits the correct behavior for the soundness case; it is also polynomial in the size of the input. Further, our completeness argument still holds with this new verifier because the testing procedure will always measure $0$ when $c = \ket{H}$ so that the probability of outputting YES still depends only on the main circuit.
+
+\fill
+
+\noindent This completes our proof that $\gnm \in \qma$.
+
+
+\end{document}

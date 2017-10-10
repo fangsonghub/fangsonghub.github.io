@@ -1,0 +1,406 @@
+\documentclass[11pt]{article}
+%============Macros==================%
+% you don't need to change anything. start editing from main body.
+\usepackage{amsmath,amsfonts,amssymb,amsthm, cancel, float, enumitem}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%--------------Header------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2017}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 6in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 6in { \term \hfill \emph{#2}}
+       \hbox to 6in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\lecture}[4]{\handout{#1}{#2}{#3}{#4}{{Lecture #1}}}
+
+\def\complex{\mathbb{C}}
+\def\real{\mathbb{R}}
+\def\natural{\mathbb{N}}
+\def\integer{\mathbb{Z}}
+
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\snorm}[1]{\lVert#1\rVert}
+\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\set}[1]{\left\{ #1 \right\}}
+\newcommand{\vecb}[1]{\boldsymbol{\vec{#1}}}
+\newcommand{\conj}[1]{\overline{#1}}
+\newcommand{\op}[2]{#1#2#1^\dag}
+
+\newcommand{\tr}{\operatorname{Tr}}
+\newcommand{\se}{\operatorname{H}}
+\newcommand{\vne}{\operatorname{S}}
+\newcommand{\e}{\operatorname{E}}
+\newcommand{\rank}{\operatorname{rank}}
+\renewcommand{\det}{\operatorname{Det}}
+
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\bret}[2]{\langle{#1}|{#2}\rangle}
+\newcommand{\kret}[2]{\ket{#1}\bra{#2}}
+\newcommand{\kera}[1]{\kret{#1}{#1}}
+\newcommand{\Example}[1]{{\bf Example #1}:}
+
+\def\X{\mathcal{X}}
+\def\Y{\mathcal{Y}}
+\def\Z{\mathcal{Z}}
+\def\W{\mathcal{W}}
+\def\A{\mathcal{A}}
+\def\B{\mathcal{B}}
+\def\V{\mathcal{V}}
+\def\U{\mathcal{U}}
+\def\C{\mathcal{C}}
+\def\D{\mathcal{D}}
+\def\E{\mathcal{E}}
+\def\F{\mathcal{F}}
+\def\M{\mathcal{M}}
+\def\R{\mathcal{R}}
+\def\P{\mathcal{P}}
+\def\Q{\mathcal{Q}}
+\def\S{\mathcal{S}}
+\def\T{\mathcal{T}}
+\def\K{\mathcal{K}}
+\def\L{\mathcal{L}}
+
+\def\fill{   \hfill}
+
+%=============Main Doc=================%
+\begin{document}
+%-----Specs: change accordingly--------%
+\def\lecdate{May 16, 2017} % put lecture date here
+\def\scribe{Scribe: Enis K. Inan} % put your name here
+\def\lecnum{13} % change the lecture number
+
+\lecture{\lecnum}{\lecdate}{\prof}{\scribe}%
+
+\begin{center}
+{\textsc{Version: \today}}  
+\end{center}
+
+
+\noindent Last lecture we introduced the density operator, which made it easier for us to describe general quantum states. We will briefly review it before proceeding any further. In the old notation, we only had pure states of the form $\ket{\psi} = \alpha \ket{0} + \beta \ket{1}$ where $\alpha, \beta \in \complex$ and $\abs{\alpha}^2 + \abs{\beta}^2 = 1$. With our new framework, a pure state is expressed as $\kera{\psi}$ where for our example,
+\begin{equation*}
+\kera{\psi} = \left(\begin{array}{cc}
+\alpha\conj{\alpha} & \alpha\conj{\beta} \\
+\conj{\alpha}\beta & \beta\conj{\beta}
+\end{array}
+\right) = \left(\begin{array}{cc}
+\abs{\alpha}^2 & \alpha\conj{\beta} \\
+\conj{\alpha}\beta & \abs{\beta}^2
+\end{array}
+\right)
+\end{equation*}
+The expressive power of this notation is apparent when we have general quantum states. Specifically, imagine we have a register $X$ that could be in one of the quantum states $\ket{\psi_1}, \dots, \ket{\psi_k}$ with a probability distribution $p_1, \dots, p_k$ where $p_i$ is the probability that $X$ is in state $\ket{\psi_i}$. With our new notation, we expressed our ``knowledge'' of $X$ as a density matrix $\rho$ where
+\begin{equation*}
+\rho = \sum_{i} p_i \kera{\psi_i}
+\end{equation*}
+Intuitively, $\rho$ corresponds to a weighted average of each state. There were also several important properties associated with density matrices:
+\begin{enumerate}
+	\item $\tr{(\rho)} = 1$
+	
+	\item $\rho$ is positive semidefinite.
+\end{enumerate}
+Property 2 will be important later in this lecture, so keep it in the back of your head for now.
+
+\fill
+
+\noindent In our old notation, the physically allowable operations on $\ket{\psi}$ were unitary operations $U$ -- the state $\ket{\psi'} = U\ket{\psi}$ is the resulting state after applying the unitary $U$ on $\ket{\psi}$. In our new notation, $\rho' = U\rho U^\dag$ corresponds to applying the unitary $U$ on the general quantum state described by $\rho$ -- the result is $\rho'$.
+
+%==============================%
+\section{General (Physically Admissible) Quantum Operations}
+%==============================%
+The density matrix formalism does not limit us to just unitary operations. Specifically, any \emph{physically admissible operation} $\Phi$ is a series of matrices $A_1, A_2, \dots, A_k$ where $A_{i_{jk}} \in \complex$ and
+\begin{equation} \label{eq:phya:completeness}
+\sum_{i} A^\dag_iA_i = I 
+\end{equation}
+\begin{equation} \label{eq:phya:app}
+\Phi(\rho) = \sum_{i} \op{A_i}{\rho}
+\end{equation}
+Note that each $A_i$ in $\Phi$ does \emph{not} have to be a square matrix, and that unitary matrices $U$ are a special case of $\Phi$ with $k = 1$.
+
+\noindent Applying $\Phi$ to $\rho$ yields another density matrix, just like how applying unitary $U$ to $\ket{\psi}$ resulted in another valid quantum state. In fact, $\Phi$ is also known as a completely positive trace preserving (CPTP) operator, which is just jargon for an operation that preserves a matrix's trace and semi-positive definitiveness. Another way to think of $\Phi$ is as follows. Let $\X$ and $\Y$ denote spaces describing $m$ and $n$ qubits, respectively, and let $\L(\X, \Y)$ be the set of all linear mappings from $\X$ to $\Y$. Let $\D(\X)$ be the set of all density matrices in $\X$; define $\D(\Y)$ in a similar manner. Then $\Phi : \D(\X) \rightarrow \D(\Y)$ or, informally, $\Phi$ is the set of all density matrix mappings from $\X$ to $\Y$.
+
+\fill  
+
+\noindent \Example{1} Here we investigate decoherence as a physically admissible operation, which is when a quantum system interacts with some environmental noise and loses its quantumness (i.e. gets measured). Note that the operation used in this example is equivalent to measurement in the standard basis $\set{\ket{0}, \ket{1}}$. Here we have $A_0 = \kera{0}$ and $A_1 = \kera{1}$ so that
+\begin{equation*}
+\Phi(\rho) = \op{A_0}{\rho} + \op{A_1}{\rho}
+\end{equation*}
+Firs we check if $A_0$ and $A_1$ are valid, i.e. that they satisfy Eqn. \ref{eq:phya:completeness}:
+\begin{align*}
+\sum_{i} A^\dag_iA_i
+&= A^\dag_0A_0 + A^\dag_1A_1 \\
+&= \ket{0}\bret{0}{0}\bra{0} + \ket{1}\bret{1}{1}\bra{1} \\
+&= \kera{0} + \kera{1} \\
+&= I
+\end{align*}
+which they do. Now assume that $\rho=\kera{\psi}$ where $\ket{\psi} = \alpha\ket{0} + \beta\ket{1}$, i.e. that $\rho$ corresponds to a pure state. We have,
+\begin{align*}
+\Phi(\kera{\psi}) 
+&= \op{A_0}{\kera{\psi}} + \op{A_1}{\kera{\psi}} \\
+&= \kera{0}\kera{\psi}\kera{0} + \kera{1}\kera{\psi}\kera{1} \\
+&= \left(\begin{array}{cc}
+1 & 0 \\
+0 & 0
+\end{array}\right)
+\left(\begin{array}{cc}
+\abs{\alpha}^2 & \alpha\conj{\beta} \\
+\conj{\alpha}\beta & \abs{\beta}^2
+\end{array}
+\right)
+\left(\begin{array}{cc}
+1 & 0 \\
+0 & 0
+\end{array}\right) + \left(\begin{array}{cc}
+0 & 0 \\
+0 & 1
+\end{array}\right)
+\left(\begin{array}{cc}
+\abs{\alpha}^2 & \alpha\conj{\beta} \\
+\conj{\alpha}\beta & \abs{\beta}^2
+\end{array}
+\right)
+\left(\begin{array}{cc}
+0 & 0 \\
+0 & 1
+\end{array}\right) \\
+&= \left(\begin{array}{cc}
+\abs{\alpha}^2 & 0 \\
+0 & \abs{\beta}^2
+\end{array}
+\right) \\
+&= \abs{\alpha}^2\kera{0} + \abs{\beta}^2\kera{1}
+\end{align*}
+which is exactly what we get by doing a measurement on the standard basis! To see why, the last line shows that we can think of $\Phi(\kera{\psi})$ as representing the general quantum state where we have an $\abs{\alpha}^2$ chance of being in $\ket{0}$ and a $\abs{\beta}^2$ chance of being in $\ket{1}$. This is the definition of measurement in the standard basis.
+
+\fill
+
+\noindent Another important operation is the partial trace. Imagine that we have an $m + n$ qubit-state, e.g. $\ket{\psi} = \sum_{x \in \set{0, 1}^m}\sum_{y \in \set{0, 1}^n} \alpha_{xy}\ket{x}\ket{y}$. We want to examine the resulting state after we discard either $x$ or $y$. For our old notation, this is easy -- for $\ket{\psi}$, we can just remove $\ket{x}$ or $\ket{y}$. But in our new notation of density matrices, it is not as obvious. Let $\X$ and $\Y$ be the spaces describing $\ket{x}$ and $\ket{y}$, respectively, and assume without any loss of generality that we want to remove $\ket{y}$. Then what we want is an operation $\Phi: \D(\X \otimes \Y) \rightarrow \D(\X)$ -- this is the partial trace, denoted as $\tr_y$ for our specific case to explicitly indicate that we want to discard $\ket{y}$.
+
+\fill
+  
+\noindent Let's examine what $\tr_y$ would look like when $\X$ and $\Y$ both describe 1-qubit each -- i.e., when we have a two-qubit state and we want to discard the second qubit. We have $\Phi$ be the matrices:
+\begin{equation*}
+\begin{split}
+A_0 &= I_x \otimes \bra{0}_y = \left(\begin{array}{cccc}
+1 & 0 & 0 & 0 \\
+0 & 0 & 1 & 0
+\end{array}\right) \\
+A_1 &= I_x \otimes \bra{1}_y = \left(\begin{array}{cccc}
+0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 1
+\end{array}\right)
+\end{split}
+\end{equation*}
+Note that $A_0$ and $A_1$ are $2 \times 4$ matrices -- $I_x$ is the $2 \times 2$ identity matrix. We first check that $A_0$ and $A_1$ satisfy Eqn. \ref{eq:phya:completeness}:
+\begin{align*}
+\sum_{i} A^\dag_iA_i
+&= A^\dag_0A_0 + A^\dag_1A_1 \\
+&= (I_x \otimes \ket{0}_y)(I_x \otimes \bra{0}_y)
++  (I_x \otimes \ket{1}_y)(I_x \otimes \bra{1}_y) \\
+&= (I_x \otimes \kera{0}_y) + (I_x \otimes \kera{1}_y) \\
+&= I_x \otimes (\kera{0}_y + \kera{1}_y) \\
+&= I_x \otimes I_y = I_{xy}
+\end{align*}
+Now let's do an example calculation using $\Phi$.
+
+\fill
+
+\noindent \Example{2} Let $\rho = \kera{0} \otimes \kera{1}$. Intuitively, we should get $\kera{0}$ back after applying $\Phi$. Let's see if this is indeed the case.
+\begin{align*}
+\Phi(\rho)
+&= \op{A_0}{\rho} + \op{A_1}{\rho} \\
+&= (I_x \otimes \bra{0}_y)(\kera{0} \otimes \kera{1})(I_x \otimes \ket{0}_y)
++  (I_x \otimes \bra{1}_y)(\kera{0} \otimes \kera{1})(I_x \otimes \ket{1}_y) \\
+&= \cancelto{0}{(\kera{0} \otimes \bret{0}{1}\bra{1})}(I_x \otimes \ket{0}_y)
++  (\kera{0} \otimes \bret{1}{1}\bra{1})(I_x \otimes \ket{1}_y) \\
+&= (\kera{0} \otimes \bra{1})(I_x \otimes \ket{1}_y) \\
+&= \kera{0}
+\end{align*}
+which is exactly what we expected. In the general case, e.g. when we have $\rho' = \rho \otimes \ket{0}$, then $\Phi(\rho') = \rho$ which is consistent with the physical meaning of $\tr_y$ -- take away $y$ and only look at $x$. We can think of it as ``tracing out $y$'', which is where the name ``partial trace'' comes from.
+
+\fill
+
+\noindent Now what if the qubits $x$ and $y$ are entangled? What do we get after we apply $\tr_y$? We will use $\ket{\phi^+} = \frac{1}{\sqrt{2}}(\ket{00} + \ket{11})_{xy}$ as our example.
+
+\fill
+
+\noindent \Example{3} $\tr_y(\kera{\phi^+}) = \frac{1}{2}\kera{0} + \frac{1}{2}\kera{1} = \frac{1}{2}I$ which can be verified by brute-force computation using $\Phi$, like we did in Example 2. So we see that we get a \emph{maximally mixed state}, i.e. a density matrix where the pure states form an orthonormal basis and each state has a probability $1/n$ of occurring, where $n$ is the dimension of the matrix. Here, $n = 2$. In fact, it can be shown that $\tr_y$ for \emph{any} Bell state is $\frac{1}{2}I$. Here's why this makes sense. In a Bell state, when we measure the second register, we \emph{collapse} the resulting state to either just $\ket{0}$ with probability $1/2$, or just $\ket{1}$ with probability $1/2$ -- exactly our maximally mixed state. For example in $\ket{\phi^+}$, if we measure a $1$ in the second register, then the state collapses to $\ket{1}_x$; otherwise, it collapses to $\ket{0}_x$.
+
+\fill
+
+\noindent The next operation we will consider is an extension of Example 1. Instead of constraining the measurement to a specific basis, e.g. the standard basis, let's generalize it. Imagine that $\Gamma$ represents the set of all possible outcomes resulting from our measurement and, for an $a \in \Gamma$, $M_a$ is the matrix ``capturing'' an outcome $a$. For example in Example 1, $\Gamma = \set{0, 1}$, and $M_0 = \kera{0}$, $M_1 = \kera{1}$. Then if
+\begin{equation*}
+\sum_{a \in \Gamma} M^\dag_aM_a = I
+\end{equation*}
+then the set of matrices $M = \set{M_a \: | \: a \in \Gamma}$ form a physically admissible operation $\Phi$, i.e. $\Phi$ is a valid measurement. Let's take an outcome $a$ and its measurement matrix $M_a$ where $M_a$ is a projecter ($M^2_a = M_a$). Then $\tr(M_a\rho M^\dag_a)$ is the probability that we will observe outcome $a$ when we measure the quantum system described by $\rho$. In Example 1, $\tr(M_0\rho M^\dag_0) = \abs{\alpha}^2$, which is exactly the probability of measuring a $0$. Now assume that we did measure $a$. Then our state would collapse to
+\begin{equation*}
+\frac{M_a\rho M^\dag_a}{\tr(M_a\rho M^\dag_a)}
+\end{equation*}
+which makes sense. If $M_a$ is the measurement matrix ``capturing'' an outcome $a$ then when we see $a$, we should only have $M_a\rho M^\dag_a$ left in our summation for $\Phi(\rho)$. However $M_a\rho M^\dag_a$ may not be a valid density matrix, so we need to normalize its trace back down to $1$ -- this is what the $\tr(M_a\rho M^\dag_a)$ in the denominator does. This corresponds to what we do in the pure state case, which is to keep only parts of the state that contain the measured outcome in its qubits ($M_a\rho M^\dag_a$ here), then normalize that part (divide by $\tr(M_a\rho M^\dag_a)$).
+
+\fill
+
+\noindent The above is known as a Von-Neumann measurement. Another way to think about measurement is through positive operator valued measurements (POVMs) which are the most general class of quantum measurements. In a POVM, we do not care about the resulting state after the measurement; only the probability of a specific outcome $a$. Above, we determined this to be $\tr(M_a\rho M^\dag_a)$. Using a nice property of the trace, $\tr(AB) = \tr(BA)$, we see that $\tr(M_a\rho M^\dag_a) = \tr(M^\dag_aM_a \rho ) = \tr(E_a \rho)$ where $E_a = M^\dag_aM_a$. Given that $\tr(E_a \rho)$ is the probability that we will see outcome $a$, we can think of $E_a$ as a ``probability'' matrix for outcome $a$ that we multiply with $\rho$ to obtain the probability that we measure $a$. Then note that the completeness condition, i.e. Eqn. \ref{eq:phya:completeness}, can be restated as $\sum_{a} E_a = 1$ -- intuitively, this is like $\sum_{i} p_i = 1$ for a probability distribution. So POVM is a generalization of measurement, but in a different flavor.
+
+\fill
+
+\noindent It would appear on the surface that a physically admissible operator $\Phi$ is more powerful than a unitary $U$ because $U$ is just $\Phi$ with $k = 1$, i.e. $\Phi$ has more matrices that we're applying on $\rho$. Surprisingly according to Stinespring's Dilation Theorem, this is not the case - unitaries and physically admissible operators are \emph{equally} powerful. Proving this result is beyond the scope of this class, but the basic idea is that we can simulate any circuit implementing $\Phi$ with a corresponding unitary circuit using some ancilla bits as input to the latter. At a high-level, the diagram looks like the following: 
+\includegraphics[scale = 0.7]{phisim}
+%NOTE: Don't know how to draw the above as a circuit, spent too much time trying to figure it out.
+
+\noindent \Example{4} As an example, let's simulate $\Phi$ as described in Example 1. The following circuit will do the trick:
+
+\centerline{
+\Qcircuit @C=1em @R=0.75em {
+	\lstick{\ket{0}}   & \targ & \qw & \qw \\
+	\lstick{\alpha\ket{0}+\beta\ket{1}} & \ctrl{-1} & \qw & \rstick{\rho' = \Phi(\rho)}  
+}
+}
+
+\fill
+
+\noindent so we see that we've introduced an extra ancillary bit and applied the CNOT gate to do the measurement, discarding the ancilla at the end.
+
+%==============================%
+\section{Quantum Information Theory}
+%==============================%
+So far we talked about the no-cloning theorem (1), distinguishing between two quantum states (2), entanglement (3), and the density matrix formalistm (4). An example of (2) was given in HW. 1 Problem 4. Here Alice and Bob are physically separated, each given one of the qubits of some 2-qubit state; the 2-qubit state is either State I or State II. The problem asked us to devise a strategy they could use to distinguish whether they're sharing State I or State II given that they are allowed to make only local measurements and communicate across a classical channel. An example of (3) was quantum teleportation where we showed that through entanglement, Alice can transmit a 1-qubit state to Bob.
+
+\fill
+
+\noindent In both classical and quantum information theory, we have three important issues that we would like to consider. These are:
+\begin{enumerate}[start=0]
+\item What is the information comprised of? What is its source? How do we measure the \emph{amount} of information that's being transmitted?
+	\begin{itemize}
+		\item In the classical world, the source is a random variable $X$. We measure the amount of information using the Shannon entropy, $\se(X)$.
+		
+		\item In the quantum world, the source is a mixed state $\rho$. We measure the amount of information using the Von Neumann entropy, $\vne(\rho)$.
+	\end{itemize}
+
+\item How do we transmit information over a noiseless channel? To put another way, if we store the information on a physical device, then what is the optimal compression that's possible for storing this information source?
+	\begin{itemize}
+		\item Given an $m$-bit source, if we want to represent it using only $\alpha\bullet m$ bits where $\alpha < 1$, then Shannon's noiseless source coding theorem says that we can only do so iff $\alpha \geq H(X)$
+		
+		\item Given a density matrix $\rho$ on $m$-qubits, if we want to represent it using only $\alpha\bullet m$ qubits where $\alpha < 1$, then Schumacher's noiseless quantum source coding theorem says that we can only do so iff $\alpha \geq S(\rho)$.
+	\end{itemize}
+
+\item How do we transmit information over a noisy channel?
+	\begin{itemize}
+		\item We can do so using error correction codes, ECC.
+		
+		\item We can do so using quantum error correction codes, QECC.
+	\end{itemize}
+\end{enumerate}
+
+\fill
+
+\noindent Imagine that we have a classical source churning out $m$-bit binary strings that are being transmitted on a quantum channel. The information transfer can be summarized by the following steps for a given $n$-bit binary string $x$:
+\begin{enumerate}
+\item The classical source churns out $x$
+
+\item Some kind of process encodes $x$ as a $\alpha\bullet n$ qubit quantum source $\rho_x$, where $\alpha \leq 1$.
+
+\item $\rho_x$ is transmitted across the quantum channel.
+
+\item $\rho_x$ is decoded at the end to get back $x$.
+\end{enumerate}
+The question here is whether we can use a shorter quantum message to transmit our classical message, i.e. if we can find an $\alpha < 1$. Unfortunately, we're stuck with $\alpha = 1$ due to Holevo's theorem, which states that it is impossible to communicate more than $n$ bits of classical information when transmitting $n$ qubits.
+
+%==============================%
+\section{Entropy}
+%==============================%
+
+\subsection{Shannon Entropy}
+We think of information as some kind of a message but, as counter-intuitive as it might be, a message may not necessarily contain any ``information''. For example, if all participating parties know the exact contents of the message that's being transmitted, then anybody who opens to read the message does not gain any new ``information'' -- they already know what to expect! So really, it is better to think of ``information'' as the \emph{amount of uncertainty} that's present in a message. The more uncertainty we have in our message, the more ``information'' it contains. For example, an e-mailed job offer would tell you a lot of information because, in general, there are a lot of factors that determine whether you will get the job or not and hence, a lot of uncertainty on whether you will get said job.
+
+\fill
+
+\noindent In physics, entropy is a quantity used to capture the amount of uncertainty in a given system. Similarly, the \emph{Shannon Entropy} quantifies the amount of uncertainty in a given piece of information -- that is why we use the term entropy. Mathematically it is defined as follows. Say we have a source that outputs a random variable $X \in \set{0, 1}^m$ with probability $p_x$. Then we define the Shannon Entropy $\se(x)$ as:
+\begin{equation} \label{eq:def-se}
+\se(X) = -\sum_{x} p_x \lg{p_x}
+\end{equation}
+where we define $0\lg{0} = 1$.
+
+\fill
+
+\noindent \Example{5} Let $X \in \set{0, 1}$ where $p_0 = 0$ and $p_1 = 1$. Note that there is no uncertainty involved in $X$ -- we know that our source will always transmit a $1$. Thus we expect that $\se(X) = 0$. Doing the calculation:
+\begin{align*}
+\se(X) 
+&= -\sum_{x} p_x \lg{p_x} \\
+&= -1\lg{1} \\
+&= 0 
+\end{align*}
+
+\fill
+
+\noindent \Example{6} Let $X \in \set{0, 1}$ where $p_0 = p_1 = 1/2$, i.e. $X$ corresponds to a fair coin. Then we see that:
+\begin{align*}
+\se(X) 
+&= -\sum_{x} p_x \lg{p_x} \\
+&= -\left(
+\frac{1}{2}\lg{\frac{1}{2}} + \frac{1}{2}\lg{\frac{1}{2}}
+\right) \\
+&= -(-\frac{1}{2} + -\frac{1}{2}) \\
+&= 1
+\end{align*}
+which is exactly 1-bit of information. This is the mathematical definition of a bit.
+
+\fill
+
+\noindent Generalizing Example 6, if we have $X \in \set{0, 1}^m$ and $H(X) = m$, then this corresponds to $m$ fair coins each with 1-bit of information for a total of $m$-bits of information. Note that the Shannon Entropy is non-negative, bounded by the size of %NOTE: I didn't quite hear this part in lecture, so couldn't record it.
+It also works well in a syntactic sense in that we can take many independent and identically distributed random variables %NOTE: Didn't hear this part in lecture too, I think it was glazed over.
+
+\subsection{Von Neumann Entropy}
+Imagine that we have an $m$-qubit space $\X$, and a source that outputs $k$ pure states with probability $p_k$ for each. Then our source is summarized by the density matrix $\rho_x = \sum_{i} p_i \kera{\psi_i}$. First, note that the quantum source subsumes the classical source as any classical source with $X \in \{0, 1\}^m$ and associated probability $p_x$ is just the densitry matrix $\rho' = \sum_{x \in \set{0, 1}^m} p_x \kera{x}$. %NOTE: In class, we had a density matrix with density matrices p1, p2, ..., pm along its diagonals as being the one that summarizes a classical source. I don't understand why this is the case. The previous sentence makes more sense to me so I included that instead. If it is incorrect, then I apologize.
+Let us try to come up with a way to describe the amount of information contained in the density matrix, i.e. its entropy. At a glance, it might seem like we could use $\se$ defined above. Letting $\e(\rho_x)$ denote the entropy quantity of $\rho_x$, we get:
+\begin{equation*}
+\e(\rho_x) = -\sum_{i} p_i \lg{p_i}
+\end{equation*} 
+However this definition does not work because two different quantum sources can have the same entropy -- entropy is meant to be unique. For example, the quantum source $S_1$ that outputs $\ket{0}$ with probability $1/2$ and $\ket{1}$ with probability $1/2$ is certainly different than the quantum source $S_2$ that outputs $\ket{0}$ with probability $1/2$ and $\ket{+}$ with probability $1/2$ -- the density matrices are not the same! However the probabilities of all the possible pure states in each source are the same, so $\e(S_1) = \e(S_2)$. The intuition is that in the quantum world, we have different bases that we can output our information in such as the standard and Hadamard bases. Further, there is no requirement that the pure states outputted by our source be orthogonal or even form an orthonormal basis -- $S_2$ is an example of one such source. In the classical world, however, everything is in binary -- all our possible sources will output information that's the same representation, so it is enough to just examine the probabilities. But the Shannon Entropy is too limited in the quantum world because we have sources that output different kinds of pure states together.
+
+\fill
+
+\noindent Fortunately, there is a way we can resolve our problem and that is by using the spectral decomposition. Because $\rho$ is positive semi-definite, it has a unique decomposition under the eigenbasis which is:
+\begin{equation*}
+\rho = \sum_{i = 0}^{d-1} \lambda_i \kera{\psi_i}
+\end{equation*}
+where $d$ is the dimension of $\rho$'s space, $\lambda_i$ is an eigenvalue, and $\ket{\psi_i}$ is an eigenvector such that $\rho\ket{\psi_i} = \lambda_i \ket{\psi_i}$ and $\bret{\psi_i}{\psi_j} = \delta_{ij}$. Note that $\lambda_i \geq 0$. Because $\tr(\rho) = 1$, we see that $\sum_{i} \lambda_i = 1$ so the eigenvalues form a valid probability distribution. Then we define the Von-Neumann entropy $\vne$ as:
+\begin{equation} \label{eq:def-vne}
+\vne(\rho) = -\sum_{i = 0}^{d-1} \lambda_i \lg{\lambda_i}
+\end{equation}
+
+\fill
+
+\noindent \Example{7} Consider the source summarized by $\rho = \kera{0}$, i.e. a source that always outputs the pure state $\ket{0}$. We would expect that $\vne(\rho) = 0$ since there is no uncertainty in what state we get. This is indeed the case, as $\vne(\rho) = -1\lg{1} = 0$, i.e. $\lambda = 1$ is the only eigenvalue of $\rho$.
+
+\fill
+
+\noindent \Example{8} Consider a fair coin, i.e. the source where $\rho = \frac{1}{2}\kera{0} + \frac{1}{2}\kera{1}$. Here, $\vne(\rho) = 1$ which matches the corresponding classical case. In fact, if we have a mixed state on $n$-qubits where $\rho = \frac{1}{2^n}I$, then $\vne(\rho) = n$.
+
+\end{document}

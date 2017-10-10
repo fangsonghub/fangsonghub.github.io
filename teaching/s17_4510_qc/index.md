@@ -8,6 +8,12 @@ modified: <2017-05-08 Mon>
 ---
 
 ## Announcement
+*  <b style="color: red;">New</b> <2017-10-09 Mon> See final reports
+   of your and your peers' projects on the Project page. 
+*  <b style="color: red;">New</b> <2017-10-09 Mon> Added a few scribe
+   notes and link to
+   a [note](https://arxiv.org/abs/1709.01236){:target="_blank"}
+   related to Grover's algorithm. See schedule page.
 *  <2017-05-30 Tue> Solutions to HW3 posted on D2L.
 *  <2017-05-08 Mon> Solutions to HW1 and HW2 available on D2L.
 *  <2017-05-02 Tue> HW 3 out, due on May 16 before class. 

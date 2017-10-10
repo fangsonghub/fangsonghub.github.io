@@ -1,0 +1,261 @@
+\documentclass[11pt]{article}
+%============Macros==================%
+% you don't need to change anything. start editing from main body.
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\usepackage{braket}
+\usepackage{amsmath}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+%--------------Header------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2017}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 6in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 6in { \term \hfill \emph{#2}}
+       \hbox to 6in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\lecture}[4]{\handout{#1}{#2}{#3}{#4}{{Lecture #1}}}
+%=============Main Doc=================%
+\begin{document}
+%-----Specs: change accordingly--------%
+\def\lecdate{May 04, 2017} % put lecture date here
+\def\scribe{Scribe: Asher Toback} % put your name here
+\def\lecnum{10} % change the lecture number
+
+\lecture{\lecnum}{\lecdate}{\prof}{\scribe}%
+
+\begin{center}
+{\textsc{Version: \today}}  
+\end{center}
+
+%\section{Introduction}
+In this lecture we'll be discussing why Grover's search is the optimal
+searching algorithm in the query model of quantum computing. It's
+assumed the reader already has a working knowledge of how Grover's
+Searching Algorithm works; namely, that it can be done within
+$O(\sqrt{N})$ querries, where $N = 2^n$. We'll show that any searching
+algorithm must take a minimum of this many querries, and thus Grover's
+is optimal. We'll do this by arguing what a general searching
+algorithm must look like, prove two lemmas, and then use these lemmas
+to prove the optimality of Grover. Let's begin.
+
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[scale=1.7]{universe.jpg}
+%\caption{The Universe}
+%\label{fig:univerise}
+%\end{figure}
+
+\section{General Search Algorithm Setup}
+
+We'll be concerning ourselves with the strictest search algorithm,
+where there is only one marked element that we're searching
+for. Namely, we're given a boolean function $f$
+
+{
+\[f : \{0,1\}^n \xrightarrow{} \{0,1\}\]
+}
+
+where $\exists! r \text{ such that } f(r) = 1.$ We also assume we have access to an oracle $O_f$ such that  
+
+{
+\[\ket{x}  \xrightarrow{O_f } (-1)^{f(x)}\ket{x}.\]
+}
+
+Because $r$ is the only element such that $f(r) = 1$, we see that if we had a superposition $\sum\alpha_x\ket{x}$ and applied $O_f$ you get 
+
+\abovedisplayskip=0pt\relax
+\[
+\sum\alpha_x\ket{x} \xrightarrow{O_f}
+\begin{cases}
+-\alpha_r\ket{r}  & \text{if } x = r\\       
+\alpha_x\ket{x}  & \text{if } x \neq r            
+\end{cases}
+\]
+
+Now, we're assuming $\alpha_r$ is small, otherwise we wouldn't need a searching algorithm. Thus, when we apply $O_f$ to our superposition, the superposition won't be affected very much. So, intuitively, we must spend many querries to find $r$. We'll show that it requires $\sqrt{N}$.
+
+\section{Theorem Setup}
+
+We claim that any k-query quantum search algorithm has the circuit form.
+
+{
+\[\ket{0^m} \xrightarrow{U_0}\xrightarrow{O_f}\xrightarrow{U_1}\xrightarrow{O_f}...\xrightarrow{U_k}\xrightarrow{O_f} \ket{\psi_r^{(k)}}\]
+}
+
+Namely, you apply an arbitrary unitary followed by a call to the oracle to the input state, and you do this $k$ times. It should be noted that each unitary could be different. We then compare this to the circuit:
+
+{
+\[\ket{0^m} \xrightarrow{U_0}\xrightarrow{\mathbb{I}}\xrightarrow{U_1}\xrightarrow{\mathbb{I}}...\xrightarrow{U_k}\xrightarrow{\mathbb{I}} \ket{\phi^{(k)}}\]
+%\[U_i \text{ then } \mathbb{I} : \ket{0^m} \xrightarrow{} \ket{\phi^{(k)}}\]
+}
+
+Where $\mathbb{I}$ is the identity matrix and the unitaries applied are identical to the ones applied in the previous circuit. Now, we will try to show that $\exists r$ such that $\lVert \ket{\psi_r^{(k)}} - \ket{\phi^{(k)}} \rVert \leq 2k/2\sqrt{N}$, where $\lVert \text{.} \rVert$ is the euclidean distance metric. Intuitively this is saying that these two processes are practically indistinguishable. However, since we aren't querrying the oracle in the second circuit, this means we aren't learning anything about $r$, the marked element. Thus, we're essentially saying we learn nothing about $r$ from $\ket{\psi_r^{(k)}}$ unless we query enough times so that $2k/2\sqrt{N}$ is big. But this would mean we'd need to query close to $\sqrt{N}$ times, which is just what we want to show. In order to prove this we must prove two lemmas first. Before we do, let's introduce two simplifying notations. First: 
+
+{
+\[D^{(i)}_r := \lVert \ket{\psi_r^{(i)}} - \ket{\phi^{(i)}} \rVert \]
+}
+
+This is simply comparing the states after the $i^{th}$ step of the two circuits. With this notation we then want to show that $\exists r$ such that $D^{(k)}_r \leq 2k/2\sqrt{N}$. And lastly:
+
+{
+\[E^{(j-1)}_r := \lVert O_f\ket{\phi^{(j-1)}} - \ket{\phi^{(j-1)}} \rVert \]
+}
+
+This equation can be thought of as the $error$ the second circuit made by not querrying the oracle $O_f$. With these let's proceed.
+
+\section{Lemma 1}
+
+We'll first prove that 
+
+{
+\[D^{(j)}_r \leq D^{(j-1)}_r + E^{(j-1)}_r\]
+}
+
+for $ j = \{0,1,...,k-1\}$. Let's first rewrite $D^{(j)}_r$. Clearly the $j^{th}$ step of each circuit can be thought of as applying $U^j$ and either $O_f$ or $\mathbb{I}$, depending on which circuit you're in, to the $(j-1)^{th}$ step of the circuit. Namely: 
+
+{
+\[D^{(j)}_r = \lVert \ket{\psi_r^{(j)}} - \ket{\phi^{(j)}} \rVert\] 
+\[= \lVert U_j O_f\ket{\psi_r^{(j-1)}} - U_j \mathbb{I} \ket{\phi^{(j-1)}} \rVert\]
+\[= \lVert U_j O_f\ket{\psi_r^{(j-1)}} - U_j O_f \ket{\phi^{(j-1)}} + U_j O_f \ket{\phi^{(j-1)}} - U_j \mathbb{I} \ket{\phi^{(j-1)}} \rVert\]
+}
+
+Then, by the triangle inequality:
+
+{
+\[\leq \lVert U_j O_f(\ket{\psi_r^{(j-1)}} -\ket{\phi^{(j-1)}}) \rVert + \lVert U_j (O_f\ket{\phi^{(j-1)}} -\mathbb{I} \ket{\phi^{(j-1)}}) \rVert\]
+}
+
+However, we know that unitaries don't effect the length of these vectors. Thus:
+
+{
+\[= \lVert \ket{\psi_r^{(j-1)}} -\ket{\phi^{(j-1)}} \rVert + \lVert O_f\ket{\phi^{(j-1)}} -\mathbb{I} \ket{\phi^{(j-1)}} \rVert\]
+\[= D^{(j-1)}_r + E^{(j-1)}_r\]
+}
+
+Which is just what we wanted to show.
+
+\section{Lemma 2}
+
+We'll now prove that 
+
+{
+\[E^{(j)}_r \leq 2 \abs{ \alpha_r^{(j)}} \]
+}
+
+for $ j = \{0,1,...,k-1\}$. Let's first rewrite $E^{(j)}_r$ using it's definition.
+
+{
+\[E^{(j)}_r = \lVert O_f\ket{\phi^{(j)}} - \ket{\phi^{(j)}} \rVert \]
+}
+
+But, by analysis given in section 2 of this paper, we know that $O_f$ only truly affects the marked element, so we know that we can rewrite this as:
+
+{
+\[= \lVert (\sum_{x \neq r}\alpha_x^{(j)}\ket{x} - \alpha_r^{(j)}\ket{r}) - (\sum_{x \neq r}\alpha_x^{(j)}\ket{x} + \alpha_r^{(j)}\ket{r})\rVert \]
+\[= 2\lVert \alpha_r^{(j)} \ket{r}\rVert\] 
+}
+
+But $\lVert \ket{r}\rVert = 1$. Thus, 
+
+{
+\[= 2\abs{\alpha_r^{(j)}}\]
+}
+
+Just as we wanted.
+
+\section{Theorem Proof}
+
+Let's now use these two lemmas to prove our claim. To reiterate, we want to prove that $D_r^{(k)} \leq 2k/2\sqrt{N}$. Let's first use the definition of $D_r^{(k)}$:
+
+{
+\[\lVert \ket{\psi_r^{(j)}} - \ket{\phi^{(j)}} \rVert = D^{(j)}_r\]
+}
+
+Then, by consecutive applications of Lemma 1 we get:
+
+{
+\[ \leq  D^{(j-1)}_r + E^{(j-1)}_r \leq  D^{(j-2)}_r + E^{(j-2)}_r + E^{(j-1)}_r\]
+\[ \leq  ... \leq\]
+\[ \leq  D_r^{(0)} + \sum_{j=0}^{k-1}E_r^{(j)}\]
+}
+
+But we know that $D_r^{(0)} = 0$ because both circuits have the same initial state. Thus:
+
+{
+\[ =\sum_{j=0}^{k-1}E_r^{(j)}\]
+}
+
+This should intuitively make sense. Essentially, the difference between the ending states of the two circuits is just the error incurred at each step by not applying $O_f$. Now that we've proved this, let's sum over all the elements in our space, of which we're trying to find $r$, and then apply Lemma 2.
+
+{
+\[\sum_{r\in\{0,1\}^n}D_r^{(k)} \leq \sum_r \sum_{j=0}^{k-1}E_r^{(j)}\]
+}
+
+We know this above statement is true because we literally just proved it. Then, re-ordering the sums and using Lemma 2:
+
+{
+\[= \sum_{j=0}^{k-1}\sum_r E_r^{(j)} \leq \sum_{j=0}^{k-1}\sum_r 2\abs{\alpha_r^{(j)}}\]
+}
+
+We now must find a clever way to rewrite $\sum_{r\in\{0,1\}^n}\abs{\alpha_r^{(j)}}$. Luckily, we know that $\sum_{r\in\{0,1\}^n}\abs{\alpha_r^{(j)}}^2 = 1$ because our vectors must be normalized. So, we essentially need to come up with a mathematical fact that says if we have 
+
+{
+\[a_1^2 +a_2^2 + ... + a_N^2 = 1\ \text{ then }\]
+\[a_1 +a_2 + ... + a_N \leq \text{ ? } = \sqrt{N}\]
+}
+
+Luckily, there exists such a fact. It takes advantage of the Cauchy-Schwarz inequality, which is:
+
+{
+\[\abs{\bra{u}\ket{v}} \leq \lVert u \rVert * \lVert v \rVert\]
+}
+
+Where $\bra{.}\ket{.}$ represents the inner product of our metric. In our case, we can use this in the following manner:
+
+{
+\[\abs{\bra{1}\ket{\alpha_x^{(j)}}} \leq \sqrt{ \sum_{x\in\{0,1\}^n}1^2  } = \sqrt{N}\]
+}
+
+We're now essentially finished. We can thus do the following rewrite:
+
+{
+\[D_r^{(k)} \leq \sum_{j=0}^{k-1}\sum_{r\in\{0,1\}^n} 2\abs{\alpha_r^{(j)}} \leq \sum_{j=0}^{k-1} 2\sqrt{N} = 2k\sqrt{N} \]
+}
+
+However, there's only 1 element $r$ out of $N$ that is marked. So, on average, the difference between the ending states of the two circuits is:
+
+{
+\[\lVert \ket{\psi_r^{(k)}} - \ket{\phi^{(k)}} \rVert = D^{(k)}_r \leq 2k\sqrt{N}/N = 2k/\sqrt{N}\]
+}
+
+This concludes our proof as this is just what we wanted to show.
+
+
+\end{document}

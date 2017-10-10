@@ -1,0 +1,376 @@
+\documentclass[11pt]{article}
+%============Macros==================%
+% you don't need to change anything. start editing from main body.
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\usepackage{braket}
+\usepackage{amsmath}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+%--------------Header------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2017}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 6in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 6in { \term \hfill \emph{#2}}
+       \hbox to 6in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\lecture}[4]{\handout{#1}{#2}{#3}{#4}{{Lecture #1}}}
+%=============Main Doc=================%
+\begin{document}
+%-----Specs: change accordingly--------%
+\def\lecdate{May 02, 2017} % put lecture date here
+\def\scribe{Scribe: Mohamed Abidalrekab} % put your name here
+\def\lecnum{9} % change the lecture number
+
+\lecture{\lecnum}{\lecdate}{\prof}{\scribe}%
+
+\begin{center}
+{\textsc{Version: \today}}  
+\end{center}
+
+%==============================%
+\section{Basic Definitions}
+
+A group $(G,\cdot)$ is non-empty set $G$ with a binary operation
+'$\cdot$' with the following proprieties:
+\begin{enumerate}
+\item closure: $g_1 \cdot g_2 \in G, \forall g_1,g_2 \in G$
+\item associativity:
+  $(g_1 \cdot g_2) \cdot g_3 = g_1\cdot(g_2\cdot g_3) \forall g_1,g_2,g_3 \in G $
+\item identity: There exists $e \in G$ such that
+  $\forall g \in G, g \cdot e = e \cdot g = g$
+\item inverse: for all $g \in G$ there exists $g^{-1} \in G$ such that
+  $g \cdot g^-1 = e$ and $g^{-1} \cdot g = e$.
+\end{enumerate}
+
+Any group G called finite iff the number of elements in G is finite,
+and the order of a finite group G is the number of element in that
+group which denoted as $|G|$. A group G is said to be "Abelian Group"
+if $g_1g_2 = g_2g_1, \forall g_1,g_2 \in G$. The Group $Z_n$ of
+integers modulo n with multiplication operation is an example of a
+finite Abelian group \cite{Nielsen:2011:QCQ:1972505}.
+
+\section{Hidden Subgroup Problem (HSP)}
+\paragraph{Problem Statement:}
+Let $G$ be a finite abelian group, and $H \subseteq G$ be a subgroup
+of G. We are giving a function $f:G \rightarrow S$ as an oracle which
+is constant on each coset of $H$ and distinct on distinct cosets i.e.,
+\begin{equation*}
+  f(g)=f(g') \text{ iff there is an
+    $h \in H$ such that } g=hg' \, .
+\end{equation*}
+The goal is to find $H$. The hidden subgroup problems include
+order-finding, period-finding, logarithms, and many other problems can
+be solved using a number of operations polynomial in
+$log|G|$~\cite{Nielsen:2011:QCQ:1972505}.
+
+\paragraph{Examples}
+\begin{itemize}
+\item The Symmetric group on N elements, or $S_N$ is the group who's
+  underlying set is the set of all bijections from
+  $[N] = 0, 1, 2, ....N-1$ to itself. so each set has its own inverse
+  and identity transformation belongs to the same set.
+\item The Dihedral group $D_N$ is the group who's underlying set ig
+  the set of symmetries of an $N$-sided regular polygon where a group
+  of operation should be composed of symmetrical sub operations.
+\end{itemize}
+
+Examples of HSP problems:
+
+\begin{table}[ht]
+\caption{Hidden Group problem}
+\centering 
+\begin{tabular}{c c c}
+  \hline
+  Problem & the Group & type of the Group \\
+  \hline
+  Simon's & $Z_2^n$ & Abelian \\
+  Factoring/Period Finding & $Z_N$ & Abelian\\
+  Discrete Log & $Z_N \times Z_N$ & Abelian\\
+  Pell's Equation/Princp. Ideal Problem & R & Abelian\\
+  Graph Isomorphism & $S_n$(Symmetric Group) & Non-Abelian\\
+  Shortest Vector Problem & $D_N$ (Dihedral Group)& Non-Abelian\\
+  \hline
+\end{tabular}
+\end{table}
+
+\begin{itemize}
+\item The underlying group G associated with the problem is Abelian,
+  in which case we can solve the problem with $poly(\log|G|)$ number
+  of gates and calls to the provided oracle $O_f$. This is the case
+  with the first four of the problems listed in the table above. 
+  \cite{Nielsen:2011:QCQ:1972505}.
+\item The underlying group $G$ associated with the problem is
+  non-Abelian, in which case we can have an algorithm that has
+  $poly(\log|G|)$ calls to the oracle function $O_f$, but it may need
+  and exponential number of gates to run successfully.
+\end{itemize}
+
+%==============================%
+\section{Grover Search Algorithm}
+Unstructured Grover's algorithm is a quantum algorithm to find a
+special element within a search space "database" in number of attempts
+$O(\sqrt N)$ comparing to classical algorithms which can do it at
+least $\Omega(N)$ where $N$ is the number of elements in that
+database. The search is called unstructured because there is no
+guarantee of how the database is sorted.
+
+\subsection{Problem Definition:}
+\begin{itemize}
+\item Given oracle function: $f:\{0,1\}^n \rightarrow \{0,1\}$. Assume
+  that there is a unique $x^*$ such that $f(x^*) = 1$.
+\item Output: $x^*$.
+\end{itemize}
+
+
+To mark the special element classically, we need to try $\Omega(2^n)$
+attempt, while randomly it takes $2^{n-1}$. using Quantum algorithm it
+can be achieved using only $\Theta(\sqrt{2^n})$ queries.
+\begin{figure}[h]
+\includegraphics[scale=1]{GGate}
+\caption{The Circuit of Grover's algorithm}
+\end{figure}
+\subsection{Algorithm's procedure:}
+schematically, the search algorithm operation is shown in figure (2), the algorithm uses a single n qubit register. The Hadamard transform is used to put the input into superposition state.
+\begin{equation}
+\ket{\psi}= \frac{1}{\sqrt N}\sum_{x=0}^{N-1}\ket{x} 
+\end{equation}
+Then the quantum algorithm consists of repeated subroutines known as "Grover's operator" whose circuit is shown in figure 1. The algorithm itself can be broken into four steps:\\
+\begin{enumerate}
+	\item Apply the Oracle
+	\begin{equation}
+	Z_f\ket{x} = (-1)^{f(x)}\ket{x} 
+	\end{equation}
+	\item Apply the Hadamard transform $H^{\bigotimes n}$
+	\item  Perform conditional phase shift for all computational basis state except $\ket{0}$ getting a phase shift -1.
+	\begin{equation}
+	Z_0\ket{x}=\begin{cases}
+	-\ket{x}, & x= 0^{n}\\
+	\ket{x}, & otherwise
+	\end{cases}
+	\end{equation}
+	\item Apply the Hadamard transform $H^{\bigotimes n}$\\
+	\begin{equation}
+	G = H^{\bigotimes n}Z_o H^{\bigotimes n} Z_f 
+	  = (-H^{\bigotimes n}1H^{\bigotimes n}+2H^{\bigotimes n}\ket{0}\bra{0}H^{\bigotimes n}) Z_f 
+	\end{equation}
+	
+\end{enumerate}
+we know that $-H^{\bigotimes n}1H^{\bigotimes n}+2H^{\bigotimes n}\ket{0}\bra{0}H^{\bigotimes n}= 2\ket{\psi}\bra{\psi}-I $ so that G "Grover's operator" can be rewritten as:\\
+\begin{equation*}
+G = (2\ket{\psi}\bra{\psi}-I )Z_f
+\end{equation*}
+Repeating these steps many times and then measure increases the chance to get the right element. The overall Quantum operator applied by Grover's algorithm is shown in figure 2.
+\begin{figure}[h]
+\includegraphics[scale=1]{diagram}
+\centering
+\caption{Grover's operations blocks}
+\end{figure}\\
+Theorem : The operation $2\ket{\psi}\bra{\psi}-I$ applied to a general state $ \sum_{k}\alpha_k \ket{k}$ produces,
+\begin{equation}
+\sum_{k}[-\alpha_k + 2\langle\alpha\rangle]\ket{k}
+\end{equation}
+ where $\langle\alpha\rangle\equiv\sum_{k}\alpha_k/N$ is the mean value of $\alpha_k$. that's why operator $2\ket{\psi}\bra{\psi}-I$ is called inversion about the mean operation.  
+%==============================%
+\section{Grover's Algorithm analysis}
+\subsection{Geometric visualization}
+in this section i will closely follow Nielsen and Chuang's book to describe the geometrical meaning of Grover's algorithm. if we have a two dimensional space spanned by the starting vector $\ket{\psi}$ and a uniform superposition state of solution of the search problem, the Grover's operator can be regraded as a (rotation). To put this into formulation, let us have two normalized states:
+\begin{equation}
+\ket{A} \equiv \frac{1}{\sqrt{M}}\sum_{x}^{M}\ket{x}
+\end{equation}
+\begin{equation}
+\ket{B} \equiv \frac{1}{\sqrt{N-M}}\sum_{x}^{N-M}\ket{x}
+\end{equation}
+where $\sum_{x}^{M}$ represents a sum over all x solution of search problem, while $\sum_{x}^{N-M}$ indicate all non-solution to the search problem. Thus the initial state of the algorithm $\ket{\psi}$ can be re-expressed as, 
+\begin{equation}
+\ket{\psi} = \sqrt{\frac{M}{N}}\ket{A}+\sqrt{\frac{N-M}{N}}\ket{B}
+\end{equation}
+That means the initial of our algorithm exits in a space spanned by two vector basis $\ket{A}$ and $\ket{B}$ as in figure 3.
+\begin{figure}[h]
+	\includegraphics[scale=1]{GM}
+	\centering
+	\caption{The actions of single iteration of Grover's Algorithm}
+\end{figure}\\
+by looking to figure 3, it turns out that G consists of two operation. first operation is the Oracle operation $Z_f$ performs a reflection about $\ket{B}$ in the space spanned by $\ket{A}$ and $\ket{B}$, so that $Z_f(\aleph\ket{A}+\beta\ket{B})= -a\ket{A}+b\ket{B}$. The second, $2\ket{\psi}\bra{\psi}-I$ also perform a reflection about $\ket{\psi}$, so that the outcome of product of both reflections is a rotation.\\
+This means that $G^k\ket{\psi}$ remains in the same space spanned by basis for all k's where k is the number of iterations. let us assume that $cos(\theta )= \sqrt{\frac{N-M}{N}}$, and 
+\begin{equation}
+\ket{\psi}= sin(\theta)\ket{A}+cos(\theta)\ket{B}
+\end{equation}
+As in figure 3, applying operator G on the state has the total effect of a rotation by $2\theta$ 
+\begin{equation}
+\ket{\psi}= sin(2\theta)\ket{A}+cos(2\theta)\ket{B}
+\end{equation}
+Applying G on $\ket{\psi}$ for k times takes the state to:
+\begin{equation}
+G^k \ket{\psi}=sin((2k+1)\theta)\ket{A}+cos((2k+1)\theta)\ket{B}
+\end{equation} 
+\subsection{How many iteration is needed?}
+To get $\ket{\psi}$ as close as possible to $\ket{A}$ starting from the initial state $\ket{\psi}= sin(\theta)\ket{A}+cos(\theta)\ket{B}$, we rotate through $arcos(\sqrt{\frac{M}{N}})$ radius. so, then the Grover's algorithm iteration can be. 
+\begin{equation}
+R = CI(\frac{arcos(\sqrt{\frac{M}{N}})}{2\theta})
+\end{equation} 
+times rotates $\ket{\psi}$ to within angle $\theta \leq \pi/2 $ where "CI" means rounding to nearest integer. Note that when $M\ll N$ we have $\theta \simeq sin(\theta) \simeq (\sqrt{\frac{M}{N}})$, given probability of error at most $\frac{M}{N}$\\
+Note: the number of iteration depends on M ( the number of solution) but not the identity of these solutions. from 12 note that $R \leq \frac{pi}{4\theta}$ so, the upper bound of R is decided by the lower bound on $\theta$[1].Assuming that $M \leq N/2$ \cite{Nielsen:2011:QCQ:1972505},
+\begin{equation}
+\theta \geq sin(\theta)= \sqrt{\frac{M}{N}}
+\end{equation}
+from 12, 13, yield
+\begin{equation}
+R \leq \frac{\pi}{4}\sqrt{\frac{N}{M}}
+\end{equation}
+So, Grover's algorithm call the oracle R times in order to obtain the solution to the search problem with high probability. 
+%==============================%
+\section{Different Approach to Grover's Algorithm}
+\subsection{Amplitude Amplification}
+Remember that our search problem is given an ability to query an Oracle $O\ket{x}\ket{q}=\ket{x}\ket{q\bigotimes f(x)}$ obtain a special element (or elements) such that $f(x^*)=1$ stored in a database. the output will be $x^*$ procedure of implementing Grover's as follows:
+\begin{enumerate}
+	\item initiate state $\ket{0}^{\bigotimes n}\ket{0}$
+	\item apply $H^{\bigotimes n}$ to the first n qubit and HX to the next qubit.
+	\begin{equation*}
+	\longmapsto \frac{1}{\sqrt{2^n}}\sum_{x=0}^{2^n-1}[\frac{\ket{0}-\ket{1}}{\sqrt{2}}]
+	\end{equation*}
+	\begin{figure}[h!]
+		\includegraphics[scale=1]{1}
+		\centering
+	\end{figure}
+    \item apply the oracle followed by $2\ket{\psi}\bra{\psi}-I$ the overall operation yeild:
+    \begin{equation}
+    \longmapsto [(2\ket{\psi}\bra{\psi}-I)Z_f]^{\bigotimes R} \frac{1}{\sqrt{2^n}}\sum_{x=0}^{2^n-1}\ket{x}[\frac{\ket{0}-\ket{1}}{\sqrt{2}}] \simeq \ket{x*}[\frac{\ket{0}-\ket{1}}{\sqrt{2}}]
+    \end{equation}
+    \begin{figure}[h!]
+     	\includegraphics[scale=1]{2}
+     	\centering
+    \end{figure}
+\begin{figure}[h!]
+	\includegraphics[scale=1]{3}
+	\centering
+\end{figure}
+\item measure x*
+\end{enumerate}
+\section{Worked Example}
+[Note: this example is adapted from reference [2] as is]
+consider a system of $2^{3}$ states, and we are looking for a special binary state $x_0 = 011$. therefore, to represent this system, we need $n = 3$ qubits . The overall state can be written as:
+\begin{equation}
+\ket{x} = \alpha_0 \ket{000} + \alpha_1 \ket{001} + \alpha_2 \ket{010} + \alpha_3 \ket{011} + \alpha_4 \ket{100} + \alpha_5 \ket{101} + \alpha_6 \ket{110} + \alpha_7 \ket{111} 
+\end{equation} 
+where $\alpha_i$ are the amplitude probability of a state $\ket{x_i}$, and Grover algorithm is initialized in state $1\ket{000}$.
+Next step is to apply Hadamard transformation to obtain a state in the form of eq. 16. 
+\begin{equation}
+	H^{\bigotimes3}\ket{000} = \frac{1}{2\sqrt{2}}\ket{000} + \frac{1}{2\sqrt{2}} \ket{001}+....+ \frac{1}{2\sqrt{2}} \ket{111}
+	= \frac{1}{2\sqrt{2}}\sum_{x=0}^{7}\ket{x} = \ket{\psi} 
+\end{equation}
+to have a complete picture of the state, it is better to switch to geometric interpretations of probability amplitudes of each component. These components stay real throughout Grover's algorithm, so they can be represented as lines perpendicular to the axis! as shown in the earlier examples. 
+\begin{figure}[h!]
+	\includegraphics[width=\linewidth]{4}
+	\centering
+\end{figure} \\
+Now, it is reasonable to make 2 iteration of Grover's in order to obtain the solution which is inferred from $\frac{\pi \sqrt{8}}{4} \eqsim 2.22$ then it is rounded to nearest integer \cite{strubell2011}. \\
+In the first iteration:\\
+we call the oracle, then perform inversion about the average which is also called "Diffusion transform"\\
+\begin{equation}
+\ket{x} = \frac{1}{2\sqrt{2}}\ket{000} + \frac{1}{2\sqrt{2}} \ket{001}+ \frac{1}{2\sqrt{2}} \ket{010} - \frac{1}{2\sqrt{2}} \ket{011}....+ \frac{1}{2\sqrt{2}} \ket{111}
+\end{equation} 
+Notice that the state $\ket{x_0} = \ket{011}$ is flipped in sign after applying the Oracle. in the next figure, the geometric interpretation of what the oracle did. 
+\begin{figure}[h!]
+	\includegraphics[width=\linewidth]{5}
+	\centering
+\end{figure} \\
+Now, we are going to apply the Diffusion operator! $2\ket{\psi}\bra{\psi}-I$ which increases the amplitude by their difference from the average, or decreases it if the difference is negative. 
+\begin{equation}
+[2\ket{\psi}\bra{\psi}-I]\ket{x}\\
+= [2\ket{\psi}\bra{\psi}-I][\ket{\psi} - \frac{2}{2\sqrt{2}}\ket{011}]
+\end{equation}
+\begin{equation}
+= 2\ket{\psi}\braket{\psi|\psi}-\ket{\psi} - \frac{2}{\sqrt{2}}\ket{\psi}\braket{\psi | 011}+\frac{1}{\sqrt{2}}\ket{011}
+\end{equation}
+where $\braket{\psi|\psi} = 1$, and since $\ket{011}$ is one of the state basis vector, yield $\braket{\psi|011} = \frac{1}{2\sqrt{2}}$
+\begin{equation}
+2\ket{\psi} - \ket{\psi} - \frac{2}{\sqrt{2}}(\frac{1}{2\sqrt{2}})\ket{\psi}+\frac{1}{\sqrt{2}}\ket{011}
+\end{equation}
+\begin{equation}
+\frac{1}{2}\ket{\psi} + \frac{1}{\sqrt{2}}\ket{011}
+\end{equation}
+Substituting from equation 16,
+\begin{align}
+&= \frac{1}{2}[\frac{1}{2\sqrt{2}}\sum_{{x=0 \atop x\neq 3} }^{7}\ket{x}]+\frac{1}{\sqrt{2}}\ket{011}  \\
+&= \frac{1}{4\sqrt{2}}\sum_{x=0 \atop x\neq 3}^{7}\ket{x}+\frac{1}{4\sqrt{2}}\ket{011} + \frac{1}{\sqrt{2}}\ket{011}\\
+&= \frac{1}{4\sqrt{2}}\sum_{x=0 \atop x\neq 3}^{7}\ket{x}+\frac{5}{4\sqrt{2}}\ket{011}
+\end{align}
+Our final geometrical form of the state is,
+\begin{figure}[h!]
+	\includegraphics[width=\linewidth]{6}
+	\centering
+\end{figure} \\
+This the shape of a state by the end of first iteration of Grover's algorithm. Now, we are going to see how the state evolves after the second iteration.\\
+Starting with,
+\begin{equation*}
+\ket{x} = \frac{1}{4\sqrt{2}} \ket{000} +\frac{1}{4\sqrt{2}}\ket{001} + \frac{1}{4\sqrt{2}}\ket{010} + \frac{5}{4\sqrt{2}}\ket{011}  + \frac{1}{4\sqrt{2}} \ket{100} +...+ \frac{1}{4\sqrt{2}}\ket{111}
+\end{equation*} 
+We apply the same transformation as the first iteration, yield.
+\begin{equation}
+\ket{x} = \frac{1}{4\sqrt{2}} \ket{000} +\frac{1}{4\sqrt{2}}\ket{001} + \frac{1}{4\sqrt{2}}\ket{010} - \frac{5}{4\sqrt{2}}\ket{011}  + \frac{1}{4\sqrt{2}} \ket{100} +...+ \frac{1}{4\sqrt{2}}\ket{111}
+\end{equation} 
+which equal to, 
+\begin{align}
+&= \frac{1}{4\sqrt{2}}\sum_{{x=0 \atop x\neq 3} }^{7}\ket{x}]-\frac{5}{4\sqrt{2}}\ket{011}  \\
+&= \frac{1}{4\sqrt{2}}\sum_{x=0 \atop x\neq 3}^{7}\ket{x}+\frac{5}{4\sqrt{2}}\ket{011} + \frac{1}{\sqrt{2}}\ket{011}\\
+&= \frac{1}{4\sqrt{2}}\sum_{x=0}^{7}\ket{x}-\frac{6}{4\sqrt{2}}\ket{011}
+= \frac{1}{2}\ket{\psi}-\frac{3}{2\sqrt{2}}\ket{011}
+\end{align}
+\begin{figure}[h!]
+	\includegraphics[width=\linewidth]{7}
+	\centering
+	\caption{the Final geometrical interpretation of state x}
+\end{figure} \\
+Next step will be Querying the oracle and applying Diffusion operator,
+\begin{equation*}
+[2\ket{\psi}\bra{\psi}-I][\frac{1}{2}\ket{\psi} - \frac{3}{2\sqrt{2}}\ket{011}]\\
+\end{equation*}
+\begin{equation}
+[2(\frac{1}{2})\ket{\psi}\braket{\psi|\psi} - \frac{1}{2}]\ket{\psi} - 2(\frac{3}{2\sqrt{2}})\ket{\psi}\braket{\psi | 011} + \frac{3}{2\sqrt{2}}\ket{011}
+\end{equation}
+\begin{equation*}
+= \frac{-1}{4}\ket{\psi} +\frac{3}{2\sqrt{2}}\ket{011}
+\end{equation*}
+we can rewrite it as:
+\begin{equation}
+\frac{-1}{4}\left( \frac{1}{2 \sqrt{2}}\sum_{{x=0 \atop x\neq 3} }^{7}\ket{x} + \frac{1}{2 \sqrt{2}} \ket{011}\right) + \frac{3}{2 \sqrt{2}}\ket{011}
+\end{equation}
+\begin{equation}
+= \frac{-1}{8 \sqrt{2}}\sum_{{x=0 \atop x\neq 3} }^{7}\ket{x} + \frac{11}{8 \sqrt{2}}\ket{011}
+\end{equation}
+if we expanded it, 
+\begin{equation}
+\ket{x} = \frac{-1}{8\sqrt{2}} \ket{000} +\frac{-1}{8\sqrt{2}}\ket{001} + \frac{-1}{8\sqrt{2}}\ket{010} + \frac{11}{8\sqrt{2}}\ket{011}  + \frac{-1}{8\sqrt{2}} \ket{100} +...+ \frac{-1}{8\sqrt{2}}\ket{111}
+\end{equation}
+Graphically, we represent that as the above figure (4) \cite{strubell2011introduction}. 
+Now, when the measurement is conducted, the probability that the state $\ket{011}$ is selected is $\frac{11}{8\sqrt{2}}$ squared which is equaled to 94.5.
+\bibliography{refere}
+\bibliographystyle{plain}
+
+\end{document}
