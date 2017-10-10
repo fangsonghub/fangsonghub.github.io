@@ -16,6 +16,7 @@ My research interests lie in cryptography, especially in the presence of quantum
 *   **I AM HIRING!** I am looking for self-motivated students who are
     interested in pursuing a PhD degree with me. Please feel free
     to reach me! Find more [here]({{base}}/recruit/).
+*  I will serve on the program committee of [PQCrypto 2018](http://www.math.fau.edu/pqcrypto2018/){:target="_blank"}. It will be co-located with the 1st [NIST PQC Standardization Conference](https://csrc.nist.gov/projects/post-quantum-cryptography/workshops-and-timeline){:target="_blank"} at **Fort Lauderdale, Florida** Please submit your nice research results and hope to meet you there!		
 *  With an undergraduate and a Master's student, we prove optimimal
    quantum query lower bounds and give quantum algorithms for finding
    collisions in a family of non-uniform random functions. Read
@@ -25,7 +26,6 @@ My research interests lie in cryptography, especially in the presence of quantum
    by quantum attacks, But **NMAC** and **HMAC** remain
    quantum-secure, as we prove in our Crypto'17 paper. Check it
    out [here](https://eprint.iacr.org/2017/509){:target="_blank"}.
-*  I will serve on the program committee of [PQCrypto 2018](http://www.math.fau.edu/pqcrypto2018/){:target="_blank"}. It will be co-located with the 1st [NIST PQC Standardization Conference](https://csrc.nist.gov/projects/post-quantum-cryptography/workshops-and-timeline){:target="_blank"} at **Fort Lauderdale, Florida** Please submit your nice research results and hope to meet you there!	
 *  My talk on **ZK for QMA** at QIP'17 is now avaible on [Youtube](https://www.youtube.com/watch?v=1fXLJBN-KfI&feature=youtu.be){:target="_blank"}.	
 <!--*  Our department has a tenure-track faculty position available. Read
        more
