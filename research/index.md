@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt:
-modified: <2017-10-09 Mon>
+modified: <2017-11-07 Tue>
 ---
 * Table of Contents
 {:toc}
@@ -64,6 +64,15 @@ modified: <2017-10-09 Mon>
 
 ### Manuscripts
 
+*   **Pseudorandom States, Non-Cloning Theorems and Quantum Money** 
+    *   Authors: Zhengfeng Ji, Yi-Kai Liu, Fang Song 
+	*   ArXiv
+	preprint [arXiv:1711.00385](https://arxiv.org/abs/1711.00385){:target="_blank"},
+	November 2017.
+*	**Basing cryptography on NP-hardness
+	using quantum reductions** 
+	*   Authors: Nai-Hui Chia, Sean Hallgren, Fang Song 
+	*   _Under submission_. October 2017.
 *   **Quantum Collision-Finding in Non-Uniform Random Functions**
     *   Authors: Marko Balogh and Edward Eaton and Fang Song
     *   Cryptology ePrint Archive: [Report 2017/688](http://ia.cr/2017/688){:target="_blank"}, July 2017.
