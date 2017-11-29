@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '2.5.3'
+gem 'jekyll'
 gem 'jekyll-sitemap'
 gem 'rouge'
 gem 'octopress', '~> 3.0'
+gem 'yajl-ruby', '~> 1.3', '>= 1.3.1'
