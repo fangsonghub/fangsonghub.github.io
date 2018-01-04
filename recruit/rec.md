@@ -1,22 +1,22 @@
 ---
 layout: plain
 permalink: /recruit/rec/
-modified: <2016-12-02 Fri>
+modified: <2017-10-31 Tue>
 ---
 
 {% include rtlogo.html %}
 
 I am inviting PhD applications in _cryptography, quantum computing,
 and general areas of theoretical computer science_ (TCS) starting
-**Fall 2017**, in the [Computer Science Department](computer-science/)
+**Fall 2018**, in the [Computer Science Department](computer-science/)
 at [Portland State University](http://www.pdx.edu/). Portland State
-University is located in the heart of [Portland,
-Oregon](https://en.wikipedia.org/wiki/Portland,_Oregon), one of
-America's most dynamic cities. It gives unmatched access to career
-connections (e.g.,
-[Intel](http://www.intel.com/content/www/us/en/homepage.html)) and an
-internationally acclaimed culture scene. Competitive financial support
-are available with comprehensive benefits.
+University is located in the heart
+of [Portland, Oregon](https://en.wikipedia.org/wiki/Portland,_Oregon),
+one of America's most dynamic cities. It gives unmatched access to
+career connections
+(e.g., [Intel](http://www.intel.com/content/www/us/en/homepage.html))
+and an internationally acclaimed culture scene. Competitive financial
+supports are available with comprehensive benefits.
 
 A solid math background and strong interest in TCS are
 crucial. Suitable students from majors other than computer science
@@ -29,7 +29,7 @@ Find **More Information** at
 hesitate to inquire me for any questions.
 
 *  **Email**: [fang.song at pdx.edu](mailto:fsong@pdx.edu)
-*  **Application Deadline**: March 1, 2017 for starting in Fall 2017
+*  **Application Deadline**: March 1, 2018 for starting in Fall 2018
    (official date). However, review starts immediately upon receiving
    your complete application, so please start early.
 *  **How to apply**: Please follow the
@@ -47,4 +47,6 @@ during the application process.
    analyzing security against quantum attacks; 
    * designing cryptographic constructions empowering quantum information
      processing (i.e. quantum cryptography)
-   * understanding the limits and strenths of quantum computation.
+   * understanding the limits and strengths of quantum computation.
+
+[gradapplink]: https://www.pdx.edu/computer-science/graduate-admission

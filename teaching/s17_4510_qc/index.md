@@ -4,16 +4,22 @@ title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
 courseid: s17 410/510
 desc: s17 410/510
 permalink: /teaching/s17_4510_qc/
-modified: <2017-06-07 Wed>
+modified: <2017-10-09 Mon>
 ---
 
 ## Announcement
+*  <b style="color: red;">New!</b> <2017-10-09 Mon> See final reports
+   of your and your peers' projects on the Project page. 
+*  <b style="color: red;">New!</b> <2017-10-09 Mon> Added a few scribe
+   notes and link to
+   a [note](https://arxiv.org/abs/1709.01236){:target="_blank"}
+   related to Grover's algorithm. See schedule page.
 *  <2017-06-07 Wed> HW4 solusiotns posted on D2L. 
 *  <2017-05-30 Tue> Solutions to HW3 posted on D2L.
 *  <2017-05-08 Mon> Solutions to HW1 and HW2 available on D2L.
 *  <2017-05-02 Tue> HW 3 out, due on May 16 before class. 
 *  <2017-04-25 Tue> Correction to HW2: 2 (c) should be  $$\|\tilde F_N - F_N\|\leq \varepsilon$$. 
-*  <2017-04-04 Tue> Grad students please sign up for scirbe [here](https://docs.google.com/a/pdx.edu/spreadsheets/d/1KJ9amYylo2acxsylG8aIvFElpx3DPeAPtSjsnne4c_c/edit?usp=sharing){:targte="_blank"}. (PSU account needed for access). See [Admin]({{base}}/teaching/s17_4510_qc/admin/) page for a Latex template.  
+*  <2017-04-04 Tue> Grad students please sign up for scirbe [here](https://docs.google.com/a/pdx.edu/spreadsheets/d/1KJ9amYylo2acxsylG8aIvFElpx3DPeAPtSjsnne4c_c/edit?usp=sharing){:targte="_blank"}. (PSU account needed for access). See [Admin]({{base}}/teaching/s17_4510_qc/admin/) page for a Latex template.
 *  <2017-04-04 Tue> HW 1 is out (on [Schedule]({{base}}/teaching/s17_4510_qc/schedule/) page). TeX source file is provided too as a
    template for you to typeset your solutions.
 *  <2017-03-31 Fri> <b style="color: red;">Room changed to Cramer Hall 449!</b> 

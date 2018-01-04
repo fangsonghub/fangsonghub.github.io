@@ -1,26 +1,37 @@
 ---
 layout: plain
-title: M.S. & Ph.D. in Cryptography and Quantum Computing
+title: Ph.D. in Cryptography and Quantum Computing
 permalink: /recruit/
-modified: <2016-12-02 Fri>
+modified: <2017-10-31 Tue>
 ---
 
-<p style="text-align: center;"><a href="{{base}}/recruit/">Web</a>  &nbsp; &nbsp; <a href="{{base}}/files/docs/phdrecf17.pdf">PDF</a></p> 
+<p style="text-align: center;"><a href="{{base}}/recruit/">Web</a>  &nbsp; &nbsp; <a href="{{base}}/files/docs/phdrecf18.pdf">PDF</a></p> 
 
 {% include rtlogo.html %}
 
-I am inviting Master and Ph.D. applications in _cryptography, quantum
-computing, and general areas of theoretical computer science_ (TCS)
-starting **Fall 2017**, in
-the [Computer Science Department](computer-science/)
-at [Portland State University](http://www.pdx.edu/). Portland State U
-is located in the heart
+I am inviting Ph.D. applications in _cryptography, quantum computing,
+and general areas of theoretical computer science_ (TCS) starting
+**Fall 2018**, in the [Computer Science Department](computer-science/)
+at [Portland State University](http://www.pdx.edu/). Competitive
+financial supports (TAship and RAship) are available with
+comprehensive benefits.
+
+Portland State U is located in the heart
 of [Portland, Oregon](https://en.wikipedia.org/wiki/Portland,_Oregon),
 one of America's most dynamic cities. It gives unmatched access to
 career connections
 (e.g., [Intel](http://www.intel.com/content/www/us/en/homepage.html))
-and an internationally acclaimed culture scene. Competitive financial
-support (TAship and RAship) are available with comprehensive benefits.
+and an internationally acclaimed
+natural [recreational destination](https://traveloregon.com/)
+and
+[culture scene](https://www.travelportland.com/things-to-do/culture/). Recently,
+it's becoming an emerging hub for IT industry (Portland gets its
+nickname
+[silicon forrest](https://en.wikipedia.org/wiki/Silicon_Forest)) and
+quantum computing
+([Intel lab](https://www.engadget.com/2017/10/10/intel-superconducting-test-chip-quantum-computing/),
+[QuArC](https://www.microsoft.com/en-us/research/group/microsoft-quantum-redmond-quarc/) of
+Microsoft Research at Redmond, WA).  
 
 A solid math background and strong interest in TCS are
 crucial. Suitable students from majors other than computer science
@@ -32,10 +43,10 @@ hesitate to reach me for any questions.
 
 *  **Contact**: [Fang Song](http://fangsong.info) [http://fangsong.info](http://fangsong.info)
 *  **Email**: [fsong at pdx.edu](mailto:fsong@pdx.edu)
-*  **Starting Date**: Fall 2017
-*  **Application Deadline**: March 1, 2017 (official date). However,
+*  **Starting Date**: Fall 2018
+*  **Application Deadline**: March 1, 2018 (official date). However,
    review starts immediately upon receiving your complete application,
-   so please start early.
+   so please start early. 
 
 ## How to apply?
 Please refer to the application guideline
@@ -46,11 +57,11 @@ out more about the [**Master's Program**][mslink]{:target="_blank"}
 the
 [**PhD program**](https://www.pdx.edu/computer-science/doctor-of-philosophy-in-computer-science){:target="_blank"}.
 
-
-*  Master's degree is **NOT** required for the PhD application. A Bachelor's degree suffices. 
+*  Master's degree is **NOT** required for the PhD application. A
+   Bachelor's degree suffices.
 
 *  Please **mention my name** in your application, or preferably get
-   in touch with me during the application process.
+   in touch with me before/during the application process.
 
 ## What do I do?
 
@@ -62,7 +73,6 @@ cryptography? This leads to three broad directions. The first two are
 concerned with the security of classical cryptosystems in the presence
 of quantum adversaries, and the third explores constructing quantum
 schemes to protect classical as well as quantum information.
-
 
 *  Designing quantum algorithms and understanding the computaiontal
    hardness especially for problems that are critical for

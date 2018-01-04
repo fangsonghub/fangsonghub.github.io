@@ -14,14 +14,19 @@ modified: <2018-01-03 Wed>
 
 ## Advising
 I am looking for self-motivated students who are interested in
-    pursuing MS/PhD degrees with me. Please find more information on
+    pursuing PhD degrees with me. Please find more information on
     the [recruit page]({{base}}/recruit/){:target="_blank"}. Don't hesitate to reach me! 
 	
+### Ph.D. 
+*  2017.09 -  [Asher Toback](){:target="_blank"}
+
 ### Undergraduate 
 
-* 2016.09 - .  Marko Balogh. Honors Thesis, Portland State University.
+* 2016.09 - 2017.06. Marko Balogh. Honors Thesis, Portland State University.
 * 2014.05 - 2014.08. Edward Eaton. REU, University of Waterloo. Now a
 M.Sc student at University of Waterloo.
+
+### High-school students
 
 - - -
 

@@ -1,0 +1,264 @@
+\documentclass[11pt]{article}
+%============Macros==================%
+% you don't need to change anything. start editing from main body.
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%--------------Header------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2017}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 6in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 6in { \term \hfill \emph{#2}}
+       \hbox to 6in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\lecture}[4]{\handout{#1}{#2}{#3}{#4}{{Lecture #1}}}
+
+\def\C{\mathbb{C}}
+\def\I{\mathbb{1}}
+\newcommand{\vecket}[2]{\begin{pmatrix} #1 \\ #2 \end{pmatrix}}
+\newcommand{\vecbra}[2]{\begin{pmatrix}\bar{#1}&\bar{#2}\end{pmatrix}}
+\newcommand{\ket}[1]{| #1 \rangle}
+\newcommand{\bra}[1]{\langle #1 |}
+\newcommand{\inner}[2]{\langle #1 | #2 \rangle}
+\newcommand{\makeroom}{\vspace{5mm}\noindent}
+\newcommand{\overwire}[1]{\text{\raisebox{5mm}{$^{#1}$}}}
+
+\newtheorem{theorem}{Theorem}
+
+%=============Main Doc=================%
+\begin{document}
+%-----Specs: change accordingly--------%
+\def\lecdate{May 9, 2017} % put lecture date here
+\def\scribe{Scribe: Ben Hamlin} % put your name here
+\def\lecnum{11} % change the lecture number
+
+\lecture{\lecnum}{\lecdate}{\prof}{\scribe}%
+
+\begin{center}
+{\textsc{Version: \today}}  
+\end{center}
+
+%======================================%
+\section{Theory of Quantum Information}
+%======================================%
+
+A.K.A. Quantum information processing
+
+\begin{itemize}
+\item \textit{What it's not}: Quantum computation
+\begin{itemize}
+\item Algorithms (e.g., search, order-finding)
+\item Complexity (e.g., QBP, QMA)
+\item In general: \textit{Making quantum states meaningful.}
+\end{itemize}
+\item \textit{What it is}: Quantum information
+\begin{itemize}
+\item More fundamental tasks (e.g., create, copy, store, communicate, \dots)
+\item Focus on theory (experiments also exist)
+\item In general: \textit{Making quantum states availiable.}
+\end{itemize}
+\end{itemize}
+
+%==============================%
+\section{Information theory}
+%==============================%
+
+\subsection{Classical setting} 
+Claude Shannon, ``A Mathematical Theory of Communication,'' 1948.
+\[\Qcircuit @C=2mm @R=3mm {
+   \lstick{\text{Alice}}          &&          \rstick{\text{Bob}}
+\\ \lstick{m} & \gate{\text{Comm. Channel}} & \rstick{\hat{m}}\qw
+\\            & \text{phone line, cable, etc.}
+}\]
+\textit{Central Questions:}
+\begin{enumerate}\setcounter{enumi}{-1}
+\item What is information?
+\item How many bits do we need to describe a source? (Shannon entropy)
+      [Shannon's Source Coding Theorem]
+\item How can we transmit messages over a noisy channel?
+      [Shannon's Noisy-channel Coding Theorem]
+\end{enumerate}
+
+\makeroom
+\subsection{Quantum setting}
+\[\Qcircuit @C=2mm @R=2mm {
+   \lstick{\text{Alice}} && \rstick{\text{Bob}}
+\\ \lstick{\ket{m}} & \gate{\text{Quantum Channel}} & \rstick{\ket{\hat m}}\qw
+\\ \lstick{\text{Q. data}} & \text{fiber}
+}\]
+
+\makeroom
+\textit{Central questions:}
+\[\begin{tabular}{l|l|l}
+    & classical channel     & quantum channel
+    \\ \hline         &                       &
+    \\ classical data & 1) Source Coding Thm. & 1) How much classical info is in a Q. state [Holevo]
+    \\                & 2) Noisy Channel Thm. & 2) Classical capacity of Q. channel (QECC)
+    \\ \hline         &                       &
+    \\ quantum data   &                     & 1) Min. qubits to describe Q. source [Schumacher]
+    \\                &                       & 2) Q. capacity of Q. channel (QECC)
+\end{tabular}\]
+
+\makeroom
+\textbf{New resource: Entanglement}
+\begin{itemize}
+\item Teleportation: Transmit quantum states over a classical using two bits
+\item Superdense coding: Transmit two classical bits using a single qubit
+\item Non-local games
+\end{itemize}
+
+\makeroom
+\textbf{New tasks:}
+\begin{itemize}
+\item Getting around the No-cloning Theorem
+\item Distinguishing quantum states
+\end{itemize}
+
+%==============================%
+\section{No-cloning Theorem}
+%==============================%
+
+\textbf{Classically...}
+\[\Qcircuit @C=2mm @R=2mm {
+   \lstick{a \in \{0,1\}} & \ctrl{1} & \qw & \rstick{a}
+\\ \lstick{0}             & \targ    & \qw & \rstick{a}
+}\]
+The above classical circuit ``clones'' the bit $a$ reversibly. I.e., it
+calculates $\rangle a,0 \langle \mapsto \rangle a,a \langle$.
+
+\makeroom
+\textbf{Quantumly...} \\
+Is there a quantum circuit $U$ that calculates
+$\ket{a}\ket0 \xmapsto{U} \ket{a}\ket{a}$? \textit{No-cloning Theorem}
+
+\makeroom
+\textit{Why does CNOT fail?} \\
+Succeeds in some cases, e.g., $\ket0, \ket1$:
+\[\Qcircuit @C=2mm @R=3mm {
+   \lstick{\ket0} & \ctrl{1} & \qw & \rstick{\ket0}
+\\ \lstick{\ket0} & \targ    & \qw & \rstick{\ket0}
+} \hspace{1in} \Qcircuit @C=2mm @R=2mm {
+   \lstick{\ket1} & \ctrl{1} & \qw & \rstick{\ket1}
+\\ \lstick{\ket0} & \targ    & \qw & \rstick{\ket1}
+}\]
+Fails in others, e.g., $\ket+$:
+\[\Qcircuit @C=2mm @R=3mm {
+   \lstick{\ket0} & \ctrl{2} & \qw 
+\\ & & & \rstick{\frac{\ket{00} + \ket{11}}{\sqrt{2}} \not= \ket+\ket+}
+\\ \lstick{\ket0} & \targ    & \qw \gategroup{1}{3}{3}{3}{3mm}{\}}
+}\]
+
+\makeroom
+\begin{proof}
+Suppose for contradiction that there exists a unitary $U$ and a fixed
+preparation $\ket{s}$ s.t. for all states $\ket\psi$,
+\begin{align*}
+\ket\psi \ket{s} \xmapsto{U} \ket\psi \ket\psi
+\end{align*}
+Then for any distinct quantum states $\ket\psi$ and $\ket{\psi'}$,
+\begin{align*}
+   \ket\psi    \ket{s} \xmapsto{U} \ket\psi    \ket\psi
+\\ \ket{\psi'} \ket{s} \xmapsto{U} \ket{\psi'} \ket{\psi'}
+\end{align*}
+And since unitary operations preserve inner product,
+\begin{align}
+   \inner{\psi s}{\psi' s} &= \inner{\psi\psi}{\psi'\psi'}
+\\ (\bra\psi \otimes \bra{s})(\ket{\psi'} \otimes \ket{s})
+        &= (\bra\psi \otimes \bra\psi)(\ket{\psi'} \otimes \ket{\psi'})
+\\ \inner{\psi}{\psi'} \otimes \inner{s}{s}
+        &= \inner{\psi}{\psi'} \otimes \inner{\psi}{\psi'}
+\\ \inner{\psi}{\psi'} &= \inner{s}{s} \label{contra}
+\end{align}
+And since $\inner{s}{s}$ is a constant, line \ref{contra} clearly cannot be true
+for all distinct $\ket\psi$, $\ket{\psi'}$. Therefore by contradiction, no such
+$U$ can exist.
+\end{proof}
+
+%======================================%
+\section{The Power of Entanglement}
+%======================================%
+
+\textbf{Examples of entangled states:}
+\begin{itemize}
+\item 2-qubit
+\[\text{Bell States: } \left\{
+\begin{array}{l}
+        \left.\begin{array}{l}
+                \ket{\Phi^+} = \frac{1}{\sqrt{2}}(\ket{00} + \ket{11})
+        \\      \ket{\Phi^-} = \frac{1}{\sqrt{2}}(\ket{00} - \ket{11})
+        \end{array} \right\}\text{EPR Pairs}
+\\      \left.\begin{array}{l}
+                \ket{\Psi^+} = \frac{1}{\sqrt{2}}(\ket{01} + \ket{10})
+        \\      \ket{\Psi^-} = \frac{1}{\sqrt{2}}(\ket{01} - \ket{10})
+        \end{array}\right.
+\end{array}\right.\]
+\item 3-qubit
+\[\text{GHZ State: } \frac{1}{\sqrt{2}}(\ket{000} + \ket{111})\]
+\end{itemize}
+
+\makeroom
+\textbf{Teleportation:}\\
+Suppose Alice wants to send $\ket\psi = \alpha\ket0 + \beta\ket1$ to Bob.
+\begin{itemize}
+\item Alice may not know $\alpha$ and $\beta$.
+\item Even if she does, she still cant send $\alpha,\beta \in \C$ with infinite
+precision.
+\end{itemize}
+
+\paragraph{Claim:} If Alice and Bob share an EPR pair, Alice can send 2
+classical bits to Bob s.t. Bob can reproduce $\ket\psi$ exactly
+[Bennet,~Brassard,~et~al.~'93].
+
+\makeroom
+\textbf{Teleportation circuit:}\\
+\[\Qcircuit @C=2mm @R=3mm {
+   \lstick{\text{Alice}}                    &&   (1)      &&& (2)      & (3)      & (4)    &              &             && \rstick{\text{Bob}}
+\\ \lstick{\ket\psi}                        &&&& \lstick{M} & \ctrl{1} & \gate{H} & \meter & \cw          & \control\cw  & \rstick{a}\cw
+\\                                          &&&& \lstick{A} & \targ    & \qw      & \meter & \control\cw  & \cw\cwx      & \rstick{b}\cw
+\\ \lstick{\raisebox{9mm}{$\ket{\Phi^+}$}}  &&&& \lstick{B} & \qw      & \qw      & \qw    & \gate{X}\cwx & \gate{Z}\cwx & \rstick{\ket{\psi}}\qw
+\gategroup{3}{2}{4}{2}{3mm}{\{}
+}\]
+
+\begin{enumerate}
+\item $\frac{1}{\sqrt{2}}(\alpha(\ket{000} + \ket{011})
+        + \beta(\ket{100} + \ket{111}))$
+\item $\frac{1}{\sqrt{2}}(\alpha(\ket{000} + \ket{011})
+        + \beta(\ket{110} + \ket{101}))$
+\item $\frac{1}{2}(\ket{00}(\alpha\ket0 + \beta\ket1)
+                   \ket{10}(\alpha\ket0 - \beta\ket1)
+                   \ket{01}(\alpha\ket1 + \beta\ket0)
+                   \ket{11}(\alpha\ket1 - \beta\ket0))$
+\item
+\begin{tabular}{c|c|cll}
+MA & w.p.          & B                        &                &            \\ \hline
+00 & $\frac{1}{4}$ & $\alpha\ket0+\beta\ket1$ & $\xmapsto{\I}$ & $\ket\psi$ \\ \hline
+01 & $\frac{1}{4}$ & $\alpha\ket1+\beta\ket0$ & $\xmapsto{X}$  & $\ket\psi$ \\ \hline
+10 & $\frac{1}{4}$ & $\alpha\ket0-\beta\ket1$ & $\xmapsto{Z}$  & $\ket\psi$ \\ \hline
+11 & $\frac{1}{4}$ & $\alpha\ket1-\beta\ket0$ & $\xmapsto{ZX}$ & $\ket\psi$
+\end{tabular}
+\end{enumerate}
+\end{document}

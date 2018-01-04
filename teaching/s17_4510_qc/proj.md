@@ -5,8 +5,19 @@ desc: Project
 permalink: /teaching/s17_4510_qc/project/
 title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
 subtitle: Course Project
-modified: 2017-04-18
+modified: <2017-10-09 Mon>
 ---
+## <b style="color: red;">New!</b>  Showroom
+Most students did a great job, especially considering some are undergraduates. 
+
+*  Abidalrekab,Inan: Quantum Walks [[PDF]({{base}}/teaching/s17_4510_qc/proj_AI_QW.pdf){:target="_blank"}]
+* Balogh,Cakebread: Quantum neural networks [[PDF]({{base}}/teaching/s17_4510_qc/proj_BC_QNN.pdf){:target="_blank"}]
+* Cooney,Toback: Quantum secure computation [[PDF]({{base}}/teaching/s17_4510_qc/proj_CT_MPC.pdf){:target="_blank"}]
+* Donahue,Patecky,Spriggs: Quantum error correcting [[PDF]({{base}}/teaching/s17_4510_qc/proj_DPS_QECC.pdf){:target="_blank"}]
+* Garcia,Hanna,Tran: Quantum programming languages [[PDF]({{base}}/teaching/s17_4510_qc/proj_GHT_QPL.pdf){:target="_blank"}]
+* Hamlin,Libby,Launchbury: Quantum homomorphic encryption [[PDF]({{base}}/teaching/s17_4510_qc/proj_HLL_QHE.pdf){:target="_blank"}]
+* Le,Weakly: Quantum speedup characteristics [[PDF]({{base}}/teaching/s17_4510_qc/proj_LW_QA.pdf){:target="_blank"}]
+* Sharma: Linear system quantum algorithm [[PDF]({{base}}/teaching/s17_4510_qc/proj_S_QLS.pdf){:target="_blank"}]
 
 ## Instructions
 2-3 people group projects. You may choose to do a _literature review_
