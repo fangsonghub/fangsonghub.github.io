@@ -25,7 +25,7 @@ modified: Tue May 17 20:41:53 EDT 2016
 ## Course Info
 
 *   **Meeting**: 10:30-12:00 on May 10, 12, 17, 19\. All at **QNC 1201** (attention: differs from initial announcement).
-*   **Instructor**: [Fang Song]({{%20base%20}}/) (fang.song AT uwaterloo DOT ca)
+*   **Instructor**: [Fang Song]({{base}}/) (fang.song AT uwaterloo DOT ca)
 
 ### About this module
 
@@ -78,7 +78,12 @@ Students may also count these modules, including assignments and final project, 
 
 ### Tu May 10: Intro
 
-[handout pqc candidate problems: [pdf]({{%20base%20}}/teaching/s16_uw_pqc/ccp.pdf)] - [Lec 1 Part I intro slides: [pdf]({{%20base%20}}/teaching/s16_uw_pqc/qic891_pqc_intro.pdf)] - [Lec1 part II note: [pdf]({{%20base%20}}/teaching/s16_uw_pqc/qic891_pqc_lec1.pdf)]
+[handout pqc candidate
+problems: [pdf]({{ base }}/teaching/s16_uw_pqc/ccp.pdf)] - [Lec 1 Part
+I intro
+slides:
+[pdf]({{base}}/teaching/s16_uw_pqc/qic891_pqc_intro.pdf)] - [Lec1 part
+II note: [pdf]({{base}}/teaching/s16_uw_pqc/qic891_pqc_lec1.pdf)]
 
 *   Setting the scene: threats to cryptography from quantum attacks. Two major aspects: 1) underlying hard problems are broken and 2) classical framework for security analysis falls apart.
 *   Introduce main proposals to resist quantum attacks based on: 1) point lattices; 2) coding theory; 3) multivariate polynomials; and 4) signature schemes using cryptographic hash functions.
@@ -90,7 +95,7 @@ Students may also count these modules, including assignments and final project, 
 
 ### Th May 12: Signature
 
-[handout pqsign schemes: [pdf]({{%20base%20}}/teaching/s16_uw_pqc/pqcsign.pdf)] - [Lec2 note: [pdf]({{%20base%20}}/teaching/s16_uw_pqc/qic891_pqc_lec2.pdf)]
+[handout pqsign schemes: [pdf]({{base}}/teaching/s16_uw_pqc/pqcsign.pdf)] - [Lec2 note: [pdf]({{base}}/teaching/s16_uw_pqc/qic891_pqc_lec2.pdf)]
 
 *   Hash-based signature: Lamport one-time signature (OTS) & Merkle-tree construction. Recent developments for efficiency improvements, e.g., Winternitz OTS.
 *   Hash+: signatures from collision resistant hash function with homomorphic property (H).
@@ -107,7 +112,7 @@ Students may also count these modules, including assignments and final project, 
 
 ### Tu May 17: Public-key encryption
 
-[handout pq pke schemes: [pdf]({{%20base%20}}/teaching/s16_uw_pqc/pqencsum.pdf)] - [Lec3 note: [pdf]({{%20base%20}}/teaching/s16_uw_pqc/qic891_pqc_lec3.pdf)]
+[handout pq pke schemes: [pdf]({{base}}/teaching/s16_uw_pqc/pqencsum.pdf)] - [Lec3 note: [pdf]({{base}}/teaching/s16_uw_pqc/qic891_pqc_lec3.pdf)]
 
 *   Trapdoor one-way functions: plain-text RSA and its siblings in the post-quantum setting: GGH/NTRU (lattice), McEliece/Niederreiter (code), HFE (MQ).
 *   Generic techniques to get CPA/CCA secure encryption in the random-oracle model:
@@ -126,7 +131,7 @@ Students may also count these modules, including assignments and final project, 
 
 ### Th May 19: Are they quantum-secure?
 
-[homework: [pdf]({{%20base%20}}/teaching/s16_uw_pqc/qic891_pqc_hw.pdf), [tex]({{%20base%20}}/teaching/s16_uw_pqc/qic891_pqc_hw.tex)] - [Lec4 part I note: [pdf]({{%20base%20}}/teaching/s16_uw_pqc/qic891_pqc_lec4.pdf)] - [Lec4 part II slides: [pdf]({{%20base%20}}/teaching/s16_uw_pqc/qic891_pqc_outro.pdf)]
+[homework: [pdf]({{base}}/teaching/s16_uw_pqc/qic891_pqc_hw.pdf), [tex]({{base}}/teaching/s16_uw_pqc/qic891_pqc_hw.tex)] - [Lec4 part I note: [pdf]({{base}}/teaching/s16_uw_pqc/qic891_pqc_lec4.pdf)] - [Lec4 part II slides: [pdf]({{base}}/teaching/s16_uw_pqc/qic891_pqc_outro.pdf)]
 
 *   Hardness of the candidate computational problems against quantum algorithms. Worst-case to average-case reductions for lattice problems.
 *   Analyzing security in the presence of quantum adversaries. Challenges and techniques to deal with
