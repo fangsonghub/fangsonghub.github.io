@@ -1,5 +1,30 @@
 # course pages
 
+# W18 ICrypto
+- courseid: w18 485/585
+  title: (Winter 2018) CS 485/585 - Intro to Cryptography
+  desc: w18 485/585
+  nav: true
+  url: /teaching/w18_4585_icrypto/
+    
+- courseid: w18 485/585
+  title: Winter 2018 CS 485/585 Intro to Cryptography
+  desc: Homework
+  nav: false
+  url: /teaching/w18_4585_icrypto/hm/
+
+- courseid: w18 485/585
+  title: (Winter 2018) CS 485/585 - Intro to Cryptography
+  desc: Admin
+  nav: true
+  url: /teaching/w18_4585_icrypto/admin/
+
+- courseid: w18 485/585
+  title: CS 485/585 
+  desc: Resource
+  nav: true
+  url: /teaching/w18_4585_icrypto/resource/
+
 # S17 QC
 
 - courseid: s17 410/510

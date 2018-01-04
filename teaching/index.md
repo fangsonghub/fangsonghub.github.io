@@ -2,16 +2,13 @@
 layout: page
 title: Teaching
 excerpt: 
-modified: <2017-02-03 Fri>
+modified: <2018-01-03 Wed>
 ---
 
 ## Courses at Portland State U
 
-####  Spring 2017 
-* CS 410/510 [Introduction to Quantum Computing]({{ base }}/teaching/s17_4510_qc/)
-
-#### Winter 2017 
-* CS 485/585 [Introduction to Cryptography]({{ base }}/teaching/w17_4585_icrypto/)
+* CS 485/585 **Introduction to Cryptography** [Winter 2018]({{ base }}/teaching/w18_4585_icrypto/); [Winter 2017]({{ base }}/teaching/w17_4585_icrypto/)
+* CS 410/510 **Introduction to Quantum Computing** [Spring 2017]({{ base }}/teaching/s17_4510_qc/)
 
 - - -
 
