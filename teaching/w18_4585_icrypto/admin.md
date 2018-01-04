@@ -77,8 +77,10 @@ security, and Shannon's perfect secrecy.
 ## Policy
 
 
-* **Grading Policy**: Homework 40% (10 each with lowest one dropped),
-     Quizzes 20%, Participation 10%, Final exam 30%.
+* **Grading Policy**: 
+
+     <!-- Homework 40% (10 each with lowest one dropped),
+     Quizzes 20%, Participation 10%, Final exam 30%. -->
 
 * **Homework**: Start working on your homework early! The more
      iterations you go through a problem, the more likely you will get

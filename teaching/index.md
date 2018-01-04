@@ -18,7 +18,7 @@ I am looking for self-motivated students who are interested in
     the [recruit page]({{base}}/recruit/){:target="_blank"}. Don't hesitate to reach me! 
 	
 ### Ph.D. 
-*  2017.09 -  [Asher Toback](){:target="_blank"}
+*  2017.09 - . [Asher Toback](){:target="_blank"}
 
 ### Undergraduate 
 
