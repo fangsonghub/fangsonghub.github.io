@@ -6,17 +6,21 @@ desc: w18 485/585
 permalink: /teaching/w18_4585_icrypto/
 modified: <2018-01-03 Wed>
 ---
-*  **Syllabus**: [PDF]({{base}}/teaching/w18_4585_icrypto/w18syllabus.pdf){:target="_blank"}, and more on the [Administratives]({{base}}/teaching/w18_4585_icrypto/admin/) page.
-*  **Instructor**: [Fang Song]({{base}}/) @ FAB 120-07. Email: fsong "AT" pdx.edu.
+*  **Syllabus**: [PDF]({{base}}/teaching/w18_4585_icrypto/w18syllabus.pdf){:target="_blank"}, and more on the [ADMINISTRATION]({{base}}/teaching/w18_4585_icrypto/admin/) page.
 *  **Lectures**: Tu/Th 16:40 - 18:30 @ Fourth Ave Building 10.
-*  **Office hours**: Tu/Th 10:30 - 11:30am, or by appointment. 
+*  **Instructor**: [Fang Song]({{base}}/) (fsong
+   "AT" pdx.edu). **Office hours**: Tu/Th 10:30 - 11:30am, or by
+   appointment @ FAB 120-07.
+*  **Teaching assistant**: Nate Launchbury (njl2 "AT"
+   pdx.edu). **Office hours**: TBD
 *  **Required Text**: [Introduction to Modern
 Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 (2nd edition) by [Jonathan
 Katz](http://www.cs.umd.edu/~jkatz){:target="_blank"} and [Yehuda
 Lindell](http://u.cs.biu.ac.il/~lindell/){:target="_blank"}.  Chapman
 and Hall/CRC Press, Nov 2014.
-* A **resource** [page]({{base}}/teaching/w18_4585_icrypto/resource/) with useful materials related to the course. 
+* **Useful materials**: see
+  the [RESOURCE]({{base}}/teaching/w18_4585_icrypto/resource/) page.
 * Previous offerings: [Winter 2017]({{base}}/teaching/w17_4585_icrypto/){:target="_blank"}
 
 ## Announcement
@@ -26,9 +30,9 @@ and Hall/CRC Press, Nov 2014.
 
 | Week | Date  | Topic | Reading |
 |:-----:| :---------: |:----------:|:-----:|
-|1| T,01/09  | Syllabus, intro, math background; <br>Perfect secrecy<br> [Intro slides [PDF]({{base}}/teaching/w18_4585_icrypto/intro_ppt.pdf){:target="_blank"}] | [KatzLindell] Chapter 1, Sect. 2.1, Appendix A.|
-||TR,01/11 |One-time pad, limits of perfect secrecy; <br> Computational secrecy <!--<br> [Lec2 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec2_note.pdf){:target="blank"}]--> | [KL] Sect. 2.2,2.3,3.1,3.2|
-|2|T,01/16| Stream ciphers, pseudorandom generators <br> proof by reduction <!-- <br> [Lec3 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec3_note.pdf){:target="blank"}] --> | [KL] 3.3,6.1 <br> Supplement: [[BonehShoup v0.4](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"}] Chapter 3 |
+|1| T,01/09  | Syllabus, intro, review of probability and randomized algorithms <br> [Intro slides [PDF]({{base}}/teaching/w18_4585_icrypto/intro_ppt.pdf){:target="_blank"}] | [KatzLindell] Chapter 1,Appendix A; <br> Notes on [discrete probability](https://people.eecs.berkeley.edu/~luca/cs276/notesprob.pdf){:target="_blank"} by Trevisan|
+||TR,01/11 |Perfect secrecy, one-time pad, limits; <br> Computational secrecy <!--<br> [Lec2 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec2_note.pdf){:target="blank"}]--> | [KL] Sect.2.1,2.2,2.3,3.1|
+|2|T,01/16| Stream ciphers, pseudorandom generators <br> proof by reduction <!-- <br> [Lec3 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec3_note.pdf){:target="blank"}] --> | [KL] 3.2,3.3,6.1; <br> Supplement: [[BonehShoup v0.4](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"}] Chapter 3 |
 ||TR,01/18| Block ciphers, pseudorandom functions, pseudorandom permutations <br> Q&A <!--<br> [Lec4 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec4_note.pdf){:target="blank"}]--> | [KL] 3.5,3.6,6.2 <br> Supplement: [BS] Chapter 4|
 |3|T,01/23| Chosen-Plaintext-Attacks <br> **Quiz 1** <br> <!--[Lec5 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec5_note.pdf){:target="_blank"}] -->|   [KL] 3.4,3.5 <br> Supplement: [BS] Chapter 5 |
 ||TR,01/25| MAC 1 <br> <!--[Lec6 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec6_note.pdf){:target="_blank"}] --> | [KL] 4.1,4.2,4.3,4.4 <br> Supplement: [BS] Chapter 6 |
@@ -37,7 +41,7 @@ and Hall/CRC Press, Nov 2014.
 |5|T,02/06| Theoretical constructions of private-key primitives <br> **Quiz 2** | |
 ||TR,02/08| PKC evolution ||
 |6|T,02/13| PubKey Enc, TDP <br> Review HW2&Quiz2 ||
-||TR,02/15| lattices | |
+||TR,02/15| Lattices | |
 |7|T,02/20| PKE based on lattices <br> **Quiz 3**||
 ||TR,02/22| Digital signature 1||
 |8|T,02/27| DS 2 <br> Review HW3&Quiz3 ||
@@ -49,10 +53,10 @@ and Hall/CRC Press, Nov 2014.
 ||T,03/20 | **Final Exam**: 17:30-19:20 @ FAB 10 | Practice Exam [PDF]|
 {:.mbtablestylef}
 ## Homework 
-*  Tuesday Jan. 09, [**HW 1** [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw1.pdf){:target="_blank"}] out, due Thursday Jan. 18.
-*  Thursday Jan. 18, HW 1 **due**. [**HW 2** [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw2.pdf){:target="_blank"}] out, due Thursday Feb. 1.
-*  Thursday Feb. 1, HW 2 **due**. [**HW 3** [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw3.pdf){:target="_blank"}] out, due Thursday Feb. 13. 
-*  Thursday Feb. 13, HW 3 **due**. [**HW 4** [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw3.pdf){:target="_blank"}] out, due Thursday Mar. 1.
+* [**HW 1** [latex]() [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw1.pdf){:target="_blank"}] out Tuesday Jan. 09, due **Thursday Jan. 18**.
+* [**HW 2** [latex]() [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw2.pdf){:target="_blank"}] out Thursday Jan. 18, due **Thursday Feb. 1**.
+* [**HW 3** [latex]() [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw3.pdf){:target="_blank"}] out Thursday Feb. 1, due **Thursday Feb. 15**. 
+* [**HW 4** [latex]() [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw3.pdf){:target="_blank"}] out Thursday Feb. 15, due **Thursday Mar. 1**.
 
 <!--
 ||Theoretical constructions of private-key primitives <br> [Lec8 draft note: [PDF]({{base}}/teaching/w17_4585_icrypto/lec8_note.pdf){:target="_blank"}]|**Reading**: [KL] Chapter 7 <br> Supplement: [BS] Chapter 4.5,4.6; [[Gol00](https://www.amazon.com/Foundations-Cryptography-1-Basic-Tools/dp/0521035368){:target="_blank"}] 2.5,3.4,3.7|
