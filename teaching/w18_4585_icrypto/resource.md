@@ -7,17 +7,21 @@ title: (Winter 2018) CS 485/585 - Intro to Cryptography
 subtitle: Resources
 modified: <2018-01-03 Wed>
 ---
-
-## Crypto courses offered at other institutes
-
-*  [Salil Vadhan's course](http://people.seas.harvard.edu/~salil/cs127/fall06/handouts.html){:target="_blank"} (Fall 2006 at Harvard).
-* [Luca Trevisan's course](https://people.eecs.berkeley.edu/~luca/cs276/){:target="_blank"} (Spring 2009 at UC Berkeley)  
-*  [Theoretical foundations of Cryptography](https://wiki.cc.gatech.edu/theory/index.php/CS_8803TFC_-_Theoretical_Foundations_of_Cryptography,_Spring_2011){:target="_blank"} by Chris Peikert (Spring 2011 at Gorgia Tech).  
-*  [Yevgeniy Dodis's course](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/index.html){:target="_blank"}
-   (Fall 2012 at NYU).
-*  [Boaz Barak's course](http://www.boazbarak.org/cs127/){:target="_blank"} (Spring 2016 at Harvard).   
-*  Dan Boneh's online course on [Coursera](https://www.coursera.org/learn/crypto){:target="_blank"}.
-
+## Useful links
+*  Advice on reading and
+   writing
+   [mathematical proofs](http://www.math.ucsd.edu/~ebender/Supplements/proofs.html){:target="_blank"}.
+* Notes on [discrete probability](https://people.eecs.berkeley.edu/~luca/cs276/notesprob.pdf){:target="_blank"}
+  and on [algebra](https://people.eecs.berkeley.edu/~luca/cs276/notesalgebra.pdf){:target="_blank"}
+  by Luca Trevisan.
+* MIT 6.042 [Mathematics for computer science](https://courses.csail.mit.edu/6.042/spring17/){:target="_blank"}. Read their excellent companion draft [book](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf){:target="_blank"} to catch up necessary math background.
+* Basic number theory fact sheet [part I [PDF](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh1.pdf){:target="_blank"}, Part II [PDF](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh2.pdf){:target="_blank"}] by Dan Boneh.
+* [A Primer on Algebra and Number Theory for Computer Scientists](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/shoup.pdf){:target="_blank"} by Victor Shoup.
+*  A thorough [introduction to LaTeX](https://en.wikibooks.org/wiki/LaTeX){:target="_blank"},
+   and
+   [guide](http://www.math.illinois.edu/~ajh/tex/basics.html){:target="_blank"}
+   on good style.
+   
 ## Books 
 
 ### Text
@@ -55,20 +59,12 @@ the cryptosystems described below (and any new cryptographic constructions you e
 * [Introduction to the Theory of Computation](http://www-math.mit.edu/~sipser/book.html){:target="_blank"} by Michael Sipser.
 * [Probability and Computing: Randomized Algorithms and Probabilistic Analysis](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521835404){:target="_blank"}, by Michael Mitzenmacher & Eli Upfal.
 
-## Useful links
+## Crypto courses offered at other institutes
 
-* Basic number theory fact sheet [part I [PDF](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh1.pdf){:target="_blank"}, Part II [PDF](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh2.pdf){:target="_blank"}] by Dan Boneh.
-* [A Primer on Algebra and Number Theory for Computer Scientists](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/shoup.pdf){:target="_blank"} by Victor Shoup.
-* Notes on [discrete probability](https://people.eecs.berkeley.edu/~luca/cs276/notesprob.pdf){:target="_blank"}
-  and on [algebra](https://people.eecs.berkeley.edu/~luca/cs276/notesalgebra.pdf){:target="_blank"}
-  by Luca Trevisan.
-*  MIT 6.042 [Mathematics for computer science](https://courses.csail.mit.edu/6.042/spring16/){:target="_blank"} and the draft [book](https://courses.csail.mit.edu/6.042/spring16/mcs.pdf){:target="_blank"}.
-*  Advice on reading and
-   writing
-   [mathematical proofs](http://www.math.ucsd.edu/~ebender/Supplements/proofs.html){:target="_blank"}.
-*  A thorough [introduction to LaTeX](https://en.wikibooks.org/wiki/LaTeX){:target="_blank"},
-   and
-   [guide](http://www.math.illinois.edu/~ajh/tex/basics.html){:target="_blank"}
-   on good style.
-   
-
+*  [Salil Vadhan's course](http://people.seas.harvard.edu/~salil/cs127/fall06/handouts.html){:target="_blank"} (Fall 2006 at Harvard).
+* [Luca Trevisan's course](https://people.eecs.berkeley.edu/~luca/cs276/){:target="_blank"} (Spring 2009 at UC Berkeley)  
+*  [Theoretical foundations of Cryptography](https://wiki.cc.gatech.edu/theory/index.php/CS_8803TFC_-_Theoretical_Foundations_of_Cryptography,_Spring_2011){:target="_blank"} by Chris Peikert (Spring 2011 at Gorgia Tech).  
+*  [Yevgeniy Dodis's course](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/index.html){:target="_blank"}
+   (Fall 2012 at NYU).
+*  [Boaz Barak's course](http://www.boazbarak.org/cs127/){:target="_blank"} (Spring 2016 at Harvard).   
+*  Dan Boneh's online course on [Coursera](https://www.coursera.org/learn/crypto){:target="_blank"}.

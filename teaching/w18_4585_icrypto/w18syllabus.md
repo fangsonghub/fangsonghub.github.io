@@ -5,7 +5,7 @@
 *  **Instructor**: Fang Song (fsong "AT" pdx.edu). **Office hours**:
    Tu/Th 10:30 - 11:30am, or by appointment @ FAB 120-07.
 *  **Teaching assistant**: Nate Launchbury (njl2 "AT"
-   pdx.edu). **Office hours**: TBD
+   pdx.edu). **Office hours**: Monday 9:30 - 11:00am.
 *  **Course webpage**:
    http://www.fangsong.info/teaching/w18_4585_icrypto/. Please check
    regularly for updates and announcements.
