@@ -1,0 +1,214 @@
+% Created by Fang Song on April 4 2017. Instructions: you don't need
+% to change anything in the macros, but feel free to define new
+% commands as you wish. Starting from the main body, change the specs
+% (e.g., your name). use \begin{solution} \end{solution} environment
+% to write your solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{Winter 2018 CS 485/585 Introduction to Cryptography}
+\def\term{Portland State University}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\newcommand{\klbk}[1]{[\texttt{KL}: #1]}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\T}{\ensuremath{\mathbb{T}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\algo}[1]{\ensuremath{\mathsf{#1}}}
+% asymptotics
+\DeclareMathOperator{\poly}{poly}
+\DeclareMathOperator{\polylog}{polylog}
+\DeclareMathOperator{\negl}{negl}
+% pseudorandom stuff
+\newcommand{\prg}{\algo{PRG}}
+\newcommand{\prf}{\algo{PRF}}
+\newcommand{\prp}{\algo{PRP}}
+\newcommand{\owf}{\algo{OWF}}
+% ADVERSARIES
+\newcommand{\chg}{\ensuremath{CH}}
+\newcommand{\attacker}[1]{\ensuremath{\mathcal{#1}}}
+\newcommand{\Adv}{\attacker{A}}
+\newcommand{\AdvA}{\attacker{A}}
+\newcommand{\AdvB}{\attacker{B}}
+% games
+\newcommand{\privk}{\ensuremath{\textsf{PrivK}_{\attacker{A},\Pi}^{\textsf{eav}}}} %
+\newcommand{\privkn}{\ensuremath{\textsf{PrivK}_{\attacker{A},\Pi}^{\textsf{eav}}(n)}} %
+\newcommand{\privcpa}[1]{\ensuremath{\textsf{PrivK}_{#1}^{\textsf{cpa}}(n)}} %
+
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+%\studentfalse
+
+\def\issuedate{Jan. 09, 2018}
+\def\duedate{Jan. 18, 2018} % 
+\def\yourname{your name} % put your name here
+%------------------------------%
+\ifstudent
+\hw{1}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{1}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.}  Your solutions will be graded on
+\emph{correctness} and \emph{clarity}. You should only submit work
+that you believe to be correct; if you cannot solve a problem
+completely, you will get significantly more partial credit if you
+clearly identify the gap(s) in your solution. It is good practice to
+start any long solution with an informal (but accurate) ``proof
+summary'' that describes the main idea. %For this problem set, a
+% random subset of problems will be graded.
+Problems marked with ``\mG'' are required for graduate
+students. Undergraduate students will get bonus points for solving
+them. The .tex source is provided on course webpage as a template if
+you want to typeset your solutions in Latex.
+
+\medskip
+\noindent You may collaborate with others on this problem set% and consult external sources
+.  However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem. 
+
+\begin{questions}
+  \question (Probability)
+  
+  \begin{parts}
+    \part (Exercise. Do not turn in.) Let $E[\cdot]$ be the
+    expectation. Describe two random variables $X_1$ and $Y_1$ such
+    that $E[X_1\cdot Y_1] = E[X_1]\cdot E[Y_1]$. Describe another two
+    random variables $X_2$ and $Y_2$ such that
+    $E[X_2\cdot Y_2] \neq E[X_2]\cdot E[Y_2]$.
+
+    \part[5] Suppose there is a new test for a medical condition, and
+    it has the following error rates:
+    \begin{itemize}
+    \item False positive: if you do not have the condition, there is a
+      $5\%$ chance that the test comes positive.
+    \item False negative: if you have the condition, there is $10\%$
+      chance that the test comes negative. 
+    \end{itemize}
+    Assuming incidence of this condition occurs in $1\%$ of the
+    population. How likely that a person tested positive indeed has
+    this condition?
+    % write your solutions in solution environment
+
+    % \begin{solution}
+      
+    % \end{solution}
+    
+    \part[5] Consider a biased coin that appears HEADS with
+    probability $p$. We flip it multiple times independently. What is
+    the expected number of trials until you see HEADS for the first
+    time?
+
+    \part (Bonus 5pts) Suppose that a certain brand of cereal includes
+    a free coupon in each box. There are $n$ different types of
+    coupons. How many boxes do you expect to buy before finally
+    getting a coupon of each type? (Hint: the harmonic number
+    $ H(n) :=\sum_{i=1}^n\frac 1 i = \Theta(\log n)$.)
+
+  \end{parts}
+
+  \question (Asymptotic notations) Recall the following definitions
+  \begin{itemize}
+  \item A non-negative function $f \colon \N \to \R$ is
+    \emph{polynomially bounded}, written $f(n) = \poly(n)$, if
+    $f(n) = O(n^{c})$ for some constant $c \geq 0$.
+  \item A non-negative function $\varepsilon : \N \to \R$ is
+    \emph{negligible}, written $\varepsilon(n) = \negl(n)$, if it
+    decreases faster than the inverse of any polynomial.  Formally:
+    $\lim_{n \to \infty} \varepsilon(n) \cdot n^{c} = 0$ for any
+    constant $c \geq 0$.  (Otherwise, we say that $\varepsilon(n)$ is
+    \emph{non-negligible}.)
+  \end{itemize}
+
+  \begin{parts}
+    \part[3] Is $\varepsilon(n) = 2^{- 10^6 \log^3 n}$ negligible or
+    not?  Prove your answer.  (Why doesn't the base of the logarithm
+    matter?)
+    
+    \part[3] Suppose that $\varepsilon(n) = \negl(n)$ and
+    $f(n) = \poly(n)$.  Is it always the case that
+    $f(n) \cdot \varepsilon(n) = \negl(n)$?  If so, prove it;
+    otherwise, give concrete functions $\varepsilon(n), f(n)$ that
+    serve as a counterexample.
+
+  \end{parts}
+  
+  \question (Perfect Secrecy)
+
+  \begin{parts}
+    \part[8] \klbk{Exercise 2.5.} Prove Lemma 2.6. (Hint: you need to
+    prove both directions.)
+
+    \part[4] \klbk{Exercise 2.7} When using one-time pad with key
+    $k=0^{\ell}$, we have $E_k(m)=k\oplus m =m$, and the message is
+    sent in the clear! It is therefore suggested to modify
+    one-time-pad by only using a random non-zero key $k$. Is this
+    modified scheme still perfectly secret? Justify your answer.
+    
+  \end{parts}
+
+  \question (Computational secrecy)
+  \begin{parts}
+    \part[5] \klbk{Exercise 3.2} Prove that Definition 3.8 CANNOT be
+    satisfied if $\Pi$ can encrypt arbitrary-length messages and the
+    adversary is NOT restricted to output equal-length messages in
+    experiment $\privk$.
+    \part[5] \mG \klbk{Exercise 3.3}   
+  \end{parts}
+
+  \question (Pseudorandom generators)
+
+  \begin{parts}
+    
+  \part[8] \klbk{Exercise 3.5} 
+
+  \part[4] Let $G$ be a pseudorandom generator with expansion factor
+  $\ell(n) > 2n$. Define $G'(s):= G(s) \| G(s+1)$. Is $G'$ necessarily
+  a pseudorandom generator? If so, give a proof; otherwise, show a
+  counterexample.
+    \end{parts}
+
+\end{questions}
+
+
+\end{document}
