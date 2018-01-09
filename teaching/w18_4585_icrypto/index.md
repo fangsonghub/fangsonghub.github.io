@@ -12,7 +12,7 @@ modified: <2018-01-03 Wed>
    "AT" pdx.edu). **Office hours**: Tu/Th 10:30 - 11:30am, or by
    appointment @ FAB 120-07.
 *  **Teaching assistant**: Nate Launchbury (njl2 "AT"
-   pdx.edu). **Office hours**: TBD
+   pdx.edu). **Office hours**: Monday, 9:30 - 11:00 am. 
 *  **Required Text**: [Introduction to Modern
 Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 (2nd edition) by [Jonathan
