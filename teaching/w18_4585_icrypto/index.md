@@ -12,7 +12,7 @@ modified: <2018-01-03 Wed>
    "AT" pdx.edu). **Office hours**: Tu/Th 10:30 - 11:30am, or by
    appointment @ FAB 120-07.
 *  **Teaching assistant**: Nate Launchbury (njl2 "AT"
-   pdx.edu). **Office hours**: TBD
+   pdx.edu). **Office hours**: Monday, 9:30 - 11:00 am. 
 *  **Required Text**: [Introduction to Modern
 Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 (2nd edition) by [Jonathan
@@ -52,10 +52,14 @@ and Hall/CRC Press, Nov 2014.
 ||TR,03/15| Review HW4,Quiz4,PE ||
 ||T,03/20 | **Final Exam**: 17:30-19:20 @ FAB 10 | Practice Exam [PDF]|
 {:.mbtablestylef}
+
 ## Homework 
-* [**HW 1** [latex]() [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw1.pdf){:target="_blank"}] out Tuesday Jan. 09, due **Thursday Jan. 18**.
+* [**HW 1** [latex]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw1.tex){:target="_blank"} [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw1.pdf){:target="_blank"}] out Tuesday Jan. 09, due **Thursday Jan. 18**.
+
 * [**HW 2** [latex]() [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw2.pdf){:target="_blank"}] out Thursday Jan. 18, due **Thursday Feb. 1**.
+
 * [**HW 3** [latex]() [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw3.pdf){:target="_blank"}] out Thursday Feb. 1, due **Thursday Feb. 15**. 
+
 * [**HW 4** [latex]() [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw3.pdf){:target="_blank"}] out Thursday Feb. 15, due **Thursday Mar. 1**.
 
 <!--
