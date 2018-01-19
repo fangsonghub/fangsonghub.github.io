@@ -56,7 +56,7 @@ and Hall/CRC Press, Nov 2014.
 ## Homework 
 * [**HW 1** [latex]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw1.tex){:target="_blank"} [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw1.pdf){:target="_blank"}] out Tuesday Jan. 09, due **Thursday Jan. 18**.
 
-* [**HW 2** [latex]() [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw2.pdf){:target="_blank"}] out Thursday Jan. 18, due **Thursday Feb. 1**.
+* [**HW 2** [latex]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw2.tex){:target="_blank"} [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw2.pdf){:target="_blank"}] out Thursday Jan. 18, due **Thursday Feb. 1**.
 
 * [**HW 3** [latex]() [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw3.pdf){:target="_blank"}] out Thursday Feb. 1, due **Thursday Feb. 15**. 
 

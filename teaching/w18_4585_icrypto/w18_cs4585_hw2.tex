@@ -1,0 +1,191 @@
+% Created by Fang Song on April 4 2017. Instructions: you don't need
+% to change anything in the macros, but feel free to define new
+% commands as you wish. Starting from the main body, change the specs
+% (e.g., your name). use \begin{solution} \end{solution} environment
+% to write your solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{Winter 2018 CS 485/585 Introduction to Cryptography}
+\def\term{Portland State University}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\klbk}[1]{[\texttt{KL}: #1]}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\T}{\ensuremath{\mathbb{T}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\algo}[1]{\ensuremath{\mathsf{#1}}}
+% asymptotics
+\DeclareMathOperator{\poly}{poly}
+\DeclareMathOperator{\polylog}{polylog}
+\DeclareMathOperator{\negl}{negl}
+% pseudorandom stuff
+\newcommand{\prg}{\algo{PRG}}
+\newcommand{\prf}{\algo{PRF}}
+\newcommand{\prp}{\algo{PRP}}
+\newcommand{\owf}{\algo{OWF}}
+% ADVERSARIES
+\newcommand{\chg}{\ensuremath{CH}}
+\newcommand{\attacker}[1]{\ensuremath{\mathcal{#1}}}
+\newcommand{\Adv}{\attacker{A}}
+\newcommand{\AdvA}{\attacker{A}}
+\newcommand{\AdvB}{\attacker{B}}
+% games
+\newcommand{\privk}{\ensuremath{\textsf{PrivK}_{\attacker{A},\Pi}^{\textsf{eav}}}} %
+\newcommand{\privkn}{\ensuremath{\textsf{PrivK}_{\attacker{A},\Pi}^{\textsf{eav}}(n)}} %
+\newcommand{\privcpa}[1]{\ensuremath{\textsf{PrivK}_{#1}^{\textsf{cpa}}(n)}} %
+
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+%\studentfalse
+
+\def\hwnum{2}
+\def\issuedate{Jan. 18, 2018} % 
+\def\duedate{Feb. 1, 2018} % 
+\def\yourname{your name} % put your name here
+%------------------------------%
+\ifstudent
+\hw{\hwnum}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{\hwnum}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.}  Your solutions will be graded on
+\emph{correctness} and \emph{clarity}. You should only submit work
+that you believe to be correct; if you cannot solve a problem
+completely, you will get significantly more partial credit if you
+clearly identify the gap(s) in your solution. It is good practice to
+start any long solution with an informal (but accurate) ``proof
+summary'' that describes the main idea. %For this problem set, a
+% random subset of problems will be graded.
+Problems marked with ``\mG'' are required for graduate
+students. Undergraduate students will get bonus points for solving
+them. The .tex source is provided on course webpage as a template if
+you want to typeset your solutions in Latex.
+
+\medskip
+\noindent You may collaborate with others on this problem
+set% and consult external sources
+.  However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\begin{questions}
+  \question (Pseudorandom Generators) Let $G$ be a pseudorandom
+  generator with expansion factor $\ell(n)> 2n$. Let $F$ be a length
+  preserving pseudorandom function on $n$-bit inputs. In each of the
+  following cases, decide whether $G'$ is necessarily a pseudorandom
+  generator. If yes, give a proof; if not, show a counterexample.
+    
+  \begin{parts}
+    \part[6] $G'(s) := G(s_1,\ldots, s_{\lfloor n/2 \rfloor})$, where
+    $s = s_1,\ldots, s_n$.
+    \part[6] $G'(s) := G(0^{|s|} \| s)$.
+    \part[6] $G'(s) := F_s(0) \| F_s(1)$.
+    \part (Bonus 5pts) $G'(s) : = F_s(G(0)) \| F_s(G(1))$. 
+  \end{parts}
+
+  \question (Pseudorandom functions and pseudorandom permutations)
+
+  \begin{parts}
+    \part[15] \klbk{Exercise 3.10} Let $F$ be a length-preserving
+    pseudorandom function. For the following constructions of a keyed
+    function $F': \bit^n \times \bit^{n-1} \times \bit^{2n}$, decide
+    if $F'$ is a pseudorandom function. If yes, prove it; if not, show
+    an attack.
+    \begin{enumerate}[label=\roman*.]
+    \item $F'_k(x) : = F_k(0 \| x)$.
+    \item $F'_k(x) : = F_k(0\| x) \| F_k(1 \| x)$.
+    \item $F'_k(x): = F_k(0 \| x) \| F_k(x\|1 )$. 
+    \end{enumerate}
+    
+    \part[5] \klbk{Exercise 3.16} Prove that a pseudorandom
+    permutaiton is also a pseudorandom function when the block length
+    $\ell(n) \geq n$.
+  \end{parts}
+  
+  \question (Encryption against chosen-plaintext attacks)
+  \begin{parts}
+    \part[10] Read \klbk{Section 3.6.2} on CBC-mode and work out the
+    following.
+
+    \begin{enumerate}[label=\roman*.]
+    \item Consider a stateful variant of CBC-mode where the sender
+      simply increments the $IV$ by 1 each time a message is encrypted
+      (rather than choosing it at random each time). Is this scheme
+      CPA-secure? If yes, prove it; if not, describe an attack.
+    \item Describe the effect of a single-bit error in the ciphertext
+      when using CBC mode.
+
+    \end{enumerate}
+    
+    \part[15] Let $F$ be a pseudorandom permutation on of block length
+    $n$, and $G$ be a pseudorandom generator with 1-bit expansion
+    $\ell(n) =n+1$. For each of the following encryption schemes,
+    decide whether it is computationally secret or CPA-secure.
+    \begin{enumerate}[label=\roman*.]
+      \item To encrypt $m \in \bit^{n+1}$, choose uniform
+      $r \gets \bit^n$, and output $(r, G(r) \oplus m)$.
+    \item To encrypt $m \in \bit^n$, output $m \oplus F_k(0^n)$.
+    \item To encryption $m \in \bit^n$, output $F_k(m)$. 
+    \end{enumerate}
+    \part[5] \mG \klbk{Exercise 3.29} 
+  \end{parts}
+
+  \question (Message authentication)
+  \begin{parts}
+    \part[12] Consider the definitions of a secure MAC (i.e.,
+    existentially unforgeable under adpative chosen-message attacks
+    \klbk{Def.4.2}) and a strongly-secure MAC (\klbk{Def.4.3}).
+    \begin{enumerate}[label=\roman*.]
+    \item \klbk{Exercise 4.4} Prove that for canonical MAC schemes, a
+      secure MAC is also strongly secure.
+    \item \klbk{Exercise 4.5} Assume secure MACs exist. Prove that
+      there is a secure MAC, which is NOT strongly secure. 
+    \end{enumerate}
+    \part[5] \klbk{Exercise 4.6}
+  \end{parts}
+\end{questions}
+
+
+\end{document}
