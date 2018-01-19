@@ -30,7 +30,7 @@ and Hall/CRC Press, Nov 2014.
 
 | Week | Date  | Topic | Reading |
 |:-----:| :---------: |:----------:|:-----:|
-|1| T,01/09  | Syllabus, intro, review of probability and randomized algorithms <br> [Intro slides [PDF]({{base}}/teaching/w18_4585_icrypto/intro_ppt.pdf){:target="_blank"}] | [KatzLindell] Chapter 1,Appendix A; <br> Notes on [discrete probability](https://people.eecs.berkeley.edu/~luca/cs276/notesprob.pdf){:target="_blank"} by Trevisan|
+|1| T,01/09  | Syllabus, intro, review of probability and randomized algorithms <br> [Intro slides [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_intro.pdf){:target="_blank"} 8.7M] | [KatzLindell] Chapter 1,Appendix A; <br> Notes on [discrete probability](https://people.eecs.berkeley.edu/~luca/cs276/notesprob.pdf){:target="_blank"} by Trevisan|
 ||TR,01/11 |Perfect secrecy, one-time pad, limits; <br> Computational secrecy <!--<br> [Lec2 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec2_note.pdf){:target="blank"}]--> | [KL] Sect.2.1,2.2,2.3,3.1|
 |2|T,01/16| Stream ciphers, pseudorandom generators <br> proof by reduction <!-- <br> [Lec3 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec3_note.pdf){:target="blank"}] --> | [KL] 3.2,3.3,6.1; <br> Supplement: [[BonehShoup v0.4](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"}] Chapter 3 |
 ||TR,01/18| Block ciphers, pseudorandom functions, pseudorandom permutations <br> Q&A <!--<br> [Lec4 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec4_note.pdf){:target="blank"}]--> | [KL] 3.5,3.6,6.2 <br> Supplement: [BS] Chapter 4|
