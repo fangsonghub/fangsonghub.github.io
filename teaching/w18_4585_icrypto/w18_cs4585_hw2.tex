@@ -12,6 +12,8 @@
 %--------------Cosmetic----------------%
 \usepackage{mathtools}
 \usepackage{hyperref}
+% \usepackage{ulem}
+\usepackage{cancel}
 \usepackage{fullpage}
 \usepackage{microtype}
 \usepackage{xspace}
@@ -82,7 +84,7 @@
 %\studentfalse
 
 \def\hwnum{2}
-\def\issuedate{Jan. 18, 2018} % 
+\def\issuedate{Update: Jan. 22, 2018} % 
 \def\duedate{Feb. 1, 2018} % 
 \def\yourname{your name} % put your name here
 %------------------------------%
@@ -118,7 +120,9 @@ set% and consult external sources
   generator. If yes, give a proof; if not, show a counterexample.
     
   \begin{parts}
-    \part[6] $G'(s) := G(s_1,\ldots, s_{\lfloor n/2 \rfloor})$, where
+    \part[6]
+    $G'(s) := G(s_1,\ldots, \cancel{s_{\lfloor n/2 \rfloor}},
+    s_{{\color{red}\lceil} n/2 {\color{red}\rceil}})$, where
     $s = s_1,\ldots, s_n$.
     \part[6] $G'(s) := G(0^{|s|} \| s)$.
     \part[6] $G'(s) := F_s(0) \| F_s(1)$.
