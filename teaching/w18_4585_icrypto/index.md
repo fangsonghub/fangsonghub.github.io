@@ -24,6 +24,7 @@ and Hall/CRC Press, Nov 2014.
 * Previous offerings: [Winter 2017]({{base}}/teaching/w17_4585_icrypto/){:target="_blank"}
 
 ## Announcement
+*  <2018-01-25 Thu> Lecture 1 - 5 notes posted. HW2 Problem 1 & 2 typo corrected. 
 *  <2018-01-25 Thu> Office hour cancelled due
    to [PSU Winter Symposium 2018](https://www.pdx.edu/academic-affairs/winter-symposium-2018){:target="_blank"}
 *  <2018-01-03 Wed> Course page up and running! Check it out~ 
@@ -33,10 +34,10 @@ and Hall/CRC Press, Nov 2014.
 | Week | Date  | Topic | Reading |
 |:-----:| :---------: |:----------:|:-----:|
 |1| T,01/09  | Syllabus, intro, review of probability and randomized algorithms <br> [Intro slides [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_intro.pdf){:target="_blank"} 8.7M] | [KatzLindell] Chapter 1,Appendix A; <br> Notes on [discrete probability](https://people.eecs.berkeley.edu/~luca/cs276/notesprob.pdf){:target="_blank"} by Trevisan|
-||TR,01/11 |Perfect secrecy, one-time pad, limits; <br> Computational secrecy <!--<br> [Lec2 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec2_note.pdf){:target="blank"}]--> | [KL] Sect.2.1,2.2,2.3,3.1|
-|2|T,01/16| Stream ciphers, pseudorandom generators <br> proof by reduction <!-- <br> [Lec3 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec3_note.pdf){:target="blank"}] --> | [KL] 3.2,3.3,6.1; <br> Supplement: [[BonehShoup v0.4](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"}] Chapter 3 |
-||TR,01/18| Block ciphers, pseudorandom functions, pseudorandom permutations <br> Q&A <!--<br> [Lec4 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec4_note.pdf){:target="blank"}]--> | [KL] 3.5,3.6,6.2 <br> Supplement: [BS] Chapter 4|
-|3|T,01/23| Chosen-Plaintext-Attacks <br> **Quiz 1** <br> <!--[Lec5 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec5_note.pdf){:target="_blank"}] -->|   [KL] 3.4,3.5 <br> Supplement: [BS] Chapter 5 |
+||TR,01/11 |Perfect secrecy, one-time pad, limits; <br> Computational secrecy <br> [Lec2 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec2.pdf){:target="blank"}] | [KL] Sect.2.1,2.2,2.3,3.1|
+|2|T,01/16| Stream ciphers, pseudorandom generators <br> proof by reduction <br> [Lec3 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec3.pdf){:target="blank"}] | [KL] 3.2,3.3,6.1; <br> Supplement: [[BonehShoup v0.4](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"}] Chapter 3 |
+||TR,01/18| Block ciphers, pseudorandom functions, pseudorandom permutations <br> Q&A <br> [Lec4 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec4.pdf){:target="blank"}] | [KL] 3.5,3.6,6.2 <br> Supplement: [BS] Chapter 4|
+|3|T,01/23| Chosen-Plaintext-Attacks <br> **Quiz 1** <br> [Lec5 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec5.pdf){:target="_blank"}] |   [KL] 3.4,3.5 <br> Supplement: [BS] Chapter 5 |
 ||TR,01/25| CPA constructions <br> Message Authentication Codes <br> <!--[Lec6 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec6_note.pdf){:target="_blank"}] --> | [KL] 4.1,4.2,4.3 <br> Supplement: [BS] Chapter 6 |
 |4|T,01/30| MAC domain extension <br> Review HW1 & Quiz1 <!--<br> [Lec7 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec7_note.pdf){:target="_blank"}]-->|[KL] 4.4 <br> Supplement: [BS] Chapter 6 |
 ||TR,02/01| Hash functions, random oracle, applications <br> Q&A | [KL] Chapter 5, Appendix A.4 <br> Supplement: [BS] Chapter 8 |
