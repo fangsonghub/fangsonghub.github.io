@@ -1,0 +1,204 @@
+% Created by Fang Song on April 4 2017. Instructions: you don't need
+% to change anything in the macros, but feel free to define new
+% commands as you wish. Starting from the main body, change the specs
+% (e.g., your name). use \begin{solution} \end{solution} environment
+% to write your solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+% \usepackage{ulem}
+\usepackage{cancel}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{Winter 2018 CS 485/585 Introduction to Cryptography}
+\def\term{Portland State University}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\klbk}[1]{[\texttt{KL}: #1]}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\T}{\ensuremath{\mathbb{T}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\algo}[1]{\ensuremath{\mathsf{#1}}}
+% asymptotics
+\DeclareMathOperator{\poly}{poly}
+\DeclareMathOperator{\polylog}{polylog}
+\DeclareMathOperator{\negl}{negl}
+% pseudorandom stuff
+\newcommand{\prg}{\algo{PRG}}
+\newcommand{\prf}{\algo{PRF}}
+\newcommand{\prp}{\algo{PRP}}
+\newcommand{\owf}{\algo{OWF}}
+% ADVERSARIES
+\newcommand{\chg}{\ensuremath{CH}}
+\newcommand{\attacker}[1]{\ensuremath{\mathcal{#1}}}
+\newcommand{\Adv}{\attacker{A}}
+\newcommand{\AdvA}{\attacker{A}}
+\newcommand{\AdvB}{\attacker{B}}
+% games
+\newcommand{\privk}{\ensuremath{\textsf{PrivK}_{\attacker{A},\Pi}^{\textsf{eav}}}} %
+\newcommand{\privkn}{\ensuremath{\textsf{PrivK}_{\attacker{A},\Pi}^{\textsf{eav}}(n)}} %
+\newcommand{\privcpa}[1]{\ensuremath{\textsf{PrivK}_{#1}^{\textsf{cpa}}(n)}} %
+
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+%\studentfalse
+
+\def\hwnum{3}
+\def\issuedate{Feb. 1, 2018} % 
+\def\duedate{Feb. 15, 2018} % 
+\def\yourname{your name} % put your name here
+%------------------------------%
+\ifstudent
+\hw{\hwnum}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{\hwnum}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.}  Your solutions will be graded on
+\emph{correctness} and \emph{clarity}. You should only submit work
+that you believe to be correct; if you cannot solve a problem
+completely, you will get significantly more partial credit if you
+clearly identify the gap(s) in your solution. It is good practice to
+start any long solution with an informal (but accurate) ``proof
+summary'' that describes the main idea. %For this problem set, a
+% random subset of problems will be graded.
+Problems marked with ``\mG'' are required for graduate
+students. Undergraduate students will get bonus points for solving
+them. The .tex source is provided on course webpage as a template if
+you want to typeset your solutions in Latex.
+
+\medskip
+\noindent You may collaborate with others on this problem
+set% and consult external sources
+.  However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\begin{questions}
+
+  \question (More MACs)
+  \begin{parts}
+    \part[10] Let $F$ be a pseudorandom function. Decide if the
+    following MACs are secure for authenticating fixed-length
+    messages. Prove it or show an attack.
+
+    
+    \begin{enumerate}
+    \item To authenticate $m = m[1], \ldots, m[\ell]$ where
+      $m[i] \in \{0,1\}^n$, compute
+      $t: = F_k(m[1])\oplus \cdots \oplus F_k(m[\ell])$.
+    \item To authenticate $m = m[1], \ldots, m[\ell]$ where
+      $m[i] \in \bit^{n/2}$, compute
+      $t:= F_k(\langle 1 \rangle \| m[1])\oplus \cdots \oplus
+      F_k(\langle \ell \rangle \| m[\ell])$. $\langle i \rangle$
+      denotes the encoding of integer $i$ to a $n/2$-bit string.
+    \end{enumerate}
+
+    \part[10] Read the basic construction of CBC-MAC \klbk{Section
+      4.4.1}, and do \klbk{Exercise 4.13}. 
+  
+    \end{parts}
+    \question (Hash functions)
+    \begin{parts}
+      \part[10] \klbk{Exercise 5.2}
+
+      \part[10]  Merkle-Damg{\aa}rd.
+
+      \begin{enumerate}[label=\roman*.]
+      \item Modify the Merkle-Damg{\aa}rd construction so that in the
+        last block, instead of outputting $z: = h(z_B \| L)$, output
+        $z_B\| L$. Is this construction collision resistant? Prove it
+        or show an attack.
+      \item \klbk{Exercise 5.8} Prove or disprove: if $h$ is
+        preimage-resistant, then the hash function $H$ by applying the
+        Merkle-Damg{\aa}rd transformation on $h$ is also
+        preimage-resistant. 
+      \end{enumerate}
+      \part (5 Bonus points. Proof of work) Let
+      $H: \bit^{2n} \to \bit^n$ be a hash function modeled as a truly
+      random function. Suppose one can evaluate $H$ on one input each
+      computer cycle. Given some $id \in \bit^n$ and an integer
+      $T \leq 2^n$, how many cycles does it need to find an $x$ such
+      that the first $\lceil \log T \rceil $ bits of $H(id \| x)$ are
+      0?
+    \end{parts}
+
+    \question[10] (Authenticated Encryption) \klbk{Exercise 4.22}.
+
+    \question (Foundations)
+    \begin{parts}
+      \part[5] (Computational indistinguishability) Recall the
+      definition of computational indistinguishability
+      \klbk{Def. 7.30}. Two probability ensembles
+      $\mathcal{X} = \{X_n\}_{n\in\mathbb{N}}$ and
+      $\mathcal{Y} = \{Y_n\}_{n\in\mathbb{N}}$ are computationally
+      indistinguishable, denoted $\mathcal{X} \approx_c \mathcal{Y}$,
+      if for any probabilistic polynomial-time distinguisher $D$,
+
+    \begin{equation*}
+      \left| \Pr_{x\gets X_n}[D(1^n,x) = 1] - \Pr_{y\gets
+          Y_n}[D(1^n,y) = 1]\right| \leq \negl(n) \, .
+    \end{equation*}
+
+    Prove that the relation of computational indistinguishability is
+    transitive: if $\mathcal{X}\approx_c \mathcal{Y}$ and
+    $\mathcal{Y}\approx_c\mathcal{Z}$, then
+    $\mathcal{X}\approx_c \mathcal{Z}$. 
+   
+    \part[10] Let $G$ be a pseudorandom generator with expansion
+    factor $\ell(n) = n +1$.
+    \begin{enumerate}[label=\roman*.]
+    \item Prove that $G$ is a one-way function.
+    \item (Exercise. Do not turn it.) Construct
+      $G'(s) = G(s_1) \| G(s_2)$. Is $G'$ a secure pseudorandom
+      generator?
+    \item Let $G(s)= t_0,\ldots, t_{n-1} t_n$. Construct
+      $G''(s) = G(t_0,\ldots,t_{n-1}) \| t_{n}$, i.e., use the first
+      $n$-bit output as the seed in the second application of $G$. Is
+      $G''$ a PRG? Prove or disprove it.
+
+    \end{enumerate}
+    \end{parts}
+
+\end{questions}
+
+
+\end{document}
