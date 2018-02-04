@@ -4,7 +4,7 @@ title: (Winter 2018) CS 485/585 - Intro to Cryptography
 courseid: w18 485/585
 desc: w18 485/585
 permalink: /teaching/w18_4585_icrypto/
-modified: <2018-01-24 Wed>
+modified: <2018-02-04 Sun>
 ---
 *  **Syllabus**: [PDF]({{base}}/teaching/w18_4585_icrypto/w18syllabus.pdf){:target="_blank"}, and more on the [ADMINISTRATION]({{base}}/teaching/w18_4585_icrypto/admin/) page.
 *  **Lectures**: Tu/Th 16:40 - 18:30 @ Fourth Ave Building 10.
@@ -24,6 +24,7 @@ and Hall/CRC Press, Nov 2014.
 * Previous offerings: [Winter 2017]({{base}}/teaching/w17_4585_icrypto/){:target="_blank"}
 
 ## Announcement
+*  <2018-02-04 Sun> Notes for lecture 5 - 8 posted. 
 *  <2018-01-25 Thu> Lecture 1 - 5 notes posted. HW2 Problem 1 & 2 typo corrected. 
 *  <2018-01-25 Thu> Office hour cancelled due
    to [PSU Winter Symposium 2018](https://www.pdx.edu/academic-affairs/winter-symposium-2018){:target="_blank"}
@@ -38,11 +39,11 @@ and Hall/CRC Press, Nov 2014.
 |2|T,01/16| Stream ciphers, pseudorandom generators <br> proof by reduction <br> [Lec3 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec3.pdf){:target="blank"}] | [KL] 3.2,3.3,6.1; <br> Supplement: [[BonehShoup v0.4](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"}] Chapter 3 |
 ||TR,01/18| Block ciphers, pseudorandom functions, pseudorandom permutations <br> Q&A <br> [Lec4 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec4.pdf){:target="blank"}] | [KL] 3.5,3.6,6.2 <br> Supplement: [BS] Chapter 4|
 |3|T,01/23| Chosen-Plaintext-Attacks <br> **Quiz 1** <br> [Lec5 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec5.pdf){:target="_blank"}] |   [KL] 3.4,3.5 <br> Supplement: [BS] Chapter 5 |
-||TR,01/25| CPA constructions <br> Message Authentication Codes <br> <!--[Lec6 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec6_note.pdf){:target="_blank"}] --> | [KL] 4.1,4.2,4.3 <br> Supplement: [BS] Chapter 6 |
-|4|T,01/30| MAC domain extension <br> Review HW1 & Quiz1 <!--<br> [Lec7 draft note: [PDF]({{base}}/teaching/w18_4585_icrypto/lec7_note.pdf){:target="_blank"}]-->|[KL] 4.4 <br> Supplement: [BS] Chapter 6 |
-||TR,02/01| Hash functions, random oracle, applications <br> Q&A | [KL] Chapter 5, Appendix A.4 <br> Supplement: [BS] Chapter 8 |
-|5|T,02/06| CCA and authenticated encryption <br> **Quiz 2** | |
-||TR,02/08| Theoretical constructions of private-key primitives | |
+||TR,01/25| CPA constructions <br> Message Authentication Codes <br> [Lec6 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec6.pdf){:target="_blank"}]| [KL] 4.1,4.2,4.3 <br> Supplement: [BS] Chapter 6 |
+|4|T,01/30| MAC domain extension <br> Review HW1 & Quiz1 <br> [Lec7 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec7.pdf){:target="_blank"}]|[KL] 4.4 <br> Supplement: [BS] Chapter 6 |
+||TR,02/01| Hash functions and applications <br> Q&A <br> [Lec8 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec8.pdf){:target="_blank"}] | [KL] Sect. 5.1-5.4, Appendix A.4 <br> Supplement: [BS] Chapter 8 |
+|5|T,02/06| HMAC <br> CCA and authenticated encryption <br> **Quiz 2** <br> [Lec9 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec9.pdf){:target="_blank"}]| [KL] Sect. 3.7.1,4.5.1,4.5.2 <br> Supplement: [BS] Chapter 9 |
+||TR,02/08| Theoretical constructions of private-key primitives <br> [Lec10 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec10.pdf){:target="_blank"}]| Sect. 7.1,7.2,7.4,7.5,7.8|
 |6|T,02/13| PKC evolution <br> Review HW2&Quiz2  ||
 ||TR,02/15|PubKey Enc, TDP <br> Q&A ||
 |7|T,02/20|Lattices <br> **Quiz 3** | |
