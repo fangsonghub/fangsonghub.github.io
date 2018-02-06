@@ -62,7 +62,7 @@ and Hall/CRC Press, Nov 2014.
 
 * [**HW 2** [latex]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw2.tex){:target="_blank"} [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw2.pdf){:target="_blank"}] out Thursday Jan. 18, due **Thursday Feb. 1**.
 
-* [**HW 3** [latex]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw2.tex){:target="_blank"} [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw3.pdf){:target="_blank"}] out Thursday Feb. 1, due **Thursday Feb. 15**. 
+* [**HW 3** [latex]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw3.tex){:target="_blank"} [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw3.pdf){:target="_blank"}] out Thursday Feb. 1, due **Thursday Feb. 15**. 
 
 * [**HW 4** [latex]() [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_hw3.pdf){:target="_blank"}] out Thursday Feb. 15, due **Thursday Mar. 1**.
 
