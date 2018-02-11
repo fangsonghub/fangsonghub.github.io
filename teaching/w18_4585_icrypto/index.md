@@ -4,7 +4,7 @@ title: (Winter 2018) CS 485/585 - Intro to Cryptography
 courseid: w18 485/585
 desc: w18 485/585
 permalink: /teaching/w18_4585_icrypto/
-modified: <2018-02-04 Sun>
+modified: <2018-02-11 Sun>
 ---
 *  **Syllabus**: [PDF]({{base}}/teaching/w18_4585_icrypto/w18syllabus.pdf){:target="_blank"}, and more on the [ADMINISTRATION]({{base}}/teaching/w18_4585_icrypto/admin/) page.
 *  **Lectures**: Tu/Th 16:40 - 18:30 @ Fourth Ave Building 10.
