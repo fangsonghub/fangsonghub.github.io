@@ -24,6 +24,8 @@ and Hall/CRC Press, Nov 2014.
 * Previous offerings: [Winter 2017]({{base}}/teaching/w17_4585_icrypto/){:target="_blank"}
 
 ## Announcement
+*  <2018-02-11 Sun> Quiz 2 solution posted on D2L. Lecture notes 9 -
+   10, and a summary of private-key crypto posted.
 *  <2018-02-04 Sun> Notes for lecture 5 - 8 posted. 
 *  <2018-01-25 Thu> Lecture 1 - 5 notes posted. HW2 Problem 1 & 2 typo corrected. 
 *  <2018-01-25 Thu> Office hour cancelled due
@@ -43,8 +45,8 @@ and Hall/CRC Press, Nov 2014.
 |4|T,01/30| MAC domain extension <br> Review HW1 & Quiz1 <br> [Lec7 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec7.pdf){:target="_blank"}]|[KL] 4.4 <br> Supplement: [BS] Chapter 6 |
 ||TR,02/01| Hash functions and applications <br> Q&A <br> [Lec8 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec8.pdf){:target="_blank"}] | [KL] Sect. 5.1-5.4, Appendix A.4 <br> Supplement: [BS] Chapter 8 |
 |5|T,02/06| HMAC <br> CCA and authenticated encryption <br> **Quiz 2** <br> [Lec9 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec9.pdf){:target="_blank"}]| [KL] Sect. 3.7.1,4.5.1,4.5.2 <br> Supplement: [BS] Chapter 9 |
-||TR,02/08| Theoretical constructions of private-key primitives <br> [Lec10 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec10.pdf){:target="_blank"}]| Sect. 7.1,7.2,7.4,7.5,7.8|
-|6|T,02/13| PKC evolution <br> Review HW2&Quiz2  ||
+||TR,02/08| Theoretical constructions of private-key primitives <br> [Lec10 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec10.pdf){:target="_blank"}] <br> [Priv-key crypto summary: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_privksum.pdf){:target="_blank"}]| [KL] 7.1,7.2,7.4,7.5|
+|6|T,02/13| Computational indistinguishability <br> PKC evolution <br> Review HW2&Quiz2 <br> [Lec11 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec11.pdf){:target="_blank"}] | [KL] 7.8,8.1,B.1,B.2,10 |
 ||TR,02/15|PubKey Enc, TDP <br> Q&A ||
 |7|T,02/20|Lattices <br> **Quiz 3** | |
 ||TR,02/22|PKE based on lattices ||
