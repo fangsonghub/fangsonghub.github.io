@@ -46,7 +46,7 @@ and Hall/CRC Press, Nov 2014.
 ||TR,02/01| Hash functions and applications <br> Q&A <br> [Lec8 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec8.pdf){:target="_blank"}] | [KL] Sect. 5.1-5.4, Appendix A.4 <br> Supplement: [BS] Chapter 8 |
 |5|T,02/06| HMAC <br> CCA and authenticated encryption <br> **Quiz 2** <br> [Lec9 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec9.pdf){:target="_blank"}]| [KL] Sect. 3.7.1,4.5.1,4.5.2 <br> Supplement: [BS] Chapter 9 |
 ||TR,02/08| Theoretical constructions of private-key primitives <br> [Lec10 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec10.pdf){:target="_blank"}] <br> [Priv-key crypto summary: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_privksum.pdf){:target="_blank"}]| [KL] 7.1,7.2,7.4,7.5|
-|6|T,02/13| Computational indistinguishability <br> PKC evolution <br> Review HW2&Quiz2 <br> [Lec11 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec11.pdf){:target="_blank"}] | [KL] 7.8,8.1,B.1,B.2,10 |
+|6|T,02/13| Computational indistinguishability <br> PKC evolution <br> Review HW2&Quiz2 <br> [Lec11 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec11.pdf){:target="_blank"}] | [KL] 7.8,8.1,B.1,B.2,10 <br> Notes on [algebra](https://people.eecs.berkeley.edu/~luca/cs276/notesalgebra.pdf){:target="_blank"} by Trevisan <br> History of PKC: [Diffie](http://cr.yp.to/bib/1988/diffie.pdf){:target="_blank"}, [Merkle's Project Proposal](http://www.merkle.com/1974/){:target="_blank"}, [CESG](http://cryptome.org/jya/ellisdoc.htm){:target="_blank"}|
 ||TR,02/15|PubKey Enc, TDP <br> Q&A ||
 |7|T,02/20|Lattices <br> **Quiz 3** | |
 ||TR,02/22|PKE based on lattices ||
