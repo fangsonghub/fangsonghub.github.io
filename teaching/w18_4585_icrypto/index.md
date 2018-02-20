@@ -24,6 +24,9 @@ and Hall/CRC Press, Nov 2014.
 * Previous offerings: [Winter 2017]({{base}}/teaching/w17_4585_icrypto/){:target="_blank"}
 
 ## Announcement
+*  <2018-02-20 Tue> Lec 11 & 12 notes posted. Thursday lecture
+   features talk on Quantum Internet by Prof. Rod Van Meter from Keio
+   University at FAB 86-01. 
 *  <2018-02-11 Sun> Quiz 2 solution posted on D2L. Lecture notes 9 -
    10, and a summary of private-key crypto posted.
 *  <2018-02-04 Sun> Notes for lecture 5 - 8 posted. 
@@ -47,7 +50,7 @@ and Hall/CRC Press, Nov 2014.
 |5|T,02/06| HMAC <br> CCA and authenticated encryption <br> **Quiz 2** <br> [Lec9 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec9.pdf){:target="_blank"}]| [KL] Sect. 3.7.1,4.5.1,4.5.2 <br> Supplement: [BS] Chapter 9 |
 ||TR,02/08| Theoretical constructions of private-key primitives <br> [Lec10 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec10.pdf){:target="_blank"}] <br> [Priv-key crypto summary: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_privksum.pdf){:target="_blank"}]| [KL] 7.1,7.2,7.4,7.5|
 |6|T,02/13| Computational indistinguishability <br> PKC evolution <br> Review HW2&Quiz2 <br> [Lec11 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec11.pdf){:target="_blank"}] | [KL] 7.8,8.1,B.1,B.2,10 <br> Notes on [algebra](https://people.eecs.berkeley.edu/~luca/cs276/notesalgebra.pdf){:target="_blank"} by Trevisan <br> History of PKC: [Diffie](http://cr.yp.to/bib/1988/diffie.pdf){:target="_blank"}, [Merkle's Project Proposal](http://www.merkle.com/1974/){:target="_blank"}, [CESG](http://cryptome.org/jya/ellisdoc.htm){:target="_blank"}|
-||TR,02/15|Number Theory Review <br> TDP <br> RSA,Diffie-Hellman and El Gamal <br> Q&A | [KL] 8.2.3,8.2.4,8.3.1,8.3.2; 11.4,11.5.1; 13.1 |
+||TR,02/15|Number Theory Review <br> TDP <br> RSA,Diffie-Hellman and El Gamal <br> Q&A <br> [Lec12 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec12.pdf){:target="_blank"}]| [KL] 8.2.3,8.2.4,8.3.1,8.3.2; 11.4,11.5.1; 13.1 |
 |7|T,02/20|Lattice-crypto <br> Hybrid Encryption <br> **Quiz 3** | LWE Tutorial by O.Regev [[PDF](https://cims.nyu.edu/~regev/papers/lwesurvey.pdf){:target="_blank"} [PPT](http://www.cims.nyu.edu/~regev/papers/lwesurvey.ppt){:target="_blank"}] <br> [KL: 11.3] |
 ||TR,02/22| Colloquim by Prof. [Rod Van Meter](http://web.sfc.keio.ac.jp/~rdv/){:target="_blank"} <br>  Title: Designing a Quantum Internet<br> Location: FAB 86-01 ||
 |8|T,02/27|Digital signature intro  <br> Review HW3&Quiz3| [KL: 12.1,12.2] |
