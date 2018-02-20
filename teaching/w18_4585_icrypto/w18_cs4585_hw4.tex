@@ -1,0 +1,206 @@
+% Created by Fang Song on April 4 2017. Instructions: you don't need
+% to change anything in the macros, but feel free to define new
+% commands as you wish. Starting from the main body, change the specs
+% (e.g., your name). use \begin{solution} \end{solution} environment
+% to write your solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+% \usepackage{ulem}
+\usepackage{cancel}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{Winter 2018 CS 485/585 Introduction to Cryptography}
+\def\term{Portland State University}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\klbk}[1]{[\texttt{KL}: #1]}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\T}{\ensuremath{\mathbb{T}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\algo}[1]{\ensuremath{\mathsf{#1}}}
+% asymptotics
+\DeclareMathOperator{\poly}{poly}
+\DeclareMathOperator{\polylog}{polylog}
+\DeclareMathOperator{\negl}{negl}
+% pseudorandom stuff
+\newcommand{\prg}{\algo{PRG}}
+\newcommand{\prf}{\algo{PRF}}
+\newcommand{\prp}{\algo{PRP}}
+\newcommand{\owf}{\algo{OWF}}
+% ADVERSARIES
+\newcommand{\chg}{\ensuremath{CH}}
+\newcommand{\attacker}[1]{\ensuremath{\mathcal{#1}}}
+\newcommand{\Adv}{\attacker{A}}
+\newcommand{\AdvA}{\attacker{A}}
+\newcommand{\AdvB}{\attacker{B}}
+% games
+\newcommand{\privk}{\ensuremath{\textsf{PrivK}_{\attacker{A},\Pi}^{\textsf{eav}}}} %
+\newcommand{\privkn}{\ensuremath{\textsf{PrivK}_{\attacker{A},\Pi}^{\textsf{eav}}(n)}} %
+\newcommand{\privcpa}[1]{\ensuremath{\textsf{PrivK}_{#1}^{\textsf{cpa}}(n)}} %
+
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+%\studentfalse
+
+\def\hwnum{4}
+\def\issuedate{Feb. 15, 2018} % 
+\def\duedate{Mar. 1, 2018} % 
+\def\yourname{your name} % put your name here
+%------------------------------%
+\ifstudent
+\hw{\hwnum}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{\hwnum}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.}  Your solutions will be graded on
+\emph{correctness} and \emph{clarity}. You should only submit work
+that you believe to be correct; if you cannot solve a problem
+completely, you will get significantly more partial credit if you
+clearly identify the gap(s) in your solution. It is good practice to
+start any long solution with an informal (but accurate) ``proof
+summary'' that describes the main idea. %For this problem set, a
+% random subset of problems will be graded.
+Problems marked with ``\mG'' are required for graduate
+students. Undergraduate students will get bonus points for solving
+them. The .tex source is provided on course webpage as a template if
+you want to typeset your solutions in Latex.
+
+\medskip
+\noindent You may collaborate with others on this problem
+set% and consult external sources
+.  However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\begin{questions}
+
+  \question (Number Theory) Exercises. Do not turn in. 
+  \begin{parts}
+    \part Prove the following for the relation $ = \mod n$.
+    \begin{enumerate}[label=\roman*.]
+    \item If $a = b\bmod n$ and $b = c \mod n$, then $a = c\bmod n$.
+    \item If $a = a' \bmod n$ and $b = b' \bmod n$, then $a+b = a'+b'
+      \bmod n$.
+    \item If $a = a' \bmod n$ and $b = b' \bmod n$, then
+      $ab= a'b' \bmod n$.
+    \end{enumerate}
+    \part Find $gcd(60,17)$ and $(\alpha,\beta)$ such that
+    $\alpha\cdot 60 + \beta\cdot 17 = gcd(60,17)$ by (extended)
+    Euclidean algorithm.
+    \part Prove that for $p,q$ co-prime, the Euler function
+    $\phi(pq) = \phi(p)\cdot \phi(q)$.  Let $p$ be prime and $k>0$ an
+    integer, prove that $\phi(p^k) = (p-1)p^{k-1}$. 
+  \end{parts}
+
+  \question (Factoring and RSA)
+  \begin{parts}
+    \part[6] Let $N=pq$ be a product of two distinct primes. Show that if
+    $\phi(N)$ and $N$ are known, then it is possible to compute $p$
+    and $q$ in polynomial time. (Hint: derive a quadratic equation
+    over the integers in the unknown p.)
+    
+    \part[6] (Attacking plain-RSA encryption when encrypting short
+    messages using small $e$.) Let $e=3$ and $N$ be a modulus of length
+    1024 bits. Consider encrypting a message $m$ of length 100-bit
+    using plain-RSA. Describe an attack that recovers the plaintext
+    $m$ from its ciphertext. Which messages does your attack apply as
+    well?
+
+    \part[5] (Homomorphism.) Suppose you know ciphertexts $c_1$ and $c_2$
+    for two messages $m_1$ and $m_2$ under plain-RSA encryption. Can
+    you get the ciphertext for $m : = m_1\cdot m_2 \bmod N$? 
+    
+  \end{parts}
+  \question (Discrete log, Diffie-Hellman, and El Gamal)
+  \begin{parts}
+    \part[5] Let $G$ be a finite group. The \emph{order} of an
+    element $g\in G$ is defined as the smallest positive integer $i$
+    such that $g^i = 1$. Prove that $g^x = g^y$ if and only if
+    $x = y \bmod i$.
+    
+    \part[10] \klbk{Exercise 11. 6}
+    
+    \part[6] \klbk{Exercise 11.10}
+
+    \part (Bonus 5pts) Read \klbk{Claim 11.7}. Let $\Pi = (G,E,D)$ be
+    a CCA-secure public-key encryption scheme. Construct an encryption
+    scheme $\Pi' = (G',E',D')$ such that
+    $E'_{pk}(m_1,\ldots,m_\ell): =
+    E_{pk}(m_1),\ldots,E_{pk}(m_\ell)$. Is $\Pi'$ CCA-secure? Justify
+    your answer.
+  \end{parts}
+
+  \question (Bonus 10pts. Hybrid Encryption) Let $\Pi_1 = (G,E,D)$ be
+  a CCA-secure public-key encryption scheme and $\Pi'= (G',E',D')$ a
+  CCA-secure private-key encryption. Construct hybrid public-key
+  encryption $\tilde \Pi = (\tilde G,\tilde E,\tilde D)$
+  \begin{itemize}
+  \item $\tilde G = G$: run $(pk,sk)\gets G(1^n)$.
+  \item $\tilde E$: to encrypt $m$, run $k\gets G'(1^n)$, and compute
+    $c_1 = E_{pk}(k)$ and $c_2 = E'_k(m)$. Output $c = (c_1,c_2)$. 
+  \item $\tilde D$: to decrypt $c = (c_1,c_2)$, compute
+    $k := D_{pk}(c_1)$, and output $m := D'_k(c_2)$.
+  \end{itemize}
+  Prove that $\tilde \Pi$ is CCA-secure. (Hint: read the CPA-security
+  proof \klbk{Theorem 11.12})
+
+  
+  \question (Attacking plain-RSA signature) Consider the signature
+  scheme (plain-RSA): run $\textbf{GenRSA}(1^n)$ to generate $(e,d)$
+  with $ed = 1 \bmod N$, and make $e$ public and keep $d$ secret; to
+  sign a message $m \in \mathbb{Z}_N^*$, compute
+  $\sigma: = [m^d \bmod N]$; to verify $(m,\sigma)$, accept iff.
+  $m = [\sigma^e \bmod N]$. 
+
+  \begin{parts}
+    \part[6] Show how to forge a valid signature on an arbitrary message
+    $m$, by querying a signing oracle \emph{twice}.
+
+    \part[6] Show how to forge a valid signature on an arbitrary message
+    $m$, by querying a signing oracle \emph{once}.
+  \end{parts}
+  
+\end{questions}
+
+
+\end{document}
