@@ -84,7 +84,7 @@
 %\studentfalse
 
 \def\hwnum{4}
-\def\issuedate{Feb. 15, 2018} % 
+\def\issuedate{Update: Feb. 20, 2018} % 
 \def\duedate{Mar. 1, 2018} % 
 \def\yourname{your name} % put your name here
 %------------------------------%
@@ -140,11 +140,11 @@ set% and consult external sources
     over the integers in the unknown p.)
     
     \part[6] (Attacking plain-RSA encryption when encrypting short
-    messages using small $e$.) Let $e=3$ and $N$ be a modulus of length
-    1024 bits. Consider encrypting a message $m$ of length 100-bit
-    using plain-RSA. Describe an attack that recovers the plaintext
-    $m$ from its ciphertext. Which messages does your attack apply as
-    well?
+    messages using small $e$.) Let $e=3$ and $N$ be a modulus of
+    length 1024 bits. Consider encrypting a message $m$ of length
+    100-bit using plain-RSA. Describe an attack that recovers the
+    plaintext $m$ from its ciphertext. Does your attack still apply
+    when encrypting other messages?
 
     \part[5] (Homomorphism.) Suppose you know ciphertexts $c_1$ and $c_2$
     for two messages $m_1$ and $m_2$ under plain-RSA encryption. Can
@@ -179,7 +179,7 @@ set% and consult external sources
   \item $\tilde E$: to encrypt $m$, run $k\gets G'(1^n)$, and compute
     $c_1 = E_{pk}(k)$ and $c_2 = E'_k(m)$. Output $c = (c_1,c_2)$. 
   \item $\tilde D$: to decrypt $c = (c_1,c_2)$, compute
-    $k := D_{pk}(c_1)$, and output $m := D'_k(c_2)$.
+    $k := D_{sk}(c_1)$, and output $m := D'_k(c_2)$.
   \end{itemize}
   Prove that $\tilde \Pi$ is CCA-secure. (Hint: read the CPA-security
   proof \klbk{Theorem 11.12})
