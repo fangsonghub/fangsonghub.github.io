@@ -56,9 +56,9 @@ and Hall/CRC Press, Nov 2014.
 |7|T,02/20|~~Lattice-crypto~~ <br> ~~Hybrid Encryption~~ <br> ~~**Quiz 3**~~ <br> Cancelled due to [SNOW'18](https://alerts.weather.gov/cap/wwacapget.php?x=OR125A92DAB228.WinterStormWarning.125A92E94E00OR.PQRWSWPQR.d0adae4d2387ca50a4c434fe08957ecb){:target="_blank"} | LWE Tutorial by O.Regev [[PDF](https://cims.nyu.edu/~regev/papers/lwesurvey.pdf){:target="_blank"} [PPT](http://www.cims.nyu.edu/~regev/papers/lwesurvey.ppt){:target="_blank"}] <br> [KL: 11.3] |
 ||TR,02/22| Colloquim by Prof. [Rod Van Meter](http://web.sfc.keio.ac.jp/~rdv/){:target="_blank"} <br>  Title: Designing a Quantum Internet<br> Location: FAB 86-01 ||
 |8|T,02/27|Digital signature intro  <br> Review HW3&Quiz3| [KL: 12.1,12.2] |
-||TR,03/01| Group thoery, Diffie-Hellman, ElGamal <br> Hybrid Encryption <br> [Lec13(16) note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec13.pdf){:target="_blank"}]|[KL: 8.3.1,8.3.2;11.3,11.4]|
+||TR,03/01| Group thoery <br> Diffie-Hellman, ElGamal <br> Hybrid Encryption <br> [Lec13(16) note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec13.pdf){:target="_blank"}]|[KL: 8.3.1,8.3.2;11.3,11.4]|
 |9|T,03/06| Hash-based Signature <br> Random-oracle <br> PKC with RO: OAEP and FDH | [KL: 5.5,11.5.4,12.4.2]|
-||TR,03/08| SSL/TLS <br> real-world security flaws <br> Final review **Quiz 4**| [KL:12.7,12.8]<br> [KRACK Attacks](https://www.krackattacks.com/){:target="_blank"}: Breaking WPA2 <br> [Heartbleed](http://heartbleed.com/){:target="_blank"}|
+||TR,03/08| SSL/TLS <br> real-world security flaws <br> Final review <br> **Quiz 4**| [KL:12.7,12.8]<br> [KRACK Attacks](https://www.krackattacks.com/){:target="_blank"}: Breaking WPA2 <br> [Heartbleed](http://heartbleed.com/){:target="_blank"}|
 |10|T,03/13| selected topics: post-quantum crypto |_Cryptography and Cybersecurity in the Quantum Era_ by Michele Mosca [[Video](https://www.youtube.com/watch?v=vipU_-QGoOg&feature=youtu.be&list=PLUz_4vZOI0H0nfczvYk2C_UbE_BMs8cpY){:target="_blank"}] <br> _Personal view on post-quantum cryptography_ by FS [Slides [PDF]({{base}}/files/talks/201611_fspqcasia.pdf){:target="_blank"}] [[Video](https://www.youtube.com/watch?v=n39-FOmNh5g){:target="_blank"}]|
 ||TR,03/15| Review HW4,Quiz4,PE ||
 ||T,03/20 | **Final Exam**: 17:30-19:20 @ FAB 10 | Practice Exam [PDF]|
