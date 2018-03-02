@@ -55,7 +55,7 @@ and Hall/CRC Press, Nov 2014.
 ||TR,02/15|Number Theory Review <br> TDP <br> RSA <br> Q&A <br> [Lec12 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec12.pdf){:target="_blank"}]| [KL] 8.2.3,8.2.4,8.3.1,8.3.2; 11.4,11.5.1; 13.1 |
 |7|T,02/20|~~Lattice-crypto~~ <br> ~~Hybrid Encryption~~ <br> ~~**Quiz 3**~~ <br> Cancelled due to [SNOW'18](https://alerts.weather.gov/cap/wwacapget.php?x=OR125A92DAB228.WinterStormWarning.125A92E94E00OR.PQRWSWPQR.d0adae4d2387ca50a4c434fe08957ecb){:target="_blank"} | LWE Tutorial by O.Regev [[PDF](https://cims.nyu.edu/~regev/papers/lwesurvey.pdf){:target="_blank"} [PPT](http://www.cims.nyu.edu/~regev/papers/lwesurvey.ppt){:target="_blank"}] <br> [KL: 11.3] |
 ||TR,02/22| Colloquim by Prof. [Rod Van Meter](http://web.sfc.keio.ac.jp/~rdv/){:target="_blank"} <br>  Title: Designing a Quantum Internet<br> Location: FAB 86-01 ||
-|8|T,02/27|Digital signature intro  <br> Review HW3&Quiz3| [KL: 12.1,12.2] |
+|8|T,02/27|Digital signature intro  <br> Review HW3 <br> **Quiz3** | [KL: 12.1,12.2] |
 ||TR,03/01| Group thoery <br> Diffie-Hellman, ElGamal <br> Hybrid Encryption <br> [Lec13(16) note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec13.pdf){:target="_blank"}]|[KL: 8.3.1,8.3.2;11.3,11.4]|
 |9|T,03/06| Hash-based Signature <br> Random-oracle <br> PKC with RO: OAEP and FDH | [KL: 5.5,11.5.4,12.4.2]|
 ||TR,03/08| SSL/TLS <br> real-world security flaws <br> Final review <br> **Quiz 4**| [KL:12.7,12.8]<br> [KRACK Attacks](https://www.krackattacks.com/){:target="_blank"}: Breaking WPA2 <br> [Heartbleed](http://heartbleed.com/){:target="_blank"}|
