@@ -4,7 +4,7 @@ title: (Winter 2018) CS 485/585 - Intro to Cryptography
 courseid: w18 485/585
 desc: w18 485/585
 permalink: /teaching/w18_4585_icrypto/
-modified: <2018-03-06 Tue> 
+modified: <2018-03-08 Thu> 
 ---
 *  **Syllabus**: [PDF]({{base}}/teaching/w18_4585_icrypto/w18syllabus.pdf){:target="_blank"}, and more on the [ADMINISTRATION]({{base}}/teaching/w18_4585_icrypto/admin/) page.
 *  **Lectures**: Tu/Th 16:40 - 18:30 @ Fourth Ave Building 10.
@@ -58,8 +58,8 @@ and Hall/CRC Press, Nov 2014.
 ||TR,02/22| Colloquim by Prof. [Rod Van Meter](http://web.sfc.keio.ac.jp/~rdv/){:target="_blank"} <br>  Title: Designing a Quantum Internet<br> Location: FAB 86-01 ||
 |8|T,02/27|Digital signature intro  <br> Review HW3 <br> **Quiz3** <br> [Lec15 short note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec15.pdf){:target="_blank"}] | [KL: 12.1,12.2] |
 ||TR,03/01| Group thoery <br> Diffie-Hellman, ElGamal <br> Hybrid Encryption <br> [Lec13(16) note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec13.pdf){:target="_blank"}]|[KL: 8.3.1,8.3.2;11.3,11.4]|
-|9|T,03/06| Hash-based Signature <br> Random-oracle <br> PKC with RO: OAEP and FDH | [KL: 5.5,11.5.4,12.4.2]|
-||TR,03/08| SSL/TLS <br> real-world security flaws <br> Final review <br> **Quiz 4**| [KL:12.7,12.8]<br> [KRACK Attacks](https://www.krackattacks.com/){:target="_blank"}: Breaking WPA2 <br> [Heartbleed](http://heartbleed.com/){:target="_blank"}|
+|9|T,03/06| Hash-based Signature <br> Random-oracle <br> PKC with RO: OAEP and FDH <br> [Lec17 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec17.pdf){:target="_blank"}] | [KL: 5.5,11.5.4,12.4.2]|
+||TR,03/08| SSL/TLS <br> real-world security flaws <br> **Quiz 4** <br> [Lec18 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec18.pdf){:target="_blank"}]| [KL:12.7,12.8]<br> [KRACK Attacks](https://www.krackattacks.com/){:target="_blank"}: Breaking WPA2 <br> [Heartbleed](http://heartbleed.com/){:target="_blank"}|
 |10|T,03/13| selected topics: post-quantum crypto |_Cryptography and Cybersecurity in the Quantum Era_ by Michele Mosca [[Video](https://www.youtube.com/watch?v=vipU_-QGoOg&feature=youtu.be&list=PLUz_4vZOI0H0nfczvYk2C_UbE_BMs8cpY){:target="_blank"}] <br> _Personal view on post-quantum cryptography_ by FS [Slides [PDF]({{base}}/files/talks/201611_fspqcasia.pdf){:target="_blank"}] [[Video](https://www.youtube.com/watch?v=n39-FOmNh5g){:target="_blank"}]|
 ||TR,03/15| Review HW4,Quiz4,PE ||
 ||T,03/20 | **Final Exam**: 17:30-19:20 @ FAB 10 | Practice Exam [PDF]|
