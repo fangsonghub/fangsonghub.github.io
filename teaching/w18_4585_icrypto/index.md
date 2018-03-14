@@ -4,7 +4,7 @@ title: (Winter 2018) CS 485/585 - Intro to Cryptography
 courseid: w18 485/585
 desc: w18 485/585
 permalink: /teaching/w18_4585_icrypto/
-modified: <2018-03-08 Thu> 
+modified: <2018-03-14 Wed> 
 ---
 *  **Syllabus**: [PDF]({{base}}/teaching/w18_4585_icrypto/w18syllabus.pdf){:target="_blank"}, and more on the [ADMINISTRATION]({{base}}/teaching/w18_4585_icrypto/admin/) page.
 *  **Lectures**: Tu/Th 16:40 - 18:30 @ Fourth Ave Building 10.
@@ -24,6 +24,8 @@ and Hall/CRC Press, Nov 2014.
 * Previous offerings: [Winter 2017]({{base}}/teaching/w17_4585_icrypto/){:target="_blank"}
 
 ## Announcement
+*  <2018-03-14 Wed> Practice exam posted (find below)! Get started to
+   prepare for the final exam. 
 *  <2018-03-06 Tue> Schedule and lecture notes updated; Quiz 3 solution posted on D2L
 *  <2018-02-20 Tue> <i style="color:red;"> Tuesday class cancelled </i> due to inclement
    weather. Stay tuned for further notice. 
@@ -62,7 +64,7 @@ and Hall/CRC Press, Nov 2014.
 ||TR,03/08| SSL/TLS <br> real-world security flaws <br> **Quiz 4** <br> [Lec18 note: [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_lec18.pdf){:target="_blank"}]| [KL:12.7,12.8]<br> [KRACK Attacks](https://www.krackattacks.com/){:target="_blank"}: Breaking WPA2 <br> [Heartbleed](http://heartbleed.com/){:target="_blank"}|
 |10|T,03/13| selected topics: post-quantum crypto <br> [Slides [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_pqc.pdf){:target="_blank"} 11.2M] |_Cryptography and Cybersecurity in the Quantum Era_ by Michele Mosca [[Video](https://www.youtube.com/watch?v=vipU_-QGoOg&feature=youtu.be&list=PLUz_4vZOI0H0nfczvYk2C_UbE_BMs8cpY){:target="_blank"}] <br> _Personal view on post-quantum cryptography_ by FS [Slides [PDF]({{base}}/files/talks/201611_fspqcasia.pdf){:target="_blank"}] [[Video](https://www.youtube.com/watch?v=n39-FOmNh5g){:target="_blank"}]|
 ||TR,03/15| Review HW4,Quiz4,PE ||
-||T,03/20 | **Final Exam**: 17:30-19:20 @ FAB 10 | Practice Exam [PDF]|
+||T,03/20 | **Final Exam**: 17:30-19:20 @ FAB 10 | Practice Exam [PDF]({{base}}/teaching/w18_4585_icrypto/w18_cs4585_pe.pdf){:target="_blank"}|
 {:.mbtablestylef}
 
 ## Homework 
