@@ -1,16 +1,14 @@
 ---
 layout: course
-courseid: s17 410/510
+courseid: s18 410/510
 desc: Admin
-permalink: /teaching/s17_4510_qc/admin/
-title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
+permalink: /teaching/s18_4510_qc/admin/
+title: (Spring 2018) CS 410/510 - Intro to Quantum Computing
 subtitle: Admin
-modified: 2017-04-04
+modified: 2018-04-01
 ---
 
-##  Docs 
-*  Latex template [[PDF]({{base}}/teaching/s17_4510_qc/lec1.pdf){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/lec1.tex){:target="_blank"}] for you to scribe notes. Some onlie LaTeX editor such as [overleaf](https://www.overleaf.com/){:target="_blank"} is at hand if you do not want to install the TeX engine on your local machine. Drawing Quantum circuits with [qcircuit package](https://github.com/CQuIC/qcircuit){:target="_blank"}, and more examples [[PDF](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.pdf){:target="_blank"} [TeX](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.tex){:target="_blank"}] by Charemza.
-*  Use this [spreadsheet](https://docs.google.com/a/pdx.edu/spreadsheets/d/1KJ9amYylo2acxsylG8aIvFElpx3DPeAPtSjsnne4c_c/edit?usp=sharing){:target="_blank"} to sign up for scribe and final project presentation. 
+<!-- *  Use this [spreadsheet](https://docs.google.com/a/pdx.edu/spreadsheets/d/1KJ9amYylo2acxsylG8aIvFElpx3DPeAPtSjsnne4c_c/edit?usp=sharing){:target="_blank"} to sign up for  final project presentation. --> 
 
 ## Policy
 
@@ -19,8 +17,8 @@ modified: 2017-04-04
      before the class begins on the due date. The solutions must be
      intelligible. I encourage you to type your homework with Markdown
      or Latex (and submit the printouts). _Late homework_ is
-     acceptable, but there will be a penalty of 20% (<1 day), 40% (1-2
-     days), 60% (2-3 days), and 100%(>3 days). 
+     acceptable, but there will be a penalty of 30% (<1 day), 60% (1-2
+     days), 100% (>2 days).
 * **Collaboration** in small group on homework problems is _highly
      encouraged_. However, each person must write up their solutions
      independently. For each problem that you have collaborated with

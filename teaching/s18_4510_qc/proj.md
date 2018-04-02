@@ -1,23 +1,12 @@
 ---
 layout: course
-courseid: s17 410/510
+courseid: s18 410/510
 desc: Project
-permalink: /teaching/s17_4510_qc/project/
-title: (Spring 2017) CS 410/510 - Intro to Quantum Computing
+permalink: /teaching/s18_4510_qc/project/
+title: (Spring 2018) CS 410/510 - Intro to Quantum Computing
 subtitle: Course Project
-modified: <2017-10-09 Mon>
+modified: 2018-04-01
 ---
-## <b style="color: red;">New!</b>  Showroom
-Most students did a great job, especially considering some are undergraduates. 
-
-*  Abidalrekab,Inan: Quantum Walks [[PDF]({{base}}/teaching/s17_4510_qc/proj_AI_QW.pdf){:target="_blank"}]
-* Balogh,Cakebread: Quantum neural networks [[PDF]({{base}}/teaching/s17_4510_qc/proj_BC_QNN.pdf){:target="_blank"}]
-* Cooney,Toback: Quantum secure computation [[PDF]({{base}}/teaching/s17_4510_qc/proj_CT_MPC.pdf){:target="_blank"}]
-* Donahue,Patecky,Spriggs: Quantum error correcting [[PDF]({{base}}/teaching/s17_4510_qc/proj_DPS_QECC.pdf){:target="_blank"}]
-* Garcia,Hanna,Tran: Quantum programming languages [[PDF]({{base}}/teaching/s17_4510_qc/proj_GHT_QPL.pdf){:target="_blank"}]
-* Hamlin,Libby,Launchbury: Quantum homomorphic encryption [[PDF]({{base}}/teaching/s17_4510_qc/proj_HLL_QHE.pdf){:target="_blank"}]
-* Le,Weakly: Quantum speedup characteristics [[PDF]({{base}}/teaching/s17_4510_qc/proj_LW_QA.pdf){:target="_blank"}]
-* Sharma: Linear system quantum algorithm [[PDF]({{base}}/teaching/s17_4510_qc/proj_S_QLS.pdf){:target="_blank"}]
 
 ## Instructions
 2-3 people group projects. You may choose to do a _literature review_
@@ -29,7 +18,7 @@ paper including interesting open problems. For research project,
 identify clearly a problem (e.g., designing/improving an algorithm for
 a specific task) and let your _creativity_ guide you while maintaining
 reasonable _precision_! You are not requried to completely solve a
-problem (big congrats if you do!).
+problem (big congrats if you do!). 
 
 ### Specs
 *  **Proposal**: 1-2 pages consisting of 1) the topic, background,
@@ -39,25 +28,28 @@ problem (big congrats if you do!).
 *  **Mid-term report**: ~5 pages. After more reading and group discussion, your mid-term report should have a polished and expanded version of your proposal. You also need to demonstrate the progress you've made since the proposal.  
 *  **Oral presentation**: Each group will have about 20mins to present your project, demonstrating both _breath_ and _depth_: you should aim for a clear introdution of your topic with sufficient background and motivation that would  **interest** the audience; and then you may choose to explain 1-2 techincal ideas in a little detail. Every group member needs to participate, and your group will be graded by other fellow students. You may give your the presentaion on board or with slides.  
 *  **Final report**: ~10 pages. This should resemble a real research
-   paper: a short abstract; 2) an introduction that motivates the
-   topic/problem and gives an overview of the entire paper; 3) details
+   paper: 1) a short abstract; 2) an introduction that motivates the
+   topic/problem and gives an overview of the entire report; 3) details
    including proper preliminary materials (e.g., notations &
    defintions), explaning some main technical results; and finally 4)
-   further discussion and open questions.
-*  **Report format**: single-column, single-space (between lines) format on letter-size paper. LaTeX and BibTeX are highly recommended. Here is a simple [[TeX]({{base}}/teaching/s17_4510_qc/sample-quantum.tex){:target="_blank"} [PDF]({{base}}/teaching/s17_4510_qc/sample-quantum.pdf){:target="_blank"}] template. You may follow a suitable 2017 [ACM Article Template](https://www.acm.org/publications/proceedings-template){:target="_blank"} (e.g., _ACM Small_ format). Many LaTeX and MS word templates are availabe there. <!-- Here is a sample [TeX]({{base}}/teaching/s17_4510_qc/sample-acmsmall.tex){:target="_blank"} and its [PDF]({{base}}/teaching/s17_4510_qc/sample-acmsmall.pdf){:target="_blank"}.MS Word templates and samples are available on [ACM's website](https://www.acm.org/publications/proceedings-template){:target="_blank"}. --> 
+   further discussion and open questions. 
+*  **Report format**: you are **required** to typeset all your reports in **LaTeX**. BibTeX is recommaned to manage bibliograpy. The [resource page]({{base}}/teaching/s18_4510_qc/resource/) has links to materials to pick up LaTeX. You should use single-column, single-space (between lines) format on letter-size papers. Here is a barebone [[TeX]({{base}}/teaching/s17_4510_qc/sample-quantum.tex){:target="_blank"} [PDF]({{base}}/teaching/s17_4510_qc/sample-quantum.pdf){:target="_blank"}] template. You may also follow a suitable [ACM Article Template](https://www.acm.org/publications/proceedings-template){:target="_blank"} (e.g., _ACM Small_ format). Many LaTeX templates are availabe there. There are online TeX editors available if you don't want to install a local engine, e.g., [Overleaf](https://www.overleaf.com/){:target="_blank"}. 
 
-### Timeline 
-*  **Week 1 & 2**: forming groups.  
+### Timeline (Tentative)
+*  **Week 1 & 2**: forming groups.
 *  **Week 3 & 4**: meeting and discussing project ideas.
 *  **April 27**: proposal due.
-*  **May 18**: mid-term report due. <b style="color: red;">Extended till Monday, May 22!</b> 
+*  **May 14**: mid-term report due. 
 *  **Week 10**: in-class presentations. 
-*  **June 15**: final report due. 
+*  **June 14**: final report due. 
 
 ------ 
 
 ## Suggested Topics 
 
+TBD
+
+<!-- 
 Also available in ([PDF]({{base}}/teaching/s17_4510_qc/project.pdf){:target="_blank"}). Feel free to pursue a project not on this list. Good venues to look for inspirations: [QIP](https://qipconference.org/), [Qcrypt](http://2016.qcrypt.net/previous-conferences/) and more general TCS conferences (e.g., [STOC](http://acm-stoc.org/), [FOCS](http://ieee-focs.org/), [Crypto](http://www.iacr.org/meetings/crypto/)). 
 
 ### Quantum Algorithms
@@ -353,3 +345,4 @@ Extended Formulations: Exponential Separation and Strong Lower Bounds_
 by S. Fiorini, S. Massar, S. Pokutta, H. R. Tiwary, R. de Wolf.
 * [[A11](https://arxiv.org/abs/1109.1674)] _A Linear-Optical Proof
    that the Permanent is #P-Hard_ by Scott Aaronson.
+--> 

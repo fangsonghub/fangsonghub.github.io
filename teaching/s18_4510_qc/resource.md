@@ -46,18 +46,8 @@ by by Phillip Kaye, Raymond Laflamme, Michele Mosca. Online access available thr
 * [Classical and Quantum Computation (Graduate Studies in Mathematics)](https://www.amazon.com/Classical-Quantum-Computation-Graduate-Mathematics/dp/0821832298){:target="_blank"}, AMS, 2002, by A. Yu. Kitaev, A. H. Shen and M. N. Vyalyi. Concise, rigourous and insightful presentation.  
 
 ## Misc
+* A Not so short intro to Latex [PDF](https://tobi.oetiker.ch/lshort/lshort.pdf){:target="_blank"}, a thorough [introduction to LaTeX](https://en.wikibooks.org/wiki/LaTeX){:target="_blank"}, and [guide](http://www.math.illinois.edu/~ajh/tex/basics.html){:target="_blank"} on good style. Many online TeX editors available, e.g., [Overleaf](https://www.overleaf.com/){:target="_blank"} and [ShareLaTeX](https://www.sharelatex.com/){:target="_blank"}. ShareLaTeX maintains a nice set of [tutorials](https://www.sharelatex.com/blog/latex-guides/beginners-tutorial.html){:target="_blank"}. It's probably most effective just to open a template tex file and tweak it!
+* [Qcircuit package](https://github.com/CQuIC/qcircuit){:target="_blank"} for drawing quantum circuits in LaTeX, and more examples [[PDF](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.pdf){:target="_blank"} [TeX](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.tex){:target="_blank"}] by Charemza.
 * [arXiv quant-ph](https://arxiv.org/archive/quant-ph){:target="_blank"} archive of papers and preprints on Quantum Mechanics and Quantum Computation.
 * [Quantum algorithm zoo](http://math.nist.gov/quantum/zoo/){:target="_blank"} maintained by Stephen Jordan. 
-* A Not so short intro to
-  Latex
-  [PDF](https://tobi.oetiker.ch/lshort/lshort.pdf){:target="_blank"},
-  a
-  thorough
-  [introduction to LaTeX](https://en.wikibooks.org/wiki/LaTeX){:target="_blank"},
-  and
-  [guide](http://www.math.illinois.edu/~ajh/tex/basics.html){:target="_blank"}
-  on good style. Many online TeX editors available,
-  e.g., [Overleaf](https://www.overleaf.com/){:target="_blank"}
-  and [ShareLaTeX](https://www.sharelatex.com/){:target="_blank"}.
-*  [Qcircuit package](https://github.com/CQuIC/qcircuit){:target="_blank"} for drawing quantum circuits in LaTeX, and more examples [[PDF](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.pdf){:target="_blank"} [TeX](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.tex){:target="_blank"}] by Charemza.
 * IBM [Quantum Experience](http://research.ibm.com/ibm-q/qx/). 
