@@ -46,8 +46,8 @@ in cryptography.
    please email me to set an appoinment, and I'd be happy to discuss
    with you.
 *  **Syllabus**:
-   [PDF]({{base}}/teaching/s17_4510_qc/s17_qc_syllabus.pdf){:target="_blank"},
-   and also on the [ADMIN]({{base}}/teaching/s17_4510_qc/admin/) page.
+   [PDF]({{base}}/teaching/s18_4510_qc/s18_qc_syllabus.pdf){:target="_blank"},
+   and also on the [ADMIN]({{base}}/teaching/s18_4510_qc/admin/) page.
 *  **Instructor**: Prof. [Fang Song]({{base}}/) @ FAB 120-07. Email: fsong "AT" pdx.edu.
 *  **Lectures**: MW 2:00 - 3:50 pm @ FAB 10
 *  **Office hours**: M 4 - 5pm, Th 1 - 2pm, and by appointment. 
