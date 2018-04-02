@@ -1,5 +1,37 @@
 # course pages
 
+# S18 QC
+
+- courseid: s18 410/510
+  title: (Spring 2018) CS 410/510 - Intro to Quantum Computing
+  desc: s18 410/510
+  nav: true
+  url: /teaching/s18_4510_qc/
+
+- courseid: s18 410/510
+  title: CS 410/510 
+  desc: Schedule
+  nav: true
+  url: /teaching/s18_4510_qc/schedule/
+
+- courseid: s18 410/510
+  title: (Spring 2018) CS 410/510 - Intro to Quantum Computing
+  desc: Resource
+  nav: true
+  url: /teaching/s18_4510_qc/resource/
+
+- courseid: s18 410/510
+  title: CS 410/510 
+  desc: Project
+  nav: true
+  url: /teaching/s18_4510_qc/project/
+
+- courseid: s18 410/510
+  title: (Spring 2018) CS 410/510 - Intro to Quantum Computing
+  desc: Admin
+  nav: true
+  url: /teaching/s18_4510_qc/admin/
+
 # W18 ICrypto
 - courseid: w18 485/585
   title: (Winter 2018) CS 485/585 - Intro to Cryptography

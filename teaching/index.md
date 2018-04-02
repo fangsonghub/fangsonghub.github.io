@@ -8,7 +8,7 @@ modified: <2018-01-03 Wed>
 ## Courses at Portland State U
 
 * CS 485/585 **Introduction to Cryptography** [Winter 2018]({{ base }}/teaching/w18_4585_icrypto/); [Winter 2017]({{ base }}/teaching/w17_4585_icrypto/)
-* CS 410/510 **Introduction to Quantum Computing** [Spring 2017]({{ base }}/teaching/s17_4510_qc/)
+* CS 410/510 **Introduction to Quantum Computing** [Spring 2018]({{ base }}/teaching/s18_4510_qc/); [Spring 2017]({{ base }}/teaching/s17_4510_qc/)
 
 - - -
 
