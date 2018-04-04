@@ -5,16 +5,17 @@ desc: Schedule
 permalink: /teaching/s18_4510_qc/schedule/
 title: (Spring 2018) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (Subject to change)
-modified: <2018-04-01 Sun>
+modified: <2018-04-04 Wed>
 ---
 
 ## Week 1 
 * **April 02** Qubit, unitary operation, measurement
     *  **Reading**: Aaronson Lec9 [HTML](http://www.scottaaronson.com/democritus/lec9.html){:target="_blank"}; Watrous Lec1 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/01.pdf){:target="_blank"}
 
-* **April 04** Quantum circuit model
+* **April 04** tensor product, quantum circuit model
     *  **Reading**: Watrous Lec2 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/02.pdf){:target="_blank"}, Lec3 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/03.pdf){:target="_blank"}
-
+    *  **HW 1 Out** [[PDF]({{base}}/teaching/s18_4510_qc/s18_qc_hw1.pdf){:target="_blank"} [TeX]({{base}}/teaching/s18_4510_qc/s18_qc_hw1.tex){:target="_blank"}], due April 18, 2018 before class.
+	
 ## Week 2 
 (Lectures canceled due to [PQCrypto 2018](http://www.math.fau.edu/pqcrypto2018/){:target="_blank"}. Watch the video lectures and work on the exercises.)
 *  **April 9** Reversible computation, quantum query model (Review: qubit and gates)
@@ -24,10 +25,10 @@ modified: <2018-04-01 Sun>
 *  **April 11** Deutsch's
    algorithm, Deutsch-Josza algorithm
     *  **Reading**: Watrous Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"}, Lec7 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/07.pdf){:target="_blank"}
-    *  **Watch**: USEQIP lecture on Quantum algorithms by John Watrous [Youtube](https://www.youtube.com/watch?v=Mye5uaGq5no) Part II (~56:30);  USEQIP'11 Quantum algorithm by Childs [Youtube](https://www.youtube.com/watch?v=QrP9HACtac8&index=5&list=PLE2D9E49457E950E7){:target="_blank"} (~57:35)
+    *  **Watch**: USEQIP'12 lecture on Quantum algorithms by John Watrous [Youtube](https://www.youtube.com/watch?v=Mye5uaGq5no) Part II (~56:30);  USEQIP'11 Quantum algorithm by Childs [Youtube](https://www.youtube.com/watch?v=QrP9HACtac8&index=5&list=PLE2D9E49457E950E7){:target="_blank"} (~57:35)
 
 ## Week 3
-*  **April 16** Simon's algorithm
+*  **April 16** Deutsch-Josza review, Simon's algorithm
    *  Watrous Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"}
 *  **April 18** Phase estimation, Quantum Fourier Transform
     * Watrous Lec8 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"}, Lec9 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"}; Vazirani Lec12 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/phase.pdf){:target="_blank"}  

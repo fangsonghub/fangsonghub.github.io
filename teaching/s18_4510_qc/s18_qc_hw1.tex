@@ -1,0 +1,243 @@
+% Created by Fang Song on April 4 2018. Instructions: you don't need
+% to change anything in the macros, but feel free to define new
+% commands as you wish. Starting from the main body, change the specs
+% (e.g., your name). use \begin{solution} \end{solution} environment
+% to write your solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2018}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\def\tr{\mathrm{tr}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\kera}[1]{\ket{#1}\bra{#1}}
+
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+%\studentfalse
+
+\def\issuedate{April 4, 2018}
+\def\duedate{April 18, 2018} % 
+\def\yourname{your name} % put your name here
+%------------------------------%
+\ifstudent
+\hw{1}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{1}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.}
+Your solutions will be graded on \emph{correctness} and
+\emph{clarity}. You should only submit work that you believe to be
+correct; if you cannot solve a problem completely, you will get
+significantly more partial credit if you clearly identify the gap(s)
+in your solution. It is good practice to start any long solution with
+an informal (but accurate) summary that describes the main
+idea. For this problem set, a random subset of problems will be
+graded. Problems marked with ``\mG'' are required for graduate
+students. Undergraduate students will get bonus points for solving
+them. Download the TeX file if you want to typeset your solutions
+using LaTeX. 
+
+\medskip
+\noindent You may collaborate with others on this problem set% and consult external sources
+.  However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\def\coin{\mathrm{COIN}}
+\def\fail{\mathrm{FAIL}}
+\begin{questions}
+  \question (Basic Algebra)  Let $X,Y,Z$ be the Pauli operators. 
+  \begin{parts}
+    \part[6] (complex number) For complex number $c = a + bi$, recall
+    that the real and imaginary parts of $c$ are denoted $Re(c) = a$
+    and $Im(c) = b$.
+  \begin{itemize}
+  \item Prove that $c + c^* = 2 \cdot Re(c)$.
+  \item Prove that $|c|^2: = cc^* = a^2 + b^2$.
+  \item What is the polar form of
+    $c = \frac{1}{\sqrt 2} + \frac{1}{\sqrt 2} i$? Use the fact that
+    $e^{iθ} = \cos\theta + i \sin \theta$?
+  \end{itemize}
+  %\begin{solution}
+  %  uncomment the environment and write your solution here
+  %\end{solution}
+
+  \part[6] (Trace) Recall the trace of a matrix
+  $M = (m_{ij})_{n\times n}, m_{ij}\in \mathbb{C}$ is defined by
+  $\tr(M): = \sum_{i = 1}^n m_{ii}$. % Let $A = \left(
+    % \begin{array}{lr}
+    %   a & b\\
+    %   c & d
+            %       \end{array} \right)$.
+  \begin{itemize}
+  \item What is $\tr(X \ket{0}\bra{1})$? 
+  \item Show that $\tr(YZ) = \tr(ZY)$. Prove that this holds for
+    general matrices: any $n\times n$ matrices $M$ and $N$, $\tr(MN) =
+    \tr(NM)$.
+    \end{itemize}
+
+    \part[6] (Inner product)
+    \begin{itemize}
+    \item Let
+      $\ket{\phi} = \frac{1}{\sqrt 2} \ket{0} + \frac{i}{\sqrt 2}
+      \ket{1}$.
+      $\ket{\psi} = \sqrt {\frac{1}{3}}\ket{0}-
+      \sqrt{\frac{2}{3}}\ket{1}$. Calculate
+      $\bra{\phi}{\psi}\rangle$. 
+      
+    \item Show that $X = \ket{0}\bra{1} + \ket{1}\bra{0}$. Express
+      $Y,Z$ in this outer product form too. Calculate
+      $\bra{1} X \ket{0}$ (using linearity).
+    \end{itemize}
+  \part[10] (Tensor product) Recall the \emph{tensor product} of two
+  matrices $A$ and $B$ is $A\otimes B : = (a_{ij}B)$.
+  \begin{itemize}
+  \item Write out the $4 \times 4$ matrix representing $ X \otimes
+    Y$. Does it equal $Y \otimes X$?
+  \item Show that $(A\otimes B)^\dagger = A^\dagger \otimes
+    B^\dagger$.
+  \item Show that if $U$ and $V$ are unitary matrices, then so is
+    $U \otimes V$.
+  \end{itemize}
+
+  \end{parts}
+
+\question (Quantum states and gates)   
+\begin{parts}
+  \part[12] In each case, describe the resulting state.
+  $H = \frac{1}{\sqrt 2} \left(
+    \begin{array}{lr}
+      1 & 1\\
+      1 & -1
+    \end{array} \right)$. 
+  \begin{enumerate}[label=\roman*)]
+  \item Apply $H$ to the qubit
+    $\frac{1}{\sqrt 2} (\ket{0} + i \ket{1})$.
+    \item Apply $H$ to the first qubit of state $\frac{1}{\sqrt 2}
+      (\ket{00} + \ket{11})$.
+    \item Apply $H$ to both qubits of $\frac{1}{\sqrt 2}
+      (\ket{00} + \ket{11})$.
+    \item Apply $\frac{1}{\sqrt 2} \left(
+    \begin{array}{lr}
+      1 & i\\
+      i & 1
+    \end{array} \right)$ to both qubits of state $\frac{1}{\sqrt 2}
+      (\ket{00} + \ket{11})$.
+    \end{enumerate}
+    \part[8] Let $X = \left(
+    \begin{array}{lr}
+      0 & 1\\
+      1 & 0
+    \end{array} \right)$ and $Z = \left(
+    \begin{array}{lr}
+      1 & 0\\
+      0 & -1
+    \end{array} \right)$.
+  \begin{enumerate}[label=\roman*)]
+    \item Suppose we have a qubit and we first apply $X$ and then
+      $Z$. Is it equivalent to first applying $Z$ and then $X$?
+    \item Suppose we have two qubits. We apply $X$ to both and then
+      $Z$ to both. Is it equivalent to applying $Z$ to both and then
+      applying $X$ to both? Determine your answer by explicitly
+      computing $X\otimes X$, $Z\otimes Z$, and their products both
+      ways. 
+    \end{enumerate}
+    \part[8] (SWAP gate) A SWAP gate takes two inputs $a$ and $b$ and
+    outputs $b$ and $a$; i.e., it swaps the values of two input
+    registers. Show how to build a SWAP gate using only CNOT gates.
+    (Hint: you’ll need 3 of them.)
+  \end{parts}
+
+  
+  \question (Product states versus entangled states) In each of the
+  following, either express the 2-qubit state as a tensor product of
+  1-qubit states or prove that it cannot be expressed this way. 
+  \begin{parts}
+    \part[4] $\frac 1 2 \ket{00} + \frac 1 2 \ket{01} +\frac 1 2
+    \ket{10} - \frac{1}{2} \ket{11}$
+    \part[4] \mG $\frac{3}{4}\ket{00} + \frac{\sqrt
+      3}{4}\ket{01}+\frac{\sqrt 3}{4}\ket{10}+\frac{1}{4}\ket{11}$
+  \end{parts}
+
+  \question (Distinguishing states by local measurements) Suppose
+  Alice and Bob are physically separated from each other, and are each
+  given one of the qubits of some 2-qubit state. They are required to
+  distinguish between State I and State II with only local
+  measurements. Namely they can each perform a local (one-qubit)
+  unitary operation and then a measurement (in the computational
+  basis) of their own qubit. After their measurements, they can send
+  only classical bits to each other. (This is usually referred to as
+  LOCC: local operation and classical communication.)  In each case
+  below, either give a perfect distinguishing procedure (that never
+  errs) or explain why there is no perfect distinguishing procedure
+  (i.e., that for any procedure the success probability must be less
+  than 1).
+
+  \begin{parts}
+    \part[5] State I: $\frac{1}{\sqrt 2}(\ket{00} + \ket{11})$; State II: $\frac{1}{\sqrt 2}(\ket{01} + \ket{10})$ 
+    \part[5] State I: $\frac{1}{\sqrt 2} (\ket{00} + \ket{11})$; State
+    II: $\frac{1}{\sqrt 2} (\ket{00}-\ket{11})$
+    \part[5] \mG State I: $\frac{1}{\sqrt 2}(\ket{00} + i \ket{11})$;
+    State II: $\frac{1}{\sqrt 2}(\ket{00}-i\ket{11})$
+  \end{parts}
+  \question (Simulate classical circuit) Let $f: \bit^2 \to \bit^2$ be
+  a function such that $f(ab) = 0$ if $a=b=1$ and $f(ab) =1$
+  otherwise.
+  \begin{parts}
+    \part[4] Design a circuit using your favorite gate set (e.g., AND,
+    OR, NOT) to compute $f$.
+    \part[6] Turn your circuit into a reversible circuit using Toffoli
+    gate $T: a,b,c \mapsto a,b,a\wedge b \oplus c$ and other
+    reversible gates. You may need to introduce ancilla bits
+    \part[6] Turn your reversible circuit into a unitary quantum
+    circuit that implements the unitary
+    $U_f: \ket{x}\ket{y} \mapsto \ket{x}\ket{f(x)\oplus y}$. 
+  \end{parts}
+
+\end{questions}
+
+
+\end{document}
