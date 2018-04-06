@@ -17,10 +17,11 @@ modified: <2018-04-04 Wed>
     *  **HW 1 Out** [[PDF]({{base}}/teaching/s18_4510_qc/s18_qc_hw1.pdf){:target="_blank"} [TeX]({{base}}/teaching/s18_4510_qc/s18_qc_hw1.tex){:target="_blank"}], due April 18, 2018 before class.
 	
 ## Week 2 
-(Lectures canceled due to [PQCrypto 2018](http://www.math.fau.edu/pqcrypto2018/){:target="_blank"}. Watch the video lectures and work on the exercises.)
+(Lectures canceled due to [PQCrypto 2018](http://www.math.fau.edu/pqcrypto2018/){:target="_blank"}. Watch the video lectures and study the lecture notes.)
 *  **April 9** Reversible computation, quantum query model (Review: qubit and gates)
     *  **Reading**: Watrous Lec7 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/07.pdf){:target="_blank"}
     *  **Watch**: USEQIP'12 lecture on Quantum algorithms by John Watrous [Youtube](https://www.youtube.com/watch?v=Mye5uaGq5no){:target="_blank"} Part I (~32:38); USEQIP'11 Intro to QC by Mosca [Youtube](https://www.youtube.com/watch?v=cjRB55gxQN4&list=PLE2D9E49457E950E7&index=4){:target="_blank"} (~1:45:50)
+	*  If you want to reinforce the basic quantum formalism, Michael Nielsen's short video series [Quantum Computing for the determined](http://michaelnielsen.org/blog/quantum-computing-for-the-determined/){:target="_blank"} can help. 
 	
 *  **April 11** Deutsch's
    algorithm, Deutsch-Josza algorithm
