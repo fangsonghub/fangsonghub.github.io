@@ -10,7 +10,7 @@ modified: 2018-04-08
 
 ## Instructions
 2-3 people group projects. You may choose to do a _literature review_
-project or (more exciting) _original research_. For literature review,
+project or (more exciting) _mini original research_. For literature review,
 you'd read a few papers around a topic, understand the connection of
 this topic to the general field of quantum computing as well as the of
 various works under this topic. The final outcome would be a _survey_
