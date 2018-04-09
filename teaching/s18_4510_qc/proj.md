@@ -128,8 +128,7 @@ application.
     * [[ABO99](http://arxiv.org/abs/quant-ph/9906129)] _Fault-Tolerant
      Quantum Computation with Constant Error Rate_ by D. Aharonov and
      M. Ben-Or.
-	* [[CR17a](https://arxiv.org/abs/1705.02329)] _Quantum error correction with only two extra qubits
-_ by Rui Chao, Ben W. Reichardt. 
+	* [[CR17a](https://arxiv.org/abs/1705.02329)] _Quantum error correction with only two extra qubits_ by Rui Chao, Ben W. Reichardt. 
     * [[CR17b](https://arxiv.org/abs/1705.05365)] _Fault-tolerant quantum computation with few qubits_ by Rui Chao, Ben W. Reichardt. 
 *  **Quantum Shannon Theory** Quantum information shows distinct features than what Shannon's theory about classical information describes.  
     * [[HOW05](http://arxiv.org/abs/quant-ph/0505062)] _Quantum
