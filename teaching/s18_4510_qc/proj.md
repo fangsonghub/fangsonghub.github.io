@@ -53,7 +53,7 @@ A few venues to look for inspirations:
 
 *  [QIP](https://qipconference.org/)
 *  [Qcrypt](http://2016.qcrypt.net/previous-conferences/) 
-*  General TCS conferences (e.g., [STOC](http://acm-stoc.org/), [FOCS](http://ieee-focs.org/), [SODA](), [Crypto](http://www.iacr.org/meetings/crypto/)). 
+*  General TCS conferences (e.g., [STOC](http://acm-stoc.org/), [FOCS](http://ieee-focs.org/), [SODA](http://www.siam.org/meetings/archives.php#SODA), [Crypto](http://www.iacr.org/meetings/crypto/)). 
 
 ### Quantum algorithms for algebraic problems
 
