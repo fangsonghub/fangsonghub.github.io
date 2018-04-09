@@ -128,7 +128,9 @@ application.
     * [[ABO99](http://arxiv.org/abs/quant-ph/9906129)] _Fault-Tolerant
      Quantum Computation with Constant Error Rate_ by D. Aharonov and
      M. Ben-Or.
-    *  [Reichart] ?
+	* [[CR17a](https://arxiv.org/abs/1705.02329)] _Quantum error correction with only two extra qubits
+_ by Rui Chao, Ben W. Reichardt. 
+    * [[CR17b](https://arxiv.org/abs/1705.05365)] _Fault-tolerant quantum computation with few qubits_ by Rui Chao, Ben W. Reichardt. 
 *  **Quantum Shannon Theory** Quantum information shows distinct features than what Shannon's theory about classical information describes.  
     * [[HOW05](http://arxiv.org/abs/quant-ph/0505062)] _Quantum
      information can be negative_ by M. Horodecki, J. Oppenheim,
@@ -185,7 +187,7 @@ by Urmila Mahadev.
     *  [[KLLNP16](https://arxiv.org/abs/1602.05973)] _Breaking
       Symmetric Cryptosystems using Quantum Period Finding_ by Marc
       Kaplan, Gaëtan Leurent, Anthony Leverrier, María Naya-Plasencia.
-	*  [[SY17]()] NMAC  . A positive message, proving several security constructions, in regard to the above attack. 
+	*  [[SY17](https://eprint.iacr.org/2017/509)] _Quantum Security of NMAC and Related Constructions_ by F. Song and A. Yun. A positive message, proving several security constructions, in regard to the above attack. 
 *  **Quantum cryptograpy** equip _codemakers_ with quantum information
    processing
     * **Survey**. [[BS15](https://arxiv.org/abs/1510.06120)] _Quantum
@@ -218,7 +220,7 @@ by Urmila Mahadev.
     *  [[AA11](https://arxiv.org/abs/1011.3245)] _The
    Computational Complexity of Linear Optics_ by S. Aaronson and
    A. Arkhipov.
-    *  quantum supremacy [V18]
+    *  [BFNV18] _Quantum Supremacy and the Complexity of Random Circuit Sampling_ by A. Bouland, B. Fefferman, C. Nirkhe, U. Vazirani.
 *  Qubit is precious, be
    conservative. [[KL98](https://arxiv.org/abs/quant-ph/9802037)] _On
    the Power of One Bit of Quantum Information_ by E. Knill,
@@ -234,7 +236,7 @@ by Urmila Mahadev.
      and Controlled-NOT need little help to do universal quantum
      computation_ by Y. Shi.
 *  **Quantum software (and hardware) platforms**. Project idea: survey some popular platforms, and write quantum programs to simulate selected quantum algorithms on some backends (classical simulator or actual quantum processor). 
-    *  [[IBM18](https://www.research.ibm.com/ibm-q/)] IBM Q Experience and Quantum information software Kit [QISKit(https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/stable/index.ipynb)]. 
+    *  [[IBM18](https://www.research.ibm.com/ibm-q/)] IBM Q Experience and Quantum information software Kit [QISKit](https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/stable/index.ipynb). 
     *  [[SHT16](https://arxiv.org/abs/1612.08091)] _ProjectQ: An Open
    Source Software Framework for Quantum Computing_ by Damian
    S. Steiger, Thomas Häner, Matthias Troyer. More info. on their
@@ -245,5 +247,6 @@ by Urmila Mahadev.
    Research. [Github](https://github.com/StationQ/Liquid).
     *  [[GLRSV13](https://arxiv.org/abs/1304.3390)] _Quipper: A Scalable
    Quantum Programming Language_ by A. S. Green et al. [Project website](http://www.mathstat.dal.ca/~selinger/quipper/).
-*  Thoery of quantum programing. [[LY18](https://popl18.sigplan.org/event/popl-2018-papers-algorithmic-analysis-of-termination-problems-for-quantum-programs)] by Y. Li, M. Ying.
+*  Thoery of quantum programing. [[LY18](https://popl18.sigplan.org/event/popl-2018-papers-algorithmic-analysis-of-termination-problems-for-quantum-programs)] _Algorithmic Analysis of Termination Problems for Quantum Programs
+_ by Y. Li, M. Ying.
 
