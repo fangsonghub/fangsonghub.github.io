@@ -47,7 +47,7 @@ problem (big congrats if you do!).
 
 ## Suggested Topics 
 
-Also available in ([PDF]({{base}}/teaching/s18_4510_qc/project.pdf){:target="_blank"}). Feel free to pursue a project not on this list. I'm happy to meet with your group and discuss about your ideas. 
+<!--Also available in ([PDF]({{base}}/teaching/s18_4510_qc/project.pdf){:target="_blank"}). --> Feel free to pursue a project not on this list. I'm happy to meet with your group and discuss about your ideas. 
 
 A few venues to look for inspirations: 
 
