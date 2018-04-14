@@ -26,7 +26,7 @@ problem (big congrats if you do!).
    core papers to be studied; and 3) a goal you intend to achieve and
    a plan.
 *  **Mid-term report**: ~5 pages. After more reading and group discussion, your mid-term report should have a polished and expanded version of your proposal. You also need to demonstrate the progress you've made since the proposal.  
-*  **Oral presentation**: Each group will have about 20mins to present your project, demonstrating both _breath_ and _depth_: you should aim for a clear introdution of your topic with sufficient background and motivation that would  **interest** the audience; and then you may choose to explain 1-2 techincal ideas in a little detail. Every group member needs to participate, and your group will be graded by other fellow students. You may give your the presentaion on board or with slides.  
+*  **Oral presentation**: Each group will have about 20mins to present your project, demonstrating both _breath_ and _depth_: you should aim for a clear introdution of your topic with sufficient background and motivation that would  **interest** the audience; and then you may choose to explain 1-2 techincal ideas in a little detail. Every group member needs to participate, and your group will be graded by other fellow students. You may give your the presentaion on board or with slides.
 *  **Final report**: ~10 pages. This should resemble a real research
    paper: 1) a short abstract; 2) an introduction that motivates the
    topic/problem and gives an overview of the entire report; 3) details
@@ -240,10 +240,7 @@ by Urmila Mahadev.
    Source Software Framework for Quantum Computing_ by Damian
    S. Steiger, Thomas Häner, Matthias Troyer. More info. on their
    project [website](https://projectq.ch/){:target="_blank"}.
-    *  [[WS14](https://www.microsoft.com/en-us/research/publication/liqui-a-software-design-architecture-and-domain-specific-language-for-quantum-computing/?from=http%3A%2F%2Fresearch.microsoft.com%2Fpubs%2F209634%2F1402.4467.pdf)]
-   _LIQUi|>: A Software Design Architecture and Domain-Specific
-   Language for Quantum Computing_ by QuArC @ Microsoft
-   Research. [Github](https://github.com/StationQ/Liquid).
+    *  [MS18](https://www.microsoft.com/en-us/quantum) _Microsoft Quantum Development Kit_ by QuArC @ Microsoft. 
     *  [[GLRSV13](https://arxiv.org/abs/1304.3390)] _Quipper: A Scalable
    Quantum Programming Language_ by A. S. Green et al. [Project website](http://www.mathstat.dal.ca/~selinger/quipper/).
 *  Thoery of quantum programing. [[LY18](https://popl18.sigplan.org/event/popl-2018-papers-algorithmic-analysis-of-termination-problems-for-quantum-programs)] _Algorithmic Analysis of Termination Problems for Quantum Programs
