@@ -61,6 +61,7 @@ modified: <2018-04-18 Wed>
 *  **May 16** Quantum Error correcting and Fault tolerance
     *  Vazirani Lec21 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qecc.pdf){:target="_blank"}; Watrous Lec16 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/16.pdf){:target="_blank"}, Lec17 (CSS codes) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/17.pdf){:target="_blank"}
     * HW 3 due.  **HW 4 Out** [[PDF]({{base}}/teaching/s18_4510_qc/s18_qc_hw4.pdf){:target="_blank"} [TeX]({{base}}/teaching/s18_4510_qc/s18_qc_hw4.tex){:target="_blank"}], due May 30 before class.
+
 ## Week 8
 *  **May 21** Quantum computational complexity
     *  Watrous Lec22 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/22.pdf){:target="_blank"} 
