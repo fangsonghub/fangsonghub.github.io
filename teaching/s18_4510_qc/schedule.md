@@ -34,6 +34,7 @@ modified: <2018-04-18 Wed>
 *  **April 18** Simon's algorithm Cont'd, Phase estimation
     * Watrous Lec8 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"}; Vazirani Lec12 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/phase.pdf){:target="_blank"}  
     * HW 1 due.  **HW 2 Out** [[PDF]({{base}}/teaching/s18_4510_qc/s18_qc_hw2.pdf){:target="_blank"} [TeX]({{base}}/teaching/s18_4510_qc/s18_qc_hw2.tex){:target="_blank"}], due May 02 before class.
+
 ## Week 4
 *  **April 23** Quantum Fourier Transform, Order finding, Kitaev's algorithm
    *  Watrous Lec9 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"}, Lec10 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/10.pdf){:target="_blank"}; 
@@ -47,6 +48,7 @@ modified: <2018-04-18 Wed>
 *  **May 02** Optimalilty of Grover's algorithm, quantum query complexity
     *  **Reading**: Vazirani Lec10 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec10.pdf){:target="_blank"}; [[BBBV97](https://arxiv.org/pdf/quant-ph/9701001.pdf){:target="_blank"}]
     * HW 2 due.  **HW 3 Out** [[PDF]({{base}}/teaching/s18_4510_qc/s18_qc_hw3.pdf){:target="_blank"} [TeX]({{base}}/teaching/s18_4510_qc/s18_qc_hw3.tex){:target="_blank"}], due May 16 before class.
+
 ## Week 6
 *  **May 7** Entanglement, teleportation, superdense coding
     *  Vazirani Lec3 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lecture3.pdf){:target="_blank"}; Watrous Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"}, Lec20 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/20.pdf){:target="_blank"}

@@ -1,0 +1,265 @@
+% Created by Fang Song on April 4 2018. Instructions: you don't need
+% to change anything in the macros, but feel free to define new
+% commands as you wish. Starting from the main body, change the specs
+% (e.g., your name). use \begin{solution} \end{solution} environment
+% to write your solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2018}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\def\tr{\mathrm{tr}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\complex}{\mathbb{C}}
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\kera}[1]{\ket{#1}\bra{#1}}
+\newcommand{\corr}[1]{{\color{blue}{#1}}}
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+%\studentfalse
+
+\def\hwnum{2}
+\def\issuedate{April 18, 2018}
+\def\duedate{May 02, 2018} % 
+\def\yourname{your name} % put your name here
+%------------------------------%
+\ifstudent
+\hw{\hwnum}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{\hwnum}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.}
+Your solutions will be graded on \emph{correctness} and
+\emph{clarity}. You should only submit work that you believe to be
+correct; if you cannot solve a problem completely, you will get
+significantly more partial credit if you clearly identify the gap(s)
+in your solution. It is good practice to start any long solution with
+an informal (but accurate) summary that describes the main
+idea. For this problem set, a random subset of problems will be
+graded. Problems marked with ``\mG'' are required for graduate
+students. Undergraduate students will get bonus points for solving
+them. Download the TeX file if you want to typeset your solutions
+using LaTeX. 
+
+\medskip
+\noindent You may collaborate with others on this problem
+set. However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\begin{questions}
+  \question (Linear algebra)
+  \begin{parts}
+
+    \part[6] A linear operator on a vector space $V$ (think of
+    $\complex^k$) is a linear transformation $T: V \to V$ of the
+    vector space to itself. A vector $\ket{\psi}$ is called an
+    eigenvector of an operator $T$ if
+    $T \ket{\psi} = \lambda \ket{\psi}$ for some constant
+    $\lambda \in \complex$. $\lambda$ is called the eigenvalue
+    corresponding to the eigenvector $\ket{\psi}$. Find the eigenvalues
+    and eigenvectors of Pauli operator $X$. Show that the eigenvectors
+    form an orthonormal basis of $\complex^2$. Do the same for
+    $X\otimes X$.
+    % \begin{solution}
+      
+    % \end{solution}
+
+    \part[6] An operator $T$ is called \emph{Hermitian}, if
+    $T^\dagger = T$. Prove that the eigenvalues of a Hermitian
+    operator are all real numbers. Show that the eigenvalues of
+    unitary operators are of the form $e^{i\theta}$ for some
+    $\theta \in [0,2\pi)$.
+    
+    \part[4] Show that for any $x\in \bit^n$,
+    $H^{\otimes n} \ket{x} = \sum_{y\in \bit^n} (-1)^{x\cdot
+      y}\ket{y}$. $x\cdot y : = \sum_{i = 1}^n x_iy_i$ is the dot
+    product over $\bZ_2^n$.
+
+    \part[4] Let $x,y\in \bit^n$ and let $s = x\oplus y$. Show that
+    \begin{equation*}
+      H^{\otimes n} \frac{1}{\sqrt 2}(\ket{x} + \ket{y}) =
+      \frac{1}{\sqrt {2^{n-1}}}\sum_{z: z\cdot s = 0} (-1)^{x\cdot z}
+      \ket{z} \, .
+    \end{equation*}
+
+    \part[5] Suppose that
+    $\ket{v_1}, \ket{v_2}, \ldots \ket{v_k} \in \complex^k$ form an
+    orthonormal basis. Show that $\sum_{i=1}^k \ket{v_i}\bra{v_i}$ is
+    the identity matrix.
+
+    \part[5] $\mG$ Show that every unitary one-qubit gate with real entries can
+    be written as a rotation matrix, possibly preceded and followed by
+    Z-gates. In other words, show that for every $2 \times 2$ real
+    unitary U, there exist signs $s_1, s_2, s_3 \in \{1, -1\}$ and
+    angle $\theta \in [0, 2\pi)$ such that
+
+    \begin{equation*}
+      U =  s_1   \left(\begin{array}{lr}
+      1 & 0\\
+      0 & s_2
+              \end{array} \right) \left( \begin{array}{lr}
+      \cos \theta & - \sin\theta\\
+      \sin\theta & \cos\theta
+                                         \end{array} \right) \left(    \begin{array}{lr}
+                                                                1 & 0\\
+                                                                0 & s_3
+                                                                       \end{array} \right) \, . 
+    \end{equation*}
+
+    \part[8] For a vector $v = (v_0, \ldots, v_{k-1})\in \complex^k$,
+    let $\|v\|:=\sqrt{\sum_{i=0}^{k-1} |v_i|^2}$, which is the usual
+    Euclidean length of $v$. For any $k \times k$ matrix
+    $M\in \complex^{k\times k}$, define its \emph{spectral norm}
+    $\|M \|$ as $\|M\| = \max_{\ket{\psi}} \| M \ket{\psi}\|$, where
+    the maximum is taken over quantum states (i.e., vectors
+    $\ket{\psi}$ such that $\| \ket{\psi}\| = 1$).  Define the
+    distance between two $k \times k$ unitary matrices $M_1$ and $M_2$
+    as $\|M_1 - M_2\|$. Show that
+    \begin{enumerate}[label=\roman*)]
+    \item $\|A - B\| \leq \|A - C\| + \| C - B \|$, for any three
+      $k \times k$ matrices A, B, and C. (Thus, this distance measure
+      satisfies the \emph{triangle inequality}.
+    \item Show that, for any two $k \times k$ unitary matrices $U_1$
+      and $U_2$, and any matrix $A$, $\|U_1AU_2\| = \|A\|$.
+    \end{enumerate}
+  \end{parts}
+  
+  \question (Simple search algorithms) In the context of this
+  question, we are interested in exact solutions (with failure
+  probability zero).
+
+  \begin{parts}
+    \part[6] (1-out-of-4 search) Consider a black-box function
+    $f:\bit^2 \to \bit$ with the property that there is a unique
+    $x\in \bit$ such that $f(x) = 1$ and the goal is to determine
+    $x$. How many classical queries are necessary to solve this
+    problem? Design a quantum algorithm that finds $x$ using 1 quantum
+    query.
+    \part[6] (2-out-of-4 search) Given a black-box for a function
+    $f:\bit^2 \to \bit$ with exactly two $x\in \bit^2$ such that
+    $f(x) = 1$ and the goal is to determine both $x$'s. Prove that 3
+    classical queries are necessary to solve this problem and that 2
+    quantum queries are sufficient to solve this problem.
+
+  \end{parts}
+
+  \question (Quantum Fourier Transform)
+  \begin{parts}
+    \part[12] Let $F_N$ denote the $N$-dimensional Fourier transform
+  \begin{equation*}
+    F_N := \frac{1}{\sqrt N}\left(
+    \begin{array}{ccccc}
+      1 & 1 & 1 & \cdots & 1\\
+      1 &\omega_N & \omega_N^2&\cdots& \omega_N^{N-1} \\
+      1 &\omega^2_N & \omega_N^4&\cdots& \omega_N^{2(N-1)}\\
+      \vdots &\vdots&\vdots&\vdots&\vdots\\
+      1 &\omega_N^{N-1} & \omega_N^{2(N-1)}&\cdots& \omega_N^{(N-1)^2}\\
+    \end{array} \right),  \text{ where } \omega_N := e^{2\pi i / N} (i =\sqrt {-1})
+  \end{equation*}
+
+  (an $N\times N$ matrix, with entry
+  $\frac{1}{\sqrt{N}} e^{(2\pi i /N)jk}$ position $j,k$ for
+  $j, k \in \{0, 1, \ldots, N-1\}$.
+
+  \begin{enumerate}[label=\roman*)]
+  \item Let $N=3$. Calculate $F_3(0,1,0)^T$ and
+    $F_3(1, \omega, \omega^2)^T$. $(\cdot)^T$ denotes the transpose.
+  \item Show that all rows in $F_N$ are vectors of length 1, and any
+    two rows are orthogonal.
+  \item What is $F_N^2$? (Hint: The matrix has a very simple form.)
+  \item What is the minimum $j$ such that $F_N^j = I$ is the identity?
+    
+  \end{enumerate}
+
+  \part[5] In class, we computed the QFT modulo $N=2^n$ by a quantum
+  circuit of size $O(n^2)$.  Recall that it uses gates of the form
+    \begin{equation*}
+      R_k = \left(
+    \begin{array}{lllc}
+      1 & 0 &0 &0\\
+      0 & 1 &0 &0 \\
+      0 & 0 & 1& 0 \\
+      0 & 0 & 0 & e^{2\pi i /{2^k}} 
+    \end{array} \right)   
+    \end{equation*}
+    for $k\in \{2,\ldots,n\}$. Show that $\|R_k - I\| \leq 2\pi/{2^k}$
+    , where I is the $4 \times 4$ identity matrix. (Thus, $R_k$ gets
+    very close to $I$ when $k$ increases.)
+    
+    \part[8] Here we compute an \emph{approximation} of this QFT
+    within $\veps$ by a quantum circuit of size $O(n
+    \log(n/\veps)$. The idea to start with the $O(n^2)$ circuit and
+    then remove some of its $R_k$ gates (it is equivalent to changing
+    the $R_k$ gate to identity gate). If $k$ is large then removing a
+    ${R}_k$ gate changes the unitary transformation by only a small
+    amount. Show how to use this approach to obtain a quantum circuit
+    of size $O(n\log (n/\veps)$ that computes a unitary transformation
+    $\tilde F_N$ such that $\| \tilde F_N - F_N \| \leq \veps$.
+    (Hint: Try removing all $R_k$ gates where $k\geq t$, for some
+    carefully chosen threshold $t$. The properties of our distance
+    measure from the previous question should be useful for your
+    analysis here.) For your reference the quantum circuit for QFT is
+    given below.
+
+    \begin{figure}[ht]
+\centerline{
+\Qcircuit @C=1em @R=0.75em {
+   \lstick{\ket{x_{n-1}}}   &   \gate{H}  &   \gate{R_2}   &   \gate{R_3}   &   \cdots      &   \gate{R_{n}}   &   \qw        &   \qw           &   \qw      &   \qw           &   \qw        &   \qw     &   \qw           &   \qw        &   \rstick{\ket{y_0}} \qw       \\
+   \lstick{\ket{x_{n-2}}}   &   \qw       &   \ctrl{-1}     &   \qw           &   \qw      &   \qw           &   \gate{H}   &   \gate{R_2}   &   \cdots      &   \gate{R_{n-1}}   &   \qw        &   \qw     &   \qw           &   \qw        &   \rstick{\ket{y_1}} \qw       \\
+   \lstick{\ket{x_{n-3}}}   &   \qw       &   \qw           &   \ctrl{-2}     &   \qw      &  \qw            &   \qw        &   \ctrl{-1}     &   \qw      &   \qw           &   \gate{H}   &   \qw     &   \gate{R_2}   &   \qw        &   \rstick{\ket{y_2}} \qw       \\
+   \lstick{\vdots }         &             &                 &                 &   \ddots   &                 &              &                 &   \ddots   &                 &              &   \ddots  &                 &              &   \rstick{\vdots }             \\
+   \lstick{\ket{x_{0}}}     &   \qw       &   \qw           &   \qw           &   \qw      &   \ctrl{-4}     &    \qw       &   \qw           &   \qw      &   \ctrl{-3}     &   \qw        &   \qw     &   \ctrl{-2}     &   \gate{H}   &   \rstick{\ket{y_{n-1}}} \qw
+}
+}
+\caption{QFT circuit in $\mathbb{Z}_{2^n}$.}
+\end{figure}
+   
+\end{parts}
+
+\end{questions}
+
+
+\end{document}
