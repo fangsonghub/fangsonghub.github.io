@@ -38,9 +38,9 @@ modified: <2018-04-18 Wed>
 ## Week 4
 *  **April 23** Quantum Fourier Transform, Order finding, Kitaev's algorithm
    *  Watrous Lec9 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"}, Lec10 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/10.pdf){:target="_blank"}; 
-*  **April 25** factoring, Shor's algorithm, Hidden subgroup problem
-   framework
-    *  Watrous Lec11 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/11.pdf){:target="_blank"}; Vazirani Lec8 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/factoring1.pdf){:target="_blank"}, Lec9 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec9.pdf){:target="_blank"}
+*  **April 25** Kitaev's algorithm Cont'd, factoring, Shor's algorithm
+    *  Watrous Lec11 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/11.pdf){:target="_blank"}; Vazirani Lec8 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/factoring1.pdf){:target="_blank"}
+	* Extended reading: **Hidden subgroup problem framework** Vazirani Lec9 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec9.pdf){:target="_blank"}
 
 ## Week 5
 *  **April 30** Unstructured search, Grover's algorithm
