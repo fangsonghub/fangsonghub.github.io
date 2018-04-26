@@ -240,7 +240,7 @@ by Urmila Mahadev.
    Source Software Framework for Quantum Computing_ by Damian
    S. Steiger, Thomas Häner, Matthias Troyer. More info. on their
    project [website](https://projectq.ch/){:target="_blank"}.
-    *  [MS18](https://www.microsoft.com/en-us/quantum) _Microsoft Quantum Development Kit_ by QuArC @ Microsoft. 
+    *  [MS18](https://www.microsoft.com/en-us/quantum/development-kit) _Microsoft Quantum Development Kit_ by QuArC @ Microsoft. 
     *  [[GLRSV13](https://arxiv.org/abs/1304.3390)] _Quipper: A Scalable
    Quantum Programming Language_ by A. S. Green et al. [Project website](http://www.mathstat.dal.ca/~selinger/quipper/).
 *  Thoery of quantum programing. [[LY18](https://popl18.sigplan.org/event/popl-2018-papers-algorithmic-analysis-of-termination-problems-for-quantum-programs)] _Algorithmic Analysis of Termination Problems for Quantum Programs
