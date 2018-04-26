@@ -67,7 +67,6 @@ modified: <2018-04-18 Wed>
     *  Watrous Lec22 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/22.pdf){:target="_blank"} 
 *  **May 23** Quantum computational complexity
     *  Vazirani Lec6 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lecture6.pdf){:target="_blank"}, Lec19 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qma.pdf){:target="_blank"} 
-    *  **Scribe note** by _Enis Enan_: [[PDF]({{base}}/teaching/s17_4510_qc/170525_ei_lec16.pdf){:target="_blank"} [TeX]({{base}}/teaching/s17_4510_qc/170525_ei_lec16.tex){:target="_blank"}]
    
 ## Week 9
 *  **May 28** (Memorial day. No class.)

@@ -174,10 +174,10 @@ set. However, you must \textbf{\emph{write up your own solutions}} and
   \begin{parts}
     \part[6] (1-out-of-4 search) Consider a black-box function
     $f:\bit^2 \to \bit$ with the property that there is a unique
-    $x\in \bit$ such that $f(x) = 1$ and the goal is to determine
-    $x$. How many classical queries are necessary to solve this
-    problem? Design a quantum algorithm that finds $x$ using 1 quantum
-    query.
+    $x\in \bit^{\corr{2}}$ such that $f(x) = 1$ and the goal is to
+    determine $x$. How many classical queries are necessary to solve
+    this problem? Design a quantum algorithm that finds $x$ using 1
+    quantum query.
     \part[6] (2-out-of-4 search) Given a black-box for a function
     $f:\bit^2 \to \bit$ with exactly two $x\in \bit^2$ such that
     $f(x) = 1$ and the goal is to determine both $x$'s. Prove that 3
@@ -249,9 +249,12 @@ set. However, you must \textbf{\emph{write up your own solutions}} and
 \Qcircuit @C=1em @R=0.75em {
    \lstick{\ket{x_{n-1}}}   &   \gate{H}  &   \gate{R_2}   &   \gate{R_3}   &   \cdots      &   \gate{R_{n}}   &   \qw        &   \qw           &   \qw      &   \qw           &   \qw        &   \qw     &   \qw           &   \qw        &   \rstick{\ket{y_0}} \qw       \\
    \lstick{\ket{x_{n-2}}}   &   \qw       &   \ctrl{-1}     &   \qw           &   \qw      &   \qw           &   \gate{H}   &   \gate{R_2}   &   \cdots      &   \gate{R_{n-1}}   &   \qw        &   \qw     &   \qw           &   \qw        &   \rstick{\ket{y_1}} \qw       \\
-   \lstick{\ket{x_{n-3}}}   &   \qw       &   \qw           &   \ctrl{-2}     &   \qw      &  \qw            &   \qw        &   \ctrl{-1}     &   \qw      &   \qw           &   \gate{H}   &   \qw     &   \gate{R_2}   &   \qw        &   \rstick{\ket{y_2}} \qw       \\
-   \lstick{\vdots }         &             &                 &                 &   \ddots   &                 &              &                 &   \ddots   &                 &              &   \ddots  &                 &              &   \rstick{\vdots }             \\
-   \lstick{\ket{x_{0}}}     &   \qw       &   \qw           &   \qw           &   \qw      &   \ctrl{-4}     &    \qw       &   \qw           &   \qw      &   \ctrl{-3}     &   \qw        &   \qw     &   \ctrl{-2}     &   \gate{H}   &   \rstick{\ket{y_{n-1}}} \qw
+   \lstick{\vdots }         &             &                 &
+   &   \ddots   &                 &              &                 &
+   \ddots   &                 &              &   \ddots  &
+   &              &   \rstick{\vdots }             \\
+\lstick{\ket{\corr{x_1}}}   &   \qw       &   \qw           &   \ctrl{-3}     &   \qw      &  \qw            &   \qw        &   \ctrl{-2}     &   \qw      &   \qw           &   \gate{H}   &   \qw     &   \gate{R_2}   &   \qw        &   \rstick{\ket{\corr{y_{n-2}}}} \qw       \\
+   \lstick{\ket{x_{0}}}     &   \qw       &   \qw           &   \qw           &   \qw      &   \ctrl{-4}     &    \qw       &   \qw           &   \qw      &   \ctrl{-3}     &   \qw        &   \qw     &   \ctrl{-1}     &   \gate{H}   &   \rstick{\ket{y_{n-1}}} \qw
 }
 }
 \caption{QFT circuit in $\mathbb{Z}_{2^n}$.}
