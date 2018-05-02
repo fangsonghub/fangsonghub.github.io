@@ -2,17 +2,24 @@
 layout: page
 title: Research
 excerpt:
-modified: <2017-11-07 Tue>
+modified: <2018-04-30 Mon>
 ---
 * Table of Contents
 {:toc}
 
 ## Publications
 
+*   **Pseudorandom Quantum States** 
+    *   Authors: Zhengfeng Ji, Yi-Kai Liu, Fang Song 
+	*   To appear in _the 38th International Cryptology Conference ([Crypto 2018](https://crypto.iacr.org/2018/){:target="_blank"})_.
+	*   [[arXiv](https://arxiv.org/abs/1711.00385){:target="_blank"}]
+*   **Quantum Collision-Finding in Non-Uniform Random Functions**
+    *   Authors: Marko Balogh and Edward Eaton and Fang Song
+	*   In _the Ninth International Conference on Post-Quantum Cryptography ([PQCrypto 2018](http://www.math.fau.edu/pqcrypto2018/){:target="_blank"})_.
+    *   [[Springer](https://link.springer.com/chapter/10.1007%2F978-3-319-79063-3_22){:target="_blank"}] [[IACR ePrint](http://ia.cr/2017/688){:target="_blank"}]
 *  **Quantum Security of NMAC and Related Constructions**
     *  Authors: Fang Song and Aaram Yun
-	*  In _the 37th International Cryptology Conference
-       ([Crypto 2017](https://www.iacr.org/conferences/crypto2017/){:target="_blank"})_.
+	*  In _the 37th International Cryptology Conference ([Crypto 2017](https://www.iacr.org/conferences/crypto2017/){:target="_blank"})_.
 	*  [[Springer](https://doi.org/10.1007/978-3-319-63715-0_10){:target="_blank"}] [[ePrint](https://eprint.iacr.org/2017/509){:target="_blank"}]
 *   **Zero-knowledge proof systems for QMA**
     *   Authors: Anne Broadbent, Zhengfeng Ji, Fang Song and John Watrous
@@ -64,18 +71,13 @@ modified: <2017-11-07 Tue>
 
 ### Manuscripts
 
-*   **Pseudorandom States, Non-Cloning Theorems and Quantum Money** 
-    *   Authors: Zhengfeng Ji, Yi-Kai Liu, Fang Song 
-	*   ArXiv
-	preprint [arXiv:1711.00385](https://arxiv.org/abs/1711.00385){:target="_blank"},
-	November 2017.
 *	**Basing cryptography on NP-hardness
 	using quantum reductions** 
 	*   Authors: Nai-Hui Chia, Sean Hallgren, Fang Song 
-	*   _Under submission_. October 2017.
-*   **Quantum Collision-Finding in Non-Uniform Random Functions**
-    *   Authors: Marko Balogh and Edward Eaton and Fang Song
-    *   Cryptology ePrint Archive: [Report 2017/688](http://ia.cr/2017/688){:target="_blank"}, July 2017.
+	*   ArXiv preprint [arXiv:1804.10309](https://arxiv.org/abs/1804.10309){:target="_blank"}, April 2018.
+*  **Quantum-secure message authentication via blind-unforgeability** 
+    *  Authors: Gorjan Alagic, Christian Majenz, Alexander Russell, Fang Song
+	*  ArXiv preprint [arXiv:1803.03761](https://arxiv.org/abs/1803.03761){:target="_blank"}, March 2018.
 *   **On the quantum attacks against schemes relying on the hardness of finding a short generator of an ideal in \\(\mathbb{Q}(\zeta_{p^n})\\)**
     *   Authors: Jean-François Biasse and Fang Song
     *   CACR Tech Report, [CACR2015-12](http://cacr.uwaterloo.ca/techreports/2015/cacr2015-12.pdf), September 2015.
