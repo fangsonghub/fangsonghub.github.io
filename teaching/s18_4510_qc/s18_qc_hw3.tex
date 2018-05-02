@@ -1,0 +1,258 @@
+% Created by Fang Song on April 4 2018. Instructions: you don't need
+% to change anything in the macros, but feel free to define new
+% commands as you wish. Starting from the main body, change the specs
+% (e.g., your name). use \begin{solution} \end{solution} environment
+% to write your solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2018}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\def\tr{\mathrm{tr}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\complex}{\mathbb{C}}
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\kera}[1]{\ket{#1}\bra{#1}}
+\newcommand{\corr}[1]{{\color{blue}{#1}}}
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+%\studentfalse
+
+\def\hwnum{3}
+\def\issuedate{May 2, 2018}
+\def\duedate{May 16, 2018} % 
+\def\yourname{your name} % put your name here
+%------------------------------%
+\ifstudent
+\hw{\hwnum}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{\hwnum}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.}
+Your solutions will be graded on \emph{correctness} and
+\emph{clarity}. You should only submit work that you believe to be
+correct; if you cannot solve a problem completely, you will get
+significantly more partial credit if you clearly identify the gap(s)
+in your solution. It is good practice to start any long solution with
+an informal (but accurate) summary that describes the main
+idea. For this problem set, a random subset of problems will be
+graded. Problems marked with ``\mG'' are required for graduate
+students. Undergraduate students will get bonus points for solving
+them. Download the TeX file if you want to typeset your solutions
+using LaTeX. 
+
+\medskip
+\noindent You may collaborate with others on this problem
+set. However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\begin{questions}
+  \question (QFT and periodic states) Let $m$ be some integer and
+  $M=2^m$. Denote $\omega_M = e^{2\pi i/M}$ and
+  $[M]= \{0,1,\ldots, M-1 \}$. Recall the Quantum Fourier Transform
+  $F_{M}$:
+  \begin{equation*}
+    \forall x\in [M], \quad \ket{x}\, \overset{F_M}{\mapsto} \, \frac{1}{\sqrt
+      M}\sum_{y=0}^{M-1} \omega_M^{x y} \ket{y}  \,  . 
+  \end{equation*}
+  \begin{parts}
+    \part[3] Let $\ket{\alpha} := \sum_{x = 0}^{M-1} \alpha_x \ket{x}$ be
+    an arbitrary $m$-qubit state (note:
+    $\sum_{x=0}^{M-1} |\alpha_x|^2 = 1$). Show that
+    $$F_M \ket{\alpha} =  \ket{\hat \alpha}: = \sum_{y=0}^{M-1} \hat
+    \alpha_y \ket{y} \, ,$$ where
+    $\hat \alpha_y = \frac{1}{\sqrt M}\sum_{x} \omega_M^{xy}\alpha_x$, 
+    for all $y \in [M]$.
+    
+    \part[5] (Index shift) Let $j \in [M]$, and define
+    $\ket{\alpha_{+j}}:= \sum_x \alpha_x \ket{x + j \bmod M}$. Compute
+    $\ket{\hat \alpha_{+j}}:=F_M \ket{\alpha_{+j}} =?  $. According to
+    your result, explain that measuring $\ket{\hat \alpha}$ and
+    $\ket{\hat \alpha_{+j}}$ produce the same probability
+    distribution.
+
+    \part[7] (Periodic state) Consider an integer $r$ such that
+    $M= \ell \cdot r$ for some $\ell \in \mathbb{Z}$. Let
+    $b \in \{0, 1, \ldots, r-1\}$. Define
+    $$\ket{P_{r,b}}:= \frac{1}{\sqrt{\ell}}\sum_{k = 0}^{\ell - 1} \ket{kr+b}
+    = \frac{1}{\sqrt{\ell}}(\ket{0+b} + \ket{r+b} + \ldots +
+    \ket{(\ell - 1) r + b})\, .$$ Show that
+    $$F_M \ket{P_{r,b}} = \frac{1}{\sqrt{r}} \sum_{k=0}^{r-1}
+    \omega_r^{b k} \ket{k\ell} = \frac{1}{\sqrt r}(\ket{0} + \omega_r
+    \ket{\ell} + \ldots + \omega_r^{b(r-1)}\ket{(r-1)\ell})\, . $$
+    \part[5] Given multiple copies of $\ket{P_{r,b}}$, how to find $r$?
+  \end{parts}
+
+  
+  \question (Shor's algorithm) In this problem, we analyze Shor's
+  algorithm for order finding that we've seen briefly in class. Our
+  goal is to find the order of $a$ mod a positive integer $N$, i.e.,
+  the smallest $r$ such that $a^r=1\bmod N$.
+  $E_a: \ket{x}\ket{y}\mapsto\ket{x}\ket{y+a^x\bmod N}$ is the unitary
+  circuit implementing the modular exponentiation function
+  $x\in\mathbb{Z}_{2^m} \mapsto a^x \bmod N$.
+  \begin{figure}[ht]
+    \centerline{ \Qcircuit @C=2em @R=1.5em { \lstick{\ket{0^m}} &
+        \gate{H^{\otimes m}} & \multigate{1}{E_a} &
+        \gate{F_M} &  \meter & \qw \quad {s}  \\
+        \lstick{\ket{0^n}}& \qw &\ghost{E_a} & \qw & \qw & \qw } }
+    \caption{Shor's algorithm}
+  \end{figure}
+  \begin{parts}
+    \part[4] Consider the point right after applying $E_a$. Since the
+    bottom register will no longer be used, we may assume that it gets
+    measured immediately. Suppose that the outcome is
+    $z = a^b \bmod N$ for some $b\in [r]$, what is the state on the
+    top register then?
+    \part[4] Assuming it happens that $r | M = 2^m$. How to find $r$?
+    \part[4] In general, we may not be able to pick an $m$ such that
+    $r | M$ (since we do not know $r$). In this case ($r \nmid M$),
+    what is the state after applying $F_M$?
+    \part (Bonus 6 points) Continuing part (c), how to find $r$ in the
+    general case?
+  \end{parts}
+
+  \question (Grover's algorithm) Consider as usual a function
+  $f:\{0,1\}^n \to \{0,1\}$. Define
+  $A = f^{-1}(1):= \{ x\in \bit^n: f(x) = 1\}$ and
+  $B = f^{-1}(0) := \{x\in \bit^n: f(x) =0\}$. Let $a = |A|$ be the
+  number of ``marked'' items and $b = N-a$ where $N=2^n$. We further
+  define $\ket{A}: = \frac{1}{\sqrt a} \sum_{x\in A} \ket{x}$ and
+  $\ket{B}:= \frac{1}{\sqrt b} \sum_{x\in B} \ket{x}$.
+\begin{parts}
+  \part[4] Run Grover's algorithm with $f$ on input
+  $\ket{0^n}$. Namely we apply unitary $G := -HZ_0HZ_f$ repetitively
+  on $\ket{\psi_0}:=H\ket{0^n}$ where $Z_0: \ket{x}\mapsto - \ket{x}$
+  iff. $x = 0^n$ and $Z_f: \ket{x}\mapsto (-1)^{f(x)}\ket{x}$. Denote
+  $\ket{\psi^0} = H\ket{0^n}$ and $\ket{\psi^t}:= G^t\ket{\psi^0}$ for
+  $t\geq 1$.  Show that every $\ket{\psi^t}$ can be written as
+  ${\sin}(\theta_t)\ket{A} + \cos(\theta_t)\ket{B}$. How does
+  $\theta_t$ change to $\theta_{t+1}$? (Hint: geometric interpretation
+  of Grover's algorithm)
+
+  \part[6] Show that $|\langle{\psi^t}|{A}\rangle|^2 \geq 1/2$ if we
+  pick $t$ to be the nearest integer to
+  $\frac 1 2 (\frac{\pi}{2\theta_0} - 1)$. As a result, measuring
+  $\ket{\psi^t}$ will give an $x$ of $A$ with probability at least
+  $1/2$. Assuming $a$ is known to us. How to find an element of $A$
+  with high probability using $O(\sqrt{N/a})$ queries to $f$?
+
+  \part (Bonus 8 points) What if $a$ is unknown? Show how to find a
+  marked item with probability $\geq 0.99$ within $O(\sqrt{N/a})$
+  queries.  (Hint: what if one picks $t\in \{1,\ldots, \sqrt N + 1\}$
+  at random and run Grover's algorithm, how likely will one find a
+  marked element? Then how about picking random $t \in \{1,\ldots T\}$
+  with a small $T$ in the beginning and try? If fail increment $T$
+  slowly but exponentially.)
+\end{parts}
+
+\question (Amplitude estimation) Consider a unitary $U$ on $n$ qubits
+such that
+  $$U\ket{0^n} = \sin(\theta) \ket{\psi_A} + \cos(\theta)\ket{\psi_B}
+  \, ,$$ with $0 < \theta < \pi/2$, where
+  $\ket{\psi_A} = \sum_{x\in A} \alpha_x \ket{x}$ and
+  $\ket{\psi_B} = \sum_{x\in B} \beta_x \ket{x}$ with
+  $A,B\subseteq \bit^n$ and $A \cap B = \emptyset$. Let $Z_f$ be an
+  efficient operator such that
+  \begin{equation*}
+    Z_f\ket{\psi_A} = - \ket{\psi_A}, \quad     Z_f\ket{\psi_B} = 
+    \ket{\psi_B} \, .
+  \end{equation*}
+  The goal is to compute $\sin(\theta)$. 
+
+  \begin{parts}
+    
+    \part[5] Let $Q$ be the rotation of $2\theta$ on the plane spanned by
+    $\{\ket{\psi_A}, \ket{\psi_B}\}$. In particular 
+    $$ Q \ket{\psi_A} = \cos(2\theta) \ket{\psi_A} - \sin(2\theta)
+    \ket{\psi_B}, \quad Q \ket{\psi_B} = \sin(2\theta) \ket{\psi_A} +
+    \sin(2\theta) \ket{\psi_B} \, .$$ Show how to implement $Q$
+    efficiently.
+
+    \part[5] Let
+    $\ket{\psi_+}: = \frac{1}{\sqrt 2} (\ket{\psi_B} - i
+    \ket{\psi_A})$ and
+    $\ket{\psi_-}: = \frac{1}{\sqrt 2} (\ket{\psi_B} +
+    i\ket{\psi_A})$. Show that $\ket{\psi_+}$ and $\ket{\psi_-}$ are
+    eigenvectors of $Q$ with eigenvalues $e^{i 2\theta}$ and
+    $e^{-i2\theta}$ respectively.
+
+    \part[5] Design an efficient quantum algorithm to estimate
+    $\theta$. (Hint: how does
+    $H^{\otimes n} \ket{0^n} = \frac{1}{\sqrt {2^n}}\sum \ket{x}$
+    relate to $\ket{\psi_+}$ and $\ket{\psi_-}$?)
+
+    \part (Bonus 5 points) Back to Grover's search problem. Can you
+    design a quantum algorithm that (approximately) counts the number
+    of marked elements?
+  
+  \end{parts}
+
+\question (Mixed states and density matrix)
+
+\begin{parts}
+  \part[5] A density matrix $\rho$ corresponds to a pure state if and
+  only if $\rho = \kera{\psi}$. Show that $\rho$ corresponds to a pure
+  state if and only if $Tr(\rho^2) = 1$.
+  \part[5] Show that every $2\times 2$ density matrix $\rho$ can be
+  expressed as an equally weighted mixture of pure states. That is
+  $\rho = \frac 1 2 \kera{\psi_1} + \frac 1 2 \kera{\psi_2}$ (Note:
+  the two states need not be orthogonal).
+  \part[5] Imagine two parties Alice and Bob. Alice flips a biased coin
+  which is HEADS with probability $\cos^2(\pi/8)$. Alice prepares
+  $\ket{0}$ when she sees coin $0$ and $\ket{1}$ otherwise. From
+  Alice’s perspective (who knows the coin value), the density matrix
+  of the state she created will be either $\kera{0}$ or
+  $\kera{1}$. She then sends the qubit to Bob. What is the density
+  matrix of the state from Bob’s perspective (who does not know the
+  coin value)? Write down the matrix.
+\end{parts}
+
+
+\end{questions}
+
+
+\end{document}
