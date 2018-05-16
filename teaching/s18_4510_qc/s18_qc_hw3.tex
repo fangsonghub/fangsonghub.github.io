@@ -62,8 +62,8 @@
 %\studentfalse
 
 \def\hwnum{3}
-\def\issuedate{May 2, 2018}
-\def\duedate{May 16, 2018} % 
+\def\issuedate{May 2, 2018, Update: May 16}
+\def\duedate{May 18, 2018} % 
 \def\yourname{your name} % put your name here
 %------------------------------%
 \ifstudent
@@ -121,7 +121,7 @@ set. However, you must \textbf{\emph{write up your own solutions}} and
     = \frac{1}{\sqrt{\ell}}(\ket{0+b} + \ket{r+b} + \ldots +
     \ket{(\ell - 1) r + b})\, .$$ Show that
     $$F_M \ket{P_{r,b}} = \frac{1}{\sqrt{r}} \sum_{k=0}^{r-1}
-    \omega_r^{b k} \ket{k\ell} = \frac{1}{\sqrt r}(\ket{0} + \omega_r
+    \omega_r^{b k} \ket{k\ell} = \frac{1}{\sqrt r}(\ket{0} + \omega_r\corr{^b}
     \ket{\ell} + \ldots + \omega_r^{b(r-1)}\ket{(r-1)\ell})\, . $$
     \part[5] Given multiple copies of $\ket{P_{r,b}}$, how to find $r$?
   \end{parts}
@@ -145,7 +145,7 @@ set. However, you must \textbf{\emph{write up your own solutions}} and
     \part[4] Consider the point right after applying $E_a$. Since the
     bottom register will no longer be used, we may assume that it gets
     measured immediately. Suppose that the outcome is
-    $z = a^b \bmod N$ for some $b\in [r]$, what is the state on the
+    $s = a^b \bmod N$ for some $b\in [r]$, what is the state on the
     top register then?
     \part[4] Assuming it happens that $r | M = 2^m$. How to find $r$?
     \part[4] In general, we may not be able to pick an $m$ such that
