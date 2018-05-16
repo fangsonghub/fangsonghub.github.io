@@ -5,7 +5,7 @@ desc: Schedule
 permalink: /teaching/s18_4510_qc/schedule/
 title: (Spring 2018) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (Subject to change)
-modified: <2018-04-18 Wed>
+modified: <2018-05-16 Tue>
 ---
 
 ## Week 1 
@@ -50,23 +50,23 @@ modified: <2018-04-18 Wed>
     * HW 2 due.  **HW 3 Out** [[PDF]({{base}}/teaching/s18_4510_qc/s18_qc_hw3.pdf){:target="_blank"} [TeX]({{base}}/teaching/s18_4510_qc/s18_qc_hw3.tex){:target="_blank"}], due May 16 before class.
 
 ## Week 6
-*  **May 7** Quantum information theory Intro, teleportation, superdense coding
-    *  Vazirani Lec3 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lecture3.pdf){:target="_blank"}; Watrous Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"}
-*  **May 9** Non-local games, density operators, mixed states
-   *  Watrous Lec14 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/14.pdf){:target="_blank"}, Lec15 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/15.pdf){:target="_blank"} Lec20 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/20.pdf){:target="_blank"}
+*  **May 7** Grover's lower bound cont'd, Quantum information theory intro
+*  **May 9**  Teleportation, superdense coding, non-local games
+    *  Vazirani Lec3 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lecture3.pdf){:target="_blank"}; Watrous Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"},  Lec20 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/20.pdf){:target="_blank"}
 
 ## Week 7
-*  **May 14** POVM, Entropy, Holevo's theorem
-   *  Vazirani Lec13 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qinfo.pdf){:target="_blank"}, Lec17 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec17/lec17.pdf){:target="_blank"}
-*  **May 16** Quantum Error correcting and Fault tolerance
-    *  Vazirani Lec21 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qecc.pdf){:target="_blank"}; Watrous Lec16 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/16.pdf){:target="_blank"}, Lec17 (CSS codes) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/17.pdf){:target="_blank"}
-    * HW 3 due.  **HW 4 Out** [[PDF]({{base}}/teaching/s18_4510_qc/s18_qc_hw4.pdf){:target="_blank"} [TeX]({{base}}/teaching/s18_4510_qc/s18_qc_hw4.tex){:target="_blank"}], due May 30 before class.
+*  **May 14** density operators, mixed states, general quantum operations
+    * Watrous Lec14 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/14.pdf){:target="_blank"}, Lec15 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/15.pdf){:target="_blank"}
+
+*  **May 16** POVM, Entropy, Holevo's theorem
+   * Vazirani Lec13 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qinfo.pdf){:target="_blank"}, Lec17 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec17/lec17.pdf){:target="_blank"}
+   * HW 3 extended dealine: Friday May 18 5pm PDT. **HW 4 Out** [[PDF]({{base}}/teaching/s18_4510_qc/s18_qc_hw4.pdf){:target="_blank"} [TeX]({{base}}/teaching/s18_4510_qc/s18_qc_hw4.tex){:target="_blank"}], due May 30 before class.
 
 ## Week 8
+*  **May 21** Quantum Error correcting and Fault tolerance
+    *  Vazirani Lec21 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qecc.pdf){:target="_blank"}; Watrous Lec16 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/16.pdf){:target="_blank"}, Lec17 (CSS codes) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/17.pdf){:target="_blank"}
 *  **May 21** Quantum computational complexity
     *  Watrous Lec22 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/22.pdf){:target="_blank"} 
-*  **May 23** Quantum computational complexity
-    *  Vazirani Lec6 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lecture6.pdf){:target="_blank"}, Lec19 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qma.pdf){:target="_blank"} 
    
 ## Week 9
 *  **May 28** (Memorial day. No class.)
@@ -74,7 +74,15 @@ modified: <2018-04-18 Wed>
     * HW 4 due. 
 
 ## Week 10
+*  **June 04** Project presentations
+    * Babson & Yang: Topological quantum computing
+    * Maness: Ion trap quantum computing
+    * Huynh & Kelly: quantum tomography
+    * Lu: non-abelian HSP
 *  **June 06** Project presentations
-*  **June 08** Project presentations
+    * Kresta: Quantum Neural networks
+    * Elsamanoudy & Testa: quantum hashing
+    * Nation & Sanguinetti: Quantum walks algorithms
+    * Persson & Veleta: exponential speedup based on quantum walk
 
-### Final project report due: <!-- Thursday, June 15, 11:59pm PDT. -->
+### Final project report due: Wednesday, June 13, 11:59pm, any time zone.

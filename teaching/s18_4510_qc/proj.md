@@ -5,7 +5,7 @@ desc: Project
 permalink: /teaching/s18_4510_qc/project/
 title: (Spring 2018) CS 410/510 - Intro to Quantum Computing
 subtitle: Course Project
-modified: 2018-04-08
+modified: 2018-05-16
 ---
 
 ## Instructions
@@ -26,14 +26,14 @@ problem (big congrats if you do!).
    core papers to be studied; and 3) a goal you intend to achieve and
    a plan.
 *  **Mid-term report**: ~5 pages. After more reading and group discussion, your mid-term report should have a polished and expanded version of your proposal. You also need to demonstrate the progress you've made since the proposal.  
-*  **Oral presentation**: Each group will have about 20mins to present your project, demonstrating both _breath_ and _depth_: you should aim for a clear introdution of your topic with sufficient background and motivation that would  **interest** the audience; and then you may choose to explain 1-2 techincal ideas in a little detail. Every group member needs to participate, and your group will be graded by other fellow students. You may give your the presentaion on board or with slides.
+*  **Oral presentation**: Each group will have about 20mins to present your project followed by 5-minute Q&A. Your presentation should demonstrate both _breath_ and _depth_: you should aim for a clear introdution of your topic with sufficient background and motivation that would  **interest** the audience; and then you may choose to explain 1-2 techincal ideas in a little detail. Every group member needs to participate, and your group will be graded by other fellow students. You may give your the presentaion on board or with slides.
 *  **Final report**: ~10 pages. This should resemble a real research
    paper: 1) a short abstract; 2) an introduction that motivates the
    topic/problem and gives an overview of the entire report; 3) details
    including proper preliminary materials (e.g., notations &
    defintions), explaning some main technical results; and finally 4)
    further discussion and open questions. 
-*  **Report format**: you are **required** to typeset all your reports in **LaTeX**. BibTeX is recommaned to manage bibliograpy. The [resource page]({{base}}/teaching/s18_4510_qc/resource/) has links to materials to pick up LaTeX. You should use single-column, single-space (between lines) format on letter-size papers. Here is a barebone [[TeX]({{base}}/teaching/s17_4510_qc/sample-quantum.tex){:target="_blank"} [PDF]({{base}}/teaching/s17_4510_qc/sample-quantum.pdf){:target="_blank"}] template. You may also follow a suitable [ACM Article Template](https://www.acm.org/publications/proceedings-template){:target="_blank"} (e.g., _ACM Small_ format). Many LaTeX templates are availabe there. There are online TeX editors available if you don't want to install a local engine, e.g., [Overleaf](https://www.overleaf.com/){:target="_blank"}. 
+*  **Report format**: you are recommended to typeset your reports in **LaTeX**, and manage your bibliography using BibTeX. The [resource page]({{base}}/teaching/s18_4510_qc/resource/) has links to materials to pick up LaTeX. You should use single-column, single-space (between lines) format on letter-size papers. Here is a barebone [[TeX]({{base}}/teaching/s17_4510_qc/sample-quantum.tex){:target="_blank"} [PDF]({{base}}/teaching/s17_4510_qc/sample-quantum.pdf){:target="_blank"}] template. You may also follow a suitable [ACM Article Template](https://www.acm.org/publications/proceedings-template){:target="_blank"} (e.g., _ACM Small_ format). Many LaTeX templates are availabe there. There are online TeX editors available if you don't want to install a local engine, e.g., [Overleaf](https://www.overleaf.com/){:target="_blank"}. 
 
 ### Timeline (Tentative)
 *  **Week 1 & 2**: forming groups.
@@ -41,7 +41,7 @@ problem (big congrats if you do!).
 *  **April 27**: proposal due.
 *  **May 14**: mid-term report due. 
 *  **Week 10**: in-class presentations. 
-*  **June 14**: final report due. 
+*  **June 13**: final report due, 11:59pm any time zone. 
 
 ------ 
 
