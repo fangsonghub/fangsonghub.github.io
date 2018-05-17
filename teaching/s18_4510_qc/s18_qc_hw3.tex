@@ -59,7 +59,7 @@
 %----Specs: change accordingly-----%
 \newif\ifstudent % comment out false
 \studenttrue 
-%\studentfalse
+% \studentfalse
 
 \def\hwnum{3}
 \def\issuedate{May 2, 2018, Update: May 16}
@@ -138,14 +138,14 @@ set. However, you must \textbf{\emph{write up your own solutions}} and
     \centerline{ \Qcircuit @C=2em @R=1.5em { \lstick{\ket{0^m}} &
         \gate{H^{\otimes m}} & \multigate{1}{E_a} &
         \gate{F_M} &  \meter & \qw \quad {s}  \\
-        \lstick{\ket{0^n}}& \qw &\ghost{E_a} & \qw & \qw & \qw } }
+        \lstick{\ket{0^n}}& \qw &\ghost{E_a} & \meter & \qw & \qw \quad{z}} }
     \caption{Shor's algorithm}
   \end{figure}
   \begin{parts}
     \part[4] Consider the point right after applying $E_a$. Since the
     bottom register will no longer be used, we may assume that it gets
     measured immediately. Suppose that the outcome is
-    $s = a^b \bmod N$ for some $b\in [r]$, what is the state on the
+    $z = a^b \bmod N$ for some $b\in [r]$, what is the state on the
     top register then?
     \part[4] Assuming it happens that $r | M = 2^m$. How to find $r$?
     \part[4] In general, we may not be able to pick an $m$ such that
