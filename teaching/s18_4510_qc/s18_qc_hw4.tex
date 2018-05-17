@@ -1,0 +1,249 @@
+% Created by Fang Song on April 4 2018. Instructions: you don't need
+% to change anything in the macros, but feel free to define new
+% commands as you wish. Starting from the main body, change the specs
+% (e.g., your name). use \begin{solution} \end{solution} environment
+% to write your solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2018}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\def\tr{\mathrm{tr}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\complex}{\mathbb{C}}
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\kera}[1]{\ket{#1}\bra{#1}}
+\newcommand{\corr}[1]{{\color{blue}{#1}}}
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+%\studentfalse
+
+\def\hwnum{4}
+\def\issuedate{May 16, 2018}
+\def\duedate{May 30, 2018} % 
+\def\yourname{your name} % put your name here
+%------------------------------%
+\ifstudent
+\hw{\hwnum}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{\hwnum}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.}
+Your solutions will be graded on \emph{correctness} and
+\emph{clarity}. You should only submit work that you believe to be
+correct; if you cannot solve a problem completely, you will get
+significantly more partial credit if you clearly identify the gap(s)
+in your solution. It is good practice to start any long solution with
+an informal (but accurate) summary that describes the main
+idea. For this problem set, a random subset of problems will be
+graded. Problems marked with ``\mG'' are required for graduate
+students. Undergraduate students will get bonus points for solving
+them. Download the TeX file if you want to typeset your solutions
+using LaTeX. 
+
+\medskip
+\noindent You may collaborate with others on this problem
+set. However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\begin{questions}
+
+  \question (OR gate as a quantum operation) Recall the binary OR
+  operation, denoted as $\vee$, defined as $a \vee b = 0$ if
+  $a = b = 0$ and $a\vee b = 1$ otherwise. Here we consider operations
+  that map the two-qubit state $\ket{a, b}$ to the one-qubit state
+  $\ket{a\vee b}$, for all $a,b \in \{0,1\}$. Of course, no unitary
+  operation can perform this mapping, since the input and output
+  dimension do not match; however, general quantum operations can
+  compute this mapping.
+
+  \begin{parts}
+    \part[8] Give a sequence of $2\times 4$ matrices $A_1,\ldots, A_k$
+    with $\sum_{j = 1}^k A_j^\dagger A_j = I$ that compute the OR
+    operation in the sense that, for all $a, b\in\{0,1\}$, when
+    $\rho = \kera{a,b}$,
+    $\sum_{j = 1}^k A_j\rho A_j\dagger = \kera{a\vee b}$.
+    
+    \part[7] The operation from part (a) maps all basis states to pure
+    states. Does it map all pure input states to pure output states?
+    Prove it, or give a counterexample.
+    
+  \end{parts}
+
+  \question (Partial Trace) Let $Tr_Y(\cdot)$ be the operation of
+  partial trace of a subsystem $Y$.
+  \begin{parts}
+    \part[5] Let $\rho_{AB} = \rho_A\otimes \rho_B$ with $A$ and $B$
+    both $n$-qubit systems. Show that $Tr_Y(\rho_{AB}) = \rho_A$.
+    \part[5] Let
+    $\ket{\phi^+}_{AB} = \frac{1}{\sqrt 2} \ket{00} + \ket{11}$ be an
+    EPR state. Compute $Tr_B(\ket{\phi^+}\bra{\phi^+})$.
+    \part (Bonus 5pts) Show that for any density operator $\rho$ on a
+    system $A$, there exists a pure state $\ket{\psi}$ on some larger
+    system $A\otimes B$ such that $Tr_B(\ket{\psi}\bra{\psi}) =
+    \rho$. 
+  \end{parts}
+  
+  \question (Quantum measurement)
+  \begin{parts}
+    \part[5] Let
+    $\ket{\phi_0} = \frac{1}{\sqrt 2} \ket{00} + \ket{11}$,
+    $\ket{\phi_1} = \frac{1}{\sqrt 2} \ket{00} - \ket{11}$,
+    $\ket{\phi_2} = \frac{1}{\sqrt 2} \ket{01} + \ket{10}$, and
+    $\ket{\phi_3} = \frac{1}{\sqrt 2} \ket{01} - \ket{10}$ be the four
+    Bell states. We know that they form a basis for 2-qubit
+    systems. Find the measurement operators $M = \{M_0,M_1,M_2,M_3\}$,
+    under the general measurement formalism, for the measurement under
+    the Bell basis.
+
+    \part[5] Continuing from above. Let $\rho$ be a state on two
+    qubits, and measure it under the Bell basis. When
+    $\rho = \ket{\psi}\bra{\psi}$ is a pure state, the measurement
+    postulate states that the probability of observing outcome
+    $i\in\{0,1,2,3\}$ is $|\langle{\psi} \ket{\phi_i}|^2$. Show that for
+    general density $\rho$, one observes $i$ with probability
+    $\bra{\phi_i} \rho \ket{\phi_i}$. Verify that this probability
+    also equals $Tr(M_i\rho M_i^+)$ for the $M_i$ you identified in
+    part a). 
+    
+    \part (Bonus 10pts) (Simulating POVM) We've mentioned in class
+    that any admissible quantum operation may be simulated by unitary
+    operations and ordinary projective measurement under standard
+    basis. In this problem, you will prove a special case, the POVM
+    measurement. Recall in a POVM, we are only interested in the
+    probabilities of observing each outcome, and don’t care about how
+    the state collapses afterward. Let's consider a POVM measurement
+    specified by positive semi-definite operators $E_1, \ldots, E_m$
+    on $n$ qubits satisfying $\sum_jE_j = I$. Let $m = 2^k$ for some
+    integer $k$. Show how to simulate it by applying a unitary
+    operation on a lager quantum system and then measuring under
+    standard basis. (Hint: consider $m 2^n \times 2^n$ matrix $V$
+    formed by vertically stacking $E_j$. Show the columns are
+    orthogonal, and extend $V$ to a unitary of dimension $m2^n$.)
+  \end{parts}
+
+
+  \question (Entropy) Let $H(\cdot)$ denote the Shannon entropy and
+$S(\cdot)$ be the von Neumann entropy. $S(A:B)$ denotes quantum mutual
+information.
+  \begin{parts}
+    \part (Exercise) Let $X$ be a random variable taking values in
+    $\{0,\ldots, 2^{m^2}\}$ with probability distribution $p_x =
+    \left\{
+      \begin{array}{c l}
+        1 - 1/m & \text{ if } x = 0\\
+        \frac{1}{m 2^{m^2}} & \text{ otherwise } \, .
+      \end{array} \right.$
+    Calculate $H(X)$? Conclude that $H(X) \to \infty$ as $m\to
+    \infty$, but one sample of $X$ is almost {certainly} 0. 
+
+    \part[5] Let $\rho = p \kera{0} + (1-p)\kera{+}$. Compute
+    $S(\rho)$. How does it compare to the entropy of a biased coin $X$
+    which is HEADS with probability $p$?
+
+    \part[8] Consider $\rho_{AB} = \rho_A\otimes \rho_B$ where $A$ and
+    $B$ are both $n$-qubit systems. Compute the von Neumann entropy
+    $S(\rho_{AB})$ and the quantum mutual information $S(A:B)$.
+
+  \end{parts}
+  
+  \question (Quantum error-correcting) 
+  \begin{parts}
+    \part[10] Let $E$ be an arbitrary 1-qubit unitary, and $I,X,Y,Z$
+    are the four $2\times 2$ Pauli matrices.
+    \begin{enumerate}[label=\roman*)]
+    \item Show that it can be written as
+      $E = \alpha_0 I + \alpha_1X + \alpha_2 Y + \alpha_3 Z$, for some
+      complex coefficients $\alpha_i$ with
+      $\sum_{i=0}^3 |\alpha_i|^2 = 1$. (Hint: compute the trace
+      $Tr(E^\dagger E)$ in two ways, and use the fact that
+      $Tr(AB) = 0$ if $A$ and $B$ are distinct Pauli matricies, and
+      $Tr(AB) = Tr(I) = 2$ if $A$ and $B$ are the same Pauli.)
+    \item Write the 1-qubit Hadamard transform H as a linear combination
+      of the four Pauli matrices.
+    \end{enumerate}
+    
+      \part[10] Show that there cannot be a quantum code that encodes
+      one logical qubit by $2k$ physical qubits while being able to
+      correct errors on up to $k$ of the qubits. (Hint: No-cloning
+      theorem)
+    \end{parts}
+
+  \question (Testing entanglement) Suppose that Alice and Bob share a
+  two-qubit state, and they want to test if it is the EPR pair
+  $\ket{\phi^+} := \frac{1}{\sqrt 2}(\ket{00}+\ket{11})$ with local
+  measurements and classical communication. Consider the following
+  procedure: they randomly select a measurement basis: with
+  probability $1/2$, they both measure in the standard basis
+  $\{\ket{0},\ket{1}\}$; and, with probability $1/2$, they both
+  measure in the Hadamard (diagonal) basis $\{\ket{+},\ket{-}\}$. Then
+  they perform the measurement and they accept if and only if their
+  outcomes are the same.
+  \begin{parts}
+    \part[5] Show that the state $\phi^+$ is always accepted by this
+    test with zero-error.
+    \part[8] Show that, for an arbitrary 2-qubit state $\ket{\mu}$, the
+    probability that it passes the test is at most
+    \begin{equation*}
+      \frac{1 + |\langle {\mu}|{\phi^+}\rangle|^2}{2}   \, .
+    \end{equation*}
+    (Hint: decomposing $\ket{\mu}$ under the four Bell states.)
+    \part[7] Now consider another (malicious) party Eve, who may have
+    intervened with the state that Alice shares with Bob. Let
+    $\rho_{ABE}$ be their joint state. Now assume that Alice and Bob
+    are certain that they two perfectly share $\ket{\phi^+}$, show
+    that Alice and Eve's state cannot be in $\ket{\phi^+}$ as well.
+
+    Note: we can actually show that $\rho_{ABE}$ must be of form
+    $\kera{\phi^+}_{AB}\otimes \rho_E$ (i.e., Eve's state is
+    uncorrelated with that of Alice and Bob). This is an example of
+    \emph{monogamy of entanglement}: the more system $A$ is entangled
+    with $B$, the less $A$ is entangled with another system $C$.
+  \end{parts}
+\end{questions}
+
+
+\end{document}
