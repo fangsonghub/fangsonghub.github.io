@@ -62,7 +62,7 @@
 %\studentfalse
 
 \def\hwnum{4}
-\def\issuedate{May 16, 2018}
+\def\issuedate{May 16, 2018, Update: May 24}
 \def\duedate{May 30, 2018} % 
 \def\yourname{your name} % put your name here
 %------------------------------%
@@ -119,7 +119,7 @@ set. However, you must \textbf{\emph{write up your own solutions}} and
     \part[5] Let $\rho_{AB} = \rho_A\otimes \rho_B$ with $A$ and $B$
     both $n$-qubit systems. Show that $Tr_Y(\rho_{AB}) = \rho_A$.
     \part[5] Let
-    $\ket{\phi^+}_{AB} = \frac{1}{\sqrt 2} \ket{00} + \ket{11}$ be an
+    $\ket{\phi^+}_{AB} = \frac{1}{\sqrt 2} (\ket{00} + \ket{11})$ be an
     EPR state. Compute $Tr_B(\ket{\phi^+}\bra{\phi^+})$.
     \part (Bonus 5pts) Show that for any density operator $\rho$ on a
     system $A$, there exists a pure state $\ket{\psi}$ on some larger
@@ -130,11 +130,11 @@ set. However, you must \textbf{\emph{write up your own solutions}} and
   \question (Quantum measurement)
   \begin{parts}
     \part[5] Let
-    $\ket{\phi_0} = \frac{1}{\sqrt 2} \ket{00} + \ket{11}$,
-    $\ket{\phi_1} = \frac{1}{\sqrt 2} \ket{00} - \ket{11}$,
-    $\ket{\phi_2} = \frac{1}{\sqrt 2} \ket{01} + \ket{10}$, and
-    $\ket{\phi_3} = \frac{1}{\sqrt 2} \ket{01} - \ket{10}$ be the four
-    Bell states. We know that they form a basis for 2-qubit
+    $\ket{\phi_0} = \frac{1}{\sqrt 2} (\ket{00} + \ket{11})$,
+    $\ket{\phi_1} = \frac{1}{\sqrt 2} (\ket{00} - \ket{11})$,
+    $\ket{\phi_2} = \frac{1}{\sqrt 2} (\ket{01} + \ket{10})$, and
+    $\ket{\phi_3} = \frac{1}{\sqrt 2} (\ket{01} - \ket{10})$ be the
+    four Bell states. We know that they form a basis for 2-qubit
     systems. Find the measurement operators $M = \{M_0,M_1,M_2,M_3\}$,
     under the general measurement formalism, for the measurement under
     the Bell basis.
@@ -186,7 +186,10 @@ information.
 
     \part[8] Consider $\rho_{AB} = \rho_A\otimes \rho_B$ where $A$ and
     $B$ are both $n$-qubit systems. Compute the von Neumann entropy
-    $S(\rho_{AB})$ and the quantum mutual information $S(A:B)$.
+    $S(\rho_{AB})$ and the quantum mutual information
+    $S(A:B)$.
+    (\corr{Definition:} $S(A:B) = S(\rho_A) + S(\rho_B) -
+    S(\rho_{AB})$)
 
   \end{parts}
   
