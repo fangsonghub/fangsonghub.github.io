@@ -28,6 +28,11 @@ M.Sc student at University of Waterloo.
 
 ### High-school students
 
+* 2018.06 - 2018-08 Saturday academy [ASE internship](https://www.saturdayacademy.org/ase){:target="_blank"}: [Simulating Quantum Algorithms](https://www.saturdayacademy.org/simulating-quantum-algorithms-quantum-cloud-platforms)
+   *  *Sydney Von Arx* [Lake Oswego High School](https://www.losdschools.org/site/Default.aspx?PageID=25){:target="_blank"}
+   *  *Marshal Xu* [Lincoln High School](https://www.pps.net/Domain/136){:target="_blank"}
+   *  More info. on [project webpage]({{base}}/teaching/su18ase/)
+   
 - - -
 
 ## Past courses
