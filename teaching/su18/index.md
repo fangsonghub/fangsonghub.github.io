@@ -1,10 +1,10 @@
 ---
 layout: plain
-title: Summer 2018 Saturday Academy Apprenticeships in Science & Engineering (ASE) 
+title: Saturday Academy Apprenticeships in Science & Engineering (ASE) 
+subtitle: Summer 2018
 permalink: /teaching/su18ase/
 modified: <2017-06-18 Mon>
 ---
-
 
 ## About
 
@@ -15,12 +15,9 @@ modified: <2017-06-18 Mon>
 *   **Mentor**: Fang Song, Assistant Professor, CS@PSU. Office: FAB 120-07. Phone: 503-725-4060 
 *   **Slack**: [quantumase18](https://quantumase18.slack.com/) for communications. 
 *   **Useful Contacts**
-    *  ASE teacher monitor:  
-    *  CS Department: 503-725-4036
-	*  PSU Campus [Public Safety](https://www.pdx.edu/cpso/campus-public-safety): 633 SW Montgomery St. Portland, OR 97201. Emergency: **503-725-4404**; Non-Emergency: **503-725-4407**
-
-<!--- *   **Organizers**: 
-    * [Fang Song](http://www.fangsong.info), Computer Sciecne Department, Portland State University.  -->
+    *  ASE teacher monitor: Albert Lee. Phone: (503) 830-5292. 
+    *  CS Department @ PSU: 503-725-4036
+	*  PSU [Campus Public Safety](https://www.pdx.edu/cpso/campus-public-safety): 633 SW Montgomery St. Portland, OR 97201. Emergency: **503-725-4404**; Non-Emergency: **503-725-4407**
 
 ## Schedule
 
