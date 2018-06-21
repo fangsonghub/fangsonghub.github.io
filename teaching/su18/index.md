@@ -38,7 +38,7 @@ modified: <2017-06-18 Mon>
 
 ## Peer lectures
 
-Interns are expected to give regular lectures to the peers on their work, typically on Mondays and Thursdays. 
+Interns are expected to give regular lectures to the peers on their work, typically on Mondays and Thursdays. FAB 88-03 M/Tu 2 - 4pm June 25 - July 12; 3 - 5pm the rest of the term. 
 
 |Date| Presentor| Topic|
 | :---------: |:----------:|:-----:|
