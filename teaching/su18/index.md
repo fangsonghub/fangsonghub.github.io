@@ -24,8 +24,8 @@ modified: <2017-06-18 Mon>
 | Dates  | Topic | Note  |
 | :---------: |:----------:|:-----:|
 | June 18 - June 24 | Welcome and Registration| |
-| June 25 - July 1 | Quantum Basics: Qubit and Quantum Gates  | [IBM Q Beinners Guide](https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=beginners-guide&page=introduction)|
-| July 2 - July 8  | Quantum Basics: Entanglement <br> Experiment with GUI | [IBM Q Beinners Guide](https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=beginners-guide&page=introduction) <br> [IBM QISKIT Tutorial](https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/master/index.ipynb): Section 2.2|
+| June 25 - July 1 | Quantum Basics: Qubits, Quantum Gates, and Entanglement  | [IBM Q Beinners Guide](https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=beginners-guide&page=introduction)|
+| July 2 - July 8  | Quantum Teleportation and Superdense coding  <br> Experiment with GUI | [IBM Q Beinners Guide](https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=beginners-guide&page=introduction) <br> [IBM QISKIT Tutorial](https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/master/index.ipynb): Section 2.2|
 | July 9 - July 15 | Setting up QISKIT <br> Implement simple QAlgs: Teloportation and Super dense coding | [IBM QISKIT Tutorial](https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/master/index.ipynb) Section 2.1,2.2 |
 | July 12 | [Mid-summer Conference](https://www.saturdayacademy.org/about/events/ase-midsummer-conference) | Corvallis, OR |
 | July 16 - July 22| Advanced Quantum Algorithms <br> Bernstein-Vazirani, Grover's Search, etc. | [IBM QISKIT Tutorial](https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/master/reference/qis/teleportation_superdensecoding.ipynb) Section 2.5 |
@@ -44,7 +44,7 @@ Interns are expected to give regular lectures to the peers on their work, typica
 | :---------: |:----------:|:-----:|
 |June 25 | Marshal | Qubit and Single-qubit gates |
 |June 28 | Sydney | Multi-qubit Gates |
-||||
+| July 5 | Marshal & Sydney| Teleportation and Superdense coding|
 {:.mbtablestyle}
 
 ## Resources
