@@ -1,10 +1,10 @@
 ---
 layout: plain
-title: Summer 2018 Saturday Academy Apprenticeships in Science & Engineering (ASE) 
+title: Saturday Academy Apprenticeships in Science & Engineering (ASE) 
+subtitle: Summer 2018
 permalink: /teaching/su18ase/
 modified: <2017-07-05 Thu>
 ---
-
 
 ## About
 
@@ -15,20 +15,17 @@ modified: <2017-07-05 Thu>
 *   **Mentor**: Fang Song, Assistant Professor, CS@PSU. Office: FAB 120-07. Phone: 503-725-4060 
 *   **Slack**: [quantumase18](https://quantumase18.slack.com/) for communications. 
 *   **Useful Contacts**
-    *  ASE teacher monitor:  
-    *  CS Department: 503-725-4036
-	*  PSU Campus [Public Safety](https://www.pdx.edu/cpso/campus-public-safety): 633 SW Montgomery St. Portland, OR 97201. Emergency: **503-725-4404**; Non-Emergency: **503-725-4407**
-
-<!--- *   **Organizers**: 
-    * [Fang Song](http://www.fangsong.info), Computer Sciecne Department, Portland State University.  -->
+    *  ASE teacher monitor: Albert Lee. Phone: (503) 830-5292. 
+    *  CS Department @ PSU: 503-725-4036
+	*  PSU [Campus Public Safety](https://www.pdx.edu/cpso/campus-public-safety): 633 SW Montgomery St. Portland, OR 97201. Emergency: **503-725-4404**; Non-Emergency: **503-725-4407**
 
 ## Schedule
 
 | Dates  | Topic | Note  |
 | :---------: |:----------:|:-----:|
 | June 18 - June 24 | Welcome and Registration| |
-| June 25 - July 1 | Quantum Basics: Qubit and Quantum Gates  | [IBM Q Beinners Guide](https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=beginners-guide&page=introduction)|
-| July 2 - July 8  | Quantum Basics: Entanglement <br> Experiment with GUI | [IBM Q Beinners Guide](https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=beginners-guide&page=introduction) <br> [IBM QISKIT Tutorial](https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/master/index.ipynb): Section 2.2|
+| June 25 - July 1 | Quantum Basics: Qubits, Quantum Gates, and Entanglement  | [IBM Q Beinners Guide](https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=beginners-guide&page=introduction)|
+| July 2 - July 8  | Quantum Teleportation and Superdense coding <br> Experiment with GUI  | [IBM Q Beinners Guide](https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=beginners-guide&page=introduction) <br> [IBM QISKIT Tutorial](https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/master/index.ipynb): Section 2.2|
 | July 9 - July 15 | Setting up QISKIT <br> Implement simple QAlgs: Teloportation and Super dense coding <br> More alg's: Deutsch-Josza and Simon's | [IBM QISKIT Tutorial](https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/master/index.ipynb) Section 2.1,2.2,2.5 <br> Watrous note: Lec5 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/05.pdf){:target="_blank"}, Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"} |
 | July 12 | [Mid-summer Conference](https://www.saturdayacademy.org/about/events/ase-midsummer-conference) | Corvallis, OR |
 | July 16 - July 22| Advanced Quantum Algorithms <br> Bernstein-Vazirani, Grover's Search, etc. | [IBM QISKIT Tutorial](https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/master/index.ipynb) Section 2.5 |
@@ -41,13 +38,14 @@ modified: <2017-07-05 Thu>
 
 ## Peer lectures
 
-Interns are expected to give regular lectures to the peers on their work, typically on Mondays and Thursdays. 
+Interns are expected to give regular lectures to the peers on their work, typically on Mondays and Thursdays. FAB 88-03 M/Tu 2 - 4pm June 25 - July 12; 3 - 5pm the rest of the term. 
 
 |Date| Presentor| Topic|
 | :---------: |:----------:|:-----:|
 |June 25 | Marshal | Qubit and Single-qubit gates |
 |June 28 | Sydney | Multi-qubit Gates |
-|July 5 | Marshal \& Sydney | |
+| July 5 | Marshal & Sydney| Teleportation and Superdense coding|
+|July 9 | Sydney & Marshal | Deutsch-Josza and Simon's algorithms |
 {:.mbtablestyle}
 
 ## Resources
