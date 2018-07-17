@@ -3,7 +3,7 @@ layout: plain
 title: Saturday Academy Apprenticeships in Science & Engineering (ASE) 
 subtitle: Summer 2018
 permalink: /teaching/su18ase/
-modified: <2017-07-05 Thu>
+modified: <2017-07-17 Tue>
 ---
 
 ## About
@@ -46,6 +46,9 @@ Interns are expected to give regular lectures to the peers on their work, typica
 |June 28 | Sydney | Multi-qubit Gates |
 | July 5 | Marshal & Sydney| Teleportation and Superdense coding|
 |July 9 | Sydney & Marshal | Deutsch-Josza and Simon's algorithms |
+|July 16 | Sydney & Marshal | Simon's algorithm analysis and Grover algorithm |
+|July 19 | Sydney | Shor's algorithm |
+| July 23 | |TBD|
 {:.mbtablestyle}
 
 ## Resources
