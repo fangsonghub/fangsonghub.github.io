@@ -3,7 +3,7 @@ layout: plain
 title: Saturday Academy Apprenticeships in Science & Engineering (ASE) 
 subtitle: Summer 2018
 permalink: /teaching/su18ase/
-modified: <2017-06-18 Mon>
+modified: <2017-07-17 Tue>
 ---
 
 ## About
@@ -25,10 +25,10 @@ modified: <2017-06-18 Mon>
 | :---------: |:----------:|:-----:|
 | June 18 - June 24 | Welcome and Registration| |
 | June 25 - July 1 | Quantum Basics: Qubits, Quantum Gates, and Entanglement  | [IBM Q Beinners Guide](https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=beginners-guide&page=introduction)|
-| July 2 - July 8  | Quantum Teleportation and Superdense coding  <br> Experiment with GUI | [IBM Q Beinners Guide](https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=beginners-guide&page=introduction) <br> [IBM QISKIT Tutorial](https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/master/index.ipynb): Section 2.2|
-| July 9 - July 15 | Setting up QISKIT <br> Implement simple QAlgs: Teloportation and Super dense coding | [IBM QISKIT Tutorial](https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/master/index.ipynb) Section 2.1,2.2 |
+| July 2 - July 8  | Quantum Teleportation and Superdense coding <br> Experiment with GUI  | [IBM Q Beinners Guide](https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=beginners-guide&page=introduction) <br> [IBM QISKIT Tutorial](https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/master/index.ipynb): Section 2.2|
+| July 9 - July 15 | Setting up QISKIT <br> Implement simple QAlgs: Teloportation and Super dense coding <br> More alg's: Deutsch-Josza and Simon's | [IBM QISKIT Tutorial](https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/master/index.ipynb) Section 2.1,2.2,2.5 <br> Watrous note: Lec5 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/05.pdf){:target="_blank"}, Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"} |
 | July 12 | [Mid-summer Conference](https://www.saturdayacademy.org/about/events/ase-midsummer-conference) | Corvallis, OR |
-| July 16 - July 22| Advanced Quantum Algorithms <br> Bernstein-Vazirani, Grover's Search, etc. | [IBM QISKIT Tutorial](https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/master/reference/qis/teleportation_superdensecoding.ipynb) Section 2.5 |
+| July 16 - July 22| Advanced Quantum Algorithms <br> Bernstein-Vazirani, Grover's Search, etc. | [IBM QISKIT Tutorial](https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/master/index.ipynb) Section 2.5 |
 | July 23 - July 29 | Implement Advanced Quantum Algorithms | [IBM QISKIT Tutorial](https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/master/reference/qis/teleportation_superdensecoding.ipynb) Section 2.5 |
 | July 30 - August 5 | Implement Advanced Quantum Algorithms | [QImeplementation for Beginners](https://arxiv.org/abs/1804.03719) Section 2,3,4 | 
 | August 6 - August 12 | Analysis | [QImeplementation for Beginners](https://arxiv.org/abs/1804.03719) Section 2,3,4 | 
@@ -45,6 +45,10 @@ Interns are expected to give regular lectures to the peers on their work, typica
 |June 25 | Marshal | Qubit and Single-qubit gates |
 |June 28 | Sydney | Multi-qubit Gates |
 | July 5 | Marshal & Sydney| Teleportation and Superdense coding|
+|July 9 | Sydney & Marshal | Deutsch-Josza and Simon's algorithms |
+|July 16 | Sydney & Marshal | Simon's algorithm analysis and Grover algorithm |
+|July 19 | Sydney | Shor's algorithm |
+| July 23 | |TBD|
 {:.mbtablestyle}
 
 ## Resources
