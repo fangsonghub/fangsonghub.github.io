@@ -23,9 +23,9 @@ modified: <2018-09-04 Tue>
 *  **Lectures**: T/TR 5:30 – 6:45pm @ HRBB 126
 *  **Office hours**: W 10:30 am - 12pm and by appointment
 *  **Text**: no required ones. We will primarily follow lecture notes
-and read research papers. See the
+and read research papers. <!-- See the
 **resource** [page]({{base}}/teaching/f18_689_pqc/resource/) for
-useful materials.
+useful materials. --> 
 
 
 ## Schedule (subject to change)
