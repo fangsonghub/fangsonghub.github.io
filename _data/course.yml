@@ -1,5 +1,19 @@
 # course pages
 
+# F18 PQC
+- courseid: f18 689
+  title: (Fall 2018) CSCE689 - Foundations of Post-Quantum Cryptography
+  desc: f18 689
+  nav: true
+  url: /teaching/f18_689_pqc/
+
+- courseid: f18 689
+  title: (Fall 2018) CSCE689 - Foundations of Post-Quantum Cryptography
+  desc: Project
+  nav: true
+  url: /teaching/f18_689_pqc/project/
+  
+  
 # S18 QC
 
 - courseid: s18 410/510

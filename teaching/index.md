@@ -2,10 +2,13 @@
 layout: page
 title: Teaching
 excerpt: 
-modified: <2018-01-03 Wed>
+modified: <2018-09-04 Tue>
 ---
+## Courses at Texas A&M University
 
-## Courses at Portland State U
+* CSCE 689 **Foundations of Post-Quantum Cryptography** [Fall 2018]({{ base }}/teaching/f18_689_pqc/)
+
+## Courses at Portland State University
 
 * CS 485/585 **Introduction to Cryptography** [Winter 2018]({{ base }}/teaching/w18_4585_icrypto/); [Winter 2017]({{ base }}/teaching/w17_4585_icrypto/)
 * CS 410/510 **Introduction to Quantum Computing** [Spring 2018]({{ base }}/teaching/s18_4510_qc/); [Spring 2017]({{ base }}/teaching/s17_4510_qc/)
