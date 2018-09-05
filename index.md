@@ -13,7 +13,7 @@ My research interests lie in cryptography, especially in the presence of quantum
 ## News
 
 <!--*  I will be offering an introductory course on **Quantum computing** in Spring 2017. Check out the course information [here]({{base}}/teaching/s17_4510_qc/). -->
-* **September 2018**: I have a **post-doctorate** fellow openning at TAMU to work on quantum computing and post-quantum cryptography. The focus will be either on quantum provable security or quantum algorithms for post-quantum candidate problems. Starting date is flexible, and an official ad will be out soon. Shoot me an email if you (or know someone who) are interested and have related research experience. 
+* **September 2018**: I have a **post-doctorate** fellow position available at TAMU to work on quantum computing and post-quantum cryptography. The focus will be either on quantum provable security or quantum algorithms for post-quantum candidate problems. Starting date is flexible, and an official ad will be out soon. Shoot me an email if you (or know someone who) are interested and have related research experience. 
 *   **I AM HIRING!** I am looking for self-motivated students who are
     interested in pursuing a PhD degree with me. Please feel free
     to reach me! <!-- Find more [here]({{base}}/recruit/).-->
