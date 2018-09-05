@@ -32,10 +32,12 @@ useful materials. -->
 
 | Week | Date  | Topic | Reading |
 |:-----:| :---------: |:----------:|:-----:|
-|1| T,08/28  | Syllabus, intro, qubit |Aaronson Lec9 [HTML](http://www.scottaaronson.com/democritus/lec9.html){:target="_blank"} <br> Watrous Lec1 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/01.pdf){:target="_blank"} |
-|| TR,08/30 | Aggie GameDay, Class Cancelled |
-|2| T,09/04| tensor product, quantum circuit model | Watrous Lec2 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/02.pdf){:target="_blank"}, Lec3 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/03.pdf){:target="_blank"} |
-|| TR,09/06| | |
-|3| T,09/11| | |
-|| TR,09/13| | |
+|1| Tu,08/28  | Syllabus, intro, qubit |Aaronson Lec9 [HTML](http://www.scottaaronson.com/democritus/lec9.html){:target="_blank"} <br> Watrous Lec1 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/01.pdf){:target="_blank"} |
+|| Th,08/30 | Aggie GameDay, Class Cancelled |
+|2| Tu,09/04| tensor product, dirac notation | Watrous Lec2 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/02.pdf){:target="_blank"}|
+|| Th,09/06| quantum circuit model, Deutsch's algorithm| Watrous Lec3 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/03.pdf){:target="_blank"}, Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"} |
+|3| Tu,09/11| Simon's algorithm | Self-study Deutsch-Josza algorithm (Watrous Lec5 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/05.pdf){:target="_blank"}),  Watrous Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"}|
+|| Th,09/13 | Grover's algorithm | Watrous Lec12 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/12.pdf){:target="_blank"}, Lec13 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/13.pdf){:target="_blank"} |
+| 4 |Tu,09/18 | | |
+|| Th,09/20| | |
 {:.mbtablestylef}
