@@ -5,7 +5,7 @@ subtitle: Foundations of Post-Quantum Cryptography
 courseid: f18 689
 desc: f18 689
 permalink: /teaching/f18_689_pqc/
-modified: <2018-09-04 Tue>
+modified: <2018-09-14 Fri>
 ---
 
 ## Announcement
@@ -36,10 +36,10 @@ useful materials. -->
 || Th,08/30 | Aggie GameDay, Class Cancelled |
 |2| Tu,09/04| tensor product, dirac notation | Watrous Lec2 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/02.pdf){:target="_blank"}|
 || Th,09/06| quantum circuit model, Deutsch's algorithm| Watrous Lec3 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/03.pdf){:target="_blank"}, Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"} |
-|3| Tu,09/11| Simon's algorithm | Self-study Deutsch-Josza algorithm (Watrous Lec5 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/05.pdf){:target="_blank"}),  Watrous Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"}|
+|3| Tu,09/11| Simon's algorithm | Self-study Deutsch-Josza (Watrous Lec5 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/05.pdf){:target="_blank"}) <br>  Watrous Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"}|
 || Th,09/13 | Grover's algorithm | Watrous Lec12 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/12.pdf){:target="_blank"}, Lec13 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/13.pdf){:target="_blank"} |
-| 4 |Tu,09/18 | | |
-|| Th,09/20| | |
+| 4 |Tu,09/18 | Overview of quantum-safe crypto | [Son'PQC14](https://eprint.iacr.org/2014/709){:target="_blank"} <br> Video: [Son16@AsiaPQC](https://www.youtube.com/watch?v=n39-FOmNh5g){:target="_blank"}|
+|| Th,09/20| Case study: PRF/PRP <br> Superposition attack on Luby-Rackoff | Trevison Notes [[5](https://people.eecs.berkeley.edu/~luca/cs276/lecture05.pdf){:target="_blank"}, [6](https://people.eecs.berkeley.edu/~luca/cs276/lecture06.pdf){:target="_blank"}, [15](https://people.eecs.berkeley.edu/~luca/cs276/lecture15.pdf){:target="_blank"}]<br> [KM'ISIT10](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5513654){:target="_blank"} |
 {:.mbtablestylef}
 
 ## Homwork and Exercise 

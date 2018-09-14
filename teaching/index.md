@@ -2,7 +2,7 @@
 layout: page
 title: Teaching
 excerpt: 
-modified: <2018-09-04 Tue>
+modified: <2018-09-14 Fri>
 ---
 ## Courses at Texas A&M University
 
@@ -21,7 +21,8 @@ I am looking for self-motivated students who are interested in
     the [recruit page]({{base}}/recruit/){:target="_blank"}. Don't hesitate to reach me! 
 	
 ### Ph.D. 
-*  2017.09 - . [Asher Toback](){:target="_blank"}
+*  2018.09 - : [Ben Hamlin](){:target="_blank"} @Texas A&M U
+*  2017.09 - 2018.08: [Asher Toback](){:target="_blank"} @ Portland State U
 
 ### Undergraduate 
 
