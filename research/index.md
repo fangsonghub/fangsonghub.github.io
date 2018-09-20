@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt:
-modified: <2018-04-30 Mon>
+modified: <2018-09-20 Thu>
 ---
 * Table of Contents
 {:toc}
@@ -12,7 +12,7 @@ modified: <2018-04-30 Mon>
 *   **Pseudorandom Quantum States** 
     *   Authors: Zhengfeng Ji, Yi-Kai Liu, Fang Song 
 	*   In _the 38th International Cryptology Conference ([Crypto 2018](https://crypto.iacr.org/2018/){:target="_blank"})_.
-	*   [[arXiv](https://arxiv.org/abs/1711.00385){:target="_blank"}] [Slides: [PDF]({{base}}/files/talks/prs-crypto18.pdf){:target="blank"}]
+	*   [[ePrint](https://eprint.iacr.org/2018/544){:target="_blank"} [arXiv](https://arxiv.org/abs/1711.00385){:target="_blank"}] [Slides: [PDF]({{base}}/files/talks/prs-crypto18.pdf){:target="blank"}]
 *   **Quantum Collision-Finding in Non-Uniform Random Functions**
     *   Authors: Marko Balogh and Edward Eaton and Fang Song
 	*   In _the Ninth International Conference on Post-Quantum Cryptography ([PQCrypto 2018](http://www.math.fau.edu/pqcrypto2018/){:target="_blank"})_.
