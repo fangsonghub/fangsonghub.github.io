@@ -5,7 +5,7 @@ subtitle: Foundations of Post-Quantum Cryptography
 courseid: f18 689
 desc: f18 689
 permalink: /teaching/f18_689_pqc/
-modified: <2018-09-14 Fri>
+modified: <2018-09-24 Mon>
 ---
 
 ## Announcement
@@ -40,6 +40,10 @@ useful materials. -->
 || Th,09/13 | Grover's algorithm | Watrous Lec12 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/12.pdf){:target="_blank"}, Lec13 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/13.pdf){:target="_blank"} |
 | 4 |Tu,09/18 | Overview of quantum-safe crypto | [Son'PQC14](https://eprint.iacr.org/2014/709){:target="_blank"} <br> Video: [Son16@AsiaPQC](https://www.youtube.com/watch?v=n39-FOmNh5g){:target="_blank"}|
 || Th,09/20| Case study: PRF/PRP <br> Superposition attack on Luby-Rackoff | Trevison Notes [[5](https://people.eecs.berkeley.edu/~luca/cs276/lecture05.pdf){:target="_blank"}, [6](https://people.eecs.berkeley.edu/~luca/cs276/lecture06.pdf){:target="_blank"}, [15](https://people.eecs.berkeley.edu/~luca/cs276/lecture15.pdf){:target="_blank"}]<br> [KM'ISIT10](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5513654){:target="_blank"} |
+|5| Tu,09/25| Superpositon attacks cont'd <br> Quantum-secure PRF | [Zhandry'FOCS12](https://eprint.iacr.org/2012/182){:target="_blank"} <br> Supp: [Zhandry'ePrint16](https://eprint.iacr.org/2016/1076){:target="_blank"} | 
+||Th,09/27| Small-range distribution <br> QPRF cont'd <br> | [Zhandry'FOCS12](https://eprint.iacr.org/2012/182){:target="_blank"} |
+|6|Tu,10/02|||
+||Th,10/04|||
 {:.mbtablestylef}
 
 ## Homwork and Exercise 
