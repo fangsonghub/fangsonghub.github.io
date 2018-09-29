@@ -1,0 +1,184 @@
+\documentclass[11pt]{article}
+
+%-----------------------------------------------------------------------------%
+% Margins:
+%-----------------------------------------------------------------------------%
+\usepackage[margin=1in]{geometry} % to modify margins
+
+%-----------------------------------------------------------------------------%
+% Font:
+%-----------------------------------------------------------------------------%
+
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{palatino}
+\usepackage{mathpazo}
+\usepackage{stmaryrd}
+
+%-----------------------------------------------------------------------------%
+% PDF:
+%-----------------------------------------------------------------------------%
+
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,citecolor=blue,pdfpagemode=UseNone}
+
+%-----------------------------------------------------------------------------%
+% Various packages:
+%-----------------------------------------------------------------------------%
+
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{amsthm}
+\usepackage{sectsty}
+\usepackage[usenames]{color}
+\usepackage{authblk} % nice auth & affil
+
+%-----------------------------------------------------------------------------%
+% Theorem-like environments:
+%-----------------------------------------------------------------------------%
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{cor}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem*{fact}{Fact}
+\newtheorem{example}[theorem]{Example}
+
+%-----------------------------------------------------------------------------%
+% Macros: for your convenience. you can ignore them or define your own
+%-----------------------------------------------------------------------------%
+
+\newcommand{\comment}[1]{\begin{quote}\sf [*** #1 ***]\end{quote}}
+\newcommand{\tinyspace}{\mspace{1mu}}
+\newcommand{\microspace}{\mspace{0.5mu}}
+\newcommand{\op}[1]{\operatorname{#1}}
+\newcommand{\norm}[1]{\left\lVert\tinyspace#1\tinyspace\right\rVert}
+\newcommand{\snorm}[1]{\lVert\tinyspace#1\tinyspace\rVert}
+\newcommand{\abs}[1]{\left\lvert\tinyspace #1 \tinyspace\right\rvert}
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\defeq}{\stackrel{\smash{\text{\tiny def}}}{=}}
+\newcommand{\tr}{\operatorname{Tr}}
+\newcommand{\rank}{\operatorname{rank}}
+\renewcommand{\det}{\operatorname{Det}}
+\renewcommand{\vec}{\operatorname{vec}}
+\newcommand{\im}{\operatorname{Im}}
+\renewcommand{\t}{{\scriptscriptstyle\mathsf{T}}}
+\newcommand{\ip}[2]{\left\langle #1 , #2\right\rangle}
+\newcommand{\sip}[2]{\langle #1 , #2\rangle}
+\def\({\left(}
+\def\){\right)}
+
+\newcommand{\triplenorm}[1]{%
+  \left|\!\microspace\left|\!\microspace\left| #1 
+  \right|\!\microspace\right|\!\microspace\right|}
+
+\newcommand{\fid}{\operatorname{F}}
+\newcommand{\setft}[1]{\mathrm{#1}}
+\newcommand{\lin}[1]{\setft{L}\left(#1\right)}
+\newcommand{\density}[1]{\setft{D}\left(#1\right)}
+\newcommand{\unitary}[1]{\setft{U}\left(#1\right)}
+\newcommand{\trans}[1]{\setft{T}\left(#1\right)}
+\newcommand{\herm}[1]{\setft{Herm}\left(#1\right)}
+\newcommand{\pos}[1]{\setft{Pos}\left(#1\right)}
+\newcommand{\pd}[1]{\setft{Pd}\left(#1\right)}
+\newcommand{\sphere}[1]{\mathcal{S}\!\left(#1\right)}
+\newcommand{\opset}[3]{\setft{#1}_{#2}\!\left(#3\right)}
+\def\complex{\mathbb{C}}
+\def\real{\mathbb{R}}
+\def\natural{\mathbb{N}}
+\def\integer{\mathbb{Z}}
+\def \lket {\left|}
+\def \rket {\right\rangle}
+\def \lbra {\left\langle}
+\def \rbra {\right|}
+\newcommand{\ket}[1]{\lket\microspace #1 \microspace\rket}
+\newcommand{\bra}[1]{\lbra\microspace #1 \microspace\rbra}
+
+\newenvironment{mylist}[1]{\begin{list}{}{
+	\setlength{\leftmargin}{#1}
+	\setlength{\rightmargin}{0mm}
+	\setlength{\labelsep}{2mm}
+	\setlength{\labelwidth}{8mm}
+	\setlength{\itemsep}{0mm}}}
+	{\end{list}}
+
+\def\X{\mathcal{X}}
+\def\Y{\mathcal{Y}}
+\def\Z{\mathcal{Z}}
+\def\W{\mathcal{W}}
+\def\A{\mathcal{A}}
+\def\B{\mathcal{B}}
+\def\V{\mathcal{V}}
+\def\U{\mathcal{U}}
+\def\C{\mathcal{C}}
+\def\D{\mathcal{D}}
+\def\E{\mathcal{E}}
+\def\F{\mathcal{F}}
+\def\M{\mathcal{M}}
+\def\R{\mathcal{R}}
+\def\P{\mathcal{P}}
+\def\Q{\mathcal{Q}}
+\def\S{\mathcal{S}}
+\def\T{\mathcal{T}}
+\def\K{\mathcal{K}}
+\def\yes{\text{yes}}
+\def\no{\text{no}}
+
+\begin{document}
+
+%-----------------------------------------------------------------------------%
+\title{\bf TITLE}
+%-----------------------------------------------------------------------------%
+\author[1]{Author 1}
+% more authors
+%\author[2]{Author 2}
+
+\affil[1]{Texas A \& M University \texttt{abc@abc}}
+%\affil[2]{University \texttt{abc@abc}}
+
+\date{\today}
+
+\maketitle
+
+\begin{abstract}   % Short summary of paper. 
+
+\end{abstract}
+
+%-----------------------------------------------------------------------------%
+\section{Introduction} \label{sec:introduction}
+%-----------------------------------------------------------------------------%
+
+%-----------------------------------------------------------------------------%
+\section{Preliminaries} \label{sec:preliminaries}
+%-----------------------------------------------------------------------------%
+
+%-----------------------------------------------------------------------------%
+\section{Content}
+\label{sec:con}
+%-----------------------------------------------------------------------------%
+ 
+%-----------------------------------------------------------------------------%
+\section{More content} \label{sec:more}
+%-----------------------------------------------------------------------------%
+
+\bibliographystyle{alpha}
+%\bibliography{}
+
+% \begin{thebibliography}
+
+% \bibitem[AB09]{AroraB09}
+% S.~Arora and B.~Barak.
+% \newblock {\em Computational Complexity: A Modern Approach}.
+% \newblock Cambridge University Press, 2009.
+
+% \end{thebibliography}
+
+\end{document}
