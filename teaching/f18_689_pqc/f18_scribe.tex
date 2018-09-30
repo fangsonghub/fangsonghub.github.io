@@ -1,0 +1,76 @@
+\documentclass[11pt]{article}
+%============Macros==================%
+% you don't need to change anything. start editing from main body.
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%--------------Header------------------%
+\def\course{CSCE 689 Foundations of Post-quantum Cryptography}
+\def\term{Texas A\&M U, Fall 2018}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 6in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 6in { \term \hfill \emph{#2}}
+       \hbox to 6in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\lecture}[4]{\handout{#1}{#2}{#3}{#4}{{Lecture #1}}}
+%--------------notations------------------%
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\kera}[1]{\ket{#1}\bra{#1}}
+%=============Main Doc=================%
+\begin{document}
+
+%-----Specs: change accordingly--------%
+\def\lecdate{Month day, 2018} % put lecture date here
+\def\scribe{Scribe: your name} % put your name here
+\def\lecnum{7+?} % change the lecture number: (Sept. 20) 7 + ?
+
+\lecture{\lecnum}{\lecdate}{\prof}{\scribe}%
+
+%==============================%
+\section*{Draw quantum circuits using the \texttt{qcircuit} package}
+%==============================%
+
+Instructions on github (\url{https://github.com/CQuIC/qcircuit}). A
+simple example here:
+\[
+\Qcircuit @C=1em @R=1em {
+& \ctrl{2} & \qw & \gate{H} & \ctrl{1} &
+\gate{H} & \qw \\
+& \qw & \qw & \gate{H} & \targ &
+\gate{H} & \qw \\
+& \targ & \qw & \gate{Z} & \qw & \ctrl{-1} &
+\qw
+}
+\]
+
+%==============================%
+\section{Your section title}
+%==============================%
+
+
+\end{document}

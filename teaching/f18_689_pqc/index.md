@@ -5,10 +5,15 @@ subtitle: Foundations of Post-Quantum Cryptography
 courseid: f18 689
 desc: f18 689
 permalink: /teaching/f18_689_pqc/
-modified: <2018-09-24 Mon>
+modified: <2018-09-29 Sat>
 ---
 
 ## Announcement
+*  <2018-09-29 Sat> A LaTeX template for scribe notes
+[[TeX]({{base}}/teaching/f18_689_pqc/f18_scribe.tex) [PDF]({{base}}/teaching/f18_689_pqc/f18_scribe.pdf)]. 
+
+*  <2018-09-29 Sat> Information about project available on
+[Project]({{base}}/teaching/f18_689_pqc/project/) page.
 
 ## About
 
