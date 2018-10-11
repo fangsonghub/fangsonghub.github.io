@@ -1,0 +1,290 @@
+% Instructions: you don't need to change anything in the macros, but
+% feel free to define new commands as you wish. Starting from the main
+% body, change the specs (e.g., your
+% name). use \begin{solution} \end{solution} environment to write your
+% solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CSCE689: FDNS of Post-Quantum Crypto}
+\def\term{Texas A\&M U, Fall 2018}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+\newcommand{\ex}[4]{\handout{#1}{#2}{#3}{#4}{Exercise #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\def\tr{\mathrm{tr}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\kera}[1]{\ket{#1}\bra{#1}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\srd}[2]{\textsf{SR}_{#1}^{#2}(X)} 
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+%\studentfalse
+
+\def\issuedate{October 11, 2018}
+\def\duedate{October 30, 2018} % 
+\def\yourname{your name} % put your name here
+
+%------------------------------%
+\ifstudent
+\hw{1}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{1}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.} Your solutions will be graded on
+\emph{correctness} and \emph{clarity}. You should only submit work
+that you believe to be correct; if you cannot solve a problem
+completely, you will get significantly more partial credit if you
+clearly identify the gap(s) in your solution. For this problem set, a
+random subset of problems will be graded. You may keep working on
+bonus problems till November 13. 
+
+ % Problems marked with ``\mG'' are required for graduate
+ % students. Undergraduate students will get bonus points for solving
+ % them.
+\medskip
+
+\noindent You may collaborate with others on this problem set
+% and consult external sources.
+However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\begin{questions}
+\question[10] (Birthday bound) Fix a positive integer $N$, and
+  $q\leq \sqrt{2N}$. Choose elements $y_1, \ldots, y_q$ uniformly and
+  independently at random from a set of size $N$. Show that the
+  probability that there exist distinct $i, j$ with $y_i = y_j$ is
+  $\Theta(q^2/N)$. (Note: you need to prove both lower and upper bounds.)
+
+\question (Density matrix) Given a state $\ket{\psi}$, we
+  introduce a new representation, \emph{density matrix}, defined by
+  $\rho := \ket{\psi}\bra{\psi}$. In general, given an ensemble of
+  states $\{p_i, \ket{\psi_i}\}_{i=1}^k$ on a quantum register, where
+  the register is in $\ket{\psi_i}$ with probability $p_i$, we define
+  its density matrix as
+  $\rho = \sum_{i =1}^k p_i\ket{\psi_i}\bra{\psi_i}$. We call a state
+  pure if its density matrix $\rho$ can be writen as
+  $\ket{\psi}\bra{\psi}$ for some $\ket{\psi}$. Otherwise wesay it is
+  a \emph{mixed} state.
+  
+  \begin{parts}
+  \part (Exercise) Compute the density matrices of
+    $\ket{0}, \ket{+}, \frac{1}{\sqrt 3}\ket{0} + \frac{e^{\pi/8}\sqrt
+      2}{\sqrt{3}} \ket{1}$.
+  \part[5] A density matrix $\rho$ corresponds to a pure state if and
+  only if $\rho = \kera{\psi}$. Show that $\rho$ corresponds to a pure
+  state if and only if $Tr(\rho^2) = 1$.
+  \part[5] Show that every $2\times 2$ density matrix $\rho$ can be
+  expressed as an equally weighted mixture of pure states. That is
+  $\rho = \frac 1 2 \kera{\psi_1} + \frac 1 2 \kera{\psi_2}$ (Note:
+  the two states need not be orthogonal).
+\end{parts}
+  
+\question (Grover's Search)
+  
+  \begin{parts}
+  \part[10] (Claim in lower bound Proof) Let
+    $O_r: \ket{x,y}\mapsto \ket{x,y\oplus f_r(x)}$, where
+    $\forall x\in \bit^n$, $f_r(x) =1$ iff. $x=r$.
+    $O_\emptyset: \ket{x,y}\mapsto \ket{x,y\oplus f_\emptyset(x)}$,
+    where $\forall x\in \bit^n$, $f_\emptyset(x) =0$. Let
+    $A = A_kOA_{k-1}\ldots A_1OA_0$ be a $k$-query quantum
+    algorithm. For $j = 0,\ldots, k$, define
+      \begin{align*}
+        \ket{\psi_r^{(j)}} = O_rA_{j-1}\ldots O_rA_0\ket{0^n}, & \quad
+        \ket{\phi^{(j)}} = O_\emptyset A_{j-1}\ldots
+        O_\emptyset A_0\ket{0^n}        \, ; \\
+        D_r^{(j)}: = \| \ket{\psi_r^{(j)}} - \ket{\phi^{
+        (j)}}\|, & \quad E_r^{(j)}:= \|O_r\ket{\phi^{(j)}} - \ket{\phi^{(j)}}\| \, .
+      \end{align*}
+      Show the following:
+      \begin{itemize}
+      \item $ D_r^{(j)} \leq D_r^{(j-1)} + E_r^{(j-1)}, \forall j = 1,\ldots,k$.
+      \item Suppose
+        $\ket{\phi^{(j)}} = \sum_{x} \alpha_x^{(j)} \ket{x} $. Show
+        that
+        $E_r^{(j)}\leq 2|\alpha_r^{(j)}|, \forall j = 0,\ldots,k$.
+      \end{itemize}
+    \part[10] (Multiple marked items) Given $f: \bit^n \to \bit$. Let
+      $A = f^{-1}(1) = \{x\in\bit^n: f(x) =1\}$ and
+      $B = f^{-1}(0) = \{x\in\bit^n: f(x)=0\}$. Suppose $|A| \geq 1$
+      is known. Given $O_f: \ket{x,y}\mapsto\ket{x,f(x)\oplus
+        y}$. Design an algorithm that finds some $x\in A$ with
+      $O(\sqrt{N/a})$ queries to $O_f$.
+    \part (Bonus 10pts. Unknown size of marked items) What if $a$ is unknown in
+      Part (b)? Design an algorithm that counts $a$ (approximately). 
+    \part (Bonus 10pts. Fine performance of quantum search) Let
+      $f:X\to \bit$ be a function such that $|f^{-1}(1)|=a$. Describe
+      a $q$-query quantum algorithm that finds a $x$ s.t. $f(x)=1$
+      with probability $\Omega(q^2a/N)$. (NB. this is also optimal.)
+  \end{parts}
+
+\question (Reduction and Hybrid argument) In this problem, we practice
+  security proofs in cryptography. Let $G:\bit^{n} \to \bit^{n+1}$ be
+  a pseudorandom generator that expands the seed by 1 bit.
+  \begin{parts}
+  \part[10] (Multi-sample security i.e., Parallel composition) Consider an
+    adversary $A$ given $(r_1,\ldots,r_k)$ generated in one of two
+    ways below:
+    \begin{enumerate}[label=\roman*)]
+    \item Pick $s_1,\ldots, s_k \gets \bit^n$ independently and
+      uniformly at random, and output $r_i = G(s_i)$ for
+      $i =1,\ldots, k$.
+    \item Pick $r_1,\ldots, r_k \gets \bit^{n+1}$ independently and
+      uniformly at random, and output them.  
+    \end{enumerate}
+    Show that no efficient $A$ can distinguish the two cases. Namely
+    the parallel composition of $G$, $G'= G\|\ldots \|G$, is also a
+    PRG.
+
+  \part[10] (Sequential composition) Let $z[i]$ denotes the $i$th bit of a
+    string $z$. Consider the construction $G^k$ below for increasing
+    the expansion of $G$ (due to Blum and Micali): on random seed
+    $s\gets \bit^n$, let $r_0 = s$.
+    \begin{enumerate}[label=\roman*)]
+    \item For $i =1, \ldots, k$, compute $y_i := G(r_{i-1})$, and let
+      $r_i = y_i[2,\ldots, n]$. 
+    \item Output $r = y_1[1]\|y_2[1]\|\ldots \|y_{k-1}[1]\|y_k[1] \in \bit^{k}$. 
+    \end{enumerate}
+    Namely, at each iteration, we save one bit of the output of $G$
+    and use the rest as a seed for the next invocation. We prove that
+    $G^k$ is a PRG for any polynomially bounded $k$ (in particular we
+    get a lenth-doubling PRG by setting $k=2n$) by a \emph{hybrid
+      argument}. For $j = 1, \ldots, k$, define $H^j$ as a revised
+    generator:
+
+    \begin{enumerate}[label=\roman*)]
+    \item Pick random $z_j\gets \bit^j$ and $r_j \gets \bit^{n}$.
+    \item For $i =j+1, \ldots, k$, compute
+      $y_i := G(r_{i-1})$, and let $r_i = y_i[2,\ldots, n]$.
+    \item Output $r = z_j\|y_{j+1}[1]\|\ldots \|y_{k-1}[1]\|y_k[1] \in \bit^{k}$. 
+    \end{enumerate}
+    Let $H_0 = G^k$ be the original construction. Note that the output
+    in $H_k$ is a truly random $r\gets \bit^{k}$.
+
+    Show that for all $j = 0,\ldots, k-1$,
+    \begin{equation*}
+      |\Pr_{r\gets H_j}[A(r) = 1] - \Pr_{r\gets H_{j+1}}[A(r) = 1]| \leq \negl(n) \, 
+    \end{equation*}
+    holds for any efficient $A$. Conclude from this that $G^k$ is a
+    PRG. (Exercise: what is the advantage of $G^k$ over the parallel
+    $G'$ from part a?)
+    
+  \part[10] Let $f: X\to Y$ be a function. We say $f$ is \emph{one-way} if
+    $f(x)$ can be computed efficiently (i.e., $poly(|x|)$); but is
+    hard to invert \emph{on-average}, i.e.,
+    \begin{equation*}
+      \Pr_{x\gets X}[f(x') = f(x) : x'\gets A(f(x))] \leq \negl(|x|) \, ,
+    \end{equation*}
+    holds for any poly-time algorithm $A$ (Note: it's crucial that $x$
+    is generated randomly.)  Construct a one-way function from the PRG
+    $G$, and give a proof that it is one-way. Let
+    $F = \{F_k: \bit^n \to \bit^n\}_{k\in\bit^n}$ be a pseudorandom
+    function family. Construct a one-way function from $F$.
+    
+  \part (Bonus 10pts. WeakOWF to StrongOWF) The definition of one-way
+    function above is strong in the sense that no efficient algorithm
+    can invert it with non-negligible probability. We consider a
+    weaker notion of one-way function, where we consider it secure as
+    long as no efficient algorithm can invert with probability close
+    to 1: for any poly-time $A$
+    \begin{equation*}
+      \Pr_{x\gets X}[f(x') = f(x) : x'\gets A(f(x))] \leq 1 - 1/p(|x|) \, .
+    \end{equation*}
+    for some polynomoal $p(\cdot)$. Show that if there is a weak
+    one-way function, then there is a strong one-way function. (Hint:
+    given a weak one-way function $f$, consider
+    $f': (x_1,\ldots, x_m) \mapsto (f(x_1),\ldots, f(x_m))$.)
+  \end{parts}
+
+\question (Small-range distribution) Let $D$ be a distribution on set
+  $Y$. For an arbitrary set $X$ of size $N$, consider $D^X$ and
+  $\srd{r}{D}$, which are both distributions on $\{f:X\to Y\}$. We
+  claimed in class (without proof) that the output distributions of
+  any $q$-query quantum algorithm to either $\srd{r}{D}$ or $D^X$ are
+  $O(q^3/r)$-close.
+  
+    \begin{parts}
+    \part[15] (Collision finding) We develop a quantum algorithm for
+      finding collision in a function. Given a function $f:X\to Y$, we
+      call a pair of inputs $(x\in X,x'\in X)$ a collision, if
+      $x\neq x'$ and $f(x) = f(x')$. Let $f$ be a function with $k$
+      collisions. Consider the following algorithm that uses $q$
+      queries:
+
+      \begin{itemize}
+      \item Pick a random subset $S \subseteq X$ of size
+        $<0 q_1 \leq q$. Query all inputs in $S$ \emph{classically},
+        and find a collision in $S$.
+      \item if there were none, then apply a quantum search algorithm
+        to find collision between $S$ and $X\backslash S$. 
+      \end{itemize}
+      Describe how to implement the second step (i.e., building the
+      Grover oracle). What is the success probability that the
+      algorithm finds a collision? Optimize the choice of $q_1$ and
+      $q_2$. (Hint: Problem 2.d may be helpful.)
+    \part[15] (Quantum distinguisher) Describe a quantum algorithm
+      that distinguishes $\srd{r}{D}$ from $D^X$ with probability
+      $\Omega(q^3/r)$.
+    \part[10] (Classical attack) Give a classical algorithm to distinguish
+      $f\gets \srd{r}{D}$ from a truly random function with constant
+      probability (e.g., $>1/4$) with as few queries as possible. (You
+      do not need to prove its optimality, 5 bonus pts if you actually
+      do.)
+    \part (Bonus 10pts. Statistical Oracle Indistinguishability) We
+      have proved in class that if an \emph{efficient} quantum
+      algorithm distinguishes $D_0^X$ and $D_1^X$ with advantage
+      $\veps$, then one can distinguish $D_1$ and $D_2$ with advantage
+      $\Omega(\veps^2/q^3)$. Show that this holds
+      \emph{statistically}.  Namely, if an \emph{unbounded} quantum
+      algorithm distinguishes $D_0^X$ and $D_1^X$ with advantage
+      $\veps$, then $D_1$ and $D_2$ must be $\Omega(\veps^2/q^3)$ far.
+      
+  \end{parts}
+
+%  \question Simon variants
+  
+\end{questions}
+
+
+\end{document}

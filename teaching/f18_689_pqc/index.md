@@ -71,5 +71,6 @@ useful materials. -->
 ## Homwork and Exercise 
 
 * Exercise 1 [[PDF]({{base}}/teaching/f18_689_pqc/f18_pqc_ex1.pdf){:target="_blank"} [TeX]({{base}}/teaching/f18_689_pqc/f18_pqc_ex1.tex){:target="_blank"}]
+* Homework 1 [[PDF]({{base}}/teaching/f18_689_pqc/f18_689_hw1.pdf){:target="_blank"} [TeX]({{base}}/teaching/f18_689_pqc/f18_689_hw1.tex){:target="_blank"}]
 
 
