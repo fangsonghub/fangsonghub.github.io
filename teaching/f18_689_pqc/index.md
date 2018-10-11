@@ -5,7 +5,7 @@ subtitle: Foundations of Post-Quantum Cryptography
 courseid: f18 689
 desc: f18 689
 permalink: /teaching/f18_689_pqc/
-modified: <2018-09-29 Sat>
+modified: <2018-10-11 Thu>
 ---
 
 ## Announcement
