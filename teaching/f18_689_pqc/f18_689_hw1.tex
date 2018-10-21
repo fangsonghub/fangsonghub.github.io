@@ -52,16 +52,17 @@
 \newcommand{\ket}[1]{\lvert #1 \rangle}
 \newcommand{\kera}[1]{\ket{#1}\bra{#1}}
 \newcommand{\negl}{\text{negl}}
-\newcommand{\srd}[2]{\textsf{SR}_{#1}^{#2}(X)} 
+\newcommand{\srd}[2]{\textsf{SR}_{#1}^{#2}(X)}
+\newcommand{\corr}[1]{{\color{blue}{#1}}}
 %=======Main document==============%
 \begin{document}
 
 %----Specs: change accordingly-----%
 \newif\ifstudent % comment out false
 \studenttrue 
-%\studentfalse
+% \studentfalse
 
-\def\issuedate{October 11, 2018}
+\def\issuedate{October 11, 2018; \corr{Update: Oct. 21}}
 \def\duedate{October 30, 2018} % 
 \def\yourname{your name} % put your name here
 
@@ -109,7 +110,7 @@ However, you must \textbf{\emph{write up your own solutions}} and
   
   \begin{parts}
   \part (Exercise) Compute the density matrices of
-    $\ket{0}, \ket{+}, \frac{1}{\sqrt 3}\ket{0} + \frac{e^{\pi/8}\sqrt
+    $\ket{0}, \ket{+}, \frac{1}{\sqrt 3}\ket{0} + \frac{e^{\corr{i} \pi/8}\sqrt
       2}{\sqrt{3}} \ket{1}$.
   \part[5] A density matrix $\rho$ corresponds to a pure state if and
   only if $\rho = \kera{\psi}$. Show that $\rho$ corresponds to a pure
@@ -254,7 +255,7 @@ However, you must \textbf{\emph{write up your own solutions}} and
 
       \begin{itemize}
       \item Pick a random subset $S \subseteq X$ of size
-        $<0 q_1 \leq q$. Query all inputs in $S$ \emph{classically},
+        $\corr{0<}q_1 \leq q$. Query all inputs in $S$ \emph{classically},
         and find a collision in $S$.
       \item if there were none, then apply a quantum search algorithm
         to find collision between $S$ and $X\backslash S$. 

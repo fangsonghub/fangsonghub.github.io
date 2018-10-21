@@ -5,7 +5,7 @@ subtitle: Foundations of Post-Quantum Cryptography
 courseid: f18 689
 desc: f18 689
 permalink: /teaching/f18_689_pqc/
-modified: <2018-10-11 Thu>
+modified: <2018-10-21 Sun>
 ---
 
 ## Announcement
@@ -51,12 +51,12 @@ useful materials. -->
 ||Th,10/04| Quantum query complexity | [BBBV97](https://arxiv.org/pdf/quant-ph/9701001.pdf){:target="_blank"} <br> Supp.: [Son17](https://arxiv.org/abs/1709.01236){:target="_blank"} |
 |7| Tu,10/09| Polynomial method | [Childs LN 13](https://www.cs.umd.edu/~amchilds/teaching/w13/l14.pdf){:target="_blank"} <br> [Thm.3.1,3.2 [Zhandry'Crypto12](https://eprint.iacr.org/2012/076){:target="_blank"}]|
 ||Th,10/11|Case study: Hash functions <br> Generic security | [8.1,8.3 [Boneh-Shoup v0.4](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"}]|
-|8| Tu,10/16| Hash functions: quantum security | [Zhandry'QIC15](https://arxiv.org/abs/1312.1027){:target="_blank"} <br> [HRS'PKC16](https://eprint.iacr.org/2015/1256){:target="_blank"}|
-||Th,10/18| More on hash functions <br> iterated hash |[8.4 [Boneh-Shoup v0.4](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"}]|
-|9|Tu,10/23|||
-||Th,10/25|||
-|10|Tu,10/30|||
-||Th,11/01|||
+|8| Tu,10/16| Hash functions: quantum security | [HRS'PKC16](https://eprint.iacr.org/2015/1256){:target="_blank"}|
+||Th,10/18| More on hash functions <br> Collision finding | [Zhandry'QIC15](https://arxiv.org/abs/1312.1027){:target="_blank"} <br> |
+|9|Tu,10/23| Iterated hash <br> Random Oracle model | [8.4,8.10.2 [Boneh-Shoup v0.4](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"}] <br> [BDF+'Asiacrypt11](https://eprint.iacr.org/2010/428){:target="_blank"} <br> Supp: M.Green [Blog posts](https://blog.cryptographyengineering.com/2011/09/29/what-is-random-oracle-model-and-why-3/){:target="_blank"} |
+||Th,10/25| Case study: Full-Domain-Hash Signature| Trevisan note [22](https://people.eecs.berkeley.edu/~luca/cs276/lecture22.pdf){:target="_blank"} <br> [Sect.5.3 [Zhandry'Crypto12](https://eprint.iacr.org/2012/076){:target="_blank"}]|
+|10|Tu,10/30|Techniqes for Quantum RO | [Lemma1,31[Unruh'JACM15](https://eprint.iacr.org/2013/606){:target="_blank"}] <br> [Lemma5 [ES'TQC15](https://eprint.iacr.org/2015/878){:target="_blank"}] <br> Supp: [AHU'ePrint18](https://eprint.iacr.org/2018/904){:target="_blank"} |
+||Th,11/01|More on QRO ||
 |11|Tu,11/06|||
 ||Th,11/08|||
 |12|Tu,11/13|||
