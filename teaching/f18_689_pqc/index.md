@@ -57,14 +57,14 @@ useful materials. -->
 ||Th,10/25| Case study: Full-Domain-Hash Signature| Trevisan note [22](https://people.eecs.berkeley.edu/~luca/cs276/lecture22.pdf){:target="_blank"} <br> [Sect.5.3 [Zhandry'Crypto12](https://eprint.iacr.org/2012/076){:target="_blank"}]|
 |10|Tu,10/30|Techniqes for Quantum RO | [Lemma1,31[Unruh'JACM15](https://eprint.iacr.org/2013/606){:target="_blank"}] <br> [Lemma5 [ES'TQC15](https://eprint.iacr.org/2015/878){:target="_blank"}] <br> Supp: [AHU'ePrint18](https://eprint.iacr.org/2018/904){:target="_blank"} |
 ||Th,11/01|More on QRO ||
-|11|Tu,11/06|||
+|11|Tu,11/06| Quantum attacks using Entanglement | |
 ||Th,11/08|||
 |12|Tu,11/13|||
-||Th,11/15|||
-|13|Tu,11/20|Project Presentation||
+||Th,11/15| Project Presentation <br> Proofs of Knowledge | [Watrous'SICOMP09](https://cs.uwaterloo.ca/~watrous/Papers/ZeroKnowledgeAgainstQuantum.pdf){:target="_blank"} <br> [Unruh'EC12](https://eprint.iacr.org/2010/212){:target="_blank"}|
+|13|Tu,11/20|Project Presentation| [ARU'FOCS14](https://eprint.iacr.org/2014/296){:target="_blank"}|
 ||Th,11/22| no class <br> Thanksgiving holiday||
-|14| Tu,11/27| Project Presentation||
-||Th,11/29| Project Presentation ||
+|14| Tu,11/27| Project Presentation <br> Quantum-secure PRP | [Czumaj'STOC15](https://www.dcs.warwick.ac.uk/~czumaj/PUBLICATIONS/CONFERENCES/Czumaj-STOC-2015-703-712.pdf){:target="_blank"} |
+||Th,11/29| Project Presentation <br> Post-quantum Threshold Crypto | [BGG+Crypto18](https://eprint.iacr.org/2017/956){:target="_blank"} |
 |15 | Tu,12/05| Redefined day <br> Thursday class||
 {:.mbtablestylef}
 
