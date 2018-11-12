@@ -59,7 +59,7 @@ useful materials. -->
 ||Th,11/01|More on QRO ||
 |11|Tu,11/06| Attacks due to Entanglement | Watrous Lec20 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/20.pdf){:target="_blank"} <br> [CSST'AC11](https://www.iacr.org/archive/asiacrypt2011/70730403/70730403.pdf){:target="_blank"}|
 ||Th,11/08| Attacks due to quantum side information | [GKKRW'SICOMP08](https://arxiv.org/abs/quant-ph/0611209){:target="_blank"} <br> [TSSR'ITIT11](https://arxiv.org/abs/1002.2436){:target="_blank"}|
-|12|Tu,11/13| Cryptographic protocols <br> Case study: coin-flipping  | [LN'Asiacrypt09](https://arxiv.org/abs/0903.3118){:target="_blank"} <br> [LN'Africacrypt11](https://eprint.iacr.org/2011/065){:target="_blank"}|
+|12|Tu,11/13| Cryptographic protocols <br> Case study: coin-flipping  | [DL'Asiacrypt09](https://arxiv.org/abs/0903.3118){:target="_blank"} <br> [LN'Africacrypt11](https://eprint.iacr.org/2011/065){:target="_blank"}|
 ||Th,11/15| Project presentation <br> Proofs of Knowledge | [Watrous'SICOMP09](https://cs.uwaterloo.ca/~watrous/Papers/ZeroKnowledgeAgainstQuantum.pdf){:target="_blank"} <br> [Unruh'EC12](https://eprint.iacr.org/2010/212){:target="_blank"}|
 |13|Tu,11/20|Project presentation <br> Quantum rewinding | [ARU'FOCS14](https://eprint.iacr.org/2014/296){:target="_blank"}|
 ||Th,11/22| no class <br> Thanksgiving holiday||
