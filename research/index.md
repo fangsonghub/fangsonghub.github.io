@@ -88,11 +88,12 @@ modified: <2018-10-05 Fri>
 
 ## Other Talks 
 
-* Invited speaker at [Asia Forum
+*  Invited talk at [IAMCS Quantum Computation and Information Workshop](https://iamcs.tamu.edu/quantum-computation-and-information-workshop/){:target="_blank"}. _TAMU, TX, September 22 2018_. **Pseudorandom quantum states**. 
+*  Invited speaker at [Asia Forum
     on Post-quantum cryptography](http://www.pqcforum.org/){:target="_blank"}. _Seoul, Korea, Nov 28 - 29, 2016_.  
 	**What are we talking about when we talk about post-quantum
     cryptography?**  
 	Available: [Slides [PDF]({{base}}/files/talks/201611_fspqcasia.pdf){:target="_blank"}] [[Video](https://www.youtube.com/watch?v=n39-FOmNh5g){:target="_blank"}].
-* [QuICS Seminar](http://quics.umd.edu/seminar){:target="_blank"}, _University of Maryland, October 12 2016_.  
+*  [QuICS Seminar](http://quics.umd.edu/seminar){:target="_blank"}, _University of Maryland, October 12 2016_.  
 **Zero-knowledge proof systems for QMA**.  
 
