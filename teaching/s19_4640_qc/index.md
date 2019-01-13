@@ -4,11 +4,12 @@ title: (Spring 2019) CS 440/640 - Quantum Algorithms
 courseid: s19 440/640
 desc: s19 440/640
 permalink: /teaching/s19_4640_qc/
-modified: <2019-01-10 Thu>
+modified: <2019-01-13 Sun>
 ---
 
 ## Announcement
-*  Welcome! Please enroll on
+*  <2019-01-13 Sun> Intro [slides]({{base}}/teaching/s19_4640_qc/s19_qc_lec1_intro.pdf){:target="_blank"} posted on Schedule page. Read it asap! 
+*  <2019-01-10 Thu> Welcome! Please enroll on
    Piazza
    [here](https://piazza.com/tamu/spring2019/csce440640){:target="_blank"}.
 
