@@ -4,14 +4,14 @@ title: (Spring 2019) CS 440/640 - Quantum Algorithms
 courseid: s19 440/640
 desc: Schedule
 permalink: /teaching/s19_4640_qc/schedule/
-modified: <2019-01-09 Wed>
+modified: <2019-01-14 Mon>
 ---
 
 ## Schedule (subject to change)
 
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
-|1| M,01/14  | Intro (by Dr. K) <br> Review: linear algebra and probability | Read the intro slides [PDF]({{base}}/teaching/s19_4640_qc/s19_qc_lec1_intro.pdf){:target="_blank"} <br> Study materials on [Piazza](https://piazza.com/tamu/spring2019/csce440640) <br> **HW1** out (see below) <br> due xx/xx/2019 |
+|1| M,01/14  | Intro (by Dr. Klappenecker) <br> Review: linear algebra and probability | Read the intro slides [PDF]({{base}}/teaching/s19_4640_qc/s19_qc_lec1_intro.pdf){:target="_blank"} <br> Study materials on [Piazza](https://piazza.com/tamu/spring2019/csce440640) <br> **HW1** out (see below) <br> due xx/xx/2019 |
 || W,01/16 | *QIP'19, class cancelled* | Suggested: Aaronson [Lecture](http://www.scottaaronson.com/democritus/lec9.html){:target="_blank"} <br> watch [videos](http://michaelnielsen.org/blog/quantum-computing-for-the-determined/){:target="_blank"} by M. Nielsen |
 |2| M,01/21 | *MLK day, no class* || 
 || W,01/23 | Qubit, unitary operation, measurement | Watrous Lec1 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/01.pdf){:target="_blank"} <br> KLM Chapter 1,3.1,3.2 |
@@ -47,7 +47,7 @@ modified: <2019-01-09 Wed>
 
 ## Assignments
 
-*  Homework 1 [PDF,TEX], due xx/xx/2019, before class. 
+*  Homework 1 [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw1.tex){:target="_blank"})], due 01/28/2019, before class. 
 *  Homework 2 [PDF,TEX], due xx/xx/2019, before class. 
 *  Homework 3 [PDF,TEX], due xx/xx/2019, before class. 
 *  Homework 4 [PDF,TEX], due xx/xx/2019, before class. 

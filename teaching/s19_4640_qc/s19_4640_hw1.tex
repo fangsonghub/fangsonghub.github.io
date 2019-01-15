@@ -1,0 +1,270 @@
+% Instructions: you don't need to change anything in the macros, but
+% feel free to define new commands as you wish. Starting from the main
+% body, change the specs (e.g., your
+% name). use \begin{solution} \end{solution} environment to write your
+% solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CSCE 440/640 Quantum Algorithms}
+\def\term{Texas A\&M U, Spring 2019}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill \textbf{#5}  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+\newcommand{\ex}[4]{\handout{#1}{#2}{#3}{#4}{Exercise #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\def\tr{\mathrm{tr}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\kera}[1]{\ket{#1}\bra{#1}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\srd}[2]{\textsf{SR}_{#1}^{#2}(X)}
+\newcommand{\corr}[1]{{\color{blue}{#1}}}
+\newcommand{\E}{\text{E}}
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+% \studenttrue 
+\studentfalse
+
+\def\issuedate{Jan. 14, 2019}
+\def\duedate{Jan. 28, 2019} % 
+\def\yourname{your name} % put your name here
+
+%------------------------------%
+\ifstudent
+\hw{1}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{1}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+
+% This assignment contains \numquestions\ questions, \numpages\ pages
+% for the total of \numpoints \ marks.
+\noindent \textbf{Instructions.} Only PDF format is accepted (type it or scan
+clearly). Your solutions will be graded on \emph{correctness} and
+\emph{clarity}. You should only submit work that you believe to be
+correct; if you cannot solve a problem completely, you will get
+significantly more partial credit if you clearly identify the gap(s)
+in your solution. For this problem set, a random subset of problems
+will be graded. Problems marked with ``\mG'' are required for graduate
+students. Undergraduate students will get bonus points for solving
+them.  \medskip
+
+\noindent You may collaborate with others on this problem set. 
+% and consult external sources.
+However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\medskip
+
+\noindent The review materials on Piazza/Resources/Math Review (Week
+1) might be helpful.
+
+\begin{questions}
+
+%  \qformat{\thequestion{} \totalpoints{} \points \hfill}
+
+  \question \textbf{Attention: this problem is due Sunday,
+    January 20, 11:59pm CST.}
+  \begin{parts}
+    \part[2] Enroll on Piazza
+    \url{https://piazza.com/tamu/spring2019/csce440640/}.
+    \part[3] Post a note on Piazza describing: 1) a few words about
+    yourself; 2) your strengths in CS (e.g., programming, algorithm,
+    ...); 3) what you hope to get out of this course; and 4) anything
+    else you feel like sharing. See instructions on how to post a note
+    \url{https://support.piazza.com/customer/en/portal/articles/1564004-post-a-note}.
+
+    The purpose is to help me know you all, and also get you known to
+    your fellow students. You can follow up the posts and start
+    looking for group members for your course project.
+
+    \bonuspart[1] Upload a profile picture. 
+  \end{parts}
+
+ 
+  \question (Basic algebra) Let $I = \left(
+    \begin{array}{lr}
+      1 & 0\\
+      0 & 1
+    \end{array} \right)$, $X = \left(
+    \begin{array}{lr}
+      0 & 1\\
+      1 & 0
+    \end{array} \right)$, $Y =  i \left(
+    \begin{array}{lr}
+      0 & 1\\
+      -1 & 0
+    \end{array} \right)$, and $Z = \left(
+    \begin{array}{lr}
+      1 & 0\\
+      0 & -1
+    \end{array} \right)$ (Physicists call them the
+  Pauli operators).
+
+  \begin{parts}
+    \part[6] (Complex number) Let $c = a + bi$ be a complex
+    number. The real and imaginary parts of $c$ are denoted
+    $Re(c) = a$ and $Im(c) = b$.
+  \begin{itemize}
+  \item Prove that $c + c^* = 2 \cdot Re(c)$.
+  \item Prove that $cc^* = a^2 + b^2$.  (NB. $|c| : = \sqrt{cc^*}$ is
+    called the magnitude of $c$. Can you see the meaning of $|c|$ on
+    the complex plane?)
+  \item What is the polar form of
+    $c = \frac{1}{\sqrt 2} + \frac{1}{\sqrt 2} i$? Use the fact that
+    $e^{i\theta} = \cos\theta + i \sin \theta$?
+  \end{itemize}
+  %\begin{solution}
+  %  uncomment the environment and write your solution here
+  %\end{solution}
+
+  \part[10] (Dirac notation)
+  \begin{itemize}
+  \item Write
+    ${\frac{1}{2}} \ket{0} + \frac{1 + \sqrt{2}i}{2}\ket{1}$ in
+    column vector form.
+  \item Find the eigenvalues and the corresponding eigenvectors of
+    each Pauli operator (except $I$). Express the eigenvectors
+    using the Dirac notation.
+  \end{itemize}
+
+  \part[4] (Basis) We know that $\{\ket{0}, \ket{1}\}$ forms an
+  orthonormal basis of $\mathbb{C}^2$, which is usually called the
+  computational basis. Consider
+
+  \begin{equation*}
+    \ket{+} := \frac{1}{2} \ket{0} + \frac{1}{2} \ket{1}; \quad
+    \ket{-} := \frac{1}{2} \ket{0} - \frac{1}{2} \ket{1} \, .
+  \end{equation*}
+
+  Prove that $\{\ket{+}, \ket{-}\}$ also forms an orthonormal
+  basis. (usually called the Hadamard basis)
+  
+  \part[12] (Trace) Recall the trace of a square matrix
+  $M = (m_{ij})_{n\times n}, m_{ij}\in \mathbb{C}$ is defined by
+  $\tr(M): = \sum_{i = 1}^n m_{ii}$.
+  \begin{itemize}
+  \item What is $\tr(X \ket{0}\bra{1})$?
+  \item Show that $\tr(YZ) = \tr(ZY)$. Prove that this holds for
+    general matrices: any $n\times n$ matrices $M$ and $N$, $\tr(MN) =
+    \tr(NM)$.
+  \item Prove that the trace has the cyclic property
+    $\tr(ABC) = \tr(BCA)$.
+  \end{itemize}
+  \part[8] (Inner/outer product)
+  \begin{itemize}
+  \item Let
+    $\ket{\phi} = \frac{1}{\sqrt 2} \ket{0} + \frac{i}{\sqrt 2}
+    \ket{1}$.
+    $\ket{\psi} = \sqrt {\frac{1}{3}}\ket{0}-
+    \sqrt{\frac{2}{3}}\ket{1}$. Calculate $\bra{\phi}{\psi}\rangle$.
+      
+    \item Show that $X = \ket{0}\bra{1} + \ket{1}\bra{0}$. Express
+      $Y,Z$ in this outer product form too. Calculate
+      $\bra{1} X \ket{0}$ (using linearity).
+    \end{itemize}
+  \end{parts}
+
+  \question (Probability) Let $X,Y$ be random variables. $\E[\cdot]$
+  denotes expectation.
+
+  \begin{parts}
+    \part[3] Give an example of two random variables $X,Y$ such that
+    $\E[XY] \neq \E[X]\E[Y]$.
+
+    \part[5] Let $X$ be the number of \texttt{HEADS} after $n$ fair
+    coin tosses. Calculate $\E[X]$. (Hint: use linearity of
+    expectation)
+
+    \part[4] Let $X$ be as above. Show that
+    $\Pr[X\geq 0.6n] \leq 0.85$.
+
+    \part[6] Let $Y$ be the outcome of a \emph{biased} coin toss,
+    which lands on \texttt{HEADS} with probability $0.1$. Suppose one
+    makes multiple tosses independently. What is the probability that
+    one sees a \texttt{HEADS} at least once after $t$ tosses? Derive
+    the minimum number $t$ so that this probability is greater than
+    $0.99$.
+
+  \end{parts}
+  \question[10] (Birthday bound) Fix a positive integer $N$, and
+  $q\leq \sqrt{2N}$. Choose elements $y_1, \ldots, y_q$ uniformly and
+  independently at random from a set of size $N$. Show that the
+  probability that there exist distinct $i, j$ with $y_i = y_j$ is
+  $\Theta(q^2/N)$. (Note: you need to prove both lower and upper
+  bounds.)
+
+  
+  \question[8] (Asymptotic notations) In each of the following, answer
+  True or false.
+\begin{parts}
+  \part $ 1000 n^2 = O(.00001 n^{3})$.
+  \part $5\log^{23}n = o(n)$.
+  \part $e^n = \Omega(2^{n^2})$.
+  \part $100 n^3+10n+1 = \omega(n^{3.001})$.
+\end{parts}
+
+
+  \question[12] (Quantum states and gates) Let
+  $H = \frac{1}{\sqrt 2} \left(
+    \begin{array}{lr}
+      1 & 1\\
+      1 & -1
+    \end{array} \right)$ and $ H' = \frac{1}{\sqrt 2} \left(
+    \begin{array}{lr}
+      1 & i\\
+      i & 1
+    \end{array} \right)$. In each case, describe the
+  resulting state.  
+  \begin{parts}
+    \part Apply $H$ to the qubit
+    $\frac{1}{\sqrt 2} (\ket{0} + i \ket{1})$.
+    \part Apply $H$ to the first qubit of state $\frac{1}{\sqrt 2}
+      (\ket{00} + \ket{11})$.
+    \part Apply $H$ to both qubits of $\frac{1}{\sqrt 2}
+      (\ket{00} + \ket{11})$.
+    \part Apply $H'$ to both qubits of state
+      $\frac{1}{\sqrt 2} (\ket{00} + \ket{11})$.
+    \end{parts}
+
+\end{questions}
+
+
+\end{document}
