@@ -47,7 +47,7 @@ modified: <2019-01-14 Mon>
 
 ## Assignments
 
-*  Homework 1 [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw1.tex){:target="_blank"})], due 01/28/2019, before class. 
+*  Homework 1 [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw1.tex){:target="_blank"}], due 01/28/2019, before class. 
 *  Homework 2 [PDF,TEX], due xx/xx/2019, before class. 
 *  Homework 3 [PDF,TEX], due xx/xx/2019, before class. 
 *  Homework 4 [PDF,TEX], due xx/xx/2019, before class. 
