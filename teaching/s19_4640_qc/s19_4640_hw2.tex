@@ -1,0 +1,376 @@
+% Instructions: you don't need to change anything in the macros, but
+% feel free to define new commands as you wish. Starting from the main
+% body, change the specs (e.g., your
+% name). use \begin{solution} \end{solution} environment to write your
+% solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CSCE 440/640 Quantum Algorithms}
+\def\term{Texas A\&M U, Spring 2019}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill \textbf{#5}  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+\newcommand{\ex}[4]{\handout{#1}{#2}{#3}{#4}{Exercise #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\def\tr{\mathrm{tr}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\kera}[1]{\ket{#1}\bra{#1}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\complex}{\mathbb{C}}
+\newcommand{\integer}{\mathbb{Z}}
+\newcommand{\srd}[2]{\textsf{SR}_{#1}^{#2}(X)}
+\newcommand{\corr}[1]{{\color{blue}{#1}}}
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+%\studentfalse
+
+\def\issuedate{Jan. 28, 2019}
+\def\duedate{Feb. 13, 2019} % 
+\def\yourname{your name} % put your name here
+
+%------------------------------%
+\ifstudent
+\hw{2}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{2}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.} Only PDF format is accepted (type it
+or scan clearly). Your solutions will be graded on \emph{correctness}
+and \emph{clarity}. You should only submit work that you believe to be
+correct; if you cannot solve a problem completely, you will get
+significantly more partial credit if you clearly identify the gap(s)
+in your solution. For this problem set, a random subset of problems
+will be graded. Problems marked with ``\mG'' are required for graduate
+students. Undergraduate students will get bonus points for solving
+them.  \medskip
+
+\noindent You may collaborate with others on this problem set. 
+% and consult external sources.
+However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\begin{questions}
+  
+\question (Quantum states and gates)   
+\begin{parts}
+    \part[6] Let $X = \left(
+    \begin{array}{lr}
+      0 & 1\\
+      1 & 0
+    \end{array} \right)$ and $Z = \left(
+    \begin{array}{lr}
+      1 & 0\\
+      0 & -1
+    \end{array} \right)$.
+  \begin{enumerate}[label=\roman*)]
+    \item Suppose we have a qubit and we first apply $X$ and then
+      $Z$. Is it equivalent to first applying $Z$ and then $X$?
+    \item Suppose we have two qubits, and we apply $X$ to both and
+      then $Z$ to both. Is it equivalent to applying $Z$ to both and
+      then applying $X$ to both? Justify your answer. 
+    \end{enumerate}
+    \part[6] (SWAP gate) A SWAP gate takes two inputs $a$ and $b$ and
+    outputs $b$ and $a$; i.e., it swaps the values of two input
+    registers. Show how to build a SWAP gate using only CNOT gates.
+    (Hint: you’ll need 3 of them.)
+        \part[5] $\mG$ Show that every unitary one-qubit gate with real entries can
+    be written as a rotation matrix, possibly preceded and followed by
+    Z-gates. In other words, show that for every $2 \times 2$ real
+    unitary U, there exist signs $s_1, s_2, s_3 \in \{1, -1\}$ and
+    angle $\theta \in [0, 2\pi)$ such that
+
+    \begin{equation*}
+      U =  s_1   \left(\begin{array}{lr}
+      1 & 0\\
+      0 & s_2
+              \end{array} \right) \left( \begin{array}{lr}
+      \cos \theta & - \sin\theta\\
+      \sin\theta & \cos\theta
+                                         \end{array} \right) \left(    \begin{array}{lr}
+                                                                1 & 0\\
+                                                                0 & s_3
+                                                                       \end{array} \right) \, . 
+    \end{equation*}
+
+  \end{parts}
+  \question (Product states versus entangled states) In each of the
+  following, either express the 2-qubit state as a tensor product of
+  1-qubit states or prove that it cannot be expressed this way. 
+  \begin{parts}
+    \part[4] $\frac 1 2 \ket{00} + \frac 1 2 \ket{01} +\frac 1 2
+    \ket{10} - \frac{1}{2} \ket{11}$
+  \part[4]
+    $\frac{3}{4}\ket{00} + \frac{\sqrt 3}{4}\ket{01}+\frac{\sqrt
+      3}{4}\ket{10}+\frac{1}{4}\ket{11}$
+  \end{parts}
+
+  \question (Distinguishing states by local measurements) Suppose
+  Alice and Bob are physically separated from each other, and are each
+  given one of the qubits of some 2-qubit state. They are required to
+  distinguish between State I and State II with only local
+  measurements. Namely they can each perform a local (one-qubit)
+  unitary operation and then a measurement (in the computational
+  basis) of their own qubit. After their measurements, they can send
+  only classical bits to each other. (This is usually referred to as
+  LOCC: local operation and classical communication.)  In each case
+  below, either give a perfect distinguishing procedure (that never
+  errs) or explain why there is no perfect distinguishing procedure
+  (i.e., that for any procedure the success probability must be less
+  than 1).
+
+  \begin{parts}
+    \part[5] State I: $\frac{1}{\sqrt 2}(\ket{00} + \ket{11})$; State II: $\frac{1}{\sqrt 2}(\ket{01} + \ket{10})$ 
+    \part[5] State I: $\frac{1}{\sqrt 2} (\ket{00} + \ket{11})$; State
+    II: $\frac{1}{\sqrt 2} (\ket{00}-\ket{11})$
+    \part[5] \mG State I: $\frac{1}{\sqrt 2}(\ket{00} + i \ket{11})$;
+    State II: $\frac{1}{\sqrt 2}(\ket{00}-i\ket{11})$
+  \end{parts}
+
+\question (Linear algebra)
+  \begin{parts}
+  \part[15] (Tensor product)
+    \begin{enumerate}[label=\roman*)]
+    \item Show that
+      $(A \otimes B)\cdot (C \otimes D) = (AC) \otimes (BD)$.
+    \item Show that
+      $(A\otimes B)^\dagger = A^\dagger \otimes B^\dagger$.
+      \item If $A$ and $B$ are both invertible, show that so is
+        $A\otimes B$.
+      \item Show that
+        $(A\otimes B)^\dagger = A^\dagger \otimes B^\dagger$.
+      \item Show that if $A$ and $B$ are unitary matrices, then so is
+        $A \otimes B$.
+
+    \end{enumerate}
+
+  \part[6] Let $U=(v_1,\ldots,v_n)$ be a unitary matrix and each
+    $v_i\in\complex^n$.
+    \begin{enumerate}[label=\roman*)]
+    \item Show that $\{v_1,\ldots,v_n\}$ form an orthonormal basis of
+      $\complex^n$. 
+    \item Show that the eigenvalues of any unitary $U$ are of the form
+      $e^{i\theta}$ for some $\theta \in [0,2\pi)$.
+    \end{enumerate}    
+    \part[4] Show that for any $x\in \bit^n$,
+    $H^{\otimes n} \ket{x} = {\frac{1}{\sqrt{2^n}}}\sum_{y\in \bit^n} (-1)^{x\cdot
+      y}\ket{y}$. $x\cdot y : = \sum_{i = 1}^n x_iy_i$ is the dot
+    product over $\integer_2^n$.
+
+    \part[4] Let $x,y\in \bit^n$ and let $s = x\oplus y$. Show that
+    \begin{equation*}
+      H^{\otimes n} \frac{1}{\sqrt 2}(\ket{x} + \ket{y}) =
+      \frac{1}{\sqrt {2^{n-1}}}\sum_{z: z\cdot s = 0} (-1)^{x\cdot z}
+      \ket{z} \, .
+    \end{equation*}
+
+    % \part[5] Suppose that
+    %   $\ket{v_1}, \ket{v_2}, \ldots \ket{v_k} \in \complex^k$ form
+    %   an
+    %   orthonormal basis. Show that $\sum_{i=1}^k \ket{v_i}\bra{v_i}$
+    %   is
+    %   the identity matrix.
+
+  \part[8] For a vector $v = (v_0, \ldots, v_{k-1})\in \complex^k$,
+    let $\|v\|:=\sqrt{\sum_{i=0}^{k-1} |v_i|^2}$, which is the usual
+    Euclidean length of $v$. For any $k \times k$ matrix
+    $M\in \complex^{k\times k}$, define its \emph{spectral norm}
+    $\|M \|$ as $\|M\| = \max_{\ket{\psi}} \| M \ket{\psi}\|$, where
+    the maximum is taken over quantum states (i.e., vectors
+    $\ket{\psi}$ such that $\| \ket{\psi}\| = 1$).  Define the
+    distance between two $k \times k$ unitary matrices $M_1$ and $M_2$
+    as $\|M_1 - M_2\|$. Show that
+    \begin{enumerate}[label=\roman*)]
+    \item $\|A - B\| \leq \|A - C\| + \| C - B \|$, for any three
+      $k \times k$ matrices A, B, and C. (Namely, this distance
+      measure satisfies the \emph{triangle inequality}.)
+    \item Show that, for any two $k \times k$ unitary matrices $U_1$
+      and $U_2$, and any matrix $A$, $\|U_1AU_2\| = \|A\|$.
+    \end{enumerate}
+  \end{parts}
+
+\question (Errors in randomized algorithms) Suppose you want to write
+  a computer program $C$ to compute a Boolean function
+  $f: \{0, 1\}^n \to \{0, 1\}$, mapping $n$ bits to 1 bit. If $C$ is a
+  deterministic algorithm, then ``$C$ successfully computes $f$'' has
+  a clear meaning that that $C(x) = f(x)$ for all inputs
+  $x \in \bit^n$. But what if $C$ is a probabilistic algorithm?
+
+  \begin{parts}
+  \part[8] The best thing is if $C$ is a \emph{zero-error} algorithm with
+    failure probability $p$. Namely
+    \begin{itemize}
+    \item on every input $x$, the output of $C(x)$ is either $f(x)$ or
+      $\perp$ (denoting failure).
+    \item on every input $x$ we have $\Pr[C(x) = \perp] \leq p$
+      (NB. the probability is only over the internal randomness of
+      $C$, not the random choice of $x$.).
+    \end{itemize}
+
+    \begin{enumerate}[label=\roman*)]
+    \item If you have a zero-error algorithm $C$ for $f$ with failure
+      probability $90\%$,
+      show how to convert it to a zero-error algorithm $C'$ with
+      failure probability at most $2^{-500}$. The ``slowdown'' should
+      only be a factor of a few thousand.
+    \item Alternatively, show how to convert $C$ to an algorithm $C''$
+      for $f$ which: (i) always outputs the correct answer, meaning
+      $C''(x) = f(x)$ for all $x$; (ii) has expected running time only
+      a few powers of 2 worse than that of $C$. (Hint: look up the
+      mean of a geometric random variable.)
+    \end{enumerate}
+  \part[5] The second best thing is if $C$ is a one-sided error algorithm
+    for $f$, with failure probability $p$.  There are two kinds of
+    such algorithms, ``no-false-positives'' and
+    ``no-false-negatives''. For simplicity, let’s just consider ``no
+    false-negatives'' (the other case is symmetric);
+    \begin{itemize}
+    \item on every input $x$, the output $C(x)$ is either $0$ or $1$;
+    \item on every input $x$ such that $f(x) = 1$, the output $C(x)$
+      is also 1;
+    \item on every input $x$ such that $f(x) = 0$, we have
+      $\Pr[C(x) = 1] \leq p$. 
+    \end{itemize}
+
+    Show how to convert a no-false-negatives algorithm $C$ for $f$
+    with failure probability $90\%$ to another no-false-negatives
+    algorithm $C'$ for $f$ with failure probability at most
+    $2^{-500}$. The ``slowdown'' should only be a factor of a few
+    thousand.
+
+  \part[5] The third possibility (which is rare in practice) is if $C$ is
+    a two-sided error algorithm for $f$, with failure probability
+    $p$. Namely,
+    \begin{itemize}
+  \item on every input $x$, the output $C(x)$ is either 0 or 1.
+  \item on every input $x$, we have $\Pr[C(x) \neq f(x)] \leq p$. 
+  \end{itemize}
+
+  If you have a two-sided error algorithm $C$ for $f$ with failure
+  probability $40\%$, show how to convert it to a two-sided error
+  algorithm $C'$ for $f$ with failure probability at most $2^{-500}$.
+  The “slowdown” should only be a factor of a few dozen
+  thousand. (Hint: look up the Chernoff bound.)
+  \end{parts}
+
+  \question (Simple search algorithms) In the context of this
+  question, we are interested in exact solutions (with failure
+  probability zero).
+
+  \begin{parts}
+    \part[6] (1-out-of-4 search) Consider a black-box function
+    $f:\bit^2 \to \bit$ with the property that there is a unique
+    $x\in \bit^{\corr{2}}$ such that $f(x) = 1$ and the goal is to
+    determine $x$. How many classical queries are necessary to solve
+    this problem? Design a quantum algorithm that finds $x$ using 1
+    quantum query.
+    \part[6] \mG (2-out-of-4 search) Given a black-box for a function
+    $f:\bit^2 \to \bit$ with exactly two $x\in \bit^2$ such that
+    $f(x) = 1$ and the goal is to determine both $x$'s. Prove that 3
+    classical queries are necessary to solve this problem and that 2
+    quantum queries are sufficient to solve this problem.
+  \end{parts}
+
+\question (Simulating classical circuits) Let $f: \bit^2 \to \bit^2$
+  be a function such that $f(ab) = 0$ if $a=b=1$ and $f(ab) =1$
+  otherwise.
+  \begin{parts}
+    \part[3] Design a circuit using your favorite gate set (e.g., AND,
+    OR, NOT) to compute $f$.
+    \part[3] Turn your circuit into a reversible circuit using Toffoli
+    gate $T: a,b,c \mapsto a,b,a\wedge b \oplus c$ and other
+    reversible gates. You may need to introduce ancilla bits
+    \part[4] Turn your reversible circuit into a unitary quantum
+    circuit that implements the unitary
+    $U_f: \ket{x}\ket{y} \mapsto \ket{x}\ket{f(x)\oplus y}$. 
+  \end{parts}
+
+\question (Playing with quantum circuits)
+
+  \begin{parts}
+
+  \part (Exercise) Play around both the graphic composer and QASM
+    editor
+    \href{https://quantumexperience.ng.bluemix.net/qx/editor}{IBM Q
+      experience} (or some other tools, e.g.,
+    \href{https://www.quantum-quest.nl/quirky/}{Quirky} and
+    \href{http://www.quantumplayground.net/#/playground/5080491044634624}{Quantum
+      playground}). Test the teleportation protocol.
+  \part[10] Determine the behavior of the following quantum circuit by
+    implementing it (in graphic interface or programming it):
+        \begin{figure}[ht]
+          \centerline{ \Qcircuit @C=1em @R=0.75em {
+              & \qw & \qw & \qw & \ctrl{2} & \qw&\qw&\qw&
+              \ctrl{2}&\qw&\ctrl{1}& \qw &\ctrl{1}& \gate{T} &\qw \\
+              & \qw & \ctrl{1} & \qw & \qw & \qw & \ctrl{1} &\qw &\qw
+              & \gate{T^\dagger} & \targ & \gate{T^\dagger} & \targ
+              &\gate{S} & \qw\\
+              & \gate{H} & \targ & \gate{T^\dagger} & \targ & \gate{T}
+              & \targ &\gate{T^\dagger} & \targ & \gate{T} & \gate{H}
+              &\qw & \qw & \qw &\qw }}
+\end{figure}
+    You’ll want to precede this circuit by all 8 possible ways of
+    doing or not doing NOT gates on the relevant 3 qubits, so as to
+    see what this circuit does to each of the basic states
+    $\ket{000},\ket{001}, \ldots, \ket{111}$. 
+  \end{parts}
+\question (Watch in your leisure time. No grades.)
+  \begin{parts}
+  \part \href{https://www.youtube.com/watch?v=dzKWfw68M5U}{Many Worlds
+      Interpretation}.
+  \part
+    \href{https://www.youtube.com/watch?v=YCPnXtk8bMw&index=24&list=PLm3J0oaFux3aafQm568blS9blxtA_EWQv}{Fast
+      Fourier Transform}.
+  \part The enormity of the
+    \href{https://www.youtube.com/watch?v=S9JGmA5_unY}{number
+      $2^{256}$}.
+  \end{parts}
+\end{questions}
+\end{document}
+
+
