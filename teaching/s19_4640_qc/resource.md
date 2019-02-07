@@ -3,7 +3,7 @@ layout: course
 courseid: s19 440/640
 desc: Resource
 permalink: /teaching/s19_4640_qc/resource/
-title: (Spring 2018) CS 440/640 Quantum Algorithms
+title: (Spring 2019) CS 440/640 Quantum Algorithms
 modified: <2019-01-10 Thu>
 ---
 ## Main materials for this course
