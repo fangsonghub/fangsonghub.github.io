@@ -116,7 +116,7 @@ unique feature in quantum theory, in the language of entropy.
    Some fascinating connection of quantum information to the theory of
    **black holes**.
 
-### Quantum 
+### Quantum-safe cryptography 
 
 
 ### Programming quantum computers
