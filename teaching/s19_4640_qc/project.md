@@ -24,9 +24,11 @@ including open problems.
    computing in your own research area. Be _creative_ and keep a
    _critical_ mind. 
 *  _quantum programming_. Implement some quantum algorithms and
-   protocols in quantum programming platforms (e.g., Q#,Quirky,IBM
-   QISKIT), and go beyond by optimizing the circuit, estimating the
-   cost, and testing variations (e.g., robustness against noise).
+   protocols in quantum programming platforms (e.g.,
+   [Q#](https://www.microsoft.com/en-us/quantum/development-kit),[Quirky](https://www.quantum-quest.nl/quirky/),[IBM
+   QISKIT](https://qiskit.org/)), and go beyond by optimizing the
+   circuit, estimating the cost, and testing variations (e.g.,
+   robustness against noise).
 
 ### Specs
 *  **Proposal**: 1-2 pages consisting of 1) the topic, background,
@@ -73,9 +75,9 @@ general TCS conferences (e.g., [STOC](http://acm-stoc.org/),
 
 ### More quantum algorithms
 
-* [[CvD07](https://arxiv.org/abs/quant-ph/0507190)] Approaches a
-  generalized hidden-shift problem by the _pretty-good-measurement_
-  technique.
+* [[CvD07](https://arxiv.org/abs/quant-ph/0507190),[IPS18](https://arxiv.org/abs/1806.09660)]
+  Generalized hidden-shift problem via various techinques (e.g.,
+  _pretty-good-measurement_).
 * [[BKL+18](https://arxiv.org/abs/1710.02581),[AG18](https://arxiv.org/abs/1804.05058)]
   Quantum algorithms for solving semi-definite programs, a central
   problem in convex optimization.
@@ -84,10 +86,10 @@ general TCS conferences (e.g., [STOC](http://acm-stoc.org/),
   algorithmic techniques.
 * [[CKS15](https://arxiv.org/abs/1511.02306)] Improves HHL's quantum
   algorithms for solving linear systems.
-* [[AW17](https://arxiv.org/abs/1701.06806)] A Survey of quantum
-  learning theory.
-* [[LMR14](https://arxiv.org/abs/1307.0401)] Quantum algorithm for
-  a central machine-learning task: _principal component analysis_.
+* [[FG14](https://arxiv.org/abs/1411.4028)] _Quantum Approximate Optimization Algorithm_ (QAOA).
+* [[AW17](https://arxiv.org/abs/1701.06806),[LMR14](https://arxiv.org/abs/1307.0401)]
+  Quantum algorithms for machine learning, e.g., _principal component
+  analysis_.
 * [[Tang18](https://arxiv.org/abs/1807.04271),[CLLW19](https://arxiv.org/abs/1901.03254)]
   Tang's novel idea enables efficient classical algorithms (in a
   non-standard model) for recommendation systems and other problems,
@@ -103,7 +105,10 @@ of quantum attacks?
   One central quantum lower-bound technique: _polynomial method_.
 * [[HLS07](https://arxiv.org/abs/quant-ph/0611054),[Reichardt11](https://arxiv.org/abs/1005.1601)]
   Another central quantum lower-bound technique: _adversary method_. 
-
+* [[JJUW09](https://arxiv.org/abs/0907.4737)] QIP = PSPACE
+  (=IP). Quantum interactive proof systems turn out to assume the same
+  power of classical IP, but still with unique properties.
+  
 ### Quantum information theory
 
 * [[CBTW15](https://arxiv.org/abs/1511.04857)] Uncertainty relation, a
@@ -117,14 +122,37 @@ unique feature in quantum theory, in the language of entropy.
    **black holes**.
 
 ### Quantum-safe cryptography 
+*  [[PQC](https://pqcrypto.org/),[ToB18](https://blog.trailofbits.com/2018/10/22/a-guide-to-post-quantum-cryptography/)]
+   Securing classical cryptography against quantum attacks, known as
+   _post-quantum cryptography_.
+*  [[Urmila18](https://arxiv.org/abs/1708.02130)] Homomorphic
+   encryption that admit evaluation of quantum circuits. A novel idea
+   that also lead to breakthrough results by the same author. 
+*  [[Zhandry18](https://eprint.iacr.org/2017/1080)] A unique quantum
+   primitive, quantum lightening, with applications in quantum
+   money. Can you construct it from other problems?
+*  [[DPVR12](https://epubs.siam.org/doi/10.1137/100813683)] Making
+   randomness extractors secure against _quantum side information_.
 
-
-### Programming quantum computers
-
+### Programming and simulating quantum computers
+*  [[Urmila18](https://arxiv.org/abs/1804.01082)] Implement a protocol
+   for verifying a server's _quantumness_. Optimize the quantum
+   circuit by some tool for circuit synthesis
+   (Cf. [MM16](https://iopscience.iop.org/article/10.1088/2058-9565/1/1/015003/meta)).
+*  [[HM17](https://arxiv.org/abs/1809.07442),[FH16](https://arxiv.org/abs/1602.07674),[CZH+18](https://arxiv.org/abs/1805.01450)]
+   Test (on a small scale) proposals for "quantum supremacy", and
+   compare with simulations on classical computers.
+*  [[KLLNP16](https://arxiv.org/abs/1602.05973),[GM19](https://scirate.com/arxiv/1902.02332)]
+   Simon's algorithm can break some symmetric-key cryptosystems. Can
+   you demonstrate some toy example? 
 
 ### Clearing up the folklores 
-*  [[]()] Hidden subgroup problem on $$\mathbb{Z}^n$$. It can be
-   solved by a more general algorithm in [EHKS14](). Can you solve it
-   by reducing to HSP on $$\mathbb{Z}$$ (one-dimensional, i.e., Shor's
-   algorithm)? 
-*  TBC
+*  [[Shor97](https://epubs.siam.org/doi/10.1137/S0097539795293172),[Childs](https://www.cs.umd.edu/~amchilds/teaching/w13/l04.pdf)]
+   Shor's algorithm can be seen as period finding over $$\mathbb{Z}$$.
+   Can you extend to high dimensions, i.e., $$\mathbb{Z}^n$$ by
+   reducing it to the one-dimensional case?  Note that period finding
+   over $$\mathbb{Z}^n$$ can also be solved as a special case of a
+   more general problem in
+   [EHKS14](https://dl.acm.org/citation.cfm?id=2591860).
+   
+*  More to come ... 
