@@ -5,8 +5,10 @@ desc: Project
 permalink: /teaching/s19_4640_qc/project/
 title: (Spring 2019) CS 440/640 Quantum Algorithms
 subtitle: Project
-modified: <2019-02-05 Tue>
+modified: <2019-02-12 Tue>
 ---
+* Table of Contents
+{:toc}
 
 ## Instructions
 
@@ -26,7 +28,7 @@ including open problems.
 *  _quantum programming_. Implement some quantum algorithms and
    protocols in quantum programming platforms (e.g.,
    [Q#](https://www.microsoft.com/en-us/quantum/development-kit),[Quirky](https://www.quantum-quest.nl/quirky/),[IBM
-   QISKIT](https://qiskit.org/)), and go beyond by optimizing the
+   QISKIT](https://qiskit.org/),[RigettiForest](https://www.rigetti.com/forest)), and go beyond by optimizing the
    circuit, estimating the cost, and testing variations (e.g.,
    robustness against noise).
 
@@ -45,7 +47,7 @@ including open problems.
    1) a short abstract; 2) an introduction that motivates the
    topic/problem and gives an overview of the entire report; 3)
    details including proper preliminary materials (e.g., notations &
-   defintions), explaning some main technical results; and finally 4)
+   definitions), explaining some main technical results; and finally 4)
    further discussion and open questions.
 *  **Report format**: I recommend you to typeset your reports in
    **LaTeX**, and manage your bibliography using BibTeX. The [resource
@@ -56,7 +58,7 @@ including open problems.
 ### Timeline (Tentative)
 *  **Week 1 & 3**: forming groups.
 *  **Week 4 & 5**: discussing project ideas.
-*  **February 18**: proposal due before class.
+*  **February 18**: proposal due, 11:59pm anytime on Earth. 
 *  **Week 14-15**: in-class presentations. 
 *  **May 03**: final report due, 11:59pm anytime on Earth. 
 
@@ -76,7 +78,7 @@ general TCS conferences (e.g., [STOC](http://acm-stoc.org/),
 ### More quantum algorithms
 
 * [[CvD07](https://arxiv.org/abs/quant-ph/0507190),[IPS18](https://arxiv.org/abs/1806.09660)]
-  Generalized hidden-shift problem via various techinques (e.g.,
+  Generalized hidden-shift problem via various techniques (e.g.,
   _pretty-good-measurement_).
 * [[BKL+18](https://arxiv.org/abs/1710.02581),[AG18](https://arxiv.org/abs/1804.05058)]
   Quantum algorithms for solving semi-definite programs, a central
@@ -94,6 +96,7 @@ general TCS conferences (e.g., [STOC](http://acm-stoc.org/),
   Tang's novel idea enables efficient classical algorithms (in a
   non-standard model) for recommendation systems and other problems,
   inspired by quantum algorithms.
+* [[LGNR18](https://arxiv.org/abs/1810.10838)] Quantum advantage in distributed computing. 
 
 ### Quantum complexity
 
@@ -145,8 +148,9 @@ unique feature in quantum theory, in the language of entropy.
 *  [[KLLNP16](https://arxiv.org/abs/1602.05973),[GM19](https://scirate.com/arxiv/1902.02332)]
    Simon's algorithm can break some symmetric-key cryptosystems. Can
    you demonstrate some toy example? 
+*  Some tools on optimizing reversible/quantum circuit: [[RevKit](https://msoeken.github.io/revkit.html),[Feynman](https://github.com/meamy/feynman)]
 
-### Clearing up the folklores 
+### Clearing up the folklore 
 *  [[Shor97](https://epubs.siam.org/doi/10.1137/S0097539795293172),[Childs](https://www.cs.umd.edu/~amchilds/teaching/w13/l04.pdf)]
    Shor's algorithm can be seen as period finding over $$\mathbb{Z}$$.
    Can you extend to high dimensions, i.e., $$\mathbb{Z}^n$$ by

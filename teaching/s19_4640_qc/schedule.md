@@ -4,7 +4,7 @@ title: (Spring 2019) CS 440/640 - Quantum Algorithms
 courseid: s19 440/640
 desc: Schedule
 permalink: /teaching/s19_4640_qc/schedule/
-modified: <2019-02-04 Mon>
+modified: <2019-02-12 Tue>
 ---
 
 ## Schedule (subject to change)
@@ -19,8 +19,8 @@ modified: <2019-02-04 Mon>
 || W,01/30 | Reversible computation, quantum circuit | Watrous Lec7 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/07.pdf){:target="_blank"} <br> KLM 1.5,4 |
 |4| M,02/04 | Partial measurement <br> Superdense coding | Watrous Lec3 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/03.pdf){:target="_blank"} <br> KLM 5.1| 
 || W,02/06 | Teleportation <br> Deutsch's algorithm <br> Guest Lecturer: Ben Hamlin | Watrous Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"} <br> KLM 5.2,6.3|
-|5| M,02/11| Deutsch-Josza algorithms <br> Simon's Algorithm | Watrous Lec5 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/05.pdf){:target="_blank"} <br> KLM 6.4 |
-|| W,02/13 | Simon's Algorithm cont'd | Watrous Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"} <br> KLM 6.5|
+|5| M,02/11| Deutsch-Josza algorithms | Watrous Lec5 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/05.pdf){:target="_blank"} <br> KLM 6.4 |
+|| W,02/13 | Simon's Algorithm | Watrous Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"} <br> KLM 6.5|
 |6| M,02/18 |  <br> Phase estimation | Watrous Lec8 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"} <br> Vazirani Lec12 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/phase.pdf){:target="_blank"}|
 ||W,02/20 | Phase estimation cont'd <br> quantum Fourier transform | Watrous Lec9 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/9.pdf){:target="_blank"} <br> KLM 7.1|
 |7| M,02/25 | Order finding | Watrous Lec10 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/10.pdf){:target="_blank"} <br> KLM 7.3 | 
