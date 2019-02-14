@@ -142,7 +142,7 @@ unique feature in quantum theory, in the language of entropy.
    for verifying a server's _quantumness_. Optimize the quantum
    circuit by some tool for circuit synthesis
    (Cf. [MM16](https://iopscience.iop.org/article/10.1088/2058-9565/1/1/015003/meta)).
-*  [[HM17](https://arxiv.org/abs/1809.07442),[FH16](https://arxiv.org/abs/1602.07674),[CZH+18](https://arxiv.org/abs/1805.01450)]
+*  [[HM17](https://arxiv.org/abs/1809.07442),[FH16](https://arxiv.org/abs/1602.07674),[CZH+18](https://arxiv.org/abs/1805.01450),[QWE19](https://arxiv.org/abs/1902.02359)]
    Test (on a small scale) proposals for "quantum supremacy", and
    compare with simulations on classical computers.
 *  [[KLLNP16](https://arxiv.org/abs/1602.05973),[GM19](https://scirate.com/arxiv/1902.02332)]
@@ -158,5 +158,11 @@ unique feature in quantum theory, in the language of entropy.
    over $$\mathbb{Z}^n$$ can also be solved as a special case of a
    more general problem in
    [EHKS14](https://dl.acm.org/citation.cfm?id=2591860).
-   
+*  [[Cleve11](https://cs.uwaterloo.ca/~cleve/courses/F11CS667/SimonClassicalLB.pdf),[KNP05](https://arxiv.org/abs/quant-ph/0501060)]
+   Exact lower bounds for Simon's problem, on probabilistic and
+   quantum computers. Bounding the success probability given a fixed
+   number of queries.
+*  [[BSS03](https://www.computer.org/csdl/proceedings/ccc/2003/1879/00/18790179.pdf)]
+   Workspace in a quantum query algorithm. Does more space give you
+   more power?
 *  More to come ... 
