@@ -4,7 +4,7 @@ title: (Spring 2019) CS 440/640 - Quantum Algorithms
 courseid: s19 440/640
 desc: Schedule
 permalink: /teaching/s19_4640_qc/schedule/
-modified: <2019-02-12 Tue>
+modified: <2019-02-18 Mon>
 ---
 
 ## Schedule (subject to change)
@@ -22,7 +22,7 @@ modified: <2019-02-12 Tue>
 |5| M,02/11| Deutsch-Josza algorithms | Watrous Lec5 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/05.pdf){:target="_blank"} <br> KLM 6.4 |
 || W,02/13 | Simon's Algorithm | Watrous Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"} <br> KLM 6.5|
 |6| M,02/18 |  <br> Phase estimation | Watrous Lec8 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"} <br> Vazirani Lec12 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/phase.pdf){:target="_blank"}|
-||W,02/20 | Phase estimation cont'd <br> quantum Fourier transform | Watrous Lec9 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/9.pdf){:target="_blank"} <br> KLM 7.1|
+||W,02/20 | Phase estimation cont'd <br> quantum Fourier transform | Watrous Lec9 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"} <br> KLM 7.1|
 |7| M,02/25 | Order finding | Watrous Lec10 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/10.pdf){:target="_blank"} <br> KLM 7.3 | 
 ||W,02/27 | Quantum factorization algorithm | Watrous Lec11 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/11.pdf){:target="_blank"} <br> Vazirani Lec8 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/factoring1.pdf){:target="_blank"} | 
 |8| M,03/04 |Grover's algorithm | Watrous Lec12 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/12.pdf){:target="_blank"} <br> KLM 8.1|
