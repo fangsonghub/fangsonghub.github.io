@@ -49,7 +49,9 @@ modified: <2019-02-18 Mon>
 
 *  Homework 1 [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw1.tex){:target="_blank"}], due 01/28/2019, before class. 
 *  Homework 2 [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw2.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw2.tex){:target="_blank"}], due 02/13/2019, before class. 
-*  Homework 3 [PDF,TEX], due xx/xx/2019, before class. 
+*  Homework 3
+   [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw3.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw3.tex){:target="_blank"}],
+   due 03/06/2019, before class.
 *  Homework 4 [PDF,TEX], due xx/xx/2019, before class. 
 *  Homework 5 [PDF,TEX], due xx/xx/2019, before class. 
 *  Midterm Exam [PDF,TEX], due xx/xx/2019, before class. 

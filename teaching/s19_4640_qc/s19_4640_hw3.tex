@@ -1,0 +1,338 @@
+% Instructions: you don't need to change anything in the macros, but
+% feel free to define new commands as you wish. Starting from the main
+% body, change the specs (e.g., your
+% name). use \begin{solution} \end{solution} environment to write your
+% solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CSCE 440/640 Quantum Algorithms}
+\def\term{Texas A\&M U, Spring 2019}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill \textbf{#5}  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+\newcommand{\ex}[4]{\handout{#1}{#2}{#3}{#4}{Exercise #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\def\tr{\mathrm{tr}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\kera}[1]{\ket{#1}\bra{#1}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\complex}{\mathbb{C}}
+\newcommand{\integer}{\mathbb{Z}}
+\newcommand{\srd}[2]{\textsf{SR}_{#1}^{#2}(X)}
+\newcommand{\corr}[1]{{\color{blue}{#1}}}
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+%\studentfalse
+
+\def\issuedate{Feb. 18, 2019}
+\def\duedate{March 6, 2019, before class} % 
+\def\yourname{your name} % put your name here
+
+%------------------------------%
+\ifstudent
+\hw{3}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{3}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.} Only PDF format is accepted (type it
+or scan clearly). Your solutions will be graded on \emph{correctness}
+and \emph{clarity}. You should only submit work that you believe to be
+correct; if you cannot solve a problem completely, you will get
+significantly more partial credit if you clearly identify the gap(s)
+in your solution. For this problem set, a random subset of problems
+will be graded. Problems marked with ``\mG'' are required for graduate
+students. Undergraduate students will get bonus points for solving
+them.  \medskip
+
+\noindent You may collaborate with others on this problem set. 
+% and consult external sources.
+However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\begin{questions}
+  
+\question (Linear algebra modulo 2) The integers modulo 2 constitute
+a field $F_2$: a set of numbers (namely 0 and 1) for which all the
+standard operations of plus, minus, times, and division-by-nonzero
+work as expected. The set of all $n$-dimensional vectors in this case
+is denoted $F_2^n$. (Other examples of fields include the real
+numbers, the complex numbers, the rational numbers, and the integers
+modulo p whenever p is prime. Also, you are most likely used to the
+cases $R^n$ and $C^n$, when the scalars are reals and complexes,
+respectively.)
+
+\begin{parts}
+  \part[5] Show that it is possible that $u\cdot u = 0$ for some
+  $u\neq 0$, where $u\cdot v:= \sum_{i=1}^n u_i v_i \pmod 2$ is the
+  ``dot product'' in $F_2^n$. Is this possible in $R^n$ with the usual
+  inner product?
+  \part[5] Recall that a set of vectors $u_1,\ldots, u_k$ is said to be
+  linearly independent if the only linear combination
+  $c_1u_1 + \ldots + c_k u_k$ that equals 0 is the trivial one with
+  $c_1 = c_2 = \ldots = c_k = 0$. The \emph{span} (set of all linear
+  combinations) of $k$ linearly independent vectors is called a
+  $k$-dimensional subspace. Show that in $F_2^n$ , every k-dimensional
+  subspace contains exactly $2^k$ vectors.
+
+  \part[5] Consider a system of equations $Ax = 0$ (where
+  $A \in F_2^{ m\times n}$ is a matrix and $x$ is a vector of $n$
+  unknowns). Show that the set of solutions $x$ to $Ax = 0$ forms a
+  subspace of dimension equal to $n - r$, where $r$ is the maximum
+  size of a linearly independent set of rows of $A$.
+  \part[5] For a more general system $Ax = b$ for some fixed
+  $b\in F_2^n$, prove that either there is no solution, or else there
+  are $2n - r$ solutions. Again $r$ is the maximum size of a linearly
+  independent set of rows of $A$.
+\end{parts}
+
+\question (Deferred measurement) We will show that if one has a
+  quantum circuit with partial measurement gates in the middle, one
+  can replace it with an equivalent quantum in which all the
+  measurement gates are at the end without incurring much loss in
+  efficiency.
+
+  Consider an $n$-qubit quantum circuit, and assuming the first
+  intermediate measurement gate is applied to the 1st qubit at time
+  step $t$. Let $\ket{\psi_i}$ denote the quantum state just prior to
+  time $t$. Recall when the measurement is applied, two things happen:
+  First, one classical bit of information $b$ appears on the
+  measurement gate's readout. Second, the state collapses according to
+  the usual rules.
+
+  \begin{parts}
+  \part[5] Now we start to make a new circuit. We introduce a new
+    $(n + 1)$st qubit, initialized in $\ket{0}$. Second, we replace
+    the measurement gate on qubit \#1 at time t with a CNOT gate whose
+    control qubit is \#1 and whose target qubit is \#$(n +
+    1)$. Finally, we immediately apply a measurement gate to the
+    $(n + 1)$st qubit, and treat its readout as ``b''. Assume we then
+    henceforth ignore the (n + 1)st qubit. Show that this gives an
+    exact simulation of the original circuit’s
+    operation.
+
+    Note that since Operations on disjoint sets of qubits commute
+    (Cf. HW2 Problem 4a), we can imagine that instead of measuring it
+    immediately (just after time $t$), we instead delay its
+    measurement to the very end of the computation. In this way, we’ve
+    effectively deferred the first intermediate measurement of the
+    quantum circuit to the end. By repeating this for all intermediate
+    measurement gates, we can always move all measurement gates to the
+    end (at the cost of adding one extra qubit and CNOT each time).
+
+  \part (Bonus 5 pts) A curious reader may ask, what if I needed the
+    measurement outcome ``b'' to decide the next operation (e.g.,
+    apply $X$ on 5th qubit if $b=1$ and $H$ on 7th qubit if $b=0$) in
+    the original circuit?  Now that the measurement gets delayed, how
+    can I proceed? Help the reader resolve this, and estimate the
+    cost. 
+    
+  \end{parts}
+
+\question (Semi-classical quantum Fourier transform) If we will
+measure right after the QFT, then we can construct a simpler circuit
+with 1-qubit gates only.
+
+\begin{parts}
+  \part[5] For $k>0$, let \begin{equation*}
+    R_k = \left(
+    \begin{array}{cc c c}
+      1 & 0 &0 &0\\
+      0 & 1 &0 &0 \\
+      0 & 0 & 1& 0 \\
+      0 & 0 & 0 & e^{2\pi i /{2^k}} 
+    \end{array} \right)   
+    \end{equation*}
+    be a two-qubit controlled phase gate. Show that it is symmetric,
+    i.e., it gives the same operation if you reverse the control and
+    target qubits.
+    \part[10] Recall the QFT circuit (Fig.~\ref{fig:qft}), where $R_k$ is
+    as above.
+      \begin{figure}[ht]
+        \centerline{ \Qcircuit @C=1em @R=0.75em {
+            \lstick{\ket{x_{n-1}}}   &   \gate{H}  &   \gate{R_2}   &   \cdots  &  \gate{R_{n-1}}      &   \gate{R_{n}}   &   \qw        &   \qw           &   \qw      &   \qw           &   \qw        &   \qw     &   \qw           &   \qw        &   \rstick{\ket{y_0}} \qw       \\
+            \lstick{\ket{x_{n-2}}}   &   \qw       &   \ctrl{-1}     &   \qw           &   \qw      &   \qw           &   \gate{H}   &   \cdots   &   \gate{R_{n-2}}    &   \gate{R_{n-1}}   &   \qw        &   \qw     &   \qw           &   \qw        &   \rstick{\ket{y_1}} \qw       \\
+            \lstick{\vdots } & & & \ddots & & & & \ddots & & & \ddots
+            & &
+            &              &   \rstick{\vdots }             \\
+            \lstick{\ket{{x_1}}}   &   \qw       &   \qw           &   \qw    &   \ctrl{-3}      &  \qw            &   \qw        &   \qw     &   \ctrl{-2} &   \qw           &   \qw   &   \gate{H}    &   \gate{R_2}   &   \qw        &   \rstick{\ket{{y_{n-2}}}} \qw       \\
+            \lstick{\ket{x_{0}}} & \qw & \qw & \qw & \qw & \ctrl{-4} &
+            \qw & \qw & \qw & \ctrl{-3} & \qw & \qw & \ctrl{-1} &
+            \gate{H} & \rstick{\ket{y_{n-1}}} \qw } }
+\caption{QFT circuit in $\mathbb{Z}_{2^n}$.}
+\label{fig:qft}
+\end{figure}
+Because of part a), we get an equivalent circuit below by flipping the
+control and target qubits of each phase gate (Fig.~\ref{fig:qftr}).
+\begin{figure}[ht!]
+  \centerline{ \Qcircuit @C=1em @R=0.75em {
+      \lstick{\ket{x_{n-1}}}   &   \gate{H}  &   \ctrl{1}   &   \cdots   &   \ctrl{3}      &   \ctrl{4}  &   \qw        &   \qw           &   \qw      &   \qw           &   \qw        &   \qw     &   \qw           &   \qw        &   \rstick{\ket{y_0}} \qw       \\
+      \lstick{\ket{x_{n-2}}}   &   \qw       &   \gate{R_2}     &   \qw           &   \qw      &   \qw           &   \gate{H}   &   \cdots   &   \ctrl{2}      &   \ctrl{3}  &   \qw        &   \qw     &   \qw           &   \qw        &   \rstick{\ket{y_1}} \qw       \\
+      \lstick{\vdots } & & & \ddots &  & & & \ddots &  & &\ddots &  &
+      &              &   \rstick{\vdots }             \\
+      \lstick{\ket{{x_1}}}   &   \qw       &   \qw           &   \qw
+      &   \gate{R_{n-1}}      &  \qw            &   \qw        &   \qw
+      &   \gate{R_{n-2}}      &   \qw           &   \qw    &   \gate{H}     &   \ctrl{1}   &   \qw        &   \rstick{\ket{{y_{n-2}}}} \qw       \\
+      \lstick{\ket{x_{0}}} & \qw & \qw & \qw & \qw & \gate{R_n} & \qw
+      & \qw & \qw & \gate{R_{n-1}} & \qw & \qw & \gate{R_2} & \gate{H}
+      & \rstick{\ket{y_{n-1}}} \qw } }
+\caption{QFT circuit in $\mathbb{Z}_{2^n}$.}
+\label{fig:qftr}
+\end{figure}
+
+Note that on all wires, the qubits' lifetimes end by being control
+bits. Show that we will obtain equivalent results if we measure each
+qubit after its Hadamard gate, then use the outcome to
+\emph{classically} control whether or not to apply the phase gate, as
+in Fig.~\ref{fig:qftsc}.
+
+\begin{figure}[ht!]
+  \centerline{ \Qcircuit @C=1em @R=0.75em {
+      \lstick{\ket{x_{n-1}}}   &   \gate{H}  &   \meter  & \qw    &   \qw        &   \qw           &   \qw      &   \qw           &   \qw        &   \qw     &   \qw           &   \qw        &   \rstick{{y_0}} \qw       \\
+      \lstick{\ket{x_{n-2}}}   &   \qw       &   \qw     &   \gate{R_2^{y_0}}     &   \gate{H}   &   \meter   &   \qw      &   \qw  &   \qw        &   \qw     &   \qw           &   \qw        &   \rstick{{y_1}} \qw       \\
+      \lstick{\vdots } & & & \vdots & & & & & \vdots & &
+      &              &   \rstick{\vdots }             \\
+      \lstick{\ket{{x_1}}}   &   \qw       &   \qw           &
+      \gate{R_{n-1}^{y_0}}     &     \qw        &   \qw     &
+      \gate{R_{n-2}^{y_1}}      &   \cdots   &   \gate{H}   &   \meter
+      &   \qw    &  \qw &  \rstick{{{y_{n-2}}}} \qw       \\
+      \lstick{\ket{x_{0}}} & \qw & \qw & \gate{R_n^{y_0}} & \qw & \qw
+      & \gate{R_{n-1}^{y_1}} & \qw  & \qw & \qw & \gate{R_2^{y_{n-2}}} & \gate{H} &
+      \meter & \rstick{y_{n-1}} \qw } }
+\caption{QFT circuit in $\mathbb{Z}_{2^n}$.}
+\label{fig:qftsc}
+\end{figure}
+
+\end{parts}
+
+\question (Square root of a quantum operation) Let $U$ be a unitary
+quantum circuit on $n$ qubits. In this problem, we want to construct
+another circuit that computes a square root of $U$ (i.e., a unitary
+$V$ such that $V^2 = U$).
+
+\begin{parts}
+  
+
+
+\part[5] Let $X = \left(
+    \begin{array}{lr}
+      0 & 1\\
+      1 & 0
+    \end{array} \right)$ be the matrix for a 1-qubit NOT gate. Find a $2\times 2$ matrix $V$ (i.e.,
+  1-qubit gate) such that $V^2 = X$.
+
+  \part[5] Suppose we construct $V$ by simply taking the square root
+  of each gate $U_i$ in circuit $U$, does this work, i.e. is
+  $V^2 = U$? Justify your answer.
+
+  \part[20] We explore a strategy of implementing $V$ using the
+  \emph{phase estimation} algorithm. Suppose $U$ is constituted by $s$
+  two-qubit gates. We study a simple case here. Let
+  $\{\ket{\psi_x}: x \in \{0,\ldots, 2^n - 1\}\}$ be a set of
+  orthonormal eigenvectors of $U$ with eigenvalues in
+  $\{\pm 1, \pm i\}$. Namely
+  $U \ket{\psi_x} = i^{\phi_x} \ket{\psi_x}$ with
+  $\phi_x \in \{0,1,2,3\}$. We outline a construction of $V$ as
+  follows such that $V\ket{\psi_x} = \omega^{\phi_x} \ket{\psi_x}$
+  where $\omega= e^{2\pi i /8}$:
+  \begin{itemize}
+  \item Construct a generalized-control-$U$, with two control-qubits,
+    i.e.,
+    $\ket{a b}\otimes \ket{c} \mapsto \ket{a b}\otimes
+    U^{ab}{\ket{c}}$. (A word on notation: $ab$ is the two-bit string,
+    e.g., $01$, and it is identified with an integer in
+    $\{0,1,2,3\}$.)
+  \item Then apply the phase-estimation algorithm to this
+    controlled-$U$ gate, which results in a circuit that computes
+    $ab = \phi_x$, in two ancillary qubits
+    for any input $\ket{\psi_x}$.
+  \item Apply gates to those two ancilliary qubits to induce the
+    mapping $\ket{ab} \mapsto \omega^{ab}\ket{ab}$.
+  \item Then apply the inverse of the phase-estimation circuit.
+\end{itemize}
+ Answer the following questions:
+ \begin{enumerate}[label=\roman*)]
+ \item Explain how to construct a circuit computing the two-qubit
+   controlled-$U$ operation using $3s$ 3-qubit gates. (\corr{You may
+     assume that you can implement the single-qubit controlled version
+     of each two-qubit gate in $U$ by a 3-qubit gate.})
+ \item Explain how to construct a circuit computing $ab = \phi_x$ on
+   input {$\ket{\psi_x}$} using $3s$ 3-qubit gates, one 2-qubit gate,
+   and four 1-qubit gates.
+ \item Give a quantum circuit consisting of two 1-qubit gates that
+   maps each basis state $\ket{ab}$ to $\omega^{ab}\ket{ab}$.
+ \item Verify that the construction $V$ is correct, i.e.,
+   $V\ket{\psi_x} = \omega^{\phi_x} \ket{\psi_x}$. Explain why this
+   implies $V^2 = U$, namely $V$ computes the squre root of $U$ on any
+   input state $\ket{\psi}$.
+
+ \end{enumerate}
+ Note: the total gate cost is $6s$ 3-qubit gates plus two 2-qubit
+ gates plus eight 1-qubit gates. This can be converted into a circuit
+ consisting of $O(s)$ 2-qubit gates, not much more than the original
+ circuit.
+\end{parts}  
+
+
+\question (Experimentally realizing Shor’s algorithm)
+
+\begin{parts}
+  \part[5] Read the paper
+  \href{https://arxiv.org/pdf/1301.7007.pdf}{Pretending to factor
+    large numbers on a quantum computer} by Smolin, Smith, and
+  Vargo. Summarize their main critique of prior experiments.
+\part[5] \mG Read the paper
+  \href{http://sci-hub.tw/http://science.sciencemag.org/content/351/6277/1068}{Realization
+    of a scalable Shor algorithm} by Monz et al. Do you feel it
+  adequately addresses the criticisms in the Smolin–Smith–Vargo paper?
+  Why or why not?
+\end{parts}
+\end{questions}
+\end{document}
+
+
