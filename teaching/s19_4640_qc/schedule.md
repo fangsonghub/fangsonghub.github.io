@@ -30,13 +30,13 @@ modified: <2019-02-18 Mon>
 |9|M,03/11 | Spring Break | |
 || W,03/13 | Spring Break | |
 |10| M,03/18 | Density operators, mixed states <br> general quantum operations | Watrous Lec14 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/14.pdf){:target="_blank"} <br> KLM 3.5 |
-|| W,03/20 | Quantum error correction | Watrous Lec16 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/16.pdf){:target="_blank"} <br> KLM 10.1,10.2 |
-|11| M,03/25 |Quantum error correction, cont'd |  Watrous Lec17 (CSS codes) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/17.pdf){:target="_blank"} <br> KLM 10.4,10.5 | 
-|| W,03/27 | Quantum fault-tolerance | Vazirani Lec21 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qecc.pdf){:target="_blank"}  <br> KLM 10.3,10.6 |
-|12| M,04/01 | Entropy | Vazirani Lec13 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qinfo.pdf){:target="_blank"} |
-|| W,04/03 | Quantum compression <br> Holevo's bound | Vazirani Lec17 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec17/lec17.pdf){:target="_blank"}|
+||W,03/20| Take-home midterm | |
+|11| M,03/25 |Partial trace, POVM |  Watrous Lec15 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/15.pdf){:target="_blank"} <br> KLM 3.5 | 
+|| W,03/27 | Entropy, Quantum compression <br> Holevo's bound | Vazirani Lec13 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qinfo.pdf){:target="_blank"} <br> Vazirani Lec17 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec17/lec17.pdf){:target="_blank"} |
+|12| M,04/01 |Quantum error correction |  Watrous Lec16 (CSS codes) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/17.pdf){:target="_blank"} <br> KLM 10.1,10.2 | 
+|| W,04/03 | Quantum error correction, cont'd |  Watrous Lec17 (CSS codes) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/17.pdf){:target="_blank"} <br> KLM 10.4,10.5 | 
 |13| M,04/08 | Quantum computational complexity | Watrous Lec22 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/22.pdf){:target="_blank"} |
-|| W,04/10 | Selected Topics | |
+|| W,04/10 |  Quantum fault-tolerance | Vazirani Lec21 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qecc.pdf){:target="_blank"}  <br> KLM 10.3,10.6 |
 |14| M,04/15 | Selected Topics | |
 ||W,04/17 | Selected Topics | |
 |15 | M,04/22 | Project presentation | |
@@ -45,6 +45,8 @@ modified: <2019-02-18 Mon>
 | | W,05/01 | *Reading day, no class* | |
 {:.mbtablestylef}
 
+
+Quantum compression <br> Holevo's bound | Vazirani Lec17 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec17/lec17.pdf){:target="_blank"}|
 ## Assignments
 
 *  Homework 1 [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw1.tex){:target="_blank"}], due 01/28/2019, before class. 
@@ -54,4 +56,4 @@ modified: <2019-02-18 Mon>
    due 03/06/2019, before class.
 *  Homework 4 [PDF,TEX], due xx/xx/2019, before class. 
 *  Homework 5 [PDF,TEX], due xx/xx/2019, before class. 
-*  Midterm Exam [PDF,TEX], due xx/xx/2019, before class. 
+*  Midterm Exam [[PDF]({{base}}/teaching/s19_4640_qc/s19_qc_midterm.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_qc_midterm.tex){:target="_blank"}], due 03/20/2019, 11:59pm AoE.

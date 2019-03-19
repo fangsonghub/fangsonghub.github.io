@@ -1,0 +1,297 @@
+\documentclass[12pt,answers,addpoints]{exam}
+
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\def\tr{\mathrm{tr}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\kera}[1]{\ket{#1}\bra{#1}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\complex}{\mathbb{C}}
+\newcommand{\integer}{\mathbb{Z}}
+\newcommand{\srd}[2]{\textsf{SR}_{#1}^{#2}(X)}
+\newcommand{\corr}[1]{{\color{blue}{#1}}}
+% \input{../head}
+%----------Header--------------------%
+
+\newcommand{\classn}{CSCE 440/640 Quantum Algorithms}
+\newcommand{\classnabbr}{CSCE 440/640}
+\newcommand{\school}{Texas A\&M U}
+\newcommand{\term}{Spring 2019}
+\newcommand{\examdate}{March 18, 2019}
+\newcommand{\duedate}{March 20, 2019, 11:59pm, AoE}
+\newcommand{\examnum}{Mid-term Exam}
+\newcommand{\studentname}{\makebox[1.5in]{\hrulefill}} % change it to your name
+\pagestyle{head}
+\firstpageheader{}{}{}
+\runningheader{\classnabbr}{\examnum\ - Page \thepage\ of
+  \numpages}{\term}
+\vskip 1ex
+\setlength{\headsep}{10pt}
+\runningheadrule
+
+%\qzheader                       % execute quiz commands
+
+\begin{document}
+
+\noindent
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r
+    @{\extracolsep{6pt}} r}
+  {\Large\textbf{\examnum}} & \Large{\textbf{Name:}} & \studentname\\
+  {\term}, {\classn} & &  {\examdate}\\
+  \school && Prof. Fang Song
+\end{tabular*}\\
+
+\rule[2ex]{\textwidth}{1pt}
+
+\subsection*{Instructions (please read carefully before start!)}
+
+\begin{itemize}
+\item This take-home exam contains \numpages\ pages (including this
+  cover page) and \numquestions\ questions. Total of points is
+  \numpoints.
+\item You will have till \textbf{\duedate}~(Anywhere on Earth) to
+  finish the exam. You must work on your own, and no collaboration or
+  help from any resources other than those made available in class
+  (lecture notes, recommended texts, homework problems, etc.)  is
+  permitted.
+
+\item Email me your solutions in PDF before the deadline, either
+  scanned or typeset in \LaTeX. Name your PDF and email subject as:
+  \textbf{Lastname\_Firstname\_s19\_mt}. If you choose to hand-write
+  and scan, \emph{print out this exam sheet and write your solutions
+    on it}. Do your best to fit your answers into the space provided,
+  and attach extra papers only if necessary. If you typeset in \LaTeX,
+  \emph{use the provided TeX file}. No other formats are accepted.
+
+\item Your work will be graded on correctness and clarity. Make sure
+  your hand writing is legible.
+\item Don't forget to write your name on top (or update the
+  ``{\textbackslash}studentname'' command in the TeX file)!
+\end{itemize}
+
+\begin{center}
+\textbf{Grade Table} (for instructor use only)\\
+\smallskip
+\addpoints
+\gradetable[v][questions]
+\end{center}
+
+\newpage
+
+\begin{questions}
+  \question \emph{Short answers}. Answer the following, and briefly
+  justify your answer.
+  \begin{parts}
+    \part[0] (Sample problem) Is
+    $\sqrt{i/3} \ket{0} + \sqrt{2/5}\ket{1}$ a valid quantum state?
+
+    \begin{solution}
+      Answer: No.\\
+      Justification: Because $|\sqrt{i/3}|^2 + |\sqrt{2/5}|^2 \neq 1$.
+    \end{solution}
+
+    \part[5] Is $\frac{1}{\sqrt{2}}(\ket{000} + \ket{111})$ an
+    entangled state?
+
+    \vskip 3cm 
+    \part[5] Quantum computers can solve NP-Complete problems in
+    polynomial time. Is this statement True/False/Unknown?
+
+   \vskip 3cm % comment this line when typing your answer
+
+   \part[5] Recall in the quantum superdense coding protocol, Alice
+   wants to send two classical bits to Bob by sending one
+   qubit. Suppose a third party (Eve) intercepts Alice's qubit on the
+   way. Can Eve infer anything about which of the four possible bit
+   strings 00, 01, 10, 11 Alice was trying to send?
+
+   \vskip 4cm
+
+   \part[5] What is the Quantum Fourier Transform $F_{2^4}$ on a
+   four-qubit state
+   $ \frac{1}{4}\ket{0000} + \frac{i}{4}\ket{0010} +
+   \sqrt{\frac{5}{8}}\ket{1111}$?
+
+ \end{parts}
+  \newpage
+  \question (Quantum circuits)
+
+  \begin{parts}
+    \part[10] Suppose you have an unlimited supply of qubits in the state
+    $\ket{\psi} = \alpha\ket{0}+\beta\ket{1}$, and qubits in the state
+    $\ket{0}$. Give quantum circuits and specify the inputs for
+    producing the following quantum states:
+
+    \begin{enumerate}[label=\roman*)]
+    \item
+      $\alpha^2\ket{00} - \alpha\beta\ket{01} + \alpha\beta\ket{10} -
+      \beta^2\ket{11}$.
+
+      \vskip 3cm 
+    \item $\alpha\ket{00} - \beta\ket{11}$.  \vskip 3cm
+    \end{enumerate}
+    \part[20] For each pair of the circuits below, prove or disprove that
+    they are equivalent.
+
+    \begin{enumerate}[label=\roman*)]
+      \item 
+        \[ \Qcircuit @C=1em @R=.7em { & \gate{H} & \gate{X} &
+            \gate{H}&\qw & \overset{?}{=} & & \gate{Z}
+          & \qw } \] \vskip 4cm
+      \item
+        \[ \Qcircuit @C=1em @R=.7em {
+            & \ctrl{2} & \qw  &  & & \gate{-Z}& \qw \\
+            &&& \overset{?}{=} & & &\\
+            & \gate{Z} & \qw &&&\ctrl{-2}& \qw} 
+        \]
+        \newpage
+      \item
+        \[ \Qcircuit @C=1em @R=.7em {
+            &  \gate{H} & \ctrl{2} & \gate{H}& \qw  &  & & \targ & \qw \\
+            &&&&& \overset{?}{=} & & &\\
+            &\gate{H} & \targ & \gate{H} & \qw &&&\ctrl{-2}& \qw}
+        \]
+        \vskip 5cm
+      \item Let $U,V$ be unitary, and $V^2 =U$. The left-hand-side is
+        $U$ controlled by two qubits $\ket{a}\ket{b}$ such that $U$ is
+        applied to the third qubit iff. $a = b = 1$.
+        \[ \Qcircuit @C=1em @R=.7em { & \ctrl{2} & \qw & & & \qw &
+            \ctrl{1}& \qw & \ctrl{1} &
+            \ctrl{2} & \qw \\
+            &\ctrl{1}& \qw & \overset{?}{=} & &\ctrl{1}& \targ& \ctrl{1}&\targ &\qw &\qw\\
+            &\gate{U} & \qw & & &\gate{V}&\qw &\gate{V^\dagger}& \qw
+            &\gate{V} & \qw }
+        \]
+        \vskip 5cm
+      \end{enumerate}
+      \part[5] Construct a CNOT gate from one controlled-Z gate and two
+      Hadamard gates.
+      \newpage
+      \part[5] (Phase estimation: alternative) Let $U$ be an $n$-qubit
+      unitary operator and $\ket{\psi}$ be an eigenvector with
+      $U\ket{\psi} = e^{i \theta } \ket{\psi}$. Analyze the circuit
+      below and derive the probability that the measurement outcome is
+      $0$.
+
+      \begin{figure}[h!]\label{fig:ape}
+        \centerline{\Qcircuit @C=1em @R=.7em {
+            \lstick{\ket{0}}&  \gate{H} & \ctrl{1} & \gate{H}& \meter &\cw  \\
+            \lstick{\ket{\psi}} & \qw & \gate{U} &\qw & \qw & \qw
+          }}
+        \caption{Alternative phase estimation algorithm}
+      \end{figure}
+
+      \vskip 5cm
+      \part (15 Bonus points) Continue from part (d). 
+      \begin{enumerate}[label=\roman*)]
+      \item How many times do we need to repeat the circuit in
+        Figure~\ref{fig:ape} to get an estimate $\tilde \theta$ so
+        that $|\theta - \tilde \theta | \leq \varepsilon$ with
+        probability at least $1 - \delta$?  \vskip 5cm
+      \item Suppose you can replace $U$ by $U^k$ for an arbitrary
+        integer $k$ of your choice (still controlled by one
+        qubit). Show how to approximate $\theta$.
+      \end{enumerate}
+    \end{parts}
+    
+  
+  \newpage 
+  \question (Quantum algorithms and permutations) A bijection
+  $P: \bit^m\to \bit^m $ is called a permutation on $\bit^m$.
+
+  \begin{parts}
+    \part[5] How many permutations are there in total on $\bit^m$?
+    \vskip 3cm
+
+    \part[6] Let $S$ be the set of all permutations on
+    $\bit^m$. Consider a subset $\{P_k\}\subseteq S$ which are indexed
+    by $n$-bit keys $k\in \bit^n$ for some $n \leq m$. We are now
+    given $(x_1,\ldots, x_t)$ and $(y_1,\ldots, y_t)$ with the promise
+    that there is a \emph{unique} $k^*\in \bit^n$ such that
+    $P_k(x_i) = y_i$ for all $i =1,\ldots, t$. The goal is to identify
+    this key $k^*$.  Let us consider classical algorithms
+    first. Suppose we have access to an oracle
+    $O: (k,x)\mapsto P_k(x)$. How many queries are sufficient to
+    determine $k^*$ in the worst case?  How many are necessary?
+    Justify your answer.
+
+      \vfill
+
+      
+    \part[14] Continue from above. Suppose $O$ can be queried in quantum
+      superposition, i.e., it is given as a black-box quantum circuit
+      implementing the unitary
+      \[ U: \ket{k}\ket{x}\ket{y} \mapsto \ket{k}\ket{x}\ket{y\oplus
+          P_k(x)}, \forall k\in \bit^n, x,y\in \bit^m \, .\]
+
+      \begin{enumerate}[label=\roman*)]
+      
+      \item Show that one can implement another quantum oracle
+        \[U': \ket{k} \ket{b} \mapsto \ket{k}\ket{b\oplus f(k)}\, ,\]
+        where $f:\bit^n \to \bit$ is such that $f(k) = 1$ iff.
+        $P_k(x_i) = y_i$ for all $i = 1,\ldots, t$. How many calls to
+        $U$ are needed to answer one query to $U'$?
+        \newpage
+        \begin{center}
+(Problem 3.c continued)
+        \end{center}
+
+        \vskip 8cm
+      \item Give a quantum algorithm for finding $k^*$. Describe its
+        cost in terms of \# of queries to $U$ and the circuit size.
+      \end{enumerate}
+      \vskip 6cm
+      \part (15 Bonus points) Let $k_1,k_2\in \bit^n$ be two secret
+      strings and $\pi: \bit^n\to \bit^n$ be a permutation. Define
+      another permutation\footnote{This is the Even-Mansour block
+        cipher.} $P_{k_1,k_2}: \bit^n \to \bit^n$ as
+      \[ P_{k_1,k_2}: x\mapsto \pi(x\oplus k_1)\oplus k_2 \, .\]
+
+      \begin{enumerate}[label=\roman*)]
+      \item Define a function $f$ from $\pi$ and $P_{k_1,k_2}$ such
+        that for all $x$, $f(x\oplus k_1) = x$.
+        \newpage
+      \item Suppose $\pi$ is sampled uniformly at random among all
+        permutations on $\bit^n$. Given quantum oracles for $\pi$ and
+        $P_{k_1,k_2}$, describe a quantum algorithm that recovers
+        $k_1,k_2$ efficiently. 
+      \end{enumerate}
+  \end{parts}
+    
+\end{questions}
+\newpage
+\begin{center}
+Scrap paper -- no exam questions here.  
+\end{center}
+
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
