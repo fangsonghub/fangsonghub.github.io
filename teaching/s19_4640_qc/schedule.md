@@ -32,9 +32,9 @@ modified: <2019-02-18 Mon>
 |10| M,03/18 | Density operators, mixed states <br> general quantum operations | Watrous Lec14 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/14.pdf){:target="_blank"} <br> KLM 3.5 |
 ||W,03/20| Take-home midterm | |
 |11| M,03/25 |Partial trace, POVM |  Watrous Lec15 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/15.pdf){:target="_blank"} <br> KLM 3.5 | 
-|| W,03/27 | Entropy, Quantum compression <br> Holevo's bound | Vazirani Lec13 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qinfo.pdf){:target="_blank"} <br> Vazirani Lec17 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec17/lec17.pdf){:target="_blank"} |
-|12| M,04/01 |Quantum error correction |  Watrous Lec16 (CSS codes) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/17.pdf){:target="_blank"} <br> KLM 10.1,10.2 | 
-|| W,04/03 | Quantum error correction, cont'd |  Watrous Lec17 (CSS codes) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/17.pdf){:target="_blank"} <br> KLM 10.4,10.5 | 
+|| W,03/27 | Overview of quantum information theory <br> No-cloning |[NielsenChuang](https://libcat.tamu.edu/vwebv/holdingsInfo?bibId=3860234) 1.6,12.1|
+|12| M,04/01| Entropy, quantum compression <br> Holevo's bound | Vazirani [Lec13](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qinfo.pdf){:target="_blank"}, [Lec17](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec17/lec17.pdf){:target="_blank"} <br> [NielsenChuang](https://libcat.tamu.edu/vwebv/holdingsInfo?bibId=3860234) 11.1,11.3|
+|| W,04/03 | Quantum error correction |  Watrous Lec16 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/16.pdf){:target="_blank"} <br> KLM 10.1,10.2 | 
 |13| M,04/08 | Quantum computational complexity | Watrous Lec22 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/22.pdf){:target="_blank"} |
 || W,04/10 |  Quantum fault-tolerance | Vazirani Lec21 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qecc.pdf){:target="_blank"}  <br> KLM 10.3,10.6 |
 |14| M,04/15 | Selected Topics | |
@@ -54,6 +54,6 @@ Quantum compression <br> Holevo's bound | Vazirani Lec17 [PDF](https://people.ee
 *  Homework 3
    [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw3.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw3.tex){:target="_blank"}],
    due 03/06/2019, before class.
-*  Homework 4 [PDF,TEX], due xx/xx/2019, before class. 
-*  Homework 5 [PDF,TEX], due xx/xx/2019, before class. 
+*  Homework 4 [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw4.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw4.tex){:target="_blank"}], due 04/10/2019, before class. 
+*  Homework 5 [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw5.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw5.tex){:target="_blank"}], due xx/xx/2019, before class. 
 *  Midterm Exam [[PDF]({{base}}/teaching/s19_4640_qc/s19_qc_midterm.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_qc_midterm.tex){:target="_blank"}], due 03/20/2019, 11:59pm AoE.

@@ -1,0 +1,261 @@
+% Instructions: you don't need to change anything in the macros, but
+% feel free to define new commands as you wish. Starting from the main
+% body, change the specs (e.g., your
+% name). use \begin{solution} \end{solution} environment to write your
+% solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CSCE 440/640 Quantum Algorithms}
+\def\term{Texas A\&M U, Spring 2019}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill \textbf{#5}  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+\newcommand{\ex}[4]{\handout{#1}{#2}{#3}{#4}{Exercise #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\def\tr{\mathrm{tr}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\kera}[1]{\ket{#1}\bra{#1}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\complex}{\mathbb{C}}
+\newcommand{\integer}{\mathbb{Z}}
+\newcommand{\srd}[2]{\textsf{SR}_{#1}^{#2}(X)}
+\newcommand{\corr}[1]{{\color{blue}{#1}}}
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+%\studentfalse
+
+\def\issuedate{March 29, 2019}
+\def\duedate{April 10, 2019, before class} %
+\def\yourname{your name} % put your name here
+
+%------------------------------%
+\ifstudent
+\hw{4}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{4}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.} Only PDF format is accepted (type it
+or scan clearly). Your solutions will be graded on \emph{correctness}
+and \emph{clarity}. You should only submit work that you believe to be
+correct; if you cannot solve a problem completely, you will get
+significantly more partial credit if you clearly identify the gap(s)
+in your solution. For this problem set, a random subset of problems
+will be graded. Problems marked with ``\mG'' are required for graduate
+students. Undergraduate students will get bonus points for solving
+them.  \medskip
+
+\noindent You may collaborate with others on this problem set. 
+% and consult external sources.
+However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\begin{questions}
+  \question (QFT and periodic states) Let $m$ be some integer and
+  $M=2^m$. Denote $\omega_M = e^{2\pi i/M}$ and
+  $[M]= \{0,1,\ldots, M-1 \}$. Recall the Quantum Fourier Transform
+  $F_{M}$:
+  \begin{equation*}
+    \forall x\in [M], \quad \ket{x}\, \overset{F_M}{\mapsto} \, \frac{1}{\sqrt
+      M}\sum_{y=0}^{M-1} \omega_M^{x y} \ket{y}  \,  . 
+  \end{equation*}
+  \begin{parts}
+    \part[3] Let $\ket{\alpha} := \sum_{x = 0}^{M-1} \alpha_x \ket{x}$ be
+    an arbitrary $m$-qubit state (note:
+    $\sum_{x=0}^{M-1} |\alpha_x|^2 = 1$). Show that
+    $$F_M \ket{\alpha} =  \ket{\hat \alpha}: = \sum_{y=0}^{M-1} \hat
+    \alpha_y \ket{y} \, ,$$ where
+    $\hat \alpha_y = \frac{1}{\sqrt M}\sum_{x} \omega_M^{xy}\alpha_x$, 
+    for all $y \in [M]$.
+    
+    \part[5] (Index shift) Let $j \in [M]$, and define
+    $\ket{\alpha_{+j}}:= \sum_x \alpha_x \ket{x + j \bmod M}$. Compute
+    $\ket{\hat \alpha_{+j}}:=F_M \ket{\alpha_{+j}} =?  $. According to
+    your result, explain that measuring $\ket{\hat \alpha}$ and
+    $\ket{\hat \alpha_{+j}}$ produce the same probability
+    distribution.
+
+    \part[7] (Periodic state) Consider an integer $r$ such that
+    $M= \ell \cdot r$ for some $\ell \in \mathbb{Z}$. Let
+    $b \in \{0, 1, \ldots, r-1\}$. Define
+    $$\ket{P_{r,b}}:= \frac{1}{\sqrt{\ell}}\sum_{k = 0}^{\ell - 1} \ket{kr+b}
+    = \frac{1}{\sqrt{\ell}}(\ket{0+b} + \ket{r+b} + \ldots +
+    \ket{(\ell - 1) r + b})\, .$$ Show that
+    $$F_M \ket{P_{r,b}} = \frac{1}{\sqrt{r}} \sum_{k=0}^{r-1}
+    \omega_r^{b k} \ket{k\ell} = \frac{1}{\sqrt r}(\ket{0} + \omega_r{^b}
+    \ket{\ell} + \ldots + \omega_r^{b(r-1)}\ket{(r-1)\ell})\, . $$
+    \part[5] Given multiple copies of $\ket{P_{r,b}}$, how to find $r$?
+  \end{parts}
+
+  
+  \question (Shor's algorithm) In this problem, we analyze Shor's
+  algorithm for order finding that we've seen briefly in class. Our
+  goal is to find the order of $a$ mod a positive integer $N$, i.e.,
+  the smallest $r$ such that $a^r=1\bmod N$.
+  $E_a: \ket{x}\ket{y}\mapsto\ket{x}\ket{y+a^x\bmod N}$ is the unitary
+  circuit implementing the modular exponentiation function
+  $x\in\mathbb{Z}_{2^m} \mapsto a^x \bmod N$.
+  \begin{figure}[ht]
+    \centerline{ \Qcircuit @C=2em @R=1.5em { \lstick{\ket{0^m}} &
+        \gate{H^{\otimes m}} & \multigate{1}{E_a} &
+        \gate{F_M} &  \meter & \qw \quad {s}  \\
+        \lstick{\ket{0^n}}& \qw &\ghost{E_a} & \meter & \qw & \qw \quad{z}} }
+    \caption{Shor's algorithm}
+  \end{figure}
+  \begin{parts}
+    \part[4] Consider the point right after applying $E_a$. Since the
+    bottom register will no longer be used, we may assume that it gets
+    measured immediately. Suppose that the outcome is
+    $z = a^b \bmod N$ for some $b\in [r]$, what is the state on the
+    top register then?
+    \part[4] Assuming it happens that $r | M = 2^m$. How to find $r$?
+    \part[4] In general, we may not be able to pick an $m$ such that
+    $r | M$ (since we do not know $r$). In this case ($r \nmid M$),
+    what is the state after applying $F_M$?
+    \part (Bonus 6 points) Continuing part (c), how to find $r$ in the
+    general case?
+    \part (Bonus 6 points) In class, we showed that factorization
+    reduces to order finding. Show the converse reduction, i.e., if
+    one can solve factorization efficiently, one can also solve order
+    finding efficiently.
+  \end{parts}
+
+  \question (Mixed states and density matrix)
+
+\begin{parts}
+\part[5] A density matrix $\rho$ corresponds to a pure state if and
+  only if $\rho = \kera{\psi}$ for some $\ket{\psi}$. Show that $\rho$
+  corresponds to a pure state if and only if $Tr(\rho^2) = 1$.
+  \part[5] Show that every $2\times 2$ density matrix $\rho$ can be
+  expressed as an equally weighted mixture of pure states. That is
+  $\rho = \frac 1 2 \kera{\psi_1} + \frac 1 2 \kera{\psi_2}$ (Note:
+  the two states need not be orthogonal).
+  \part[5] Imagine two parties Alice and Bob. Alice flips a biased coin
+  which is HEADS with probability $\cos^2(\pi/8)$. Alice prepares
+  $\ket{0}$ when she sees coin $0$ and $\ket{1}$ otherwise. From
+  Alice’s perspective (who knows the coin value), the density matrix
+  of the state she created will be either $\kera{0}$ or
+  $\kera{1}$. She then sends the qubit to Bob. What is the density
+  matrix of the state from Bob’s perspective (who does not know the
+  coin value)? Write down the matrix.
+  \part[10] Let $\{p_i,\ket{\psi_i}\}_{i=0}^1$ and
+  $\{q_j,\ket{\phi_j}\}_{j=0}^1$ be two ensembles of pure
+  states. Define $\ket{\tilde \psi_i} = \sqrt{p_i} \ket{\psi_i}$ and
+  $\ket{\tilde\phi_j} = \sqrt{q_j} \ket{\phi_j}$ for all $i,j$. Show
+  that the two ensembles produce the same density matrix \textbf{if
+    and only if} there is a unitary $U = \left(
+    \begin{array}{lr}
+      u_{00} & u_{01}\\
+      u_{10} & u_{11}
+    \end{array} \right)$ such that
+  
+  \[ \ket{\tilde\psi_0} = u_{00} \ket{\tilde\phi_0} +
+    u_{01}\ket{\tilde\phi_1}, \text{ and } \ket{\tilde\psi_1} = u_{10}
+    \ket{\tilde\phi_0} + u_{11}\ket{\tilde\phi_1} \, .\]
+  
+\end{parts}
+
+  \question (OR gate as a quantum operation) Recall the binary OR
+  operation, denoted as $\vee$, defined as $a \vee b = 0$ if
+  $a = b = 0$ and $a\vee b = 1$ otherwise. Here we consider operations
+  that map the two-qubit state $\ket{a, b}$ to the one-qubit state
+  $\ket{a\vee b}$, for all $a,b \in \{0,1\}$. Of course, no unitary
+  operation can perform this mapping, since the input and output
+  dimension do not match; however, general quantum operations can
+  compute this mapping.
+
+  \begin{parts}
+    \part[6] Give a sequence of $2\times 4$ matrices $A_1,\ldots, A_k$
+    with $\sum_{j = 1}^k A_j^\dagger A_j = I$ that compute the OR
+    operation in the sense that, for all $a, b\in\{0,1\}$, when
+    $\rho = \kera{a,b}$,
+    $\sum_{j = 1}^k A_j\rho A_j\dagger = \kera{a\vee b}$.
+    
+    \part[4] The operation from part (a) maps all basis states to pure
+    states. Does it map all pure input states to pure output states?
+    Either prove it, or provide a counterexample.
+    
+  \end{parts}
+
+  \question[8] (Partial trace) Let $\rho_{AB} = (\rho_{ij})_{4\times 4}$,
+  where $\rho_{ij} \in \mathbb{C},\forall i,j\in \{0,1,2,3\}$, be the
+  density matrix of two qubits $A$ and $B$. Let $Tr_A(\cdot)$ and
+  $Tr_B(\cdot)$ be the operation that traces out subsystem $A$ and $B$
+  respectively. Show that
+  \[  Tr_A(\rho_{AB}) = \left(
+    \begin{array}{lr}
+      \rho_{00} + \rho_{22} & \rho_{01} +\rho_{23}\\
+      \rho_{10} + \rho_{32}& \rho_{11} + \rho_{33}
+    \end{array} \right) \text{ and } Tr_B(\rho_{AB}) = \left(
+    \begin{array}{lr}
+      \rho_{00} + \rho_{11} & \rho_{02} +\rho_{13}\\
+      \rho_{20} + \rho_{31}& \rho_{22} + \rho_{33}
+    \end{array} \right)    \, .\]
+
+  \question (Entropy) Let $H(\cdot)$ denote
+  the Shannon entropy and $S(\cdot)$ be the von Neumann
+  entropy. $S(A:B)$ denotes quantum mutual information.
+  \begin{parts}
+    \part[5] Let $X$ be a random variable taking values in
+    $\{0,\ldots, 2^{m^2}\}$ with probability distribution $p_x =
+    \left\{
+      \begin{array}{c l}
+        1 - 1/m & \text{ if } x = 0\\
+        \frac{1}{m 2^{m^2}} & \text{ otherwise } \, .
+      \end{array} \right.$
+    Calculate $H(X)$? Conclude that $H(X) \to \infty$ as $m\to
+    \infty$, but one sample of $X$ is almost {certainly} 0. 
+    \part[5] Let $\rho = p \kera{0} + (1-p)\kera{+}$. Compute
+    $S(\rho)$. How does it compare to the entropy of a biased coin $X$
+    where HEADS appears with probability $p$?
+  \end{parts}
+  
+\end{questions}
+\end{document}
+
+
