@@ -36,7 +36,7 @@ modified: <2019-02-18 Mon>
 |12| M,04/01| Entropy, quantum compression <br> Holevo's bound | Vazirani [Lec13](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qinfo.pdf){:target="_blank"}, [Lec17](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec17/lec17.pdf){:target="_blank"} <br> [NielsenChuang](https://libcat.tamu.edu/vwebv/holdingsInfo?bibId=3860234) 11.1,11.3|
 || W,04/03 | Quantum state discrimination | KLM A.9, NC 12.1 |
 |13| M,04/08 | Quantum key distribution |Watrous Lec18 [PDF](https://cs.uwaterloo.ca/~watrous/LectureNotes/CPSC519.Winter2006/18.pdf){:target=_blank}|
-|| W,04/10 |Hamiltonian simulation <br> Guest lecturer: Dr. [Chunhao Wang](https://www.chunhaowang.com/) | Kothari [Chapter2](https://uwspace.uwaterloo.ca/bitstream/handle/10012/8625/Kothari_Robin.pdf){:target="_blank"}|
+|| W,04/10 |Hamiltonian simulation <br> Guest lecturer: Dr. [Chunhao Wang](https://www.chunhaowang.com/) | Kothari [Chapter2](https://uwspace.uwaterloo.ca/bitstream/handle/10012/8625/Kothari_Robin.pdf){:target="_blank"} <br> [BCCKS'PRL15](https://arxiv.org/abs/1412.4687)|
 |14| M,04/15 | Quantum error correction |  Watrous Lec16 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/16.pdf){:target="_blank"} <br> KLM 10.1,10.2 | 
 ||W,04/17 |   Quantum fault-tolerance <br> NISQ | KLM 10.3,10.6 <br> |
 |15 | M,04/22 | Project presentation | |
