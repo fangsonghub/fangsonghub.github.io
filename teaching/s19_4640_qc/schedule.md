@@ -55,5 +55,5 @@ Quantum compression <br> Holevo's bound | Vazirani Lec17 [PDF](https://people.ee
    [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw3.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw3.tex){:target="_blank"}],
    due 03/06/2019, before class.
 *  Homework 4 [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw4.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw4.tex){:target="_blank"}], due 04/10/2019, before class. 
-*  Homework 5 [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw5.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw5.tex){:target="_blank"}], due xx/xx/2019, before class. 
+*  Homework 5 [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw5.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw5.tex){:target="_blank"}], due 04/29/2019, before class. 
 *  Midterm Exam [[PDF]({{base}}/teaching/s19_4640_qc/s19_qc_midterm.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_qc_midterm.tex){:target="_blank"}], due 03/20/2019, 11:59pm AoE.
