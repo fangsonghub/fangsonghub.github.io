@@ -45,8 +45,6 @@ modified: <2019-02-18 Mon>
 | | W,05/01 | *Reading day, no class* | |
 {:.mbtablestylef}
 
-
-Quantum compression <br> Holevo's bound | Vazirani Lec17 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec17/lec17.pdf){:target="_blank"}|
 ## Assignments
 
 *  Homework 1 [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw1.tex){:target="_blank"}], due 01/28/2019, before class. 
