@@ -2,20 +2,23 @@
 layout: page
 title: Research
 excerpt:
-modified: <2018-10-05 Fri>
+modified: <2019-04-28 Sun>
 ---
 * Table of Contents
 {:toc}
 
 ## Publications
-
+*   **Quantum security of hash functions and property-preservation of iterated hashing**
+    *   Authors: Ben Hamlin and Fang Song
+	*   In _the 10th International Conference on Post-Quantum Cryptography ([PQCrypto 2019](http://pqcrypto2019.org/){:target="_blank"})_.
+	* [[arXiv](https://arxiv.org/abs/1902.08709){:target="_blank"}
 *   **Pseudorandom Quantum States** 
     *   Authors: Zhengfeng Ji, Yi-Kai Liu, Fang Song 
 	*   In _the 38th International Cryptology Conference ([Crypto 2018](https://crypto.iacr.org/2018/){:target="_blank"})_.
 	*   [[ePrint](https://eprint.iacr.org/2018/544){:target="_blank"} [arXiv](https://arxiv.org/abs/1711.00385){:target="_blank"}] [Slides: [PDF]({{base}}/files/talks/prs-crypto18.pdf){:target="_blank"} [Video](https://www.youtube.com/watch?v=SuD-OvGKUWw&t=273s){:target="_blank"}]
 *   **Quantum Collision-Finding in Non-Uniform Random Functions**
     *   Authors: Marko Balogh and Edward Eaton and Fang Song
-	*   In _the Ninth International Conference on Post-Quantum Cryptography ([PQCrypto 2018](http://www.math.fau.edu/pqcrypto2018/){:target="_blank"})_.
+	*   In _the 9th International Conference on Post-Quantum Cryptography ([PQCrypto 2018](http://www.math.fau.edu/pqcrypto2018/){:target="_blank"})_.
     *   [[Springer](https://link.springer.com/chapter/10.1007%2F978-3-319-79063-3_22){:target="_blank"}] [[IACR ePrint](http://ia.cr/2017/688){:target="_blank"}]
 *  **Quantum Security of NMAC and Related Constructions**
     *  Authors: Fang Song and Aaram Yun
@@ -87,7 +90,9 @@ modified: <2018-10-05 Fri>
 - - -
 
 ## Other Talks 
-
+*  Invited talk at the [AMS Spring Central and Western Joint Sectional
+Meeting](http://www.ams.org/meetings/sectional/2251_program.html), University of Hawaii at Manoa, Honolulu, HI, March
+22-24, 2019. **Pseudorandom quantum states**.
 *  Invited talk at [IAMCS Quantum Computation and Information Workshop](https://iamcs.tamu.edu/quantum-computation-and-information-workshop/){:target="_blank"}. _TAMU, TX, September 22 2018_. **Pseudorandom quantum states**. 
 *  Invited speaker at [Asia Forum
     on Post-quantum cryptography](http://www.pqcforum.org/){:target="_blank"}. _Seoul, Korea, Nov 28 - 29, 2016_.  

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Activities # Professional Activities # Service & Activities
-modified: <2019-02-12 Tue>
+modified: <2019-04-28 Sun>
 ---
 ## Conference Program Committee Member
 
@@ -14,7 +14,7 @@ modified: <2019-02-12 Tue>
 *   **QIP** (Quantum Information Processing) [2017](https://www.stationq.com/qip-2017/)
 
 ## Organizer
-
+*  **The 2nd Quantum Computation and Information** [Workshop](https://iamcs.tamu.edu/the-2nd-quantum-computation-and-information-workshop/){:target="_blank"} at Texas A&M University. May 13 - 15, 2019. 
 *  **Quantum day at Portland** [mini-symposium]({{base}}/activity/w17qpdx) at Portland State University. January 13, 2017.
 *   **Post-quantum crypto** [seminar](https://sites.google.com/site/uwaterloopqcrypto/) at University of Waterloo. April 2015 - August. 2016
 
