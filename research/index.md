@@ -60,7 +60,7 @@ modified: <2019-04-28 Sun>
     *   Plenary talk at [_QIP 2015_](http://www.quantum-lab.org/qip2015/Program.php). [[Video](https://www.youtube.com/watch?v=WiH1SKJvsrU)] [Slides: [PDF]({{base}}/files/talks/units_qip15.pdf)]
     *   Full version: [<a href="">PDF</a>] [<a href="">arXiv</a>]
 *   **Feasibility and Completeness of Cryptographic Tasks in the Quantum World**
-    *   Authors: [Sergh Fehr](http://homepages.cwi.nl/~fehr/), [Jonathan Katz](http://www.cs.umd.edu/~jkatz/), Fang Song, [Hong-Sheng Zhou](http://www.cs.umd.edu/~hszhou/Home_of_Hong-Sheng_Zhou.html) and [Vassilis Zikas](http://cs.ucla.edu/~vzikas/)
+    *   Authors: [Serge Fehr](http://homepages.cwi.nl/~fehr/), [Jonathan Katz](http://www.cs.umd.edu/~jkatz/), Fang Song, [Hong-Sheng Zhou](http://www.cs.umd.edu/~hszhou/Home_of_Hong-Sheng_Zhou.html) and [Vassilis Zikas](http://cs.ucla.edu/~vzikas/)
     *   In _10th Theory of Cryptography Conference ([TCC 2013](http://www.iacr.org/workshops/tcc2013/))_.
     *   Workshop Track at [_ICITS 2012_](http://icits2012.iro.umontreal.ca/), Poster ([PDF]({{base}}/files/talks/2pc_comlexity_poster_stoc12_48.pdf
         			)) at [_STOC 2012_](http://cs.nyu.edu/~stoc2012/default.htm)
