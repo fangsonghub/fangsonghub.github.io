@@ -11,7 +11,7 @@ modified: <2019-04-28 Sun>
 *   **Quantum security of hash functions and property-preservation of iterated hashing**
     *   Authors: Ben Hamlin and Fang Song
 	*   In _the 10th International Conference on Post-Quantum Cryptography ([PQCrypto 2019](http://pqcrypto2019.org/){:target="_blank"})_.
-	* [[arXiv](https://arxiv.org/abs/1902.08709){:target="_blank"}
+	* [[arXiv](https://arxiv.org/abs/1902.08709){:target="_blank"}]
 *   **Pseudorandom Quantum States** 
     *   Authors: Zhengfeng Ji, Yi-Kai Liu, Fang Song 
 	*   In _the 38th International Cryptology Conference ([Crypto 2018](https://crypto.iacr.org/2018/){:target="_blank"})_.
@@ -90,6 +90,8 @@ modified: <2019-04-28 Sun>
 - - -
 
 ## Other Talks 
+*  Invited talk at the [2nd IAMCS Quantum Computation and Information Workshop](https://iamcs.tamu.edu/quantum-computation-and-information-workshop), TAMU, May
+13-15, 2019. **Cryptography from NP Hardness: can quantum help?**. [Slides [PDF]({{base}}/files/talks/2IAMCS-Worst2Avg-Song.pdf){:target="_blank"}]
 *  Invited talk at the [AMS Spring Central and Western Joint Sectional
 Meeting](http://www.ams.org/meetings/sectional/2251_program.html), University of Hawaii at Manoa, Honolulu, HI, March
 22-24, 2019. **Pseudorandom quantum states**.
