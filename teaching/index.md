@@ -5,6 +5,7 @@ excerpt:
 modified: <2018-09-14 Fri>
 ---
 ## Courses at Texas A&M University
+* CSCE 629 **Analysis of Algorithms** [Fall 2019]({{ base }}/teaching/f19_629_alg/)
 * CSCE 440/640 **Quantum Algorithms** [Spring 2019]({{ base }}/teaching/s19_4640_qc/)
 * CSCE 689 **Foundations of Post-Quantum Cryptography** [Fall 2018]({{ base }}/teaching/f18_689_pqc/)
 

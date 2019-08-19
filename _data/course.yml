@@ -1,5 +1,37 @@
 # course pages
 
+# F19 AoA
+
+- courseid: f19 629
+  title: (Fall 2019) CSCE 629 - Analysis of Algorithms
+  desc: f19 629
+  nav: true
+  url: /teaching/f19_629_alg/
+
+- courseid: f19 629
+  title: (Fall 2019) CSCE 629 - Analysis of Algorithms
+  desc: Schedule 
+  nav: true
+  url: /teaching/f19_629_alg/schedule/
+
+- courseid: f19 629
+  title: (Fall 2019) CSCE 629 - Analysis of Algorithms
+  desc: Project
+  nav: false
+  url: /teaching/f19_629_alg/project/
+
+- courseid: f19 629
+  title: (Fall 2019) CSCE 629 - Analysis of Algorithms
+  desc: Resource
+  nav: true
+  url: /teaching/f19_629_alg/resource/
+
+- courseid: s19 440/640
+  title: (Spring 2019) CS 440/640 - Quantum Algorithms
+  desc: Admin
+  nav: false
+  url: /teaching/s19_4640_qc/admin/
+
 # S19 QC
 
 - courseid: s19 440/640
