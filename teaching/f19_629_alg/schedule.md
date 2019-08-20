@@ -11,16 +11,16 @@ modified: <2019-08-19 Mon>
 
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
-|1| M,08/26  | Intro <br> Review: | **HW1** out (see below) <br> due XX/XX/2019 |
-|| W,08/28 |||
-||F,08/30 | ||
-|2| M,09/02 | (Labor day) || 
-|| W,09/04 |||
-||F,09/06|||
-|3| M,09/09|||
+|1| M,08/26  | Intro <br> Growth of function  | DLRS 1 - 3 <br> **HW1** out (see below) <br> due XX/XX/2019 |
+|| W,08/28 |LaTeX tutorial (by Andrew Nemec) | [Overleaf tutorial](https://www.sharelatex.com/blog/latex-guides/beginners-tutorial.html) |
+||F,08/30 | Cancelled due to [QCrypt'19](http://2019.qcrypt.net/) ||
+|2| M,09/02 | (Labor day) Merge sort | CLRS 2.3 | 
+|| W,09/04 | Divide-&-Conquer | CLRS 4.1-4.2 |
+||F,09/06| Recurrences | CLRS 4.3-4.5|
+|3| M,09/09|Graphs| CLRS 22 |
 || W,09/11 |||
 ||F,09/13|||
-|4| M,09/16 |||
+|4| M,09/16 || |
 || W,09/18 | ||
 ||F,09/20|||
 |5| M,09/23|||

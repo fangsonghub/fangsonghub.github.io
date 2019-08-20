@@ -2,12 +2,17 @@
 layout: page
 title: Research
 excerpt:
-modified: <2019-04-28 Sun>
+modified: <2019-08-18 Mon>
 ---
 * Table of Contents
 {:toc}
 
 ## Publications
+*   **General Linear Group Action on Tensors: A Candidate for Post-Quantum Cryptography** 
+    *  Authors: Zhengfeng Ji, Youming Qiao, Fang Song, and Aaram Yun
+	*  To appear in _the 17th Theory of Cryptography Conference
+       ([TCC 2019](https://tcc.iacr.org/2019/){:target="_blank"})_.
+	*  [[arXiv](https://arxiv.org/abs/1906.04330){:target="_blank"}] 
 *   **Quantum security of hash functions and property-preservation of iterated hashing**
     *   Authors: Ben Hamlin and Fang Song
 	*   In _the 10th International Conference on Post-Quantum Cryptography ([PQCrypto 2019](http://pqcrypto2019.org/){:target="_blank"})_.
@@ -17,7 +22,7 @@ modified: <2019-04-28 Sun>
 	*   In _the 38th International Cryptology Conference ([Crypto 2018](https://crypto.iacr.org/2018/){:target="_blank"})_.
 	*   [[ePrint](https://eprint.iacr.org/2018/544){:target="_blank"} [arXiv](https://arxiv.org/abs/1711.00385){:target="_blank"}] [Slides: [PDF]({{base}}/files/talks/prs-crypto18.pdf){:target="_blank"} [Video](https://www.youtube.com/watch?v=SuD-OvGKUWw&t=273s){:target="_blank"}]
 *   **Quantum Collision-Finding in Non-Uniform Random Functions**
-    *   Authors: Marko Balogh and Edward Eaton and Fang Song
+    *   Authors: Marko Balogh, Edward Eaton and Fang Song
 	*   In _the 9th International Conference on Post-Quantum Cryptography ([PQCrypto 2018](http://www.math.fau.edu/pqcrypto2018/){:target="_blank"})_.
     *   [[Springer](https://link.springer.com/chapter/10.1007%2F978-3-319-79063-3_22){:target="_blank"}] [[IACR ePrint](http://ia.cr/2017/688){:target="_blank"}]
 *  **Quantum Security of NMAC and Related Constructions**

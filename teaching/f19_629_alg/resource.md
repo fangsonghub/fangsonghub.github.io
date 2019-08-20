@@ -5,13 +5,15 @@ subtitle: Resources
 courseid: f19 629
 desc: Resource
 permalink: /teaching/f19_629_alg/resource/
-modified: <2019-08-19 Mon>
+modified: <2019-08-20 Tue>
 ---
 ## Other suggested texts
 *  [KT] Jon Kleinberg, Éva Tardos. _Algorithm design_, Pearson Addison-Wesley, 2006. [Libcat](https://libcat.tamu.edu/vwebv/holdingsInfo?bibId=2587151){:target="_blank"}. 
 *  [JE] Jeff Erickson. _Algorithms_, 2019. The author maintains
 an e-copy among other useful materials on his
 [webpage](http://jeffe.cs.illinois.edu/teaching/algorithms/){:target="_blank"}. 
+*  [DPV] Sanjoy Dasgupta, Christos Papadimitriou, Umesh
+   Vazirani. _Algorithms_, McGraw-Hill Higher Education, 2008. 
 
 ## Math readings
 * Margaret M. Fleck. _Building Blocks for Theoretical Computer

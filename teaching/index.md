@@ -2,7 +2,7 @@
 layout: page
 title: Teaching
 excerpt: 
-modified: <2018-09-14 Fri>
+modified: <2019-08-18 Mon>
 ---
 ## Courses at Texas A&M University
 * CSCE 629 **Analysis of Algorithms** [Fall 2019]({{ base }}/teaching/f19_629_alg/)
@@ -21,6 +21,8 @@ I am looking for self-motivated students who are interested in
     the [recruit page]({{base}}/recruit/){:target="_blank"}. Don't hesitate to reach me! 
 	
 ### Ph.D. 
+*  2019.09 - : [Chuhan Lu](){:target="_blank"} @Texas A&M U
+*  2019.09 - : [Mufeng Xie](){:target="_blank"} @Texas A&M U
 *  2018.09 - : [Ben Hamlin](){:target="_blank"} @Texas A&M U
 *  2017.09 - 2018.08: [Asher Toback](){:target="_blank"} @ Portland State U
 
