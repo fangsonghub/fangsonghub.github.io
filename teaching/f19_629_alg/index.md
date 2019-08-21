@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: f19 629
 permalink: /teaching/f19_629_alg/
-modified: <2019-08-19 Mon>
+modified: <2019-08-21 Wed>
 ---
 
 ## Announcement
@@ -25,7 +25,7 @@ modified: <2019-08-19 Mon>
    with "f19-629". For quick response, please communicate with Piazza.
 *  **Lectures**: M/W/F 10:20 am-11:10 am @ HRBB 113
 *  **Office hours**: M 1 - 3 pm and by appointment
-*  **TA**: Abhishek Das <abkds@tamu.edu>; Office hours & location: TBD
+*  **TA**: Abhishek Das <abkds@tamu.edu>; Office hours & location: Th 1 - 3 pm @ HRBB 526
 *  **Required Text**: [CLRS] Thomas H. Cormen, Charles
 E. Leiserson,Ronald L. Rivest and Clifford Stein. _Introduction to
 Algorithms, 3rd edition_, MIT Press, 2009. [Library
