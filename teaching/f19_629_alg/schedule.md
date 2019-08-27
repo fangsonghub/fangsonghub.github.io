@@ -11,7 +11,7 @@ modified: <2019-08-26 Mon>
 
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
-|1| M,08/26  | Intro <br> Growth of function  | DLRS 1 - 3 |
+|1| M,08/26  | Intro <br> Growth of functions <br> Intro slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec1_intro.pdf){:target="_blank"}  | DLRS 1 - 3 |
 || W,08/28 |LaTeX tutorial (by Andrew Nemec) | [Overleaf tutorial](https://www.sharelatex.com/blog/latex-guides/beginners-tutorial.html) |
 ||F,08/30 | Cancelled due to [QCrypt'19](http://2019.qcrypt.net/) |<br> **HW1** out (see below) <br> due XX/XX/2019 |
 |2| M,09/02 | (Labor day) Merge sort | CLRS 2.3 | 
