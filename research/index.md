@@ -95,6 +95,7 @@ modified: <2019-08-18 Mon>
 - - -
 
 ## Other Talks 
+*  Invited tutorial at the [9th International Conference on Quantum Cryptography](http://2019.qcrypt.net/), Montreal, Canada, August 28, 2019. **Zero-knowledge proofs meet quantum computing**. [Slides [PDF]({{base}}/files/talks/201908_qcrypt_zk.pdf){:target="_blank"}]
 *  Invited talk at the [2nd IAMCS Quantum Computation and Information Workshop](https://iamcs.tamu.edu/quantum-computation-and-information-workshop), TAMU, May
 13-15, 2019. **Cryptography from NP Hardness: can quantum help?**. [Slides [PDF]({{base}}/files/talks/2IAMCS-Worst2Avg-Song.pdf){:target="_blank"}]
 *  Invited talk at the [AMS Spring Central and Western Joint Sectional
