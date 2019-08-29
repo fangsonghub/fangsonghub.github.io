@@ -15,6 +15,12 @@ broadly.
 
 ## News
 
+*  <2019-08-28 Wed> Slides of the tutorial at the [9th International
+   Conference on Quantum Cryptography](http://2019.qcrypt.net/), now
+   available under [Research]({{base}}/research/#other-talks) Explore
+   **Zero-knowledge proofs** in a quantum world, and solve the open
+   questions.
+
 <!--*  I will be offering an introductory course on **Quantum computing** in Spring 2017. Check out the course information [here]({{base}}/teaching/s17_4510_qc/). -->
 
 <!--* **September 2018**: I have a **post-doctorate** fellow position available at TAMU to work on quantum computing and post-quantum cryptography. The focus will be either on quantum provable security or quantum algorithms for post-quantum candidate problems. Starting date is flexible, and an official ad will be out soon. Shoot me an email if you (or know someone who) are interested and have related research experience. -->
