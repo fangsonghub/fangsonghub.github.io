@@ -1,0 +1,213 @@
+% Instructions: you don't need to change anything in the macros, but
+% feel free to define new commands as you wish. Starting from the main
+% body, change the specs (e.g., your
+% name). use \begin{solution} \end{solution} environment to write your
+% solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CSCE629 Analysis of Algorithms}
+\def\term{Texas A\&M U, Fall 2019}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill \textbf{#5}  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\corr}[1]{{\color{blue}{#1}}}
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+%\studentfalse
+
+\def\issuedate{08/30/19}
+\def\duedate{09/06/19} % 
+\def\yourname{your name} % put your name here
+
+%------------------------------%
+\ifstudent
+\hw{1}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{1}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+
+% This assignment contains \numquestions\ questions, \numpages\ pages
+% for the total of \numpoints \ marks.
+\noindent \textbf{Instructions.} Typeset your submission by \LaTeX,
+and submit in PDF format. Your solutions will be graded on
+\emph{correctness} and \emph{clarity}. You should only submit work
+that you believe to be correct, and you will get significantly more
+partial credit if you clearly identify the gap(s) in your
+solution. You may opt for the ``I’ll take 15\%'' option (details in
+Syllabus). A random subset of the problems will be graded. \medskip
+
+\noindent You may collaborate with others on this problem set.
+However, you must \textbf{{write up your own solutions}} and
+\textbf{{list your collaborators and any external sources}} for each
+problem.
+
+\medskip
+
+\begin{questions}
+
+  \question (Piazza) \textbf{Attention: this problem is due Friday,
+    August 30, 11:59pm CDT.}
+  \begin{parts}
+    \part[2] Enroll on Piazza
+    \url{https://piazza.com/tamu/spring2019/csce440640/}.
+    \part[3] Post a note on Piazza describing: 1) a few words about
+    yourself; 2) your strengths in CS (e.g., programming, algorithm,
+    ...); 3) what you hope to get out of this course; and 4) anything
+    else you feel like sharing. See instructions on how to post a note
+    \url{https://support.piazza.com/customer/en/portal/articles/1564004-post-a-note}.
+
+    The purpose is to help me know you all, and also get you known to
+    your fellow students. 
+\end{parts}
+
+\question[10] (Order of growth rate) Take the following list of functions and arrange them in
+  ascending order of growth rate. That is, if function $g(n)$
+  immediately follows function $f(n)$ in your list, then it should be
+  the case that $f(n)$ is $O(g(n))$.
+  \begin{itemize}
+  \item $f_1(n) = n^{2.5}$
+  \item $f_2(n) = \sqrt{2n}$
+  \item $f_3(n)=n+10$
+  \item $f_4(n) = 10n$
+  \item $f_5(n) = 100^n$
+  \item $f_6(n) = n^2 \log n$
+  \end{itemize}
+
+  % \begin{solution}
+  %  uncomment the environment and write your solution here
+  %\end{solution}
+
+\question[10] (Order of growth rate) Take the following list of functions and arrange them in
+  ascending order of growth rate.
+  \begin{itemize}
+  \item $g_1(n) = 2^{\sqrt{n}}$
+  \item $g_2(n) = 2^n$
+  \item $g_3(n) = n(\log n)^3$
+  \item $g_4(n) = n^{4/3}$
+  \item $g_5(n) = n^{\log n}$
+  \item $g_6(n) = 2^{2^n}$
+  \item $g_7(n) = 2^{n^2}$
+  \item $g_8(n) = n!$
+  \end{itemize}
+
+\question[15] (Understanding big-$O$ notation) Assume you have functions $f$ and $g$ such that $f(n)$ is
+  $O(g(n))$. For each of the following statements, decide whether you
+  think it is true or false and give a proof or counterexample.
+  \begin{parts}
+  \part $\log_2f(n)$ is $O(\log_2 g(n))$.
+  \part $2^{f(n)}$ is $O(2^{g(n)})$.
+  \part $f(n)^2$ is $O(g(n)^2)$.
+  \end{parts}
+\question (Basic proof techniques) Read the chapter on \texttt{Proof
+    by Induction} by Erickson
+  (\url{http://jeffe.cs.illinois.edu/teaching/algorithms/notes/98-induction.pdf}),
+  and do the following.
+
+  \begin{parts}
+  \part[10] Prove that every integer (positive, negative, or zero) can be
+    written in the form $\sum k \pm 3^k$, where the exponents $k$ are
+    distinct non-negative integers. For example:
+    \begin{center}
+      \begin{align*}
+      42 &= 3^4 - 3^3 - 3^2 - 3^1 \\
+      25 &= 3^3 - 3^1 + 3^0 \\
+      17 &= 3^3 - 3^2 - 3^0
+    \end{align*}
+    \end{center}
+  \part[10] A binary tree is \emph{full} if every node has either two
+    children (an internal node) or no children (a leaf). Give two
+    proofs (proof by induction and proof by contradiction) of the
+    following statement: in any full binary tree, the number of leaves
+    is exactly one more than the number of internal nodes.
+  \end{parts}
+\question (Reduction) Given a set $X$ of $n$ Boolean variables
+  $x_1,\ldots,x_n$; each can take the value 0 or 1 (equivalently,
+  ``false'' or ``true''). By a term over $X$, we mean one of the
+  variables $x_i$ or its negation $\bar x_i$. Finally, a clause is
+  simply a disjunction of distinct terms
+  $t_1 \vee t_2 \vee \ \ldots \vee t_\ell $.  (Again, each
+  $t_i \in \{x_1, x_2,\ldots,x_n, \overline{x_1},\ldots,
+  \overline{x_n}\}$.) We say the clause has length l if it contains l
+  terms.
+
+  A truth assignment for $X$ is an assignment of the value 0 or 1 to
+  each $x_i$; in other words, it is a function $v: X \to \bit$. The
+  assignment $v$ implicitly gives $x_i$ the opposite truth value from
+  $x_i$. An assignment satisfies a clause $C$ if it causes $C$ to
+  evaluate to 1 under the rules of Boolean logic; this is equivalent
+  to requiring that at least one of the terms in $C$ should receive
+  the value 1. An assignment satisfies a collection of clauses
+  $C_1,\ldots, C_k$ if it causes all of the $C_i$ to evaluate to 1; in
+  other words, if it causes the conjunction
+  $C_1 \wedge C_2 \wedge \ldots C_k$ to evaluate to 1. In this case,
+  we will say that $v$ is a satisfying assignment with respect to
+  $C_1,\ldots,C_k$; and that the set of clauses $C_1,\ldots,C_k$ is
+  \emph{satisfiable}. For example, consider the three clauses
+  \[(x_1 \vee \overline{x_2}), (\overline{x_1} \vee \overline{x_3}),
+    (x_2 \vee \overline{x_3}) \, .\]
+
+  A truth assignment $v$ that sets all variables to 1 is not a
+  satisfying assignment, because it does not satisfy the second of
+  these clauses; but the truth assignment $v'$ that sets all variables
+  to 0 is a satisfying assignment.
+
+  We can now state the \texttt{Satisfiability} Problem, also referred
+  to as SAT:
+  \begin{center}
+    Given a set of clauses $C_1, \ldots, C_k$ over a set of variables
+    $X = \{ x_1, \ldots, x_2\}$, does there exist a satisfying truth
+    assignment?
+    \end{center}
+
+    Suppose we are given an oracle $\mathcal{O}$ which can solve the
+    \texttt{Satisfiability} problem. Namely if we feed a set of
+    clauses to $\mathcal{O}$, it will tell us YES if there is a
+    satisfying assignment for all clauses or NO if there exists
+    none. Show that you can actually find a satisfying truth
+    assignment $v$ for $C_1,\ldots,C_k$ by asking questions to
+    $\mathcal{O}$. Describe your procedure, and analyze how many
+    questions you need to ask.
+\end{questions}
+
+
+\end{document}

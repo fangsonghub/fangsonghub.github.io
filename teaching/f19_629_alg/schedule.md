@@ -13,7 +13,7 @@ modified: <2019-08-26 Mon>
 |:-----:| :---------: |:----------:|:-----:|
 |1| M,08/26  | Intro <br> Growth of functions <br> Intro slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec1_intro.pdf){:target="_blank"}  | DLRS 1 - 3 |
 || W,08/28 |LaTeX tutorial (by Andrew Nemec) | [Overleaf tutorial](https://www.sharelatex.com/blog/latex-guides/beginners-tutorial.html) |
-||F,08/30 | Cancelled due to [QCrypt'19](http://2019.qcrypt.net/) |<br> **HW1** out (see below) <br> due XX/XX/2019 |
+||F,08/30 | Cancelled due to [QCrypt'19](http://2019.qcrypt.net/) |<br> **HW1** out (see below) <br> due 09/06/2019 |
 |2| M,09/02 | (Labor day) Merge sort | CLRS 2.3 | 
 || W,09/04 | Divide-&-Conquer | CLRS 4.1-4.2 |
 ||F,09/06| Recurrences | CLRS 4.3-4.5|
@@ -63,7 +63,7 @@ modified: <2019-08-26 Mon>
 You solutions must be typed in LaTeX. See [Resource]({{base}}/teaching/f19_629_alg/resource/) for LaTeX tutorials. 
 *  Homework 1
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hw1.tex){:target="_blank"}],
-   due XX/XX/2019, before class.
+   due 09/06/2019, before class.
 *  Homework 2
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hw2.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hw2.tex){:target="_blank"}],
    due XX/XX/2019, before class.
