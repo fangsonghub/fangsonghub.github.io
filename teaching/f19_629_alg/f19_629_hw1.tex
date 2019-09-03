@@ -145,7 +145,7 @@ problem.
 
   \begin{parts}
   \part[10] Prove that every integer (positive, negative, or zero) can be
-    written in the form $\sum k \pm 3^k$, where the exponents $k$ are
+    written in the form $\sum_{\corr{k}} \pm 3^k$, where the exponents $k$ are
     distinct non-negative integers. For example:
     \begin{center}
       \begin{align*}
@@ -172,11 +172,11 @@ problem.
 
   A truth assignment for $X$ is an assignment of the value 0 or 1 to
   each $x_i$; in other words, it is a function $v: X \to \bit$. The
-  assignment $v$ implicitly gives $x_i$ the opposite truth value from
-  $x_i$. An assignment satisfies a clause $C$ if it causes $C$ to
-  evaluate to 1 under the rules of Boolean logic; this is equivalent
-  to requiring that at least one of the terms in $C$ should receive
-  the value 1. An assignment satisfies a collection of clauses
+  assignment $v$ implicitly gives $\corr{\overline{x_i}}$ the opposite truth
+  value from $x_i$. An assignment satisfies a clause $C$ if it causes
+  $C$ to evaluate to 1 under the rules of Boolean logic; this is
+  equivalent to requiring that at least one of the terms in $C$ should
+  receive the value 1. An assignment satisfies a collection of clauses
   $C_1,\ldots, C_k$ if it causes all of the $C_i$ to evaluate to 1; in
   other words, if it causes the conjunction
   $C_1 \wedge C_2 \wedge \ldots C_k$ to evaluate to 1. In this case,
