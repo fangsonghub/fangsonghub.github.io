@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-09-02 Mon>
+modified: <2019-09-04 Wed>
 ---
 
 ## Schedule (subject to change)
@@ -15,7 +15,7 @@ modified: <2019-09-02 Mon>
 || W,08/28 |LaTeX tutorial (by Andrew Nemec) | [Overleaf tutorial](https://www.sharelatex.com/blog/latex-guides/beginners-tutorial.html) |
 ||F,08/30 | Cancelled due to [QCrypt'19](http://2019.qcrypt.net/) |<br> **HW1** out (see below) <br> due 09/06/2019 |
 |2| M,09/02 | (Labor day) Merge sort <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec2_merge_sort.pdf){:target="_blank"} | CLRS 2.3 | 
-|| W,09/04 | Divide-&-Conquer | CLRS 4.1-4.2 |
+|| W,09/04 | Divide-&-Conquer <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec3_divconq.pdf){:target="_blank"} | CLRS 4.1-4.2 |
 ||F,09/06| Recurrences | CLRS 4.3-4.5|
 |3| M,09/09|Graphs| CLRS 22 |
 || W,09/11 | ||
