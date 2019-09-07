@@ -16,10 +16,10 @@ modified: <2019-09-06 Fri>
 ||F,08/30 | Cancelled due to [QCrypt'19](http://2019.qcrypt.net/) | **HW1** out (see below) <br> due 09/06/2019 |
 |2| M,09/02 | (Labor day) Merge sort <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec2_merge_sort.pdf){:target="_blank"} | CLRS 2.3 | 
 || W,09/04 | Divide-&-Conquer <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec3_divconq.pdf){:target="_blank"} | CLRS 4.1-4.2 |
-||F,09/06| Recurrences | CLRS 4.3-4.5 <br> HW1 due, **HW2** out <br> due 09/13/2019|
+||F,09/06| Recurrences <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec4_recurrence.pdf){:target="_blank"}| CLRS 4.3-4.5 <br> HW1 due, **HW2** out <br> due 09/13/2019|
 |3| M,09/09| Recitation by TA | |
-|| W,09/11 |Graph Basics <br> Guest lecturer: Prof. Andreas Klappenecker | CLRS 22 |
-||F,09/13|||
+|| W,09/11 |Graph basics <br> Guest lecturer: Prof. Andreas Klappenecker | CLRS 22 |
+||F,09/13|Graph traversal and applications <br> | CLRS 22 |
 |4| M,09/16 || |
 || W,09/18 | ||
 ||F,09/20|||
