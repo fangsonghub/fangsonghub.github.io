@@ -18,11 +18,11 @@ modified: <2019-09-13 Fri>
 || W,09/04 | Divide-&-Conquer <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec3_divconq.pdf){:target="_blank"} | CLRS 4.1-4.2 |
 ||F,09/06| Recurrences <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec4_recurrence.pdf){:target="_blank"}| CLRS 4.3-4.5 <br> HW1 due, **HW2** out <br> due 09/13/2019|
 |3| M,09/09| Recitation by TA | |
-|| W,09/11 |Graph basics <br> Guest lecturer: Prof. Andreas Klappenecker | CLRS 22 |
-||F,09/13|Graph traversal and applications <br> | CLRS 22 <br> HW2 due, **HW3** out <br> due 09/20/2019 |
-|4| M,09/16 || |
-|| W,09/18 | ||
-||F,09/20|||
+|| W,09/11 |Graph basics <br> Guest lecturer: Prof. Andreas Klappenecker <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec5_graphs_guest.pdf){:target="_blank"} | CLRS 22.1,22.2 |
+||F,09/13|Graph traversal and applications <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec6_dfs.pdf){:target="_blank"} | CLRS 22.3,10.4 <br> HW2 due, **HW3** out <br> due 09/20/2019 |
+|4| M,09/16 | Connected components | CLRS 10.1,22.5|
+|| W,09/18 |DAG and topological sort | CLRS 22.4|
+||F,09/20| Dynamic Programming| CLRS 15|
 |5| M,09/23|||
 || W,09/25 | ||
 ||F,09/27|||
