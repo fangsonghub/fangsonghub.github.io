@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-09-06 Fri>
+modified: <2019-09-13 Fri>
 ---
 
 ## Schedule (subject to change)
@@ -19,7 +19,7 @@ modified: <2019-09-06 Fri>
 ||F,09/06| Recurrences <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec4_recurrence.pdf){:target="_blank"}| CLRS 4.3-4.5 <br> HW1 due, **HW2** out <br> due 09/13/2019|
 |3| M,09/09| Recitation by TA | |
 || W,09/11 |Graph basics <br> Guest lecturer: Prof. Andreas Klappenecker | CLRS 22 |
-||F,09/13|Graph traversal and applications <br> | CLRS 22 |
+||F,09/13|Graph traversal and applications <br> | CLRS 22 <br> HW2 due, **HW3** out <br> due 09/20/2019 |
 |4| M,09/16 || |
 || W,09/18 | ||
 ||F,09/20|||
