@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-09-13 Fri>
+modified: <2019-09-16 Mon>
 ---
 
 ## Schedule (subject to change)
@@ -20,7 +20,7 @@ modified: <2019-09-13 Fri>
 |3| M,09/09| Recitation by TA | |
 || W,09/11 |Graph basics <br> Guest lecturer: Prof. Andreas Klappenecker <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec5_graphs_guest.pdf){:target="_blank"} | CLRS 22.1,22.2 |
 ||F,09/13|Graph traversal and applications <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec6_dfs.pdf){:target="_blank"} | CLRS 22.3,10.4 <br> HW2 due, **HW3** out <br> due 09/20/2019 |
-|4| M,09/16 | Connected components | CLRS 10.1,22.5|
+|4| M,09/16 | Connected components <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec7_conn.pdf){:target="_blank"} | CLRS 10.1,22.5|
 || W,09/18 |DAG and topological sort | CLRS 22.4|
 ||F,09/20| Dynamic Programming| CLRS 15|
 |5| M,09/23|||
