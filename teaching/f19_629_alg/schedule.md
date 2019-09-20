@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-09-17 Tue>
+modified: <2019-09-20 Fri>
 ---
 
 ## Schedule (subject to change)
@@ -22,7 +22,7 @@ modified: <2019-09-17 Tue>
 ||F,09/13|Graph traversal and applications <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec6_dfs.pdf){:target="_blank"} | CLRS 22.3,10.4 <br> HW2 due, **HW3** out <br> due 09/20/2019 |
 |4| M,09/16 | Connected components <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec7_conn.pdf){:target="_blank"} | CLRS 10.1,22.5|
 || W,09/18 |DAG and topological sort <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec8_dag.pdf){:target="_blank"} | CLRS 22.4|
-||F,09/20| Dynamic Programming| CLRS 15|
+||F,09/20| Dynamic Programming <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec9_dp1.pdf){:target="_blank"} | CLRS 15|
 |5| M,09/23|||
 || W,09/25 | ||
 ||F,09/27|||
