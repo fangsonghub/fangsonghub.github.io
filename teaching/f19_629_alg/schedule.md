@@ -70,7 +70,7 @@ You solutions must be typed in LaTeX. See [Resource]({{base}}/teaching/f19_629_a
 *  Homework 3
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hw3.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hw3.tex){:target="_blank"}],
    due 10am, 09/20/2019.
-*  Homework X
+*  Homework 4
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hw4.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hw4.tex){:target="_blank"}],
    due 10am, 09/27/2019. 
 *  Homework X
