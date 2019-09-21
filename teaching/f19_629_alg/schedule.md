@@ -22,7 +22,7 @@ modified: <2019-09-20 Fri>
 ||F,09/13|Graph traversal and applications <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec6_dfs.pdf){:target="_blank"} | CLRS 22.3,10.4 <br> HW2 due, **HW3** out <br> due 09/20/2019 |
 |4| M,09/16 | Connected components <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec7_conn.pdf){:target="_blank"} | CLRS 10.1,22.5|
 || W,09/18 |DAG and topological sort <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec8_dag.pdf){:target="_blank"} | CLRS 22.4|
-||F,09/20| Dynamic Programming <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec9_dp1.pdf){:target="_blank"} | CLRS 15|
+||F,09/20| Dynamic Programming <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec9_dp1.pdf){:target="_blank"} | CLRS 15 <br> HW3 due, **HW4** out <br> due 09/27/2019|
 |5| M,09/23|||
 || W,09/25 | ||
 ||F,09/27|||
@@ -66,10 +66,13 @@ You solutions must be typed in LaTeX. See [Resource]({{base}}/teaching/f19_629_a
    due 10am, 09/06/2019.
 *  Homework 2
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hw2.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hw2.tex){:target="_blank"}],
-   due 10am, /XX/2019.
+   due 10am, 09/13/2019.
 *  Homework 3
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hw3.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hw3.tex){:target="_blank"}],
-   due XX/XX/2019.
+   due 10am, 09/20/2019.
+*  Homework X
+   [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hw4.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hw4.tex){:target="_blank"}],
+   due 10am, 09/27/2019. 
 *  Homework X
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hwx.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hwx.tex){:target="_blank"}],
    due XX/XX/2019. 
