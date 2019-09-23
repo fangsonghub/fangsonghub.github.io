@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-09-20 Fri>
+modified: <2019-09-23 Mon>
 ---
 
 ## Schedule (subject to change)
@@ -23,11 +23,11 @@ modified: <2019-09-20 Fri>
 |4| M,09/16 | Connected components <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec7_conn.pdf){:target="_blank"} | CLRS 10.1,22.5|
 || W,09/18 |DAG and topological sort <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec8_dag.pdf){:target="_blank"} | CLRS 22.4|
 ||F,09/20| Dynamic Programming <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec9_dp1.pdf){:target="_blank"} | CLRS 15 <br> HW3 due, **HW4** out <br> due 09/27/2019|
-|5| M,09/23|||
-|| W,09/25 | ||
-||F,09/27|||
+|5| M,09/23| Fibonacci <br> Weighted interval scheduling <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec10_dp2.pdf){:target="_blank"}| KT 6.1 [PDF]({{base}}/teaching/f19_629_alg/weighted_interval_scheduling.pdf){:target="_blank"} |
+|| W,09/25 | Elements of DP <br> Matrix-chain multiplication| CLRS 15.2,15.3 |
+||F,09/27| Longest common subsequence | CLRS 15.4 |
 |6| M,09/30|||
-||W,10/02 |||
+||W,10/02 | ||
 ||F,10/04|||
 |7| M,10/07 |||
 ||W,10/09 |||
