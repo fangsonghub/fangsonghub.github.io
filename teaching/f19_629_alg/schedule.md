@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-09-27 Fri>
+modified: <2019-10-02 Wed>
 ---
 
 ## Schedule (subject to change)
@@ -27,8 +27,8 @@ modified: <2019-09-27 Fri>
 || W,09/25 | Elements of DP <br> Matrix-chain multiplication <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec11_dp3.pdf){:target="_blank"} | CLRS 15.2,15.3 |
 ||F,09/27| Longest common subsequence <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec12_dp4.pdf){:target="_blank"} | CLRS 15.4 <br> HW4 due, **HW5** out <br> due 10/04/19|
 |6| M,09/30|Recitation by TA | |
-||W,10/02 |||
-||F,10/04|||
+||W,10/02 |Bellman-Ford: shortest path <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec13_dp5.pdf){:target="_blank"} | CLRS 24.1,24.2|
+||F,10/04|Dijsktra's algorithm <br> Greedy algorithm | CLRS 24.3,16|
 |7| M,10/07 |||
 ||W,10/09 |||
 ||F,10/11|||
