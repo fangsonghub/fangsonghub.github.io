@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-10-04 Fri>
+modified: <2019-10-07 Mon>
 ---
 
 ## Schedule (subject to change)
@@ -29,7 +29,7 @@ modified: <2019-10-04 Fri>
 |6| M,09/30|Recitation by TA | |
 ||W,10/02 |Bellman-Ford: shortest path <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec13_dp5.pdf){:target="_blank"} | CLRS 24.1,24.2|
 ||F,10/04|Dijkstra's algorithm <br> Greedy algorithm <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec14_dijk.pdf){:target="_blank"} | CLRS 24.3,16|
-|7| M,10/07 |||
+|7| M,10/07 |Greedy algorithm <br> Interval schedule/partition <br>Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec15_greedy.pdf){:target="_blank"} | CLRS 16|
 ||W,10/09 |||
 ||F,10/11|||
 |8| M,10/14 |||
