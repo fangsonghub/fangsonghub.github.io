@@ -1,0 +1,213 @@
+\documentclass[12pt,answers,addpoints]{exam}
+
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\newcommand{\classn}{CSCE629 Analysis of Algorithms}
+\newcommand{\classnabbr}{CSCE 629}
+\newcommand{\school}{Texas A\&M U}
+\newcommand{\term}{Fall 2019}
+\newcommand{\examdate}{Oct. 11, 2019}
+\newcommand{\duedate}{10am, Oct. 14, 2019}
+\newcommand{\examnum}{Mid-term Exam}
+\newcommand{\studentname}{\makebox[1.5in]{\hrulefill}} % change it to your name
+\pagestyle{head}
+\firstpageheader{}{}{}
+\runningheader{\classnabbr}{\examnum\ - Page \thepage\ of
+  \numpages}{\term}
+\vskip 1ex
+\setlength{\headsep}{10pt}
+\runningheadrule
+
+%\qzheader                       % execute quiz commands
+
+\begin{document}
+
+\noindent
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r
+    @{\extracolsep{6pt}} r}
+  {\Large\textbf{\examnum}} & \Large{\textbf{Name:}} & \studentname\\
+  {\term}, {\classn} & &  {\examdate}\\
+  \school && Prof. Fang Song
+\end{tabular*}\\
+
+\rule[2ex]{\textwidth}{1pt}
+
+\subsection*{Instructions (please read carefully before start!)}
+
+\begin{itemize}
+\item This take-home exam contains \numpages\ pages (including this
+  cover page) and \numquestions\ questions. Total of points is
+  \numpoints.
+\item You will have till \textbf{\duedate} to finish the exam. You
+  must work on your own, and no collaboration or help from any
+  resources other than those made available in class (lecture notes,
+  texts, homework problems, etc.) is permitted.
+
+\item Submit your solutions in PDF on Gradescope before the deadline,
+  either scanned or typeset in \LaTeX. If you choose to hand-write and
+  scan, \emph{print out this exam sheet and write your solutions on
+    it}. Do your best to fit your answers into the space provided, and
+  attach extra papers only if necessary. If you typeset in \LaTeX,
+  \emph{use the provided TeX file}. No other formats are accepted.
+
+\item Your work will be graded on correctness and clarity. Make sure
+  your hand writing is legible. You may opt for the “I’ll take 15\%”
+  option.
+  
+\item Don't forget to write your name on top (or update the
+  ``{\textbackslash}studentname'' command in the TeX file)!
+\end{itemize}
+
+\begin{center}
+\textbf{Grade Table} (for instructor use only)\\
+\smallskip
+\addpoints
+\gradetable[v][questions]
+\end{center}
+
+\newpage
+
+\begin{questions}
+  \question \emph{Short answers}. Answer the following, and briefly
+  justify your answer.
+  \begin{parts}
+  \part[5] You are working on a divide-and-conquer algorithm that
+    given an input of size $n$, calls itself recursively on 8
+    subproblems of size $\lceil n/5 \rceil$. Dividing and combining
+    take time $f(n)$. Can the total running time of the algorithm be
+    $O(n)$?
+
+
+    \vskip 3cm
+   
+
+  \part[5] Rank the following functions by \emph{ascending} order of
+    growth. That is, find an arrangement of $g_1,g_2,\ldots$ such that
+    $g_1(n) = O(g_2(n)), g_2(n) = O(g_3(n)),\ldots$. If two function
+    satisfy $g_i(n) = \Theta(g_j(n))$, they can be in either
+    order. Recall that $\log (\cdot)$ is base 2 logarithm and
+    $\log_b(\cdot)$ is base $b$ logarithm.
+
+    \[5^{\log n}, \log^{91}n, \sqrt[5]n, 2^{\sqrt[3]{n}}, \log(\sqrt{n!}),
+      3^{log_3 n}, n^{2 \log 7} \, .\]
+
+    \vskip 3cm
+
+  \part[5] Your friend Hulk proposes adapting Dijkstra's algorithm in
+    the following way to deal with negative-length edges. Pick the
+    edge with the smallest length $\ell < 0$ (e.g., -10), and then
+    increase the length of each edge by $|\ell|$ so all edges will
+    become non-negative. Then run Dijkstra's on $G$ with this updated
+    lengths to find a shortest path from $s$ to $t$. Does this also
+    give you a shortest $s-t$ path in the original graph? Justify your
+    answer.
+    \vskip 3cm
+
+  \part[5] We have a connected graph $G=(V,E)$. Suppose that we run
+    both BFS and DFS on a vertex $u\in V$, and obtain the same BFS
+    search tree and DFS search tree $T$, which contains all vertices
+    of $G$. Prove or disapprove: $G = T$.
+
+  \end{parts}
+\newpage
+
+\question Consider a function $f$ that takes two integer inputs $i,j$
+  in $\{1,\ldots,n\}$ and returns a real number. A \emph{local
+    minimum} of $f$ is a point $(i,j)$ such that $f(i,j) \leq f(a,b)$
+  for all pairs $(a,b)\in \{1,\ldots,n\}^2$ where $|a - i| \leq 1$ and
+  $|b-j| \leq 1$.
+
+    The goal of this problem is to find an efficient algorithm that
+    finds a local minimum of $f$, assuming nothing about the structure
+    of $f$ except that for any input $(i,j)$, evaluating $f(i,j)$
+    takes \emph{unit} time. 
+
+    We can represent this problem via a grid-like graph $G_n$, where
+    the vertices are pairs of integers and two pairs are connected if
+    each of their components differs by at most $1$, that is
+    $((i,j),(a,b))\in E$ iff. $|a - i| \leq 1$ and $|b - j| \leq
+    1$. Note that $G_n$ has $n^2$ vertices and degree at most $8$. We
+    can think of $f$ as a function that assigns a real number to each
+    vertex. A local minimum is then a vertex $v$ such that
+    $f(v) \leq f(v')$ for all adjacent vertices $v'$.
+    \begin{parts}
+\part[10] Give a recursive algorithm for this problem that cuts the
+  graph $G_n$ into four sub-graphs of the form $G_{n/2}$, and gets
+  called recursively on at most one of the subgraphs.
+\newpage
+\part[5] Prove correctness of your algorithm.
+\vskip 8cm
+\part[10] State a recurrence that describes the worst-case running time
+  of your algorithm. Solve it using any method of your choice.
+
+\end{parts}
+\newpage
+\question You have been hired to plan the locations of rest stops
+  along a stretch of highway. There are $n$ potential locations for
+  the rest stops. Location $i$ is $d_i$ miles from the start point of
+  the highway. Building a rest stop at location $i$ costs $c_i$
+  dollars. The cost of building at a set of locations is the sum of
+  the individual costs. You need to design an algorithm that takes the
+  numbers $(d_i,c_i)$ and returns the minimum-cost set of locations
+  such that no two consecutive locations are more than 30miles apart,
+  and there is at least one rest stop within 30miles of both the start
+  and end of the highway. Assuming that the input comes sorted in
+  \emph{ascending} order according to $d_i$.
+
+  \begin{parts}
+  \part[10] You realize that dynamic programming is helpful here,
+    assuming that all potential locations are at least 5miles
+    apart. Describe the subproblems for which your algorithm compute
+    solutions.
+
+    \vskip 6cm
+    
+  \part[7] Give the pseudocode of your algorithm.
+    \newpage 
+  \part[8] State your algorithm's (worst-case) running time and justify
+    your answer. 
+  \end{parts}
+    \newpage
+
+  \question[20] Suppose you are given a set $L$ of $n$ line segments
+    in the plane, where each segment has one endpoint on the vertical
+    line $x = 0$ and one endpoint on the vertical line $x = 1$, and
+    all $2n$ endpoints are distinct. Describe and analyze an algorithm
+    to compute the largest subset of $L$ in which no pair of segments
+    intersects.
+
+
+  
+\end{questions}
+\newpage
+\begin{center}
+Scrap paper -- no exam questions here.  
+\end{center}
+
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

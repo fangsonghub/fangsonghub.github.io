@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-10-07 Mon>
+modified: <2019-10-11 Fri>
 ---
 
 ## Schedule (subject to change)
@@ -82,6 +82,9 @@ You solutions must be typed in LaTeX. See [Resource]({{base}}/teaching/f19_629_a
 *  Practice Mid-term
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_mid_practice.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_mid_practice.tex){:target="_blank"}],
    due XX/XX/2019. 
+*  Take-home Mid-term
+   [[PDF]({{base}}/teaching/f19_629_alg/f19_629_mid.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_mid.tex){:target="_blank"}],
+   due 10am, 10/14/2019.
 *  Homework X
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hwx.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hwx.tex){:target="_blank"}],
    due XX/XX/2019. 
