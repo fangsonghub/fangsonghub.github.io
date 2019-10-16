@@ -111,7 +111,7 @@ graded. \medskip
 
   If a given line contains words $i$ through $j$, where $i\le j$, and
   we leave exactly one space between words, the number of extra space
-  characters at the end of line is $M - j +i + \sum_{k=i}^j \ell_k$,
+  characters at the end of line is $M - j +i \corr{-} \sum_{k=i}^j \ell_k$,
   which must be non-negative to fit the words on the line. We wish to
   \emph{minimize} the sum, over all lines except the last. Describe
   and analyze an algorithm (both time and space) to print a paragraph
