@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-10-14 Mon>
+modified: <2019-10-18 Fri>
 ---
 
 ## Schedule (subject to change)
@@ -33,8 +33,8 @@ modified: <2019-10-14 Mon>
 ||W,10/09 |Minimum Spanning Trees <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec16_17_mst.pdf){:target="_blank"} |CLRS 23|
 ||F,10/11| MST <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec16_17_mst.pdf){:target="_blank"} | CLRS 23 |
 |8| M,10/14 | Data structure <br> Amortized analysis <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec18_ds.pdf){:target="_blank"} | CLRS 6,21.1,21.2|
-|| W,10/16|||
-||F,10/18 |||
+|| W,10/16| Mid-term Discussion ||
+||F,10/18 | Network flow <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec19_nf.pdf){:target="_blank"}| CLRS 26|
 |9|M,10/21 | | |
 || W,10/23 | | |
 ||F,10/25|||
