@@ -34,10 +34,10 @@ modified: <2019-10-18 Fri>
 ||F,10/11| MST <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec16_17_mst.pdf){:target="_blank"} | CLRS 23 |
 |8| M,10/14 | Data structure <br> Amortized analysis <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec18_ds.pdf){:target="_blank"} | CLRS 6,21.1,21.2|
 || W,10/16| Mid-term Discussion ||
-||F,10/18 | Network flow <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec19_nf.pdf){:target="_blank"}| CLRS 26|
-|9|M,10/21 | | |
-|| W,10/23 | | |
-||F,10/25|||
+||F,10/18 | Network flow <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec19_nf.pdf){:target="_blank"}| CLRS 26.1 |
+|9|M,10/21 |Max-flow min-cut theorem <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec20_mfmc.pdf){:target="_blank"} | CLRS 26.2 |
+|| W,10/23 | Ford-Fulkerson algorithm <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec21_ff.pdf){:target="_blank"}| CLRS 26.2 |
+||F,10/25|Bipartite matching <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec22_bm.pdf){:target="_blank"} | CLRS 26.3 |
 |10| M,10/28| | |
 ||W,10/30|  | |
 ||F,11/01|||
@@ -85,6 +85,9 @@ You solutions must be typed in LaTeX. See [Resource]({{base}}/teaching/f19_629_a
 *  Take-home Mid-term
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_mid.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_mid.tex){:target="_blank"}],
    due 10am, 10/14/2019.
+*  Homework 7
+   [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hw7.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hw7.tex){:target="_blank"}],
+  due 10am, 10/25/2019. 
 *  Homework X
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hwx.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hwx.tex){:target="_blank"}],
    due XX/XX/2019. 
