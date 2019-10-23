@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-10-18 Fri>
+modified: <2019-10-23 Wed>
 ---
 
 ## Schedule (subject to change)
@@ -36,8 +36,8 @@ modified: <2019-10-18 Fri>
 || W,10/16| Mid-term Discussion ||
 ||F,10/18 | Network flow <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec19_nf.pdf){:target="_blank"}| CLRS 26.1 |
 |9|M,10/21 |Max-flow min-cut theorem <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec20_mfmc.pdf){:target="_blank"} | CLRS 26.2 |
-|| W,10/23 | Ford-Fulkerson algorithm <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec21_ff.pdf){:target="_blank"}| CLRS 26.2 |
-||F,10/25|Bipartite matching <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec22_bm.pdf){:target="_blank"} | CLRS 26.3 |
+|| W,10/23 | Ford-Fulkerson algorithm <br> Guest lecture by Prof. Klappenecker <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec21_ff.pdf){:target="_blank"}| CLRS 26.2 |
+||F,10/25|Bipartite matching <br> Guest lecture by Prof. Klappenecker <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec22_bm.pdf){:target="_blank"} | CLRS 26.3 |
 |10| M,10/28| | |
 ||W,10/30|  | |
 ||F,11/01|||
