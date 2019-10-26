@@ -34,13 +34,13 @@ modified: <2019-10-25 Fri>
 ||F,10/11| MST <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec16_17_mst.pdf){:target="_blank"} | CLRS 23 |
 |8| M,10/14 | Data structure <br> Amortized analysis <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec18_ds.pdf){:target="_blank"} | CLRS 6,21.1,21.2|
 || W,10/16| Mid-term Discussion ||
-||F,10/18 | Network flow <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec19_nf.pdf){:target="_blank"}| CLRS 26.1 |
+||F,10/18 | Network flow <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec19_nf.pdf){:target="_blank"}| CLRS 26.1 <br> HW6 in, **HW7** out <br> due 10/25/2019|
 |9|M,10/21 |Max-flow min-cut theorem <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec20_mfmc.pdf){:target="_blank"} | CLRS 26.2 |
 || W,10/23 | Ford-Fulkerson algorithm <br> Guest lecture by Prof. Klappenecker <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec21_ff.pdf){:target="_blank"}| CLRS 26.2 |
-||F,10/25|Bipartite matching <br> Guest lecture by Prof. Klappenecker <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec22_bm.pdf){:target="_blank"} | CLRS 26.3 |
+||F,10/25|Bipartite matching <br> Guest lecture by Prof. Klappenecker <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec22_bm.pdf){:target="_blank"} | CLRS 26.3 <br> HW7 in, *HW8* out <br> due 11/01/2019 |
 |10| M,10/28| Recitation by TA | |
-||W,10/30| More on Max-flow <br> Linear programming | CLRS 29 |
-||F,11/01|Linear Programming | CLRS 29|
+||W,10/30| More on Max-flow <br> Linear programming <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec23_ek.pdf){:target="_blank"}| CLRS 29 |
+||F,11/01|Linear Programming [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec24_lp.pdf){:target="_blank"}| CLRS 29|
 |11| M,11/04 |||
 || W,11/06 | ||
 ||F,11/08|||
