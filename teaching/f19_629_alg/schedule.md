@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-10-23 Wed>
+modified: <2019-10-25 Fri>
 ---
 
 ## Schedule (subject to change)
@@ -38,9 +38,9 @@ modified: <2019-10-23 Wed>
 |9|M,10/21 |Max-flow min-cut theorem <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec20_mfmc.pdf){:target="_blank"} | CLRS 26.2 |
 || W,10/23 | Ford-Fulkerson algorithm <br> Guest lecture by Prof. Klappenecker <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec21_ff.pdf){:target="_blank"}| CLRS 26.2 |
 ||F,10/25|Bipartite matching <br> Guest lecture by Prof. Klappenecker <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec22_bm.pdf){:target="_blank"} | CLRS 26.3 |
-|10| M,10/28| | |
-||W,10/30|  | |
-||F,11/01|||
+|10| M,10/28| Recitation by TA | |
+||W,10/30| More on Max-flow <br> Linear programming | CLRS 29 |
+||F,11/01|Linear Programming | CLRS 29|
 |11| M,11/04 |||
 || W,11/06 | ||
 ||F,11/08|||
@@ -88,6 +88,9 @@ You solutions must be typed in LaTeX. See [Resource]({{base}}/teaching/f19_629_a
 *  Homework 7
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hw7.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hw7.tex){:target="_blank"}],
   due 10am, 10/25/2019. 
+*  Homework 8
+   [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hw8.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hw8.tex){:target="_blank"}],
+   due 10am, 11/01/2019. 
 *  Homework X
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hwx.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hwx.tex){:target="_blank"}],
    due XX/XX/2019. 
