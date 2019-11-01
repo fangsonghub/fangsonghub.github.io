@@ -1,0 +1,165 @@
+% Instructions: you don't need to change anything in the macros, but
+% feel free to define new commands as you wish. Starting from the main
+% body, change the specs (e.g., your
+% name). use \begin{solution} \end{solution} environment to write your
+% solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,addpoints,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CSCE629 Analysis of Algorithms}
+\def\term{Texas A\&M U, Fall 2019}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill \textbf{#5}  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+%\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\corr}[1]{{\color{blue}{#1}}}
+\newcommand{\alg}[1]{\textsf{#1}}
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+ \studenttrue 
+% \studentfalse
+
+\def\hwnum{9}
+\def\issuedate{11/01/19}
+\def\duedate{10am, 11/08/19} % 
+\def\yourname{your name} % put your name here
+%------------------------------%
+
+\ifstudent
+\hw{\hwnum}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{\hwnum}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+
+\noindent \textbf{Instructions.}
+
+\begin{itemize} 
+\item Typeset your submission by \LaTeX, and submit in PDF
+  format. Your solutions will be graded on \emph{correctness} and
+  \emph{clarity}. You should only submit work that you believe to be
+  correct, and you will get significantly more partial credit if you
+  clearly identify the gap(s) in your solution. You may opt for the
+  ``I’ll take 15\%'' option.
+\item You may collaborate with others on this problem set.  However,
+  you must \textbf{{write up your own solutions}} and \textbf{{list
+      your collaborators and any external sources}} for each
+  problem. Be ready to explain your solutions orally to a course staff
+  if asked.
+\item For problems that require you to provide an algorithm, you must
+  give a precise description of the algorithm, together with a proof
+  of correctness and an analysis of its running time. You may use
+  algorithms from class as subroutines. You may also use any facts
+  that we proved in class or from the book.
+\item \textbf{If you describe a Greedy algorithm, you will get no
+    credit without a formal proof of correctness, even if your
+    algorithm is correct.}
+\end{itemize}
+
+\noindent This assignment contains \numquestions\ questions,
+\numpages\ pages for the total of \numpoints \ points and
+\numbonuspoints\ bonus points. A random subset of the problems will be
+graded. \medskip
+
+\paragraph{Exercises. Do not turn in.}
+\begin{questions}
+  \question (Max bipartite matching)
+
+  \begin{parts}
+    \part Give a linear-programming formulation of the bipartite
+    maximum matching problem. The input is a bipartite graph
+    $G = (U \cup V; E)$, where $E \subseteq U \times V$; the output is
+    the largest matching in $G$. Your linear program should have one
+    variable for each edge.
+    
+    \part Now dualize the linear program from part (a). What do the
+    dual variables represent? What does the objective function
+    represent?  What problem is this!?
+  \end{parts}
+\end{questions}
+\newpage 
+\paragraph{Problems to turn in.}
+
+\begin{questions}
+
+\question[15] (Vertex cover) A \emph{vertex cover} of an undirected
+  graph $G = (V, E)$ is a subset of the vertices which touches every
+  edge—that is, a subset $S \subseteq V$ such that for each edge
+  ${u,v} \in E$, one or both of $u,v$ are in $S$.  Describe and
+  analyze an algorithm, as efficient as you can, to find a minimum
+  vertex cover in a bipartite graph.
+
+  \newpage
+
+  \question (Updating max flow) You are given a flow network
+  $G = (V,E)$ with source $s$ and sink $t$, and integer capacities.
+  \begin{parts}
+    \part[10] Suppose that you are given a max flow in $G$. Now we
+    increase the capacity of a single edge $(u,v)\in E$ by 1. Given an
+    $O(m+n)$-time algorithm to update the max flow. 
+    \part[10] Now suppose all edges have unit capacity and you are
+    given a parameter $k$. The goal is to delete $k$ edges so as to
+    reduce the maximum $s-t$ flow in $G$ as much as possible. In other
+    words, you should find a set of edges $F\subseteq E$ so that
+    $|F|=k$ and the maximum $s-t$ flow in $G'=(V,E-F)$ is as small as
+    possible subject to this. Describe and analyze a polynomial-time
+    algorithm to solve this problem.
+  \end{parts}
+
+  \newpage
+  
+
+  \question[15] (Filling classrooms) Faced with the threat of brutally
+  severe budget cuts, Potemkin University has decided to hire actors
+  to sit in classes as ``students'', to ensure that every class they
+  offer is completely full. Because actors are expensive, the
+  university wants to hire as few of them as possible.
+
+  Building on their previous leadership experience at the now-defunct
+  Sham-Poobanana University, the administrators at Potemkin have given
+  you a directed acyclic graph $G = (V,E)$, whose vertices represent
+  classes, and where each edge $i\to j$ indicates that the same
+  ``student'' can attend class $i$ and then later attend class $j$. In
+  addition, you are also given an array $cap[1,\ldots, V]$ listing the
+  maximum number of ``students'' who can take each class. Describe an
+  analyze an algorithm to compute the minimum number of
+  ``students''that would allow every class to be filled to capacity.
+
+\end{questions}
+\end{document}

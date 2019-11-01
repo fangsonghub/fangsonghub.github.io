@@ -91,6 +91,9 @@ You solutions must be typed in LaTeX. See [Resource]({{base}}/teaching/f19_629_a
 *  Homework 8
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hw8.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hw8.tex){:target="_blank"}],
    due 10am, 11/01/2019. 
+*  Homework 9
+   [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hw9.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hw9.tex){:target="_blank"}],
+   due 10am, 11/08/2019.
 *  Homework X
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hwx.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hwx.tex){:target="_blank"}],
    due XX/XX/2019. 
