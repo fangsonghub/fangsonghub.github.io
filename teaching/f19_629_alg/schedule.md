@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-10-25 Fri>
+modified: <2019-11-01 Fri>
 ---
 
 ## Schedule (subject to change)
