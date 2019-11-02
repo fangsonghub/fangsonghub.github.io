@@ -41,20 +41,20 @@ modified: <2019-11-01 Fri>
 |10| M,10/28| Recitation by TA | |
 ||W,10/30| More on Max-flow <br> Linear programming <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec23_ek.pdf){:target="_blank"}| CLRS 29 |
 ||F,11/01|Linear Programming [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec24_lp.pdf){:target="_blank"}| CLRS 29|
-|11| M,11/04 |||
-|| W,11/06 | ||
-||F,11/08|||
-|12| M,11/11| | |
-|| W,11/13 | | |
-|| F,11/15 |  | |
-|13| M,11/18 | (Bonfire remeberance) ||
-||W,11/20 |  | |
-||F,11/22 |  | |
-|14| M,04/15 | ||
-||W,11/27 | Reading day   | <br> |
+|11| M,11/04 |Computational intractability intro| CLRS 34 <br> Aaronson [big numbers](https://www.scottaaronson.com/writings/bignumbers.html){:target="_blank"}|
+|| W,11/06 |Reductions | CLRS 34|
+||F,11/08| P, NP| CLRS 34|
+|12| M,11/11|NPC | CLRS 34|
+|| W,11/13 |A | |
+|| F,11/15 |A | |
+|13| M,11/18 | (Bonfire remeberance) <br> R ||
+||W,11/20 | R | |
+||F,11/22 | R | |
+|14| M,11/25 | Final Review ||
+||W,11/27 | Reading day   | |
 ||F,11/29 | Thanksgiving holiday | |
-|15 | M,12/02 | (Redefined Friday) | |
-||W,12/04 |  | |
+|15 | M,12/02 | (Redefined Friday) <br> QC | |
+||W,12/04 | QC | |
 |16 |T,12/10| Final Exam 8 am - 10 am | |
 {:.mbtablestylef}
 
