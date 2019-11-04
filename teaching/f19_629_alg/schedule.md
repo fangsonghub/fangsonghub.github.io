@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-11-01 Fri>
+modified: <2019-11-04 Mon>
 ---
 
 ## Schedule (subject to change)
@@ -40,8 +40,8 @@ modified: <2019-11-01 Fri>
 ||F,10/25|Bipartite matching <br> Guest lecture by Prof. Klappenecker <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec22_bm.pdf){:target="_blank"} | CLRS 26.3 <br> HW7 in, **HW8** out <br> due 11/01/2019 |
 |10| M,10/28| Recitation by TA | |
 ||W,10/30| More on Max-flow <br> Linear programming <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec23_ek.pdf){:target="_blank"}| CLRS 29 |
-||F,11/01|Linear Programming [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec24_lp.pdf){:target="_blank"}| CLRS 29|
-|11| M,11/04 |Computational intractability intro| CLRS 34 <br> Aaronson [big numbers](https://www.scottaaronson.com/writings/bignumbers.html){:target="_blank"}|
+||F,11/01|Linear Programming <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec24_lp.pdf){:target="_blank"}| CLRS 29|
+|11| M,11/04 |Computational intractability intro <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec25_in.pdf){:target="_blank"}| CLRS 34 <br> Aaronson [big numbers](https://www.scottaaronson.com/writings/bignumbers.html){:target="_blank"}|
 || W,11/06 |Reductions | CLRS 34|
 ||F,11/08| P, NP| CLRS 34|
 |12| M,11/11|NPC | CLRS 34|
