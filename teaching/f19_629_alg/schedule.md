@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-11-04 Mon>
+modified: <2019-11-06 Wed>
 ---
 
 ## Schedule (subject to change)
@@ -42,7 +42,7 @@ modified: <2019-11-04 Mon>
 ||W,10/30| More on Max-flow <br> Linear programming <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec23_ek.pdf){:target="_blank"}| CLRS 29 |
 ||F,11/01|Linear Programming <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec24_lp.pdf){:target="_blank"}| CLRS 29|
 |11| M,11/04 |Computational intractability intro <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec25_in.pdf){:target="_blank"}| CLRS 34 <br> Aaronson [big numbers](https://www.scottaaronson.com/writings/bignumbers.html){:target="_blank"}|
-|| W,11/06 |Reductions | CLRS 34|
+|| W,11/06 |Reductions Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec26_red.pdf){:target="_blank"} | CLRS 34|
 ||F,11/08| P, NP| CLRS 34|
 |12| M,11/11|NPC | CLRS 34|
 || W,11/13 |A | |
