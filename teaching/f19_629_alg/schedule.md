@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-11-11 Mon>
+modified: <2019-11-13 Wed>
 ---
 
 ## Schedule (subject to change)
@@ -45,7 +45,7 @@ modified: <2019-11-11 Mon>
 || W,11/06 |Reductions <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec26_red.pdf){:target="_blank"} | CLRS 34|
 ||F,11/08| P, NP <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec27_pnp.pdf){:target="_blank"} | CLRS 34|
 |12| M,11/11|NPC <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec28_npc.pdf){:target="_blank"}| CLRS 34|
-|| W,11/13 |A | |
+|| W,11/13 |NPC cont'd  <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec29_npc2.pdf){:target="_blank"}|CLRS 34 |
 || F,11/15 |A | |
 |13| M,11/18 | (Bonfire remeberance) <br> R ||
 ||W,11/20 | R | |
