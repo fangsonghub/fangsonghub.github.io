@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-11-13 Wed>
+modified: <2019-11-15 Fri>
 ---
 
 ## Schedule (subject to change)
@@ -40,20 +40,20 @@ modified: <2019-11-13 Wed>
 ||F,10/25|Bipartite matching <br> Guest lecture by Prof. Klappenecker <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec22_bm.pdf){:target="_blank"} | CLRS 26.3 <br> HW7 in, **HW8** out <br> due 11/01/2019 |
 |10| M,10/28| Recitation by TA | |
 ||W,10/30| More on Max-flow <br> Linear programming <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec23_ek.pdf){:target="_blank"}| CLRS 29 |
-||F,11/01|Linear Programming <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec24_lp.pdf){:target="_blank"}| CLRS 29|
+||F,11/01|Linear Programming <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec24_lp.pdf){:target="_blank"}| CLRS 29 <br> HW8 in, **HW9** out <br> due 11/08/2019|
 |11| M,11/04 |Computational intractability intro <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec25_in.pdf){:target="_blank"}| CLRS 34 <br> Aaronson [big numbers](https://www.scottaaronson.com/writings/bignumbers.html){:target="_blank"}|
 || W,11/06 |Reductions <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec26_red.pdf){:target="_blank"} | CLRS 34|
-||F,11/08| P, NP <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec27_pnp.pdf){:target="_blank"} | CLRS 34|
+||F,11/08| P, NP <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec27_pnp.pdf){:target="_blank"} | CLRS 34 <br> HW9 in, **HW10** out <br> due 11/15/2019|
 |12| M,11/11|NPC <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec28_npc.pdf){:target="_blank"}| CLRS 34|
 || W,11/13 |NPC cont'd  <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec29_npc2.pdf){:target="_blank"}|CLRS 34 |
-|| F,11/15 |A | |
-|13| M,11/18 | (Bonfire remeberance) <br> R ||
+|| F,11/15 | Hamiltonian cycle <br> Approximation algorithms <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec30_app.pdf){:target="_blank"} | CLRS 35.1 <br> HW10 in, **HW11** out <br> due 11/22/2019|
+|13| M,11/18 | (Bonfire remeberance) <br> Approximation algorithms  ||
 ||W,11/20 | R | |
-||F,11/22 | R | |
+||F,11/22 | R | <br> HW11 in, **HW12** out <br> due 12/02/2019 |
 |14| M,11/25 | Final Review ||
 ||W,11/27 | Reading day   | |
 ||F,11/29 | Thanksgiving holiday | |
-|15 | M,12/02 | (Redefined Friday) <br> QC | |
+|15 | M,12/02 | (Redefined Friday) <br> QC | <br> HW12 in |
 ||W,12/04 | QC | |
 |16 |T,12/10| Final Exam 8 am - 10 am | |
 {:.mbtablestylef}
