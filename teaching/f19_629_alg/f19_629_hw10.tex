@@ -1,0 +1,157 @@
+% Instructions: you don't need to change anything in the macros, but
+% feel free to define new commands as you wish. Starting from the main
+% body, change the specs (e.g., your
+% name). use \begin{solution} \end{solution} environment to write your
+% solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,addpoints,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CSCE629 Analysis of Algorithms}
+\def\term{Texas A\&M U, Fall 2019}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill \textbf{#5}  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+%\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\corr}[1]{{\color{blue}{#1}}}
+\newcommand{\alg}[1]{\textsf{#1}}
+\newcommand{\class}[1]{\text{#1}}
+\newcommand{\NP}{\class{NP}}
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+ \studenttrue 
+% \studentfalse
+
+\def\hwnum{10}
+\def\issuedate{11/08/19}
+\def\duedate{10am, 11/15/19} % 
+\def\yourname{your name} % put your name here
+%------------------------------%
+
+\ifstudent
+\hw{\hwnum}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{\hwnum}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+
+\noindent \textbf{Instructions.}
+
+\begin{itemize} 
+\item Typeset your submission by \LaTeX, and submit in PDF
+  format. Your solutions will be graded on \emph{correctness} and
+  \emph{clarity}. You should only submit work that you believe to be
+  correct, and you will get significantly more partial credit if you
+  clearly identify the gap(s) in your solution. You may opt for the
+  ``I’ll take 15\%'' option.
+\item You may collaborate with others on this problem set.  However,
+  you must \textbf{{write up your own solutions}} and \textbf{{list
+      your collaborators and any external sources}} for each
+  problem. Be ready to explain your solutions orally to a course staff
+  if asked.
+\item For problems that require you to provide an algorithm, you must
+  give a precise description of the algorithm, together with a proof
+  of correctness and an analysis of its running time. You may use
+  algorithms from class as subroutines. You may also use any facts
+  that we proved in class or from the book.
+\item {If you describe a Greedy algorithm, you will get no
+    credit without a formal proof of correctness, even if your
+    algorithm is correct.}
+\end{itemize}
+
+\noindent This assignment contains \numquestions\ questions,
+\numpages\ pages for the total of \numpoints \ points and
+\numbonuspoints\ bonus points. A random subset of the problems will be
+graded. \medskip
+
+% \paragraph{Exercises. Do not turn in.}
+\newpage 
+
+\begin{questions}
+
+  \question (Integer linear programming) An \emph{integer
+    linear-programming} problem is a linear-programming problem with
+  the additional constraint that the variables $x$ must take on
+  \emph{integral} values.
+
+  \begin{parts}
+    \part[7] Show that \emph{weak duality} (CLRS Lemma 29.8) holds for an
+    integer linear program.
+
+    \part[8] Show that \emph{strong duality} (CLRS Theorem 29.10) does
+    not always hold for an integer linear program.
+
+    \part[10] Given a primal linear program in standard form, let us
+    define $P$ to be the optimal objective value for the primal linear
+    program, $D$ to be the optimal objective value for its dual, $IP$
+    to be the optimal objective value for the integer version of the
+    primal (that is, the primal with the added constraint that the
+    variables take on integer values), and $ID$ to be the optimal
+    objective value for the integer version of the dual. Assuming that
+    both the primal integer program and the dual integer program are
+    feasible and bounded, show that
+    \[ IP\le P = D \le ID \, .\]
+  \end{parts}
+
+  \newpage
+  \question ($\NP$ under regular operations) Given any sets
+  $X\subseteq \bit^*$ and $Y \subseteq \bit^*$, we can define new sets
+  under regular operations. For example, the \emph{union} is
+  $X \cup Y = \{x: x\in X \text{ or }x\in Y\}$; and the
+  \emph{concatenation} is
+  $X \circ Y = \{xy: x\in X \text{ and } y \in Y \}$. We consider
+  applying these operations on problems in NP.
+  \begin{parts}
+  \part[7] Prove or disprove that $\NP$ is closed under union. Namely
+    for any $X\in \NP$ and $Y\in \NP$, does $X\cup Y \in \NP$ always
+    hold?
+
+    \part[8] Prove or disprove that $\NP$ is closed under
+    concatenation.
+  \part (Exercise. Do not turn in.) Prove or disprove that $\NP$ is
+    closed under complement.
+  \end{parts}
+
+  \newpage
+ 
+  \question[15] (2-SAT) Consider 2-SAT, in which the input is a formula
+  with at most 2 literals per clause. Show that 2-SAT is in P. (Hint:
+  you may want to consider an algorithm for testing if a graph is
+  bipartite).
+\end{questions}
+\end{document}
