@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-11-19 Tue>
+modified: <2019-11-22 Fri>
 ---
 
 ## Schedule (subject to change)
@@ -48,8 +48,8 @@ modified: <2019-11-19 Tue>
 || W,11/13 |NPC cont'd  <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec29_npc2.pdf){:target="_blank"}|CLRS 34 |
 || F,11/15 | Hamiltonian cycle <br> Approximation algorithms <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec30_app.pdf){:target="_blank"} | KT 8.5 [PDF]({{base}}/teaching/f19_629_alg/f19_629_ham_cycle_KT.pdf){:target="_blank"} <br> CLRS 35.1 <br> HW10 in, **HW11** out <br> due 11/22/2019|
 |13| M,11/18 | (Bonfire remeberance) <br> Approximation algorithms <br> LP rexlaxation<br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec31_applpr.pdf){:target="_blank"} | CLRS 35.4 <br> Notes by Panigrahi [PDF](https://www2.cs.duke.edu/courses/fall15/compsci532/scribe_notes/lec13.pdf){:target="_blank"}|
-||W,11/20 | Randomized algorithms | KT 7.1 [PDF]({{base}}/teaching/f19_629_alg/f19_629_rand_KT.pdf){:target="_blank"} <br> CLRS C.2,5.2,5.3 | 
-||F,11/22 | Randomized algorithms cont'd | CLRS 7.2  <br> Notes by Panigrahi [PDF](https://www2.cs.duke.edu/courses/fall15/compsci532/scribe_notes/lec13.pdf){:target="_blank"} <br> HW11 in, **HW12** out <br> due 12/02/2019 |
+||W,11/20 | Randomized algorithms | KT 7.1 [PDF]({{base}}/teaching/f19_629_alg/f19_629_rand_KT.pdf){:target="_blank"} <br> CLRS C.2,5.2,5.3 |
+||F,11/22 | Randomized algorithms cont'd <br> [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec33_rand2.pdf){:target="_blank"}| CLRS 7.2  <br> Notes by Panigrahi [PDF](https://www2.cs.duke.edu/courses/fall15/compsci532/scribe_notes/lec13.pdf){:target="_blank"} <br> HW11 in, **HW12** out <br> due 12/02/2019 |
 |14| M,11/25 | Final Review ||
 ||W,11/27 | Reading day   | |
 ||F,11/29 | Thanksgiving holiday | |
@@ -99,7 +99,10 @@ You solutions must be typed in LaTeX. See [Resource]({{base}}/teaching/f19_629_a
    due 10am, 11/15/2019.
 *  Homework 11
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hw11.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hw11.tex){:target="_blank"}],
-   due 10am, 11/15/2019.
+   due 10am, 11/22/2019.
+*  Homework 12
+   [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hw12.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hw12.tex){:target="_blank"}],
+   due 10am, 12/02/2019.
 *  Homework X
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hwx.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hwx.tex){:target="_blank"}],
    due XX/XX/2019. 
