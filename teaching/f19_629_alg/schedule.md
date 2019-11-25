@@ -4,7 +4,7 @@ title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 courseid: f19 629
 desc: Schedule
 permalink: /teaching/f19_629_alg/schedule/
-modified: <2019-11-22 Fri>
+modified: <2019-11-25 Mon>
 ---
 
 ## Schedule (subject to change)
@@ -49,12 +49,12 @@ modified: <2019-11-22 Fri>
 || F,11/15 | Hamiltonian cycle <br> Approximation algorithms <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec30_app.pdf){:target="_blank"} | KT 8.5 [PDF]({{base}}/teaching/f19_629_alg/f19_629_ham_cycle_KT.pdf){:target="_blank"} <br> CLRS 35.1 <br> HW10 in, **HW11** out <br> due 11/22/2019|
 |13| M,11/18 | (Bonfire remeberance) <br> Approximation algorithms <br> LP rexlaxation<br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec31_applpr.pdf){:target="_blank"} | CLRS 35.4 <br> Notes by Panigrahi [PDF](https://www2.cs.duke.edu/courses/fall15/compsci532/scribe_notes/lec13.pdf){:target="_blank"}|
 ||W,11/20 | Randomized algorithms <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec32_rand.pdf){:target="_blank"} | KT 7.1 [PDF]({{base}}/teaching/f19_629_alg/f19_629_rand_KT.pdf){:target="_blank"} <br> CLRS C.2,5.2,5.3 |
-||F,11/22 | Randomized algorithms cont'd <br> [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec33_rand2.pdf){:target="_blank"}| CLRS 7.2  <br> Notes by Panigrahi [PDF](https://www2.cs.duke.edu/courses/fall15/compsci532/scribe_notes/lec13.pdf){:target="_blank"} <br> HW11 in, **HW12** out <br> due 12/02/2019 |
-|14| M,11/25 | Final Review ||
+||F,11/22 | Randomized algorithms cont'd <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec33_rand2.pdf){:target="_blank"}| CLRS 7.2  <br> Notes by Panigrahi [PDF](https://www2.cs.duke.edu/courses/fall15/compsci532/scribe_notes/lec13.pdf){:target="_blank"} <br> HW11 in, **HW12** out <br> due 12/02/2019 |
+|14| M,11/25 | Final Review <br> Slides [PDF]({{base}}/teaching/f19_629_alg/f19_629_lec34_final.pdf){:target="_blank"} ||
 ||W,11/27 | Reading day   | |
 ||F,11/29 | Thanksgiving holiday | |
-|15 | M,12/02 | (Redefined Friday) <br> QC | <br> HW12 in |
-||W,12/04 | QC | |
+|15 | M,12/02 | (Redefined Friday) <br> Quantum computing | Cleve's slides [PDF](http://cleve.iqc.uwaterloo.ca/resources/Qic710Lec4ToLec5Fall2019.pdf){:target={_blank}} <br> Aaronson's note [link](https://www.scottaaronson.com/democritus/lec9.html){:target="_blank"} <br> HW12 in |
+||W,12/04 | Quantum computing  |Cleve's slides [PDF](http://cleve.iqc.uwaterloo.ca/resources/Qic710Lec4ToLec5Fall2019.pdf){:target={_blank}} <br> Aaronson's note [link](https://www.scottaaronson.com/democritus/lec10.html){:target="_blank"} |
 |16 |T,12/10| Final Exam 8 am - 10 am | |
 {:.mbtablestylef}
 
@@ -103,8 +103,6 @@ You solutions must be typed in LaTeX. See [Resource]({{base}}/teaching/f19_629_a
 *  Homework 12
    [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hw12.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hw12.tex){:target="_blank"}],
    due 10am, 12/02/2019.
-*  Homework X
-   [[PDF]({{base}}/teaching/f19_629_alg/f19_629_hwx.pdf){:target="_blank"},[TEX]({{base}}/teaching/f19_629_alg/f19_629_hwx.tex){:target="_blank"}],
-   due XX/XX/2019. 
+
    
 
