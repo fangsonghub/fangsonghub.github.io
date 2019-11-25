@@ -54,7 +54,7 @@ modified: <2019-11-25 Mon>
 ||W,11/27 | Reading day   | |
 ||F,11/29 | Thanksgiving holiday | |
 |15 | M,12/02 | (Redefined Friday) <br> Quantum computing | Cleve's slides [PDF](http://cleve.iqc.uwaterloo.ca/resources/Qic710Lec4ToLec5Fall2019.pdf){:target={_blank}} <br> Aaronson's note [link](https://www.scottaaronson.com/democritus/lec9.html){:target="_blank"} <br> HW12 in |
-||W,12/04 | Quantum computing  |Cleve's slides [PDF](http://cleve.iqc.uwaterloo.ca/resources/Qic710Lec4ToLec5Fall2019.pdf){:target={_blank}} <br> Aaronson's note [link](https://www.scottaaronson.com/democritus/lec10.html){:target="_blank"} |
+||W,12/04 | Quantum computing  |Cleve's slides [PDF](http://cleve.iqc.uwaterloo.ca/resources/Qic710Lec4ToLec5Fall2019.pdf){:target={_blank}} <br> Aaronson's note [link](https://www.scottaaronson.com/democritus/lec10.html){:target="_blank"} <br> Nielsen's videos [link](http://michaelnielsen.org/blog/quantum-computing-for-the-determined/){:target="_blank"}|
 |16 |T,12/10| Final Exam 8 am - 10 am | |
 {:.mbtablestylef}
 
