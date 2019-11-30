@@ -1,0 +1,408 @@
+\documentclass[12pt,answers,addpoints]{exam}
+
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+
+%----------commands--------------------%
+\newcommand{\class}[1]{\text{#1}}
+\newcommand{\NP}{\class{NP}}
+
+%----------Header--------------------%
+\newcommand{\classn}{CSCE629 Analysis of Algorithms}
+\newcommand{\classnabbr}{CSCE 629}
+\newcommand{\school}{Texas A\&M U}
+\newcommand{\term}{Fall 2019}
+\newcommand{\examdate}{XX/XX/2019}
+%\newcommand{\duedate}{}
+\newcommand{\examnum}{Final Exam: Practice}
+\newcommand{\studentname}{\makebox[1.5in]{\hrulefill}} % change it to your name
+\pagestyle{head}
+\firstpageheader{}{}{}
+\runningheader{\classnabbr}{\examnum\ - Page \thepage\ of
+  \numpages}{\term}
+\vskip 1ex
+\setlength{\headsep}{10pt}
+\runningheadrule
+
+%\qzheader                       % execute quiz commands
+
+\begin{document}
+
+\noindent
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r
+    @{\extracolsep{6pt}} r}
+  {\Large\textbf{\examnum}} & \Large{\textbf{Name:}} & \studentname\\
+  {\term}, {\classn} & &  {\examdate}\\
+  \school && Prof. Fang Song
+\end{tabular*}\\
+
+\noindent\rule[2ex]{\textwidth}{1pt}
+
+\subsection*{Instructions (please read carefully before start!)}
+
+\begin{itemize}
+\item This exam contains \numpages\ pages (including this cover page)
+  and \numquestions\ questions, for the total of \numpoints \ points
+  and \numbonuspoints\ bonus points.
+
+\item You will have two hours (xx:xx - xx:xx) to finish the exam. Be
+  strategic and allocate your time wisely.
+
+\item You may bring two double-sided letter size (8.5-by-11'') study
+  sheet. Any other resources and electronic devices are NOT permitted.
+  
+\item Your work will be graded on correctness and clarity. Make sure
+  your hand writing is legible.
+  
+\item Don't forget to write your name on the top.
+\end{itemize}
+
+\begin{center}
+\textbf{Grade Table} (for instructor use only)\\
+\smallskip
+\addpoints
+\gradetable[v][questions]
+\end{center}
+
+\newpage
+
+\begin{questions}
+  
+\question \emph{Short answers}. Joker and Batman agreed to give up
+  violence and compete peacefully on algorithmic problems. Answer the
+  following, and \textbf{always} justify your answers briefly.
+\begin{parts}
+
+\part[5] Joker goes first. He gives $n$ equal-sized intervals, and
+  asks for the maximum number of compatible intervals.  Batman
+  proposes a greedy algorithm that picks the intervals based on
+  earliest start time. Is Batman's algorithm correct?
+
+    \vskip 4cm
+
+  \part[5] Batman's turn.  He describes a \emph{directed acyclic
+      graph} where the edges have arbitrary weights and ask Joker to
+    find the simple path from node $s$ to node $t$ of \emph{maximum}
+    total weight. Joker decides to negate the weight on each edge and
+    running a shortest path algorithm. Is Joker's algorithm correct?
+    
+    \vskip 4cm
+
+  \part[5] In this round they change the rule. Each will make a
+    statement and the other needs to decide if the statement is true
+    or false. Joker states that if all capacities in a flow network
+    are integers, then the value of the maximum flow must also be an
+    integer. Help Batman tell true or false.
+
+
+    \newpage
+    % \vskip 4cm 
+
+  \part[5] With your help, Batman won on last question. Now he makes
+    the following statement. If a graph has a unique shortest path $P$
+    from node $s$ to node $t$, and has a unique minimum spanning tree
+    $T$, then every edge in $P$ must also be in $T$. Help Joker this
+    time. 
+
+    \vskip 4cm
+    
+
+  \part[5] In the last round, Joker challenges Batman with a
+    tax-collecting task at the city council of Gotham, and asks Batman
+    to resign forever unless he manages to design an $O(n^2\log n)$
+    algorithm. Batman comes up with a divide-and-conquer algorithm
+    where he can divide a problem into two subproblems both of size
+    half of the original, and the combining step takes $O(n^2)$
+    time. Does Batman need to resign?
+
+    \vskip 4cm
+    
+  \part[5] Likewise, Batman wants to stop Joker from crimes, and Joker
+    agrees not to commit any crime as long as Batman's question keeps
+    him busy. After thinking hard for a while, Batman tells Joker the
+    3-SAT problem, the perfect bipartite matching problem, and the
+    notion of Karp reductions. Batman asks Joker to find a Karp
+    reduction from 3-SAT to perfect bipartite matching. Given the
+    state-of-art, how long do you think that Joker will be kept busy?
+    
+  \end{parts}
+
+  \newpage
+
+  \question (Network flow)
+  \begin{parts}
+  \part[8] Given a maximum $(s,t)$-flow for a flow network $G$, how to
+    find a minimum $(s,t)$-cut and how much time does it take?
+
+    \vskip 8cm
+    
+  \part[5] Suppose $G$ is a directed graph with integer edge
+    capacities. Let $(A,B)$ be a minimum $(s,t)$-cut. Prove or
+    disprove: if $G'$ is obtained by adding 1 to the capacity of every
+    edge in $G$, then $(A,B)$ is a minimum $(s,t)$-cut in $G'$.
+
+    \vskip 6cm
+
+    \newpage 
+    
+  \part[12] You are given maximum $(s,t)$-flow $f$ for a flow network
+    $G$. Subsequently, the capacity of a specific edge $e^* \in G$ is
+    reduced by 1. 
+
+    \begin{enumerate}[label=\roman*)]
+    \item Given an algorithm that finds the maximum flow in the
+      resulting graph $G'$ in $O(m+n)$ time. You may assume the flow
+      $f$ is \emph{acyclic}: there is no cycle in $G$ on which all
+      edges carry positive flow.
+
+      \vskip 8cm
+    \item Prove the correctness and the $O(m+n)$ running time of your
+      algorithm.
+    \end{enumerate}
+  \end{parts}
+  \newpage
+
+\question (Coin changing) Consider the problem of making change for
+  $n$ cents using the fewest number of coins. Assume that each coin’s
+  value is an integer. 
+
+  \begin{parts}
+  \part[5] Prof. Greedy proposes an algorithm that always uses coins
+    of the largest value as many as possible and then moves to the
+    next largest one. Prove that if the coins available consist of
+    quarters (25 cents), dimes (10 cents), nickels (5 cents), and
+    pennies (1 cent), then Prof. Greedy's algorithm yields an optimal
+    solution.
+
+    \vskip 8cm 
+  \part[5] Consider other sets of coin denominations. Does this
+    algorithm always yield an \emph{optimal} solution? We assume the
+    set always contains pennies so that there is a solution for every
+    value of $n$.
+    
+    \newpage
+    
+  \part[10] Give an $O(nk)$-time algorithm that makes change for any
+    set of $k$ different coin denominations. Again we assume pennies
+    are always included.
+
+  \end{parts}
+\newpage
+  
+
+\question ($k$-spanning tree) In a (minimum) spanning tree of a graph,
+  it could occur that some vertex is a bottleneck in the sense that
+  its degree is high. In \emph{$k$-spanning tree} problem, we intend
+  to keep the degrees low in a spanning tree. More precisely, we are
+  given an undirected graph $G=(V,E)$, and the goal is to decide if
+  there is a spanning tree in $G$ in which each vertex has degree at
+  most $k$.
+
+  \begin{parts}
+  \part[7] Show that $k$-spanning tree is in $\NP$ for any $k\ge 2$.
+    \vskip 5cm
+  \part[10] Show that $2$-spanning tree is \NP-complete. [Hint: consider
+    the relation with Hamiltonian cycle.]
+
+    \newpage 
+  \part[8] Show that, in fact, $k$-spanning tree is
+    \NP-complete for any $k\ge 2$. 
+
+  \end{parts}
+  
+\newpage
+\end{questions}
+
+\begin{center}
+  Scratch paper -- no exam questions here.
+\end{center}
+
+
+\newpage
+\begin{center}
+  Scratch paper -- no exam questions here.
+\end{center}
+
+\newpage
+
+\begin{center}
+  \Large{Guideline on grading rubrics}
+\end{center}
+
+We will refer to these rubrics for certain types of questions. They
+are general guidelines and are subject to change. They are stated on a
+10-point basis, and will be scaled accordingly.
+
+\paragraph{Dynamic Programming}
+
+\begin{itemize}
+\item \textbf{6 points for a correct recurrence}, described either
+  using functional notation or as pseudocode for a recursive
+  algorithm.
+
+  \begin{itemize}[label=+]
+  \item 1 point for a clear English description of the function you
+    are trying to evaluate.  (Otherwise, we don’t even know what
+    you’re trying to do.) Automatic zero if the English description is
+    missing.
+  \item 1 point for stating how to call your recursive function to
+    get the final answer.
+  \item 1 point for the base case(s). 
+  \item 3 points for the recursive case(s). 
+  \end{itemize}
+\item 4 points for iterative details
+
+  \begin{itemize}[label=+]
+  \item 1 point for describing the memoization data structure; a clear
+    picture may be sufficient.
+  \item 2 points for describing a correct evaluation order; a clear
+    picture may be sufficient. If you use nested loops, be sure to
+    specify the nesting order.
+  \item 1 point for running time
+  \end{itemize}
+\item Proofs of correctness are not required for full credit on exams,
+  unless the problem specifically asks for one.
+
+\item For problems that ask for an algorithm that computes an optimal
+  structure—such as a subset, partition, subsequence, or tree, an
+  algorithm that computes only the value or cost of the optimal
+  structure is sufficient for full credit, unless the problem says
+  otherwise. 
+
+\end{itemize}
+
+\paragraph{Graph reductions}
+
+For problems solved by reducing them to a standard graph algorithm
+covered in class (for example: shortest paths, topological sort,
+minimum spanning trees, maximum flows, bipartite maximum matching):
+
+\begin{itemize}
+\item 1 point for listing the vertices of the graph. (If the original
+  input is a graph, describing how to modify that graph is
+  fine.)
+
+\item 1 point for listing the edges of the graph, including whether
+  the edges are directed or undirected. (If the original input is a
+  graph, describing how to modify that graph is fine.)
+
+\item 1 point for describing appropriate weights and/or lengths and/or
+  capacities and/or costs and/or demands and/or whatever for the
+  vertices and edges.
+
+\item 2 points for an explicit description of the problem being solved
+  on that graph. (For example: ``We compute the shortest path in $G$
+  from $u$ to $v$.'')
+
+\item 3 points for other algorithmic details, assuming the rest of the
+  reduction is correct.
+
+  \begin{itemize}[label=+]
+    
+  \item 1 point for describing how to build the graph from the
+    original input (for example: ``by brute force'').
+
+  \item 1 point for describing the algorithm you use to solve the
+    graph problem (for example: ``Dijstra's algorithm'')
+
+  \item 1 point for describing how to extract the output for the
+    original problem from the output of the graph algorithm.
+
+  \end{itemize}
+
+\item 2 points for the running time, expressed in terms of the
+  original input parameters.
+  
+\item If the problem explicitly asks for a proof of correctness,
+  divide all previous points in half and add 5 points for proof of
+  correctness.
+  
+\end{itemize}
+\paragraph{NP-Complete reductions}
+
+For problems that ask ''Prove that $X$ is \NP-Complete'':
+
+\begin{itemize}
+
+\item \textbf{4 points for the polynomial-time reduction}:
+
+  \begin{itemize}[label=+]
+  \item 1 point for explicitly naming the \NP-hard problem $Y$ to
+    reduce from. You may use any of the problems listed in the lecture
+    notes; a list of NP-hard problems will appear on the back page of
+    the exam.
+  \item 2 points for describing the polynomial-time algorithm to
+    transform arbitrary instances of $Y$ into inputs to instances of black-box
+    algorithm for $X$
+
+  \item 1 point for describing the polynomial-time algorithm to
+    transform the output of the black-box algorithm for $X$ into the
+    output for $Y$.
+
+  \item Reductions that call a black-box algorithm for $X$ more than
+    once are acceptable. You do not need to analyze the running time
+    of your resulting algorithm for $Y$, but it must be polynomial in
+    the size of the input instance of $Y$.
+    
+\end{itemize}
+\item \textbf{6 points for the proof of correctness}. This is the
+  entire point of the problem. These proofs always have two parts; for
+  example:
+  \begin{itemize}[label=+]
+  \item 3 points for proving that your reduction transforms positive
+    instances of $Y$ into positive instances of $X$.
+
+  \item 3 points for proving that your reduction transforms negative
+    instances of $Y$ into negative instances of $X$.
+
+  \item These proofs do not need to be as detailed as in the book or
+    homework; however, it must be clear that you have at least
+    considered all possible cases. We are really just looking for
+    compelling evidence that you understand why your reduction is
+    correct.
+
+  \item It is still possible to get partial credit for an incorrect
+    reduction. For example, if you describe a reduction that sometimes
+    reports false positives, but you prove that all False answers are
+    correct, you would still get 3 points for half of the correctness
+    proof.
+  \end{itemize}
+\item \textbf{2 points for showing $X\in\NP$}, if this has not been
+  shown in a previous problem. Relocate 1 point each from the
+  reduction and the correctness proof.
+
+\item Zero points for reducing $X$ to some NP-hard problem $Y$.
+
+\item Zero points for attempting to solve $X$.
+
+\end{itemize}
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
+
+
+
+
