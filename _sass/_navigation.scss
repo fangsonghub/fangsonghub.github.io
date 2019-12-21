@@ -24,7 +24,7 @@
     float: left;
     list-style: none;
     text-align: center;
-    @include font-size(18,no); 
+    @include font-size(16,no); 
     text-transform: uppercase;
     background-color: #696969;
     color: $white;
