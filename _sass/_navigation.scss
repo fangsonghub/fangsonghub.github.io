@@ -24,12 +24,12 @@
     float: left;
     list-style: none;
     text-align: center;
-    @include font-size(24,no);
+    @include font-size(18,no); 
     text-transform: uppercase;
     background-color: #696969;
     color: $white;
     @include media($medium) {
-	@include font-size(14,no);
+	@include font-size(16,no);
     }
     a.active{
 	background-color: #FF6347;
