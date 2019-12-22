@@ -1,13 +1,19 @@
 ---
-layout: plain
+layout: page
 title: Winter'17 Quantum Day @ Portland
+desc: Activities
 subtitle: A Day Trip to Quantum computing and Cryptography
 permalink: /activity/w17qpdx/
 modified: <2017-01-05 Thu>
 ---
+
+{% include page_showtitle.html %}
+
 <p style="text-align: center;"><a href="{{base}}/activity/w17qpdx/">Web</a>  &nbsp; &nbsp; <a href="{{base}}/activity/w17qpdx/qpdxposter.pdf">PDF</a></p> 
 
 ## Announcement
+*  <2019-12-121 Sat> Almost three years later, I have the pictures
+   from this event ready for your entertainment. [Check it out]({{base}}/photos/17qpdx/)!
 *  <2017-01-14 Sat> Slides of the talks available for download. 
 *  <2017-01-12 Thu> The event will run **as scheduled**! Let the science talks warm you up in extreme weather. Plenty of food provided!
 

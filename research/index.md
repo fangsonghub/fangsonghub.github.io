@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt:
-modified: <2019-09-22 Sun>
+modified: <2019-12-21 Sat>
 ---
 * Table of Contents
 {:toc}
@@ -10,7 +10,7 @@ modified: <2019-09-22 Sun>
 ## Publications
 *   **General Linear Group Action on Tensors: A Candidate for Post-Quantum Cryptography** 
     *  Authors: Zhengfeng Ji, Youming Qiao, Fang Song, and Aaram Yun
-	*  To appear in _the 17th Theory of Cryptography Conference
+	*  In _the 17th Theory of Cryptography Conference
        ([TCC 2019](https://tcc.iacr.org/2019/){:target="_blank"})_.
 	*  [[arXiv](https://arxiv.org/abs/1906.04330){:target="_blank"}] [[ePrint](https://ia.cr/2019/687){:target="_blank"}] 
 *   **Quantum security of hash functions and property-preservation of iterated hashing**

@@ -12,10 +12,6 @@
 # - title: Theme Setup
 #   url: /theme-setup/
 
-# - title: Made Mistakes
-#   url: http://mademistakes.com
-
-
 # - title: Search
 #   url: /search/
 
@@ -30,8 +26,11 @@
 - title: Teaching
   url: /teaching/
 
-- title: Activities # Service &amp Activities
+- title: Activities
   url: /activity/
 
+- title: Advising
+  url: /advise/
+  
 - title: Misc
   url: /misc/
