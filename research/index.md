@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt:
-modified: <2019-12-21 Sat>
+modified: <2019-01-13 Mon>
 ---
 * Table of Contents
 {:toc}
@@ -12,6 +12,8 @@ modified: <2019-12-21 Sat>
     *  Authors: Zhengfeng Ji, Youming Qiao, Fang Song, and Aaram Yun
 	*  In _the 17th Theory of Cryptography Conference
        ([TCC 2019](https://tcc.iacr.org/2019/){:target="_blank"})_.
+	*  Contributed talk at the _23rd Annual Conference on Quantum
+    Information Processing_ ([QIP 2020](http://www.szpclab.com/qip2020){:target="_blank"}).
 	*  [[arXiv](https://arxiv.org/abs/1906.04330){:target="_blank"}] [[ePrint](https://ia.cr/2019/687){:target="_blank"}] 
 *   **Quantum security of hash functions and property-preservation of iterated hashing**
     *   Authors: Ben Hamlin and Fang Song
@@ -78,7 +80,11 @@ modified: <2019-12-21 Sat>
     *   Full version: [[arXiv](http://arxiv.org/abs/1507.01625){:target="_blank"}] [[ePrint](https://eprint.iacr.org/2015/687)]
 
 ### Manuscripts
-
+*   **A note on the instantiability of the quantum random oracle**
+    * Authors: Edward Eaton and Fang Song
+	* Cryptology ePrint Archive, Report
+  [2019/1466](https://eprint.iacr.org/2019/1466){:target="_blank"},
+  December 2019.
 *	**Basing cryptography on NP-hardness
 	using quantum reductions** 
 	*   Authors: Nai-Hui Chia, Sean Hallgren, Fang Song 
