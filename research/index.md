@@ -2,18 +2,26 @@
 layout: page
 title: Research
 excerpt:
-modified: <2019-01-13 Mon>
+modified: <2019-01-22 Wed>
 ---
 * Table of Contents
 {:toc}
 
 ## Publications
+*  **Quantum-secure message authentication via blind-unforgeability** 
+    *  Authors: Gorjan Alagic, Christian Majenz, Alexander Russell, Fang Song
+	*  To appear in _the 39th Annual International Conference on the Theory and Applications of Cryptographic Techniques ([EUROCRYPT 2020](https://eurocrypt.iacr.org/2020/){:target="_blank"})_.
+	*  [[arXiv](https://arxiv.org/abs/1803.03761){:target="_blank"}]
+*   **A note on the instantiability of the quantum random oracle**
+    *  Authors: Edward Eaton and Fang Song
+	*  To appear in _the Eleventh International Conference on Post-Quantum Cryptography ([PQCrypto 2020](https://pqcrypto2020.inria.fr/){:target="_blank"})_.
+	*  [[ePrint](https://eprint.iacr.org/2019/1466){:target="_blank"}]
 *   **General Linear Group Action on Tensors: A Candidate for Post-Quantum Cryptography** 
     *  Authors: Zhengfeng Ji, Youming Qiao, Fang Song, and Aaram Yun
 	*  In _the 17th Theory of Cryptography Conference
        ([TCC 2019](https://tcc.iacr.org/2019/){:target="_blank"})_.
 	*  Contributed talk at the _23rd Annual Conference on Quantum
-    Information Processing_ ([QIP 2020](http://www.szpclab.com/qip2020){:target="_blank"}).
+    Information Processing ([QIP 2020](http://www.szpclab.com/qip2020){:target="_blank"})_.
 	*  [[arXiv](https://arxiv.org/abs/1906.04330){:target="_blank"}] [[ePrint](https://ia.cr/2019/687){:target="_blank"}] 
 *   **Quantum security of hash functions and property-preservation of iterated hashing**
     *   Authors: Ben Hamlin and Fang Song
@@ -75,23 +83,15 @@ modified: <2019-01-13 Mon>
 *   **Classical Cryptographic Protocols in a Quantum World**
     *   Authors: [Sean Hallgren](http://www.cse.psu.edu/~hallgren), [Adam Smith](http://www.cse.psu.edu/~asmith) and Fang Song
     *   Featured talk at [_QIP 2011_](http://qip2011.quantumlah.org/scientificprogramme/)
-    *   In _31st International Cryptology Conference ([CRYPTO 2011](https://www.iacr.org/conferences/crypto2011/))_. [Proceedings Version: [Official](http://link.springer.com/chapter/10.1007/978-3-642-22792-9_23), <a href="" target="_blank">PDF</a>] [Slides: [Powerpoint]({{ base }}/files/talks/QSFE_Crypto11.pptx), [PDF]({{base}}/files/talks/QSFE_Crypto11.pdf)] [[Video](http://www.iacr.org/cryptodb/data/paper.php?pubkey=23587)]
+    *   In _31st International Cryptology Conference ([CRYPTO 2011](https://www.iacr.org/conferences/crypto2011/))_. 
     *   Invited to International Journal of Quantum Information, Vol. 13, No. 4 (2015). [[doi](http://dx.doi.org/10.1142/S0219749915500288)]
-    *   Full version: [[arXiv](http://arxiv.org/abs/1507.01625){:target="_blank"}] [[ePrint](https://eprint.iacr.org/2015/687)]
+    *   [Springer](http://link.springer.com/chapter/10.1007/978-3-642-22792-9_23){:target="_blank"}] [Slides: [Powerpoint]({{ base }}/files/talks/QSFE_Crypto11.pptx), [PDF]({{base}}/files/talks/QSFE_Crypto11.pdf)] [[Video](http://www.iacr.org/cryptodb/data/paper.php?pubkey=23587){:target="_blank"}] [Full version: [arXiv](http://arxiv.org/abs/1507.01625){:target="_blank"}] [[ePrint](https://eprint.iacr.org/2015/687)]
 
 ### Manuscripts
-*   **A note on the instantiability of the quantum random oracle**
-    * Authors: Edward Eaton and Fang Song
-	* Cryptology ePrint Archive, Report
-  [2019/1466](https://eprint.iacr.org/2019/1466){:target="_blank"},
-  December 2019.
 *	**Basing cryptography on NP-hardness
 	using quantum reductions** 
 	*   Authors: Nai-Hui Chia, Sean Hallgren, Fang Song 
 	*   ArXiv preprint [arXiv:1804.10309](https://arxiv.org/abs/1804.10309){:target="_blank"}, April 2018.
-*  **Quantum-secure message authentication via blind-unforgeability** 
-    *  Authors: Gorjan Alagic, Christian Majenz, Alexander Russell, Fang Song
-	*  ArXiv preprint [arXiv:1803.03761](https://arxiv.org/abs/1803.03761){:target="_blank"}, March 2018.
 *   **On the quantum attacks against schemes relying on the hardness of finding a short generator of an ideal in \\(\mathbb{Q}(\zeta_{p^n})\\)**
     *   Authors: Jean-François Biasse and Fang Song
     *   CACR Tech Report, [CACR2015-12](http://cacr.uwaterloo.ca/techreports/2015/cacr2015-12.pdf), September 2015.
