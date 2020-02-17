@@ -85,7 +85,7 @@ modified: <2019-01-22 Wed>
     *   Featured talk at [_QIP 2011_](http://qip2011.quantumlah.org/scientificprogramme/)
     *   In _31st International Cryptology Conference ([CRYPTO 2011](https://www.iacr.org/conferences/crypto2011/))_. 
     *   Invited to International Journal of Quantum Information, Vol. 13, No. 4 (2015). [[doi](http://dx.doi.org/10.1142/S0219749915500288)]
-    *   [Springer](http://link.springer.com/chapter/10.1007/978-3-642-22792-9_23){:target="_blank"}] [Slides: [Powerpoint]({{ base }}/files/talks/QSFE_Crypto11.pptx), [PDF]({{base}}/files/talks/QSFE_Crypto11.pdf)] [[Video](http://www.iacr.org/cryptodb/data/paper.php?pubkey=23587){:target="_blank"}] [Full version: [arXiv](http://arxiv.org/abs/1507.01625){:target="_blank"}] [[ePrint](https://eprint.iacr.org/2015/687)]
+    *   [[Springer](http://link.springer.com/chapter/10.1007/978-3-642-22792-9_23){:target="_blank"}] [Slides: [Powerpoint]({{ base }}/files/talks/QSFE_Crypto11.pptx), [PDF]({{base}}/files/talks/QSFE_Crypto11.pdf)] [[Video](http://www.iacr.org/cryptodb/data/paper.php?pubkey=23587){:target="_blank"}] [Full version: [arXiv](http://arxiv.org/abs/1507.01625){:target="_blank"} [ePrint](https://eprint.iacr.org/2015/687){:target="_blank"}]
 
 ### Manuscripts
 *	**Basing cryptography on NP-hardness
