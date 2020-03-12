@@ -1,5 +1,37 @@
 # course pages
 
+# S20 QC
+
+- courseid: s20 410/510
+  title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
+  desc: s20 410/510
+  nav: true
+  url: /teaching/s20_4510_qc/
+
+- courseid: s20 410/510
+  title: CS 410/510 
+  desc: Schedule
+  nav: true
+  url: /teaching/s20_4510_qc/schedule/
+
+- courseid: s20 410/510
+  title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
+  desc: Resource
+  nav: true
+  url: /teaching/s20_4510_qc/resource/
+
+- courseid: s20 410/510
+  title: CS 410/510 
+  desc: Project
+  nav: true
+  url: /teaching/s18_4510_qc/project/
+
+- courseid: s20 410/510
+  title: (Spring 2018) CS 410/510 - Intro to Quantum Computing
+  desc: Admin
+  nav: false
+  url: /teaching/s18_4510_qc/admin/
+
 # F19 AoA
 
 - courseid: f19 629
