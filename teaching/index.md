@@ -1,21 +1,21 @@
 ---
 layout: page
 title: Teaching
-modified: <2019-08-18 Mon>
+modified: <2020-03-22 Sun>
 ---
 
-## Courses at Texas A&M University
-* CSCE 629 **Analysis of Algorithms** [Fall 2019]({{ base }}/teaching/f19_629_alg/)
-* CSCE 440/640 **Quantum Algorithms** [Spring 2019]({{ base }}/teaching/s19_4640_qc/)
-* CSCE 689 **Foundations of Post-Quantum Cryptography** [Fall 2018]({{ base }}/teaching/f18_689_pqc/)
-
 ## Courses at Portland State University
-* CS 410/510 **Introduction to Quantum Computing** [Spring 2018]({{ base }}/teaching/s18_4510_qc/); [Spring 2017]({{ base }}/teaching/s17_4510_qc/)
+* CS 410/510 **Introduction to Quantum Computing** [Spring 2020]({{ base }}/teaching/s18_4510_qc/); [Spring 2018]({{ base }}/teaching/s18_4510_qc/); [Spring 2017]({{ base }}/teaching/s17_4510_qc/)
 * CS 485/585 **Introduction to Cryptography** [Winter 2018]({{ base }}/teaching/w18_4585_icrypto/); [Winter 2017]({{ base }}/teaching/w17_4585_icrypto/)
 
 - - -
 
 ## Past courses
+
+#### Texas A&M University
+* CSCE 629 **Analysis of Algorithms** [Fall 2019]({{ base }}/teaching/f19_629_alg/)
+* CSCE 440/640 **Quantum Algorithms** [Spring 2019]({{ base }}/teaching/s19_4640_qc/)
+* CSCE 689 **Foundations of Post-Quantum Cryptography** [Fall 2018]({{ base }}/teaching/f18_689_pqc/)
 
 #### University of Waterloo 
 *   _Spring 2016: QIC 891_ **Topics in Quantum Safe Cryptography. Module 1**: [Post-Quantum Cryptography]({{ base }}/teaching/s16_uw_pqc/), University of Waterloo.
