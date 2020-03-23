@@ -30,11 +30,11 @@ modified: <2020-03-23 Mon>
    course, we will study the basic principles and techniques of
    quantum computing, and discuss some exciting applications. 
    
-   For the tech-savy students, this would prepare you for future
-   exploration in this emerging field. Aside from the training in
-   analytical skills, an important goal of this course is to make you
-   a more critical reader so you have a better idea when flooded with
-   news articles on quantum computing.
+   Aside from the training in analytical skills, an important goal of
+   this course is to make you a more critical reader so you will have
+   a better idea when flooded with news articles on quantum
+   computing. For the tech-savy students, this course would also
+   prepare you for future exploration in this emerging field.
 *  **Prerequisite**: Previous knowledge in quantum mechanics is NOT
    required. This course will be theory-oriented involving reading and
    writing mathematical proofs. Maturity in algorithm analysis, linear
