@@ -47,3 +47,6 @@ modified: <2020-03-22 Sun>
 * IBM [Qiskit](https://qiskit.org/). 
 * Microsoft [Q# development kit](https://www.microsoft.com/en-us/quantum/development-kit).
 * Google [Cirq](https://cirq.readthedocs.io/en/stable/index.html).
+
+## Misc 
+* Guide to [learning remotely](https://docs.google.com/document/d/1om1tFnPATTJtXmyeW6Hj1eWEmTiTuGxZHoQgq89FklM/edit#). 
