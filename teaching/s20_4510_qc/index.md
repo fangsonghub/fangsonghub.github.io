@@ -55,4 +55,4 @@ modified: <2020-03-23 Mon>
    "0460" to register.
 *  **Gradescope**: sign up on
    [Gradescope](https://www.gradescope.com/), and join our class using
-   Entry code: _MW6NDP0_. We will manange assignments with it.
+   Entry code: _MW6NDP_. We will manange assignments with it.
