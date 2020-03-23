@@ -4,22 +4,26 @@ title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
 courseid: s20 410/510
 desc: s20 410/510
 permalink: /teaching/s20_4510_qc/
-modified: <2020-03-22 Sun>
+modified: <2020-03-23 Mon>
 ---
 
 ## Announcement
-*  <2020-03-22 Sun> Welcome! Please stay tuned for more updates.
+*  <2020-03-23 Mon> Sign up on **Campuswire** and
+   **Gradescope**. Find instructions at the bottom.
+*  <2020-03-22 Sun> Welcome! Please stay tuned for more updates. We
+   will work together through this unprecedented situation. Stay
+   informed of PSU's updates and resources regarding
+   [COVID-19](https://www.pdx.edu/coronavirus-response){:target="_blank"}.
 
 ## About
 *  **Syllabus**:
-   [PDF]({{base}}/teaching/s20_4510_qc/s20_qc_syllabus_update.pdf){:target="_blank"}. under
-   major updating, will be posted soon.
+   [PDF]({{base}}/teaching/s20_4510_qc/s20_qc_syllabus_update.pdf){:target="_blank"}. 
 *  **Instructor**: Prof. [Fang Song]({{base}}/) 
 *  **Email**: fsong "AT" pdx.edu. Please start your email subject line
    with "s20-qc". 
 *  **Lectures**: F 12:45 - 16:25, remotely via Zoom. Please check D2L for
    instructions.
-*  **Office hours**: W 4 - 5pm and by appointment. 
+*  **Office hours**: W 4 - 5:30pm and by appointment. 
 *  **Overview**: The law of quantum physics enables quantum computing,
    a new paradigm of computation. It allows for solving certain
    problems that are intractable on classical computers. In this
@@ -46,4 +50,9 @@ modified: <2020-03-22 Sun>
        elink](https://search.library.pdx.edu/permalink/f/p82vj0/CP71189200070001451){:target="_blank"}
        ([Errata](http://qcintro.com/))
     *  [**NC**] Michael A. Nielsen and Isaac L. Chuang, Quantum Computation and Quantum Information, 10th anniversary ed., Cambridge University Press (2010). [Library elink](https://search.library.pdx.edu/permalink/f/p82vj0/CP51230839460001451){:target="_blank"}
-
+*  **Campuswire**: we will use campuswire for discussions. Follow
+   [this link](https://campuswire.com/p/G3AC6F26F) and use class code
+   "0460" to register.
+*  **Gradescope**: sign up on
+   [Gradescope](https://www.gradescope.com/), and join our class using
+   Entry code: _MW6NDP0_. We will manange assignments with it.
