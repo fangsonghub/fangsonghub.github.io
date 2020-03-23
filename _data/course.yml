@@ -24,13 +24,13 @@
   title: CS 410/510 
   desc: Project
   nav: true
-  url: /teaching/s18_4510_qc/project/
+  url: /teaching/s20_4510_qc/project/
 
 - courseid: s20 410/510
   title: (Spring 2018) CS 410/510 - Intro to Quantum Computing
   desc: Admin
   nav: false
-  url: /teaching/s18_4510_qc/admin/
+  url: /teaching/s20_4510_qc/admin/
 
 # F19 AoA
 
