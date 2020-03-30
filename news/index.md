@@ -1,10 +1,14 @@
 ---
 layout: page
 title: News
-modified: <2019-12-20 Fri>
+modified: <2020-03-30 Mon>
 ---
 ## {{ page.title }}
-
+*  <2020-03-17 Tue> I'm honored to receive the NSF [CAREER
+   Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1942706&HistoricalAwards=false)
+   to explore quantum complexity and cryptography. Thanks NSF!
+*  <2020-03-10 Tue> [QCrypt 2020](https://2020.qcrypt.net/) submission
+   server is open! Submit your contributions by **April 17 2020**.
 *  <2019-12-21 Sat> I will serve on the program committee of [Crypto
    2020](https://crypto.iacr.org/2020/callforpapers.html){:target="_blank"}. Submit
    your best papers by **February 11 2020**.

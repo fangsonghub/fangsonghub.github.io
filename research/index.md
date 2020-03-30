@@ -2,19 +2,20 @@
 layout: page
 title: Research
 excerpt:
-modified: <2019-01-22 Wed>
+modified: <2020-03-30 Mon>
 ---
 * Table of Contents
 {:toc}
 
 ## Publications
 *  **Quantum-secure message authentication via blind-unforgeability** 
-    *  Authors: Gorjan Alagic, Christian Majenz, Alexander Russell, Fang Song
-	*  To appear in _the 39th Annual International Conference on the Theory and Applications of Cryptographic Techniques ([EUROCRYPT 2020](https://eurocrypt.iacr.org/2020/){:target="_blank"})_.
+    *  Authors: Gorjan Alagic, Christian Majenz, Alexander Russell,
+       and Fang Song
+	*  In _the 39th Annual International Conference on the Theory and Applications of Cryptographic Techniques ([EUROCRYPT 2020](https://eurocrypt.iacr.org/2020/){:target="_blank"})_.
 	*  [[arXiv](https://arxiv.org/abs/1803.03761){:target="_blank"}]
 *   **A note on the instantiability of the quantum random oracle**
     *  Authors: Edward Eaton and Fang Song
-	*  To appear in _the Eleventh International Conference on Post-Quantum Cryptography ([PQCrypto 2020](https://pqcrypto2020.inria.fr/){:target="_blank"})_.
+	*  In _the Eleventh International Conference on Post-Quantum Cryptography ([PQCrypto 2020](https://pqcrypto2020.inria.fr/){:target="_blank"})_.
 	*  [[ePrint](https://eprint.iacr.org/2019/1466){:target="_blank"}]
 *   **General Linear Group Action on Tensors: A Candidate for Post-Quantum Cryptography** 
     *  Authors: Zhengfeng Ji, Youming Qiao, Fang Song, and Aaram Yun
@@ -32,7 +33,7 @@ modified: <2019-01-22 Wed>
 	*   In _the 38th International Cryptology Conference ([Crypto 2018](https://crypto.iacr.org/2018/){:target="_blank"})_.
 	*   [[ePrint](https://eprint.iacr.org/2018/544){:target="_blank"} [arXiv](https://arxiv.org/abs/1711.00385){:target="_blank"}] [Slides: [PDF]({{base}}/files/talks/prs-crypto18.pdf){:target="_blank"} [Video](https://www.youtube.com/watch?v=SuD-OvGKUWw&t=273s){:target="_blank"}]
 *   **Quantum Collision-Finding in Non-Uniform Random Functions**
-    *   Authors: Marko Balogh, Edward Eaton and Fang Song
+    *   Authors: Marko Balogh, Edward Eaton, and Fang Song
 	*   In _the 9th International Conference on Post-Quantum Cryptography ([PQCrypto 2018](http://www.math.fau.edu/pqcrypto2018/){:target="_blank"})_.
     *   [[Springer](https://link.springer.com/chapter/10.1007%2F978-3-319-79063-3_22){:target="_blank"}] [[IACR ePrint](http://ia.cr/2017/688){:target="_blank"}]
 *  **Quantum Security of NMAC and Related Constructions**
@@ -40,7 +41,8 @@ modified: <2019-01-22 Wed>
 	*  In _the 37th International Cryptology Conference ([Crypto 2017](https://www.iacr.org/conferences/crypto2017/){:target="_blank"})_.
 	*  [[Springer](https://doi.org/10.1007/978-3-319-63715-0_10){:target="_blank"}] [[ePrint](https://eprint.iacr.org/2017/509){:target="_blank"}]
 *   **Zero-knowledge proof systems for QMA**
-    *   Authors: Anne Broadbent, Zhengfeng Ji, Fang Song and John Watrous
+    *   Authors: Anne Broadbent, Zhengfeng Ji, Fang Song, and John
+        Watrous
     *   In _57th Annual IEEE Symposium on Foundations of Computer Science ([FOCS 2016](http://www.wisdom.weizmann.ac.il/~dinuri/focs16/CFP.html))_.
     *   Contributed talk at _20th Annual Conference on Quantum
         Information Processing
@@ -52,8 +54,10 @@ modified: <2019-01-22 Wed>
         [PDF]({{base}}/files/talks/qip17_qzkqma.pdf){:target="blank"} [Video](https://www.youtube.com/watch?v=1fXLJBN-KfI&feature=youtu.be){:target="_blank"} (slightly tuned to quantum
         audience)
         ]
+	* [Journal version: [SICOMP](https://doi.org/10.1137/18M1193530)]
+      SIAM J. Comput., 49(2), 245–283, 2020.
 *   **Mitigating multi-target attacks in hash-based signatures**
-    *   Authors: Andreas Hülsing, Joost Rijneveld and Fang Song
+    *   Authors: Andreas Hülsing, Joost Rijneveld, and Fang Song
     *   In _19th International Conference on the Theory and Practice of Public-Key Cryptography ([PKC 2016](http://troll.iis.sinica.edu.tw/pkc16/index.shtml))_.
     *   [Proceedings version: [Official](http://link.springer.com/chapter/10.1007%2F978-3-662-49384-7_15)] [Preliminary full version: [ePrint](http://ia.cr/2015/1256)]
 *   **Efficient quantum algorithms for computing class groups and solving the principal ideal problem in arbitrary degree number fields**
@@ -90,7 +94,7 @@ modified: <2019-01-22 Wed>
 ### Manuscripts
 *	**Basing cryptography on NP-hardness
 	using quantum reductions** 
-	*   Authors: Nai-Hui Chia, Sean Hallgren, Fang Song 
+	*   Authors: Nai-Hui Chia, Sean Hallgren, and Fang Song 
 	*   ArXiv preprint [arXiv:1804.10309](https://arxiv.org/abs/1804.10309){:target="_blank"}, April 2018.
 *   **On the quantum attacks against schemes relying on the hardness of finding a short generator of an ideal in \\(\mathbb{Q}(\zeta_{p^n})\\)**
     *   Authors: Jean-François Biasse and Fang Song

@@ -39,6 +39,7 @@ eLink](https://search.library.pdx.edu/permalink/f/p82vj0/CP51230864080001451){:t
 * IBM [Qiskit](https://qiskit.org/). 
 * Microsoft [Q# development kit](https://www.microsoft.com/en-us/quantum/development-kit).
 * Google [Cirq](https://cirq.readthedocs.io/en/stable/index.html).
+* Rigetti [Forrest SDK](http://docs.rigetti.com/en/stable/). 
 
 ## Misc 
 * Guide to [learning remotely](https://docs.google.com/document/d/1om1tFnPATTJtXmyeW6Hj1eWEmTiTuGxZHoQgq89FklM/edit#). 
