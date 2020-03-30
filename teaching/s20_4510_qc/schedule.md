@@ -16,8 +16,11 @@ modified: <2020-03-23 Mon>
 > * Wednesday's office hour: ask questions to help you navigate the study materials. 
 > * Friday's lecture: bring more questions and participate in active discusions.
 
-## Week 1 (April 03) 
+## Week 1 (March 30 - April 03) 
 * **Linear algebra, quantum basics**
     *  **Pre-class**: Linear algebra review [PDF](http://groups.uni-paderborn.de/fg-qi/courses/UPB_INTRO_QUANTUM/S2018/notes/Lecture%201%20-%20Linear%20Algebra%20review.pdf){:target="_blank"}; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOYtkmFJ-v3qOVzJdc4wXCyg){:target="_blank"}. 
 	* **Post-class**: Aaronson Lec9 [HTML](http://www.scottaaronson.com/democritus/lec9.html){:target="_blank"}, Watrous Lec1 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/01.pdf){:target="_blank"}
-    
+    * **Linear algebra** supplementing materials: [KLM](https://search.library.pdx.edu/permalink/f/p82vj0/CP71189200070001451){:target="_blank"} Chapter 2; MIT Open Course [18.06](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm){:target="_blank"} is a comprehensive introduction to linear algebra. 
+
+## Week 2 (April 6 - April 10)
+
