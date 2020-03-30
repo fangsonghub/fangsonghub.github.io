@@ -42,5 +42,17 @@ eLink](https://search.library.pdx.edu/permalink/f/p82vj0/CP51230864080001451){:t
 * Rigetti [Forrest SDK](http://docs.rigetti.com/en/stable/). 
 
 ## Misc 
+
+*  Keep updated on PSU's response to
+   [COVID-19](https://www.pdx.edu/coronavirus-response), as well as
+   [FAQs for
+   students](https://www.pdx.edu/coronavirus-response/FAQ#students).
+*  Update from [CS department](https://www.pdx.edu/computer-science/computer-science-update-32720). Lots of assistance available, e.g., Chrombook  loaner program. 
+*  PSU's guide on remote learning
+   [GoogleDoc](https://docs.google.com/document/d/1om1tFnPATTJtXmyeW6Hj1eWEmTiTuGxZHoQgq89FklM/edit).
+*  Comcast has made its public hotspots freely available. Check
+   [here](https://wifi.xfinity.com/) and use their interactive map to
+   find hotspots in your neighborhood. 
 * Guide to [learning remotely](https://docs.google.com/document/d/1om1tFnPATTJtXmyeW6Hj1eWEmTiTuGxZHoQgq89FklM/edit#). 
 * How to set up a [home workspace](https://today.tamu.edu/2020/03/18/how-to-set-up-a-healthy-home-workspace)?
+* Tips for online learning by the [American Math Society](https://blogs.ams.org/matheducation/2020/03/30/online-learning-in-the-time-of-coronavirus-tips-for-students-and-the-instructors-who-support-them/#more-2956)

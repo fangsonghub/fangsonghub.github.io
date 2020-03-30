@@ -54,18 +54,3 @@ class!
 *  **Gradescope** [sign-up link](https://www.gradescope.com/) using
    entry code _MW6NDP_. 
    
-## Misc 
- 
-*  Keep updated on PSU's response to
-   [COVID-19](https://www.pdx.edu/coronavirus-response), as well as
-   [FAQs for
-   students](https://www.pdx.edu/coronavirus-response/FAQ#students).
-*  Update from [CS department](https://www.pdx.edu/computer-science/computer-science-update-32720). Lots of assistance available, e.g., Chrombook  loaner program. 
-*  PSU's guide on remote learning
-   [GoogleDoc](https://docs.google.com/document/d/1om1tFnPATTJtXmyeW6Hj1eWEmTiTuGxZHoQgq89FklM/edit).
-*  Comcast has made its public hotspots freely available. Check
-   [here](https://wifi.xfinity.com/) and use their interactive map to
-   find hotspots in your neighborhood. 
-
-
-
