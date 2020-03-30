@@ -37,7 +37,8 @@ class!
    link on your desktop, laptop, tablet or smart phone. You can also
    join via other means, e.g., by dialing in. You can find the details
    under each individual meeting.
-*  Common rules in a ZOOM meeting (adopted from RESPECT 2020 conference)
+
+####  Common rules in a ZOOM meeting (adopted from RESPECT 2020 conference)
 
 > * Mute by default. Please mute your microphone when not speaking.
 > * Video on. Turn on your video to help everyone feel more present and engaged (unless you experience bandwidth issues). If you have privacy concerns, note that you can use a virtual background to mask out details of what is behind you.  If video is still not an option for you, please consider using your image as a profile picture. 
