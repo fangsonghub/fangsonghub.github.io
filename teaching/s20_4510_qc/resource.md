@@ -4,17 +4,17 @@ title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
 courseid: s20 410/510
 desc: Resource
 permalink: /teaching/s20_4510_qc/resource/
-modified: <2020-03-22 Sun>
+modified: <2020-04-01 Wed>
 ---
 
 ## Main materials for this course
 
-### Lectures we will follow loosely
+#### Lectures we will follow loosely
 
 * [Quantum Computation lecture notes PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/all.pdf){:target="_blank"} by John Watrous (Winter 2006 at UCalgary). 
 * [Qubits, Quantum Mechanics, and Computers](http://www-inst.eecs.berkeley.edu/~cs191/sp12/) by Umesh Vazirani (Spring 2012 at UC Berkeley). Videos on [Youtube](https://www.youtube.com/playlist?list=PLDAjb_zu5aoFazE31_8yT0OfzsTcmvAVg){:target="_blank"}. 
 
-### Recommended texts
+#### Recommended texts
 
 *  [**KLM**] Phillip Kaye, Raymond Laflamme, Michele Mosca, **An
        Introduction to Quantum Computing**, Oxford University Press
@@ -43,14 +43,22 @@ eLink](https://search.library.pdx.edu/permalink/f/p82vj0/CP51230864080001451){:t
 
 ## Misc 
 
+#### LaTeX 
+* Many online TeX editors available, e.g., [Overleaf](https://www.overleaf.com/){:target="_blank"} and [ShareLaTeX](https://www.sharelatex.com/){:target="_blank"}. ShareLaTeX maintains a nice set of [tutorials](https://www.sharelatex.com/blog/latex-guides/beginners-tutorial.html){:target="_blank"}. It's probably most effective just to open a template tex file and tweak it!
+* A Not so short intro to Latex [PDF](https://tobi.oetiker.ch/lshort/lshort.pdf){:target="_blank"}, a thorough [introduction to LaTeX](https://en.wikibooks.org/wiki/LaTeX){:target="_blank"}, and [guide](http://www.math.illinois.edu/~ajh/tex/basics.html){:target="_blank"} on good style. 
+* [Qcircuit package](https://github.com/CQuIC/qcircuit){:target="_blank"} for drawing quantum circuits in LaTeX, and more examples [[PDF](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.pdf){:target="_blank"} [TeX](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.tex){:target="_blank"}] by Charemza.
+
+#### Remote learning
+*  PSU's guide on remote learning
+   [GoogleDoc](https://docs.google.com/document/d/1om1tFnPATTJtXmyeW6Hj1eWEmTiTuGxZHoQgq89FklM/edit). Tips for online learning by the [American Math Society](https://blogs.ams.org/matheducation/2020/03/30/online-learning-in-the-time-of-coronavirus-tips-for-students-and-the-instructors-who-support-them/#more-2956).
+* How to set up a [home workspace](https://today.tamu.edu/2020/03/18/how-to-set-up-a-healthy-home-workspace)?
+
+#### COVID-19 related
 *  Keep updated on PSU's response to
    [COVID-19](https://www.pdx.edu/coronavirus-response), as well as
    [FAQs for
    students](https://www.pdx.edu/coronavirus-response/FAQ#students).
 *  Update from [CS department](https://www.pdx.edu/computer-science/computer-science-update-32720). Lots of assistance available, e.g., Chrombook  loaner program. 
-*  PSU's guide on remote learning
-   [GoogleDoc](https://docs.google.com/document/d/1om1tFnPATTJtXmyeW6Hj1eWEmTiTuGxZHoQgq89FklM/edit). Tips for online learning by the [American Math Society](https://blogs.ams.org/matheducation/2020/03/30/online-learning-in-the-time-of-coronavirus-tips-for-students-and-the-instructors-who-support-them/#more-2956).
-* How to set up a [home workspace](https://today.tamu.edu/2020/03/18/how-to-set-up-a-healthy-home-workspace)?
 *  Comcast has made its public hotspots freely available. Check
    [here](https://wifi.xfinity.com/) and use their interactive map to
    find hotspots in your neighborhood. 
