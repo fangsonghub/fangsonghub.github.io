@@ -33,7 +33,6 @@ eLink](https://search.library.pdx.edu/permalink/f/p82vj0/CP51230864080001451){:t
 * [Quantum Computing Since Democritus](http://www.scottaaronson.com/democritus/){:target="_blank"} by Scott Aaronson (Fall 2006 at UWaterloo). 
 * [Quantum Computing for the determined](http://michaelnielsen.org/blog/quantum-computing-for-the-determined/){:target="_blank"} short video series by Michael Nielsen. 
 * [Ronald de Wolf's course](http://homepages.cwi.nl/~rdewolf/qc11.html){:target="_blank"} (Spring 2011 at UAmsterdam)
-* [Richard Cleve's course](http://cleve.iqc.uwaterloo.ca/qic710.html){:target="_blank"} (Fall 2016 at UWaterloo). 
 
 ## Quantum programming tools
 * IBM [Qiskit](https://qiskit.org/). 
@@ -44,7 +43,11 @@ eLink](https://search.library.pdx.edu/permalink/f/p82vj0/CP51230864080001451){:t
 ## Misc 
 
 #### LaTeX 
-* Many online TeX editors available, e.g., [Overleaf](https://www.overleaf.com/){:target="_blank"} and [ShareLaTeX](https://www.sharelatex.com/){:target="_blank"}. ShareLaTeX maintains a nice set of [tutorials](https://www.sharelatex.com/blog/latex-guides/beginners-tutorial.html){:target="_blank"}. It's probably most effective just to open a template tex file and tweak it!
+* Online TeX editors, such as
+  [Overleaf](https://www.overleaf.com/){:target="_blank"}, are
+  convinent to get you started. Overleaf also maintains a nice set of
+  [tutorials](https://www.sharelatex.com/blog/latex-guides/beginners-tutorial.html){:target="_blank"}. Just to open a template tex file and tweak
+  it!
 * A Not so short intro to Latex [PDF](https://tobi.oetiker.ch/lshort/lshort.pdf){:target="_blank"}, a thorough [introduction to LaTeX](https://en.wikibooks.org/wiki/LaTeX){:target="_blank"}, and [guide](http://www.math.illinois.edu/~ajh/tex/basics.html){:target="_blank"} on good style. 
 * [Qcircuit package](https://github.com/CQuIC/qcircuit){:target="_blank"} for drawing quantum circuits in LaTeX, and more examples [[PDF](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.pdf){:target="_blank"} [TeX](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.tex){:target="_blank"}] by Charemza.
 
