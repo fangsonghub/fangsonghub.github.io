@@ -1,0 +1,202 @@
+% Created by Fang Song on April 5 2020. Instructions: you don't need
+% to change anything in the macros, but feel free to define new
+% commands as you wish. Starting from the main body, change the specs
+% (e.g., your name). use \begin{solution} \end{solution} environment
+% to write your solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2020}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+ }
+ 
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\def\tr{\mathrm{tr}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\kera}[1]{\ket{#1}\bra{#1}}
+
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+%\studentfalse
+
+\def\hwnum{1} %
+\def\issuedate{04/05/2020} %
+\def\duedate{11:59pm PDT, 04/12/2020} % 
+\def\yourname{your name} % put your name here
+%------------------------------%
+\ifstudent
+\hw{1}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{\hwnum}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.} This problem set contains \numpages\
+pages (including this cover page) and \numquestions\ questions. A
+random subset of problems will be graded.
+
+% Problems marked with ``\mG'' are required for graduate
+% students. Undergraduate students will get bonus points for solving
+% them.
+
+Your solutions will be graded on \emph{correctness} and
+\emph{clarity}. You should only submit work that you believe to be
+correct, and you will get significantly more partial credit if you
+clearly identify the gap(s) in your solution. It is good practice to
+start any long solution with an informal (but accurate) summary that
+describes the main idea.
+
+You need to submit a PDF file via Gradescope before the
+deadline. Either a clear scan of you handwriting or a typeset document
+is accepted. You will get 5 bonus points for typing in LaTeX (Download
+and use the accompany TeX file).
+
+\medskip
+\noindent You may collaborate with others on this problem set% and consult external sources
+.  However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\newpage 
+\begin{questions}
+\question (Basic algebra)
+  \begin{parts}
+    \part[6] (complex number) For complex number $c = a + bi$, recall
+    that the real and imaginary parts of $c$ are denoted $Re(c) = a$
+    and $Im(c) = b$.
+  \begin{enumerate}[label=\roman*)]
+  \item Prove that $c + c^* = 2 \cdot Re(c)$.
+  \item Prove that $|c|^2: = cc^* = a^2 + b^2$.
+  \item What is the polar form of
+    $c = \frac{1}{\sqrt 2} + \frac{1}{\sqrt 2} i$? Use the fact that
+    $e^{i\theta} = \cos\theta + i \sin \theta$. 
+  \end{enumerate}
+  
+  %\begin{solution}
+  %  uncomment the environment and write your solution here
+  %\end{solution}
+\newpage 
+  \part[6] (Trace) Recall the trace of a matrix
+  $M = (m_{ij})_{n\times n}, m_{ij}\in \mathbb{C}$ is defined by
+  $\tr(M): = \sum_{i = 1}^n m_{ii}$. Let $X = \left(
+    \begin{array}{lr}
+      0 & 1\\
+      1 & 0
+    \end{array} \right)$ and $Z = \left(
+    \begin{array}{lr}
+      1 & 0\\
+      0 & -1
+    \end{array} \right)$, and $Y = i XZ$. 
+  \begin{enumerate}[label=\roman*)]
+  \item Show that $\tr(YZ) = \tr(ZY)$.
+  \item Prove that this holds for general matrices: any $n\times n$
+    matrices $M$ and $N$, $\tr(MN) = \tr(NM)$.
+    \end{enumerate}
+
+    \newpage
+
+    \part[6] (Inner/outer product)
+  \begin{enumerate}[label=\roman*)]
+    \item Let
+      $\ket{\phi} = \frac{1}{\sqrt 2} \ket{0} + \frac{i}{\sqrt 2}
+      \ket{1}$.
+      $\ket{\psi} = \sqrt {\frac{2}{5}}\ket{0}-
+      \sqrt{\frac{3}{5}}\ket{1}$. Calculate
+      $\bra{\phi}{\psi}\rangle$. 
+    \item Show that $X = \ket{0}\bra{1} + \ket{1}\bra{0}$. Express
+      $Y,Z$ in this outer product form too.
+    \end{enumerate}
+    \newpage
+  \part[6] (Basis and eigenvectors)
+  \begin{enumerate}[label=\roman*)]
+    \item Show that $\ket{+} = \frac{1}{\sqrt 2} (\ket{0} + \ket{1})$
+      and $\ket{-} = \frac{1}{\sqrt 2}(\ket{0} - \ket{1})$ are both
+      eigenvectors of $X$. What are their respective eigenvalues?
+    \item Show that $\{\ket{+}, \ket{-}\}$ form an orthonormal basis
+      of $\mathbb{C}^2$. 
+    \end{enumerate}
+    \newpage
+    \bonuspart[10] Recall that a matrix $H$ is called Hermitian if
+    $H = H^\dagger$ (where $\dagger$ denotes the conjugate transpose),
+    and a matrix $U$ is called unitary if $U^\dagger = U^{-1}$ (the
+    matrix inverse of $U$). The matrix exponential is defined by its
+    Taylor series as $\exp(A) = \sum_{j=0}^\infty
+    \frac{A^j}{j!}$. Prove that if $H$ is Hermitian, then $\exp(iH)$
+    is unitary.
+\end{parts}
+
+\newpage
+\question (Qubit)   Let $X = \left(
+    \begin{array}{lr}
+      0 & 1\\
+      1 & 0
+    \end{array} \right)$, $Z = \left(
+    \begin{array}{lr}
+      1 & 0\\
+      0 & -1
+    \end{array} \right)$, and $H = \frac{1}{\sqrt 2} \left(
+    \begin{array}{lr}
+      1 & 1\\
+      1 & -1
+    \end{array} \right)$. 
+\begin{parts}
+\part[12] Consider the following operations on a qubit. 
+  \begin{enumerate}[label=\roman*)]
+  \item Apply $H$ to the qubit
+    $\frac{1}{\sqrt 2} (\ket{0} + i \ket{1})$. What is the resulting
+    state? 
+  \item Next continue to apply $Z$ to this qubit. What is the
+    resulting state?
+  \item Finally make a measurement (in the computational basis),
+    describe the full effect of the measurement.
+  \end{enumerate}
+
+  \newpage
+\part[4] Suppose we have a qubit and we first apply $X$ and then
+  $Z$. Is it equivalent to first applying $Z$ and then $X$? Justify
+  your answer. 
+ 
+\end{parts}
+\end{questions}
+
+
+\end{document}

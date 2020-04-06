@@ -16,6 +16,20 @@ modified: <2020-04-05 Sun>
 > * Wednesday's office hour: ask questions to help you navigate the study materials. 
 > * Friday's lecture: bring more questions and participate in active discusions.
 
+--- 
+{% comment %}
+## Week 3 (April 13 - April 17)
+#### Deutsch's algorithm, Deutsch-Josza algorithm, IBM QISKIT
+* **Pre-class**: Watrous Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"}; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOYvgW7q6OaEj0TU0dmgYbtx){:target="_blank"}; . 
+* **Post-class**: Watrous Lec5 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/05.pdf){:target="_blank"}. 
+
+{% endcomment %}
+
+## Week 2 (April 6 - April 10)
+#### Multiple qubits, partial measurement, superdense coding, quantum teleportation 
+* **Pre-class**: Watrous Lec2 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/02.pdf){:target="_blank"}; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lObCy-OFzV5hBvrf9-Hkg14Y){:target="_blank"}. 
+* **Post-class**: Watrous Lec3 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/03.pdf){:target="_blank"}; KLM Chapter 1.5,4.1 [eLink](https://search.library.pdx.edu/permalink/f/p82vj0/CP71189200070001451){:target="_blank"}; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOb9UJtO2UiY5BQ-cjw5Aco4){:target="_blank"}.
+
 ## Week 1 (March 30 - April 03) 
 #### Linear algebra, quantum basics
 *  **In-class**: Video recording on D2L; Note [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week1.pdf){:target="_blank"}.
@@ -23,15 +37,9 @@ modified: <2020-04-05 Sun>
 * **Post-class**: Aaronson Lec9 [HTML](http://www.scottaaronson.com/democritus/lec9.html){:target="_blank"}; Watrous Lec1 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/01.pdf){:target="_blank"}.
 * **Linear algebra** supplementing materials: [KLM](https://search.library.pdx.edu/permalink/f/p82vj0/CP71189200070001451){:target="_blank"} Chapter 2; MIT Open Course [18.06](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm){:target="_blank"} is a comprehensive introduction to linear algebra. 
 
-## Week 2 (April 6 - April 10)
-#### Multiple qubits, partial measurement, superdense coding, quantum teleportation 
-* **Pre-class**: Watrous Lec2 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/02.pdf){:target="_blank"}; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lObCy-OFzV5hBvrf9-Hkg14Y){:target="_blank"}. 
-* **Post-class**: Watrous Lec3 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/03.pdf){:target="_blank"}; KLM Chapter 1.5,4.1 [eLink](https://search.library.pdx.edu/permalink/f/p82vj0/CP71189200070001451){:target="_blank"}; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOb9UJtO2UiY5BQ-cjw5Aco4){:target="_blank"}.
+---
 
-## Week 3 (April 13 - April 17)
-{% comment %}
-#### Deutsch's algorithm, Deutsch-Josza algorithm, IBM QISKIT
-* **Pre-class**: Watrous Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"}; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOYvgW7q6OaEj0TU0dmgYbtx){:target="_blank"}; . 
-* **Post-class**: Watrous Lec5 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/05.pdf){:target="_blank"}. 
+## Assignments
+Submit on [Gradescope](https://www.gradescope.com){:target="_blank"} (Entry code: ). You'll earn bonus points if you type in LaTeX. See [Resource]({{base}}/teaching/f20_4510_alg/resource/) for LaTeX tutorials.
+*  HW1 [[PDF]({{base}}/teaching/s20_4510_qc/s20_qc_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/s20_4510_qc/s20_qc_hw1.tex){:target="_blank"}], due 11:59pm PDT, 04/12/2020.
 
-{% endcomment %}
