@@ -40,6 +40,6 @@ modified: <2020-04-05 Sun>
 ---
 
 ## Assignments
-Submit on [Gradescope](https://www.gradescope.com){:target="_blank"} (Entry code: MW6NDP). You'll earn bonus points if you type in LaTeX. See [Resource]({{base}}/teaching/f20_4510_alg/resource/) for LaTeX tutorials.
+Submit on [Gradescope](https://www.gradescope.com){:target="_blank"} (Entry code: MW6NDP). You'll earn bonus points if you type in LaTeX. See [Resource]({{base}}/teaching/s20_4510_alg/resource/) for LaTeX tutorials.
 *  HW1 [[PDF]({{base}}/teaching/s20_4510_qc/s20_qc_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/s20_4510_qc/s20_qc_hw1.tex){:target="_blank"}], due 11:59pm PDT, 04/12/2020.
 
