@@ -46,8 +46,8 @@ eLink](https://search.library.pdx.edu/permalink/f/p82vj0/CP51230864080001451){:t
 * Online TeX editors, such as
   [Overleaf](https://www.overleaf.com/){:target="_blank"}, are
   convinent to get you started. Overleaf also maintains a nice set of
-  [tutorials](https://www.sharelatex.com/blog/latex-guides/beginners-tutorial.html){:target="_blank"}. Just to open a template tex file and tweak
-  it!
+  [tutorials](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes){:target="_blank"}. Just
+  open a template tex file and tweak it!
 * A Not so short intro to Latex [PDF](https://tobi.oetiker.ch/lshort/lshort.pdf){:target="_blank"}, a thorough [introduction to LaTeX](https://en.wikibooks.org/wiki/LaTeX){:target="_blank"}, and [guide](http://www.math.illinois.edu/~ajh/tex/basics.html){:target="_blank"} on good style. 
 * [Qcircuit package](https://github.com/CQuIC/qcircuit){:target="_blank"} for drawing quantum circuits in LaTeX, and more examples [[PDF](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.pdf){:target="_blank"} [TeX](http://www2.warwick.ac.uk/fac/sci/physics/research/cfsa/people/pastmembers/charemzam/pastprojects/mcharemza_quant_circ.tex){:target="_blank"}] by Charemza.
 
