@@ -5,7 +5,7 @@ title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/s20_4510_qc/schedule/
-modified: <2020-04-05 Sun>
+modified: <2020-04-10 Fri>
 ---
 
 ## General guideline
@@ -27,6 +27,8 @@ modified: <2020-04-05 Sun>
 
 ## Week 2 (April 6 - April 10)
 #### Multiple qubits, partial measurement, superdense coding, quantum teleportation 
+
+* **In-class**: Note [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week2.pdf){:target="_blank"}; 
 * **Pre-class**: Watrous Lec2 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/02.pdf){:target="_blank"}; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lObCy-OFzV5hBvrf9-Hkg14Y){:target="_blank"}. 
 * **Post-class**: Watrous Lec3 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/03.pdf){:target="_blank"}; KLM Chapter 1.5,4.1 [eLink](https://search.library.pdx.edu/permalink/f/p82vj0/CP71189200070001451){:target="_blank"}; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOb9UJtO2UiY5BQ-cjw5Aco4){:target="_blank"}.
 
