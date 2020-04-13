@@ -5,7 +5,7 @@ title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/s20_4510_qc/schedule/
-modified: <2020-04-12 Sun>
+modified: <2020-04-12 Mon>
 ---
 
 ## General guideline
@@ -17,13 +17,11 @@ modified: <2020-04-12 Sun>
 > * Friday's lecture: bring more questions and participate in active discusions.
 
 --- 
-{% comment %}
-## Week 3 (April 13 - April 17)
-#### Deutsch's algorithm, Deutsch-Josza algorithm, IBM QISKIT
-* **Pre-class**: Watrous Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"}; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOYvgW7q6OaEj0TU0dmgYbtx){:target="_blank"}; . 
-* **Post-class**: Watrous Lec5 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/05.pdf){:target="_blank"}. 
 
-{% endcomment %}
+## Week 3 (April 13 - April 17)
+#### Deutsch's algorithm, Deutsch-Josza algorithm
+* **Pre-class**: Watrous Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"}; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOYvgW7q6OaEj0TU0dmgYbtx){:target="_blank"}. 
+* **Post-class**: Watrous Lec5 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/05.pdf){:target="_blank"}. 
 
 ## Week 2 (April 6 - April 10)
 #### Multiple qubits, partial measurement, superdense coding, quantum teleportation 
@@ -32,7 +30,8 @@ modified: <2020-04-12 Sun>
    [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week2_ant.pdf){:target="_blank"};
    Video recording on D2L/Mediaspace. 
 * **Pre-class**: Watrous Lec2 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/02.pdf){:target="_blank"}; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lObCy-OFzV5hBvrf9-Hkg14Y){:target="_blank"}. 
-* **Post-class**: Watrous Lec3 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/03.pdf){:target="_blank"}; KLM Chapter 1.5,4.1 [eLink](https://search.library.pdx.edu/permalink/f/p82vj0/CP71189200070001451){:target="_blank"}; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOb9UJtO2UiY5BQ-cjw5Aco4){:target="_blank"}.
+* **Post-class**: Watrous Lec3 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/03.pdf){:target="_blank"}
+* **Supplement**: KLM Chapter 1.5,4.1 [eLink](https://search.library.pdx.edu/permalink/f/p82vj0/CP71189200070001451){:target="_blank"}; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOb9UJtO2UiY5BQ-cjw5Aco4){:target="_blank"}.
 
 ## Week 1 (March 30 - April 03) 
 #### Linear algebra, quantum basics
@@ -47,5 +46,6 @@ modified: <2020-04-12 Sun>
 
 ## Assignments
 Submit on [Gradescope](https://www.gradescope.com){:target="_blank"} (Entry code: MW6NDP). You'll earn bonus points if you type in LaTeX. See [Resource]({{base}}/teaching/s20_4510_qc/resource/) for LaTeX tutorials.
-*  HW1 [[PDF]({{base}}/teaching/s20_4510_qc/s20_qc_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/s20_4510_qc/s20_qc_hw1.tex){:target="_blank"}], due 11:59pm PDT, 04/12/2020.
+*  **HW2** [[PDF]({{base}}/teaching/s20_4510_qc/s20_qc_hw2.pdf){:target="_blank"},[TEX]({{base}}/teaching/s20_4510_qc/s20_qc_hw2.tex){:target="_blank"}], due 11:59pm PDT, 04/19/2020.
+*  **HW1** [[PDF]({{base}}/teaching/s20_4510_qc/s20_qc_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/s20_4510_qc/s20_qc_hw1.tex){:target="_blank"}], due 11:59pm PDT, 04/12/2020.
 
