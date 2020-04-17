@@ -20,6 +20,7 @@ modified: <2020-04-12 Mon>
 
 ## Week 3 (April 13 - April 17)
 #### Deutsch's algorithm, Deutsch-Josza algorithm
+* **In-class**: Note [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week3.pdf){:target="_blank"}
 * **Pre-class**: Watrous Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"}; CCC report: computer science's role in quantum computing [PDF](https://cra.org/ccc/wp-content/uploads/sites/2/2018/11/Next-Steps-in-Quantum-Computing.pdf){:target="_blank"}; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOYvgW7q6OaEj0TU0dmgYbtx){:target="_blank"}. 
 * **Post-class**: Watrous Lec5 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/05.pdf){:target="_blank"}. 
 
