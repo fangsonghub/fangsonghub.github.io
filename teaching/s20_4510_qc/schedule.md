@@ -5,7 +5,7 @@ title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/s20_4510_qc/schedule/
-modified: <2020-04-12 Mon>
+modified: <2020-04-19 Sun>
 ---
 
 ## General guideline
@@ -17,10 +17,18 @@ modified: <2020-04-12 Mon>
 > * Friday's lecture: bring more questions and participate in active discusions.
 
 --- 
+## Week 4 (April 20 - April 24)
+
+*  **In-class**: Note
+   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week4.pdf){:target="_blank"}.
+*  **Pre-class**: Watrous Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"};
+*  **Post-class**: Watrous Lec7 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/07.pdf){:target="_blank"}. 
+*  **Supplement**: Probability and birthday bound [PDF]({{base}}/teaching/s20_4510_qc/KL_birthday.pdf){:target="_blank"}.
 
 ## Week 3 (April 13 - April 17)
 #### Deutsch's algorithm, Deutsch-Josza algorithm
-* **In-class**: Note [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week3.pdf){:target="_blank"}
+* **In-class**: Note [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week3.pdf){:target="_blank"}; Annotated note
+   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week3_ant.pdf){:target="_blank"}; Video recording on D2L/Mediaspace. 
 * **Pre-class**: Watrous Lec4 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/04.pdf){:target="_blank"}; CCC report: computer science's role in quantum computing [PDF](https://cra.org/ccc/wp-content/uploads/sites/2/2018/11/Next-Steps-in-Quantum-Computing.pdf){:target="_blank"}; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOYvgW7q6OaEj0TU0dmgYbtx){:target="_blank"}. 
 * **Post-class**: Watrous Lec5 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/05.pdf){:target="_blank"}. 
 
@@ -47,6 +55,7 @@ modified: <2020-04-12 Mon>
 
 ## Assignments
 Submit on [Gradescope](https://www.gradescope.com){:target="_blank"} (Entry code: MW6NDP). You'll earn bonus points if you type in LaTeX. See [Resource]({{base}}/teaching/s20_4510_qc/resource/) for LaTeX tutorials.
+*  **HW3** [[PDF]({{base}}/teaching/s20_4510_qc/s20_qc_hw3.pdf){:target="_blank"},[TEX]({{base}}/teaching/s20_4510_qc/s20_qc_hw3.tex){:target="_blank"}], due 11:59pm PDT, 04/26/2020.
 *  **HW2** [[PDF]({{base}}/teaching/s20_4510_qc/s20_qc_hw2.pdf){:target="_blank"},[TEX]({{base}}/teaching/s20_4510_qc/s20_qc_hw2.tex){:target="_blank"}], due 11:59pm PDT, 04/19/2020.
 *  **HW1** [[PDF]({{base}}/teaching/s20_4510_qc/s20_qc_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/s20_4510_qc/s20_qc_hw1.tex){:target="_blank"}], due 11:59pm PDT, 04/12/2020.
 
