@@ -91,7 +91,7 @@ Next Steps in Quantum Computing: Computer Science’s Role.
   more people think broadly the implications and proper actions to
   take.)
   
-* **Misconceptions** in pub media.  Are we doing a good job so far to
+* **Misconceptions** in mass media.  Are we doing a good job so far to
   deliver the idea of quantum computing to the general audience? Some
   popular sites: [[Phys.org](https://m.phys.org/),
   [Quantamagazine](https://www.quantamagazine.org/tag/quantum-computing/),
