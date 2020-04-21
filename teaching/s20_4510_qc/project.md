@@ -150,9 +150,8 @@ general TCS conferences (e.g., [STOC](http://acm-stoc.org/),
 [Crypto](http://www.iacr.org/meetings/crypto/)).
 
 * **More quantum algorithms**
-  * [[BKL+18](https://arxiv.org/abs/1710.02581),[AG18](https://arxiv.org/abs/1804.05058)]
-  Quantum algorithms for solving semi-definite programs, a central
-  problem in convex optimization.
+  * [[YLC14](https://arxiv.org/abs/1409.3305)] Fixed-point quantum search. 
+  * [[AGJ19](https://arxiv.org/abs/1912.04233)] A Unified Framework of Quantum Walk Search.
   * [[GSLW18](https://arxiv.org/abs/1806.01838)] Introduces _singular
   value transformation_, a nice framework unifying several quantum
   algorithmic techniques.
@@ -169,7 +168,6 @@ general TCS conferences (e.g., [STOC](http://acm-stoc.org/),
   * [[AR19](https://arxiv.org/abs/1908.10846)] Quantum Approximate Counting, Simplified.
   * [[ABI+19](https://arxiv.org/abs/1807.05209)] Quantum speedups for exponential-time dynamic programming
 algorithms. 
-  * [[AGJ19](https://arxiv.org/abs/1912.04233)] A Unified Framework of Quantum Walk Search.
   * [[CSZJ20](https://arxiv.org/abs/2004.01372)] Variational Quantum
     State Eigensolver. An algorithmic framework suitable for near-term quantum devices. 
 
