@@ -20,7 +20,7 @@ modified: <2020-04-20 Mon>
 ## Week 4 (April 20 - April 24)
 #### Simon's algorithm, reversible computation 
 *  **In-class**: Note
-   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week4.pdf){:target="_blank"}; on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOb0om28l1Ly4ByatYaU_uzy){:target="_blank"}.
+   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week4.pdf){:target="_blank"}; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOb0om28l1Ly4ByatYaU_uzy){:target="_blank"}.
 *  **Pre-class**: Watrous Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"};
 *  **Post-class**: Watrous Lec7 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/07.pdf){:target="_blank"}. 
 *  **Supplement**: Probability and birthday bound [PDF]({{base}}/teaching/s20_4510_qc/KL_birthday.pdf){:target="_blank"}.
