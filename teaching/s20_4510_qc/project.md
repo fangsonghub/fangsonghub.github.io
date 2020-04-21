@@ -200,7 +200,7 @@ a unique feature in quantum theory, in the language of entropy.
    encryption that admit evaluation of quantum circuits. A novel idea
    that also lead to breakthrough results by the same author. 
   *  [[Zhandry18](https://eprint.iacr.org/2017/1080)] A unique quantum
-   primitive, quantum lightening, with applications in quantum
+   primitive, quantum lightning, with applications in quantum
    money. Can you construct it from other problems?
   *  [[DPVR12](https://epubs.siam.org/doi/10.1137/100813683)] Making
    randomness extractors secure against _quantum side information_.
