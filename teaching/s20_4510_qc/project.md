@@ -5,7 +5,7 @@ subtitle: Course Project
 courseid: s20 410/510
 desc: Project
 permalink: /teaching/s20_4510_qc/project/
-modified: <2020-04-19 Sun>
+modified: <2020-04-20 Mon>
 ---
 
 * Table of Contents
@@ -167,6 +167,9 @@ general TCS conferences (e.g., [STOC](http://acm-stoc.org/),
   non-standard model) for recommendation systems and other problems,
   inspired by quantum algorithms.
   * [[AR19](https://arxiv.org/abs/1908.10846)] Quantum Approximate Counting, Simplified.
+  * [[ABI+19](https://arxiv.org/abs/1807.05209)] Quantum speedups for exponential-time dynamic programming
+algorithms. 
+  * [[AGJ19](https://arxiv.org/abs/1912.04233)] A Unified Framework of Quantum Walk Search.
   * [[CSZJ20](https://arxiv.org/abs/2004.01372)] Variational Quantum
     State Eigensolver. An algorithmic framework suitable for near-term quantum devices. 
 
