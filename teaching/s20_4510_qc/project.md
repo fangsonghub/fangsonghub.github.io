@@ -98,7 +98,7 @@ Next Steps in Quantum Computing: Computer Science’s Role.
   [MIT Tech
   Review](https://www.technologyreview.com/topic/computing/quantum-computing/)]. 
 * The research efforts and focuses of different **regions and
-  countries**. For instance, look at the [Quantum Internet](http://quantum-internet.team/) effort in EU.
+  countries**. For instance, look at the [Quantum Internet](http://quantum-internet.team/) effort in EU. [US National Strategic Overview](https://www.whitehouse.gov/wp-content/uploads/2018/09/National-Strategic-Overview-for-Quantum-Information-Science.pdf).
 * Impact on **labor market**. How many patents are being filed? How
   much investiment is being injected in quantum startup companies?
   Are we going to see jobs in quantum? This [report on
