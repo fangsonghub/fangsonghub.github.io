@@ -5,7 +5,7 @@ subtitle: Course Project
 courseid: s20 410/510
 desc: Project
 permalink: /teaching/s20_4510_qc/project/
-modified: <2020-04-20 Mon>
+modified: <2020-04-26 Sun>
 ---
 
 * Table of Contents
@@ -45,24 +45,25 @@ including open problems.
 ### Milestones
 *  **Proposal**: 1-2 pages consisting of 1) the topic, background,
    context, and motivation; 2) identify a few core references; and 3)
-   a goal you intend to achieve and a plan.
+   a goal you intend to achieve and a plan. (10%)
 *  **Oral presentation**: Each group will have about 30mins to present
    your project including Q&A. Your need to demonstrate both _breath_
    and _depth_. Aim for a clear introduction that would engage the
    audience, and then explain 1-2 technical ideas in some
    detail. Every group member needs to participate, and your group
-   will be graded by other fellow students.
+   will be graded by other fellow students. (20%)
 *  **Final report**: ~10 pages. This should resemble a research paper:
    1) a short abstract; 2) an introduction that motivates the topic
    and offers an overview of the entire report; 3) details including
    proper preliminary materials (e.g., notations & definitions),
    explaining some main technical results; and finally 4) further
-   discussion and open questions.
+   discussion and open questions. (15%)
 *  **Report format**: I recommend you to typeset your reports in
    _LaTeX_, and manage your bibliography using BibTeX. The [resource
    page]({{base}}/teaching/s20_4510_qc/resource/) has links to
    materials to pick up LaTeX. You should use single-column,
-   single-space (between lines) format on letter-size papers.
+   single-space (between lines) format on letter-size papers. You
+   will earn extra credit if you typeset your final report in LaTeX. 
 
 ### Timeline (Tentative)
 *  **Week 1 - 3**: forming groups.
