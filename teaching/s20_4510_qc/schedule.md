@@ -5,7 +5,7 @@ title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/s20_4510_qc/schedule/
-modified: <2020-04-24 Fri>
+modified: <2020-04-26 Sun>
 ---
 
 ## General guideline
@@ -18,14 +18,14 @@ modified: <2020-04-24 Fri>
 
 --- 
 {% comment %}
+{% endcomment %}
+
 ## Week 5 (April 27 - April 31)
-#### Simon's algorithm, reversible computation 
+#### Order finding, integer factorization 
 *  **In-class**: Note
    [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week4.pdf){:target="_blank"}; 
-*  **Pre-class**: Watrous Lec7 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/07.pdf){:target="_blank"} (Modular arithmetic); Lec10 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/07.pdf){:target="_blank"} (The Order Finding problem); Lec11 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/11.pdf){:target="_blank"} (reducing factoring to order finding). Videos on [Youtube](){:target="_blank"}.
-*  **Post-class**: 
-*  **Supplement**: 
-{% endcomment %}
+*  **Pre-class**: Watrous Lec7 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/07.pdf){:target="_blank"} (Modular arithmetic); Lec10 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/07.pdf){:target="_blank"} (The Order Finding problem); Lec 8 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"} (The phase estimation problem. Read the definition only); Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOYg1CdKJUyIlmAvWPdfcfkY){:target="_blank"}.
+*  **Post-class**: Lec11 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/11.pdf){:target="_blank"} (reducing factoring to order finding)
 
 ## Week 4 (April 20 - April 24)
 #### Simon's algorithm, reversible computation 
