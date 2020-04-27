@@ -5,7 +5,7 @@ title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/s20_4510_qc/schedule/
-modified: <2020-04-26 Sun>
+modified: <2020-04-27 Mon>
 ---
 
 ## General guideline
@@ -66,6 +66,7 @@ modified: <2020-04-26 Sun>
 
 ## Assignments
 Submit on [Gradescope](https://www.gradescope.com){:target="_blank"} (Entry code: MW6NDP). You'll earn bonus points if you type in LaTeX. See [Resource]({{base}}/teaching/s20_4510_qc/resource/) for LaTeX tutorials.
+*  **HW4** [[PDF]({{base}}/teaching/s20_4510_qc/s20_qc_hw4.pdf){:target="_blank"},[TEX]({{base}}/teaching/s20_4510_qc/s20_qc_hw4.tex){:target="_blank"}], due 11:59pm PDT, **05/10/2020**.
 *  **HW3** [[PDF]({{base}}/teaching/s20_4510_qc/s20_qc_hw3.pdf){:target="_blank"},[TEX]({{base}}/teaching/s20_4510_qc/s20_qc_hw3.tex){:target="_blank"}], due 11:59pm PDT, 04/26/2020.
 *  **HW2** [[PDF]({{base}}/teaching/s20_4510_qc/s20_qc_hw2.pdf){:target="_blank"},[TEX]({{base}}/teaching/s20_4510_qc/s20_qc_hw2.tex){:target="_blank"}], due 11:59pm PDT, 04/19/2020.
 *  **HW1** [[PDF]({{base}}/teaching/s20_4510_qc/s20_qc_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/s20_4510_qc/s20_qc_hw1.tex){:target="_blank"}], due 11:59pm PDT, 04/12/2020.

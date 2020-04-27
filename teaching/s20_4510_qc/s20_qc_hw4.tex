@@ -1,0 +1,341 @@
+% Created by Fang Song on April 5 2020. Instructions: you don't need
+% to change anything in the macros, but feel free to define new
+% commands as you wish. Starting from the main body, change the specs
+% (e.g., your name). use \begin{solution} \end{solution} environment
+% to write your solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+\usepackage{circuitikz}
+\usepackage{mdframed} %
+\mdfdefinestyle{figstyle}{ %
+  linecolor=black!7, %
+  backgroundcolor=black!7, %
+  innertopmargin=10pt, %
+  innerleftmargin=25pt, %
+  innerrightmargin=25pt, %
+  innerbottommargin=10pt %
+}
+
+%----------Header--------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2020}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+ }
+ 
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\def\tr{\mathrm{tr}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\kera}[1]{\ket{#1}\bra{#1}}
+
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+%\studentfalse
+
+\def\hwnum{4} %
+\def\issuedate{04/26/2020} %
+\def\duedate{11:59pm PDT, \textbf{05/10/2020}} % 
+\def\yourname{your name} % put your name here
+%------------------------------%
+\ifstudent
+\hw{\hwnum}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{\hwnum}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.}  This problem set contains \numpages\
+pages (including this cover page) and \numquestions\
+questions. Problems marked with ``\mG'' are required for 510
+students. Students enrolled in 410 will get bonus points for solving
+them. A random subset of problems will be graded.
+
+Your solutions will be graded on \emph{correctness} and
+\emph{clarity}. You should only submit work that you believe to be
+correct, and you will get significantly more partial credit if you
+clearly identify the gap(s) in your solution. It is good practice to
+start any long solution with an informal (but accurate) summary that
+describes the main idea.
+
+You need to submit a PDF file via Gradescope before the
+deadline. Either a clear scan of you handwriting or a typeset document
+is accepted. You will get 5 bonus points for typing in LaTeX (Download
+and use the accompany TeX file).
+
+\medskip
+\noindent You may collaborate with others on this problem set% and consult external sources
+.  However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\newpage 
+\begin{questions}
+
+\question (Measurement in Simon's algorithm) Our analysis in class
+  assumes that we measure the bottom $n$ qubits right after the query
+  to the quantum black-box. In this problem, we investigate different
+  timing for this measurement.
+  \begin{parts}
+  \part[5] Suppose we do not measure immediately, and move on to apply
+    Hadamard to each of the top $n$ qubits. Write down the quantum
+    state of the entire system ($2n$ qubits) after this step.
+    \newpage
+  \part[5] Then we measure the bottom $n$ qubits in the computational
+    basis. Suppose the outcome is $a\in\bit^n$, describe the posterior
+    state. Is it the same as in the analysis where the measurement
+    happens before the Hadamard's?
+
+    \newpage 
+
+  \part[5] Consider another continuation of part (a). We do not
+    measure the bottom $n$ qubits at all, and proceed to measure the
+    top $n$ qubits only. Describe the result of the measurement.
+    (Hint. For a state $\sum_z \ket{z}_A \ket{\phi_z}_B$, measuring
+    system $A$ will result in $z$ with probability
+    $\|\ket{\psi_z}\|^2$.)
+  \end{parts}
+  \newpage 
+\question (Spectral theorem) Let $U=(v_1,\ldots,v_n)$ be a unitary
+  matrix and each $v_i\in\mathbb{C}^n$.
+  \begin{parts}
+    \part[5] Show that $\{v_1,\ldots,v_n\}$ form an orthonormal basis of
+      $\mathbb{C}^n$.
+
+      \newpage 
+    \part[5] Show that the eigenvalues of any unitary $U$ are of the form
+      $e^{2\pi i\theta}$ for some $\theta \in [0,1)$.
+
+      \newpage
+
+    \part[5] Show that the eigenvectors corresponding to distinct
+      eigenvalues are orthogonal. (N.B. You can also verify that for
+      each distinct eigenvalue $\lambda$, the set
+      $S_\lambda: = \{v: Uv = \lambda v\}$ is a subspace, which is
+      called the $\lambda$-eigenspace.)
+
+      \newpage 
+    \end{parts}    
+
+
+  \newpage 
+\newcommand{\eq}{\mathrm{EQ}}
+\question (Simulate classical circuit) The function
+  $\eq: \bit^3 \to \bit $ determines whether its three input bits are
+  equal, namely
+  \[ \eq (a,b,c) \mapsto \left
+      \{ \begin{matrix} 1 & \text{ if } a=b=c \\
+        0 & \text{ otherwise }
+      \end{matrix}\right. \, .\]
+  \begin{parts}
+
+  \part[6] Show how to implement the OR gate and the duplicate gate
+    (DUP) in a reversible way using Toffoli gate. (Note: we showed
+    this for AND gate in class, which you can use as a building
+    block. You may also use ancilla bits initialized to either 0 or
+    1.)
+    \begin{mdframed}[style=figstyle]
+
+      \begin{circuitikz}
+        \draw
+% or gate
+        (0,0) node[or port] (myor) {OR}
+        (myor.in 1) node[anchor=east] {$a$}
+        (myor.in 2) node[anchor=east] {$b$}
+        (myor.out) node[anchor=west] {$a\vee b$}
+        % fanout gate
+ (4,0) node[and port, xscale = -1] (mydup) {}
+ (mydup.in 1) node[anchor=west] {$a$}
+ (mydup.in 2) node[anchor=west] {$a$}
+ (mydup.out) node[anchor=east] {DUP: $a$}
+        ;
+\end{circuitikz}
+\end{mdframed}
+
+    \newpage 
+  \part[5] Show how to compute the function $\eq$ using AND, OR, NOT, and
+    DUP gates.
+    % you can try
+    % \href{http://texdoc.net/texmf-dist/doc/latex/circuitikz/circuitikzmanual.pdf}{circuiTikZ}
+    % package to draw circuits, or just insert a drawing by other
+    % means (handwriting, word, inkscape, etc.) as a picture
+    \newpage
+  \part[5] Show how to compute the function $\eq$ reversibly using
+    Toffoli gates. You may use gates other than Toffoli gates provided
+    you explain how to implement any such gates using Toffoli gates. 
+
+  \newpage   
+\part[4] Turn your reversible circuit into a quantum circuit that
+  implements the unitary
+  $U_\eq: \ket{x}\ket{y} \mapsto \ket{x}\ket{\eq(x)\oplus y}$.
+
+  \newpage
+    \end{parts}
+
+
+\question (Square root of a unitary)
+  \begin{parts}
+  \part[5] Let $U$ be a unitary operation with eigenvalues $\pm 1$. Let
+    $P_0$ be the projection onto the $+1$ eigenspace of $U$ and let
+    $P_1$ be the projection onto the $ - 1$ eigenspace of $U$. Let
+    $V = P_0 + iP_1$. Show that $V^2 = U$.
+\newpage 
+\part[5] Give a circuit of 1- and 2-qubit gates and controlled-$U$
+  gates with the following behavior (where the first register is a
+  single qubit): 
+  \[ \ket{0}\ket{\psi} \mapsto \left
+      \{ \begin{matrix} \ket{0}\ket{\psi} & \text{ if } U\ket{\psi} = \ket{\psi} \\
+        \ket{1}\ket{\psi} & \text{ if } U\ket{\psi} = - \ket{\psi}
+      \end{matrix}\right. \, .  \]
+  \newpage
+
+\part[5] Give a circuit of 1- and 2-qubit gates and controlled-$U$
+  gates that implements $V$, and show that it has the desired
+  behavior. Your circuit may use ancilla qubits that begin and end in
+  the $\ket{0}$ state. 
+  \newpage
+
+\part[5] As an application, the square root of a unitary operation $U$
+  is useful to implement a controlled-controlled version of $U$:
+  \[CC-U: \ket{a}\ket{b}\ket{\psi} \mapsto \ket{a}\ket{b}U^{a\cdot b}
+    \ket{\psi}\, .\]
+  Namely $U$ is applied to the target $\psi$ iff. both control bits
+  $a=b=1$. Let $V^2 = U$. Prove the following circuit identity.
+
+  \begin{mdframed}[style=figstyle]
+\centerline{\Qcircuit @C=.5em @R=0em @!R {
+& \ctrl{1} & \qw & & & \qw & \ctrl{1} & \qw & \ctrl{1} & \ctrl{2} & \qw\\
+& \ctrl{1} & \qw & \push{\rule{.3em}{0em}\equiv\rule{.3em}{0em}} & & \ctrl{1} & \targ & \ctrl{1} & \targ & \qw & \qw\\
+& \gate{U} & \qw & & & \gate{V} & \qw & \gate{V^\dag} & \qw & \gate{V} & \qw
+}
+}
+\end{mdframed}
+
+\newpage
+\bonuspart[5] Show how to implement $V=\sqrt{X}$ in QISKIT. (Note:
+this gives you a way to implement Toffoli following part (d).)
+\newpage 
+\part[5] Determine the behavior of the following quantum circuit by
+  implementing it (in IBM QISKIT or other tools of your choice).
+        \begin{mdframed}[style=figstyle]
+          \centerline{ \Qcircuit @C=1em @R=0.75em {
+              & \qw & \qw & \qw & \ctrl{2} & \qw&\qw&\qw&
+              \ctrl{2}&\qw&\ctrl{1}& \qw &\ctrl{1}& \gate{T} &\qw \\
+              & \qw & \ctrl{1} & \qw & \qw & \qw & \ctrl{1} &\qw &\qw
+              & \gate{T^\dagger} & \targ & \gate{T^\dagger} & \targ
+              &\gate{S} & \qw\\
+              & \gate{H} & \targ & \gate{T^\dagger} & \targ & \gate{T}
+              & \targ &\gate{T^\dagger} & \targ & \gate{T} & \gate{H}
+              &\qw & \qw & \qw &\qw }}
+\end{mdframed}
+  \newpage
+  \end{parts}
+
+    
+\question (Errors in randomized algorithms) Suppose you want to write
+  a computer program $C$ to compute a Boolean function
+  $f: \{0, 1\}^n \to \{0, 1\}$, mapping $n$ bits to 1 bit. If $C$ is a
+  deterministic algorithm, then ``$C$ successfully computes $f$'' has
+  a clear meaning that that $C(x) = f(x)$ for all inputs
+  $x \in \bit^n$. But what if $C$ is a probabilistic algorithm?
+
+  \begin{parts}
+  \part[8] The best thing is if $C$ is a \emph{zero-error} algorithm with
+    failure probability $p$. Namely
+    \begin{itemize}
+    \item on every input $x$, the output of $C(x)$ is either $f(x)$ or
+      $\perp$ (denoting failure).
+    \item on every input $x$ we have $\Pr[C(x) = \perp] \leq p$
+      (NB. the probability is only over the internal randomness of
+      $C$, not the random choice of $x$.).
+    \end{itemize}
+
+    \begin{enumerate}[label=\roman*)]
+    \item If you have a zero-error algorithm $C$ for $f$ with failure
+      probability $90\%$,
+      show how to convert it to a zero-error algorithm $C'$ with
+      failure probability at most $2^{-500}$. The ``slowdown'' should
+      only be a factor of a few thousand.
+    \item Alternatively, show how to convert $C$ to an algorithm $C''$
+      for $f$ which: (i) always outputs the correct answer, meaning
+      $C''(x) = f(x)$ for all $x$; (ii) has expected running time only
+      a few powers of 2 worse than that of $C$. (Hint: look up the
+      mean of a geometric random variable.)
+    \end{enumerate}
+
+    \newpage 
+  \part[5] The second best thing is if $C$ is a one-sided error algorithm
+    for $f$, with failure probability $p$.  There are two kinds of
+    such algorithms, ``no-false-positives'' and
+    ``no-false-negatives''. For simplicity, let’s just consider ``no
+    false-negatives'' (the other case is symmetric);
+    \begin{itemize}
+    \item on every input $x$, the output $C(x)$ is either $0$ or $1$;
+    \item on every input $x$ such that $f(x) = 1$, the output $C(x)$
+      is also 1;
+    \item on every input $x$ such that $f(x) = 0$, we have
+      $\Pr[C(x) = 1] \leq p$. 
+    \end{itemize}
+
+    Show how to convert a no-false-negatives algorithm $C$ for $f$
+    with failure probability $90\%$ to another no-false-negatives
+    algorithm $C'$ for $f$ with failure probability at most
+    $2^{-500}$. The ``slowdown'' should only be a factor of a few
+    thousand.
+    \newpage
+    
+  \bonuspart[5] The third possibility (which is rare in practice) is if $C$ is
+    a two-sided error algorithm for $f$, with failure probability
+    $p$. Namely,
+    \begin{itemize}
+  \item on every input $x$, the output $C(x)$ is either 0 or 1.
+  \item on every input $x$, we have $\Pr[C(x) \neq f(x)] \leq p$. 
+  \end{itemize}
+
+  If you have a two-sided error algorithm $C$ for $f$ with failure
+  probability $40\%$, show how to convert it to a two-sided error
+  algorithm $C'$ for $f$ with failure probability at most $2^{-500}$.
+  The “slowdown” should only be a factor of a few dozen
+  thousand. (Hint: look up the Chernoff bound.)
+  \end{parts}
+  
+\end{questions}
+
+
+\end{document}
