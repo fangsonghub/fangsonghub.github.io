@@ -2,7 +2,7 @@
 layout: page
 title: Advising
 excerpt: Advising and mentoring
-modified: <2019-12-21 Sat>
+modified: <2020-04-26 Sat>
 ---
 
 I am looking for self-motivated students who are interested in
@@ -18,8 +18,8 @@ I am looking for self-motivated students who are interested in
 
 ### Undergraduate 
 
-* 2019.09 -  . Davis Beilue. 
-* 2019.09 -  . Darryl Cherian Jacob. 
+* 2019.09 -  2020.04. Davis Beilue. Undergraduate Research Scholars (thesis), Texas A&M University. 
+* 2019.09 -  2020.04. Darryl Cherian Jacob. Undergraduate Research Scholars (thesis), Texas A&M University. 
 * 2016.09 - 2017.06. Marko Balogh. Honors Thesis, Portland State University.
 * 2014.05 - 2014.08. Edward Eaton. REU, University of Waterloo. Now a
 M.Sc student at University of Waterloo.
