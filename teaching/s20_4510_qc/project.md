@@ -5,7 +5,7 @@ subtitle: Course Project
 courseid: s20 410/510
 desc: Project
 permalink: /teaching/s20_4510_qc/project/
-modified: <2020-04-26 Sun>
+modified: <2020-04-27 Mon>
 ---
 
 * Table of Contents
@@ -85,6 +85,7 @@ a few general readings.
 * [[CCC17](https://cra.org/ccc/wp-content/uploads/sites/2/2018/11/Next-Steps-in-Quantum-Computing.pdf)]
 Next Steps in Quantum Computing: Computer Science’s Role.
 * [[NAP19](https://www.nap.edu/catalog/25196/quantum-computing-progress-and-prospects)] Quantum Computing: Progress and Prospects. 
+* [[Quantum software – beneath the quantum hype](https://www.factbasedinsight.com/quantum-software-beneath-the-quantum-hype/#zp-ID-139100-2488567-SQFNRLQ9)] Reflections on NISQ era.
 
 ### Societal impact
 (We need scientists and engineers to advance the field of quantum
@@ -121,7 +122,7 @@ Next Steps in Quantum Computing: Computer Science’s Role.
   conduct a comparative study on the qualities of their physical
   devices, as well as features of the software kits. Here is an
   introduction to [benchmarking quantum
-  computers](https://qiskit.org/textbook/ch-quantum-hardware/randomized-benchmarking.html).
+  computers](https://qiskit.org/textbook/ch-quantum-hardware/randomized-benchmarking.html), and a more recent one on benchmarking an [11-qubit quantum computer](https://www.nature.com/articles/s41467-019-13534-2).
 *  [[Urmila18](https://arxiv.org/abs/1804.01082)] Implement a protocol
    for verifying a server's _quantumness_. Optimize the quantum
    circuit by some tool for circuit synthesis
@@ -136,7 +137,7 @@ Next Steps in Quantum Computing: Computer Science’s Role.
    algorithms: optimize the circuit, estimate the cost, test
    variations (e.g., robustness against noise), etc.
 *  Tools on optimizing reversible/quantum circuit:
-   [[RevKit](https://msoeken.github.io/revkit.html),[Feynman](https://github.com/meamy/feynman)]
+   [[RevKit](https://msoeken.github.io/revkit.html),[Feynman](https://github.com/meamy/feynman),[ZX-Calculus](https://arxiv.org/abs/1902.03178)]
 *  Develop a **quantum computer game**? Here is an example [quantum
    battleship](https://medium.com/@decodoku/quantum-battleships-the-first-multiplayer-game-for-a-quantum-computer-e4d600ccb3f3).
 
