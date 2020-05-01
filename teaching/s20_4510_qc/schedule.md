@@ -17,13 +17,22 @@ modified: <2020-05-01 Fri>
 > * Friday's lecture: bring more questions and participate in active discusions.
 
 --- 
-
-## Week 5 (April 27 - April 31)
-#### Order finding, integer factorization 
 {% comment %}
+
+## Week 6 (May 4 - May 8)
+*  **Pre-class** Watrous Lec8
+   [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"}
+   (The phase estimation procedure); Videos on
+   [Youtube](){:target="_blank"}.
+*  **Post-class**: Lec9 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"} (Efficient implementation of the quantum Fourier transform); . 
+
 {% endcomment %}
+
+## Week 5 (April 27 - May 1)
+#### Order finding, integer factorization 
 *  **In-class**: Note
-   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week5.pdf){:target="_blank"}; 
+   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week5.pdf){:target="_blank"}; Annotated note
+   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week5_ant.pdf){:target="_blank"}. 
 *  **Pre-class**: Watrous Lec7 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/07.pdf){:target="_blank"} (Modular arithmetic); Lec10 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/10.pdf){:target="_blank"} (The Order Finding problem); Lec 8 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"} (The phase estimation problem. Read the definition only); Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOYg1CdKJUyIlmAvWPdfcfkY){:target="_blank"}.
 *  **Post-class**: Lec10 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/10.pdf){:target="_blank"} (Solving order finding using phase estimation); Lec11 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/11.pdf){:target="_blank"} (reducing factoring to order finding).
 
