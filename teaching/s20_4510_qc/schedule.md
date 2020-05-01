@@ -20,11 +20,11 @@ modified: <2020-05-01 Fri>
 {% comment %}
 
 ## Week 6 (May 4 - May 8)
-*  **Pre-class** Watrous Lec8
-   [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"}
-   (The phase estimation procedure); Videos on
-   [Youtube](){:target="_blank"}.
-*  **Post-class**: Lec9 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"} (Efficient implementation of the quantum Fourier transform); . 
+*  **Pre-class** Watrous Lec8 (The phase estimation procedure)
+   [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"};
+   [PDF](https://sci-hub.tw/https://www.nature.com/articles/nature12290){:target="_blank"}Videos
+   on [Youtube](){:target="_blank"}.
+*  **Post-class**: Lec9 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"} (Efficient implementation of the quantum Fourier transform); Google factorization [PDF](https://arxiv.org/abs/1905.09749){:target="_blank"}. 
 
 {% endcomment %}
 
