@@ -27,10 +27,10 @@ modified: <2020-05-03 Sun>
 {% endcomment %}
 
 ## Week 6 (May 4 - May 8)
-#### Phase estimation, quantum Fourier Transform
-*  **Pre-class** Watrous Lec8 (The phase estimation procedure) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"}; NC 5.1 (QFT) [PDF]({{ base}}/teaching/s20_4510_qc/nc_qft.pdf){:target="_blank"}; Videos
+#### Phase estimation, quantum Fourier transform
+*  **Pre-class** Watrous Lec8 (The phase estimation procedure) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"}; Lec9 (Efficient implementation of the quantum Fourier transform) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"}; Videos
    on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOba7PEtu_gigyPZSaSYi9Du){:target="_blank"}.
-*  **Post-class**: Lec9 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"} (Efficient implementation of the quantum Fourier transform). 
+*  **Post-class**: NC 5.1 (QFT) [PDF]({{ base}}/teaching/s20_4510_qc/nc_qft.pdf){:target="_blank"}. 
 
 ## Week 5 (April 27 - May 1)
 #### Order finding, integer factorization 
