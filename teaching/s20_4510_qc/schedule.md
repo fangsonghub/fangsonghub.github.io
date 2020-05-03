@@ -5,7 +5,7 @@ title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/s20_4510_qc/schedule/
-modified: <2020-05-01 Fri>
+modified: <2020-05-03 Sun>
 ---
 
 ## General guideline
@@ -18,15 +18,19 @@ modified: <2020-05-01 Fri>
 
 --- 
 {% comment %}
+## Week 7 (May 11 - May 15)
+#### Grover search 
+*  **Pre-class** Watrous Lec12 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/12.pdf){:target="_blank"}; Quantum factoring experiments [[SSV13](https://sci-hub.tw/10.1038/nature12290){:target="_blank"} [MNM+16](https://sci-hub.tw/10.1126/science.aad9480){:target="_blank"}]. 
 
-## Week 6 (May 4 - May 8)
-*  **Pre-class** Watrous Lec8 (The phase estimation procedure)
-   [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"};
-   [PDF](https://sci-hub.tw/https://www.nature.com/articles/nature12290){:target="_blank"}Videos
-   on [Youtube](){:target="_blank"}.
-*  **Post-class**: Lec9 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"} (Efficient implementation of the quantum Fourier transform); Google factorization [PDF](https://arxiv.org/abs/1905.09749){:target="_blank"}. 
+*  **Post-class** Google factorization [PDF](https://arxiv.org/abs/1905.09749){:target="_blank"}. 
 
 {% endcomment %}
+
+## Week 6 (May 4 - May 8)
+#### Phase estimation, quantum Fourier Transform
+*  **Pre-class** Watrous Lec8 (The phase estimation procedure) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"}; NC 5.1 (QFT) [PDF]({{ base}}/teaching/s20_4510_qc/nc_qft.pdf){:target="_blank"}; Videos
+   on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOba7PEtu_gigyPZSaSYi9Du){:target="_blank"}.
+*  **Post-class**: Lec9 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"} (Efficient implementation of the quantum Fourier transform). 
 
 ## Week 5 (April 27 - May 1)
 #### Order finding, integer factorization 
