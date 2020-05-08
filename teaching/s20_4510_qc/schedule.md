@@ -5,7 +5,7 @@ title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/s20_4510_qc/schedule/
-modified: <2020-05-03 Sun>
+modified: <2020-05-08 Fri>
 ---
 
 ## General guideline
@@ -28,6 +28,8 @@ modified: <2020-05-03 Sun>
 
 ## Week 6 (May 4 - May 8)
 #### Phase estimation, quantum Fourier transform
+*  **In-class**: Note
+   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week6.pdf){:target="_blank"}; 
 *  **Pre-class** Watrous Lec8 (The phase estimation procedure) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"}; Lec9 (Efficient implementation of the quantum Fourier transform) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"}; Videos
    on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOba7PEtu_gigyPZSaSYi9Du){:target="_blank"}.
 *  **Post-class**: NC 5.1 (QFT) [PDF]({{ base}}/teaching/s20_4510_qc/nc_qft.pdf){:target="_blank"}. 
