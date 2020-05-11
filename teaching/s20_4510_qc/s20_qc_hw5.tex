@@ -1,0 +1,209 @@
+% Created by Fang Song on April 5 2020. Instructions: you don't need
+% to change anything in the macros, but feel free to define new
+% commands as you wish. Starting from the main body, change the specs
+% (e.g., your name). use \begin{solution} \end{solution} environment
+% to write your solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{qcircuit}
+\usepackage[margin=1in]{geometry}
+
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+\usepackage{circuitikz}
+\usepackage{mdframed} %
+\mdfdefinestyle{figstyle}{ %
+  linecolor=black!7, %
+  backgroundcolor=black!7, %
+  innertopmargin=10pt, %
+  innerleftmargin=25pt, %
+  innerrightmargin=25pt, %
+  innerbottommargin=10pt %
+}
+
+%----------Header--------------------%
+\def\course{CS 410/510 Introduction to Quantum Computing}
+\def\term{Portland State U, Spring 2020}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+ }
+ 
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\mG{[\textbf{G}]\xspace}
+\def\veps{\varepsilon}
+\def\tr{\mathrm{tr}}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\bra}[1]{\langle #1 \rvert}
+\newcommand{\ket}[1]{\lvert #1 \rangle}
+\newcommand{\kera}[1]{\ket{#1}\bra{#1}}
+
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+ \studenttrue 
+% \studentfalse
+
+\def\hwnum{5} %
+\def\issuedate{05/10/2020} %
+\def\duedate{11:59pm PDT, \textbf{05/17/2020}} % 
+\def\yourname{your name} % put your name here
+%------------------------------%
+\ifstudent
+\hw{\hwnum}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{\hwnum}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+\noindent \textbf{Instructions.}  This problem set contains \numpages\
+pages (including this cover page) and \numquestions\
+questions. Problems marked with ``\mG'' are required for 510
+students. Students enrolled in 410 will get bonus points for solving
+them. A random subset of problems will be graded.
+
+Your solutions will be graded on \emph{correctness} and
+\emph{clarity}. You should only submit work that you believe to be
+correct, and you will get significantly more partial credit if you
+clearly identify the gap(s) in your solution. It is good practice to
+start any long solution with an informal (but accurate) summary that
+describes the main idea.
+
+You need to submit a PDF file via Gradescope before the
+deadline. Either a clear scan of you handwriting or a typeset document
+is accepted. You will get 5 bonus points for typing in LaTeX (Download
+and use the accompany TeX file).
+
+\medskip
+\noindent You may collaborate with others on this problem set% and consult external sources
+.  However, you must \textbf{\emph{write up your own solutions}} and
+\textbf{\emph{list your collaborators}} for each problem.
+
+\newpage 
+\begin{questions}
+
+\question (Norm) For a vector
+  $v = (v_0, \ldots, v_{k-1})\in \mathbb{C}^k$, let
+  $\|v\|:=\sqrt{\sum_{i=0}^{k-1} |v_i|^2}$, which is the usual
+  Euclidean length of $v$. For any $k \times k$ matrix
+  $M\in \mathbb{C}^{k\times k}$, define its \emph{spectral norm}
+  $\|M \|$ as $\|M\| = \max_{\ket{\psi}} \| M \ket{\psi}\|$, where the
+  maximum is taken over quantum states (i.e., vectors $\ket{\psi}$
+  such that $\| \ket{\psi}\| = 1$).  Define the distance between two
+  $k \times k$ unitary matrices $M_1$ and $M_2$ as
+  $E(M_1,M_2):=\|M_1 - M_2\|$. Show that
+
+  \begin{parts} 
+  \part[5] Show that for any $k\times k$ matrices $A,B$ and $C$,
+    \[ E(A,B) \le E(A,C) + E (C,B) \, .\] (Thus, this distance measure
+    satisfies the \emph{triangle inequality}.)
+    \newpage
+  \part[5] Show that, for any two $k \times k$ unitary matrices
+    $U_1$ and $U_2$, and any matrix $A$, $\|U_1AU_2\| = \|A\|$.
+    \newpage
+    \bonuspart[5] Show that
+
+    \[ E(U_2U_1, V_2V_1) \le E(U_2, V_2) + E(U_1, V_1) \, . \]
+    \newpage 
+  \end{parts}
+
+\question (Approximate QFT)
+  \begin{parts}
+  \part[5] We showed in class a circuit implementing the $n$-qubit QFT
+    using Hadamard and controlled-$R_k$ gates, where
+    $R_k \ket{x} = e^{2\pi i x/{2^k}} \ket{x}$ for $ x\in \bit$. How
+    many gates in total does that circuit use? Express your answer
+    both exactly and using $\Theta$ notation. (Recall that we say
+    $f(n) = \Theta(g(n))$ if $f(n) = O(g(n))$ and $g(n) = O(f(n))$.)
+
+    \newpage
+
+    \newcommand{\crk}{\mathrm{c}R_k}
+  \part[5] Let $\crk$ denote the controlled-$R_k$ gate, with
+    $\crk\ket{x}\ket{y} = e^{2\pi i x y} \ket{x}\ket{y}$ for
+    $x, y \in \bit $. Its matrix form reads
+
+    \[
+      \begin{pmatrix}
+        1 & 0 &0 &0\\
+        0 & 1 &0 &0 \\
+        0 & 0 & 1& 0 \\
+        0 & 0 & 0 & e^{2\pi i /{2^k}}
+      \end{pmatrix}
+\, .\] 
+
+Show that $E(\crk,I)\le 2\pi /{2^k}$, where $I$ denotes the
+$ 4\times 4$ identity matrix, and where $E(U,V) = \| U - V \|$ as
+defined in Problem 1. (Hint: you may use the fact that $\sin x\le x$
+for any $x\ge 0$.)
+
+\newpage
+
+\part[8] Let $F$ denote the exact QFT on $n$ qubits. Suppose that for
+  some constant $c$, we delete all the controlled-$R_k$ gates with
+  $k > \log_2(n)+c$ from the QFT circuit, giving a circuit for another
+  unitary operation $ F'$. Show that $E(F,F') \le \varepsilon$ for
+  some $\varepsilon$ that is independent of $n$, where $\varepsilon$
+  can be made arbitrarily small by choosing $c$ arbitrarily
+  large. (Hint: you may use Problem 1 part c without proving it.)
+  
+  \newpage
+\bonuspart[7] For a fixed $c$, how many gates are used by the circuit
+  implementing $F'$? It is sufficient to give your answer using
+  $\Theta$ notation. Let $n=8$ and $c = 1$, implement the $F'$ in
+  QISKIT. Include your circuit diagram or openQASM code. 
+\newpage
+\end{parts}
+
+\question (Factoring 21)
+  \begin{parts}
+  \part[4] Suppose that, when running quantum factoring algorithm to
+    factor the number 21, you choose the value $a=2$. What is the
+    order $r$ of $a \bmod 21$?
+    \newpage
+
+  \part[5] Compute $gcd(21, a^{r/2} - 1)$ and $gcd(21, a^{r/2} +
+    1)$. How do they relate to the prime factors of 21?
+    \newpage
+  \part[6] Give an expression for the probabilities of the possible
+    measurement outcomes when performing phase estimation with $m$
+    bits of precision. For $m=7$, plot the probabilities. You are
+    encouraged to use software to produce your plot.
+\newpage 
+\bonuspart[5] How would your above answers change if instead of taking
+$a = 2$, you had taken $a = 5$?
+
+  \end{parts}
+
+
+
+\end{questions}
+
+
+\end{document}

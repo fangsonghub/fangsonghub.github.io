@@ -99,6 +99,7 @@ modified: <2020-05-10 Sun>
 
 ## Assignments
 Submit on [Gradescope](https://www.gradescope.com){:target="_blank"} (Entry code: MW6NDP). You'll earn bonus points if you type in LaTeX. See [Resource]({{base}}/teaching/s20_4510_qc/resource/) for LaTeX tutorials.
+*  **HW5** [[PDF]({{base}}/teaching/s20_4510_qc/s20_qc_hw5.pdf){:target="_blank"},[TEX]({{base}}/teaching/s20_4510_qc/s20_qc_hw5.tex){:target="_blank"}], due 11:59pm PDT, 05/17/2020.
 *  **HW4** [[PDF]({{base}}/teaching/s20_4510_qc/s20_qc_hw4.pdf){:target="_blank"},[TEX]({{base}}/teaching/s20_4510_qc/s20_qc_hw4.tex){:target="_blank"}], due 11:59pm PDT, **05/10/2020**.
 *  **HW3** [[PDF]({{base}}/teaching/s20_4510_qc/s20_qc_hw3.pdf){:target="_blank"},[TEX]({{base}}/teaching/s20_4510_qc/s20_qc_hw3.tex){:target="_blank"}], due 11:59pm PDT, 04/26/2020.
 *  **HW2** [[PDF]({{base}}/teaching/s20_4510_qc/s20_qc_hw2.pdf){:target="_blank"},[TEX]({{base}}/teaching/s20_4510_qc/s20_qc_hw2.tex){:target="_blank"}], due 11:59pm PDT, 04/19/2020.
