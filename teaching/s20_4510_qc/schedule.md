@@ -5,7 +5,7 @@ title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/s20_4510_qc/schedule/
-modified: <2020-05-08 Fri>
+modified: <2020-05-10 Sun>
 ---
 
 ## General guideline
@@ -18,18 +18,36 @@ modified: <2020-05-08 Fri>
 
 --- 
 {% comment %}
-## Week 7 (May 11 - May 15)
-#### Grover search 
-*  **Pre-class** Watrous Lec12 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/12.pdf){:target="_blank"}; Quantum factoring experiments [[SSV13](https://sci-hub.tw/10.1038/nature12290){:target="_blank"} [MNM+16](https://sci-hub.tw/10.1126/science.aad9480){:target="_blank"}]. 
+## Week 10 (June 01 - June 05)
+#### Project presentation 
 
-*  **Post-class** Google factorization [PDF](https://arxiv.org/abs/1905.09749){:target="_blank"}. 
+## Week 9 (May 25 - May 29)
+#### Quantum Error correcting and Fault tolerance, selected topics 
+*  **Pre-class**: Watrous Lec16 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/16.pdf){:target="_blank"}; Monroe SA quantum party [HTML](https://blogs.scientificamerican.com/observations/the-quantum-computing-party-hasnt-even-started-yet/){:target="_blank"}; ; Video.
+* **Post-class**: Watrous Lec20 (Bell's inequality) Lec20 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/20.pdf){:target="_blank"}; Aaronson Limits of QC [PDF](https://www.cs.virginia.edu/~robins/The_Limits_of_Quantum_Computers.pdf){:target="_blank"}. 
+* **Supplement**: Watrous Lec17 (CSS codes) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/17.pdf){:target="_blank"}. 
 
+## Week 8 (May 18 - May 22)
+#### Quantum information formalism revisited, discussion on quantum advantage experiments
+*  **Pre-class**: Watrous Lec14 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/14.pdf){:target="_blank"}; NYT [HTML](https://www.nytimes.com/2019/10/30/opinion/google-quantum-computer-sycamore.html){:target="_blank"}. 
+*  **Post-class**: Watrous Lec15 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/15.pdf){:target="_blank"};
+
+*  **In-class**: Note
+   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week7.pdf){:target="_blank"}; Annotated note
+   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week7_ant.pdf){:target="_blank"}. 
 {% endcomment %}
+
+## Week 7 (May 11 - May 15)
+#### Grover's algorithm, discussion on quantum factoring
+*  **Pre-class**: Watrous Lec12 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/12.pdf){:target="_blank"}; Quantum factoring experiments [[SSV13](https://sci-hub.tw/10.1038/nature12290){:target="_blank"} [MNM+16](https://sci-hub.tw/10.1126/science.aad9480){:target="_blank"}]. 
+*  **Post-class**: Watrous Lec13 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/13.pdf){:target="_blank"};
+*  **Leaisure reading**: Google factorization [PDF](https://arxiv.org/abs/1905.09749){:target="_blank"}. 
 
 ## Week 6 (May 4 - May 8)
 #### Phase estimation, quantum Fourier transform
 *  **In-class**: Note
-   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week6.pdf){:target="_blank"}; 
+   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week6.pdf){:target="_blank"}; Annotated note
+   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week6_ant.pdf){:target="_blank"}. 
 *  **Pre-class** Watrous Lec8 (The phase estimation procedure) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"}; Lec9 (Efficient implementation of the quantum Fourier transform) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/09.pdf){:target="_blank"}; Videos
    on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOba7PEtu_gigyPZSaSYi9Du){:target="_blank"}.
 *  **Post-class**: NC 5.1 (QFT) [PDF]({{ base}}/teaching/s20_4510_qc/nc_qft.pdf){:target="_blank"}. 
