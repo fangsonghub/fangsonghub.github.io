@@ -5,7 +5,7 @@ title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/s20_4510_qc/schedule/
-modified: <2020-05-10 Sun>
+modified: <2020-05-15 Sun>
 ---
 
 ## General guideline
@@ -32,13 +32,15 @@ modified: <2020-05-10 Sun>
 *  **Pre-class**: Watrous Lec14 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/14.pdf){:target="_blank"}; NYT [HTML](https://www.nytimes.com/2019/10/30/opinion/google-quantum-computer-sycamore.html){:target="_blank"}. 
 *  **Post-class**: Watrous Lec15 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/15.pdf){:target="_blank"};
 
-*  **In-class**: Note
-   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week7.pdf){:target="_blank"}; Annotated note
+
+Annotated note
    [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week7_ant.pdf){:target="_blank"}. 
 {% endcomment %}
 
 ## Week 7 (May 11 - May 15)
 #### Grover's algorithm, discussion on quantum factoring
+*  **In-class**: Note
+   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week7.pdf){:target="_blank"}; 
 *  **Pre-class**: Watrous Lec12 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/12.pdf){:target="_blank"}; Quantum factoring experiments [[SSV13](https://sci-hub.tw/10.1038/nature12290){:target="_blank"} [MNM+16](https://sci-hub.tw/10.1126/science.aad9480){:target="_blank"}]; Videos on [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOZ2Bd5_bztCTU9w-qd51SiE){:target="_blank"}. 
 *  **Post-class**: Watrous Lec13 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/13.pdf){:target="_blank"};
 *  **Leaisure reading**: Google factorization [PDF](https://arxiv.org/abs/1905.09749){:target="_blank"}. 
