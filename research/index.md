@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt:
-modified: <2020-03-30 Mon>
+modified: <2020-05-15 Fri>
 ---
 * Table of Contents
 {:toc}
@@ -97,9 +97,9 @@ modified: <2020-03-30 Mon>
 	*   Authors: Nai-Hui Chia, Sean Hallgren, and Fang Song 
 	*   ArXiv preprint [arXiv:1804.10309](https://arxiv.org/abs/1804.10309){:target="_blank"}, April 2018.
 *  **Early days following Grover's quantum search algorithm** 
-  * Authors: Fang Song
-  * A lecture note in Spring'17 summarizing basic results related to Grover's algorithm. 
-  * [[arXiv](https://arxiv.org/abs/1709.01236){:target="_blank"}]
+    * Authors: Fang Song
+    * A lecture note in Spring'17 summarizing basic results related to Grover's algorithm. 
+    * [[arXiv](https://arxiv.org/abs/1709.01236){:target="_blank"}]
 *   **On the quantum attacks against schemes relying on the hardness of finding a short generator of an ideal in \\(\mathbb{Q}(\zeta_{p^n})\\)**
     *   Authors: Jean-François Biasse and Fang Song
     *   CACR Tech Report, [CACR2015-12](http://cacr.uwaterloo.ca/techreports/2015/cacr2015-12.pdf), September 2015.
