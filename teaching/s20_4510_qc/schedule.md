@@ -5,7 +5,7 @@ title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/s20_4510_qc/schedule/
-modified: <2020-05-15 Fri>
+modified: <2020-05-17 Sun>
 ---
 
 ## General guideline
@@ -27,15 +27,16 @@ modified: <2020-05-15 Fri>
 * **Post-class**: Watrous Lec20 (Bell's inequality) Lec20 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/20.pdf){:target="_blank"}; Aaronson Limits of QC [PDF](https://www.cs.virginia.edu/~robins/The_Limits_of_Quantum_Computers.pdf){:target="_blank"}. 
 * **Supplement**: Watrous Lec17 (CSS codes) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/17.pdf){:target="_blank"}. 
 
+{% endcomment %}
+
 ## Week 8 (May 18 - May 22)
-#### Quantum information formalism revisited, discussion on quantum advantage experiments
+#### Quantum information theory, discussion on quantum advantage experiments
 *  **Pre-class**: Watrous Lec14 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/14.pdf){:target="_blank"}; NYT [HTML](https://www.nytimes.com/2019/10/30/opinion/google-quantum-computer-sycamore.html){:target="_blank"}. 
 *  **Post-class**: Watrous Lec15 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/15.pdf){:target="_blank"};
 
 
-{% endcomment %}
-
 ## Week 7 (May 11 - May 15)
+
 #### Grover's algorithm, discussion on quantum factoring
 *  **In-class**: Note
    [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week7.pdf){:target="_blank"}; Annotated note
