@@ -32,8 +32,8 @@ modified: <2020-05-17 Sun>
 ## Week 8 (May 18 - May 22)
 #### Quantum information theory, discussion on quantum advantage experiments
 *  **Pre-class**: Watrous Lec14 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/14.pdf){:target="_blank"}; NYT [HTML](https://www.nytimes.com/2019/10/30/opinion/google-quantum-computer-sycamore.html){:target="_blank"}. 
-*  **Post-class**: Watrous Lec15 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/15.pdf){:target="_blank"};
-
+*  **Post-class**: Watrous Lec15 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/15.pdf){:target="_blank"}. 
+* **Supplement**: Talks on Google's quantum experiment [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOZ5dUIiJgeiY4vTMIQz4Wjb){:target="_blank"}.
 
 ## Week 7 (May 11 - May 15)
 
