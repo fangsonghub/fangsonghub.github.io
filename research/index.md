@@ -83,7 +83,7 @@ modified: <2020-05-15 Fri>
     *   In _10th Theory of Cryptography Conference ([TCC 2013](http://www.iacr.org/workshops/tcc2013/))_.
     *   Workshop Track at [_ICITS 2012_](http://icits2012.iro.umontreal.ca/), Poster ([PDF]({{base}}/files/talks/2pc_comlexity_poster_stoc12_48.pdf
         			)) at [_STOC 2012_](http://cs.nyu.edu/~stoc2012/default.htm)
-    *   [Proceedings version: [Official](http://link.springer.com/chapter/10.1007/978-3-642-36594-2_16), [ePrint](https://eprint.iacr.org/2015/385.pdf)] [<a href="">Preliminary full version</a>]
+    *   [Proceedings version: [Official](http://link.springer.com/chapter/10.1007/978-3-642-36594-2_16), [ePrint](https://eprint.iacr.org/2015/385.pdf)] [[Preliminary full version]({{ base }}/files/pubs/FKSZZ13_long_draft.pdf){:target="_blank"}] 
 *   **Classical Cryptographic Protocols in a Quantum World**
     *   Authors: [Sean Hallgren](http://www.cse.psu.edu/~hallgren), [Adam Smith](http://www.cse.psu.edu/~asmith) and Fang Song
     *   Featured talk at [_QIP 2011_](http://qip2011.quantumlah.org/scientificprogramme/)
