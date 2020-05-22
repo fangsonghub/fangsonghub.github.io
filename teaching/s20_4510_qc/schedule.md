@@ -5,7 +5,7 @@ title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/s20_4510_qc/schedule/
-modified: <2020-05-18 Mon>
+modified: <2020-05-22 Fri>
 ---
 
 ## General guideline
@@ -31,6 +31,8 @@ modified: <2020-05-18 Mon>
 
 ## Week 8 (May 18 - May 22)
 #### Quantum information theory, discussion on quantum advantage experiments
+*  **In-class**: Note
+   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week8.pdf){:target="_blank"}
 *  **Pre-class**: Watrous Lec14 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/14.pdf){:target="_blank"}; NYT [HTML](https://www.nytimes.com/2019/10/30/opinion/google-quantum-computer-sycamore.html){:target="_blank"}. 
 *  **Post-class**: Watrous Lec15 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/15.pdf){:target="_blank"}. 
 * **Supplement**: Talks on Google's quantum experiment [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOZ5dUIiJgeiY4vTMIQz4Wjb){:target="_blank"}.
