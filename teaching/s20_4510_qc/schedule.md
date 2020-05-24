@@ -18,21 +18,22 @@ modified: <2020-05-24 Sun>
 
 --- 
 {% comment %}
+{% endcomment %}
 ## Week 10 (June 01 - June 05)
 #### Project presentation 
 
 ## Week 9 (May 25 - May 29)
-#### Quantum Error correcting and Fault tolerance, selected topics 
-*  **Pre-class**: Watrous Lec16 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/16.pdf){:target="_blank"}; Monroe SA quantum party [HTML](https://blogs.scientificamerican.com/observations/the-quantum-computing-party-hasnt-even-started-yet/){:target="_blank"}; ; Video.
+#### Quantum error correcting and fault tolerance, selected topics 
+*  **Pre-class**: Watrous Lec16 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/16.pdf){:target="_blank"}; Monroe SA quantum party [HTML](https://blogs.scientificamerican.com/observations/the-quantum-computing-party-hasnt-even-started-yet/){:target="_blank"}.
 * **Post-class**: Watrous Lec20 (Bell's inequality) Lec20 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/20.pdf){:target="_blank"}; Aaronson Limits of QC [PDF](https://www.cs.virginia.edu/~robins/The_Limits_of_Quantum_Computers.pdf){:target="_blank"}. 
 * **Supplement**: Watrous Lec17 (CSS codes) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/17.pdf){:target="_blank"}. 
 
-{% endcomment %}
 
 ## Week 8 (May 18 - May 22)
 #### Quantum information theory, discussion on quantum advantage experiments
 *  **In-class**: Note
-   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week8.pdf){:target="_blank"}
+   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week8.pdf){:target="_blank"}; Annotated note
+   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week8_ant.pdf){:target="_blank"}. 
 *  **Pre-class**: Watrous Lec14 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/14.pdf){:target="_blank"}; NYT [HTML](https://www.nytimes.com/2019/10/30/opinion/google-quantum-computer-sycamore.html){:target="_blank"}. 
 *  **Post-class**: Watrous Lec15 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/15.pdf){:target="_blank"}. 
 * **Supplement**: Talks on Google's quantum experiment [Youtube](https://www.youtube.com/playlist?list=PLnxx8Tio1lOZ5dUIiJgeiY4vTMIQz4Wjb){:target="_blank"}.
