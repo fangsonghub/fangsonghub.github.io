@@ -21,11 +21,12 @@ modified: <2020-05-24 Sun>
 {% endcomment %}
 ## Week 10 (June 01 - June 05)
 #### Project presentation 
+* Schedule: AC, HV, OSS, IM, S, B, BRR, BPM
 
 ## Week 9 (May 25 - May 29)
 #### Quantum error correcting and fault tolerance, selected topics 
 *  **Pre-class**: Watrous Lec16 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/16.pdf){:target="_blank"}; Monroe SA quantum party [HTML](https://blogs.scientificamerican.com/observations/the-quantum-computing-party-hasnt-even-started-yet/){:target="_blank"}.
-* **Post-class**: Watrous Lec20 (Bell's inequality) Lec20 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/20.pdf){:target="_blank"}; Aaronson Limits of QC [PDF](https://www.cs.virginia.edu/~robins/The_Limits_of_Quantum_Computers.pdf){:target="_blank"}. 
+* **Post-class**: Watrous Lec22 (Quantum computational complexity) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/22.pdf){:target="_blank"}; Aaronson Limits of QC [PDF](https://www.cs.virginia.edu/~robins/The_Limits_of_Quantum_Computers.pdf){:target="_blank"}. 
 * **Supplement**: Watrous Lec17 (CSS codes) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/17.pdf){:target="_blank"}. 
 
 
