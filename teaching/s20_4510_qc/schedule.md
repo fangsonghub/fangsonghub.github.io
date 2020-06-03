@@ -5,7 +5,7 @@ title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/s20_4510_qc/schedule/
-modified: <2020-05-29 Fri>
+modified: <2020-06-03 Wed>
 ---
 
 ## General guideline
@@ -26,7 +26,8 @@ modified: <2020-05-29 Fri>
 ## Week 9 (May 25 - May 29)
 #### Quantum error correcting and fault tolerance, selected topics 
 *  **In-class**: Note
-   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week9.pdf){:target="_blank"};
+   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week9.pdf){:target="_blank"}; Annotated note
+   [PDF]({{base}}/teaching/s20_4510_qc/s20_4510_week9_ant.pdf){:target="_blank"}.
 *  **Pre-class**: Watrous Lec16 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/16.pdf){:target="_blank"}; Monroe SA quantum party [HTML](https://blogs.scientificamerican.com/observations/the-quantum-computing-party-hasnt-even-started-yet/){:target="_blank"}.
 * **Post-class**: Watrous Lec22 (Quantum computational complexity) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/22.pdf){:target="_blank"}; Aaronson Limits of QC [PDF](https://www.cs.virginia.edu/~robins/The_Limits_of_Quantum_Computers.pdf){:target="_blank"}. 
 * **Supplement**: Watrous Lec17 (CSS codes) [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/17.pdf){:target="_blank"}. 
