@@ -5,7 +5,7 @@ subtitle: Course Project
 courseid: s20 410/510
 desc: Project
 permalink: /teaching/s20_4510_qc/project/
-modified: <2020-04-27 Mon>
+modified: <2020-06-03 Wed>
 ---
 
 * Table of Contents
@@ -57,7 +57,7 @@ including open problems.
    and offers an overview of the entire report; 3) details including
    proper preliminary materials (e.g., notations & definitions),
    explaining some main technical results; and finally 4) further
-   discussion and open questions. (15%)
+   discussion and open questions. (10%)
 *  **Report format**: I recommend you to typeset your reports in
    _LaTeX_, and manage your bibliography using BibTeX. The [resource
    page]({{base}}/teaching/s20_4510_qc/resource/) has links to
