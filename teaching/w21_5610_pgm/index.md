@@ -1,6 +1,6 @@
 ---
 layout: course
-title: (Winter 2021) CS 510/610 - Topic: probabilistic graphical models 
+title: (Winter 2021) CS 510/610 - Topic on probabilistic graphical models 
 courseid: w21 510/610
 desc: w21 510/610
 permalink: /teaching/w21_5610_pgm/
