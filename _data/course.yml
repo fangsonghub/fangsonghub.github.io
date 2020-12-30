@@ -1,5 +1,69 @@
 # course pages
 
+# W21 ALG
+
+- courseid: w21 584/684
+  title: (Winter 2021) CS 584/684 - Algorithm Design & Analysis
+  desc: w21 584/684
+  nav: true
+  url: /teaching/w21_5684_alg/
+
+- courseid: w21 584/684
+  title: CS 584/684
+  desc: Schedule
+  nav: true
+  url: /teaching/w21_5684_alg/schedule/
+
+- courseid: w21 584/684
+  title: CS 584/684
+  desc: Resource
+  nav: true
+  url: /teaching/w21_5684_alg/resource/
+
+- courseid: w21 584/684
+  title: CS 584/684
+  desc: Project
+  nav: false
+  url: /teaching/w21_5684_alg/project/
+
+- courseid: w21 584/684
+  title: CS 584/684
+  desc: Admin
+  nav: false
+  url: /teaching/w21_5684_alg/admin/
+
+# W21 PGM
+
+- courseid: w21 510/610
+  title: (Winter 2021) CS 510/610 - Topic: probabilistic graphical models
+  desc: w21 510/610
+  nav: true
+  url: /teaching/w21_5610_pgm/
+
+- courseid: w21 510/610
+  title: CS 510/610
+  desc: Schedule
+  nav: true
+  url: /teaching/w21_5610_pgm/schedule/
+
+- courseid: w21 510/610
+  title: CS 510/610
+  desc: Resource
+  nav: true
+  url: /teaching/w21_5610_pgm/resource/
+
+- courseid: w21 510/610
+  title: CS 510/610
+  desc: Project
+  nav: true
+  url: /teaching/w21_5610_pgm/project/
+
+- courseid: w21 510/610
+  title: CS 510/610
+  desc: Admin
+  nav: false
+  url: /teaching/w21_5610_pgm/admin/
+
 # S20 QC
 
 - courseid: s20 410/510
