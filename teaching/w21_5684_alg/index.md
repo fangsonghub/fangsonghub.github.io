@@ -33,7 +33,7 @@ modified: <2020-12-30 Wed>
     *  [**CLRS**] Thomas H. Cormen, Charles E. Leiserson,Ronald
 L. Rivest and Clifford Stein. _Introduction to Algorithms, 3rd
 edition_, MIT Press, 2009. Online access available via PSU library [Library elink](https://search.library.pdx.edu/permalink/f/eqsjiv/TN_cdi_askewsholts_vlebooks_9780262270830){:target="_blank"}
-			*  [**KT**] Jon Kleinberg, Éva Tardos. _Algorithm design_, Pearson Addison-Wesley, 2006. Hard copy on reserve at PSU library [Link](https://search.library.pdx.edu/permalink/f/p82vj0/CP71119639130001451){:target="_blank"}. 
+	*  [**KT**] Jon Kleinberg, Éva Tardos. _Algorithm design_, Pearson Addison-Wesley, 2006. Hard copy on reserve at PSU library [Link](https://search.library.pdx.edu/permalink/f/p82vj0/CP71119639130001451){:target="_blank"}. 
 *  **Gradescope**: sign up on
    [Gradescope](https://www.gradescope.com/), and join our class using
    Entry code: _TBD_. We will manange assignments with it.
