@@ -33,6 +33,6 @@ modified: <2020-12-30 Wed>
    mathematical proofs. Maturity in algorithm analysis, linear
    algebra, and basic probability theory is essential.
 *  **Text**: No required text. See [Resource
-   page]({{base}}/teaching/w21_5684_alg/resource/) for suggested texts
+   page]({{base}}/teaching/w21_5610_pgm/resource/) for suggested texts
    and additional useful materials.
   
