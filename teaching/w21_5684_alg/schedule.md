@@ -10,7 +10,7 @@ modified: <2020-01-04 Mon>
 
 ## General guideline
 * Zoom link for [lectures](https://pdx.zoom.us/j/84351442295?pwd=U29FUDRIdFlIVkUvVkFnQy9NUVdtQT09), TR 16:40 - 18:15. 
-* Zoom link for [office hours](https://pdx.zoom.us/j/88255438626?pwd=VjZOR2NkUVpvNkRMcmhCK1I5SmVUZz09), F 8:30 - 10 am. Contact instructor to arrange additional meetings. 
+* Zoom link for [office hours](https://pdx.zoom.us/j/88237483669?pwd=LzEveUtKVG96ZXRuVVZTWDY2a0Judz09), F 8:30 - 10 am. Contact instructor to arrange additional meetings. 
 
 ## Schedule (subject to change)
 
