@@ -7,6 +7,8 @@ courseid: w21 584/684
 permalink: /teaching/w21_5684_alg/schedule/
 modified: <2020-01-04 Mon>
 ---
+* Table of Contents
+{:toc}
 
 ## General guideline
 * Zoom link for [lectures](https://pdx.zoom.us/j/84351442295?pwd=U29FUDRIdFlIVkUvVkFnQy9NUVdtQT09), TR 16:40 - 18:15. 
@@ -41,7 +43,7 @@ modified: <2020-01-04 Mon>
 
 ## Assignments
 
-Earn extra credit by typing in LaTeX. See [Resource]({{base}}/teaching/w21_5864_alg/resource/) for LaTeX tutorials. Submit on [TBD](){:target="_blank"}.
+Earn extra credit by typing in LaTeX. See [Resource]({{base}}/teaching/w21_5684_alg/resource/) for LaTeX tutorials. Submit on [TBD](){:target="_blank"}.
 *  Homework 1
-   [[PDF]({{base}}/teaching/w21_5864_alg/w21_5864_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/w21_5864_alg/w21_5864_hw1.tex){:target="_blank"}],
+   [[PDF]({{base}}/teaching/w21_5684_alg/w21_5684_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/w21_5684_alg/w21_5684_hw1.tex){:target="_blank"}],
    due xx/xx. 
