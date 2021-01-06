@@ -32,3 +32,4 @@ math for CS students.
   convinent to get you started. Overleaf also maintains a nice set of
   [tutorials](https://www.overleaf.com/learn/latex/Tutorials){:target="_blank"}. It's
   most effective just to open a template tex file and tweak it!
+* Tutorial on CLRS pseudocode style in LaTeX [PDF](https://www.cs.dartmouth.edu/~thc/clrscode/clrscode3e.pdf){:target="_blank"}.
