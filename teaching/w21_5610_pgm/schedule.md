@@ -19,8 +19,8 @@ modified: <2020-01-04 Mon>
 
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
-|1| T,01/05  | Intro <br> Review: probability theory <br> Review: graphs <br>  | DF 1,2 <br> [Jordan Survey](https://projecteuclid.org/euclid.ss/1089808279){:target="_blank"} |
-|| Th,01/07 | Representation: Bayesian networks <br> | DF 2<br> MJ 2.1 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"}  |
+|1| T,01/05  | Intro <br> Review: probability theory <br>  | DF 1,2 <br> [Jordan Survey](https://projecteuclid.org/euclid.ss/1089808279){:target="_blank"} |
+|| Th,01/07 | Review: graphs <br> Representation: Bayesian networks | DF 2<br> MJ 2.1 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"}  |
 |2| T,01/12 | Representation: undirected models | DF 4 <br> MJ 2.2 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} | 
 || Th,01/14 | Undirected models, cont'd | DF 4 <br> MJ 2.2 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} |
 {:.mbtablestylef}
