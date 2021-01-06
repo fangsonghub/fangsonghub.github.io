@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 desc: Schedule
 courseid: w21 584/684
 permalink: /teaching/w21_5684_alg/schedule/
-modified: <2020-01-04 Mon>
+modified: <2020-01-05 Tue>
 ---
 * Table of Contents
 {:toc}
@@ -46,4 +46,4 @@ modified: <2020-01-04 Mon>
 Earn extra credit by typing in LaTeX. See [Resource]({{base}}/teaching/w21_5684_alg/resource/) for LaTeX tutorials. Submit on [TBD](){:target="_blank"}.
 *  Homework 1
    [[PDF]({{base}}/teaching/w21_5684_alg/w21_5684_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/w21_5684_alg/w21_5684_hw1.tex){:target="_blank"}],
-   due xx/xx. 
+   due 4:40pm, 01/12/21. 
