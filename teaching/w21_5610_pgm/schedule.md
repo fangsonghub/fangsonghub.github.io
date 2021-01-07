@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 courseid: w21 510/610
 desc: Schedule
 permalink: /teaching/w21_5610_pgm/schedule/
-modified: <2020-01-04 Mon>
+modified: <2020-01-07 Thu>
 ---
 
 * Table of Contents
@@ -20,14 +20,12 @@ modified: <2020-01-04 Mon>
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
 |1| T,01/05  | Intro <br> Review: probability theory <br>  | DF 1,2 <br> [Jordan Survey](https://projecteuclid.org/euclid.ss/1089808279){:target="_blank"} |
-|| Th,01/07 | Review: graphs <br> Representation: Bayesian networks | DF 2<br> MJ 2.1 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"}  |
-|2| T,01/12 | Representation: undirected models | DF 4 <br> MJ 2.2 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} | 
+|| Th,01/07 | Review: probability cont'd, graphs | DF 2 <br> S228 [HTML](https://ermongroup.github.io/cs228-notes/preliminaries/probabilityreview/){:target="_blank"} |
+|2| T,01/12 |  Representation: Bayesian networks | DF 3 <br> MJ 2.1 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} | 
 || Th,01/14 | Undirected models, cont'd | DF 4 <br> MJ 2.2 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} |
 {:.mbtablestylef}
 
 {% comment %}
-|2| T,01/12 | Recurrence <br> Graph basics <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec3.pdf){:target="_blank"}  | CLRS 4.3-4.5,22.1 | 
-|| Th,01/14 | Graph traversal <br> Connected components <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec4.pdf){:target="_blank"} | CLRS 22.1,22.3,10.1|
 |3| T,01/19| DAG and topological sort <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec5.pdf){:target="_blank"}  | CLRS 22.4,22.5 |
 || Th,01/21 |  Shortest/longest path in DAGs <br> Dynamic programming <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec6.pdf){:target="_blank"} | CLRS 15.3 <br> DPV 6.2 [PDF]({{base}}/teaching/w21_5684_alg/longest_inc_seq.pdf){:target="_blank"} |
 |4| T,01/26 | Weighted interval scheduling <br> Longest common subsequence <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec7.pdf){:target="_blank"} |  KT 6.1 [PDF]({{base}}/teaching/w21_5684_alg/weighted_interval_scheduling.pdf){:target="_blank"} <br>  CLRS 15.4|
