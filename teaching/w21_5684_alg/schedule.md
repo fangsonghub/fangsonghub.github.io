@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 desc: Schedule
 courseid: w21 584/684
 permalink: /teaching/w21_5684_alg/schedule/
-modified: <2020-01-05 Tue>
+modified: <2020-01-12 Tue>
 ---
 * Table of Contents
 {:toc}
@@ -20,8 +20,8 @@ modified: <2020-01-05 Tue>
 |:-----:| :---------: |:----------:|:-----:|
 |1| T,01/05  | Intro <br> Growth of functions <br> LaTeX tutorial <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec1.pdf){:target="_blank"}  | CLRS 1 - 3 <br> [Overleaf tutorial](https://www.overleaf.com/learn/latex/Tutorials){:target="_blank"} |
 || Th,01/07 | Merge sort, Divide-&-Conquer <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec2.pdf){:target="_blank"} | CLRS 2.3,4.1,4.2 |
-|2| T,01/12 | Recurrence <br> Graph basics <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec3.pdf){:target="_blank"}  | CLRS 4.3-4.5,22.1 | 
-|| Th,01/14 | Graph traversal <br> Connected components <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec4.pdf){:target="_blank"} | CLRS 22.1,22.3,10.1|
+|2| T,01/12 | Recurrence <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec3.pdf){:target="_blank"}  | CLRS 4.3-4.5| 
+|| Th,01/14 | Elementary graph algorithms <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec4.pdf){:target="_blank"} | CLRS 22.1,22.3,10.1|
 |3| T,01/19| DAG and topological sort <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec5.pdf){:target="_blank"}  | CLRS 22.4,22.5 |
 || Th,01/21 |  Shortest/longest path in DAGs <br> Dynamic programming <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec6.pdf){:target="_blank"} | CLRS 15.3 <br> DPV 6.2 [PDF]({{base}}/teaching/w21_5684_alg/longest_inc_seq.pdf){:target="_blank"} |
 |4| T,01/26 | Weighted interval scheduling <br> Longest common subsequence <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec7.pdf){:target="_blank"} |  KT 6.1 [PDF]({{base}}/teaching/w21_5684_alg/weighted_interval_scheduling.pdf){:target="_blank"} <br>  CLRS 15.4|
@@ -43,7 +43,10 @@ modified: <2020-01-05 Tue>
 
 ## Assignments
 
-Earn extra credit by typing in LaTeX. See [Resource]({{base}}/teaching/w21_5684_alg/resource/) for LaTeX tutorials. Submit on [TBD](){:target="_blank"}.
+Earn extra credit by typing in LaTeX. See [Resource]({{base}}/teaching/w21_5684_alg/resource/) for LaTeX tutorials. Submit on [Google Classroom](https://classroom.google.com/c/MjU0NTY2NTg5OTMy?cjc=5hgfg2p){:target="_blank"} (Class code: **5hgfg2p**).
 *  Homework 1
    [[PDF]({{base}}/teaching/w21_5684_alg/w21_5684_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/w21_5684_alg/w21_5684_hw1.tex){:target="_blank"}],
    due 4:40pm, 01/12/21. 
+*  Homework 2
+   [[PDF]({{base}}/teaching/w21_5684_alg/w21_5684_hw2.pdf){:target="_blank"},[TEX]({{base}}/teaching/w21_5684_alg/w21_5684_hw2.tex){:target="_blank"}],
+   due 4:40pm, 01/19/21. 
