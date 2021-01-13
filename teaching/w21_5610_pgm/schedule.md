@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 courseid: w21 510/610
 desc: Schedule
 permalink: /teaching/w21_5610_pgm/schedule/
-modified: <2020-01-07 Thu>
+modified: <2020-01-12 Tue>
 ---
 
 * Table of Contents
@@ -22,7 +22,7 @@ modified: <2020-01-07 Thu>
 |1| T,01/05  | Intro <br> Review: probability theory <br>  | DF 1,2 <br> [Jordan Survey](https://projecteuclid.org/euclid.ss/1089808279){:target="_blank"} |
 || Th,01/07 | Review: probability cont'd, graphs | DF 2 <br> S228 [HTML](https://ermongroup.github.io/cs228-notes/preliminaries/probabilityreview/){:target="_blank"} |
 |2| T,01/12 |  Representation: Bayesian networks | DF 3 <br> MJ 2.1 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} | 
-|| Th,01/14 | Undirected models, cont'd | DF 4 <br> MJ 2.2 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} |
+|| Th,01/14 | Undirected models | DF 4 <br> MJ 2.2 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} |
 {:.mbtablestylef}
 
 {% comment %}
