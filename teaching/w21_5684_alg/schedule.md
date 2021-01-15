@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 desc: Schedule
 courseid: w21 584/684
 permalink: /teaching/w21_5684_alg/schedule/
-modified: <2020-01-12 Tue>
+modified: <2020-01-14 Thu>
 ---
 * Table of Contents
 {:toc}
