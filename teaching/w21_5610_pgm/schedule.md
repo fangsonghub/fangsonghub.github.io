@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 courseid: w21 510/610
 desc: Schedule
 permalink: /teaching/w21_5610_pgm/schedule/
-modified: <2020-01-12 Tue>
+modified: <2020-01-15 Fri>
 ---
 
 * Table of Contents
@@ -19,15 +19,15 @@ modified: <2020-01-12 Tue>
 
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
-|1| T,01/05  | Intro <br> Review: probability theory <br>  | DF 1,2 <br> [Jordan Survey](https://projecteuclid.org/euclid.ss/1089808279){:target="_blank"} |
-|| Th,01/07 | Review: probability cont'd, graphs | DF 2 <br> S228 [HTML](https://ermongroup.github.io/cs228-notes/preliminaries/probabilityreview/){:target="_blank"} |
-|2| T,01/12 |  Representation: Bayesian networks | DF 3 <br> MJ 2.1 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} | 
-|| Th,01/14 | Undirected models | DF 4 <br> MJ 2.2 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} |
+|1| T,01/05  | Intro <br> Review: probability theory <br>  | KF 1,2 <br> [Jordan Survey](https://projecteuclid.org/euclid.ss/1089808279){:target="_blank"} |
+|| Th,01/07 | Review: probability cont'd, graphs | KF 2 <br> S228 [HTML](https://ermongroup.github.io/cs228-notes/preliminaries/probabilityreview/){:target="_blank"} |
+|2| T,01/12 |  Representation: Bayesian networks <br> [Recording](https://pdx.zoom.us/rec/share/7gMJi75YUEv1VfmNPLmAoDwI4xrc_rLdbV7LlnnROIDGouhH4e1K0Q0WBmCoCE5u.bf61YsI3rH51VHET){:target="_blank"} | KF 3 <br> MJ 2.1 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} | 
+|| Th,01/14 | Bayesian networks cont'd <br> [Recording](https://pdx.zoom.us/rec/share/HJDSO8tAXOZRAD56BCzwMFtxKXP2w8Vii6Az8cv97o5iYTI0s6f64_WqaTeyFUxm.q9ryZ9DNur_09wlO){:target="_blank"} | KF 3 <br> MJ 2.1 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} | 
+|3| T,01/19| Undirected models <br> [Recording](){:target="_blank"}  | KF 4 <br> MJ 2.2 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} |
+|| Th,01/21 | Exact Inference <br> [Recording](){:target="_blank"} | KF 9 <br> MJ 3 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter3.pdf){:target="_blank"} |
 {:.mbtablestylef}
 
 {% comment %}
-|3| T,01/19| DAG and topological sort <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec5.pdf){:target="_blank"}  | CLRS 22.4,22.5 |
-|| Th,01/21 |  Shortest/longest path in DAGs <br> Dynamic programming <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec6.pdf){:target="_blank"} | CLRS 15.3 <br> DPV 6.2 [PDF]({{base}}/teaching/w21_5684_alg/longest_inc_seq.pdf){:target="_blank"} |
 |4| T,01/26 | Weighted interval scheduling <br> Longest common subsequence <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec7.pdf){:target="_blank"} |  KT 6.1 [PDF]({{base}}/teaching/w21_5684_alg/weighted_interval_scheduling.pdf){:target="_blank"} <br>  CLRS 15.4|
 || Th,01/28 | Bellman-Ford: shortest path <br> Review <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec8.pdf){:target="_blank"} |CLRS 24.1,24.2 |
 |5| T,02/02| Recitation by TA | |
