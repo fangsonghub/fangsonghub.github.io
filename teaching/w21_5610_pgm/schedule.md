@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 courseid: w21 510/610
 desc: Schedule
 permalink: /teaching/w21_5610_pgm/schedule/
-modified: <2020-01-15 Fri>
+modified: <2020-01-16 Sat>
 ---
 
 * Table of Contents
@@ -46,7 +46,7 @@ modified: <2020-01-15 Fri>
 {% endcomment %}
 ## Assignments
 
-Earn extra credit by typing in LaTeX. See [Resource]({{base}}/teaching/w21_5864_alg/resource/) for LaTeX tutorials. Submit on [TBD](){:target="_blank"}.
+Earn extra credit by typing in LaTeX. See [Resource]({{base}}/teaching/w21_5864_alg/resource/) for LaTeX tutorials. Submit on [Google Classroom](https://classroom.google.com/c/MjU1MTE1MjU4MDI3?cjc=ncoc6b2){:target="_blank"} (Classcode: ncoc6b2).
 *  Homework 1
-   [[PDF]({{base}}/teaching/w21_5610_pgm/w21_5610_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/w21_5610_alg/w21_5610_hw1.tex){:target="_blank"}],
-   due xx/xx/2021. 
+   [[PDF]({{base}}/teaching/w21_5610_pgm/w21_pgm_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/w21_5610_alg/w21_pgm_hw1.tex){:target="_blank"}],
+   due 12pm, 01/28/2021. 
