@@ -1,0 +1,157 @@
+% Instructions: you don't need to change anything in the macros, but
+% feel free to define new commands as you wish. Starting from the main
+% body, change the specs (e.g., your
+% name). use \begin{solution} \end{solution} environment to write your
+% solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CS 584/684 Algorithm Design and Analysis}
+\def\term{Portland State U, Winter 2021}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill \textbf{#5}  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\veps{\varepsilon}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\corr}[1]{{\color{blue}{#1}}}
+\newcommand{\alg}[1]{\textsf{#1}}
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+ \studenttrue 
+% \studentfalse
+
+\def\texbp{5} % bonus for typing in latex
+\def\hwnum{3} %
+\def\issuedate{01/19/21} % 
+\def\duedate{01/26/21} % 
+\def\yourname{your name} % type your name here
+
+%------------------------------%
+\ifstudent
+\hw{\hwnum}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{\hwnum}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+
+\noindent \textbf{Instructions.} This problem set contains \numpages\
+pages (including this cover page) and \numquestions\ questions. A
+random subset of problems will be graded.
+
+\begin{itemize}
+\item Your solutions will be graded on \emph{correctness} and
+  \emph{clarity}. You should only submit work that you believe to be
+  correct, and you will get significantly more partial credit if you
+  clearly identify the gap(s) in your solution. It is good practice to
+  start any long solution with an informal (but accurate) summary that
+  describes the main idea. You may opt for the ``I take 15\%'' option.
+
+\item You need to submit a PDF file before the deadline. Either a
+  clear scan of you handwriting or a typeset document is accepted. You
+  will get $\texbp$ bonus points for typing in LaTeX (Download and use
+  the accompany TeX file).
+
+\item You may collaborate with others on this problem set.  However,
+  you must \textbf{{write up your own solutions}} and \textbf{{list
+      your collaborators and any external sources}} for each
+  problem. Be ready to explain your solutions orally to a course staff
+  if asked.
+
+\item For problems that require you to provide an algorithm, you must
+  give a precise description of the algorithm, together with a proof
+  of correctness and an analysis of its running time. You may use
+  algorithms from class as subroutines. You may also use any facts
+  that we proved in class or from the book.
+
+\end{itemize}
+
+\newpage
+
+\begin{questions}
+
+  \question (Sumerians' multiplication algorithm) The clay tablets
+  discovered in Sumer led some scholars to conjecture that ancient
+  Sumerians performed multiplication by reduction to \emph{squaring},
+  using an identity like \[x\cdot y = (x^2 + y^2 - (x - y)^2)/2 \, .\]
+  In this problem, we will investigate how to actually square large
+  numbers.
+
+  \begin{parts}
+    \part[10] Describe a variant of Karatsuba’s algorithm that squares
+    any $n$-digit number in $O(n^{\log 3})$ time, by reducing to
+    squaring three $\lceil n/2 \rceil$-digit numbers. (Karatsuba
+    actually did this in 1960.)
+
+    \part[10] Describe a recursive algorithm that squares any $n$-digit
+    number in $O(n^{\log_3{6}})$ time, by reducing to squaring six
+    $\lceil n/3 \rceil$-digit numbers.
+
+    \bonuspart[10] Describe a recursive algorithm that squares any
+    $n$-digit number in $O(n^{log_3{5}})$ time, by reducing to
+    squaring only five $(n/3 + O(1))$-digit numbers. [Hint: What is
+    $(a + b + c)^2 + (a- b + c)^2$?]
+    \end{parts}
+    % \begin{solution}
+    %   uncomment the environment and write your solution here
+    % \end{solution}
+
+  \newpage 
+  
+  \question[10] (Cycles) Give an algorithm to detect whether a given
+  undirected graph contains a cycle. If the graph contains a cycle,
+  then your algorithm should output one (not all cycles, just one of
+  them). The running time of your algorithm should be $O(m + n)$ for a
+  graph with $n$ nodes and $m$ edges.
+
+
+  \newpage
+\question An \emph{Euler tour} of a strongly connected, directed graph
+  $G = (V, E)$ is a cycle that traverses each \emph{edge} of $G$
+  exactly once, although it may visit a vertex more than once.
+
+  \begin{parts}
+  \part[10] Show that $G$ has an Euler tour if and only if
+    $\text{in-degree}(v) = \text{out-degree}(v)$ for each vertex 
+    $v \in V$.
+  \part[10] Describe an $O(|E|)$-time algorithm to find an Euler tour
+    of $G$ if one exists.
+  \end{parts}
+
+\end{questions}
+
+
+\end{document}
