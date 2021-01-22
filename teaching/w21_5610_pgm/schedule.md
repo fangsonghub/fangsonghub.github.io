@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 courseid: w21 510/610
 desc: Schedule
 permalink: /teaching/w21_5610_pgm/schedule/
-modified: <2020-01-19 Tue>
+modified: <2020-01-21 Thu>
 ---
 
 * Table of Contents
@@ -24,12 +24,12 @@ modified: <2020-01-19 Tue>
 |2| T,01/12 |  Representation: Bayesian networks <br> [Recording](https://pdx.zoom.us/rec/share/7gMJi75YUEv1VfmNPLmAoDwI4xrc_rLdbV7LlnnROIDGouhH4e1K0Q0WBmCoCE5u.bf61YsI3rH51VHET){:target="_blank"} | KF 3 <br> MJ 2.1 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} | 
 || Th,01/14 | Bayesian networks cont'd <br> [Recording](https://pdx.zoom.us/rec/share/HJDSO8tAXOZRAD56BCzwMFtxKXP2w8Vii6Az8cv97o5iYTI0s6f64_WqaTeyFUxm.q9ryZ9DNur_09wlO){:target="_blank"} | KF 3 <br> MJ 2.1 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} | 
 |3| T,01/19| Undirected models <br> [Recording](https://pdx.zoom.us/rec/share/H1eyFm_apSCwb-TAu5bKaHJkaJlDStH9oyL_SXASIFHHMM75gAygBf5PsPUFAUd1.APk5QM35bFxOuE3Q){:target="_blank"}  | KF 4 <br> MJ 2.2 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} |
-|| Th,01/21 | Undirected models cont'd <br> Exact Inference <br> [Recording](){:target="_blank"} | KF 9 <br> MJ 3 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter3.pdf){:target="_blank"} |
+|| Th,01/21 | Undirected models cont'd <br> Exact Inference <br> [Recording](https://pdx.zoom.us/rec/share/P8hIMl1GDQGEjPLU2fztyc0VzbkLisFPPkUcNDXz54rUtcIrtLyP6Q6xh5_-tadF.qHTji6plKqvwqyEe){:target="_blank"} | KF 9 <br> MJ 3 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter3.pdf){:target="_blank"} |
+|4| T,01/26 | Exact Inference cont'd <br> Message passing [Recording](){:target="_blank"} | KF 9,10.2 <br> MJ 3 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter3.pdf){:target="_blank"} <br> |
+|| Th,01/28 | Belief propagation  <br> [Recording](){:target="_blank"} | KF 11.2 <br> S228 [note](https://ermongroup.github.io/cs228-notes/inference/jt/){:target="_blank"}|
 {:.mbtablestylef}
 
 {% comment %}
-|4| T,01/26 | Weighted interval scheduling <br> Longest common subsequence <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec7.pdf){:target="_blank"} |  KT 6.1 [PDF]({{base}}/teaching/w21_5684_alg/weighted_interval_scheduling.pdf){:target="_blank"} <br>  CLRS 15.4|
-|| Th,01/28 | Bellman-Ford: shortest path <br> Review <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec8.pdf){:target="_blank"} |CLRS 24.1,24.2 |
 |5| T,02/02| Recitation by TA | |
 || Th,02/04 | Dijkstra's algorithm <br> Greedy algorithm <br> Interval schedule/partition <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec10.pdf){:target="_blank"} |  CLRS 24.3,16.1,16.2 |
 |6| T,02/09| Minimum Spanning Trees <br> Slides: [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec11.pdf){:target="_blank"}| CLRS 23,6|
