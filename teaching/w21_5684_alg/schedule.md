@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 desc: Schedule
 courseid: w21 584/684
 permalink: /teaching/w21_5684_alg/schedule/
-modified: <2020-01-19 Tue>
+modified: <2020-01-21 Thu>
 ---
 * Table of Contents
 {:toc}
@@ -23,7 +23,7 @@ modified: <2020-01-19 Tue>
 |2| T,01/12 | Recurrence <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec3.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/F3BB9X-_8e8Nb1X6gwXp52848ucBV9GBFOpWqMMx_7uvngpCUJYR_n3YTeRvLe4F.bMDf995G0n5-md3M){:target="_blank"} | CLRS 4.3-4.5| 
 || Th,01/14 | Elementary graph algorithms <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec4.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/fWIA_ox4Ubw_EPUx9xQNsOXXNZqdFBWStiaslbGcsyw_RAXv27jvVQ-7AbF1ZUFf.EY-EX-4ZbDHzcQPh){:target="_blank"}| CLRS 22.1,22.3,10.1|
 |3| T,01/19| Connected components <br> DAG and topological sort <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec5.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/ypJWLCayEmwZ7nP3ZGascnqY-YKjQQ-bAaXcTX4A5RG0O9535lC7ehQ_uaWUJnSH.49ov6BFMskrenn_9){:target="_blank"} | CLRS 22.4,22.5 |
-|| Th,01/21 |  Shortest/longest path in DAGs <br> Dynamic programming <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec6.pdf){:target="_blank"} | CLRS 15.3 <br> DPV 6.2 [PDF]({{base}}/teaching/w21_5684_alg/longest_inc_seq.pdf){:target="_blank"} |
+|| Th,01/21 |  Shortest/longest path in DAGs <br> Dynamic programming <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec6.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/aK9bYlcit6IWWJSN-9_1ANqIPubypCMJJcQ2q9ott5HVUH8kYgx2GZhWQOdVYvgn.NDAwjA-4blxldtjq)| CLRS 15.3 <br> DPV 6.2 [PDF]({{base}}/teaching/w21_5684_alg/longest_inc_seq.pdf){:target="_blank"} |
 |4| T,01/26 | Weighted interval scheduling <br> Longest common subsequence <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec7.pdf){:target="_blank"} |  KT 6.1 [PDF]({{base}}/teaching/w21_5684_alg/weighted_interval_scheduling.pdf){:target="_blank"} <br>  CLRS 15.4|
 || Th,01/28 |Recitation by TA| |
 |5| T,02/02|   Bellman-Ford: shortest path <br> Review <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec9.pdf){:target="_blank"} |CLRS 24.1,24.2|
