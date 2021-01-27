@@ -25,7 +25,7 @@ modified: <2020-01-21 Thu>
 || Th,01/14 | Bayesian networks cont'd <br> [Recording](https://pdx.zoom.us/rec/share/HJDSO8tAXOZRAD56BCzwMFtxKXP2w8Vii6Az8cv97o5iYTI0s6f64_WqaTeyFUxm.q9ryZ9DNur_09wlO){:target="_blank"} | KF 3 <br> MJ 2.1 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} | 
 |3| T,01/19| Undirected models <br> [Recording](https://pdx.zoom.us/rec/share/H1eyFm_apSCwb-TAu5bKaHJkaJlDStH9oyL_SXASIFHHMM75gAygBf5PsPUFAUd1.APk5QM35bFxOuE3Q){:target="_blank"}  | KF 4 <br> MJ 2.2 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} |
 || Th,01/21 | Undirected models cont'd <br> Exact Inference <br> [Recording](https://pdx.zoom.us/rec/share/P8hIMl1GDQGEjPLU2fztyc0VzbkLisFPPkUcNDXz54rUtcIrtLyP6Q6xh5_-tadF.qHTji6plKqvwqyEe){:target="_blank"} | KF 9 <br> MJ 3 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter3.pdf){:target="_blank"} |
-|4| T,01/26 | Exact Inference cont'd <br> Message passing [Recording](){:target="_blank"} | KF 9,10.2 <br> MJ 3 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter3.pdf){:target="_blank"} <br> |
+|4| T,01/26 | Exact Inference cont'd <br> Graph elimination [Recording](https://pdx.zoom.us/rec/share/bvxOcWx5wnrheszQTWvVcnLnCqtHpY2nnZ6TkXGe1Dli7rEl3x4R-dR8KAMmgiAZ.qTJpAp9hNnM6rYgT){:target="_blank"} | KF 9,10.2 <br> MJ 3 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter3.pdf){:target="_blank"} <br> |
 || Th,01/28 | Belief propagation  <br> [Recording](){:target="_blank"} | KF 11.2 <br> S228 [note](https://ermongroup.github.io/cs228-notes/inference/jt/){:target="_blank"}|
 {:.mbtablestylef}
 
