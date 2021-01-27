@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 desc: Schedule
 courseid: w21 584/684
 permalink: /teaching/w21_5684_alg/schedule/
-modified: <2020-01-21 Thu>
+modified: <2020-01-26 Tue>
 ---
 * Table of Contents
 {:toc}
@@ -24,9 +24,9 @@ modified: <2020-01-21 Thu>
 || Th,01/14 | Elementary graph algorithms <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec4.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/fWIA_ox4Ubw_EPUx9xQNsOXXNZqdFBWStiaslbGcsyw_RAXv27jvVQ-7AbF1ZUFf.EY-EX-4ZbDHzcQPh){:target="_blank"}| CLRS 22.1,22.3,10.1|
 |3| T,01/19| Connected components <br> DAG and topological sort <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec5.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/ypJWLCayEmwZ7nP3ZGascnqY-YKjQQ-bAaXcTX4A5RG0O9535lC7ehQ_uaWUJnSH.49ov6BFMskrenn_9){:target="_blank"} | CLRS 22.4,22.5 |
 || Th,01/21 |  Shortest/longest path in DAGs <br> Dynamic programming <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec6.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/aK9bYlcit6IWWJSN-9_1ANqIPubypCMJJcQ2q9ott5HVUH8kYgx2GZhWQOdVYvgn.NDAwjA-4blxldtjq)| CLRS 15.3 <br> DPV 6.2 [PDF]({{base}}/teaching/w21_5684_alg/longest_inc_seq.pdf){:target="_blank"} |
-|4| T,01/26 | Weighted interval scheduling <br> Longest common subsequence <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec7.pdf){:target="_blank"} |  KT 6.1 [PDF]({{base}}/teaching/w21_5684_alg/weighted_interval_scheduling.pdf){:target="_blank"} <br>  CLRS 15.4|
+|4| T,01/26 | Fibonacci sequence <br> Weighted interval scheduling <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec7.pdf){:target="_blank"} |  KT 6.1 [PDF]({{base}}/teaching/w21_5684_alg/weighted_interval_scheduling.pdf){:target="_blank"} <br>  CLRS 15.4|
 || Th,01/28 |Recitation by TA| |
-|5| T,02/02|   Bellman-Ford: shortest path <br> Review <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec9.pdf){:target="_blank"} |CLRS 24.1,24.2|
+|5| T,02/02|  Longest common subsequence <br>  Bellman-Ford: shortest path <br> Review <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec9.pdf){:target="_blank"} |CLRS 24.1,24.2|
 || Th,02/04 | Dijkstra's algorithm <br> Greedy algorithm <br> Interval schedule/partition <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec10.pdf){:target="_blank"} |  CLRS 24.3,16.1,16.2 |
 |6| T,02/09| Minimum Spanning Trees <br> Slides: [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec11.pdf){:target="_blank"}| CLRS 23,6|
 ||Th,02/11 | Amortized analysis & Midterm review <br> [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec12.pdf){:target="_blank"} | CLRS 21.1,21.2 |
