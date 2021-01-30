@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 desc: Schedule
 courseid: w21 584/684
 permalink: /teaching/w21_5684_alg/schedule/
-modified: <2020-01-26 Tue>
+modified: <2020-01-28 Thu>
 ---
 * Table of Contents
 {:toc}
@@ -25,7 +25,7 @@ modified: <2020-01-26 Tue>
 |3| T,01/19| Connected components <br> DAG and topological sort <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec5.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/ypJWLCayEmwZ7nP3ZGascnqY-YKjQQ-bAaXcTX4A5RG0O9535lC7ehQ_uaWUJnSH.49ov6BFMskrenn_9){:target="_blank"} | CLRS 22.4,22.5 |
 || Th,01/21 |  Shortest/longest path in DAGs <br> Dynamic programming <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec6.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/aK9bYlcit6IWWJSN-9_1ANqIPubypCMJJcQ2q9ott5HVUH8kYgx2GZhWQOdVYvgn.NDAwjA-4blxldtjq)| CLRS 15.3 <br> DPV 6.2 [PDF]({{base}}/teaching/w21_5684_alg/longest_inc_seq.pdf){:target="_blank"} |
 |4| T,01/26 | Fibonacci sequence <br> Weighted interval scheduling <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec7.pdf){:target="_blank"} Recording [I](https://pdx.zoom.us/rec/share/qYuWeKIrSEMd7caxc5kE5WRfwjvYqa6x0pixMluoNbnVEvBqig8LSictQ0KYisP-.59MZHmMpiPkEqCnx) [II](https://pdx.zoom.us/rec/share/0KoV_K_Y2wi-xU4Dw4HfcBB4M-18FGGbRwMOTjkMqAOPxg-FkZZQQWvwVm0fRXFp.ukpVY_Lr15yyNLrq) |  KT 6.1 [PDF]({{base}}/teaching/w21_5684_alg/weighted_interval_scheduling.pdf){:target="_blank"} <br>  CLRS 15.4|
-|| Th,01/28 | Longest common subsequence <br>  Bellman-Ford: shortest path <br> Review <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec8.pdf){:target="_blank"} |CLRS 24.1,24.2|
+|| Th,01/28 | Longest common subsequence <br>  Bellman-Ford: shortest path <br> Review <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec8.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/erjI9KS5pUkys4yTMuxUhSKP8VtRqoSFhMj7QsNkpM9OIbHZ39KUMBi9XdQbisFE.zhvNKWRa6KK-ktQJ) |CLRS 24.1,24.2|
 |5| T,02/02| Recitation by TA| |
 || Th,02/04 | Dijkstra's algorithm <br> Greedy algorithm <br> Interval schedule/partition <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec10.pdf){:target="_blank"} |  CLRS 24.3,16.1,16.2 |
 |6| T,02/09| Minimum Spanning Trees <br> Slides: [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec11.pdf){:target="_blank"}| CLRS 23,6|
