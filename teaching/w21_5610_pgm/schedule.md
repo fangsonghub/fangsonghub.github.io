@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 courseid: w21 510/610
 desc: Schedule
 permalink: /teaching/w21_5610_pgm/schedule/
-modified: <2020-01-21 Thu>
+modified: <2020-01-30 Sat>
 ---
 
 * Table of Contents
@@ -26,12 +26,12 @@ modified: <2020-01-21 Thu>
 |3| T,01/19| Undirected models <br> [Recording](https://pdx.zoom.us/rec/share/H1eyFm_apSCwb-TAu5bKaHJkaJlDStH9oyL_SXASIFHHMM75gAygBf5PsPUFAUd1.APk5QM35bFxOuE3Q){:target="_blank"}  | KF 4 <br> MJ 2.2 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} |
 || Th,01/21 | Undirected models cont'd <br> Exact Inference <br> [Recording](https://pdx.zoom.us/rec/share/P8hIMl1GDQGEjPLU2fztyc0VzbkLisFPPkUcNDXz54rUtcIrtLyP6Q6xh5_-tadF.qHTji6plKqvwqyEe){:target="_blank"} | KF 9 <br> MJ 3 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter3.pdf){:target="_blank"} |
 |4| T,01/26 | Exact Inference cont'd <br> Graph elimination [Recording](https://pdx.zoom.us/rec/share/bvxOcWx5wnrheszQTWvVcnLnCqtHpY2nnZ6TkXGe1Dli7rEl3x4R-dR8KAMmgiAZ.qTJpAp9hNnM6rYgT){:target="_blank"} | KF 9,10.2 <br> MJ 3 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter3.pdf){:target="_blank"} <br> |
-|| Th,01/28 | Belief propagation  <br> [Recording](){:target="_blank"} | KF 11.2 <br> S228 [note](https://ermongroup.github.io/cs228-notes/inference/jt/){:target="_blank"}|
+|| Th,01/28 | Belief propagation  <br> [Recording](https://pdx.zoom.us/rec/share/F8taxxshuz-_wHJ6eCkkYZ38cp2cxawov-FLQwlo-xokMmCGy6meVHH1AISkr0kj.9hqxyiYq0dXVuu5p){:target="_blank"} | KF 11.2 <br> S228 [note](https://ermongroup.github.io/cs228-notes/inference/jt/){:target="_blank"}|
+|5| T,02/02 |  [Recording](){:target="_blank"} | KF 9,10.2 <br> MJ 3 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter3.pdf){:target="_blank"} <br> |
+|| Th,02/04 |  <br> [Recording](https://pdx.zoom.us/rec/share/F8taxxshuz-_wHJ6eCkkYZ38cp2cxawov-FLQwlo-xokMmCGy6meVHH1AISkr0kj.9hqxyiYq0dXVuu5p){:target="_blank"} | KF 11.2 <br> S228 [note](https://ermongroup.github.io/cs228-notes/inference/jt/){:target="_blank"}|
 {:.mbtablestylef}
 
 {% comment %}
-|5| T,02/02| Recitation by TA | |
-|| Th,02/04 | Dijkstra's algorithm <br> Greedy algorithm <br> Interval schedule/partition <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec10.pdf){:target="_blank"} |  CLRS 24.3,16.1,16.2 |
 |6| T,02/09| Minimum Spanning Trees <br> Slides: [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec11.pdf){:target="_blank"}| CLRS 23,6|
 ||Th,02/11 | Amortized analysis & Midterm review <br> [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec12.pdf){:target="_blank"} | CLRS 21.1,21.2 |
 |7| T,02/16 | Network flow <br> Max-flow min-cut theorem <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec13.pdf){:target="_blank"} | CLRS 26.1,26.2 |
