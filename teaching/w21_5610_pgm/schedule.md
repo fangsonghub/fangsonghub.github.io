@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 courseid: w21 510/610
 desc: Schedule
 permalink: /teaching/w21_5610_pgm/schedule/
-modified: <2020-01-30 Sat>
+modified: <2020-02-02 Tue>
 ---
 
 * Table of Contents
@@ -26,9 +26,9 @@ modified: <2020-01-30 Sat>
 |3| T,01/19| Undirected models <br> [Recording](https://pdx.zoom.us/rec/share/H1eyFm_apSCwb-TAu5bKaHJkaJlDStH9oyL_SXASIFHHMM75gAygBf5PsPUFAUd1.APk5QM35bFxOuE3Q){:target="_blank"}  | KF 4 <br> MJ 2.2 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} |
 || Th,01/21 | Undirected models cont'd <br> Exact Inference <br> [Recording](https://pdx.zoom.us/rec/share/P8hIMl1GDQGEjPLU2fztyc0VzbkLisFPPkUcNDXz54rUtcIrtLyP6Q6xh5_-tadF.qHTji6plKqvwqyEe){:target="_blank"} | KF 9 <br> MJ 3 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter3.pdf){:target="_blank"} |
 |4| T,01/26 | Exact Inference cont'd <br> Graph elimination [Recording](https://pdx.zoom.us/rec/share/bvxOcWx5wnrheszQTWvVcnLnCqtHpY2nnZ6TkXGe1Dli7rEl3x4R-dR8KAMmgiAZ.qTJpAp9hNnM6rYgT){:target="_blank"} | KF 9,10.2 <br> MJ 3 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter3.pdf){:target="_blank"} <br> |
-|| Th,01/28 | Belief propagation  <br> [Recording](https://pdx.zoom.us/rec/share/F8taxxshuz-_wHJ6eCkkYZ38cp2cxawov-FLQwlo-xokMmCGy6meVHH1AISkr0kj.9hqxyiYq0dXVuu5p){:target="_blank"} | KF 11.2 <br> S228 [note](https://ermongroup.github.io/cs228-notes/inference/jt/){:target="_blank"}|
-|5| T,02/02 |  [Recording](){:target="_blank"} | KF 9,10.2 <br> MJ 3 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter3.pdf){:target="_blank"} <br> |
-|| Th,02/04 |  <br> [Recording](https://pdx.zoom.us/rec/share/F8taxxshuz-_wHJ6eCkkYZ38cp2cxawov-FLQwlo-xokMmCGy6meVHH1AISkr0kj.9hqxyiYq0dXVuu5p){:target="_blank"} | KF 11.2 <br> S228 [note](https://ermongroup.github.io/cs228-notes/inference/jt/){:target="_blank"}|
+|| Th,01/28 | Belief propagation  <br> [Recording](https://pdx.zoom.us/rec/share/F8taxxshuz-_wHJ6eCkkYZ38cp2cxawov-FLQwlo-xokMmCGy6meVHH1AISkr0kj.9hqxyiYq0dXVuu5p){:target="_blank"} | KF 10.2 <br> S228 [note](https://ermongroup.github.io/cs228-notes/inference/jt/){:target="_blank"}|
+|5| T,02/02 | Inference by sampling [Recording](){:target="_blank"} | KF 12.1-2 <br> MacKay 29.1-3 [PDF](http://www.inference.phy.cam.ac.uk/itprnn/book.pdf#page=368){:target="_blank"} <br> Notes on Tail bounds [I](https://cs-people.bu.edu/sofya/cs537/Slides/CS537-Lec9.pdf) [II](https://cs-people.bu.edu/sofya/cs537/Slides/CS537-Lec10.pdf) |
+|| Th,02/04 | Monte Carlo methods <br> Markov Chain Monte Carlo <br> [Recording](https://pdx.zoom.us/rec/share/F8taxxshuz-_wHJ6eCkkYZ38cp2cxawov-FLQwlo-xokMmCGy6meVHH1AISkr0kj.9hqxyiYq0dXVuu5p){:target="_blank"} | KF 12.3 <br> MacKay 29.4-6 [PDF](http://www.inference.phy.cam.ac.uk/itprnn/book.pdf#page=368){:target="_blank"} S228 [note](https://ermongroup.github.io/cs228-notes/inference/sampling/){:target="_blank"}|
 {:.mbtablestylef}
 
 {% comment %}
