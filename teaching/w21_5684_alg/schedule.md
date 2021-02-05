@@ -27,9 +27,9 @@ modified: <2020-02-03 Wed>
 |4| T,01/26 | Fibonacci sequence <br> Weighted interval scheduling <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec7.pdf){:target="_blank"} Recording [I](https://pdx.zoom.us/rec/share/qYuWeKIrSEMd7caxc5kE5WRfwjvYqa6x0pixMluoNbnVEvBqig8LSictQ0KYisP-.59MZHmMpiPkEqCnx) [II](https://pdx.zoom.us/rec/share/0KoV_K_Y2wi-xU4Dw4HfcBB4M-18FGGbRwMOTjkMqAOPxg-FkZZQQWvwVm0fRXFp.ukpVY_Lr15yyNLrq) |  KT 6.1 [PDF]({{base}}/teaching/w21_5684_alg/weighted_interval_scheduling.pdf){:target="_blank"} <br>  CLRS 15.4|
 || Th,01/28 | Longest common subsequence <br>  Bellman-Ford: shortest path  <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec8.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/erjI9KS5pUkys4yTMuxUhSKP8VtRqoSFhMj7QsNkpM9OIbHZ39KUMBi9XdQbisFE.zhvNKWRa6KK-ktQJ) |CLRS 24.1,24.2|
 |5| T,02/02| Recitation by TA <br> [Recording](https://pdx.zoom.us/rec/share/NcFjaTmUP_5uOelYlbAWlUHauF3xF4q4ZId1dvWE3AsYCDDFqtec8lWgAqmWycBs.0N9GeHewIrSvqLqn) | |
-|| Th,02/04 | Bellman-Ford cont'd <br> Dijkstra's algorithm <br> Interval schedule/partition <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec10.pdf){:target="_blank"} |  CLRS 24.3,16.1,16.2 |
-|6| T,02/09| Minimum Spanning Trees <br> Slides: [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec11.pdf){:target="_blank"}| CLRS 23,6|
-||Th,02/11 | Amortized analysis & Midterm review <br> [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec12.pdf){:target="_blank"} | CLRS 21.1,21.2 |
+|| Th,02/04 | Bellman-Ford cont'd <br> Dijkstra's algorithm <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec10.pdf){:target="_blank"} |  CLRS 24.3,16.1,16.2 |
+|6| T,02/09| Interval schedule/partition <br> Minimum Spanning Trees <br> Slides: [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec11.pdf){:target="_blank"}| CLRS 23,6|
+||Th,02/11 | Amortized analysis <br> [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec12.pdf){:target="_blank"} | CLRS 21.1,21.2 |
 |7| T,02/16 | Network flow <br> Max-flow min-cut theorem <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec13.pdf){:target="_blank"} | CLRS 26.1,26.2 |
 || Th,02/18 | Ford-Fulkerson algorithm <br> Bipartite matching <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec14.pdf){:target="_blank"} | CLRS 26.2,26.3 |
 |8| T,02/23 | Linear programming <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec15.pdf){:target="_blank"} | CLRS 29 |
