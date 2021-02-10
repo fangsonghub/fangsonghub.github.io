@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 desc: Schedule
 courseid: w21 584/684
 permalink: /teaching/w21_5684_alg/schedule/
-modified: <2020-02-07 Sun>
+modified: <2020-02-09 Tue>
 ---
 * Table of Contents
 {:toc}
@@ -28,8 +28,8 @@ modified: <2020-02-07 Sun>
 || Th,01/28 | Longest common subsequence <br>  Bellman-Ford: shortest path  <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec8.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/erjI9KS5pUkys4yTMuxUhSKP8VtRqoSFhMj7QsNkpM9OIbHZ39KUMBi9XdQbisFE.zhvNKWRa6KK-ktQJ) |CLRS 24.1,24.2|
 |5| T,02/02| Recitation by TA <br> [Recording](https://pdx.zoom.us/rec/share/NcFjaTmUP_5uOelYlbAWlUHauF3xF4q4ZId1dvWE3AsYCDDFqtec8lWgAqmWycBs.0N9GeHewIrSvqLqn) | |
 || Th,02/04 | Bellman-Ford cont'd <br> Dijkstra's algorithm <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec10.pdf){:target="_blank"}  [Recording](https://pdx.zoom.us/rec/share/G6U9iHquO6ALtkI2UNZHmhVAItBYOb5LWCSOBjqCTlix6rKysER2HPCq4wgroUQs.fSyVbIpTxasJCBMp)|  CLRS 24.3,16.1,16.2 |
-|6| T,02/09| Interval schedule/partition <br> Minimum Spanning Trees <br> Slides: [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec11.pdf){:target="_blank"}| CLRS 23,6|
-||Th,02/11 | Amortized analysis <br> [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec12.pdf){:target="_blank"} | CLRS 21.1,21.2 |
+|6| T,02/09| Interval schedule/partition <br> Minimum Spanning Trees <br> Slides: [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec11.pdf){:target="_blank"} [Recording]() | CLRS 23,6|
+||Th,02/11 | Amortized analysis <br> [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec12.pdf){:target="_blank"} [Recording]()| CLRS 21.1,21.2 |
 |7| T,02/16 | Network flow <br> Max-flow min-cut theorem <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec13.pdf){:target="_blank"} | CLRS 26.1,26.2 |
 || Th,02/18 | Ford-Fulkerson algorithm <br> Bipartite matching <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec14.pdf){:target="_blank"} | CLRS 26.2,26.3 |
 |8| T,02/23 | Linear programming <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec15.pdf){:target="_blank"} | CLRS 29 |
@@ -44,7 +44,9 @@ modified: <2020-02-07 Sun>
 ## Assignments
 
 Earn extra credit by typing in LaTeX. See [Resource]({{base}}/teaching/w21_5684_alg/resource/) for LaTeX tutorials. Submit on [Google Classroom](https://classroom.google.com/c/MjU0NTY2NTg5OTMy?cjc=5hgfg2p){:target="_blank"} (Class code: **5hgfg2p**).
-
+*  Homework 5
+   [[PDF]({{base}}/teaching/w21_5684_alg/w21_5684_hw5.pdf){:target="_blank"},[TEX]({{base}}/teaching/w21_5684_alg/w21_5684_hw5.tex){:target="_blank"}],
+   due 4:40pm, 02/16/21. 
 *  Mid-term exam (take-home). Find on Google Classroom. No HW in Week 5. 
 *  Homework 4
    [[PDF]({{base}}/teaching/w21_5684_alg/w21_5684_hw4.pdf){:target="_blank"},[TEX]({{base}}/teaching/w21_5684_alg/w21_5684_hw4.tex){:target="_blank"}],
