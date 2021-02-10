@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 courseid: w21 510/610
 desc: Schedule
 permalink: /teaching/w21_5610_pgm/schedule/
-modified: <2020-02-07 Sun>
+modified: <2020-02-00 Tue>
 ---
 
 * Table of Contents
@@ -29,14 +29,12 @@ modified: <2020-02-07 Sun>
 || Th,01/28 | Belief propagation  <br> [Recording](https://pdx.zoom.us/rec/share/F8taxxshuz-_wHJ6eCkkYZ38cp2cxawov-FLQwlo-xokMmCGy6meVHH1AISkr0kj.9hqxyiYq0dXVuu5p){:target="_blank"} | KF 10.2 <br> S228 [note](https://ermongroup.github.io/cs228-notes/inference/jt/){:target="_blank"}|
 |5| T,02/02 | Inference by sampling [Recording](https://pdx.zoom.us/rec/share/6e3YhMI0AFMDC7PAYAv9vSzA-BOMP4r9Pax6FUoeGJDc-oCEG-QSudRbCNuyD5FB.5mxctYTvGTXGb3sq){:target="_blank"} | KF 12.1-2 <br> MacKay 29.1-3 [PDF](http://www.inference.phy.cam.ac.uk/itprnn/book.pdf#page=368){:target="_blank"} <br> Notes on Tail bounds [I](https://cs-people.bu.edu/sofya/cs537/Slides/CS537-Lec9.pdf) [II](https://cs-people.bu.edu/sofya/cs537/Slides/CS537-Lec10.pdf) |
 || Th,02/04 | Monte Carlo methods <br> Markov Chain Monte Carlo <br> [Recording](https://pdx.zoom.us/rec/share/lWL-kv8lHLkAr-zmovy0yR8T675snbjRuD2cEzm0gtwJUCiveRg4lDhqxhgg2zXL.NtVdAfMvxn8kA8uq){:target="_blank"} | KF 12.3 <br> MacKay 29.4-6 [PDF](http://www.inference.phy.cam.ac.uk/itprnn/book.pdf#page=368){:target="_blank"} S228 [note](https://ermongroup.github.io/cs228-notes/inference/sampling/){:target="_blank"}|
-|6| T,02/09| MCMC, cont'd <br> [Recording](){:target="_blank"}| KF 12.3 <br> S228 [note](https://ermongroup.github.io/cs228-notes/inference/sampling/){:target="_blank"} <br> Note on MC Chapter 6 [PDF](https://www.cs.princeton.edu/~arora/pubs/toolkit.pdf){:target="_blank"} |
+|6| T,02/09| MCMC, cont'd <br> [Recording](https://pdx.zoom.us/rec/share/gJ2FbgXR4ClTZ-GSazxXFKZMDAGwOLa06ZLc-qJ15jB3YmIL-Uc4pLo5CH-qsptT.mifM6rwbZP2X49pg){:target="_blank"}| KF 12.3 <br> S228 [note](https://ermongroup.github.io/cs228-notes/inference/sampling/){:target="_blank"} <br> Note on MC Chapter 6 [PDF](https://www.cs.princeton.edu/~arora/pubs/toolkit.pdf){:target="_blank"} |
 ||Th,02/11| Variational inference <br> [Recording](){:target="_blank"} | KF 11 <br> Tutorial at NeurIPS'16 [PDF](https://media.nips.cc/Conferences/2016/Slides/6199-Slides.pdf){:target="_blank"} |
 
 {:.mbtablestylef}
 
 {% comment %}
-|6| T,02/09| Minimum Spanning Trees <br> Slides: [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec11.pdf){:target="_blank"}| CLRS 23,6|
-||Th,02/11 | Amortized analysis & Midterm review <br> [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec12.pdf){:target="_blank"} | CLRS 21.1,21.2 |
 |7| T,02/16 | Network flow <br> Max-flow min-cut theorem <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec13.pdf){:target="_blank"} | CLRS 26.1,26.2 |
 || Th,02/18 | Ford-Fulkerson algorithm <br> Bipartite matching <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec14.pdf){:target="_blank"} | CLRS 26.2,26.3 |
 |8| T,02/23 | Linear programming <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec15.pdf){:target="_blank"} | CLRS 29 |
@@ -50,6 +48,9 @@ modified: <2020-02-07 Sun>
 ## Assignments
 
 Earn extra credit by typing in LaTeX. See [Resource]({{base}}/teaching/w21_5864_alg/resource/) for LaTeX tutorials. Submit on [Google Classroom](https://classroom.google.com/c/MjU1MTE1MjU4MDI3?cjc=ncoc6b2){:target="_blank"} (Classcode: ncoc6b2).
+*  Homework 2
+   [[PDF]({{base}}/teaching/w21_5610_pgm/w21_pgm_hw2.pdf){:target="_blank"},[TEX]({{base}}/teaching/w21_5610_alg/w21_pgm_hw2.tex){:target="_blank"}],
+   due 12pm, 02/25/2021. 
 *  Homework 1
    [[PDF]({{base}}/teaching/w21_5610_pgm/w21_pgm_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/w21_5610_alg/w21_pgm_hw1.tex){:target="_blank"}],
    due 12pm, 01/28/2021. 

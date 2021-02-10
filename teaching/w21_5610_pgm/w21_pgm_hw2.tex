@@ -1,0 +1,281 @@
+% Instructions: you don't need to change anything in the macros, but
+% feel free to define new commands as you wish. Starting from the main
+% body, change the specs (e.g., your
+% name). use \begin{solution} \end{solution} environment to write your
+% solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+\usepackage{tikz,smartdiagram}
+\usetikzlibrary{matrix}
+%----------Header--------------------%
+\def\course{CS 510/610 Topics on probabilistic graphical models}
+\def\term{Portland State U, Winter 2021}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill \textbf{#5}  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\veps{\varepsilon}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\corr}[1]{{\color{blue}{#1}}}
+\newcommand{\alg}[1]{\textsf{#1}}
+\newcommand{\expt}{\mathbb{E}}
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+ \studenttrue 
+% \studentfalse
+
+\def\texbp{5} % bonus for typing in latex
+\def\hwnum{2} %
+\def\issuedate{02/09/21} % 
+\def\duedate{02/25/21} % 
+\def\yourname{your name} % type your name here
+
+%------------------------------%
+\ifstudent
+\hw{\hwnum}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{\hwnum}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+
+\noindent \textbf{Instructions.} This problem set contains \numpages\
+pages (including this cover page) and \numquestions\ questions. A
+random subset of problems will be graded.
+
+\begin{itemize}
+\item Your solutions will be graded on \emph{correctness} and
+  \emph{clarity}. You should only submit work that you believe to be
+  correct, and you will get significantly more partial credit if you
+  clearly identify the gap(s) in your solution. It is good practice to
+  start any long solution with an informal (but accurate) summary that
+  describes the main idea. You may opt for the ``I take 15\%'' option.
+
+\item You need to submit a PDF file before the deadline. Either a
+  clear scan of you handwriting or a typeset document is accepted. You
+  will get $\texbp$ bonus points for typing in LaTeX (Download and use
+  the accompany TeX file).
+
+\item You may collaborate with others on this problem set.  However,
+  you must \textbf{{write up your own solutions}} and \textbf{{list
+      your collaborators and any external sources}} for each
+  problem. Be ready to explain your solutions orally to a course staff
+  if asked.
+
+\end{itemize}
+
+\newpage
+
+\begin{questions}
+
+\question (Normalized importance sampling) A common situation in
+  real-world applications is that we only know a probability up to a
+  normalizing constant $Z$. Namely, we can only compute an
+  unnormalized distribution $\tilde p(X)$ of $p(X)$ such that
+  $\tilde p(X) = Zp(X)$. In this case, if we run importance sampling
+  with a proposal distribution $q$, we can only compute the weight
+  function with respect to $\tilde p$:
+  \[w(X) = \frac{\tilde p(X)}{q(X)}\, .\]
+
+  \begin{parts}
+  \part[5] Show that $\expt_{q}[w(X)] = Z$.
+     \newpage
+   \part[5] Let $f$ be an arbitrary function on $\text{Val}(X)$. Show
+     that
+     \[ \expt_{p}(f(X)) = \frac{\expt_{q}[f(X)w(X)]}{\expt_q[w(x)]} \,
+       . \] (N.B. As a result, we can form an empirical estimation
+     $\hat I_T(f)$ by that of both the numerator and denominator,
+     i.e.,
+     $\hat I_T(f): = \frac{\sum_{t = 1}^T
+       f(x^{t})w(x^{t})}{\sum_{t=1}^T w(x^{t})} \approx
+     \expt_p[f(X)]$, where $x^{1},\ldots, x^{T}$ are i.i.d samples
+     from $q$.)
+
+     \newpage 
+   \part[5] Show that $\expt_p[\frac{\tilde p(X)}{q(X)}] \ge 1$ and the
+     equality holds iff. $p = q$. 
+     \newpage
+     \bonuspart[10] Now consider $X = (X_1,\ldots,X_D)$, and assume
+     that both $p$ and $q$ can be factorized, i.e.,
+     $p(x) = \Pi_{i=1}^D p_i(x_i)$, and $q(x) = \Pi_{i=1}^D q_i(x_i)$.
+     Denote $w^i: = w(x^i) = \frac{\tilde p(x^i)}{q(x^i)}$ (note that
+     each sample $x^i = (x_1^i,\ldots,x_D^i)$ is $D$-dimensional). A
+     measure of the variability of two components in vector
+     $w = (w^1,\ldots,w^T)$ is given by $\expt_q [(w^i -
+     w^j)^2]$. Show that $\expt_q [(w^i - w^j)^2]$ has exponential
+     growth with respect to $D$.
+
+     (N.B. This tells us that the standard importance sampling would
+     blow up in high-dimensional cases.)
+  \end{parts}
+  
+  % \begin{solution}
+  % \end{solution}
+
+  \newpage 
+\bonusquestion[15] Consider the following heuristics of picking the
+elimination order in the variable elimination algorithm (or the
+corresponding graph elimination procedure). 
+
+\begin{itemize}
+\item \emph{Min-neighbors}. At each point, choose a vertex that has
+  the minimum number of neighbors in the current graph. 
+\item \emph{Min-Weight}. Choose a vertex of the minimum product of
+  the domain cardinality of its neighbors.
+\item \emph{Min-Fill}. Choose a vertex that causes the minimum number
+  of edges to be added due to its elimination. 
+\end{itemize}
+
+Show that none of them dominate the others; that is, for any pair of
+strategies there is always a graph where the ordering produced by one
+is better than that produced by the other. As our measure of
+performance, use the computational cost of full variable elimination,
+i.e., computing the partition function.  
+
+  \newpage
+
+  \question (Markov Chains) Consider the following two conditions on a
+  Markov chain $T$:
+
+  \begin{enumerate}[label={\Roman*}.]
+  \item It is possible to get from any state to any state using a
+    positive probability path in the state graph.
+
+  \item For each state $x$, there is a positive probability of
+    transitioning directly from $x$ to $x$ (a self-loop).
+  \end{enumerate}
+Answer the following. 
+  
+
+  \begin{parts}
+    \part[5]  Show that, for a finite-state Markov chain, these two
+    conditions together imply that $T$ is regular.
+    \part[5] Show that regularity of the Markov chain implies condition
+    I.
+    \part[5] Show an example of a regular Markov chain that does not
+    satisfy the condition II. 
+  \end{parts}
+\newpage 
+\question (MCMC)
+
+\begin{parts}
+  \part[10] Show that any distribution $\pi$ that satisfies the
+  detailed balance equation below must be a stationary distribution of
+  $T$.
+
+  \[\forall x,x' \in \text{Val}(X), \pi(x) T(x \to x') = \pi(x')
+      T(x'\to x) \, .\]
+    \newpage
+
+    \part[10] Consider the Markov chain $T$
+    induced by the Metropolis-Hasting algorithm:
+    \[ T(x\to x') := \min \left\{1, \frac{\pi(x')q(x'\to x)}{\pi(x)q(x
+          \to x')}\right\} \, , \] where $q$ is a proposal
+    distribution (in class we denoted $q(x'\to x)$ by the conditional
+    probability $q(x|x')$).  Verify that $\pi$ and $T$ satisfy the
+    detailed balance equation. Conclude that $\pi$ is the stationary
+    distribution of $A$ (assuming that $A$ is regular).
+
+    \newpage
+  \part[10] Consider a simple Bayesian network $p$ with two ternary
+    variables ($\text{Val}(A) = \text{Val}(B) =\{0,1,2\}$). Let the
+    CPDs (conditional probability distributions) be as follows.
+
+    \[ \begin{matrix}
+        A  & p(A) \\
+        0 & 0.1\\
+        1  & 0.3\\
+        2 & 0.6
+      \end{matrix}  \]
+    
+    \[ \begin{matrix}
+        A & p(B=0|A) & p(B=1|A) & p(B=2|A)\\
+        0 & 0.2 & 0.3 & 0.5 \\
+        1 & 0.3 & 0.3 & 0.4\\
+        2 & 0.1 & 0.5 & 0.4
+\end{matrix}
+\]
+    Suppose that we want to run Gibbs sampling to sample from $p$,
+    construct the corresponding Markov chain by describing the graph
+    of the state space and the transition probabilities.
+
+        \begin{figure}[h!]
+      \centering
+      \begin{tikzpicture}
+        \matrix (m) [matrix of math nodes,row sep=2em,column
+        sep=3em,minimum width=2em] { A & B \\ };
+
+        \path[-stealth]
+
+        (m-1-1) edge (m-1-2)
+        ; 
+          \end{tikzpicture}
+
+      \caption{Simple Bayesian network}
+      \label{fig:bn1}      
+    \end{figure}
+
+    \newpage 
+  \part (Exercise. Do not turn in.) Show that Gibbs sampling is a
+    special case of the Metropolis-Hastings algorithm. Namely, provide
+    a particular proposal distribution $Q_i$ for each local transition
+    $T^{Q_i}$ that induces precisely the same distribution over the
+    transitions taken as the associated Gibbs transition distribution
+    $T_i$.
+
+    \newpage
+  \part[15] Consider an unnormalized distribution $\tilde p(X)$ which
+    is hard to sample from, and a proposal distribution $q$ from which
+    we can draw independent samples. Consider a Markov chain where we
+    define
+
+    \[ T(x\to x') = q(x') \min \left[1, \frac{w(x')}{w(x)}\right] \,
+      ,\]
+
+    for $x' \ne x$, where $w(x) : = \frac{\tilde p(x)}{q(x)}$.  And we
+    further define $T(x\to x): = 1 - \sum_{x\ne x'} T(x\to x'). $
+    Intuitively, the transition from $x$ to $x'$ selects an
+    independent sample $x'$ from $q$, and then moves toward it,
+    depending on whether its importance weight is better than that of
+    our current point $x$. Show that $T$ defines a legal Markov chain
+    and $p$ ($\tilde p$ normalized) is its stationary
+    distribution.
+    
+\end{parts}
+\end{questions}
+
+
+\end{document}
+
