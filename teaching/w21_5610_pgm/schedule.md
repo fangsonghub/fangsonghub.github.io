@@ -31,7 +31,6 @@ modified: <2020-02-00 Tue>
 || Th,02/04 | Monte Carlo methods <br> Markov Chain Monte Carlo <br> [Recording](https://pdx.zoom.us/rec/share/lWL-kv8lHLkAr-zmovy0yR8T675snbjRuD2cEzm0gtwJUCiveRg4lDhqxhgg2zXL.NtVdAfMvxn8kA8uq){:target="_blank"} | KF 12.3 <br> MacKay 29.4-6 [PDF](http://www.inference.phy.cam.ac.uk/itprnn/book.pdf#page=368){:target="_blank"} S228 [note](https://ermongroup.github.io/cs228-notes/inference/sampling/){:target="_blank"}|
 |6| T,02/09| MCMC, cont'd <br> [Recording](https://pdx.zoom.us/rec/share/gJ2FbgXR4ClTZ-GSazxXFKZMDAGwOLa06ZLc-qJ15jB3YmIL-Uc4pLo5CH-qsptT.mifM6rwbZP2X49pg){:target="_blank"}| KF 12.3 <br> S228 [note](https://ermongroup.github.io/cs228-notes/inference/sampling/){:target="_blank"} <br> Note on MC Chapter 6 [PDF](https://www.cs.princeton.edu/~arora/pubs/toolkit.pdf){:target="_blank"} |
 ||Th,02/11| Variational inference <br> [Recording](){:target="_blank"} | KF 11 <br> Tutorial at NeurIPS'16 [PDF](https://media.nips.cc/Conferences/2016/Slides/6199-Slides.pdf){:target="_blank"} |
-
 {:.mbtablestylef}
 
 {% comment %}
