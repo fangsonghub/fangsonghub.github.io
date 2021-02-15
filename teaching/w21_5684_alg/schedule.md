@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 desc: Schedule
 courseid: w21 584/684
 permalink: /teaching/w21_5684_alg/schedule/
-modified: <2020-02-09 Tue>
+modified: <2020-02-15 Mon>
 ---
 * Table of Contents
 {:toc}
@@ -29,8 +29,8 @@ modified: <2020-02-09 Tue>
 |5| T,02/02| Recitation by TA <br> [Recording](https://pdx.zoom.us/rec/share/NcFjaTmUP_5uOelYlbAWlUHauF3xF4q4ZId1dvWE3AsYCDDFqtec8lWgAqmWycBs.0N9GeHewIrSvqLqn) | |
 || Th,02/04 | Bellman-Ford cont'd <br> Dijkstra's algorithm <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec10.pdf){:target="_blank"}  [Recording](https://pdx.zoom.us/rec/share/G6U9iHquO6ALtkI2UNZHmhVAItBYOb5LWCSOBjqCTlix6rKysER2HPCq4wgroUQs.fSyVbIpTxasJCBMp)|  CLRS 24.3,16.1,16.2 |
 |6| T,02/09| Interval schedule/partition <br> Minimum Spanning Trees <br> Slides: [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec11.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/VIBkx4CyLboHsQDcwpYYHDPUEIafqFrCeTZNOJ0larQPTr1Mq26COlidqHLWCd8R.kBr0am0z9zIj6Jnn) | CLRS 23,6|
-||Th,02/11 | Amortized analysis <br> [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec12.pdf){:target="_blank"} [Recording]()| CLRS 21.1,21.2 |
-|7| T,02/16 | Network flow <br> Max-flow min-cut theorem <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec13.pdf){:target="_blank"} | CLRS 26.1,26.2 |
+||Th,02/11 | MST cont'd <br> [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec12.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/AZ6klQjrvvFxTlM5Nh3LUZaJOMVR6maW_XPCKZmfuxWBM6DdlyBzCKNlAvVYUkYH.ep8joDvnOrwpKSg2)| CLRS 21.1,21.2 |
+|7| T,02/16 | Amortized analysis <br> Network flow <br> Max-flow min-cut theorem <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec13.pdf){:target="_blank"} [Recording]() | CLRS 26.1,26.2 |
 || Th,02/18 | Ford-Fulkerson algorithm <br> Bipartite matching <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec14.pdf){:target="_blank"} | CLRS 26.2,26.3 |
 |8| T,02/23 | Linear programming <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec15.pdf){:target="_blank"} | CLRS 29 |
 || Th,02/25| Computational complexity <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec16.pdf){:target="_blank"} | CLRS 34 <br> Aaronson [big numbers](https://www.scottaaronson.com/writings/bignumbers.html){:target="_blank"} |

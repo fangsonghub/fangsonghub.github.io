@@ -30,14 +30,14 @@ modified: <2020-02-00 Tue>
 |5| T,02/02 | Inference by sampling [Recording](https://pdx.zoom.us/rec/share/6e3YhMI0AFMDC7PAYAv9vSzA-BOMP4r9Pax6FUoeGJDc-oCEG-QSudRbCNuyD5FB.5mxctYTvGTXGb3sq){:target="_blank"} | KF 12.1-2 <br> MacKay 29.1-3 [PDF](http://www.inference.phy.cam.ac.uk/itprnn/book.pdf#page=368){:target="_blank"} <br> Notes on Tail bounds [I](https://cs-people.bu.edu/sofya/cs537/Slides/CS537-Lec9.pdf) [II](https://cs-people.bu.edu/sofya/cs537/Slides/CS537-Lec10.pdf) |
 || Th,02/04 | Monte Carlo methods <br> Markov Chain Monte Carlo <br> [Recording](https://pdx.zoom.us/rec/share/lWL-kv8lHLkAr-zmovy0yR8T675snbjRuD2cEzm0gtwJUCiveRg4lDhqxhgg2zXL.NtVdAfMvxn8kA8uq){:target="_blank"} | KF 12.3 <br> MacKay 29.4-6 [PDF](http://www.inference.phy.cam.ac.uk/itprnn/book.pdf#page=368){:target="_blank"} S228 [note](https://ermongroup.github.io/cs228-notes/inference/sampling/){:target="_blank"}|
 |6| T,02/09| MCMC, cont'd <br> [Recording](https://pdx.zoom.us/rec/share/gJ2FbgXR4ClTZ-GSazxXFKZMDAGwOLa06ZLc-qJ15jB3YmIL-Uc4pLo5CH-qsptT.mifM6rwbZP2X49pg){:target="_blank"}| KF 12.3 <br> S228 [note](https://ermongroup.github.io/cs228-notes/inference/sampling/){:target="_blank"} <br> Note on MC Chapter 6 [PDF](https://www.cs.princeton.edu/~arora/pubs/toolkit.pdf){:target="_blank"} |
-||Th,02/11| Variational inference <br> [Recording](){:target="_blank"} | KF 11 <br> Tutorial at NeurIPS'16 [PDF](https://media.nips.cc/Conferences/2016/Slides/6199-Slides.pdf){:target="_blank"} |
+||Th,02/11| Variational inference <br> [Recording](https://pdx.zoom.us/rec/share/ZwFt25Q8L2Ld39uyFu9jK6gXSAOpbKgRn3lEx-GuoE1dDUiKH0-gPgOitXS2yl0r._3xcDa9H4z4NHFH3){:target="_blank"} | KF 11 <br> Tutorial at NeurIPS'16 [PDF](https://media.nips.cc/Conferences/2016/Slides/6199-Slides.pdf){:target="_blank"} |
+|7| T,02/16 | Variational inference cont'd <br> MAP inference <br> [Recording](){:target="_blank"} | KF 11 [PDF](http://www.cs.cmu.edu/~epxing/Class/10708-17/readings/Ch11.pdf){:target="_blank"} <br> S228 [note](https://ermongroup.github.io/cs228-notes/inference/map/){:target="_blank"} |
+|| Th,02/18 | Learning intro <br> [Recording](){:target="_blank"} | KF 16 <br> S228 [note](https://ermongroup.github.io/cs228-notes/learning/directed/){:target="_blank"} |
 {:.mbtablestylef}
 
 {% comment %}
-|7| T,02/16 | Network flow <br> Max-flow min-cut theorem <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec13.pdf){:target="_blank"} | CLRS 26.1,26.2 |
-|| Th,02/18 | Ford-Fulkerson algorithm <br> Bipartite matching <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec14.pdf){:target="_blank"} | CLRS 26.2,26.3 |
-|8| T,02/23 | Linear programming <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec15.pdf){:target="_blank"} | CLRS 29 |
-|| Th,02/25| Computational complexity <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec16.pdf){:target="_blank"} | CLRS 34 <br> Aaronson [big numbers](https://www.scottaaronson.com/writings/bignumbers.html){:target="_blank"} |
+|8| T,02/23 |  <br>  [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec15.pdf){:target="_blank"} | KF 17 [PDF](http://www.cs.cmu.edu/~epxing/Class/10708-17/readings/Ch17.1-17.4.pdf) |
+|| Th,02/25|  <br>  [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec16.pdf){:target="_blank"} |  |
 |9| T,03/02 | P,NP,NPC <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec17.pdf){:target="_blank"} |  CLRS 34.3 |
 || Th,03/04 | NPC examples  <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec18.pdf){:target="_blank"}| CLRS 34.4,34.5 |
 |10| T,03/09| Approximation algorithms <br> Randomized algorithms <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec19.pdf){:target="_blank"}  | CLRS 35.4,C.2,5.2,5.3 <br> Notes by Panigrahi [PDF](https://www2.cs.duke.edu/courses/fall15/compsci532/scribe_notes/lec13.pdf){:target="_blank"} <br> KT 7.1 [PDF]({{base}}/teaching/f19_629_alg/f19_629_rand_KT.pdf){:target="_blank"} |
