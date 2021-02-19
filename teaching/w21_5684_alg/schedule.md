@@ -44,6 +44,9 @@ modified: <2020-02-18 Thu>
 ## Assignments
 
 Earn extra credit by typing in LaTeX. See [Resource]({{base}}/teaching/w21_5684_alg/resource/) for LaTeX tutorials. Submit on [Google Classroom](https://classroom.google.com/c/MjU0NTY2NTg5OTMy?cjc=5hgfg2p){:target="_blank"} (Class code: **5hgfg2p**).
+*  Homework 6
+   [[PDF]({{base}}/teaching/w21_5684_alg/w21_5684_hw6.pdf){:target="_blank"},[TEX]({{base}}/teaching/w21_5684_alg/w21_5684_hw6.tex){:target="_blank"}],
+   due 4:40pm, 03/02/21. 
 *  Homework 5
    [[PDF]({{base}}/teaching/w21_5684_alg/w21_5684_hw5.pdf){:target="_blank"},[TEX]({{base}}/teaching/w21_5684_alg/w21_5684_hw5.tex){:target="_blank"}],
    due 4:40pm, 02/16/21. 
