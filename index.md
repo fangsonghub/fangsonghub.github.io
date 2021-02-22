@@ -41,11 +41,14 @@ research.
 {{ news.excerpt }}
 {% endcomment %}
 
-*  <2020-03-17 Tue> I'm honored to receive the NSF [CAREER
-   Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1942706&HistoricalAwards=false)
-   to explore quantum complexity and cryptography. Thanks NSF!
-*  <2020-03-10 Tue> [QCrypt 2020](https://2020.qcrypt.net/) submission
-   server is open! Submit your contributions by **April 17 2020**.
+*  <2021-02-22 Mon> I have a postdoc position available. Find out more [here]({{base}}/files/docs/recruit_fangsong.pdf){:target="_blank"}. 
+*  <2021-02-01 Mon> I'm serving on the program committee of the 41st
+   Annual International Cryptology Conference ([Crypto
+   2021](https://crypto.iacr.org/2021/)). Send in your excellent
+   papers by Feb. 24, 2021!
+*  <2021-02-01 Mon> A Conference dedicated on Information-Theoretic
+   Cryptography (ITC) is now marking its [2nd edition](https://itcrypto.github.io/2021/). Send in your
+   excellent papers! 
 * Read [more]({{base}}/news/) ...
 
 

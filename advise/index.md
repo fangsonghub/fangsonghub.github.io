@@ -2,27 +2,34 @@
 layout: page
 title: Advising
 excerpt: Advising and mentoring
-modified: <2020-04-26 Sat>
+modified: <2021-02-22 Mon>
 ---
 
-I am looking for self-motivated students who are interested in
-    pursuing PhD degrees with me. Please find more information on the
-    [recruit page]({{base}}/recruit/){:target="_blank"}. Don't
-    hesitate to reach me!
-	
+* <2021-02-22 Mon> **New!** I have a postdoc position
+    available. Please find [more information here]({{base}}/files/docs/recruit_fangsong.pdf){:target="_blank"}. 
+		
 ### Ph.D. 
-*  2019.09 - . [Chuhan Lu](){:target="_blank"} @Texas A&M U
-*  2019.09 - . [Mufeng Xie](){:target="_blank"} @Texas A&M U
-*  2018.09 - . [Ben Hamlin](){:target="_blank"} @Texas A&M U
-*  2017.09 - 2018.08. [Asher Toback](){:target="_blank"} @ Portland State U
+
+I always welcome self-motivated students. Follow the official
+[instructions](https://www.pdx.edu/computer-science/graduate-admission)
+to apply. Individual inquiries will not be responded, unless you make
+a clear case why you are interested in TCS and/or working with me.
+
+*  2020.06 - . [Chuhan Lu](){:target="_blank"} @Portland State U (2019.09 - 2020.05 @ Texas A&M U)
+*  2020.09 - . [Ben Hamlin](){:target="_blank"} @Portland State U (2018.09 - 2019.05 @ Texas A&M U)
+{% comment %}
+*  2019.09 - 2020.05. [Mufeng Xie](){:target="_blank"} @Texas A&M U
+*  2017.09 - 2018.08. [Asher Toback](){:target="_blank"} @ Portland State U. 
+{% endcomment %}
 
 ### Undergraduate 
 
+* 2020.06 - . Jackson Morris (undergraduate student at UCLA). 
 * 2019.09 -  2020.04. Davis Beilue. Undergraduate Research Scholars (thesis), Texas A&M University. 
 * 2019.09 -  2020.04. Darryl Cherian Jacob. Undergraduate Research Scholars (thesis), Texas A&M University. 
 * 2016.09 - 2017.06. Marko Balogh. Honors Thesis, Portland State University.
 * 2014.05 - 2014.08. Edward Eaton. REU, University of Waterloo. Now a
-M.Sc student at University of Waterloo.
+Ph.D. student at University of Waterloo.
 
 ### High-school students
 
