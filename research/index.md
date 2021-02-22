@@ -11,7 +11,7 @@ modified: <2021-02-22 Mon>
 * **Oblivious Transfer is in MiniQCrypt**
     *  Authors: Alex B. Grilo, Huijia Lin, Fang Song, Vinod Vaikuntanathan
     *  To appear in _the 40th Annual International Conference on the Theory and Applications of Cryptographic Techniques ([Eurocrypt 2021](https://eurocrypt.iacr.org/2021/){:target="_blank"})_. 
-	*  Long **plenary talk** (3/462) at _the 24th Annual Conference on Quantum Information Processing ([QIP 2021](https://www.mcqst.de/qip2021/){:target="_blank"})_. 
+	*  Long **plenary talk** at _the 24th Annual Conference on Quantum Information Processing ([QIP 2021](https://www.mcqst.de/qip2021/){:target="_blank"})_. <!-- (3/462) -->
     *  [[arXiv](https://arxiv.org/abs/2011.14980){:target="_blank"}] [IACR [ePrint](https://ia.cr/2020/1500){:target="_blank"}]
 * **Basing cryptography on NP-hardness using quantum reductions** 
 	*  Authors: Nai-Hui Chia, Sean Hallgren, and Fang Song 
