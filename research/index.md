@@ -2,12 +2,23 @@
 layout: page
 title: Research
 excerpt:
-modified: <2020-05-15 Fri>
+modified: <2021-02-22 Mon>
 ---
 * Table of Contents
 {:toc}
 
 ## Publications
+* **Oblivious Transfer is in MiniQCrypt**
+    *  Authors: Alex B. Grilo, Huijia Lin, Fang Song, Vinod Vaikuntanathan
+    *  To appear in _the 40th Annual International Conference on the Theory and Applications of Cryptographic Techniques ([Eurocrypt 2021](https://eurocrypt.iacr.org/2021/){:target="_blank"})_. 
+	*  Long **plenary talk** (3/462) at _the 24th Annual Conference on Quantum Information Processing ([QIP 2021](https://www.mcqst.de/qip2021/){:target="_blank"})_. 
+    *  [[arXiv](https://arxiv.org/abs/2011.14980){:target="_blank"}] [IACR [ePrint](https://ia.cr/2020/1500){:target="_blank"}]
+* **Basing cryptography on NP-hardness using quantum reductions** 
+	*  Authors: Nai-Hui Chia, Sean Hallgren, and Fang Song 
+	*  Contributed talk at the _8th International Conference on
+       Quantum Cryptography ([QCrypt 2018](http://2018.qcrypt.net/){:target="_blank"})_. 
+	*  In _Quantum, the open journal for quantum science, 4, 312 (2020)_. 
+	*  [[Quantum](https://doi.org/10.22331/q-2020-08-27-312){:target="_blank"}] [[arXiv](https://arxiv.org/abs/1804.10309){:target="_blank"}]
 *  **Quantum-secure message authentication via blind-unforgeability** 
     *  Authors: Gorjan Alagic, Christian Majenz, Alexander Russell,
        and Fang Song
@@ -55,7 +66,7 @@ modified: <2020-05-15 Fri>
         audience)
         ]
 	* [Journal version: [SICOMP](https://doi.org/10.1137/18M1193530)]
-      SIAM J. Comput., 49(2), 245–283, 2020.
+      _SIAM J. Comput., 49(2), 245–283, 2020_.
 *   **Mitigating multi-target attacks in hash-based signatures**
     *   Authors: Andreas Hülsing, Joost Rijneveld, and Fang Song
     *   In _19th International Conference on the Theory and Practice of Public-Key Cryptography ([PKC 2016](http://troll.iis.sinica.edu.tw/pkc16/index.shtml))_.
@@ -88,14 +99,10 @@ modified: <2020-05-15 Fri>
     *   Authors: [Sean Hallgren](http://www.cse.psu.edu/~hallgren), [Adam Smith](http://www.cse.psu.edu/~asmith) and Fang Song
     *   Featured talk at [_QIP 2011_](http://qip2011.quantumlah.org/scientificprogramme/)
     *   In _31st International Cryptology Conference ([CRYPTO 2011](https://www.iacr.org/conferences/crypto2011/))_. 
-    *   Invited to International Journal of Quantum Information, Vol. 13, No. 4 (2015). [[doi](http://dx.doi.org/10.1142/S0219749915500288)]
+    *   Invited to _International Journal of Quantum Information, Vol. 13, No. 4 (2015)_. [[doi](http://dx.doi.org/10.1142/S0219749915500288)]
     *   [[Springer](http://link.springer.com/chapter/10.1007/978-3-642-22792-9_23){:target="_blank"}] [Slides: [Powerpoint]({{ base }}/files/talks/QSFE_Crypto11.pptx), [PDF]({{base}}/files/talks/QSFE_Crypto11.pdf)] [[Video](http://www.iacr.org/cryptodb/data/paper.php?pubkey=23587){:target="_blank"}] [Full version: [arXiv](http://arxiv.org/abs/1507.01625){:target="_blank"} [ePrint](https://eprint.iacr.org/2015/687){:target="_blank"}]
 
 ### Manuscripts
-*	**Basing cryptography on NP-hardness
-	using quantum reductions** 
-	*   Authors: Nai-Hui Chia, Sean Hallgren, and Fang Song 
-	*   ArXiv preprint [arXiv:1804.10309](https://arxiv.org/abs/1804.10309){:target="_blank"}, April 2018.
 *  **Early days following Grover's quantum search algorithm** 
     * Authors: Fang Song
     * A lecture note in Spring'17 summarizing basic results related to Grover's algorithm. 
