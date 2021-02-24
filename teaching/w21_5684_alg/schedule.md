@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 desc: Schedule
 courseid: w21 584/684
 permalink: /teaching/w21_5684_alg/schedule/
-modified: <2020-02-18 Thu>
+modified: <2020-02-24 Wed>
 ---
 * Table of Contents
 {:toc}
@@ -32,8 +32,8 @@ modified: <2020-02-18 Thu>
 ||Th,02/11 | MST cont'd <br> [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec12.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/AZ6klQjrvvFxTlM5Nh3LUZaJOMVR6maW_XPCKZmfuxWBM6DdlyBzCKNlAvVYUkYH.ep8joDvnOrwpKSg2)| CLRS 21.1,21.2 |
 |7| T,02/16 | Amortized analysis <br> Network flow <br> Max-flow min-cut theorem <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec13.pdf){:target="_blank"} | CLRS 26.1,26.2 |
 || Th,02/18 | Ford-Fulkerson algorithm <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec14.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/htEEanhISsS6j2gYk0l0UjLRySIXsAnJD6Yc2BjDYVBjQ7Bci2gmdkyGMAWks73d.ZiwUTPq_ImVgmfiq)| CLRS 26.2 |
-|8| T,02/23 | <br> Linear programming <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec15.pdf){:target="_blank"} | CLRS 26.3,29 |
-|| Th,02/25| Computational complexity <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec16.pdf){:target="_blank"} | CLRS 34 <br> Aaronson [big numbers](https://www.scottaaronson.com/writings/bignumbers.html){:target="_blank"} |
+|8| T,02/23 | Bipartite matching <br> Linear programming <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec15.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/xyowxVOWBnuVZGTSlpJrlPPjVAaLsemgLsjQextey58wku6cvhZ2QtDM1rGT2ChN.Sz8UocKMYsXwXsLH){:target="_blank"} | CLRS 26.3,29 |
+|| Th,02/25|  Linear programmming cont'd <br> Computational complexity <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec16.pdf){:target="_blank"} | CLRS 34 <br> Aaronson [big numbers](https://www.scottaaronson.com/writings/bignumbers.html){:target="_blank"} |
 |9| T,03/02 | P,NP,NPC <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec17.pdf){:target="_blank"} |  CLRS 34.3 |
 || Th,03/04 | NPC examples  <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec18.pdf){:target="_blank"}| CLRS 34.4,34.5 |
 |10| T,03/09| Approximation algorithms <br> Randomized algorithms <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec19.pdf){:target="_blank"}  | CLRS 35.4,C.2,5.2,5.3 <br> Notes by Panigrahi [PDF](https://www2.cs.duke.edu/courses/fall15/compsci532/scribe_notes/lec13.pdf){:target="_blank"} <br> KT 7.1 [PDF]({{base}}/teaching/f19_629_alg/f19_629_rand_KT.pdf){:target="_blank"} |
