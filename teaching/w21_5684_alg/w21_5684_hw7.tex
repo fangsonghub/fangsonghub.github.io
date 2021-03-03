@@ -1,0 +1,222 @@
+
+% Instructions: you don't need to change anything in the macros, but
+% feel free to define new commands as you wish. Starting from the main
+% body, change the specs (e.g., your
+% name). use \begin{solution} \end{solution} environment to write your
+% solutions. Don't forget to list your collaborators.
+
+\documentclass[12pt,answers]{exam}
+%============Macros==================%
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+%--------------Cosmetic----------------%
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage[svgnames]{xcolor}
+\usepackage[sc]{mathpazo}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=1pt,topsep=2pt}
+\setlist[itemize]{itemsep=1pt,topsep=2pt}
+%----------Header--------------------%
+\def\course{CS 584/684 Algorithm Design and Analysis}
+\def\term{Portland State U, Winter 2021}
+\def\prof{Lecturer: Fang Song}
+\newcommand{\handout}[5]{
+   \renewcommand{\thepage}{\arabic{page}}
+   \begin{center}
+   \framebox{
+      \vbox{
+    \hbox to 5.78in { \hfill \large{\course} \hfill }
+       \vspace{2mm}
+       \hbox to 5.78in { {\Large \hfill \textbf{#5}  \hfill} }
+       \vspace{2mm}
+       \hbox to 5.78in { \term \hfill \emph{#2}}
+       \hbox to 5.78in { {#3 \hfill \emph{#4}}}
+      }
+   }
+   \end{center}
+   \vspace*{4mm}
+}
+\newcommand{\hw}[4]{\handout{#1}{#2}{#3}{#4}{Homework #1}}
+
+%-----defs and commands-----%
+\def\veps{\varepsilon}
+\newcommand{\bit}{\{0,1\}}
+\newcommand{\negl}{\text{negl}}
+\newcommand{\corr}[1]{{\color{blue}{#1}}}
+\newcommand{\alg}[1]{\textsf{#1}}
+%=======Main document==============%
+\begin{document}
+
+%----Specs: change accordingly-----%
+\newif\ifstudent % comment out false
+\studenttrue 
+% \studentfalse
+
+\def\texbp{5} % bonus for typing in latex
+\def\hwnum{7} %
+\def\issuedate{03/02/21} % 
+\def\duedate{03/11/21} % 
+\def\yourname{your name} % type your name here
+
+%------------------------------%
+\ifstudent
+\hw{\hwnum}{\issuedate}{Student: \yourname}{Due: \duedate}%
+\else
+\hw{\hwnum}{\issuedate}{\prof}{Due: \duedate}%
+\fi
+
+\noindent \textbf{Instructions.} This problem set contains \numpages\
+pages (including this cover page) and \numquestions\ questions. A
+random subset of problems will be graded.
+
+\begin{itemize}
+\item Your solutions will be graded on \emph{correctness} and
+  \emph{clarity}. You should only submit work that you believe to be
+  correct, and you will get significantly more partial credit if you
+  clearly identify the gap(s) in your solution. It is good practice to
+  start any long solution with an informal (but accurate) summary that
+  describes the main idea. You may opt for the ``I take 15\%'' option.
+
+\item You need to submit a PDF file before the deadline. Either a
+  clear scan of you handwriting or a typeset document is accepted. You
+  will get $\texbp$ bonus points for typing in LaTeX (Download and use
+  the accompany TeX file).
+
+\item You may collaborate with others on this problem set. However,
+  you must \textbf{{write up your own solutions}} and \textbf{{list
+      your collaborators and any external sources}} for each
+  problem. Be ready to explain your solutions orally to a course staff
+  if asked.
+
+\item For problems that require you to provide an algorithm, you must
+  give a precise description of the algorithm, together with a proof
+  of correctness and an analysis of its running time. You may use
+  algorithms from class as subroutines. You may also use any facts
+  that we proved in class or from the book.
+
+\item \textbf{If you describe a Greedy algorithm, you will get no
+    credit without a formal proof of correctness, even if your
+    algorithm is correct.}
+
+\item A proof of NP-completeness should include two parts: 1) the
+    problem is in NP; and 2) the problem is NP-hard.
+
+  \end{itemize}
+
+  \paragraph{Exercises. Do not turn in.}
+\begin{questions}
+  \question A clique in an undirected graph $G =(V, E)$ is a subset
+  $V' \subseteq V$ of vertices, each pair of which is connected by an
+  edge in $E$. (In other words, a clique is a \emph{complete} subgraph
+  of $G$. The size of a clique is the number of vertices it
+  contains. The Clique problems asks to decide whether a clique of a
+  given size $k$ exists in the graph. Show that Clique is NP-complete.
+\end{questions}
+\newpage 
+\paragraph{Problems to turn in.}
+
+\begin{questions}
+
+\question (Demand) Suppose instead of capacities, we consider networks
+  where each edge $u\to v$ has a non-negative \emph{demand}
+  $d(u\to v)$. Now an $(s,t)$-flow $f$ is \emph{feasible} if and only
+  if $f(u\to v)\ge d(u\to v)$ for every edge $u\to v$. (Feasible flow
+  values can now be arbitrarily large.) A natural problem in this
+  setting is to find a feasible $(s,t)$-flow of \emph{minimum} value.
+
+  \begin{parts}
+  \part[10] Describe an efficient algorithm to compute a feasible
+    $(s,t)$-flow, given the graph, the demand function, and vertices
+    $s$ and $t$ as input. (Hint: find a flow that is non-zero
+    everywhere, and then scale it up to make it feasible.)
+    
+  \part[10] Suppose you have access to a subroutine \alg{MaxFlow} that
+    computes \emph{maximum} flows in networks with edge
+    capacities. Describe an efficient algorithm to compute a
+    \emph{minimum} flow in a given network with edge demands; your
+    algorithm should call \alg{MaxFlow} exactly once.
+
+  \part[10] State and prove an analogue of the max-flow min-cut theorem
+    for this setting. (Do minimum flows correspond to maximum cuts?)
+  \end{parts}
+
+
+  \newpage 
+
+  \question (Integer linear programming) An \emph{integer
+    linear-programming} problem is a linear-programming problem with
+  the additional constraint that the variables $x$ must take on
+  \emph{integral} values.  Specifically, given an integer $m\times n$
+  matrix $A$, an integer vector $b$ of dimension $m$ and integer
+  vector $c$ of dimension $n$, we want to maximize $c^T\cdot x$ under
+  the constraints $Ax\le b$ and $x\ge 0$.
+
+
+  \begin{parts}
+    \part[7] Show that \emph{weak duality} (CLRS Lemma 29.8) holds for an
+    integer linear program.
+    \part[8] Show that \emph{strong duality} (CLRS Theorem 29.10) does
+    not always hold for an integer linear program.
+\newpage
+    \bonuspart[10] Given a primal linear program in standard form, let us
+    define $P$ to be the optimal objective value for the primal linear
+    program, $D$ to be the optimal objective value for its dual, $IP$
+    to be the optimal objective value for the integer version of the
+    primal (that is, the primal with the added constraint that the
+    variables take on integer values), and $ID$ to be the optimal
+    objective value for the integer version of the dual. Assuming that
+    both the primal integer program and the dual integer program are
+    feasible and bounded, show that
+    \[ IP\le P = D \le ID \, .\]
+
+
+    \newpage
+    
+  \part[10] Consider further \emph{0-1 integer programming}, where one
+  needs to decide if there exists an integer vector $x$ of dimension
+  $n$ with elements in the set \bit such that $Ax \le b$. Prove that
+  0-1 integer programming is NP-complete. 
+  \end{parts}
+  \newpage
+  
+  \question (Randomized and approximate algorithms)
+
+  
+  \begin{parts}
+    
+  \part[10] (Hat-check) Each of $n$ customers gives a hat to a hat-check
+  person at a restaurant. The hat-check person gives the hats back to
+  the customers in a uniformly random order. What is the expected
+  number of customers who get back their own hat?
+  \newpage
+
+  \part[10] (3-Coloring) Suppose you are given a graph $G=(V,E)$, and we
+  want to color each node with one of three colors, even if we aren't
+  necessarily able to give different colors to every pair of adjacent
+  nodes. We say an edge $(u,v)$ is satisfied if the colors assigned to
+  $u$ and $v$ are different.
+
+  Consider a coloring scheme that \emph{maximizes} the number of
+  satisfied edges, and let $c^*$ denote this number. Give a poly-time
+  algorithm that produces a coloring that satisfies at least
+  $\frac 2 3 c^*$ edges. If you want to use an randomized algorithm,
+  the \emph{expected} number of edges it satisfies should be at least
+  $\frac 2 3 c^*$.
+  
+  \newpage
+
+  \part[10] You have received a present containing $n$ pieces of candy
+  with weights $W[1,\ldots,n]$ (in ounces). You want to load the candy
+  into as many boxes as possible, so that each box contains \emph{at
+    least} $L$ ounces of candy. Describe an efficient
+  $2$-approximation algorithm for this problem. (Hint: First consider
+  the case where every piece of candy weighs less than $L$ ounces.)
+  \end{parts}
+
+
+\end{questions}
+\end{document}
