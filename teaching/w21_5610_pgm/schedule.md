@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 courseid: w21 510/610
 desc: Schedule
 permalink: /teaching/w21_5610_pgm/schedule/
-modified: <2020-02-23 Tue>
+modified: <2020-03-02 Tue>
 ---
 
 * Table of Contents
@@ -35,8 +35,8 @@ modified: <2020-02-23 Tue>
 || Th,02/18 | Learning intro <br> [Recording](https://pdx.zoom.us/rec/share/k8axrA6K41FxKltXrZvL1bj8TD7PDpJFCGBNlBfG_YDvNFAehxz1OkzEHSzF_xXt.LL1Z3S_MJnReLVcb){:target="_blank"} | KF 16,17  [PDF](http://www.cs.cmu.edu/~epxing/Class/10708-17/readings/Ch17.1-17.4.pdf) <br> S228 [note](https://ermongroup.github.io/cs228-notes/learning/directed/){:target="_blank"} |
 |8| T,02/23 | Learning undirected models  <br> [Recording](https://pdx.zoom.us/rec/share/CoEcqsLWEX8SJb_NqVk391W3mqnxumT1pyo4pemEY4u4MsKB9f0D0D3kLocAwVZD._Z9I1NoxA8Br-2ss){:target="_blank"} | KF 20 <br> S228 [note](https://ermongroup.github.io/cs228-notes/learning/undirected/) |
 || Th,02/25| Structural learning <br> [Recording](){:target="_blank"} | KF 18 <br> S228 [note](https://ermongroup.github.io/cs228-notes/learning/structure/) |
-|9| T,03/02 | Selected topics | |
-|| Th,03/04 | Selected topics |  |
+|9| T,03/02 | Selected topics <br> [Recording](https://pdx.zoom.us/rec/share/RUgRSGcg6MPqwQc_dZkXmwRgafZAPpdqIfOPxeAnRO6nHfmwjeIePChNJ03J7Kou.hI-gmGWtaKDHtJlu) | [SSS'JACM09](https://arxiv.org/abs/cs/0612058) |
+|| Th,03/04 | Selected topics | [HW'SODA20](https://epubs.siam.org/doi/abs/10.1137/1.9781611975994.12) |
 |10| T,03/09| Project presentation  | |
 || Th,03/11| Project presentation | |
 {:.mbtablestylef}
