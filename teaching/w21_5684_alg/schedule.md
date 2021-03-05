@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 desc: Schedule
 courseid: w21 584/684
 permalink: /teaching/w21_5684_alg/schedule/
-modified: <2020-03-02 Tue>
+modified: <2020-03-05 Fri>
 ---
 * Table of Contents
 {:toc}
@@ -34,8 +34,8 @@ modified: <2020-03-02 Tue>
 || Th,02/18 | Ford-Fulkerson algorithm <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec14.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/htEEanhISsS6j2gYk0l0UjLRySIXsAnJD6Yc2BjDYVBjQ7Bci2gmdkyGMAWks73d.ZiwUTPq_ImVgmfiq)| CLRS 26.2 |
 |8| T,02/23 | Bipartite matching <br> Linear programming <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec15.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/xyowxVOWBnuVZGTSlpJrlPPjVAaLsemgLsjQextey58wku6cvhZ2QtDM1rGT2ChN.Sz8UocKMYsXwXsLH){:target="_blank"} | CLRS 26.3,29 |
 || Th,02/25|  Linear programmming cont'd <br> Computational complexity <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec16.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/rK_aDf59AlRBTBgooN9L_lVSpThgTSKWLvN7B4O__KfzwMQYczAv5zAoWRg1fFtt.LnmpsjOp87WVbjco) | CLRS 34 <br> Aaronson [big numbers](https://www.scottaaronson.com/writings/bignumbers.html){:target="_blank"} |
-|9| T,03/02 | Reductions, P,NP <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec17.pdf){:target="_blank"} [Recording]() |  CLRS 34.3 |
-|| Th,03/04 | NPC  <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec18.pdf){:target="_blank"} [Recording]()| CLRS 34.4,34.5 |
+|9| T,03/02 | Reductions, P,NP <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec17.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/21SIBa1aip0oUvU5izUhEdTe-Jdb8spsCwgCHDaHuMA6LpDDbMXZ73Riig8URQDe.qJdA3kAUsGJYQcQP) |  CLRS 34.3 |
+|| Th,03/04 | NPC  <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec18.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/TQVqIMotWyW-8pKF8M5lkGSV5KxD71j9zGKlHdnWpaf9YNrDTdYlORhqwLTrnYgY.DRwKtNO08sfBa9-9)| CLRS 34.4,34.5 |
 |10| T,03/09| Approximation algorithms <br> Randomized algorithms <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec19.pdf){:target="_blank"}  [Recording]() | CLRS 35.4,C.2,5.2,5.3 <br> Notes by Panigrahi [PDF](https://www2.cs.duke.edu/courses/fall15/compsci532/scribe_notes/lec13.pdf){:target="_blank"} <br> KT 7.1 [PDF]({{base}}/teaching/f19_629_alg/f19_629_rand_KT.pdf){:target="_blank"} |
 || Th,03/11| Final review<br> Selected topic <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec20.pdf){:target="_blank"}| |
 |11| Final | Take-home exam | |
