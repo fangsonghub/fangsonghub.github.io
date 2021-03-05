@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 courseid: w21 510/610
 desc: Schedule
 permalink: /teaching/w21_5610_pgm/schedule/
-modified: <2020-03-02 Tue>
+modified: <2020-03-04 Thu>
 ---
 
 * Table of Contents
@@ -36,8 +36,8 @@ modified: <2020-03-02 Tue>
 |8| T,02/23 | Learning undirected models  <br> [Recording](https://pdx.zoom.us/rec/share/CoEcqsLWEX8SJb_NqVk391W3mqnxumT1pyo4pemEY4u4MsKB9f0D0D3kLocAwVZD._Z9I1NoxA8Br-2ss){:target="_blank"} | KF 20 <br> S228 [note](https://ermongroup.github.io/cs228-notes/learning/undirected/) |
 || Th,02/25| Structural learning <br> [Recording](){:target="_blank"} | KF 18 <br> S228 [note](https://ermongroup.github.io/cs228-notes/learning/structure/) |
 |9| T,03/02 | Selected topics <br> [Recording](https://pdx.zoom.us/rec/share/RUgRSGcg6MPqwQc_dZkXmwRgafZAPpdqIfOPxeAnRO6nHfmwjeIePChNJ03J7Kou.hI-gmGWtaKDHtJlu) | [SSS'JACM09](https://arxiv.org/abs/cs/0612058) |
-|| Th,03/04 | Selected topics | [HW'SODA20](https://epubs.siam.org/doi/abs/10.1137/1.9781611975994.12) |
-|10| T,03/09| Project presentation  | |
+|| Th,03/04 | Selected topics <br> [Recording](https://pdx.zoom.us/rec/share/81zXTLeiB6lisFDWnBbAYqjhJVH-7l9mdDgUTXnpXVdpIvTXzpyMyi-2-RwHlmGe.F1acgMsP5jywMz9a) | [HW'SODA20](https://epubs.siam.org/doi/abs/10.1137/1.9781611975994.12) |
+|10| T,03/09| Project presentation | |
 || Th,03/11| Project presentation | |
 {:.mbtablestylef}
 
