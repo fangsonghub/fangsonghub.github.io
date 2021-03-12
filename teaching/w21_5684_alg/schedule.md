@@ -37,7 +37,7 @@ modified: <2020-03-12 Fri>
 |9| T,03/02 | Reductions, P,NP <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec17.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/21SIBa1aip0oUvU5izUhEdTe-Jdb8spsCwgCHDaHuMA6LpDDbMXZ73Riig8URQDe.qJdA3kAUsGJYQcQP) |  CLRS 34.3 |
 || Th,03/04 | NPC  <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec18.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/TQVqIMotWyW-8pKF8M5lkGSV5KxD71j9zGKlHdnWpaf9YNrDTdYlORhqwLTrnYgY.DRwKtNO08sfBa9-9)| CLRS 34.4,34.5 |
 |10| T,03/09| Approximation algorithms <br> Randomized algorithms <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec19.pdf){:target="_blank"}  [Recording](https://pdx.zoom.us/rec/share/MsPpBIBc5ekdUYgxOl3geeQG_e8PiThN2fZKad4M6XJwhsXLt8GaCNDbV0TdzoLJ.dGz2HkQ37QKe7jye) | CLRS 35.4,C.2,5.2,5.3 <br> Notes by Panigrahi [PDF](https://www2.cs.duke.edu/courses/fall15/compsci532/scribe_notes/lec13.pdf){:target="_blank"} <br> KT 7.1 [PDF]({{base}}/teaching/f19_629_alg/f19_629_rand_KT.pdf){:target="_blank"} |
-|| Th,03/11| Final review <br> Selected topic <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec20.pdf){:target="_blank"}| [Recording](https://pdx.zoom.us/rec/share/VINNkxYaP2RMExsIKodORX5Zi8FaYc9J3ySvIBAZyeiiyqrkFWeBf1uOBptDTAlc.K4qs7KYdws9dyiH5)|
+|| Th,03/11| Final review <br> Selected topic <br> Slides [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_lec20.pdf){:target="_blank"} [Recording](https://pdx.zoom.us/rec/share/VINNkxYaP2RMExsIKodORX5Zi8FaYc9J3ySvIBAZyeiiyqrkFWeBf1uOBptDTAlc.K4qs7KYdws9dyiH5)| |
 |11| Final | Take-home exam | |
 {:.mbtablestylef}
 
