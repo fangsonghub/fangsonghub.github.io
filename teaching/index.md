@@ -1,11 +1,16 @@
 ---
 layout: page
 title: Teaching
-modified: <2021-04-05 Sun>
+modified: <2021-05-10 Mon>
 ---
 
 ## Current courses
 
+*  CS 410/510 **Topic: foundations of emerging technologies** [Fall 2021]({{ base }}/teaching/f21_4510_fet/)
+
+{% comment %}
+*  CS 581 **Theory of computation** [Fall 2021]({{ base }}/teaching/f21_581_toc/)
+{% endcomment %}
 - - -
 ## Past courses
 

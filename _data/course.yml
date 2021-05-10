@@ -1,5 +1,71 @@
 # course pages
 
+# F21 Toc
+
+- courseid: f21 581
+  title: CS 581
+  title: (Fall 2021) CS 581 - Theory of computation
+  desc: f21 581
+  nav: true
+  url: /teaching/f21_581_toc/
+
+- courseid: f21 581
+  title: CS 581
+  desc: Schedule
+  nav: true
+  url: /teaching/f21_581_toc/schedule/
+
+- courseid: f21 581
+  title: CS 581
+  desc: Resource
+  nav: true
+  url: /teaching/f21_581_toc/resource/
+
+- courseid: f21 581
+  title: CS 581
+  desc: Project
+  nav: false
+  url: /teaching/f21_581_toc/project/
+
+- courseid: f21 581
+  title: CS 581
+  desc: Admin
+  nav: false
+  url: /teaching/f21_581_toc/admin/
+
+# F21 FET
+
+- courseid: f21 410/510
+  title: CS 410/510
+  title: (Fall 2021) CS 410/510 - Foundations of emerging technologies
+  desc: f21 410/510
+  nav: true
+  url: /teaching/f21_4510_fet/
+
+- courseid: f21 410/510
+  title: CS 410/510
+  desc: Schedule
+  nav: true
+  url: /teaching/f21_4510_fet/schedule/
+
+- courseid: f21 410/510
+  title: CS 410/510
+  desc: Resource
+  nav: true
+  url: /teaching/f21_4510_fet/resource/
+
+- courseid: f21 410/510
+  title: CS 410/510
+  desc: Project
+  nav: false
+  url: /teaching/f21_4510_fet/project/
+
+- courseid: f21 410/510
+  title: CS 410/510
+  desc: Admin
+  nav: false
+  url: /teaching/f21_4510_fet/admin/
+
 # W21 ALG
 
 - courseid: w21 584/684
