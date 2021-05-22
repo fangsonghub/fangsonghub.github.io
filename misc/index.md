@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Misc
-modified: <2017-10-30 Mon>
+modified: <2021-05-21 Fri>
 ---
 
 ## Side projects
@@ -12,9 +12,9 @@ modified: <2017-10-30 Mon>
 *  [Hiking Oregon](https://drive.google.com/open?id=1Y7gQ-trXyQZHCQ0yWmzQAH_vNF4&usp=sharing){:target="_blank"}
 
 
-## Photo Galleries
+## Photo galleries
 
 {% include photo_gallery.html %}
 
-## Latex related
-*  [Tikz for Cryptographers](https://www.iacr.org/authors/tikz/){:target="_blank"}
+## Gem bin
+{% include_relative gembin.md %}
