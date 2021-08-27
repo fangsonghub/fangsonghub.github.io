@@ -2,34 +2,42 @@
 layout: page
 title: Research
 excerpt:
-modified: <2021-02-22 Mon>
+modified: <2021-08-27 Fri>
 ---
 * Table of Contents
 {:toc}
 
 ## Publications
+* **Quantum Key-length Extension**
+    *  Authors: [Joseph Jaeger](), Fang Song, and [Stefano
+       Tessaro](https://homes.cs.washington.edu/~tessaro/)
+	*  To appear in _the 19th Theory of Cryptography Conference ([TCC
+       2021](https://tcc.iacr.org/2021/){:target="_blank"})_.
+	*  [[Springer](){:target="_blank"}] [[arXiv](https://arxiv.org/abs/2105.01242){:target="_blank"}] [IACR [ePrint](https://eprint.iacr.org/2021/579){:target="_blank"}]
 * **Oblivious Transfer is in MiniQCrypt**
-    *  Authors: Alex B. Grilo, Huijia Lin, Fang Song, Vinod Vaikuntanathan
-    *  To appear in _the 40th Annual International Conference on the Theory and Applications of Cryptographic Techniques ([EUROCRYPT 2021](https://eurocrypt.iacr.org/2021/){:target="_blank"})_. 
+    *  Authors: [Alex B. Grilo](https://abgrilo.org/), [Huijia
+       Lin](https://homes.cs.washington.edu/~rachel/), Fang Song,
+       [Vinod Vaikuntanathan](http://people.csail.mit.edu/vinodv/)
+    *  In _the 40th Annual International Conference on the Theory and Applications of Cryptographic Techniques ([EUROCRYPT 2021](https://eurocrypt.iacr.org/2021/){:target="_blank"})_. 
 	*  Long **plenary talk** at _the 24th Annual Conference on Quantum Information Processing ([QIP 2021](https://www.mcqst.de/qip2021/){:target="_blank"})_. <!-- (3/462) -->
     *  [[arXiv](https://arxiv.org/abs/2011.14980){:target="_blank"}] [IACR [ePrint](https://ia.cr/2020/1500){:target="_blank"}]
 * **Basing cryptography on NP-hardness using quantum reductions** 
-	*  Authors: Nai-Hui Chia, Sean Hallgren, and Fang Song 
+	*  Authors: [Nai-Hui Chia](https://sites.google.com/view/naihuichia), [Sean Hallgren](http://www.cse.psu.edu/~sjh26/), and Fang Song 
+	*  In _Quantum, the open journal for quantum science, 4, 312 (2020)_. 
 	*  Contributed talk at the _8th International Conference on
        Quantum Cryptography ([QCrypt 2018](http://2018.qcrypt.net/){:target="_blank"})_. 
-	*  In _Quantum, the open journal for quantum science, 4, 312 (2020)_. 
 	*  [[Quantum](https://doi.org/10.22331/q-2020-08-27-312){:target="_blank"}] [[arXiv](https://arxiv.org/abs/1804.10309){:target="_blank"}]
 *  **Quantum-secure message authentication via blind-unforgeability** 
-    *  Authors: Gorjan Alagic, Christian Majenz, Alexander Russell,
-       and Fang Song
+    *  Authors: [Gorjan Alagic](https://www.alagic.org/), [Christian
+       Majenz](), [Alexander Russell](https://russell.engr.uconn.edu/), and Fang Song
 	*  In _the 39th Annual International Conference on the Theory and Applications of Cryptographic Techniques ([EUROCRYPT 2020](https://eurocrypt.iacr.org/2020/){:target="_blank"})_.
 	*  [[arXiv](https://arxiv.org/abs/1803.03761){:target="_blank"}]
 *   **A note on the instantiability of the quantum random oracle**
-    *  Authors: Edward Eaton and Fang Song
+    *  Authors: [Edward Eaton](https://eeaton.ca/) and Fang Song
 	*  In _the Eleventh International Conference on Post-Quantum Cryptography ([PQCrypto 2020](https://pqcrypto2020.inria.fr/){:target="_blank"})_.
 	*  [[ePrint](https://eprint.iacr.org/2019/1466){:target="_blank"}]
 *   **General Linear Group Action on Tensors: A Candidate for Post-Quantum Cryptography** 
-    *  Authors: Zhengfeng Ji, Youming Qiao, Fang Song, and Aaram Yun
+    *  Authors: [Zhengfeng Ji](https://profiles.uts.edu.au/Zhengfeng.Ji), [Youming Qiao](https://profiles.uts.edu.au/Youming.Qiao), Fang Song, and [Aaram Yun](https://dblp.org/pid/33/4916.html)
 	*  In _the 17th Theory of Cryptography Conference
        ([TCC 2019](https://tcc.iacr.org/2019/){:target="_blank"})_.
 	*  Contributed talk at the _23rd Annual Conference on Quantum
@@ -40,7 +48,7 @@ modified: <2021-02-22 Mon>
 	*   In _the 10th International Conference on Post-Quantum Cryptography ([PQCrypto 2019](http://pqcrypto2019.org/){:target="_blank"})_.
 	* [[arXiv](https://arxiv.org/abs/1902.08709){:target="_blank"}]
 *   **Pseudorandom Quantum States** 
-    *   Authors: Zhengfeng Ji, Yi-Kai Liu, Fang Song 
+    *   Authors: [Zhengfeng Ji](https://profiles.uts.edu.au/Zhengfeng.Ji), [Yi-Kai Liu](https://sites.google.com/site/yikailiu00/), Fang Song 
 	*   In _the 38th International Cryptology Conference ([Crypto 2018](https://crypto.iacr.org/2018/){:target="_blank"})_.
 	*   [[ePrint](https://eprint.iacr.org/2018/544){:target="_blank"} [arXiv](https://arxiv.org/abs/1711.00385){:target="_blank"}] [Slides: [PDF]({{base}}/files/talks/prs-crypto18.pdf){:target="_blank"} [Video](https://www.youtube.com/watch?v=SuD-OvGKUWw&t=273s){:target="_blank"}]
 *   **Quantum Collision-Finding in Non-Uniform Random Functions**
@@ -52,8 +60,8 @@ modified: <2021-02-22 Mon>
 	*  In _the 37th International Cryptology Conference ([Crypto 2017](https://www.iacr.org/conferences/crypto2017/){:target="_blank"})_.
 	*  [[Springer](https://doi.org/10.1007/978-3-319-63715-0_10){:target="_blank"}] [[ePrint](https://eprint.iacr.org/2017/509){:target="_blank"}]
 *   **Zero-knowledge proof systems for QMA**
-    *   Authors: Anne Broadbent, Zhengfeng Ji, Fang Song, and John
-        Watrous
+    *   Authors: [Anne Broadbent](https://mysite.science.uottawa.ca/abroadbe/), [Zhengfeng Ji](https://profiles.uts.edu.au/Zhengfeng.Ji), Fang Song, and [John
+        Watrous](https://cs.uwaterloo.ca/~watrous/)
     *   In _57th Annual IEEE Symposium on Foundations of Computer Science ([FOCS 2016](http://www.wisdom.weizmann.ac.il/~dinuri/focs16/CFP.html))_.
     *   Contributed talk at _20th Annual Conference on Quantum
         Information Processing
@@ -68,11 +76,11 @@ modified: <2021-02-22 Mon>
 	* [Journal version: [SICOMP](https://doi.org/10.1137/18M1193530)]
       _SIAM J. Comput., 49(2), 245–283, 2020_.
 *   **Mitigating multi-target attacks in hash-based signatures**
-    *   Authors: Andreas Hülsing, Joost Rijneveld, and Fang Song
+    *   Authors: [Andreas Hülsing](https://huelsing.net/wordpress/), Joost Rijneveld, and Fang Song
     *   In _19th International Conference on the Theory and Practice of Public-Key Cryptography ([PKC 2016](http://troll.iis.sinica.edu.tw/pkc16/index.shtml))_.
     *   [Proceedings version: [Official](http://link.springer.com/chapter/10.1007%2F978-3-662-49384-7_15)] [Preliminary full version: [ePrint](http://ia.cr/2015/1256)]
 *   **Efficient quantum algorithms for computing class groups and solving the principal ideal problem in arbitrary degree number fields**
-    *   Authors: Jean-François Biasse and Fang Song
+    *   Authors: [Jean-François Biasse](http://biasse.myweb.usf.edu/) and Fang Song
     *   In _27th ACM-SIAM Symposium on Discrete Algorithms ([SODA 2016](http://www.siam.org/meetings/da16/))_.
     *   To be presented at _20th Annual Conference on Quantum Information Processing ([QIP 2017](https://www.stationq.com/qip-2017/))_.
     *   [Proceedings Version: [Official](http://dx.doi.org/10.1137/1.9781611974331.ch64), [PDF]({{base}}/files/pubs/BS_SODA16.pdf)] [Slides: [PDF]({{base}}/files/talks/sunits_soda16.pdf)]
