@@ -5,36 +5,39 @@ subtitle: Computational complexity
 courseid: f21 581
 desc: f21 581
 permalink: /teaching/f21_581_toc/
-modified: <2021-05-10 Mon>
+modified: <2021-09-06 Mon>
 ---
 
 ## Announcement
+*  <2021-09-06 Mon> Syllabus available. Schedule and resource pages are updated. 
 *  <2021-05-10 Mon> Welcome! Please stay tuned for updates. 
 
-{% comment %}
 ## About
 *  **Syllabus**:
    [PDF]({{base}}/teaching/f21_581_fet/f21_581_toc_syllabus.pdf){:target="_blank"}.
 *  **Instructor**: Prof. [Fang Song]({{base}}/) 
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
-   with "f21-4510-fet". 
-*  **Lectures**: TR 14:00 - 15:15 @ TBD
-*  **Office hours**: 
-*  **Zoom links**: Check
-   "[Schedule]({{base}}/teaching/f21_581_toc/schedule/)" page. Also
-   check "PSU Classes" calendar under your PSU Google Suite.
-*  **Overview**: This course will introduce probabilistic graphical
-   models and investigate emerging applications. Graphical models
-   bring together graph theory and probability theory, and provide a
-   flexible framework for modeling probabilistic distributions with
-   complex dependencies. This course will cover the key formalisms and
-   main techniques to construct them and to solve optimization and
-   learning problems.
-*  **Prerequisite**: You must be comfortable with reading and writing
-   mathematical proofs. Familiarity with algorithm analysis, linear
-   algebra, and basic probability theory is essential.
+   with "f21-581-toc". 
+*  **Lectures**: TR 14:00 - 15:15 @ CH 449
+*  **Office hours**: TBD
+*  **Overview**: Computation is a familiar term to all computer
+   scientists. But what is computation after all? What problems are
+   computable (Computability), and how “efficient” can we compute them
+   (Complexity)? This course, assuming a prior introductory exposure
+   to the theory of computation, continues an in-depth exploration to
+   these fundamental questions. The focus will be on computational
+   complexity, including time, space, randomness complexity. We will
+   also dive into selected advanced topics such as interactive proof
+   systems and quantum computing.
+*  **Prerequisite**: CS 311 or equivalent. You need to be familiar
+   with the basics of computability theory, and be comfortable with
+   reading and writing mathematical proofs.
 *  **Text**: No required text. See [Resource
    page]({{base}}/teaching/f21_581_toc/resource/) for suggested texts
    and additional useful materials.
+{% comment %}
+*  **Zoom links**: Check
+   "[Schedule]({{base}}/teaching/f21_581_toc/schedule/)" page. Also
+   check "PSU Classes" calendar under your PSU Google Suite.
 {% endcomment %}
   

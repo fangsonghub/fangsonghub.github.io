@@ -16,29 +16,33 @@ modified: <2021-06-11 Fri>
 * Zoom link for [lectures](https://pdx.zoom.us/j/84402610802?pwd=T1RZOVRaZXpDcmVObktvcmd2b205QT09), TR 12:00 - 13:15. 
 * Zoom link for [office hours](https://pdx.zoom.us/j/88237483669?pwd=LzEveUtKVG96ZXRuVVZTWDY2a0Judz09), F 10 - 11am and by appointment.
 
+{% endcomment %}
+
 ## Schedule (subject to change)
 
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
-|1| T,01/05  | Intro <br> Review: probability theory <br>  | KF 1,2 <br> [Jordan Survey](https://projecteuclid.org/euclid.ss/1089808279){:target="_blank"} |
-|| Th,01/07 | Review: probability cont'd, graphs | KF 2 <br> S228 [HTML](https://ermongroup.github.io/cs228-notes/preliminaries/probabilityreview/){:target="_blank"} |
-|2| T,01/12 |  Representation: Bayesian networks <br> [Recording](https://pdx.zoom.us/rec/share/7gMJi75YUEv1VfmNPLmAoDwI4xrc_rLdbV7LlnnROIDGouhH4e1K0Q0WBmCoCE5u.bf61YsI3rH51VHET){:target="_blank"} | KF 3 <br> MJ 2.1 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} | 
-|| Th,01/14 | Bayesian networks cont'd <br> [Recording](https://pdx.zoom.us/rec/share/HJDSO8tAXOZRAD56BCzwMFtxKXP2w8Vii6Az8cv97o5iYTI0s6f64_WqaTeyFUxm.q9ryZ9DNur_09wlO){:target="_blank"} | KF 3 <br> MJ 2.1 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} | 
-|3| T,01/19| Undirected models <br> [Recording](https://pdx.zoom.us/rec/share/H1eyFm_apSCwb-TAu5bKaHJkaJlDStH9oyL_SXASIFHHMM75gAygBf5PsPUFAUd1.APk5QM35bFxOuE3Q){:target="_blank"}  | KF 4 <br> MJ 2.2 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter2.pdf){:target="_blank"} |
-|| Th,01/21 | Undirected models cont'd <br> Exact Inference <br> [Recording](https://pdx.zoom.us/rec/share/P8hIMl1GDQGEjPLU2fztyc0VzbkLisFPPkUcNDXz54rUtcIrtLyP6Q6xh5_-tadF.qHTji6plKqvwqyEe){:target="_blank"} | KF 9 <br> MJ 3 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter3.pdf){:target="_blank"} |
-|4| T,01/26 | Exact Inference cont'd <br> Graph elimination [Recording](https://pdx.zoom.us/rec/share/bvxOcWx5wnrheszQTWvVcnLnCqtHpY2nnZ6TkXGe1Dli7rEl3x4R-dR8KAMmgiAZ.qTJpAp9hNnM6rYgT){:target="_blank"} | KF 9,10.2 <br> MJ 3 [PDF](https://people.eecs.berkeley.edu/~jordan/prelims/chapter3.pdf){:target="_blank"} <br> |
-|| Th,01/28 | Belief propagation  <br> [Recording](https://pdx.zoom.us/rec/share/F8taxxshuz-_wHJ6eCkkYZ38cp2cxawov-FLQwlo-xokMmCGy6meVHH1AISkr0kj.9hqxyiYq0dXVuu5p){:target="_blank"} | KF 10.2 <br> S228 [note](https://ermongroup.github.io/cs228-notes/inference/jt/){:target="_blank"}|
-|5| T,02/02 | Inference by sampling [Recording](https://pdx.zoom.us/rec/share/6e3YhMI0AFMDC7PAYAv9vSzA-BOMP4r9Pax6FUoeGJDc-oCEG-QSudRbCNuyD5FB.5mxctYTvGTXGb3sq){:target="_blank"} | KF 12.1-2 <br> MacKay 29.1-3 [PDF](http://www.inference.phy.cam.ac.uk/itprnn/book.pdf#page=368){:target="_blank"} <br> Notes on Tail bounds [I](https://cs-people.bu.edu/sofya/cs537/Slides/CS537-Lec9.pdf) [II](https://cs-people.bu.edu/sofya/cs537/Slides/CS537-Lec10.pdf) |
-|| Th,02/04 | Monte Carlo methods <br> Markov Chain Monte Carlo <br> [Recording](https://pdx.zoom.us/rec/share/lWL-kv8lHLkAr-zmovy0yR8T675snbjRuD2cEzm0gtwJUCiveRg4lDhqxhgg2zXL.NtVdAfMvxn8kA8uq){:target="_blank"} | KF 12.3 <br> MacKay 29.4-6 [PDF](http://www.inference.phy.cam.ac.uk/itprnn/book.pdf#page=368){:target="_blank"} S228 [note](https://ermongroup.github.io/cs228-notes/inference/sampling/){:target="_blank"}|
-|6| T,02/09| MCMC, cont'd <br> [Recording](https://pdx.zoom.us/rec/share/gJ2FbgXR4ClTZ-GSazxXFKZMDAGwOLa06ZLc-qJ15jB3YmIL-Uc4pLo5CH-qsptT.mifM6rwbZP2X49pg){:target="_blank"}| KF 12.3 <br> S228 [note](https://ermongroup.github.io/cs228-notes/inference/sampling/){:target="_blank"} <br> Note on MC Chapter 6 [PDF](https://www.cs.princeton.edu/~arora/pubs/toolkit.pdf){:target="_blank"} |
-||Th,02/11| Variational inference <br> [Recording](https://pdx.zoom.us/rec/share/ZwFt25Q8L2Ld39uyFu9jK6gXSAOpbKgRn3lEx-GuoE1dDUiKH0-gPgOitXS2yl0r._3xcDa9H4z4NHFH3){:target="_blank"} | KF 11 <br> Tutorial at NeurIPS'16 [PDF](https://media.nips.cc/Conferences/2016/Slides/6199-Slides.pdf){:target="_blank"} |
-|7| T,02/16 | Variational inference cont'd <br> MAP inference <br> Recorded audio lecture on GC | KF 11 [PDF](http://www.cs.cmu.edu/~epxing/Class/10708-17/readings/Ch11.pdf){:target="_blank"} <br> S228 [note](https://ermongroup.github.io/cs228-notes/inference/map/){:target="_blank"} <br> Note on [LP relaxation](https://www2.cs.duke.edu/courses/fall15/compsci532/scribe_notes/lec13.pdf) |
-|| Th,02/18 | Learning intro <br> [Recording](https://pdx.zoom.us/rec/share/k8axrA6K41FxKltXrZvL1bj8TD7PDpJFCGBNlBfG_YDvNFAehxz1OkzEHSzF_xXt.LL1Z3S_MJnReLVcb){:target="_blank"} | KF 16,17  [PDF](http://www.cs.cmu.edu/~epxing/Class/10708-17/readings/Ch17.1-17.4.pdf) <br> S228 [note](https://ermongroup.github.io/cs228-notes/learning/directed/){:target="_blank"} |
-|8| T,02/23 | Learning undirected models  <br> [Recording](https://pdx.zoom.us/rec/share/CoEcqsLWEX8SJb_NqVk391W3mqnxumT1pyo4pemEY4u4MsKB9f0D0D3kLocAwVZD._Z9I1NoxA8Br-2ss){:target="_blank"} | KF 20 <br> S228 [note](https://ermongroup.github.io/cs228-notes/learning/undirected/) |
-|| Th,02/25| Structural learning <br> [Recording](){:target="_blank"} | KF 18 <br> S228 [note](https://ermongroup.github.io/cs228-notes/learning/structure/) |
-|9| T,03/02 | Selected topics <br> [Recording](https://pdx.zoom.us/rec/share/RUgRSGcg6MPqwQc_dZkXmwRgafZAPpdqIfOPxeAnRO6nHfmwjeIePChNJ03J7Kou.hI-gmGWtaKDHtJlu) | [SSS'JACM09](https://arxiv.org/abs/cs/0612058) |
-|| Th,03/04 | Selected topics <br> [Recording](https://pdx.zoom.us/rec/share/81zXTLeiB6lisFDWnBbAYqjhJVH-7l9mdDgUTXnpXVdpIvTXzpyMyi-2-RwHlmGe.F1acgMsP5jywMz9a) | [HW'SODA20](https://epubs.siam.org/doi/abs/10.1137/1.9781611975994.12) |
-|10| T,03/09| Project presentation | |
-|| Th,03/11| Project presentation | |
+| Week | Date  | Topic | Reading & Note |
+|:-----:| :---------: |:----------:|:-----:|
+|1| T,09/28  | Intro <br> Warmup: finite automota | **AB** Chapter 0,1.1 <br> Watrous [note](https://cs.uwaterloo.ca/~watrous/ToC-notes/ToC-notes.02.pdf){:target="_blank"} |
+|| Th,09/30 | Turing machines | **AB** 1.2 - 1.5| 
+|2| T,10/05 | Time complexity <br> P, NP, NPC | **AB** 1.6,2.1,2.2|
+|| Th,10/07 | More NPC   | **AB** 2.4-2.5|
+|3| T,10/12 | Beyond NP | **AB** 2.6-2.7|
+| | Th,10/14 |Time hierachy | **AB** 3.1-3.2 |
+|4| T,10/19 | Ladner's theorem <br> Oracle machines | **AB** 3.3-3.4|
+|| Th,10/21 |  | |
+|5| T,10/26 |  | |
+|| Th,10/28 |  | |
+|6| T,11/02 |  | |
+|| Th,11/04 |  | |
+|7 | T,11/09 | | |
+| | Th,11/11 | | |
+|8 | T,11/16 | | |
+| | T,11/18 | | |
+|9 | T,11/23 | | | 
+|  | Th,11/25 | | |
+|10| T,11/30|  | |
+|| Th, 12/02|  | |
 {:.mbtablestylef}
-{% endcomment %}
+
