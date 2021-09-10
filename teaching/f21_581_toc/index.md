@@ -5,10 +5,11 @@ subtitle: Computational complexity
 courseid: f21 581
 desc: f21 581
 permalink: /teaching/f21_581_toc/
-modified: <2021-09-06 Mon>
+modified: <2021-09-09 Thu>
 ---
 
 ## Announcement
+*  <2021-09-09 Thu> This class is switched to [Attend Anywhere](https://www.pdx.edu/covid-19-response/course-delivery-methods){:target="_blank"} mode in Fall'21. Stay tuned for more information. 
 *  <2021-09-06 Mon> Syllabus available. Schedule and resource pages are updated. 
 *  <2021-05-10 Mon> Welcome! Please stay tuned for updates. 
 

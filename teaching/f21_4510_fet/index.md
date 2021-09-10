@@ -4,10 +4,12 @@ title: (Fall 2021) CS 410/510 - Foundations of emerging technologies
 courseid: f21 410/510
 desc: f21 410/510
 permalink: /teaching/f21_4510_fet/
-modified: <2021-08-03 Tue>
+modified: <2021-09-09 Thu>
 ---
 
 ## Announcement
+
+*  <2021-09-09 Thu> This class is switched to [Attend Anywhere](https://www.pdx.edu/covid-19-response/course-delivery-methods){:target="_blank"} mode in Fall'21. Stay tuned for more information. 
 *  <2021-08-03 Tue> Details such as the syllabus added. 
 *  <2021-05-10 Mon> Welcome! Please stay tuned for updates. 
 
