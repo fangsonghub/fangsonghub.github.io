@@ -15,7 +15,7 @@ modified: <2021-09-09 Thu>
 
 ## About
 *  **Syllabus**:
-   [PDF]({{base}}/teaching/f21_581_fet/f21_581_toc_syllabus.pdf){:target="_blank"}.
+   [PDF]({{base}}/teaching/f21_581_toc/f21_581_toc_syllabus.pdf){:target="_blank"}.
 *  **Instructor**: Prof. [Fang Song]({{base}}/) 
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
    with "f21-581-toc". 
