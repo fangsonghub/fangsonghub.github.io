@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 courseid: f21 581
 desc: Schedule
 permalink: /teaching/f21_581_toc/schedule/
-modified: <2021-09-08 Wed>
+modified: <2021-09-26 Sun>
 ---
 
 {% comment %}
@@ -22,7 +22,7 @@ modified: <2021-09-08 Wed>
 
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
-|1| T,09/28  | Intro <br> Warmup: finite automota | **W** [Chapter 20](https://www.math.ias.edu/files/Book-online-Aug0619.pdf#page=1){:target="_blank"}, **AB** Chapter 0,1.1 <br> Boaz [note](https://introtcs.org/public/lec_00_1_math_background.html){:target="_blank"}, Watrous [note](https://cs.uwaterloo.ca/~watrous/ToC-notes/ToC-notes.02.pdf){:target="_blank"} |
+|1| T,09/28  | Intro <br> Warmup: finite automata | **W** [Chapter 20](https://www.math.ias.edu/files/Book-online-Aug0619.pdf#page=1){:target="_blank"}, **AB** Chapter 0,1.1 <br> Barak [note](https://introtcs.org/public/lec_00_1_math_background.html){:target="_blank"}, Watrous [note](https://cs.uwaterloo.ca/~watrous/ToC-notes/ToC-notes.02.pdf){:target="_blank"} |
 || Th,09/30 | Review: Turing machines | **AB** 1.2 - 1.5| 
 |2| T,10/05 | Time complexity <br> P, NP, NPC | **AB** 1.6,2.1,2.2|
 || Th,10/07 | More NPC   | **AB** 2.4-2.5|
