@@ -10,11 +10,11 @@ modified: <2021-09-26 Sun>
 
 {% comment %}
 * Table of Contents
+* Zoom link for [office hours](https://pdx.zoom.us/j/88237483669?pwd=LzEveUtKVG96ZXRuVVZTWDY2a0Judz09), F 10 - 11am and by appointment.
 {:toc}
 
 ## General guideline
-* Zoom link for [lectures](https://pdx.zoom.us/j/84402610802?pwd=T1RZOVRaZXpDcmVObktvcmd2b205QT09), TR 12:00 - 13:15. 
-* Zoom link for [office hours](https://pdx.zoom.us/j/88237483669?pwd=LzEveUtKVG96ZXRuVVZTWDY2a0Judz09), F 10 - 11am and by appointment.
+* [Zoom link](https://pdx.zoom.us/j/84135643144?pwd=ZFNySkRBTTRFUkZ3ajBaUnZJc3RKZz09) to join lectures remotely, TR 14:00 - 15:15. 
 
 {% endcomment %}
 

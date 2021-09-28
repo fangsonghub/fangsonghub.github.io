@@ -5,17 +5,17 @@ subtitle: Schedule (subject to change)
 courseid: f21 410/510
 desc: Schedule
 permalink: /teaching/f21_4510_fet/schedule/
-modified: <2021-08-03 Tue>
+modified: <2021-09-27 Mon>
 ---
 
 {% comment %}
 * Table of Contents
 {:toc}
-
-## General guideline
-* Zoom link for [lectures](https://pdx.zoom.us/j/84402610802?pwd=T1RZOVRaZXpDcmVObktvcmd2b205QT09), TR 12:00 - 13:15. 
 * Zoom link for [office hours](https://pdx.zoom.us/j/88237483669?pwd=LzEveUtKVG96ZXRuVVZTWDY2a0Judz09), F 10 - 11am and by appointment.
 {% endcomment %}
+
+## General guideline
+* [Zoom link](https://pdx.zoom.us/j/85745881721?pwd=d3NUcmdvVzJZd3hZbGRPV3NLNGdkZz09) for joining lectures remotely, TR 10:00 - 11:50. 
 
 ## Schedule (subject to change)
 
