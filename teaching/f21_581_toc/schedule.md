@@ -5,18 +5,17 @@ subtitle: Schedule (subject to change)
 courseid: f21 581
 desc: Schedule
 permalink: /teaching/f21_581_toc/schedule/
-modified: <2021-09-26 Sun>
+modified: <2021-09-27 Mon>
 ---
 
 {% comment %}
 * Table of Contents
 * Zoom link for [office hours](https://pdx.zoom.us/j/88237483669?pwd=LzEveUtKVG96ZXRuVVZTWDY2a0Judz09), F 10 - 11am and by appointment.
 {:toc}
+{% endcomment %}
 
 ## General guideline
 * [Zoom link](https://pdx.zoom.us/j/84135643144?pwd=ZFNySkRBTTRFUkZ3ajBaUnZJc3RKZz09) to join lectures remotely, TR 14:00 - 15:15. 
-
-{% endcomment %}
 
 ## Schedule (subject to change)
 
