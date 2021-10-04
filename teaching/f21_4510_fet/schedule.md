@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 courseid: f21 410/510
 desc: Schedule
 permalink: /teaching/f21_4510_fet/schedule/
-modified: <2021-09-27 Mon>
+modified: <2021-10-04 Mon>
 ---
 
 {% comment %}
@@ -25,8 +25,8 @@ modified: <2021-09-27 Mon>
 || Th,09/30 | More counting | [AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 1.2 | 
 |2| T,10/05 | Counting practice | [AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 1.3 |
 || Th,10/07 | Discrete probability  | [AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 2 |
-|3| T,10/12 |  | |
-| | Th,10/14 | | |
+|3| T,10/12 | Bayes theorem |[AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 2,9.3 |
+| | Th,10/14 | Random variables | [AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 3.1,3.2|
 |4| T,10/19 |  | |
 || Th,10/21 |  | |
 |5| T,10/26 |  | |

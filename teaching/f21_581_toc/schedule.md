@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 courseid: f21 581
 desc: Schedule
 permalink: /teaching/f21_581_toc/schedule/
-modified: <2021-09-27 Mon>
+modified: <2021-10-04 Mon>
 ---
 
 {% comment %}
@@ -23,10 +23,10 @@ modified: <2021-09-27 Mon>
 |:-----:| :---------: |:----------:|:-----:|
 |1| T,09/28  | Intro <br> Warmup: finite automata | **W** [Chapter 20](https://www.math.ias.edu/files/Book-online-Aug0619.pdf#page=1){:target="_blank"}, **AB** Chapter 0,1.1 <br> Barak [note](https://introtcs.org/public/lec_00_1_math_background.html){:target="_blank"}, Watrous [note](https://cs.uwaterloo.ca/~watrous/ToC-notes/ToC-notes.02.pdf){:target="_blank"} |
 || Th,09/30 | Review: Turing machines | **AB** 1.2 - 1.5| 
-|2| T,10/05 | Time complexity <br> P, NP, NPC | **AB** 1.6,2.1,2.2|
-|| Th,10/07 | More NPC   | **AB** 2.4-2.5|
+|2| T,10/05 | Time complexity <br> P, NP | **AB** 1.6,2.1|
+|| Th,10/07 |  NPC   | **AB** 2.2,2.4-2.5|
 |3| T,10/12 | Beyond NP | **AB** 2.6-2.7|
-| | Th,10/14 |Time hierachy | **AB** 3.1-3.2 |
+| | Th,10/14 | Time hierachy | **AB** 3.1-3.2 |
 |4| T,10/19 | Ladner's theorem <br> Oracle machines | **AB** 3.3-3.4|
 || Th,10/21 |  | |
 |5| T,10/26 |  | |

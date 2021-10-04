@@ -9,6 +9,9 @@ modified: <2021-09-27 Mon>
 ---
 
 ## Announcement
+*  <2021-10-04 Mon> Future communications will be primarily via
+   Slack. Check frequently "Schedule" page for reading materials, and
+   Google Classroom for classwork. 
 *  <2021-09-27 Mon> The Fall term is officially here. Let's get started! 
 *  <2021-09-09 Thu> This class is switched to [Attend Anywhere](https://www.pdx.edu/covid-19-response/course-delivery-methods){:target="_blank"} mode in Fall'21. Stay tuned for more information. 
 *  <2021-09-06 Mon> Syllabus available. Schedule and resource pages are updated. 
