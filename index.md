@@ -41,14 +41,8 @@ research.
 {{ news.excerpt }}
 {% endcomment %}
 
+*  <2021-10-04 Mon> Our department has multiple faculty positions available this year, and **Theory** is a focus area. See details [here](https://www.pdx.edu/computer-science/open-faculty-positions){:target="_blank"}, and send in your strong applications!
 *  <2021-02-22 Mon> I have a postdoc position available. Find out more [here]({{base}}/files/docs/recruit_fangsong.pdf){:target="_blank"}. 
-*  <2021-02-01 Mon> I'm serving on the program committee of the 41st
-   Annual International Cryptology Conference ([Crypto
-   2021](https://crypto.iacr.org/2021/)). Send in your excellent
-   papers by Feb. 24, 2021!
-*  <2021-02-01 Mon> A Conference dedicated on Information-Theoretic
-   Cryptography (ITC) is now marking its [2nd edition](https://itcrypto.github.io/2021/). Send in your
-   excellent papers! 
 * Read [more]({{base}}/news/) ...
 
 
