@@ -29,7 +29,7 @@ modified: <2021-10-14 Thu>
 | | Th,10/14 | Beyond NP | **AB** 2.6-2.7|
 |4| T,10/19 | Time hierarchy | <br> **AB** 1.5,3.1 |
 || Th,10/21 | Ladner's theorem | **AB** 3.3 | 
-|5| T,10/26 | Nondeterminism <br> Oracle machines | **AB** 3.2,3.4|
+|5| T,10/26 | Nondeterminism <br> Relativization | **AB** 3.2,3.4|
 || Th,10/28 | Space complexity | **AB** 4.1-4.3 |
 |6| T,11/02 | Polynomial hierarchy | **AB** 5.1,5.2 |
 || Th,11/04 | Randomized computation | **AB** 7.1-7.3 |
