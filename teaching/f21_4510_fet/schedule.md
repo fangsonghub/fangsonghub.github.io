@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 courseid: f21 410/510
 desc: Schedule
 permalink: /teaching/f21_4510_fet/schedule/
-modified: <2021-10-04 Mon>
+modified: <2021-10-28 Thu>
 ---
 
 {% comment %}
@@ -30,7 +30,7 @@ modified: <2021-10-04 Mon>
 |4| T,10/19 | Variance, indpendence  | [AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 3.3 |
 || Th,10/21 | Discrete RVs |[AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 3.4,3.5 |
 |5| T,10/26 | Discrete RVs <br> Bloom filter | [AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 9.4 |
-|| Th,10/28 |  | |
+|| Th,10/28 | Continuous RV  | [AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 4.1  |
 |6| T,11/02 |  | |
 || Th,11/04 |  | |
 |7 | T,11/09 | | |
