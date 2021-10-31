@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 courseid: f21 410/510
 desc: Schedule
 permalink: /teaching/f21_4510_fet/schedule/
-modified: <2021-10-28 Thu>
+modified: <2021-11-01 Mon>
 ---
 
 {% comment %}
@@ -30,16 +30,16 @@ modified: <2021-10-28 Thu>
 |4| T,10/19 | Variance, indpendence  | [AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 3.3 |
 || Th,10/21 | Discrete RVs |[AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 3.4,3.5 |
 |5| T,10/26 | Discrete RVs <br> Bloom filter | [AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 9.4 |
-|| Th,10/28 | Continuous RV  | [AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 4.1  |
-|6| T,11/02 |  | |
-|| Th,11/04 |  | |
-|7 | T,11/09 | | |
-| | Th,11/11 | | |
-|8 | T,11/16 | | |
-| | T,11/18 | | |
-|9 | T,11/23 | | | 
-|  | Th,11/25 | | |
-|10| T,11/30|  | |
-|| Th, 12/02|  | |
+|| Th,10/28 | Continuous RVs  | [AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 4.1  |
+|6| T,11/02 | Continuous RVs | [AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 4.2,4.3  |
+|| Th,11/04 | Central limit theorem | [AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 5.6,5.7  |
+|7 | T,11/09 | Tail bounds | [AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 6  |
+| | Th,11/11 | No Class | Veterans day |
+|8 | T,11/16 | Joint distribution |[AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 5.1-5.3  |
+| | T,11/18 | MLE | [AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 7.1-7.2  |
+|9 | T,11/23 |Vectors, matrices | |
+|  | Th,11/25 | No Class | Thanksgiving |
+|10| T,11/30| Eigenvale, eigenvectors | | 
+|| Th, 12/02|  Linear algebra apps<br> Wrap-up | |
 {:.mbtablestylef}
 
