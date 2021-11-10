@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 courseid: f21 581
 desc: Schedule
 permalink: /teaching/f21_581_toc/schedule/
-modified: <2021-10-14 Thu>
+modified: <2021-11-10 Wed>
 ---
 
 {% comment %}
@@ -31,14 +31,14 @@ modified: <2021-10-14 Thu>
 || Th,10/21 | Ladner's theorem | **AB** 3.3 | 
 |5| T,10/26 | Nondeterminism <br> Relativization | **AB** 3.2,3.4|
 || Th,10/28 | Space complexity | **AB** 4.1-4.3 |
-|6| T,11/02 | Polynomial hierarchy | **AB** 5.1,5.2 |
-|| Th,11/04 | Randomized computation | **AB** 7.1-7.3 |
-|7 | T,11/09 | BPP and more | **AB** 7.4-7.6|
-| | Th,11/11 | No Class | Veterans day |
-|8 | T,11/16 | Derandomization | **AB** 20.1,20.2|
+|6| T,11/02 | Space complexity cont'd | **AB** 4.1-4.3 |
+|| Th,11/04 | Polynomial hierarchy | **AB** 5.1,5.2 |
+|7 | T,11/09 | Randomized computation | **AB** 7.1-7.3 |
+| | Th,11/11 | Veterans day <br> No Class | Review probability basics <br> **AB** A.2, Trevisan's [note](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"}  |
+|8 | T,11/16 | BPP and more | **AB** 7.4-7.6|
 | | Th,11/18 | Interactive proofs |**AB** 8.1,8.2 |
 |9 | T,11/23 | Interactive proofs | **AB** 8.3| 
-|  | Th,11/25 |No Class | Thanksgiving |
+|  | Th,11/25 |Thanksgiving <br> No Class |  |
 |10| T,11/30| Zero-knowledge proofs | **AB** 9.4 |
 || Th, 12/02| Selected topics <br> Wrap-up | |
 {:.mbtablestylef}
