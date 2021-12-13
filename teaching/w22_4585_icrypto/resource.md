@@ -28,14 +28,17 @@ Katz](http://www.cs.umd.edu/~jkatz){:target="_blank"} and [Yehuda
 Lindell](http://u.cs.biu.ac.il/~lindell/){:target="_blank"}.  Chapman
 and Hall/CRC Press, Dec. 2020. Jon Katz is maintaining a
 [webpage](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"} with
-errta and other updates about the book.
-* Boneh and Shoup's onging book (Version 0.5 posted on Jan. 4, 2020):
-[A Graduate Course on Applied
-Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"}.
-* Mike Rosulek [The Joy of Cryptography](https://joyofcryptography.com/){:target="_blank"}.
-* For thoery-savy students, Goldreich's two volume text on theory of
-  cryptography is the place to go: [Foundations of
-  Cryptography](http://www.wisdom.weizmann.ac.il/~oded/foc-book.html){:target="_blank"}.
+errata and other updates about the book.
+* [A Graduate Course on Applied
+Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"}
+by Boneh and Shoup (Version 0.5 posted on Jan. 4, 2020).
+* [The Joy of
+  Cryptography](https://joyofcryptography.com/){:target="_blank"} by
+  Mike Rosulek.
+* [Foundations of
+  Cryptography](http://www.wisdom.weizmann.ac.il/~oded/foc-book.html){:target="_blank"}
+  by Goldreich. Two-volume gem for the advanced and
+  theory-savy readers.
 
 ## Books on applied crypto
 
