@@ -42,12 +42,10 @@ by Boneh and Shoup (Version 0.5 posted on Jan. 4, 2020).
 
 ## Books on applied crypto
 
-These tend to be less careful and precise about definitions and
-proofs, but they are excellent references for more examples of
-concrete cryptosystems used in practice. After this course, you should
-be able to critically evaluate the merits or deficiencies of the
-cryptosystems described below (and any new cryptographic constructions
-you encounter).
+These are excellent references for more examples of concrete
+cryptosystems used in practice. After this course, you should be able
+to critically evaluate the merits or deficiencies of the cryptosystems
+therein (and any new cryptographic constructions you encounter).
 
 * [Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/){:target="_blank"} by Alfred J. Menezes, Paul C. van Oorschot, and Scott A. Vanstone.
 * [Cryptography: Theory and Practice](http://cacr.uwaterloo.ca/~dstinson/CTAP.html){:target="_blank"} by Douglas R.  Stinson.
