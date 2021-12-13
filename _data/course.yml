@@ -1,5 +1,32 @@
 # course pages
 
+# W22 ICrypto
+
+- courseid: w22 485/585
+  title: (Winter 2022) CS 485/585 - Intro to Cryptography
+  desc: w22 485/585
+  nav: true
+  url: /teaching/w22_4585_icrypto/
+   
+- courseid: w22 485/585
+  title: (Winter 2022) CS 485/585 - Intro to Cryptography
+  desc: Admin
+  nav: false
+  url: /teaching/w22_4585_icrypto/admin/
+
+- courseid: w22 485/585
+  title: (Winter 2022) CS 485/585 
+  desc: Schedule
+  nav: true
+  url: /teaching/w22_4585_icrypto/schedule/
+
+- courseid: w22 485/585
+  title: (Winter 2022) CS 485/585 
+  desc: Resource
+  nav: true
+  url: /teaching/w22_4585_icrypto/resource/
+
+
 # F21 Toc
 
 - courseid: f21 581

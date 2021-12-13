@@ -5,7 +5,7 @@ subtitle: Schedule (subject to change)
 courseid: f21 410/510
 desc: Schedule
 permalink: /teaching/f21_4510_fet/schedule/
-modified: <2021-11-01 Mon>
+modified: <2021-12-06 Mon>
 ---
 
 {% comment %}
@@ -37,9 +37,9 @@ modified: <2021-11-01 Mon>
 | | Th,11/11 | No Class | Veterans day |
 |8 | T,11/16 | Joint distribution |[AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 5.1-5.3  |
 | | T,11/18 | MLE | [AT](https://www.alextsun.com/files/Prob_Stat_for_CS_Book.pdf){:target="_blank"} 7.1-7.2  |
-|9 | T,11/23 |Vectors, matrices | |
+|9 | T,11/23 | Vectors, matrices | [BV](https://web.stanford.edu/~boyd/vmls/vmls.pdf){:target="_blank"} 1-4  |
 |  | Th,11/25 | No Class | Thanksgiving |
-|10| T,11/30| Eigenvale, eigenvectors | | 
-|| Th, 12/02|  Linear algebra apps<br> Wrap-up | |
+|10| T,11/30| Eigenvale, eigenvectors | [BV](https://web.stanford.edu/~boyd/vmls/vmls.pdf){:target="_blank"} 5,6,10-11,13|
+|| Th, 12/02|  Linear algebra apps <br> Wrap-up | [BHK](https://home.ttic.edu/~avrim/book.pdf){:target="_blank"} 3 |
 {:.mbtablestylef}
 

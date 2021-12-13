@@ -9,14 +9,14 @@ modified: <2021-06-11 Fri>
 {% comment %}
 
 {% endcomment %}
-
-*  CS 410/510 **Topic: foundations of emerging technologies** [Fall 2021]({{ base }}/teaching/f21_4510_fet/)
-*  CS 581 **Theory of computation** [Fall 2021]({{ base }}/teaching/f21_581_toc/)
+* CS 485/585 **Introduction to Cryptography** [Winter 2022]({{ base }}/teaching/w22_4585_icrypto/)
 
 - - -
 ## Past courses
 
 #### Portland State University
+*  CS 410/510 **Topic: foundations of emerging technologies** [Fall 2021]({{ base }}/teaching/f21_4510_fet/)
+*  CS 581 **Theory of computation** [Fall 2021]({{ base }}/teaching/f21_581_toc/)
 *  CS 584/684 **Algorithm Design And Analysis** [Winter 2021]({{ base }}/teaching/w21_5684_alg/)
 *  CS 510/610 **Topic: probalistic graphical models** [Winter 2021]({{ base }}/teaching/w21_5610_pgm/)
 * CS 485/585 **Introduction to Cryptography** [Winter 2018]({{ base }}/teaching/w18_4585_icrypto/); [Winter 2017]({{ base }}/teaching/w17_4585_icrypto/)
