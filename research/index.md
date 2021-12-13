@@ -2,16 +2,16 @@
 layout: page
 title: Research
 excerpt:
-modified: <2021-08-27 Fri>
+modified: <2021-12-13 Mon>
 ---
 * Table of Contents
 {:toc}
 
 ## Publications
 * **Quantum Key-length Extension**
-    *  Authors: [Joseph Jaeger](), Fang Song, and [Stefano
+    *  Authors: [Joseph Jaeger](https://www.cc.gatech.edu/~josephjaeger/), Fang Song, and [Stefano
        Tessaro](https://homes.cs.washington.edu/~tessaro/)
-	*  To appear in _the 19th Theory of Cryptography Conference ([TCC
+	*  In _the 19th Theory of Cryptography Conference ([TCC
        2021](https://tcc.iacr.org/2021/){:target="_blank"})_.
 	*  [[Springer](){:target="_blank"}] [[arXiv](https://arxiv.org/abs/2105.01242){:target="_blank"}] [IACR [ePrint](https://eprint.iacr.org/2021/579){:target="_blank"}]
 * **Oblivious Transfer is in MiniQCrypt**

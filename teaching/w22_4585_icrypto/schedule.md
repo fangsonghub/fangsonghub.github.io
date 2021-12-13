@@ -5,7 +5,7 @@ courseid: w22 485/585
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/w22_4585_icrypto/schedule/
-modified: <2022-12-13 Mon> 
+modified: <2021-12-13 Mon> 
 ---
 
 {% comment %}
