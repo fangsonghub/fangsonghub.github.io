@@ -8,7 +8,7 @@ permalink: /teaching/w22_4585_icrypto/resource/
 modified: <2021-12-13 Mon> 
 ---
 
-## Useful links
+## Useful readings
 *  Advice on reading and
    writing
    [mathematical proofs](http://www.math.ucsd.edu/~ebender/Supplements/proofs.html){:target="_blank"}.
@@ -16,16 +16,12 @@ modified: <2021-12-13 Mon>
   and on [algebra](https://people.eecs.berkeley.edu/~luca/cs276/notesalgebra.pdf){:target="_blank"}
   by Luca Trevisan.
 * MIT 6.042 [Mathematics for computer science](https://courses.csail.mit.edu/6.042/spring17/){:target="_blank"}. Read their excellent companion draft [book](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf){:target="_blank"} to catch up necessary math background.
-* Basic number theory fact sheet [part I [PDF](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh1.pdf){:target="_blank"}, Part II [PDF](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/boneh2.pdf){:target="_blank"}] by Dan Boneh.
-* [A Primer on Algebra and Number Theory for Computer Scientists](http://www.cs.nyu.edu/courses/spring12/CSCI-GA.3210-001/out/shoup.pdf){:target="_blank"} by Victor Shoup.
-*  A thorough [introduction to LaTeX](https://en.wikibooks.org/wiki/LaTeX){:target="_blank"},
-   and
-   [guide](http://www.math.illinois.edu/~ajh/tex/basics.html){:target="_blank"}
-   on good style.
-   
-## Text
+* Basic number theory fact sheet [part I [PDF](https://crypto.stanford.edu/~dabo/cs255/handouts/numth1.pdf){:target="_blank"}, Part II [PDF](https://crypto.stanford.edu/~dabo/cs255/handouts/numth2.pdf){:target="_blank"}] by Dan Boneh.
 
-* Required** [Introduction to Modern
+   
+## Texts
+
+* **Required** [Introduction to Modern
 Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 (3rd edition) by [Jonathan
 Katz](http://www.cs.umd.edu/~jkatz){:target="_blank"} and [Yehuda
@@ -36,6 +32,7 @@ errta and other updates about the book.
 * Boneh and Shoup's onging book (Version 0.5 posted on Jan. 4, 2020):
 [A Graduate Course on Applied
 Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"}.
+* Mike Rosulek [The Joy of Cryptography](https://joyofcryptography.com/){:target="_blank"}.
 * For thoery-savy students, Goldreich's two volume text on theory of
   cryptography is the place to go: [Foundations of
   Cryptography](http://www.wisdom.weizmann.ac.il/~oded/foc-book.html){:target="_blank"}.
