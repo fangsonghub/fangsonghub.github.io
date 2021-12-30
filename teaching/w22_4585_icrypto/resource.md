@@ -5,15 +5,15 @@ courseid: w22 485/585
 subtitle: Resources
 desc: Resource
 permalink: /teaching/w22_4585_icrypto/resource/
-modified: <2021-12-13 Mon> 
+modified: <2021-12-29 Wed> 
 ---
 
 ## Useful readings
 *  Advice on reading and
    writing
    [mathematical proofs](http://www.math.ucsd.edu/~ebender/Supplements/proofs.html){:target="_blank"}.
-* Notes on [discrete probability](https://people.eecs.berkeley.edu/~luca/cs276/notesprob.pdf){:target="_blank"}
-  and on [algebra](https://people.eecs.berkeley.edu/~luca/cs276/notesalgebra.pdf){:target="_blank"}
+* Notes on [discrete probability](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"}
+  and on [algebra](http://theory.stanford.edu/~trevisan/cs276/notesalgebra.pdf){:target="_blank"}
   by Luca Trevisan.
 * MIT 6.042 [Mathematics for computer science](https://courses.csail.mit.edu/6.042/spring17/){:target="_blank"}. Read their excellent companion draft [book](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf){:target="_blank"} to catch up necessary math background.
 * Basic number theory fact sheet [part I [PDF](https://crypto.stanford.edu/~dabo/cs255/handouts/numth1.pdf){:target="_blank"}, Part II [PDF](https://crypto.stanford.edu/~dabo/cs255/handouts/numth2.pdf){:target="_blank"}] by Dan Boneh.
@@ -21,24 +21,24 @@ modified: <2021-12-13 Mon>
    
 ## Texts
 
-* **Required** [Introduction to Modern
+* **KL** (required) [Introduction to Modern
 Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 (3rd edition) by [Jonathan
 Katz](http://www.cs.umd.edu/~jkatz){:target="_blank"} and [Yehuda
 Lindell](http://u.cs.biu.ac.il/~lindell/){:target="_blank"}.  Chapman
 and Hall/CRC Press, Dec. 2020. Jon Katz is maintaining a
-[webpage](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"} with
-errata and other updates about the book.
-* [A Graduate Course on Applied
+[webpage](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
+with errata and other updates about the book.
+* **[BS]**  [A Graduate Course on Applied
 Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"}
 by Boneh and Shoup (Version 0.5 posted on Jan. 4, 2020).
-* [The Joy of
+* **[R]** [The Joy of
   Cryptography](https://joyofcryptography.com/){:target="_blank"} by
   Mike Rosulek.
-* [Foundations of
+* **[G]** [Foundations of
   Cryptography](http://www.wisdom.weizmann.ac.il/~oded/foc-book.html){:target="_blank"}
-  by Goldreich. Two-volume gem for the advanced and
-  theory-savy readers.
+  by Oded Goldreich. Two-volume gem for the advanced and theory-savy
+  readers.
 
 ## Books on applied crypto
 
