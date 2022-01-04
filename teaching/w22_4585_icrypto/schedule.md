@@ -5,7 +5,7 @@ courseid: w22 485/585
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/w22_4585_icrypto/schedule/
-modified: <2021-12-29 Wed> 
+modified: <2021-01-04 Tue> 
 ---
 
 {% comment %}
@@ -16,6 +16,7 @@ modified: <2021-12-29 Wed>
 
 ## General guideline
 * [Zoom link](https://pdx.zoom.us/j/89374231084?pwd=eHg4UW53Q3F5KzVma0VBdmt1K2FKUT09) for joining lectures remotely, TR 14:00 - 15:50. 
+* Zoom link for [office hours](https://pdx.zoom.us/my/fang.song), XXX and by appointment.
 
 ## Schedule (subject to change)
 

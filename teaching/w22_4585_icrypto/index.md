@@ -4,9 +4,10 @@ title: (Winter 2022) CS 485/585 - Intro to Cryptography
 courseid: w22 485/585
 desc: w22 485/585
 permalink: /teaching/w22_4585_icrypto/
-modified: <2021-12-13 Mon> 
+modified: <2021-01-04 Tue> 
 ---
 ## Announcement
+*  <2021-01-04 Tue> Week 1 lectures will be delivered in [Zoom](https://pdx.zoom.us/j/89374231084?pwd=eHg4UW53Q3F5KzVma0VBdmt1K2FKUT09).
 *  <2021-12-13 Mon> Course page is up and running! Stay tuned~ 
 
 ## About
@@ -47,7 +48,7 @@ Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 (3rd edition) by [Jonathan
 Katz](http://www.cs.umd.edu/~jkatz){:target="_blank"} and [Yehuda
 Lindell](http://u.cs.biu.ac.il/~lindell/){:target="_blank"}. Chapman
-and Hall/CRC, Dec. 2020. On course reserve at PSU libary
+and Hall/CRC, Dec. 2020. On course reserve at PSU libary.
 [link](https://search.library.pdx.edu/permalink/f/p82vj0/CP71356832000001451).
 * **Useful materials**: see the
   [RESOURCE]({{base}}/teaching/w22_4585_icrypto/resource/) page.
