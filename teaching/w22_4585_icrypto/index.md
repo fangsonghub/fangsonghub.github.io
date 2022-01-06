@@ -4,7 +4,7 @@ title: (Winter 2022) CS 485/585 - Intro to Cryptography
 courseid: w22 485/585
 desc: w22 485/585
 permalink: /teaching/w22_4585_icrypto/
-modified: <2021-01-04 Tue> 
+modified: <2021-01-06 Thu> 
 ---
 ## Announcement
 *  <2021-01-04 Tue> Week 1 lectures will be delivered in [Zoom](https://pdx.zoom.us/j/89374231084?pwd=eHg4UW53Q3F5KzVma0VBdmt1K2FKUT09).
@@ -14,9 +14,9 @@ modified: <2021-01-04 Tue>
 *  **Syllabus**: [PDF]({{base}}/teaching/w22_4585_icrypto/w22_4585_icrypto_syllabus.pdf){:target="_blank"}.
 *  **Lectures**: Tu/Th 14:00 - 15:50 @ KMC (Karl Miller Center) 480.
 *  **Instructor**: [Fang Song]({{base}}/) (fsong
-   "AT" pdx.edu). **Office hours**: X, XX - XX @ Zoom.
-*  **Teaching assistant**:  ( "AT"
-   pdx.edu). **Office hours**: X, XX - XX @ . 
+   "AT" pdx.edu). **Office hours**: W, 13:00 - 14:30 @ Zoom (See link in Slack and Google Calendar).
+*  **Teaching assistant**:  Nikhil Pappu (nikpappu "AT"
+   pdx.edu). **Office hours**: M/F, 10 - 11:30 @ Zoom (See link in Slack and Google Calendar). 
 *  **Google classroom**: join with code _oxwi523_. 
 *  **Overview**: Cryptography is usually described as the _art_ of
 secret writing. The revolution of _modern_ cryptography, however, has

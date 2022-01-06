@@ -22,8 +22,8 @@ modified: <2021-01-04 Tue>
 
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
-|1| T,01/04 | Intro, Probability review | **KL** 1,A.1-A.3 <br> Note on probability [PDF](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"} |
-||R,01/06 | Perfect secrecy, one-time pad, limits | **KL** 2.1-2.3 |
+|1| T,01/04 | Intro | **KL** 1,A.1-A.3 <br> Note on probability [PDF](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"} |
+||R,01/06 | Perfect secrecy, one-time pad <br> limits | **KL** 2.1-2.3 |
 |2|T,01/11| Computational secrecy, stream ciphers <br> pseudorandom generators | **KL** 3.1 - 3.3 |
 ||R,01/13| Proof by reduction <br> Pseudorandom functions / permutations | **KL** 3.5,3.6 |
 |3|T,01/18|  Block ciphers <br> Chosen-Plaintext-Attacks | **KL** 7.2,3.4,3.5 <br> Supplement: **BS** 5 |
