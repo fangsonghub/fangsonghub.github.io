@@ -5,7 +5,7 @@ courseid: w22 485/585
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/w22_4585_icrypto/schedule/
-modified: <2021-01-04 Tue> 
+modified: <2021-01-06 Thu> 
 ---
 
 {% comment %}
@@ -16,16 +16,15 @@ modified: <2021-01-04 Tue>
 
 ## General guideline
 * [Zoom link](https://pdx.zoom.us/j/89374231084?pwd=eHg4UW53Q3F5KzVma0VBdmt1K2FKUT09) for joining lectures remotely, TR 14:00 - 15:50. 
-* Zoom link for [office hours](https://pdx.zoom.us/my/fang.song), XXX and by appointment.
 
 ## Schedule (subject to change)
 
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
 |1| T,01/04 | Intro | **KL** 1,A.1-A.3 <br> Note on probability [PDF](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"} |
-||R,01/06 | Perfect secrecy, one-time pad <br> limits | **KL** 2.1-2.3 |
-|2|T,01/11| Computational secrecy, stream ciphers <br> pseudorandom generators | **KL** 3.1 - 3.3 |
-||R,01/13| Proof by reduction <br> Pseudorandom functions / permutations | **KL** 3.5,3.6 |
+||R,01/06 | Perfect secrecy | **KL** 2.1-2.3 |
+|2|T,01/11| One-time pad and limits <br> Computational secrecy, stream ciphers | **KL** 3.1 - 3.3 |
+||R,01/13| Proof by reduction <br> Pseudorandom functions | **KL** 3.5,3.6 |
 |3|T,01/18|  Block ciphers <br> Chosen-Plaintext-Attacks | **KL** 7.2,3.4,3.5 <br> Supplement: **BS** 5 |
 ||R,01/20 | Message Authentication Codes | **KL** 4.1-4.3 <br> Supplement: **BS** 6 |
 |4|T,01/25 | MAC domain extension | **KL** 4.4 <br> Supplement: **BS** 6 |
