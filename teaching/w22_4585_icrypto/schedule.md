@@ -25,9 +25,9 @@ modified: <2021-01-11 Tue>
 ||R,01/06 | Perfect secrecy | **KL** 1.4,2.1 |
 |2|T,01/11| One-time pad and limits | **KL** 2.2,2.3 |
 ||R,01/13| Computational secrecy <br> Pseudorandom generators | **KL** 3.1 - 3.3 <br> Supplement: **KL** 7.1 |
-|3|T,01/18|  Proof by reduction <br> Block ciphers <br> Chosen-Plaintext-Attacks | **KL** 3.4 - 3.6 <br> Supplement: **KL** 7.2, **BS** 5 |
-||R,01/20 | Message Authentication Codes | **KL** 4.1-4.3 <br> Supplement: **BS** 6 |
-|4|T,01/25 | MAC domain extension | **KL** 4.4 <br> Supplement: **BS** 6 |
+|3|T,01/18|  Proof by reduction <br> Block ciphers | **KL** 3.3,3.5 <br> Supplement: **KL** 7.2, **BS** 5 |
+||R,01/20 | Chosen-Plaintext-Attacks <br> Message authentication codes | **KL** 3.4,4.1-4.3 <br> Supplement: **BS** 6 |
+|4|T,01/25 | Modes of operation <br> MAC domain extension | **KL** 3.6,4.4 <br> Supplement: **BS** 6 |
 ||R,01/27 | Hash functions <br> HMAC | **KL** 6.1-6.4 |
 |5|T,02/01| CCA and authenticated encryption | **KL** 5.1-5.3 |
 ||R,02/03 | Private-key primitives: <br> theoretical constructions | **KL** 8.1-8.7 |
