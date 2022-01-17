@@ -27,7 +27,7 @@ modified: <2021-01-17 Mon>
 ||R,01/13| Computational secrecy <br> Pseudorandom generators | **KL** 3.1 - 3.3 <br> Supplement: **KL** 7.1 |
 |3|T,01/18|  Proof by reduction <br> Block ciphers | **KL** 3.3,3.5.1 <br> Supplement: **KL** 7.2, **BS** 5 |
 ||R,01/20 | Chosen-Plaintext-Attacks | **KL** 3.4,3.5.2 <br> Supplement: **BS** 6 |
-|4|T,01/25 | <br> Message authentication codes <br> Modes of operation | **KL** 4.1 - 4.4,3.6 <br> Supplement: **BS** 6 |
+|4|T,01/25 | Message authentication codes <br> Modes of operation | **KL** 4.1 - 4.4,3.6 <br> Supplement: **BS** 6 |
 ||R,01/27 | Hash functions <br> HMAC | **KL** 6.1-6.4 |
 |5|T,02/01| CCA and authenticated encryption | **KL** 5.1-5.3 |
 ||R,02/03 | Private-key primitives: <br> theoretical constructions | **KL** 8.1-8.7 |
