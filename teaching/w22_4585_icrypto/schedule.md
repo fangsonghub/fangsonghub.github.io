@@ -5,7 +5,7 @@ courseid: w22 485/585
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/w22_4585_icrypto/schedule/
-modified: <2021-01-17 Mon> 
+modified: <2021-01-28 Fri> 
 ---
 
 {% comment %}
@@ -27,12 +27,12 @@ modified: <2021-01-17 Mon>
 ||R,01/13| Computational secrecy <br> Pseudorandom generators | **KL** 3.1 - 3.3 <br> Supplement: **KL** 7.1 |
 |3|T,01/18|  Proof by reduction <br> Block ciphers | **KL** 3.3,3.5.1 <br> Supplement: **KL** 7.2, **BS** 5 |
 ||R,01/20 | Chosen-Plaintext-Attacks | **KL** 3.4,3.5.2 <br> Supplement: **BS** 6 |
-|4|T,01/25 | Message authentication codes <br> Modes of operation | **KL** 4.1 - 4.4,3.6 <br> Supplement: **BS** 6 |
-||R,01/27 | Hash functions <br> HMAC | **KL** 6.1-6.4 |
-|5|T,02/01| CCA and authenticated encryption | **KL** 5.1-5.3 |
-||R,02/03 | Private-key primitives: <br> theoretical constructions | **KL** 8.1-8.7 |
-|6|T,02/08| Computational indistinguishability <br> PKC evolution | **KL** 8.8,11,12.1,12.2 <br> History of PKC: [Diffie](http://cr.yp.to/bib/1988/diffie.pdf){:target="_blank"}, [Merkle's Project Proposal](http://www.merkle.com/1974/){:target="_blank"}, [CESG](http://cryptome.org/jya/ellisdoc.htm){:target="_blank"} |
-||R,02/10 | Number theory review <br> TDP & RSA | **KL** 9.1,9.2,15.1,12.5 <br> Note on algebra [PDF](https://people.eecs.berkeley.edu/~luca/cs276/notesalgebra.pdf){:target="_blank"}|
+|4|T,01/25 | CPA-secure encryption <br> Message authentication codes | **KL** 4.1 - 4.4 |
+||R,01/27 | DES and AES <br> Modes of operation | **KL** 3.6,7.2 <br> Supplement: **BS** 5.3,6.4,6.5 |
+|5|T,02/01| MAC domain extension <br> Hash functions and HMAC | **KL** 4.3,6.1-6.4 |
+||R,02/03 | CCA and authenticated encryption | **KL** 5.1-5.3 |
+|6|T,02/08| Private-key primitives: <br> theoretical constructions <br> PKC evolution | **KL** 8,11,12.1 <br> History of PKC: [Diffie](http://cr.yp.to/bib/1988/diffie.pdf){:target="_blank"}, [Merkle's Project Proposal](http://www.merkle.com/1974/){:target="_blank"}, [CESG](http://cryptome.org/jya/ellisdoc.htm){:target="_blank"} |
+||R,02/10 | Number theory review <br> TDP & RSA | **KL** 9.1,9.2,12.2,12.5,15.1 <br> Note on algebra [PDF](https://people.eecs.berkeley.edu/~luca/cs276/notesalgebra.pdf){:target="_blank"}|
 |7|T,02/15| Group thoery review <br> Diffie-Hellman & ElGamal <br> KEM/DEM | **KL** 9.3,12.4,12.3|
 ||R,02/17 | Lattice-crypto | **KL** 14.3 <br> LWE tutorial by Regev [[PDF](https://cims.nyu.edu/~regev/papers/lwesurvey.pdf){:target="_blank"} [PPT](http://www.cims.nyu.edu/~regev/papers/lwesurvey.ppt){:target="_blank"}] |
 |8|T,02/22| Digital signatures | **KL** 13.1-13.3 |
