@@ -4,7 +4,7 @@ title: (Winter 2022) CS 485/585 - Intro to Cryptography
 courseid: w22 485/585
 desc: w22 485/585
 permalink: /teaching/w22_4585_icrypto/
-modified: <2021-01-06 Thu> 
+modified: <2021-02-08 Tue> 
 ---
 ## Announcement
 *  <2021-01-04 Tue> Week 1 lectures will be delivered in [Zoom](https://pdx.zoom.us/j/89374231084?pwd=eHg4UW53Q3F5KzVma0VBdmt1K2FKUT09).
