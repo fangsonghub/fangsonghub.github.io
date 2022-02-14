@@ -34,7 +34,7 @@ modified: <2021-02-08 Tue>
 |6|T,02/08| Private-key primitives: <br> theoretical constructions | **KL** 8 |
 ||R,02/10 | Hybrid argument <br> PKC evolution | **KL** 8.8,11,12.1,12.2 <br> History of PKC: [Diffie](http://cr.yp.to/bib/1988/diffie.pdf){:target="_blank"}, [Merkle's Project Proposal](http://www.merkle.com/1974/){:target="_blank"}, [CESG](http://cryptome.org/jya/ellisdoc.htm){:target="_blank"} |
 |7|T,02/15| Math review <br> TDP & RSA <br> Diffie-Hellman & ElGamal | **KL** 9.1-9.3,12.4,12.5 <br> Note on algebra [PDF](https://people.eecs.berkeley.edu/~luca/cs276/notesalgebra.pdf){:target="_blank"} |
-||R,02/17 | KEM/DEM <br> Lattice-crypto | **KL** 12.3,14.3 <br> LWE tutorial by Regev [[PDF](https://cims.nyu.edu/~regev/papers/lwesurvey.pdf){:target="_blank"} [PPT](http://www.cims.nyu.edu/~regev/papers/lwesurvey.ppt){:target="_blank"}] |
+||R,02/17 | KEM/DEM <br> Lattice-crypto | **KL** 12.3,14.3 <br> LWE tutorial by Regev [[PDF](https://cims.nyu.edu/~regev/papers/lwesurvey.pdf){:target="_blank"} [PPT](http://www.cims.nyu.edu/~regev/papers/lwesurvey.ppt){:target="_blank"}] Peikert's tutorial [Youtube](https://youtu.be/K_fNK04yG4o){:target="_blank"} |
 |8|T,02/22| Digital signatures | **KL** 13.1-13.3 |
 ||R,02/24 | Random-oracle <br> PKC with RO | **KL** 6.5,12.5.4,13.4|
 |9|T,03/01| TLS <br> (Post-)Quantum cryptography | **KL** 13.6,13.7,14 <br> FS's talk [Slides [PDF]({{base}}/files/talks/201611_fspqcasia.pdf){:target="_blank"}] [[Video](https://www.youtube.com/watch?v=n39-FOmNh5g){:target="_blank"}] |
