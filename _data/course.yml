@@ -1,5 +1,58 @@
 # course pages
 
+# F22 ToC
+
+- courseid: f22 581
+  title: CS 581
+  title: (Fall 2022) CS 581 - Theory of computation
+  desc: f22 581
+  nav: true
+  url: /teaching/f22_581_toc/
+
+- courseid: f22 581
+  title: CS 581
+  desc: Schedule
+  nav: true
+  url: /teaching/f22_581_toc/schedule/
+
+- courseid: f22 581
+  title: CS 581
+  desc: Resource
+  nav: true
+  url: /teaching/f22_581_toc/resource/
+
+- courseid: f22 581
+  title: CS 581
+  desc: Admin
+  nav: false
+  url: /teaching/f22_581_toc/admin/
+
+# F22 QC
+
+- courseid: f22 410/510
+  title: (Fall 2022) CS 410/510 - Intro to Quantum Computing
+  desc: f22 410/510
+  nav: true
+  url: /teaching/f22_4510_qc/
+
+- courseid: f22 410/510
+  title: CS 410/510 
+  desc: Schedule
+  nav: true
+  url: /teaching/f22_4510_qc/schedule/
+
+- courseid: f22 410/510
+  title: (Fall 2022) CS 410/510 - Intro to Quantum Computing
+  desc: Resource
+  nav: true
+  url: /teaching/f22_4510_qc/resource/
+
+- courseid: f22 410/510
+  title: CS 410/510 
+  desc: Project
+  nav: true
+  url: /teaching/f22_4510_qc/project/
+
 # W22 ICrypto
 
 - courseid: w22 485/585
