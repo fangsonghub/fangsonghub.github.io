@@ -7,11 +7,11 @@ modified: <2022-03-21 Mon>
 ## Current courses
 
 {% comment %}
-
 {% endcomment %}
-* CS 581 **Theory of computation** [Fall 2022]({{ base }}/teaching/f22_581_toc/)
-* CS 410/510 **Introduction to Quantum Computing** [Fall 2022]({{ base
+*  CS 581 **Theory of computation** [Fall 2022]({{ base }}/teaching/f22_581_toc/)
+*  CS 410/510 **Introduction to Quantum Computing** [Fall 2022]({{ base
   }}/teaching/f22_4510_qc/)
+  
 - - -
 ## Past courses
 
