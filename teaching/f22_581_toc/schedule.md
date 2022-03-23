@@ -46,6 +46,4 @@ modified: <2022-03-21 Mon>
 |  | Th,11/25 |Thanksgiving <br> No Class |  |
 |10| T,11/30| Zero-knowledge proofs | **AB** 9.4 |
 || Th, 12/02| Selected topics <br> Wrap-up | |
-
-
 {% endcomment %}
