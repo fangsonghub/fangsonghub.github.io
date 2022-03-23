@@ -1,7 +1,7 @@
 ---
 layout: course
-title: (Fall 2022) CS 581 - Theory of computation 
-subtitle: Schedule (subject to change)
+title: (Fall 2022) CS 581 -- Theory of computation 
+subtitle: Schedule
 courseid: f22 581
 desc: Schedule
 permalink: /teaching/f22_581_toc/schedule/
@@ -18,11 +18,13 @@ modified: <2022-03-21 Mon>
 * [Zoom link]() to join lectures remotely, TR 14:00 - 15:15. 
 
 ## Schedule (subject to change)
+
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
 |1| T,09/27  |  | |
 | | Th,09/29 |  | |
 {:.mbtablestylef}
+
 {% comment %}
 |1| T,09/28  | Intro <br> Warmup: finite automata | **W** [Chapter 20](https://www.math.ias.edu/files/Book-online-Aug0619.pdf#page=1){:target="_blank"}, **AB** Chapter 0,1.1 <br> Barak [note](https://introtcs.org/public/lec_00_1_math_background.html){:target="_blank"}, Watrous [note](https://cs.uwaterloo.ca/~watrous/ToC-notes/ToC-notes.02.pdf){:target="_blank"} |
 || Th,09/30 | Review: Turing machines | **AB** 1.2-1.5| 

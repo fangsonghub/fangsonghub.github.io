@@ -3,7 +3,7 @@ layout: course
 title: (Fall 2022) CS 410/510 - Intro to Quantum Computing
 courseid: f22 410/510
 desc: Resource
-permalink: /teaching/s22_4510_qc/resource/
+permalink: /teaching/f22_4510_qc/resource/
 modified: <2022-03-21 Mon>
 ---
 

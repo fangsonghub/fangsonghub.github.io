@@ -2,7 +2,7 @@
 layout: course
 courseid: f22 410/510
 title: (Fall 2022) CS 410/510 - Intro to Quantum Computing
-subtitle: Schedule (subject to change)
+subtitle: Schedule 
 desc: Schedule
 permalink: /teaching/f22_4510_qc/schedule/
 modified: <2022-03-21 Mon>
@@ -12,6 +12,7 @@ modified: <2022-03-21 Mon>
 * [Zoom link]() to join lectures remotely, TR 10:00 - 11:50. 
 
 ## Schedule (subject to change)
+
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
 |1| T,09/27  |  | |
