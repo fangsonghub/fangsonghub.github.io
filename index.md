@@ -41,8 +41,6 @@ research.
 {{ news.excerpt }}
 {% endcomment %}
 
-*  <2021-10-04 Mon> Our department has multiple faculty positions available this year, and **Theory** is a focus area. See details [here](https://www.pdx.edu/computer-science/open-faculty-positions){:target="_blank"}, and send in your strong applications!
-*  <2021-02-22 Mon> I have a postdoc position available. Find out more [here]({{base}}/files/docs/recruit_fangsong.pdf){:target="_blank"}. 
 * Read [more]({{base}}/news/) ...
 
 
