@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Activities
-modified: <2021-03-10 Wed>
+modified: <2022-03-29 Tue>
 ---
 
 ## Conference Program Committee Member
@@ -23,3 +23,10 @@ modified: <2021-03-10 Wed>
 *  **Quantum day at Portland** [mini-symposium]({{base}}/activity/w17qpdx) at Portland State University. January 13, 2017.
 *   **Post-quantum crypto** [seminar](https://sites.google.com/site/uwaterloopqcrypto/) at University of Waterloo. April 2015 - August. 2016
 
+## Others
+
+*  Served on the committee for **Student Travel Award** at [QIP
+   2022](https://web.cvent.com/event/8adf8248-432b-499c-91e2-63b83ba3f69e/websitePage:b3f54ea9-bbff-49bb-9678-d3b193c87086){:target="_blank"}
+   with [Ángela Capel
+   Cuevas](https://angelacapel.wixsite.com/mysite){:target="_blank"}
+   and [Penghui Yao](http://penghuiyao.info/){:target="_blank"}.
