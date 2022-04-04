@@ -2,7 +2,7 @@
 layout: page
 title: Advising
 excerpt: Advising and mentoring
-modified: <2022-03-22 Tue>
+modified: <2022-04-04 Mon>
 ---
 
 * <2022-03-07 Mon> I have a postdoc position
@@ -17,7 +17,7 @@ are interested in TCS and/or working with me.
 
 *  2021.09 - . [Nikhil Pappu](http://nikhilpappu.info/){:target="_blank"} @ Portland State U. 
 *  2021.09 - . [Mehil Agarwal](){:target="_blank"} @ Portland State U. 
-*  2020.06 - . [Chuhan Lu](){:target="_blank"} @ Portland State U (2019.09 - 2020.05 @ Texas A&M U).
+*  2020.06 - . [Chuhan Lu](https://chuhanlu.github.io/){:target="_blank"} @ Portland State U (2019.09 - 2020.05 @ Texas A&M U).
 *  2020.09 - . [Ben Hamlin](){:target="_blank"} @ Portland State U (2018.09 - 2019.05 @ Texas A&M U).
 {% comment %}
 *  2019.09 - 2020.05. [Mufeng Xie](){:target="_blank"} @ Texas A&M U.
