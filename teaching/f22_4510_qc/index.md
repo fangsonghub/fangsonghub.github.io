@@ -4,7 +4,7 @@ title: (Fall 2022) CS 410/510 - Intro to Quantum Computing
 courseid: f22 410/510
 desc: f22 410/510
 permalink: /teaching/f22_4510_qc/
-modified: <2022-03-21 Mon>
+modified: <2022-04-25 Mon>
 ---
 
 ## Announcement
@@ -16,7 +16,7 @@ modified: <2022-03-21 Mon>
 *  **Instructor**: Prof. [Fang Song]({{base}}/) 
 *  **Email**: fsong "AT" pdx.edu. Please start your email subject line
    with "f22-4510-qc". 
-*  **Lectures**: TR xx - xx @ xxx
+*  **Lectures**: TR 10:00 - 11:50 @ EB 92
 *  **Office hours**: xxx
 *  **Google classroom**: join with code _xxx_.
 *  **Overview**: The law of quantum physics enables quantum computing,

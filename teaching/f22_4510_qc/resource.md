@@ -17,18 +17,17 @@ modified: <2022-03-21 Mon>
 ## Recommended texts/readings
 *  [**LR**] Richard Lipton and Kenneth Regan, **Introduction to
   Quantum Algorithms via Linear Algebra**, 2nd Edition, MIT Press. PSU
-  library [online
-  access](https://search.library.pdx.edu/permalink/f/p82vj0/CP71348959980001451){:target="_blank"}.
+  [library eLink](https://search.library.pdx.edu/permalink/f/p82vj0/CP71348959980001451){:target="_blank"}.
 *  [**KLM**] Phillip Kaye, Raymond Laflamme, Michele Mosca, **An
        Introduction to Quantum Computing**, Oxford University Press
-       (2007). [Library
-       elink](https://search.library.pdx.edu/permalink/f/p82vj0/CP71189200070001451){:target="_blank"}
+       (2007). PSU [Library
+       eLink](https://search.library.pdx.edu/permalink/f/p82vj0/CP71189200070001451){:target="_blank"}
        ([Errata](http://qcintro.com/))
 *  [**NC**] Michael A. Nielsen and Isaac L. Chuang, **Quantum
    Computation and Quantum Information**, 10th anniversary ed.,
-   Cambridge University Press (2010). [Library
-   elink](https://search.library.pdx.edu/permalink/f/p82vj0/CP51230839460001451){:target="_blank"}
-*  [**Aaronson**] Scott Aaronson, **Quantum Computing since Democritus**, Cambridge University Press (2013). [PSU Library
+   Cambridge University Press (2010). PSU [Library
+   eLink](https://search.library.pdx.edu/permalink/f/p82vj0/CP51230839460001451){:target="_blank"}
+*  [**Aaronson**] Scott Aaronson, **Quantum Computing since Democritus**, Cambridge University Press (2013). PSU [Library
 eLink](https://search.library.pdx.edu/permalink/f/p82vj0/CP51230864080001451){:target="_blank"}
 
 ## Courses elsewhere 

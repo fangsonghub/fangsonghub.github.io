@@ -4,7 +4,7 @@ title: (Fall 2022) CS 581 - Theory of computation
 courseid: f22 581
 desc: f22 581
 permalink: /teaching/f22_581_toc/
-modified: <2022-03-21 Mon>
+modified: <2022-04-25 Mon>
 ---
 
 ## Announcement
@@ -16,7 +16,7 @@ modified: <2022-03-21 Mon>
 *  **Instructor**: Prof. [Fang Song]({{base}}/) 
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
    with "f22-581-toc". Slack is preferred. 
-*  **Lectures**: TR 14:00 - 15:15 @ xxx
+*  **Lectures**: TR 14:00 - 15:15 @ FAB 46
 *  **Office hours**: xxx
 *  **TA**: xxx. **Office hours**: xxx. 
 *  **Google classroom**: join with code _xxx_. 
