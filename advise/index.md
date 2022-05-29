@@ -2,26 +2,28 @@
 layout: page
 title: Advising
 excerpt: Advising and mentoring
-modified: <2022-04-04 Mon>
+modified: <2022-05-30 Mon>
 ---
 
+{% comment %}
 * <2022-03-07 Mon> I have a postdoc position
     available. Please find [more information here]({{base}}/files/docs/recruit_fangsong.pdf){:target="_blank"}. 
-		
+{% endcomment %}
+
 ### Ph.D. 
 
 Self-motivated students are welcome to apply by following the official
-[instructions](https://www.pdx.edu/computer-science/graduate-admission). Individual
-inquiries will not be responded, unless you make a clear case why you
-are interested in TCS and/or working with me.
+[instructions](https://www.pdx.edu/computer-science/graduate-admission). I
+am unable to respond all inquiries, unless you make a clear case why
+you are interested in TCS and/or working with me.
 
 *  2021.09 - . [Nikhil Pappu](http://nikhilpappu.info/){:target="_blank"} @ Portland State U. 
 *  2021.09 - . [Mehil Agarwal](){:target="_blank"} @ Portland State U. 
 *  2020.06 - . [Chuhan Lu](https://chuhanlu.github.io/){:target="_blank"} @ Portland State U (2019.09 - 2020.05 @ Texas A&M U).
 *  2020.09 - . [Ben Hamlin](){:target="_blank"} @ Portland State U (2018.09 - 2019.05 @ Texas A&M U).
+
 {% comment %}
 *  2019.09 - 2020.05. [Mufeng Xie](){:target="_blank"} @ Texas A&M U.
-
 
 ### M.S. 
 
@@ -30,7 +32,7 @@ are interested in TCS and/or working with me.
 
 ### Undergraduate 
 
-* 2020.06 - . Jackson Morris (undergraduate student at UCLA). 
+* 2020.06 - 2021.04. Jackson Morris (undergraduate student at UCLA). 
 * 2019.09 -  2020.04. Davis Beilue. Undergraduate Research Scholars (thesis), Texas A&M University. 
 * 2019.09 -  2020.04. Darryl Cherian Jacob. Undergraduate Research Scholars (thesis), Texas A&M University. 
 * 2016.09 - 2017.06. Marko Balogh. Honors Thesis, Portland State University.

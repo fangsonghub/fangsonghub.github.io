@@ -1,9 +1,24 @@
 ---
 layout: page
 title: News
-modified: <2021-10-04 Mon>
+modified: <2022-05-30 Mon>
 ---
 ## {{ page.title }}
+* <2022-05-23 Mon> I'll be participating in the _Summer Cluster_: [Lattices
+  and Beyond](https://simons.berkeley.edu/programs/extended-reunion-lattices2022) in concurrent with the Extended Reunion: [The Quantum Wave in Computing](https://simons.berkeley.edu/programs/extended-reunion-quantum2022) at the [Simons Institute for the Theory of Computing](https://simons.berkeley.edu/) during May 23 – Jun. 24, 2022. 
+* <2022-04-26 Tue> I'll visit [IPAM](http://www.ipam.ucla.edu/) and
+  give a lecture at the Graduate Summer School on [Post-quantum and
+  Quantum
+  Cryptography](http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-post-quantum-and-quantum-cryptography/)during
+  July 25 -- 29, 2022.
+* <2022-03-21 Mon> I have received a [Facluty Innovation
+  Award](https://www.sony.com/en/SonyInfo/research-award-program/) via
+  the Sony Research Award program. Thanks **SONY Group**!
+*  <2022-03-21 Mon> I'll be serving on the program committee of the
+   28th Annual International Conference on the Theory and Application
+   of Cryptology and Information Security ([Asiacrypt
+   2022](https://asiacrypt.iacr.org/2022/)). Please submit your
+   excellent papers!
 *  <2021-10-04 Mon> Our department has multiple faculty positions available this year, and **Theory** is a focus area. See details [here](https://www.pdx.edu/computer-science/open-faculty-positions){:target="_blank"}, and send in your strong applications!
 *  <2021-02-22 Mon> I have a postdoc position available. Find out more [here]({{base}}/files/docs/recruit_fangsong.pdf){:target="_blank"}. 
 *  <2021-02-01 Mon> I'm serving on the program committee of the 41st
