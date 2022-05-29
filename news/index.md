@@ -11,7 +11,7 @@ modified: <2022-05-30 Mon>
   Quantum
   Cryptography](http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-post-quantum-and-quantum-cryptography/)
   during July 25 -- 29, 2022.
-* <2022-03-21 Mon> I have received a [Facluty Innovation
+* <2022-03-21 Mon> I have received a [Faculty Innovation
   Award](https://www.sony.com/en/SonyInfo/research-award-program/) via
   the Sony Research Award program. Thanks **SONY Group**!
 *  <2022-03-21 Mon> I'll be serving on the program committee of the

@@ -18,7 +18,7 @@ Optimization](http://math.uwaterloo.ca/combinatorics-and-optimization/)
 at the [University of Waterloo](http://uwaterloo.ca). I completed my
 PhD in 2013 in [Computer Science and
 Engineering](http://www.cse.psu.edu/) at the [Pennsylvania State
-University](http://www.psu.edu), under the supervision of Prof. [Sean
+University](http://www.psu.edu), under the supervision of [Sean
 Hallgren](http://www.cse.psu.edu/~hallgren). Prior to that, I received
 my bachelor's degree from [University of Science & Technology of
 China](http://en.ustc.edu.cn/) in 2008.
@@ -50,7 +50,7 @@ funding my research.
   Quantum
   Cryptography](http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-post-quantum-and-quantum-cryptography/)
   during July 25 -- 29, 2022.
-* <2022-03-21 Mon> I have received a [Facluty Innovation
+* <2022-03-21 Mon> I have received a [Faculty Innovation
   Award](https://www.sony.com/en/SonyInfo/research-award-program/) via
   the Sony Research Award program. Thanks **SONY Group**!
 * Read [more]({{base}}/news/) ...
