@@ -26,8 +26,11 @@ China](http://en.ustc.edu.cn/) in 2008.
 My research interests lie in cryptography, especially
 provable-security in the presence of quantum attacks, quantum
 algorithms, computational complexity and theoretical computer science
-broadly. I'm grateful to the [National Science Foundation](https://www.nsf.gov/){:target="_blank"} (including a Career Award) and [SONY Group](https://www.sony.com/en/SonyInfo/research-award-program/) for funding my
-research.
+broadly. I'm grateful to the [National Science
+Foundation](https://www.nsf.gov/){:target="_blank"} (including a
+Career Award) and the [SONY
+Group](https://www.sony.com/en/SonyInfo/research-award-program/) for
+funding my research.
 
 --- 
 
@@ -40,13 +43,13 @@ research.
 {% assign news = site.pages | where: "title", "News" | first%}
 {{ news.excerpt }}
 {% endcomment %}
-* <2022-05-23 Mon> I'll be participating in the _Summer Cluster_: [Lattices
-  and Beyond](https://simons.berkeley.edu/programs/extended-reunion-lattices2022) in concurrent with the Extended Reunion: [The Quantum Wave in Computing](https://simons.berkeley.edu/programs/extended-reunion-quantum2022) at the [Simons Institute for the Theory of Computing](https://simons.berkeley.edu/) during May 23 – Jun. 24, 2022. 
+* <2022-05-23 Mon> I'll be participating in the [Summer Cluster: Lattices
+  and Beyond](https://simons.berkeley.edu/programs/extended-reunion-lattices2022) in concurrent with the [Extended Reunion: The Quantum Wave in Computing](https://simons.berkeley.edu/programs/extended-reunion-quantum2022) at the [Simons Institute for the Theory of Computing](https://simons.berkeley.edu/) during May 23 – Jun. 24, 2022. 
 * <2022-04-26 Tue> I'll visit [IPAM](http://www.ipam.ucla.edu/) and
-  give a lecture at the Graduate Summer School on [Post-quantum and
+  give a lecture at the [Graduate Summer School on Post-quantum and
   Quantum
-  Cryptography](http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-post-quantum-and-quantum-cryptography/)during
-  July 25 -- 29, 2022.
+  Cryptography](http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-post-quantum-and-quantum-cryptography/)
+  during July 25 -- 29, 2022.
 * <2022-03-21 Mon> I have received a [Facluty Innovation
   Award](https://www.sony.com/en/SonyInfo/research-award-program/) via
   the Sony Research Award program. Thanks **SONY Group**!
