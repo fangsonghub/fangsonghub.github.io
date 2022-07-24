@@ -32,13 +32,13 @@ modified: <2022-07-22 Fri>
 *   _Spring 2016: QIC 891_ **Topics in Quantum Safe Cryptography. Module 1**: [Post-Quantum Cryptography]({{ base }}/teaching/s16_uw_pqc/), University of Waterloo.
 *   _Spring 2015: QIC 890/891_ **Advanced Topics in Quantum Information. Module 1: Quantum algorithms for number theory problems**, University of Waterloo.
     *   Lecture notes: [[Lecture 1]({{ base
-        }}/teaching/su15_uw_qalg/qhsp_lec1.pdf){target="_blank"}]
+        }}/teaching/su15_uw_qalg/qhsp_lec1.pdf){:target="_blank"}]
         [[Lecture 2]({{ base
-        }}/teaching/su15_uw_qalg/qhsp_lec2.pdf){target="_blank"}]
+        }}/teaching/su15_uw_qalg/qhsp_lec2.pdf){:target="_blank"}]
         [[Lecture 3]({{ base
-        }}/teaching/su15_uw_qalg/qhsp_lec3.pdf){target="_blank"}]
+        }}/teaching/su15_uw_qalg/qhsp_lec3.pdf){:target="_blank"}]
         [[Lecture 4]({{ base
-        }}/teaching/su15_uw_qalg/qhsp_lec4.pdf){target="_blank"}]
+        }}/teaching/su15_uw_qalg/qhsp_lec4.pdf){:target="_blank"}]
 		
 #### Teaching Assistant at Penn State 
 *   _CMPSC 464_ **Introduction to Theory of Computation** by Prof. [Sean Hallgren](http://www.cse.psu.edu/~hallgren) [Fall 2011, Spring 2011]  
