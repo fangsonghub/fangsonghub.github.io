@@ -14,6 +14,7 @@ modified: <2022-05-30 Mon>
 * **PKC** (Public Key Cryptography) [2021](https://pkc.iacr.org/2021/){:target="_blank"} [2017](http://www.iacr.org/workshops/pkc2017/index.php){:target="_blank"}
 * **PQCrypto** (Post-Quantum Cryptography) [2019](http://pqcrypto2019.org/){:target="_blank"} [2018](http://www.math.fau.edu/pqcrypto2018/){:target="_blank"} [2017](https://2017.pqcrypto.org/conference/){:target="_blank"}
 * **QCrypt** (Quantum Cryptography) [2020](https://2020.qcrypt.net/){:target="_blank"}
+* **Quantum Crypto Workshop** [2022](https://qcw2022.github.io/quantum-cryptography-workshop-2022/){:target="_blank"}, affiliated event of [Asiacrypt 2022](http://asiacrypt.iacr.org/2022/){:target="_blank"}. 
 * **QIP** (Quantum Information Processing) [2017](https://www.stationq.com/qip-2017/){:target="_blank"}
 * **SAC** (Selected Areas in Cryptography) [2019](https://uwaterloo.ca/selected-areas-in-cryptography/){:target="_blank"}
 * **TQC** (Theory of Quantum Computation, Communication and Cryptography) [2018](https://www.tqc2018.org/){:target="_blank"}

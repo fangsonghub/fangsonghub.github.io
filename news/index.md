@@ -1,9 +1,14 @@
 ---
 layout: page
 title: News
-modified: <2022-05-30 Mon>
+modified: <2022-07-26 Tue>
 ---
 ## {{ page.title }}
+* <2022-07-26 Tue> I'll be serving on the program committee of the
+  [Quantum Crypto
+  Workshop](https://qcw2022.github.io/quantum-cryptography-workshop-2022/){:target="_blank"}
+  affiliated with [Asiacrypt
+  2022](http://asiacrypt.iacr.org/2022/){:target="_blank"}. Submit your best work by August 31, 2022. 
 * <2022-05-23 Mon> I'll be participating in the [Summer Cluster: Lattices
   and Beyond](https://simons.berkeley.edu/programs/extended-reunion-lattices2022) in concurrent with the [Extended Reunion: The Quantum Wave in Computing](https://simons.berkeley.edu/programs/extended-reunion-quantum2022) at the [Simons Institute for the Theory of Computing](https://simons.berkeley.edu/) during May 23 – Jun. 24, 2022. 
 * <2022-04-26 Tue> I'll visit [IPAM](http://www.ipam.ucla.edu/) and

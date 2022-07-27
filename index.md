@@ -43,11 +43,13 @@ funding my research.
 {% assign news = site.pages | where: "title", "News" | first%}
 {{ news.excerpt }}
 {% endcomment %}
-* <2022-04-26 Tue> I'll visit [IPAM](http://www.ipam.ucla.edu/) and
-  give a lecture at the [Graduate Summer School on Post-quantum and
-  Quantum
-  Cryptography](http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-post-quantum-and-quantum-cryptography/)
-  during July 25 -- 29, 2022.
+
+* <2022-07-26 Tue> I'll be serving on the program committee of the
+  [Quantum Crypto
+  Workshop](https://qcw2022.github.io/quantum-cryptography-workshop-2022/){:target="_blank"}
+  affiliated with [Asiacrypt
+  2022](http://asiacrypt.iacr.org/2022/){:target="_blank"}. Submit your best work by August 31, 2022. 
+
 * Read [more]({{base}}/news/) ...
 
 

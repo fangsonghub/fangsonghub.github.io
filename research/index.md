@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt:
-modified: <2021-12-13 Mon>
+modified: <2022-07-26 Tue>
 ---
 * Table of Contents
 {:toc}
@@ -13,7 +13,7 @@ modified: <2021-12-13 Mon>
        Tessaro](https://homes.cs.washington.edu/~tessaro/)
 	*  In _the 19th Theory of Cryptography Conference ([TCC
        2021](https://tcc.iacr.org/2021/){:target="_blank"})_.
-	*  [[Springer](){:target="_blank"}] [[arXiv](https://arxiv.org/abs/2105.01242){:target="_blank"}] [IACR [ePrint](https://eprint.iacr.org/2021/579){:target="_blank"}]
+	*  [[Springer](https://doi.org/10.1007/978-3-030-90459-3_8){:target="_blank"}] [[arXiv](https://arxiv.org/abs/2105.01242){:target="_blank"}] [IACR [ePrint](https://eprint.iacr.org/2021/579){:target="_blank"}]
 * **Oblivious Transfer is in MiniQCrypt**
     *  Authors: [Alex B. Grilo](https://abgrilo.org/), [Huijia
        Lin](https://homes.cs.washington.edu/~rachel/), Fang Song,
@@ -121,10 +121,22 @@ modified: <2021-12-13 Mon>
     *   Poster at [QIP'16](http://ucalgary.ca/qip2016/).
     *   Mentioned in "[A Tricky Path to Quantum-Safe Encryption](https://www.quantamagazine.org/20150908-quantum-safe-encryption)'', _Quanta Magazine_, September 9, 2015.
 
+- - - 
+
+## Grant awards
+
 - - -
 
-## Other Talks 
-*  Invited tutorial at the [9th International Conference on Quantum Cryptography](http://2019.qcrypt.net/), Montreal, Canada, August 28, 2019. **Zero-knowledge proofs meet quantum computing**. [Slides [PDF]({{base}}/files/talks/201908_qcrypt_zk.pdf){:target="_blank"}]
+## Selected Talks
+
+Information about conferences talks are typically under the
+publication list.
+
+*  Tutorial on Quantum Computing at [IPAM Graduate Summer School on Post-quantum and Quantum Cryptography](http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-post-quantum-and-quantum-cryptography/?tab=schedule), July 25 - 29, 2022. [Hand-written notes [PDF]({{base}}/files/talks/2022_ipam_qc_live.pdf){:target="_blank"}]
+*  Invited tutorial at the [9th International Conference on Quantum
+   Cryptography](http://2019.qcrypt.net/), Montreal, Canada, August
+   28, 2019. **Zero-knowledge proofs meet quantum computing**. [Slides
+   [PDF]({{base}}/files/talks/201908_qcrypt_zk.pdf){:target="_blank"}]
 *  Invited talk at the [2nd IAMCS Quantum Computation and Information Workshop](https://iamcs.tamu.edu/quantum-computation-and-information-workshop), TAMU, May
 13-15, 2019. **Cryptography from NP Hardness: can quantum help?**. [Slides [PDF]({{base}}/files/talks/2IAMCS-Worst2Avg-Song.pdf){:target="_blank"}]
 *  Invited talk at the [AMS Spring Central and Western Joint Sectional
