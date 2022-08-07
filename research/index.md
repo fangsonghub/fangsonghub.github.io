@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt:
-modified: <2022-07-26 Tue>
+modified: <2022-08-07 Sun>
 ---
 * Table of Contents
 {:toc}
@@ -29,7 +29,7 @@ modified: <2022-07-26 Tue>
 	*  [[Quantum](https://doi.org/10.22331/q-2020-08-27-312){:target="_blank"}] [[arXiv](https://arxiv.org/abs/1804.10309){:target="_blank"}]
 *  **Quantum-secure message authentication via blind-unforgeability** 
     *  Authors: [Gorjan Alagic](https://www.alagic.org/), [Christian
-       Majenz](), [Alexander Russell](https://russell.engr.uconn.edu/), and Fang Song
+       Majenz](https://www.christianmajenz.info/about-me.html), [Alexander Russell](https://russell.engr.uconn.edu/), and Fang Song
 	*  In _the 39th Annual International Conference on the Theory and Applications of Cryptographic Techniques ([EUROCRYPT 2020](https://eurocrypt.iacr.org/2020/){:target="_blank"})_.
 	*  [[arXiv](https://arxiv.org/abs/1803.03761){:target="_blank"}]
 *   **A note on the instantiability of the quantum random oracle**
@@ -133,6 +133,13 @@ Information about conferences talks are typically under the
 publication list.
 
 *  Tutorial on Quantum Computing at [IPAM Graduate Summer School on Post-quantum and Quantum Cryptography](http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-post-quantum-and-quantum-cryptography/?tab=schedule), July 25 - 29, 2022. [Hand-written notes [PDF]({{base}}/files/talks/2022_ipam_qc_live.pdf){:target="_blank"}]
+* **Quantum-secure key-length extension**, invited Zoom talk at the
+[EWHA-KMS International Workshop on Cryptography](https://sites.google.com/view/ewha-kms-iwc-2021/home), June 2021.
+*  **Unpredictable Functions and Quantum-secure Authentication**,
+invited Zoom talk at the International Joint Conference on Theoretical
+Computer Science ([IJTCS](https://econcs.pku.edu.cn/ijtcs2020/IJTCS2020.html)), August 2020.
+*  **Cybersecurity in a quantum world**, invited Zoom talk at the
+[Portland quantum computing meetup](https://www.meetup.com/portland-quantum-computing-meetup-group/events/271106230/) group, August 2020.
 *  Invited tutorial at the [9th International Conference on Quantum
    Cryptography](http://2019.qcrypt.net/), Montreal, Canada, August
    28, 2019. **Zero-knowledge proofs meet quantum computing**. [Slides
