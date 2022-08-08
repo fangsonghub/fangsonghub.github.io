@@ -32,6 +32,8 @@ Career Award) and the [SONY
 Group](https://www.sony.com/en/SonyInfo/research-award-program/) for
 funding my research.
 
+[[CV]({{base}}/files/docs/cv_fs.pdf){:target="_blank"}]
+
 --- 
 
 ## News

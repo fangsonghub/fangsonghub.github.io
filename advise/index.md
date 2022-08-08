@@ -2,7 +2,7 @@
 layout: page
 title: Advising
 excerpt: Advising and mentoring
-modified: <2022-05-30 Mon>
+modified: <2022-08-08 Mon>
 ---
 
 {% comment %}
@@ -18,7 +18,7 @@ am unable to respond all inquiries, unless you make a clear case why
 you are interested in TCS and/or working with me.
 
 *  2021.09 - . [Nikhil Pappu](http://nikhilpappu.info/){:target="_blank"} @ Portland State U. 
-*  2021.09 - . [Mehil Agarwal](){:target="_blank"} @ Portland State U. 
+*  2021.09 - . [Mehil Agarwal](https://mehil.info/){:target="_blank"} @ Portland State U. 
 *  2020.06 - . [Chuhan Lu](https://chuhanlu.github.io/){:target="_blank"} @ Portland State U (2019.09 - 2020.05 @ Texas A&M U).
 *  2020.09 - . [Ben Hamlin](){:target="_blank"} @ Portland State U (2018.09 - 2019.05 @ Texas A&M U).
 
