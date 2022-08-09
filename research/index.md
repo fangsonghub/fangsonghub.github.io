@@ -130,9 +130,11 @@ modified: <2022-08-08 Mon>
 ## Selected Talks
 
 Information about conferences talks are typically under the
-publication list.
+publication list. Some recorded talks are collected in this [YouTube
+playlist](https://youtube.com/playlist?list=PLnxx8Tio1lOZUWz0TlsmMGCU-FyK1nHWK){:target="_blank"}. 
 
-*  Tutorial on Quantum Computing at [IPAM Graduate Summer School on Post-quantum and Quantum Cryptography](http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-post-quantum-and-quantum-cryptography/?tab=schedule), July 25 - 29, 2022. [Hand-written notes [PDF]({{base}}/files/talks/2022_ipam_qc_live.pdf){:target="_blank"}]
+*  Tutorial on Quantum Computing at [IPAM Graduate Summer School on Post-quantum and Quantum Cryptography](http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-post-quantum-and-quantum-cryptography/?tab=schedule), July 25 - 29, 2022. [Hand-written notes [PDF]({{base}}/files/talks/2022_ipam_qc_live.pdf){:target="_blank"}] [Videos: [Part 1](https://youtu.be/62c8Kmg0-HU){:target="_blank"} [Part 2](https://youtu.be/IJYlrjwCeeQ){:target="_blank"} [Part 3](https://youtu.be/xZukLRJ3mW8){:target="_blank"}]
+
 * **Quantum-secure key-length extension**, invited Zoom talk at the
 [EWHA-KMS International Workshop on Cryptography](https://sites.google.com/view/ewha-kms-iwc-2021/home), June 2021.
 *  **Unpredictable Functions and Quantum-secure Authentication**,
