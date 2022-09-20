@@ -4,7 +4,7 @@ title: (Fall 2022) CS 410/510 - Intro to Quantum Computing
 courseid: f22 410/510
 desc: f22 410/510
 permalink: /teaching/f22_4510_qc/
-modified: <2022-04-25 Mon>
+modified: <2022-09-19 Mon>
 ---
 
 ## Announcement
@@ -18,7 +18,7 @@ modified: <2022-04-25 Mon>
    with "f22-4510-qc". 
 *  **Lectures**: TR 10:00 - 11:50 @ EB 92
 *  **Office hours**: xxx
-*  **Google classroom**: join with code _xxx_.
+*  **Google classroom**: join with code _fxt4khl_.
 *  **Overview**: The law of quantum physics enables quantum computing,
    a new paradigm of computation. It enables solving some problems
    that are intractable on classical computers. In this course, we

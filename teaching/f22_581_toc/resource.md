@@ -5,7 +5,7 @@ subtitle: Resource
 courseid: f22 581
 desc: resource
 permalink: /teaching/f22_581_toc/resource/
-modified: <2022-03-21 Mon>
+modified: <2022-09-19 Mon>
 ---
 
 ## Required text

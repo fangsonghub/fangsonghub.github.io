@@ -5,7 +5,7 @@ subtitle: Schedule
 courseid: f22 581
 desc: Schedule
 permalink: /teaching/f22_581_toc/schedule/
-modified: <2022-03-21 Mon>
+modified: <2022-09-19 Mon>
 ---
 
 {% comment %}
@@ -15,19 +15,37 @@ modified: <2022-03-21 Mon>
 {% endcomment %}
 
 ## General guideline
-* [Zoom link]() to join lectures remotely, TR 14:00 - 15:15. 
+* [Zoom link](https://pdx.zoom.us/j/83821477952?pwd=QngyOTdwOXh4anovN3dYUFNvWnJjZz09) to join lectures remotely, TR 14:00 - 15:15. 
 
 ## Schedule (subject to change)
 
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
-|1| T,09/27  |  | |
-| | Th,09/29 |  | |
+|1| T,09/27  | Intro <br> Math proofs | **Widgerson** [Chapter 20](https://www.math.ias.edu/files/Book-online-Aug0619.pdf#page=1){:target="_blank"}, **S3** Chapter 0|
+| | Th,09/29 |  Finite automata <br> Regular expressions | **S3** 1 |
+|2| T,10/04 | Pushdown automata <br> Turing Machines | **S3** 2.2,3 |
+| | Th,10/06 | TM Variants <br> Decidability | **S3** 3,4.1 |
+|3| T,10/11 | | **S3**  |
+| | Th,10/13 | | **S3** |
+|4| T,10/18 | | **S3** |
+| | Th,10/20 | | **S3**  |
+|5| T,10/25 |  | **S3** |
+| | Th,10/27 | | **S3** |
+|6| T,11/01 | | **S3** |
+| | Th,11/03 | | **S3** |
+|7| T,11/08 | | **S3** |
+| | Th,11/10 | | **S3** |
+|8| T,11/15 | | **S3** |
+| | Th,11/17 | | **S3** |
+|9| T,11/22  |  | **S3** |
+| | Th,11/24 |  Thanksgiving |  |
+|10| T,11/29 |  | |
+| | Th,12/01 | | |
 {:.mbtablestylef}
 
 {% comment %}
-|1| T,09/28  | Intro <br> Warmup: finite automata | **W** [Chapter 20](https://www.math.ias.edu/files/Book-online-Aug0619.pdf#page=1){:target="_blank"}, **AB** Chapter 0,1.1 <br> Barak [note](https://introtcs.org/public/lec_00_1_math_background.html){:target="_blank"}, Watrous [note](https://cs.uwaterloo.ca/~watrous/ToC-notes/ToC-notes.02.pdf){:target="_blank"} |
-|| Th,09/30 | Review: Turing machines | **AB** 1.2-1.5| 
+|11| M,12/05 | Final Exam 10:15 - 12:05| | 
+old 
 |2| T,10/05 | Time complexity <br> P, NP | **AB** 1.6,2.1|
 || Th,10/07 |  NPC   | **AB** 2.2,2.3|
 |3| T,10/12 | More NPC   | **AB** 2.3,2.4 |
