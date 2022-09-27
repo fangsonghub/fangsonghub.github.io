@@ -4,10 +4,11 @@ title: (Fall 2022) CS 410/510 - Intro to Quantum Computing
 courseid: f22 410/510
 desc: f22 410/510
 permalink: /teaching/f22_4510_qc/
-modified: <2022-09-19 Mon>
+modified: <2022-09-26 Mon>
 ---
 
 ## Announcement
+*  <2022-09-26 Mon> Syllabus is posted below. 
 *  <2022-03-21 Mon> Welcome! Please stay tuned for updates.
 
 ## About
@@ -26,13 +27,14 @@ modified: <2022-09-19 Mon>
    computing, and discuss some exciting applications. Aside from the
    technical contents, an important goal of this course is to make you
    a more critical reader so you will have a better idea when flooded
-   with news articles on quantum computing. For the theory-savy
+   with news articles on quantum computing. For the theory-savvy
    students, this course would also prepare you for future exploration
    in this emerging field.
 *  **Prerequisite**: Previous knowledge in quantum mechanics is NOT
    required. This course will be theory-oriented involving reading and
    writing mathematical proofs. Maturity in algorithm analysis, linear
-   algebra, and basic probability theory will be essential.
+   algebra, and basic probability theory will be essential. Some
+   coding proficiency is required (preferably in Python). 
 *  **Text**: The [Resource
-   page]({{base}}/teaching/s22_4510_qc/resource/) contains additional
+   page]({{base}}/teaching/f22_4510_qc/resource/) contains additional
    useful materials.
