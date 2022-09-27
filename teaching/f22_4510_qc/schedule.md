@@ -16,7 +16,7 @@ modified: <2022-09-26 Mon>
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
 |1| T,09/27  | Intro <br> Qubit | W 1 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.01.pdf){:target="_blank"} <br> Linear algebra review [PDF](http://groups.uni-paderborn.de/fg-qi/courses/UPB_INTRO_QUANTUM/S2018/notes/Lecture%201%20-%20Linear%20Algebra%20review.pdf){:target="_blank"} |
-| | Th,09/29 | QISKIT Tutorial <br> Invited talk: Quantum copy-protection | IBMQ [link](https://qiskit.org/){:target="_blank"}|
+| | Th,09/29 | QISKIT Tutorial <br> Invited talk: Quantum copy-protection | IBMQ set up [html](https://qiskit.org/textbook/ch-prerequisites/setting-the-environment.html){:target="_blank"}|
 {:.mbtablestylef}
 
 {% comment %}
