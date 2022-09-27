@@ -13,7 +13,7 @@ modified: <2022-09-26 Mon>
 
 ## About
 *  **Syllabus**:
-   [PDF]({{base}}/teaching/s22_4510_qc/s22_4510_qc_syllabus.pdf){:target="_blank"}. 
+   [PDF]({{base}}/teaching/f22_4510_qc/f22_4510_qc_syllabus.pdf){:target="_blank"}. 
 *  **Instructor**: Prof. [Fang Song]({{base}}/) 
 *  **Email**: fsong "AT" pdx.edu. Please start your email subject line
    with "f22-4510-qc". 

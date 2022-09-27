@@ -5,7 +5,7 @@ title: (Fall 2022) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule 
 desc: Schedule
 permalink: /teaching/f22_4510_qc/schedule/
-modified: <2022-03-21 Mon>
+modified: <2022-09-26 Mon>
 ---
 
 ## General guideline
@@ -15,7 +15,7 @@ modified: <2022-03-21 Mon>
 
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
-|1| T,09/27  |  | |
+|1| T,09/27  |  | W [Lec1](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.01.pdf) |
 | | Th,09/29 |  | |
 {:.mbtablestylef}
 
