@@ -4,15 +4,14 @@ title: (Fall 2022) CS 410/510 - Intro to Quantum Computing
 courseid: f22 410/510
 desc: Resource
 permalink: /teaching/f22_4510_qc/resource/
-modified: <2022-03-21 Mon>
+modified: <2022-09-27 Tue>
 ---
 
 ## Text/lectures we will follow loosely
 * [**IBMQ**] [Learn Quantum Computation using
   Qiskit](https://qiskit.org/textbook/preface.html){:target="_blank"}. 
 * [**W**] John Watrous, **Quantum Computation lecture notes**
-  [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/all.pdf){:target="_blank"}
-  (Winter 2006 at UCalgary).
+  [link](https://cs.uwaterloo.ca/~watrous/QC-notes/){:target="_blank"}.
 
 ## Recommended texts/readings
 *  [**LR**] Richard Lipton and Kenneth Regan, **Introduction to
