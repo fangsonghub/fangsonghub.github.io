@@ -5,7 +5,7 @@ subtitle: Schedule
 courseid: f22 581
 desc: Schedule
 permalink: /teaching/f22_581_toc/schedule/
-modified: <2022-09-19 Mon>
+modified: <2022-09-30 Fri>
 ---
 
 {% comment %}
@@ -21,11 +21,11 @@ modified: <2022-09-19 Mon>
 
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
-|1| T,09/27  | Intro <br> Math proofs | **Widgerson** [Chapter 20](https://www.math.ias.edu/files/Book-online-Aug0619.pdf#page=1){:target="_blank"}, **S3** Chapter 0|
-| | Th,09/29 |  Finite automata <br> Regular expressions | **S3** 1 |
-|2| T,10/04 | Pushdown automata <br> Turing Machines | **S3** 2.2,3 |
-| | Th,10/06 | TM Variants <br> Decidability | **S3** 3,4.1 |
-|3| T,10/11 | | **S3**  |
+|1| T,09/27  | Intro <br> Math Review | **Widgerson** [Chapter 20](https://www.math.ias.edu/files/Book-online-Aug0619.pdf#page=1){:target="_blank"}, **S3** Chapter 0|
+| | Th,09/29 | Math proofs | **S3** 0|
+|2| T,10/04 | Finite automata <br> Regular expressions | **S3** 1 |
+| | Th,10/06 |Pushdown automata <br> Turing Machines | **S3** 2.2,3 |
+|3| T,10/11 | TM Variants <br> Decidability | **S3** 3,4.1 |
 | | Th,10/13 | | **S3** |
 |4| T,10/18 | | **S3** |
 | | Th,10/20 | | **S3**  |
