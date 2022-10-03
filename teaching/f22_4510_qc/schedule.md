@@ -5,7 +5,7 @@ title: (Fall 2022) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule 
 desc: Schedule
 permalink: /teaching/f22_4510_qc/schedule/
-modified: <2022-09-26 Mon>
+modified: <2022-10-03 Mon>
 ---
 
 ## General guideline
@@ -17,6 +17,8 @@ modified: <2022-09-26 Mon>
 |:-----:| :---------: |:----------:|:-----:|
 |1| T,09/27  | Intro <br> Qubit | W 1 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.01.pdf){:target="_blank"} <br> Linear algebra review [PDF](http://groups.uni-paderborn.de/fg-qi/courses/UPB_INTRO_QUANTUM/S2018/notes/Lecture%201%20-%20Linear%20Algebra%20review.pdf){:target="_blank"} |
 | | Th,09/29 | QISKIT Tutorial <br> Invited talk: Quantum copy-protection | IBMQ set up [html](https://qiskit.org/textbook/ch-prerequisites/setting-the-environment.html){:target="_blank"}|
+|2| T,10/04  | Multi-qubit <br> Entanglement | W 2 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.02.pdf){:target="_blank"}  |
+| | Th,10/06  | Quantum circuits <br> Apps of Entanglement | W 3 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.03.pdf){:target="_blank"} 4 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.04.pdf){:target="_blank"}  |
 {:.mbtablestylef}
 
 {% comment %}
