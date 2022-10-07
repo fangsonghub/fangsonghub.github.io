@@ -4,7 +4,7 @@ title: (Fall 2022) CS 581 - Theory of computation
 courseid: f22 581
 desc: f22 581
 permalink: /teaching/f22_581_toc/
-modified: <2022-09-19 Mon>
+modified: <2022-10-16 Thu>
 ---
 
 ## Announcement
@@ -18,8 +18,8 @@ modified: <2022-09-19 Mon>
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
    with "f22-581-toc". Slack is preferred. 
 *  **Lectures**: TR 14:00 - 15:15 @ FAB 46
-*  **Office hours**: xxx
-*  **TA**: xxx. **Office hours**: xxx. 
+*  **Office hours**: R 15:20 - 16:20 (FAB 120-25 and Zoom). 
+*  **TA**: Mehil Agarwal (mehil@pdx.edu). **Office hours**: T 12:50 - 13:50, F 11:00 - 12:00 (Fishbowl and Zoom). 
 *  **Google classroom**: join with code _o7qc2p2_. 
 *  **Overview**: Computation is a familiar term to all computer
    scientists. But what is computation after all? What problems are

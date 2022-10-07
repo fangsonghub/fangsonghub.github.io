@@ -19,11 +19,30 @@ modified: <2022-10-03 Mon>
 | | Th,09/29 | QISKIT Tutorial <br> Invited talk: Quantum copy-protection | IBMQ set up [html](https://qiskit.org/textbook/ch-prerequisites/setting-the-environment.html){:target="_blank"}|
 |2| T,10/04  | Multi-qubit <br> Entanglement | W 2 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.02.pdf){:target="_blank"}  |
 | | Th,10/06  | Quantum circuits <br> Apps of Entanglement | W 3 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.03.pdf){:target="_blank"} 4 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.04.pdf){:target="_blank"}  |
+|3| T,10/11  | Teleportation <br> Basic quantum algorithms | IBMQ [3.11](https://qiskit.org/textbook/ch-algorithms/teleportation.html){:target=:_blank"} <br> W 4 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.04.pdf){:target="_blank"} 5 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.05.pdf){:target="_blank"} |
+| | Th,10/13  | Simon's algorithm | W 6 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.06.pdf){:target="_blank"}   |
 {:.mbtablestylef}
 
 {% comment %}
+|4| T,10/18  | Reversible computation | W 7 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.07.pdf){:target="_blank"} |
+| | Th,10/20 | Oder finding <br> Integer factorization | W 10 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.10.pdf){:target="_blank"} |
+|5| T,10/18  | Phase estimation | W 8 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.08.pdf){:target="_blank"} |
+| | Th,10/20 | Oder finding <br> integer factorization | W 10 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.10.pdf){:target="_blank"} |
+|6| T,10/25  | Phase estimation | W 8 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.08.pdf){:target="_blank"} |
+| | Th,10/27 | Quantum Fourier Transform | W 9 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.09.pdf){:target="_blank"} |
+|6| T,10/25  | Grover's algorithm | W 12 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.12.pdf){:target="_blank"} |
+| | Th,10/27 | Quantum complexity theory | W 22 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.22.pdf){:target="_blank"} |
+|7| T,11/01  | Density matrix <br> POVM  | W 14 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.14.pdf){:target="_blank"} |
+| | Th,11/03 | Entropy <br> Distance measure | W  [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.20.pdf){:target="_blank"} |
+|8| T,11/15  | Quantum error correction | W16  [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.16.pdf){:target="_blank"} |
+| | Th,11/17 | Non-local games | W 20 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.20.pdf){:target="_blank"} |
+|9| T,11/22  | Selected: HHL Algorithm |  |
+| | Th,11/24 | Thanksgiving |  |
+|10| T,11/29  |  |  |
+| | Th,12/01 |  |  |
 
-https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.02.pdf
+
+
 
 ## Week 10 (June 01 - June 05)
 #### Project presentation 
