@@ -5,7 +5,7 @@ title: (Fall 2022) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule 
 desc: Schedule
 permalink: /teaching/f22_4510_qc/schedule/
-modified: <2022-10-03 Mon>
+modified: <2022-10-11 Tue>
 ---
 
 ## General guideline
@@ -20,7 +20,7 @@ modified: <2022-10-03 Mon>
 |2| T,10/04  | Multi-qubit <br> Entanglement | W 2 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.02.pdf){:target="_blank"}  |
 | | Th,10/06  | Quantum circuits <br> Apps of Entanglement | W 3 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.03.pdf){:target="_blank"} 4 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.04.pdf){:target="_blank"}  |
 |3| T,10/11  | Teleportation <br> Basic quantum algorithms | IBMQ [3.11](https://qiskit.org/textbook/ch-algorithms/teleportation.html){:target=:_blank"} <br> W 4 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.04.pdf){:target="_blank"} 5 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.05.pdf){:target="_blank"} |
-| | Th,10/13  | Simon's algorithm | W 6 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.06.pdf){:target="_blank"}   |
+| | Th,10/13  | Deutsch-Josza algorithm <br> Simon's algorithm | W 6 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.06.pdf){:target="_blank"}   |
 {:.mbtablestylef}
 
 {% comment %}
