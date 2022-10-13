@@ -160,6 +160,8 @@ general TCS conferences (e.g., [STOC](http://acm-stoc.org/),
 * **More quantum algorithms**
   * [[YZ22](https://eprint.iacr.org/2022/434)] A breakthrough result
     showing quantum advantage with an unstructured oracle.
+  * [[CKKD+22](https://arxiv.org/abs/2210.06419)] Quantum analogue of the
+    ubiquitous Divide-and-Conquer technique.
   * [[YLC14](https://arxiv.org/abs/1409.3305)] Fixed-point quantum search. 
   * [[AGJ19](https://arxiv.org/abs/1912.04233)] A Unified Framework of Quantum Walk Search.
   * [[GSLW18](https://arxiv.org/abs/1806.01838)] Introduces _singular
@@ -171,14 +173,16 @@ general TCS conferences (e.g., [STOC](http://acm-stoc.org/),
     quantum devices.
 
 * **Quantum complexity**
-  * [[KSdW05](https://epubs.siam.org/doi/10.1137/05063235X)] Time‐Space
-Tradeoffs for quantum query complexity. Any implication in
+  * [[KSdW05](https://epubs.siam.org/doi/10.1137/05063235X)]
+Time‐Space Tradeoffs for quantum query complexity. Any implication in
 Proof-of-work or Proof-of-Space in blockchain designs in the presence
 of quantum attacks?
   * [[BBCMW01](https://dl.acm.org/citation.cfm?doid=502090.502097),[ABP17](https://arxiv.org/abs/1711.07285)]
   One central quantum lower-bound technique: _polynomial method_.
   * [[HLS07](https://arxiv.org/abs/quant-ph/0611054),[Reichardt11](https://arxiv.org/abs/1005.1601)]
   Another central quantum lower-bound technique: _adversary method_. 
+  * [[Ros22](https://arxiv.org/abs/2202.11443)] Grover search lower
+    bound under a mix of classical and quantum queries. 
   
 * **Quantum information theory**
   * [[HHL04](https://arxiv.org/abs/quant-ph/0307221)] Superdense
@@ -195,6 +199,8 @@ a unique feature in quantum theory, in the language of entropy.
   *  [[PQC](https://pqcrypto.org/),[ToB18](https://blog.trailofbits.com/2018/10/22/a-guide-to-post-quantum-cryptography/)]
    Securing classical cryptography against quantum attacks, known as
    _post-quantum cryptography_.
+  *  [[HMY22](https://arxiv.org/abs/2210.05978)] Trading quantum gravity
+     for quantum cryptography?
   *  [[BCMVV18](https://arxiv.org/abs/1804.00640)] Testing quantumness
      and generating certifiable randomness.
   *  [[Zhandry18](https://eprint.iacr.org/2017/1080)] A unique quantum
