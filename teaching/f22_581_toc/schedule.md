@@ -44,11 +44,22 @@ modified: <2022-10-11 Tue>
 {:.mbtablestylef}
 
 {% comment %}
+|4| T,10/18 |  Reducibility <br> Time complexity | **S3** 5.1,5.3,7.1|
+| | Th,10/20 | P,NP,NPC| **S3** 7.2-7.4 |
+|5| T,10/25 | More NPC | **S3** 7.5|
+| | Th,10/27 | coNP <br> Time hierarchy | **S3** ??? |
+|6| T,11/01 | Ladner's theorem | **S3** ??? |
+| | Th,11/03 | Oracle machine <br> Relativization | **S3** 6.3,9.2 |
+|7| T,11/08 | Space complexity | **S3** 8.1-8.3 |
+| | Th,11/10 | L,NL | **S3** 8.4,8.5  |
+|8| T,11/15 |Randomized computation | **S3** 10.2 |
+| | Th,11/17 | BPP and friends | **S3** ??? |
+|9| T,11/22  | Interactive proofs | **S3** 10.4 |
+| | Th,11/24 |  Thanksgiving |  |
+|10| T,11/29 | IP cont'd | |
+| | Th,12/01 | Selected topic| |
 |11| M,12/05 | Final Exam 10:15 - 12:05| | 
 old 
-|2| T,10/05 | Time complexity <br> P, NP | **AB** 1.6,2.1|
-|| Th,10/07 |  NPC   | **AB** 2.2,2.3|
-|3| T,10/12 | More NPC   | **AB** 2.3,2.4 |
 | | Th,10/14 | Self reducibility | **AB** 2.5 |
 |4| T,10/19 | Beyond NPC <br> Time hierarchy | **AB** 2.6,1.5,3.1 |
 || Th,10/21 | Ladner's theorem | **AB** 3.3 | 
