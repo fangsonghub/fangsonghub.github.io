@@ -5,7 +5,7 @@ title: (Fall 2022) CS 410/510 - Intro to Quantum Computing
 subtitle: Course Project
 desc: Project
 permalink: /teaching/f22_4510_qc/project/
-modified: <2022-10-11 Tue>
+modified: <2022-10-17 Mon>
 ---
 
 * Table of Contents
@@ -80,7 +80,7 @@ starting point for you to explore your options. Suggestions on
 "societal-impact" and "programming" are especially brief to give your
 creativity enough room. Here are a few general readings.
 
-* [[deWolf17](https://arxiv.org/1712.05380)] The Potential Impact of Quantum Computers.
+* [[deWolf17](https://arxiv.org/abs/1712.05380)] The Potential Impact of Quantum Computers.
 * [[CCC17](https://cra.org/ccc/wp-content/uploads/sites/2/2018/11/Next-Steps-in-Quantum-Computing.pdf)]
 Next Steps in Quantum Computing: Computer Science’s Role.
 * [[NAP19](https://www.nap.edu/catalog/25196/quantum-computing-progress-and-prospects)] Quantum Computing: Progress and Prospects. 
