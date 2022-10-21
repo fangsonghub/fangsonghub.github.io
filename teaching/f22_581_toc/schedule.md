@@ -5,7 +5,7 @@ subtitle: Schedule
 courseid: f22 581
 desc: Schedule
 permalink: /teaching/f22_581_toc/schedule/
-modified: <2022-10-11 Tue>
+modified: <2022-10-21 Fri>
 ---
 
 {% comment %}
@@ -28,9 +28,9 @@ modified: <2022-10-11 Tue>
 |3| T,10/11 | Turing Machines | **S3** 3.1 |
 | | Th,10/13 |  TM Variants <br> Decidability | **S3** 3.2,4 |
 |4| T,10/18 |  Reducibility <br> Time complexity | **S3** 5.1,5.3,7.1|
-| | Th,10/20 | P,NP,NPC| **S3** 7.2-7.4 |
-|5| T,10/25 |  | **S3** |
-| | Th,10/27 | | **S3** |
+| | Th,10/20 | P,NP| **S3** 7.2,7.3 |
+|5| T,10/25 | NPC | **S3** 7.4,7.5|
+| | Th,10/27 | Beyond NP <br> Time hierarchy | **AB** 2.6 [draft book](https://theory.cs.princeton.edu/complexity/) <br> **AB** 3.1, **S3** 9.1  |
 |6| T,11/01 | | **S3** |
 | | Th,11/03 | | **S3** |
 |7| T,11/08 | | **S3** |
@@ -44,10 +44,6 @@ modified: <2022-10-11 Tue>
 {:.mbtablestylef}
 
 {% comment %}
-|4| T,10/18 |  Reducibility <br> Time complexity | **S3** 5.1,5.3,7.1|
-| | Th,10/20 | P,NP,NPC| **S3** 7.2-7.4 |
-|5| T,10/25 | More NPC | **S3** 7.5|
-| | Th,10/27 | coNP <br> Time hierarchy | **S3** ??? |
 |6| T,11/01 | Ladner's theorem | **S3** ??? |
 | | Th,11/03 | Oracle machine <br> Relativization | **S3** 6.3,9.2 |
 |7| T,11/08 | Space complexity | **S3** 8.1-8.3 |
