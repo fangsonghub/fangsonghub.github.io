@@ -5,7 +5,7 @@ subtitle: Schedule
 courseid: f22 581
 desc: Schedule
 permalink: /teaching/f22_581_toc/schedule/
-modified: <2022-10-21 Fri>
+modified: <2022-10-27 Thu>
 ---
 
 {% comment %}
@@ -29,10 +29,10 @@ modified: <2022-10-21 Fri>
 | | Th,10/13 |  TM Variants <br> Decidability | **S3** 3.2,4 |
 |4| T,10/18 |  Reducibility <br> Time complexity | **S3** 5.1,5.3,7.1|
 | | Th,10/20 | P,NP| **S3** 7.2,7.3 |
-|5| T,10/25 | NPC | **S3** 7.4,7.5|
-| | Th,10/27 | Beyond NP <br> Time hierarchy | **AB** 2.6 [draft book](https://theory.cs.princeton.edu/complexity/) <br> **AB** 3.1, **S3** 9.1  |
-|6| T,11/01 | | **S3** |
-| | Th,11/03 | | **S3** |
+|5| T,10/25 | NPC <br> Cook-Levin | **S3** 7.4 |
+| | Th,10/27 | More NPC <br> Beyond NP | **S3** 7.5 <br> **AB** 2.6 [draft book](https://theory.cs.princeton.edu/complexity/)  |
+|6| T,11/01 | Time hierarchy <br> NP-Intermediate | **AB** 3.1 **S3** 9.1 <br> **AB** 3.4,2.7 |
+| | Th,11/03 | Oracle machine <br> Relativization | **S3** 6.3,9.2 <br> **AB** 3.5 |
 |7| T,11/08 | | **S3** |
 | | Th,11/10 | | **S3** |
 |8| T,11/15 | | **S3** |
@@ -44,8 +44,6 @@ modified: <2022-10-21 Fri>
 {:.mbtablestylef}
 
 {% comment %}
-|6| T,11/01 | Ladner's theorem | **S3** ??? |
-| | Th,11/03 | Oracle machine <br> Relativization | **S3** 6.3,9.2 |
 |7| T,11/08 | Space complexity | **S3** 8.1-8.3 |
 | | Th,11/10 | L,NL | **S3** 8.4,8.5  |
 |8| T,11/15 |Randomized computation | **S3** 10.2 |
