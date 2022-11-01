@@ -26,12 +26,10 @@ modified: <2022-10-27 Thu>
 |5| T,10/25 | Phase estimation <br> Order finding | W 8 (1st part) [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.08.pdf){:target="_blank"} <br> 10 (2nd part) [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.10.pdf){:target="_blank"} 11 (1st part) [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.11.pdf){:target="_blank"}|
 | | Th,10/27 | Phase estimation cont'd <br> Quantum Fourier transform | W 9 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.09.pdf){:target="_blank"} | 
 |6| T,11/01 | Grover's algorithm | W 12 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.12.pdf){:target="_blank"} |
-| | Th,10/03 | Quantum complexity theory | W 22 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.22.pdf){:target="_blank"} |
+| | Th,11/03 | Quantum complexity theory | W 22 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.22.pdf){:target="_blank"} |
 {:.mbtablestylef}
 
 {% comment %}
-|6| T,11/01 | Grover's algorithm | W 12 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.12.pdf){:target="_blank"} |
-| | Th,10/03 | Quantum complexity theory | W 22 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.22.pdf){:target="_blank"} |
 |7| T,11/08  | Density matrix <br> POVM  | W 14 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.14.pdf){:target="_blank"} |
 | | Th,11/10 | Entropy <br> Distance measure | W  [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.20.pdf){:target="_blank"} |
 |8| T,11/15  | Quantum error correction | W16  [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.16.pdf){:target="_blank"} |
