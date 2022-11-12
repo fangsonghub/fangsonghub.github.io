@@ -5,7 +5,7 @@ subtitle: Schedule
 courseid: f22 581
 desc: Schedule
 permalink: /teaching/f22_581_toc/schedule/
-modified: <2022-11-03 Thu>
+modified: <2022-11-11 Fri>
 ---
 
 {% comment %}
@@ -35,21 +35,17 @@ modified: <2022-11-03 Thu>
 | | Th,11/03 | Oracle machine <br> Relativization | **S3** 6.3,9.2 <br> **AB** 3.5 |
 |7| T,11/08 | Space complexity | **S3** 8.1-8.3 |
 | | Th,11/10 | L,NL | **S3** 8.4,8.5  |
-|8| T,11/15 | | **S3** |
-| | Th,11/17 | | **S3** |
-|9| T,11/22  |  | **S3** |
+|8| T,11/15 | Randomized computation | **S3** 10.2 **AB** 7.1-7.3 <br> Probability review [note](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"} |
+| | Th,11/17 | BPP and friends | **S3** 10.2 **AB** 7.4,7.5|
+|9| T,11/22  | Interactive proofs | **S3** 10.4 |
 | | Th,11/24 |  Thanksgiving |  |
-|10| T,11/29 |  | |
-| | Th,12/01 | | |
+|10| T,11/29 | IP cont'd | **AB** 8.1-8.4 |
+| | Th,12/01 | Selected topic | |
 {:.mbtablestylef}
 
 {% comment %}
-|8| T,11/15 |Randomized computation | **S3** 10.2 |
-| | Th,11/17 | BPP and friends | **S3** ??? |
-|9| T,11/22  | Interactive proofs | **S3** 10.4 |
-| | Th,11/24 |  Thanksgiving |  |
-|10| T,11/29 | IP cont'd | |
-| | Th,12/01 | Selected topic| |
+|10| T,11/29 | 
+| | Th,12/01 | 
 |11| M,12/05 | Final Exam 10:15 - 12:05| | 
 old 
 | | Th,10/14 | Self reducibility | **AB** 2.5 |

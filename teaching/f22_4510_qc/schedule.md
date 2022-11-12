@@ -5,7 +5,7 @@ title: (Fall 2022) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule 
 desc: Schedule
 permalink: /teaching/f22_4510_qc/schedule/
-modified: <2022-11-03 Thu>
+modified: <2022-11-11 Fri>
 ---
 
 ## General guideline
@@ -27,10 +27,10 @@ modified: <2022-11-03 Thu>
 | | Th,10/27 | Phase estimation cont'd <br> Quantum Fourier transform | W 9 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.09.pdf){:target="_blank"} | 
 |6| T,11/01 | Grover's algorithm | W 12 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.12.pdf){:target="_blank"} |
 | | Th,11/03 | Optimality of Grover's algorithm | Scribe note [PDF](https://fangsong.info/teaching/s17_4510_qc/170504_at_lec10.pdf){:target="_blank"} | 
-|7| T,11/08  | Density matrix <br> POVM  | W 14 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.14.pdf){:target="_blank"} |
-| | Th,11/10 | Distance measure | Cleve note Section 1 <br> [PDF](http://cleve.iqc.uwaterloo.ca/resources/QIC-710-F21/Qic710QuantumInformationTheoryPart2.pdf){:target="_blank"} | 
-|8| T,11/15  | Quantum error correction | W16  [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.16.pdf){:target="_blank"} |
-| | Th,11/17 |  |  |
+|7| T,11/08  | Density matrix formalism  | W 14 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.14.pdf){:target="_blank"} |
+| | Th,11/10 |  General quantum operations <br> POVM |W 15 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.15.pdf){:target="_blank"}| 
+|8| T,11/15  | Distance measure | Cleve note Section 1 <br> [PDF](http://cleve.iqc.uwaterloo.ca/resources/QIC-710-F21/Qic710QuantumInformationTheoryPart2.pdf){:target="_blank"} | 
+| | Th,11/17 | Quantum error correction | W16  [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.16.pdf){:target="_blank"} |
 |9| T,11/22  | Selected Topic |  |
 | | Th,11/24 | Thanksgiving |  |
 |10| T,11/29  |  |  |
