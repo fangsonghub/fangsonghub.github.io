@@ -21,7 +21,7 @@ modified: <2022-11-11 Fri>
 
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
-|1| T,09/27  | Intro <br> Math Review | **Widgerson** [Chapter 20](https://www.math.ias.edu/files/Book-online-Aug0619.pdf#page=1){:target="_blank"}, **S3** Chapter 0|
+|1| T,09/27  | Intro <br> Math Review | **Widgerson** [Chapter 20](https://www.math.ias.edu/files/Book-online-Aug0619.pdf#page=1){:target="_blank"} <br> **S3** Chapter 0|
 | | Th,09/29 | Math proofs | **S3** 0|
 |2| T,10/04 | Finite automata <br> Regular expressions | **S3** 1 |
 | | Th,10/06 |NFA <br> Pushdown automata | **S3** 1.2,2.2|
