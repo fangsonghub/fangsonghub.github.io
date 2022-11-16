@@ -40,27 +40,10 @@ modified: <2022-11-11 Fri>
 |9| T,11/22  | Interactive proofs | **S3** 10.4 |
 | | Th,11/24 |  Thanksgiving |  |
 |10| T,11/29 | IP cont'd | **AB** 8.1-8.4 |
-| | Th,12/01 | Selected topic | |
+| | Th,12/01 | Selected topic <br> Review | |
 {:.mbtablestylef}
 
 {% comment %}
-|10| T,11/29 | 
-| | Th,12/01 | 
 |11| M,12/05 | Final Exam 10:15 - 12:05| | 
-old 
-| | Th,10/14 | Self reducibility | **AB** 2.5 |
-|4| T,10/19 | Beyond NPC <br> Time hierarchy | **AB** 2.6,1.5,3.1 |
-|| Th,10/21 | Ladner's theorem | **AB** 3.3 | 
-|5| T,10/26 | Nondeterminism <br> Relativization | **AB** 3.2,3.4|
-|| Th,10/28 | Space complexity | **AB** 4.1-4.3 |
-|6| T,11/02 | Space complexity cont'd | **AB** 4.1-4.3 |
-|| Th,11/04 | Polynomial hierarchy | **AB** 5.1,5.2 |
-|7 | T,11/09 | Randomized computation | **AB** 7.1-7.3 |
-| | Th,11/11 | Veterans day <br> No Class | Review probability basics <br> **AB** A.2, Trevisan's [note](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"}  |
-|8 | T,11/16 | BPP and more | **AB** 7.4-7.6|
-| | Th,11/18 | Interactive proofs |**AB** 8.1,8.2 |
-|9 | T,11/23 | Interactive proofs | **AB** 8.3| 
-|  | Th,11/25 |Thanksgiving <br> No Class |  |
-|10| T,11/30| Zero-knowledge proofs | **AB** 9.4 |
-|| Th, 12/02| Selected topics <br> Wrap-up | |
+
 {% endcomment %}
