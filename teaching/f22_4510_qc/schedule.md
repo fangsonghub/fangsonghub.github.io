@@ -5,7 +5,7 @@ title: (Fall 2022) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule 
 desc: Schedule
 permalink: /teaching/f22_4510_qc/schedule/
-modified: <2022-11-11 Fri>
+modified: <2022-11-22 Tue>
 ---
 
 ## General guideline
@@ -31,10 +31,10 @@ modified: <2022-11-11 Fri>
 | | Th,11/10 |  General quantum operations <br> POVM |W 15 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.15.pdf){:target="_blank"}| 
 |8| T,11/15  | Distance measure | Cleve note Section 1 <br> [PDF](http://cleve.iqc.uwaterloo.ca/resources/QIC-710-F21/Qic710QuantumInformationTheoryPart2.pdf){:target="_blank"} | 
 | | Th,11/17 | Quantum error correction | W16  [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.16.pdf){:target="_blank"} |
-|9| T,11/22  | Selected Topic |  |
+|9| T,11/22  | Selected Topic: <br> Random Circuit Sampling | [BFBV19](https://www.nature.com/articles/s41567-018-0318-2){:target="_blank"} [AGL+22](https://arxiv.org/abs/2211.03999){:target="_blank"}  |
 | | Th,11/24 | Thanksgiving |  |
-|10| T,11/29  |  |  |
-| | Th,12/01 |  |  |
+|10| T,11/29  | Project presentation |  |
+| | Th,12/01 | Project presentation |  |
 {:.mbtablestylef}
 
 {% comment %}
