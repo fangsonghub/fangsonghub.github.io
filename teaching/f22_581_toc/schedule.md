@@ -5,7 +5,7 @@ subtitle: Schedule
 courseid: f22 581
 desc: Schedule
 permalink: /teaching/f22_581_toc/schedule/
-modified: <2022-11-11 Fri>
+modified: <2022-11-28 Mon>
 ---
 
 {% comment %}
@@ -40,7 +40,7 @@ modified: <2022-11-11 Fri>
 |9| T,11/22  | Interactive proofs | **S3** 10.4 |
 | | Th,11/24 |  Thanksgiving |  |
 |10| T,11/29 | IP cont'd | **AB** 8.1-8.4 |
-| | Th,12/01 | Selected topic <br> Review | |
+| | Th,12/01 | Selected topic <br> Review | ZK Note [PDF](https://theory.stanford.edu/~trevisan/cs172-07/notezk.pdf){:target="_blank"}|
 {:.mbtablestylef}
 
 {% comment %}
