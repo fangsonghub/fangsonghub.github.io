@@ -14,7 +14,7 @@ modified: <2022-12-19 Mon>
 {% endcomment %}
 
 ## General guideline
-* [Zoom link]() for joining lectures remotely, TR 14:00 - 15:50. 
+* [Zoom link](https://pdx.zoom.us/j/87602032243?pwd=YnBYUENyaTBmUEN1cWFmN1VJaC9DUT09) for joining lectures remotely, MW 14:00 - 15:50. 
 
 ## Schedule (subject to change)
 
