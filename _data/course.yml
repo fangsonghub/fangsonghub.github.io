@@ -1,6 +1,6 @@
 # course pages
 
-# W22 ICrypto
+# W23 ICrypto
 
 - courseid: w23 485/585
   title: (Winter 2023) CS 485/585 - Intro to Cryptography
@@ -25,6 +25,12 @@
   desc: Resource
   nav: true
   url: /teaching/w23_4585_icrypto/resource/
+
+- courseid: w23 485/585
+  title: (Winter 2023) CS 485/585 
+  desc: Project
+  nav: true
+  url: /teaching/w23_4585_icrypto/project/
 
 # F22 ToC
 
