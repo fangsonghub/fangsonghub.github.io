@@ -5,7 +5,7 @@ courseid: w23 485/585
 subtitle: Resources
 desc: Resource
 permalink: /teaching/w23_4585_icrypto/resource/
-modified: <2022-12-19 Mon> 
+modified: <2022-01-05 Thu> 
 ---
 
 ## Useful readings
@@ -49,10 +49,10 @@ constructions you encounter).
 
 ## Books on math, algorithms, and complexity
 
-* [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms){:target="_blank"} by Thomas Cormen, Charles Leiserson, Ron Rivest, and Cliff Stein. 
+* [Introduction to Algorithms](https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/){:target="_blank"} by Thomas Cormen, Charles Leiserson, Ron Rivest, and Cliff Stein. 
 * [A Computational Introduction to Number Theory and Algebra](http://shoup.net/ntb/){:target="_blank"} by Victor Shoup. 
 * [Introduction to the Theory of Computation](http://www-math.mit.edu/~sipser/book.html){:target="_blank"} by Michael Sipser.
-* [Probability and Computing: Randomized Algorithms and Probabilistic Analysis](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521835404){:target="_blank"}, by Michael Mitzenmacher & Eli Upfal.
+* [Probability and Computing: Randomized Algorithms and Probabilistic Analysis](https://www.cambridge.org/us/academic/subjects/computer-science/algorithmics-complexity-computer-algebra-and-computational-g/probability-and-computing-randomization-and-probabilistic-techniques-algorithms-and-data-analysis-2nd-edition?format=HB){:target="_blank"}, by Michael Mitzenmacher & Eli Upfal.
 
 ## Crypto courses offered at other institutes
 
