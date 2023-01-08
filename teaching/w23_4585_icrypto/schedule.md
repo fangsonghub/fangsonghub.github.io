@@ -20,8 +20,8 @@ modified: <2022-12-19 Mon>
 
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
-|1| M,01/09| Intro | **KL** 1,A.1-A.3 <br> Note on probability [PDF](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"} |
-||W,01/11|  Perfect secrecy | **KL** 1.4,2.1 |
+|1| M,01/09| Intro | **KL** 1,A.1-A.3  |
+||W,01/11|  Perfect secrecy | **KL** 1.4,2.1 <br> Note on probability [PDF](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"}|
 |2|M,01/16| MLK day| |
 | |W,01/18| One-time pad and limits | **KL** 2.2,2.3 |
 |3|M,01/23| Computational secrecy <br> Pseudorandom generators | **KL** 3.1 - 3.3 <br> Supplement: **KL** 7.1 |
