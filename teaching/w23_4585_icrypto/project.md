@@ -116,8 +116,6 @@ starting point for you to explore more options.
 * More to be filled by you ...
 {% endcomment %}
 
-### Societal impact
-
 ### Programming 
 
 ### Research 
