@@ -120,7 +120,6 @@ starting point for you to explore more options.
 
 ### Programming 
 
-
 ### Research 
 
 *  Check out the frontier research topics at these venues:
@@ -131,8 +130,7 @@ starting point for you to explore more options.
 [ITCS](http://itcs-conf.org/),
 CCC[https://computationalcomplexity.org/]).
 
-
-
+{% comment %}
 * **Quantum-safe cryptography**
   *  [[PQC](https://pqcrypto.org/),[ToB18](https://blog.trailofbits.com/2018/10/22/a-guide-to-post-quantum-cryptography/)]
    Securing classical cryptography against quantum attacks, known as
