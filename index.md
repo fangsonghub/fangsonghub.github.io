@@ -46,11 +46,11 @@ funding my research.
 {{ news.excerpt }}
 {% endcomment %}
 
-* <2022-07-26 Tue> I'll be serving on the program committee of the
-  [Quantum Crypto
-  Workshop](https://qcw2022.github.io/quantum-cryptography-workshop-2022/){:target="_blank"}
-  affiliated with [Asiacrypt
-  2022](http://asiacrypt.iacr.org/2022/){:target="_blank"}. Submit your best work by August 31, 2022. 
+* <2023-01-12 Thu> I have a joint postdoc opening with Dr. [Nai-Hui
+  Chia](https://sites.google.com/view/naihuichia){:target="_blank"}. Candidates
+  with strong record on (classical or quantum) complexity and
+  cryptography are are encouraged to apply. Drop an email if you are
+  interested.
 
 * Read [more]({{base}}/news/) ...
 

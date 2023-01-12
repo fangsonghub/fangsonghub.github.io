@@ -1,9 +1,15 @@
 ---
 layout: page
 title: News
-modified: <2022-07-26 Tue>
+modified: <2023-01-12 Thu>
 ---
 ## {{ page.title }}
+
+* <2023-01-12 Thu> I have a joint postdoc opening with [Nai-Hui
+  Chia](https://sites.google.com/view/naihuichia){:target="_blank"}. Candidates
+  with strong record on (classical or quantum) complexity and
+  cryptography are are encouraged to apply. Drop an email if you are
+  interested.
 * <2022-07-26 Tue> I'll be serving on the program committee of the
   [Quantum Crypto
   Workshop](https://qcw2022.github.io/quantum-cryptography-workshop-2022/){:target="_blank"}
