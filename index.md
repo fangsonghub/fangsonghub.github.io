@@ -48,8 +48,8 @@ funding my research.
 
 * <2023-01-12 Thu> I have a joint postdoc opening with Dr. [Nai-Hui
   Chia](https://sites.google.com/view/naihuichia){:target="_blank"}. Candidates
-  with strong record on (classical or quantum) complexity and
-  cryptography are are encouraged to apply. Drop an email if you are
+  with a strong record on (classical or quantum) complexity and
+  cryptography are encouraged to apply. Drop an email if you are
   interested.
 
 * Read [more]({{base}}/news/) ...

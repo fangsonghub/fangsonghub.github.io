@@ -5,7 +5,7 @@ courseid: w23 485/585
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/w23_4585_icrypto/schedule/
-modified: <2022-01-09 Mon> 
+modified: <2022-01-13 Fri> 
 ---
 
 {% comment %}
@@ -21,15 +21,16 @@ modified: <2022-01-09 Mon>
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
 |1| M,01/09| Intro <br> Intro slides [PDF]({{base}}/teaching/w23_4585_icrypto/w23_4585_intro.pdf){:target="_blank"} | **KL** 1,A.1-A.3  |
-||W,01/11|  Perfect secrecy | **KL** 1.4,2.1 <br> Note on probability [PDF](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"}|
+| |W,01/11|  Perfect secrecy | **KL** 1.4,2.1 <br> Note on probability [PDF](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"}|
 |2|M,01/16| MLK day| |
-| |W,01/18| One-time pad and limits | **KL** 2.2,2.3 |
-|3|M,01/23| Computational secrecy <br> Pseudorandom generators | **KL** 3.1 - 3.3 <br> Supplement: **KL** 7.1 |
-|| W,01/25 |Proof by reduction <br> Block ciphers | **KL** 3.3,3.5.1 <br> Supplement: **KL** 7.2, **BS** 5 |
+| |W,01/18| Recitation <br > Probability and Perfect secrecy | |
+|3|M,01/23| One-time pad and limits | **KL** 2.2,2.3 | 
+| |W,01/25|Computational secrecy <br> Pseudorandom generators | **KL** 3.1 - 3.3 <br> Supplement: **KL** 7.1 |
+|4|M,01/30|Proof by reduction <br> Block ciphers | **KL** 3.3,3.5.1 <br> Supplement: **KL** 7.2, **BS** 5 |
+| |W,02/01| Chosen-Plaintext-Attacks | **KL** 3.4,3.5.2 <br> Supplement: **BS** 6 |
 {:.mbtablestylef}
 
 {% comment %}
-||R,01/20 | Chosen-Plaintext-Attacks | **KL** 3.4,3.5.2 <br> Supplement: **BS** 6 |
 |4|T,01/25 | CPA-secure encryption <br> Message authentication codes | **KL** 4.1 - 4.4 |
 ||R,01/27 | DES and AES <br> Modes of operation | **KL** 3.6,7.2 <br> Supplement: **BS** 5.3,6.4,6.5 |
 |5|T,02/01| MAC domain extension <br> Hash functions and HMAC | **KL** 4.3,6.1-6.4 |
