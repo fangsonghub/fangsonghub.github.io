@@ -13,7 +13,7 @@ modified: <2022-12-19 Mon>
 *  **Syllabus**: [PDF]({{base}}/teaching/w23_4585_icrypto/w23_4585_icrypto_syllabus.pdf){:target="_blank"}.
 *  **Lectures**: M/W 14:00 - 15:50 @ CH (Cramer Hall) 382.
 *  **Instructor**: [Fang Song]({{base}}/) (fsong
-   "AT" pdx.edu). **Office hours**:  @ FAB 120-25 and Zoom (See link in Slack and Google Calendar).
+   "AT" pdx.edu). **Office hours**: W 11:30 - 13:00 @ FAB 120-25 or Zoom (See link in Slack and Google Calendar). Book additional slots available [here](https://w23-pdx-crypto.youcanbook.me/){:target="_blank"}.
 *  **Google classroom**: join with code _biqddg3_. 
 *  **Overview**: Cryptography is usually described as the _art_ of
 secret writing. _Modern_ cryptography has transformed cryptography
