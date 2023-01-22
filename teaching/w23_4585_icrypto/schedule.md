@@ -5,7 +5,7 @@ courseid: w23 485/585
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/w23_4585_icrypto/schedule/
-modified: <2022-01-13 Fri> 
+modified: <2022-01-22 Sun> 
 ---
 
 {% comment %}
@@ -26,8 +26,8 @@ modified: <2022-01-13 Fri>
 | |W,01/18| Recitation <br > Probability and Perfect secrecy | |
 |3|M,01/23| One-time pad and limits | **KL** 2.2,2.3 | 
 | |W,01/25|Computational secrecy <br> Pseudorandom generators | **KL** 3.1 - 3.3 <br> Supplement: **KL** 7.1 |
-|4|M,01/30|Proof by reduction <br> Block ciphers | **KL** 3.3,3.5.1 <br> Supplement: **KL** 7.2, **BS** 5 |
-| |W,02/01| Chosen-Plaintext-Attacks | **KL** 3.4,3.5.2 <br> Supplement: **BS** 6 |
+|4|M,01/30|Proof by reduction <br> Block ciphers | **KL** 3.3,3.5.1 <br> Supplement: **KL** 7.2, **BS** 4 |
+| |W,02/01| Chosen-Plaintext-Attacks | **KL** 3.4,3.5.2 <br> Supplement: **BS** 5 |
 {:.mbtablestylef}
 
 {% comment %}
