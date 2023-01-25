@@ -88,7 +88,9 @@ More Can We Do? Invited talk
 ([Video](https://www.youtube.com/watch?v=23gfTFLp9Is&ab_channel=TheIACR))
 at Asiacrypt 2021 by Kazue Sako.
 
-*  Crypto for the People. Invited talk by [[Seny Kamara](https://cs.brown.edu/~seny/)] at Crypto 2020. Check out Kamara's research work. 
+*  Crypto for the People. Invited talk by [Seny
+   Kamara](https://cs.brown.edu/~seny/) at Crypto 2020. Check out
+   Kamara's research work.
 
 *  Export control on cryptography ([US
    EAR](https://www.bis.doc.gov/index.php/policy-guidance/encryption)). What?
@@ -137,7 +139,6 @@ exercised with the highest standard. Even the slightest neligence can
 be disastrous. Individuals are usually advised against homebrewing
 them but to resort to standardized libraries.) 
 
-
 *  Password Manager (Credit: Dan
    Boneh). [Instructions](https://crypto.stanford.edu/~dabo/courses/cs255_winter22/hw_and_proj/proj1.pdf)
    [Starter code](https://crypto.stanford.edu/~dabo/courses/cs255_winter22/hw_and_proj/proj1.zip).
@@ -184,11 +185,14 @@ them but to resort to standardized libraries.)
 CCC[https://computationalcomplexity.org/]).
 
 *  **Constructions**
-  * [[ETY22](https://eprint.iacr.org/2022/785)] Shorter Hash-and-Sign Lattice-Based Signatures. 
-  *  [[HMR12](https://arxiv.org/abs/1208.1176)] An Enciphering Scheme Based on a Card Shuffle. 
-  * [[BH15](https://link.springer.com/article/10.1007/s00145-013-9169-2)] From Non-adaptive to Adaptive Pseudorandom Functions. 
+  * [[ETY22](https://eprint.iacr.org/2022/785)] Shorter Hash-and-Sign
+    Lattice-Based Signatures.
+  *  [[HMR12](https://arxiv.org/abs/1208.1176)] An Enciphering Scheme
+     Based on a Card Shuffle.
+  * [[BH15](https://link.springer.com/article/10.1007/s00145-013-9169-2)]
+    From Non-adaptive to Adaptive Pseudorandom Functions.
   * [[JJ22](https://eprint.iacr.org/2022/1430)] Indistinguishability
-    Obfuscation (iO) via Mathematical Proofs of Equivalence. 
+    Obfuscation (iO) via Mathematical Proofs of Equivalence.
   * [[SW14](https://eprint.iacr.org/2013/454)] How to Use
     Indistinguishability Obfuscation: Deniable Encryption, and More.
   * [[GSW13](https://eprint.iacr.org/2013/340)] Homomorphic Encryption
@@ -197,7 +201,9 @@ CCC[https://computationalcomplexity.org/]).
     homomorphic encryption.)
 
 *  **Cryptanalysis**
-  * [[Beullens22](https://eprint.iacr.org/2022/214)] Breaking _Rainbow_ (an NIST post-quantum cryptography Round-3 finalist) Takes a Weekend on a Laptop. 
+  * [[Beullens22](https://eprint.iacr.org/2022/214)] Breaking
+    _Rainbow_ (an NIST post-quantum cryptography Round-3 finalist)
+    Takes a Weekend on a Laptop.
   * [[GLST22](https://eprint.iacr.org/2022/184)] Exploring SAT for
     Cryptanalysis: (Quantum) Collision Attacks against 6-Round SHA-3.
 
@@ -210,7 +216,7 @@ CCC[https://computationalcomplexity.org/]).
     are essential in Proof-of-Stake blockchain technology).
   * [[HNY22](https://eprint.iacr.org/2022/178)] Lower Bound on SNARGs
     in the Random Oracle Model. SNARGs are a vital building block in
-    ZCash and many more cryptocurrency schemes. 
+    ZCash and many more cryptocurrency schemes.
   
 * **(Post-) quantum cryptography**
   *  [[MY21](https://arxiv.org/abs/2112.06369)
