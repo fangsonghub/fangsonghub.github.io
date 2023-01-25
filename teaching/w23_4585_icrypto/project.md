@@ -5,7 +5,7 @@ courseid: w23 485/585
 subtitle: Course Project
 desc: Project
 permalink: /teaching/w23_4585_icrypto/project/
-modified: <2022-01-05 Thu> 
+modified: <2022-01-23 Mon> 
 ---
 
 * Table of Contents
@@ -13,9 +13,7 @@ modified: <2022-01-05 Thu>
 
 ## Instructions
 
-{% comment %}
-2-3 people group projects. You may choose one (or superposition) of
-the options below. 
+2-3 people group projects. You may choose one of the options below.
 * **Research project**. Take any route to gain some research
   experience.
   *  _Literature review_. Pick a topic of interest, and summarize the
@@ -26,22 +24,20 @@ including open problems.
    carefully. You will study a dedicated problem and give a thorough
    exposition on it.
   *  _original research_. Challenge yourself with some open question
-   in the field. You are encouraged to explore the potential of
-   quantum computing in your own research area. Be _creative_ and keep
-   a _critical_ mind.
+   in the field. You are encouraged to explore interdisciplinary
+   topics between cryptography and your own research area. Be
+   _creative_ and keep a _critical_ mind.
 
-*  **Programming project**. Sure, why not get your hands dirty, thanks
-   to the advances of physical devices and software frameworks (see
-   some popular ones below). You may test and optimize quantum
-   algorithms and protocols in a platform, or you might want to
-   contribute to new features of these tools.
-   
-*  **Societal-impact project**. Quantum is becoming a buzz word. What
- is the broader implication of quantum technology? What is happening
- in the society to get ready for this technology? Are there ethical
- issues concerning the technology and the workforce development? 
+*  **Programming project**. Implementing cryptographic systems and
+   applications is a risky business. Take this opportunity to learn
+   good practices of putting cryptography into real-world use cases.
 
-{% endcomment %}
+*  **Societal-impact project**. What is the broader implications of
+ cryptography? Are there ethical issues concerning the technology and
+ the workforce development?
+ 
+ {% comment %} {% endcomment %}
+
 ### Milestones
 
 {% comment %}
@@ -60,13 +56,10 @@ including open problems.
    report; 3) details including proper preliminary materials (e.g.,
    notations & definitions), explaining the main results; and finally
    4) further discussion and open questions. (10%)
-*  **Report format**: I recommend you to typeset your reports in
-   _LaTeX_, and manage your bibliography using BibTeX. The [resource
-   page]({{base}}/teaching/f22_4510_qc/resource/) has links to
-   materials to pick up LaTeX. You should use single-column,
-   single-space (between lines) format on letter-size papers. You will
-   earn extra credit if you typeset your final report in LaTeX.
-{% endcomment %} 
+*  **Report format**: Submit your reports in PDF. I recommend that you
+   typeset in _LaTeX_, and manage your bibliography using _BibTeX_.
+   
+   {% endcomment %}
 
 ### Timeline (Tentative)
 {% comment %}
@@ -82,7 +75,6 @@ including open problems.
 
 The list below is far from complete, and is only intended as a
 starting point for you to explore more options. 
-
 
 ### Societal impact
 {% comment %}
@@ -120,37 +112,61 @@ starting point for you to explore more options.
 
 ### Research 
 
-*  Check out the frontier research topics at these venues:
-[Crypto](http://www.iacr.org/meetings/crypto/), [Eurocrypt](https://www.iacr.org/meetings/eurocrypt/), [Asiacrypt](https://www.iacr.org/meetings/asiacrypt/), [TCC](https://www.iacr.org/meetings/tcc/),
+*  Check out recent research results at these venues:
+[Crypto](http://www.iacr.org/meetings/crypto/),
+[Eurocrypt](https://www.iacr.org/meetings/eurocrypt/),
+[Asiacrypt](https://www.iacr.org/meetings/asiacrypt/),
+[TCC](https://www.iacr.org/meetings/tcc/),
 [Qcrypt](https://2022.qcrypt.net/), and general TCS conferences (e.g.,
 [STOC](http://acm-stoc.org/), [FOCS](http://ieee-focs.org/),
 [SODA](http://www.siam.org/meetings/archives.php#SODA),
 [ITCS](http://itcs-conf.org/),
 CCC[https://computationalcomplexity.org/]).
 
-{% comment %}
-* **Quantum-safe cryptography**
-  *  [[PQC](https://pqcrypto.org/),[ToB18](https://blog.trailofbits.com/2018/10/22/a-guide-to-post-quantum-cryptography/)]
-   Securing classical cryptography against quantum attacks, known as
-   _post-quantum cryptography_.
-  *  [[HMY22](https://arxiv.org/abs/2210.05978)] Trading quantum gravity
-     for quantum cryptography?
-  *  [[BCMVV18](https://arxiv.org/abs/1804.00640)] Testing quantumness
-     and generating certifiable randomness.
-  *  [[Zhandry18](https://eprint.iacr.org/2017/1080)] A unique quantum
-   primitive, quantum lightning, with applications in quantum
-   money. Can you construct it from other problems?
-  *  [[DPVR12](https://epubs.siam.org/doi/10.1137/100813683)] Making
-   randomness extractors secure against _quantum side information_.
+*  **Constructions**
+  * [[ETY22](https://eprint.iacr.org/2022/785)] Shorter Hash-and-Sign Lattice-Based Signatures. 
+  *  [[HMR12](https://arxiv.org/abs/1208.1176)] An Enciphering Scheme Based on a Card Shuffle. 
+  * [[BH15](https://link.springer.com/article/10.1007/s00145-013-9169-2)] From Non-adaptive to Adaptive Pseudorandom Functions. 
+  * [[JJ22](https://eprint.iacr.org/2022/1430)] Indistinguishability
+    Obfuscation (iO) via Mathematical Proofs of Equivalence. 
+  * [[SW14](https://eprint.iacr.org/2013/454)] How to Use
+    Indistinguishability Obfuscation: Deniable Encryption, and More.
+  * [[GSW13](https://eprint.iacr.org/2013/340)] Homomorphic Encryption
+    from Learning with Errors: Conceptually-Simpler,
+    Asymptotically-Faster, Attribute-Based. (Third-Gen fully
+    homomorphic encryption.)
+
+*  **Cryptanalysis**
+  * [[Beullens22](https://eprint.iacr.org/2022/214)] Breaking _Rainbow_ (an NIST post-quantum cryptography Round-3 finalist) Takes a Weekend on a Laptop. 
+  * [[GLST22](https://eprint.iacr.org/2022/184)] Exploring SAT for
+    Cryptanalysis: (Quantum) Collision Attacks against 6-Round SHA-3.
+
+*  **Lower bounds**
+  * [[CHM20](https://eprint.iacr.org/2020/687)] How much time and
+    memory are needed to invert a function? The solution to this
+    simple question is not as simple.
+  * [[BHKU22](https://eprint.iacr.org/2022/762)] The Price of
+    Verifiability: Lower Bounds for Verifiable Random Functions (VRFs
+    are essential in Proof-of-Stake blockchain technology).
+  * [[HNY22](https://eprint.iacr.org/2022/178)] Lower Bound on SNARGs
+    in the Random Oracle Model. SNARGs are a vital building block in
+    ZCash and many more cryptocurrency schemes. 
+  
+* **(Post-) quantum cryptography**
   *  [[MY21](https://arxiv.org/abs/2112.06369)
-     [AQY22](https://arxiv.org/abs/2112.10020)] Cryptography from
+     [AQY22](https://arxiv.org/abs/2112.10020)
+     [AGQY22](https://arxiv.org/abs/2211.01444)] Cryptography from
      quantum pseudorandomness. What is the _minimal_ assumption for
      cryptography?
+  *  [[HMY22](https://arxiv.org/abs/2210.05978)] From the Hardness of
+     Detecting Superpositions to Cryptography: Quantum Public Key
+     Encryption and Commitments.
+  *  [[GJMZ22](https://eprint.iacr.org/2022/1358)] Commitments to
+     Quantum States.
+  *  [[LMQW22](https://eprint.iacr.org/2022/869)] A new set of
+     examples demonstrating classical security fails to imply quantum
+     security. 
 
+{% comment %}
 * **Clearing up the folklore**
-  *  [[Cleve11](https://cs.uwaterloo.ca/~cleve/courses/F11CS667/SimonClassicalLB.pdf),[KNP05](https://arxiv.org/abs/quant-ph/0501060)]
-   Exact lower bounds for Simon's problem, on probabilistic and
-   quantum computers. Bounding the success probability given a fixed
-   number of queries.
-
 {% endcomment %}
