@@ -5,7 +5,7 @@ courseid: w23 485/585
 subtitle: Course Project
 desc: Project
 permalink: /teaching/w23_4585_icrypto/project/
-modified: <2022-01-23 Mon> 
+modified: <2022-01-25 Wed> 
 ---
 
 * Table of Contents
@@ -19,14 +19,13 @@ modified: <2022-01-23 Mon>
   *  _Literature review_. Pick a topic of interest, and summarize the
 state of art of it. The final outcome would be a _survey_ paper
 including open problems.
-  *  _Completing "folklore"_. There are "folklore" results in the
-   filed or missing details in class that are worth spelling out
-   carefully. You will study a dedicated problem and give a thorough
-   exposition on it.
-  *  _original research_. Challenge yourself with some open question
+  *  _Original research_. Challenge yourself with some open question
    in the field. You are encouraged to explore interdisciplinary
    topics between cryptography and your own research area. Be
-   _creative_ and keep a _critical_ mind.
+   _creative_ and keep a _critical_ mind. You may also choose to
+   complete "folklores" in the field, which are results believed true
+   but are missing details or careful scrutiny. You will study a
+   dedicated problem and give a thorough exposition on it.
 
 *  **Programming project**. Implementing cryptographic systems and
    applications is a risky business. Take this opportunity to learn
@@ -36,39 +35,35 @@ including open problems.
  cryptography? Are there ethical issues concerning the technology and
  the workforce development?
  
- {% comment %} {% endcomment %}
+{% comment %} {% endcomment %}
 
 ### Milestones
 
-{% comment %}
 *  **Proposal**: 1-2 pages consisting of 1) the topic, background,
-   context, and motivation; 2) a few core references; and 3)
-   your goal and a plan. (10%)
+   context, and motivation; 2) a few core references; and 3) your goal
+   and a plan. (5%)
 *  **Oral presentation**: Each group will have about 30 minutes to
    present your project including Q&A. Your need to demonstrate both
    _breath_ and _depth_. Aim for a clear introduction that would
    engage the audience, and then explain 1-2 technical ideas in some
    detail. Every group member needs to participate, and your group
-   will be graded by fellow students. (20%)
-*  **Final report**: <= 10 pages (excluding references). This should
-   resemble a research paper: 1) a short abstract; 2) an introduction
-   that motivates the topic and offers an overview of the entire
-   report; 3) details including proper preliminary materials (e.g.,
-   notations & definitions), explaining the main results; and finally
-   4) further discussion and open questions. (10%)
+   will be graded by fellow students. (15%)
+*  **Final report**: ~ 10 pages (excluding references). This should
+   resemble a research paper containing: 1) a short abstract; 2) an
+   introduction that motivates the topic and offers an overview of the
+   entire report; 3) details including proper preliminary materials
+   (e.g., notations & definitions), explaining the main results; and
+   finally 4) further discussion and open questions. (10%)
 *  **Report format**: Submit your reports in PDF. I recommend that you
    typeset in _LaTeX_, and manage your bibliography using _BibTeX_.
-   
-   {% endcomment %}
 
 ### Timeline (Tentative)
-{% comment %}
 *  **Week 2 - 4**: discussing project ideas and forming groups.
-*  **Week 5**: proposal due on xxxx. 
+*  **Week 5**: proposal due on 02/08. 
 *  **Week 8**: progress check-up meetings.
 *  **Week 10**: in-class presentations. 
-*  **xx/xx**: final report due. 
-{% endcomment %}
+*  **03/22**: final report due. 
+{% comment %}{% endcomment %}
 ------ 
 
 ## Suggested topics 
@@ -77,12 +72,39 @@ The list below is far from complete, and is only intended as a
 starting point for you to explore more options. 
 
 ### Societal impact
-{% comment %}
-(We need scientists and engineers to advance the field of quantum
-  computing. But what is equally important, if not more, is to have
-  more people think broadly the implications and proper actions to
-  take.)
-  
+(We need scientists and engineers to advance the field of cryptography
+and cybersecurity at large. But what is equally important, if not
+more, is to have more people think broadly the implications and proper
+actions to take.)
+
+* The _Moral Character_ of Cryptographic Work. An insightful essay by
+Phil Rogaway
+([Paper](https://www.cs.ucdavis.edu/~rogaway/papers/moral-en.pdf)
+[Slides](https://www.cs.ucdavis.edu/~rogaway/papers/ac15.pdf) at
+Asiacrypt 2015).
+
+*  Cryptography For a Secure, Privacy-Respecting and Fair Society: What
+More Can We Do? Invited talk
+([Video](https://www.youtube.com/watch?v=23gfTFLp9Is&ab_channel=TheIACR))
+at Asiacrypt 2021 by Kazue Sako.
+
+*  Crypto for the People. Invited talk by [[Seny Kamara](https://cs.brown.edu/~seny/)] at Crypto 2020. Check out Kamara's research work. 
+
+*  Export control on cryptography ([US
+   EAR](https://www.bis.doc.gov/index.php/policy-guidance/encryption)). What?
+   Why? Impact?
+
+*  E-Voting. Check out research by [Vanessa
+   Teague](https://researchers.anu.edu.au/researchers/teague-v) and an
+   invited talk
+   ([Slides](https://crypto.iacr.org/2021/slides/CRYPTOTeague.pdf)
+   [Video](https://www.youtube.com/watch?v=GLQAf6uTExw&ab_channel=TheIACR))
+   at Crypto 2021. There was also an earlier talk ([Democracy,
+   security and evidence: let's have all
+   three](https://asiacrypt.iacr.org/2018/files/SLIDES/WEDNESDAY/Z411/ASIACRYPT2018.pdf))
+   at Asiacrypt 2018.
+
+{% comment %} 
 * **Misinformation** in mass media.  Are we doing a good job so far to
   deliver the idea of quantum computing to the general audience? Some
   popular sites: [[Phys.org](https://m.phys.org/),
@@ -109,6 +131,44 @@ starting point for you to explore more options.
 {% endcomment %}
 
 ### Programming 
+
+(Implementing cryptographic algorithms and applications needs to be
+exercised with the highest standard. Even the slightest neligence can
+be disastrous. Individuals are usually advised against homebrewing
+them but to resort to standardized libraries.) 
+
+
+*  Password Manager (Credit: Dan
+   Boneh). [Instructions](https://crypto.stanford.edu/~dabo/courses/cs255_winter22/hw_and_proj/proj1.pdf)
+   [Starter code](https://crypto.stanford.edu/~dabo/courses/cs255_winter22/hw_and_proj/proj1.zip).
+
+*  End-to-End encrypted chat client (Credit: Dan
+   Boneh). [Instructions](https://crypto.stanford.edu/~dabo/courses/cs255_winter22/hw_and_proj/proj2.pdf)
+   [Starter code](https://crypto.stanford.edu/~dabo/courses/cs255_winter22/hw_and_proj/proj2.zip). 
+   
+*  Comparative study of NIST PQC Finalists. Read the
+   [report](https://csrc.nist.gov/publications/detail/nistir/8413/final)
+   to get a comprehensive picture about the history and status of this
+   standardization process. Then select a few to assess their security
+   and performance. Each team typically maitains codes and a project
+   website (e.g., [this
+   page](https://csrc.nist.gov/Projects/post-quantum-cryptography/selected-algorithms-2022)
+   contains the information of the schemes selected to be standadized
+   in July 2022, and [this
+   page](https://csrc.nist.gov/Projects/post-quantum-cryptography/round-4-submissions)
+   lists Round 4 submissions).
+
+*  Build your applications with homomorphic encryption. Some libraries
+   to consider
+   [SEAL](https://www.microsoft.com/en-us/research/project/microsoft-seal/),
+   [openFHE](https://www.openfhe.org/).
+
+*   Playing with [zeor-knowledge proofs](https://zkproof.org/) and
+    [SNARKs](https://z.cash/technology/zksnarks/). [This
+    workshop](https://rdi.berkeley.edu/zkp-workshop-2022/) provides a
+    lot of up-to-date pointers in the theory and practical
+    developments of zero-knowledge proofs.
+
 
 ### Research 
 
