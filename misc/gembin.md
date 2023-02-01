@@ -8,6 +8,7 @@ science_. My favorites are tagged by :shell:.
 *  Donald Knuth's Lectures on Mathematical Writing @ Standord 1987 [Youtube playlist](https://www.youtube.com/playlist?list=PLOdeqCXq1tXihn5KmyB2YTOqgxaUkcNYG). Accompany lecture notes [PDF](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf). 
 * How to [write a great research paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/)
   by Simon Peyton Jones.
+* Writing a research paper backwards [[PDF](https://link.springer.com/content/pdf/10.1007/s42995-021-00120-z.pdf?pdf=button)]. 
 
 ### Presentation
 *  :shell: Tips for Giving **Clear Talks** [PDF](http://graphics.stanford.edu/~kayvonf/misc/cleartalktips.pdf), slides by Kayvon Fatahalian. 

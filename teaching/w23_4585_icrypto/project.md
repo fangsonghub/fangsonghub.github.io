@@ -182,39 +182,39 @@ them but to resort to standardized libraries.)
 [STOC](http://acm-stoc.org/), [FOCS](http://ieee-focs.org/),
 [SODA](http://www.siam.org/meetings/archives.php#SODA),
 [ITCS](http://itcs-conf.org/),
-CCC[https://computationalcomplexity.org/]).
+[CCC](https://computationalcomplexity.org/)).
 
 *  **Constructions**
-  * [[ETY22](https://eprint.iacr.org/2022/785)] Shorter Hash-and-Sign
+    * [[ETY22](https://eprint.iacr.org/2022/785)] Shorter Hash-and-Sign
     Lattice-Based Signatures.
-  *  [[HMR12](https://arxiv.org/abs/1208.1176)] An Enciphering Scheme
+    *  [[HMR12](https://arxiv.org/abs/1208.1176)] An Enciphering Scheme
      Based on a Card Shuffle.
-  * [[BH15](https://link.springer.com/article/10.1007/s00145-013-9169-2)]
+    * [[BH15](https://link.springer.com/article/10.1007/s00145-013-9169-2)]
     From Non-adaptive to Adaptive Pseudorandom Functions.
-  * [[JJ22](https://eprint.iacr.org/2022/1430)] Indistinguishability
+    * [[JJ22](https://eprint.iacr.org/2022/1430)] Indistinguishability
     Obfuscation (iO) via Mathematical Proofs of Equivalence.
-  * [[SW14](https://eprint.iacr.org/2013/454)] How to Use
+    * [[SW14](https://eprint.iacr.org/2013/454)] How to Use
     Indistinguishability Obfuscation: Deniable Encryption, and More.
-  * [[GSW13](https://eprint.iacr.org/2013/340)] Homomorphic Encryption
-    from Learning with Errors: Conceptually-Simpler,
+    * [[GSW13](https://eprint.iacr.org/2013/340)] Homomorphic
+    Encryption from Learning with Errors: Conceptually-Simpler,
     Asymptotically-Faster, Attribute-Based. (Third-Gen fully
     homomorphic encryption.)
 
 *  **Cryptanalysis**
-  * [[Beullens22](https://eprint.iacr.org/2022/214)] Breaking
+    * [[Beullens22](https://eprint.iacr.org/2022/214)] Breaking
     _Rainbow_ (an NIST post-quantum cryptography Round-3 finalist)
     Takes a Weekend on a Laptop.
-  * [[GLST22](https://eprint.iacr.org/2022/184)] Exploring SAT for
+    * [[GLST22](https://eprint.iacr.org/2022/184)] Exploring SAT for
     Cryptanalysis: (Quantum) Collision Attacks against 6-Round SHA-3.
 
 *  **Lower bounds**
-  * [[CHM20](https://eprint.iacr.org/2020/687)] How much time and
+    * [[CHM20](https://eprint.iacr.org/2020/687)] How much time and
     memory are needed to invert a function? The solution to this
     simple question is not as simple.
-  * [[BHKU22](https://eprint.iacr.org/2022/762)] The Price of
+    * [[BHKU22](https://eprint.iacr.org/2022/762)] The Price of
     Verifiability: Lower Bounds for Verifiable Random Functions (VRFs
     are essential in Proof-of-Stake blockchain technology).
-  * [[HNY22](https://eprint.iacr.org/2022/178)] Lower Bound on SNARGs
+    * [[HNY22](https://eprint.iacr.org/2022/178)] Lower Bound on SNARGs
     in the Random Oracle Model. SNARGs are a vital building block in
     ZCash and many more cryptocurrency schemes.
   
