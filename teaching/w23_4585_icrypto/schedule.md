@@ -33,6 +33,12 @@ modified: <2022-01-31 Tue>
 {:.mbtablestylef}
 
 {% comment %}
+
+6 Hash / CCA
+7 PKC (history + math) / TDP, RSA, DH
+8 KEMDEM, LWE / DS
+9 RO and PKC / Foundations
+
 |5|T,02/01| Hash functions and HMAC | **KL** 6.1-6.4 |
 ||R,02/03 | CCA and authenticated encryption | **KL** 5.1-5.3 |
 |6|T,02/08| Private-key primitives: <br> theoretical constructions | **KL** 8 |
