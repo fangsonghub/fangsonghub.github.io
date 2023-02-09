@@ -5,7 +5,7 @@ courseid: w23 485/585
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/w23_4585_icrypto/schedule/
-modified: <2022-01-31 Tue> 
+modified: <2022-02-08 Wed> 
 ---
 
 {% comment %}
@@ -28,19 +28,18 @@ modified: <2022-01-31 Tue>
 | |W,01/25|Computational secrecy <br> Pseudorandom generators | **KL** 3.1 - 3.3 <br> Supplement: **KL** 7.1 |
 |4|M,01/30|Proof by reduction <br> Block ciphers | **KL** 3.3,3.5.1 <br> Supplement: **KL** 7.2, **BS** 4 |
 | |W,02/01| Chosen-Plaintext-Attacks | **KL** 3.4,3.5.2 <br> Supplement: **BS** 5 |
-|5|M,02/06| CPA-secure encryption <br> Block cipher constructions|**KL** 3.6,7.2 <br> Supplement: **BS** 5.3,6.4,6.5 |
+|5|M,02/06| CPA-secure encryption <br> Block cipher constructions|**KL** 3.6,7.2 <br> Supplement: **BS** 5.3 |
 ||W,02/08| Message authentication | **KL** 4.1 - 4.4 |
+|6|M,02/13| MAC domain extension <br> Hash functions | **KL** 6.1-6.3 <br> Supplement: **BS** 6.4,6.5 | 
+||W,02/15| CCA and authenticated encryption | **KL** 5.1-5.3 |
 {:.mbtablestylef}
 
 {% comment %}
 
-6 Hash / CCA
 7 PKC (history + math) / TDP, RSA, DH
 8 KEMDEM, LWE / DS
 9 RO and PKC / Foundations
 
-|5|T,02/01| Hash functions and HMAC | **KL** 6.1-6.4 |
-||R,02/03 | CCA and authenticated encryption | **KL** 5.1-5.3 |
 |6|T,02/08| Private-key primitives: <br> theoretical constructions | **KL** 8 |
 ||R,02/10 | Hybrid argument <br> PKC evolution | **KL** 8.8,11,12.1,12.2 <br> History of PKC: [Diffie](http://cr.yp.to/bib/1988/diffie.pdf){:target="_blank"}, [Merkle's Project Proposal](http://www.merkle.com/1974/){:target="_blank"}, [CESG](http://cryptome.org/jya/ellisdoc.htm){:target="_blank"} |
 |7|T,02/15| Math review <br> TDP & RSA <br> Diffie-Hellman & ElGamal | **KL** 9.1-9.3,12.4,12.5 <br> Note on algebra [PDF](http://theory.stanford.edu/~trevisan/cs276/notesalgebra.pdf){:target="_blank"} |
