@@ -5,7 +5,7 @@ courseid: w23 485/585
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/w23_4585_icrypto/schedule/
-modified: <2022-02-08 Wed> 
+modified: <2022-02-15 Wed> 
 ---
 
 {% comment %}
@@ -30,26 +30,22 @@ modified: <2022-02-08 Wed>
 | |W,02/01| Chosen-Plaintext-Attacks | **KL** 3.4,3.5.2 <br> Supplement: **BS** 5 |
 |5|M,02/06| CPA-secure encryption <br> Block cipher constructions|**KL** 3.6,7.2 <br> Supplement: **BS** 5.3 |
 ||W,02/08| Message authentication | **KL** 4.1 - 4.4 |
-|6|M,02/13| MAC domain extension <br> Hash functions | **KL** 6.1-6.3 <br> Supplement: **BS** 6.4,6.5 | 
-||W,02/15| CCA and authenticated encryption | **KL** 5.1-5.3 |
+|6|M,02/13| MAC domain extension <br> Hash functions | **KL** 6.1-6.2,6.4 <br> Supplement: **BS** 6.4,6.5 | 
+||W,02/15| HMAC <br> Authenticated encryption | **KL** 6.3,7.3,5.3 |
+|7|M,02/20| CCA <br> PKC evolution |**KL** 5.1-5.2,11,12.1,12.2 |
+||W,02/22| TDP & RSA <br> Diffie-Hellman | **KL** 9.1-9.3,12.4,12.5 <br> Note on algebra [PDF](http://theory.stanford.edu/~trevisan/cs276/notesalgebra.pdf){:target="_blank"} |
+|8|M,02/27| KEM/DEM <br> Lattice-crypto | **KL** 12.3,14.3 <br> Barak's note [PDF](https://files.boazbarak.org/crypto/lec_12_lattices.pdf){:target="_blank"} Peikert's tutorial [Youtube](https://youtu.be/K_fNK04yG4o){:target="_blank"} |
+| |W,03/01| Digital signatures | **KL** 13.1-13.3 |
+|9|M,03/06| Random-oracle <br> PKC with RO | **KL** 6.5,12.5.4,13.4|
+| |W,03/08| Theoretical foundations of cryptography | **KL** 8 |
+|10|M,03/10| Project presentation | | 
+|10|W,03/12| Project presentation | | 
 {:.mbtablestylef}
 
 {% comment %}
 
-7 PKC (history + math) / TDP, RSA, DH
-8 KEMDEM, LWE / DS
-9 RO and PKC / Foundations
-
-|6|T,02/08| Private-key primitives: <br> theoretical constructions | **KL** 8 |
 ||R,02/10 | Hybrid argument <br> PKC evolution | **KL** 8.8,11,12.1,12.2 <br> History of PKC: [Diffie](http://cr.yp.to/bib/1988/diffie.pdf){:target="_blank"}, [Merkle's Project Proposal](http://www.merkle.com/1974/){:target="_blank"}, [CESG](http://cryptome.org/jya/ellisdoc.htm){:target="_blank"} |
-|7|T,02/15| Math review <br> TDP & RSA <br> Diffie-Hellman & ElGamal | **KL** 9.1-9.3,12.4,12.5 <br> Note on algebra [PDF](http://theory.stanford.edu/~trevisan/cs276/notesalgebra.pdf){:target="_blank"} |
-||R,02/17 | KEM/DEM <br> Lattice-crypto | **KL** 12.3,14.3 <br> Barak's note [PDF](https://files.boazbarak.org/crypto/lec_12_lattices.pdf){:target="_blank"} Peikert's tutorial [Youtube](https://youtu.be/K_fNK04yG4o){:target="_blank"} |
-|8|T,02/22| Digital signatures | **KL** 13.1-13.3 |
-||R,02/24 | Random-oracle <br> PKC with RO | **KL** 6.5,12.5.4,13.4|
-|9|T,03/01| TLS <br> (Post-)Quantum cryptography | **KL** 13.6,13.7,14 <br> FS's talk [Slides [PDF]({{base}}/files/talks/201611_fspqcasia.pdf){:target="_blank"}] [[Video](https://www.youtube.com/watch?v=n39-FOmNh5g){:target="_blank"}] |
-||R,03/03 | Ethics | Rogaway's essay: <br> [The Moral Character of Cryptographic Work](https://web.cs.ucdavis.edu/~rogaway/papers/moral.html){:target="_blank"} |
-|10|T,03/08| Selected topics: <br> zero-knowledge proofs <br> Bitcoin | |
-||R,03/10 | Review |  |
+
 {% endcomment %}
 
 
