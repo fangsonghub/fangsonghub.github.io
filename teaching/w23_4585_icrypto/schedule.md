@@ -38,8 +38,8 @@ modified: <2022-02-20 Mon>
 ||W,03/01| Digital signatures | **KL** 13.1-13.3 |
 |9|M,03/06| Random-oracle <br> PKC with RO | **KL** 6.5,12.5.4,13.4|
 ||W,03/08| Theoretical foundations | **KL** 8 |
-|10|M,03/10| Project presentation | | 
-||W,03/12| Project presentation | | 
+|10|M,03/13| Project presentation | | 
+||W,03/15| Project presentation | | 
 {:.mbtablestylef}
 
 {% comment %}
