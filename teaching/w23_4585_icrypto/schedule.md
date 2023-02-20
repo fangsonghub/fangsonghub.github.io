@@ -5,7 +5,7 @@ courseid: w23 485/585
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/w23_4585_icrypto/schedule/
-modified: <2022-02-15 Wed> 
+modified: <2022-02-20 Mon> 
 ---
 
 {% comment %}
@@ -35,11 +35,11 @@ modified: <2022-02-15 Wed>
 |7|M,02/20| CCA <br> PKC evolution |**KL** 5.1-5.2,11,12.1,12.2 |
 ||W,02/22| TDP & RSA <br> Diffie-Hellman | **KL** 9.1-9.3,12.4,12.5 <br> Note on algebra [PDF](http://theory.stanford.edu/~trevisan/cs276/notesalgebra.pdf){:target="_blank"} |
 |8|M,02/27| KEM/DEM <br> Lattice-crypto | **KL** 12.3,14.3 <br> Barak's note [PDF](https://files.boazbarak.org/crypto/lec_12_lattices.pdf){:target="_blank"} Peikert's tutorial [Youtube](https://youtu.be/K_fNK04yG4o){:target="_blank"} |
-| |W,03/01| Digital signatures | **KL** 13.1-13.3 |
+||W,03/01| Digital signatures | **KL** 13.1-13.3 |
 |9|M,03/06| Random-oracle <br> PKC with RO | **KL** 6.5,12.5.4,13.4|
-| |W,03/08| Theoretical foundations of cryptography | **KL** 8 |
+||W,03/08| Theoretical foundations | **KL** 8 |
 |10|M,03/10| Project presentation | | 
-|10|W,03/12| Project presentation | | 
+||W,03/12| Project presentation | | 
 {:.mbtablestylef}
 
 {% comment %}
