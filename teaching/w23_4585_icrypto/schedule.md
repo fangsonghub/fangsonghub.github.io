@@ -5,7 +5,7 @@ courseid: w23 485/585
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/w23_4585_icrypto/schedule/
-modified: <2022-02-20 Mon> 
+modified: <2022-03-06 Mon> 
 ---
 
 {% comment %}
@@ -37,9 +37,9 @@ modified: <2022-02-20 Mon>
 |8|M,02/27| KEM/DEM <br> Lattice-crypto | **KL** 12.3,14.3 <br> Barak's note [PDF](https://files.boazbarak.org/crypto/lec_12_lattices.pdf){:target="_blank"} <br> Peikert's tutorial [Youtube](https://youtu.be/K_fNK04yG4o){:target="_blank"} |
 ||W,03/01| Digital signatures | **KL** 13.1-13.3 |
 |9|M,03/06| Random-oracle <br> PKC with RO | **KL** 6.5,12.5.4,13.4|
-||W,03/08| Theoretical foundations | **KL** 8 |
-|10|M,03/10| Project presentation | | 
-||W,03/12| Project presentation | | 
+||W,03/08| Hash-based signature <br> Theoretical foundations | **KL** 14.4, 8 |
+|10|M,03/13| Project presentation | | 
+||W,03/15| Project presentation | | 
 {:.mbtablestylef}
 
 {% comment %}
