@@ -2,7 +2,7 @@
 layout: page
 title: Advising
 excerpt: Advising and mentoring
-modified: <2022-08-08 Mon>
+modified: <2023-03-15 Wed>
 ---
 
 {% comment %}
@@ -20,7 +20,7 @@ you are interested in TCS and/or working with me.
 *  2021.09 - . [Nikhil Pappu](http://nikhilpappu.info/){:target="_blank"} @ Portland State U. 
 *  2021.09 - . [Mehil Agarwal](https://mehil.info/){:target="_blank"} @ Portland State U. 
 *  2020.06 - . [Chuhan Lu](https://chuhanlu.github.io/){:target="_blank"} @ Portland State U (2019.09 - 2020.05 @ Texas A&M U).
-*  2020.09 - . [Ben Hamlin](){:target="_blank"} @ Portland State U (2018.09 - 2019.05 @ Texas A&M U).
+*  2020.09 - . [Ben Hamlin](){:target="_blank"} @ Portland State U (Researcher and Engineer at Galois, Portland. 2018.09 - 2019.05 @ Texas A&M U).
 
 {% comment %}
 *  2019.09 - 2020.05. [Mufeng Xie](){:target="_blank"} @ Texas A&M U.
@@ -31,7 +31,9 @@ you are interested in TCS and/or working with me.
 {% endcomment %}
 
 ### Undergraduate 
-
+* 2022.06 - 2022.09. Felina Kang. NSF REU student (under NSF Award #2042414),  Portland State University.
+* 2022.06 - 2022.09. Grant VanDomelen. NSF REU student (under NSF Award #2042414),
+  Portland State University.
 * 2020.06 - 2021.04. Jackson Morris (undergraduate student at UCLA). 
 * 2019.09 -  2020.04. Davis Beilue. Undergraduate Research Scholars (thesis), Texas A&M University. 
 * 2019.09 -  2020.04. Darryl Cherian Jacob. Undergraduate Research Scholars (thesis), Texas A&M University. 
