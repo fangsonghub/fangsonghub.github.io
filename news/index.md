@@ -1,10 +1,13 @@
 ---
 layout: page
 title: News
-modified: <2023-01-12 Thu>
+modified: <2023-03-27 Mon>
 ---
 ## {{ page.title }}
 
+* <2023-03-27 Mon> I will serve on the program committee of [QCRYPT
+   2023](https://2023.qcrypt.net/){:target="_blank"} to be held at the
+   University of Maryland. Please submit your excellent papers!
 * <2023-01-12 Thu> I have a joint postdoc opening with [Nai-Hui
   Chia](https://sites.google.com/view/naihuichia){:target="_blank"}. Candidates
   with a strong record on (classical or quantum) complexity and
