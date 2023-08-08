@@ -8,6 +8,7 @@ modified: <2023-08-07 Mon>
 
 ## Current course(s)
 *  CS 581 **Theory of computation** [Fall 2023]({{ base }}/teaching/f23_581_toc/)
+
 - - -
 ## Past courses
 
