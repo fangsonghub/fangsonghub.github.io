@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Teaching
-modified: <2023-03-27 Mon>
+modified: <2023-08-07 Mon>
 ---
 {% comment %}
 {% endcomment %}
 
 ## Current courses
-  
+*  CS 581 **Theory of computation** [Fall 2023]({{ base }}/teaching/f23_581_toc/)
 - - -
 ## Past courses
 
