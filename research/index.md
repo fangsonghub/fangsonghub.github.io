@@ -2,12 +2,33 @@
 layout: page
 title: Research
 excerpt:
-modified: <2022-08-08 Mon>
+modified: <2023-09-19 Tue>
 ---
 * Table of Contents
 {:toc}
 
 ## Publications
+
+[arXiv](http://arxiv.org/a/song_f_1){:target="_blank"} [Google Scholar](https://scholar.google.ch/citations?user=A6C3geAAAAAJ&hl=en){:target="_blank"}
+
+*  **Quantum Pseudorandom Scramblers**
+    *  Authors: Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, and Mingnan Zhao
+    *  _Preprint arXiv quant-ph_,
+[arXiv:2309.08941](https://arxiv.org/abs/2309.08941){:target="_blank"},
+September 2023.  
+*  **Generalized Hybrid Search and Applications** 
+    *  Authors: Alexandru Cojocaru, Juan Garay, and Fang Song
+	*  _Preprint Cryptology ePrint Archive_,
+       [2023/798](https://eprint.iacr.org/2023/798){:target="_blank"}, July 2023.
+* **Quantum Multi-Solution Bernoulli Search with Applications to Bitcoin's Post-Quantum Security**
+    *  Authors: Alexandru Cojocaru, Juan Garay, Aggelos Kiayias, Fang Song, and Petros Wallden
+    *  In _Quantum_, [volume 7,
+       944](https://doi.org/10.22331/q-2023-03-09-944){:target="_blank"}, 2023.
+* **Quantum algorithms for attacking hardness assumptions in classical and post-quantum cryptography**
+    *  Authors: J-F Biasse, X. Bonnetain, E Kirshanova,  A. Schrottenloher, and F. Song
+    *  In _IET Information Security_, [1-39,
+       2022](https://doi.org/10.1049/ise2.12081){:target="_blank"},
+       2022.
 * **Quantum Key-length Extension**
     *  Authors: [Joseph Jaeger](https://www.cc.gatech.edu/~josephjaeger/), Fang Song, and [Stefano
        Tessaro](https://homes.cs.washington.edu/~tessaro/)
