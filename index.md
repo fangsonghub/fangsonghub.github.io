@@ -8,7 +8,7 @@ logo: true
 
 --- 
 
-I am an Assistant Professor in the [Computer Science
+I am an Associate Professor in the [Computer Science
 Department](http://www.pdx.edu/computer-science/) at the [Portland
 State University](http://www.pdx.edu/). During 2013 to 2016, I was a
 postdoctoral fellow at the [Institute for Quantum
@@ -44,12 +44,13 @@ funding my research.
 {{ news.content |strip_html | truncatewords:200 }}
 {% assign news = site.pages | where: "title", "News" | first%}
 {{ news.excerpt }}
+
+*  <2024-10-09 Mon> I will serve on the program committee of [PKC
+   2024](https://pkc.iacr.org/2024/){:target="_blank"} to be held in
+   Sydney, Australia. Please submit your excellent papers!  
+   
 {% endcomment %}
-
-*  <2023-03-27 Mon> I will serve on the program committee of [QCRYPT
-   2023](https://2023.qcrypt.net/){:target="_blank"} to be held at the
-   University of Maryland. Please submit your excellent papers!
-
+  
 * Read [more]({{base}}/news/) ...
 
 
