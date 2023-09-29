@@ -45,12 +45,18 @@ funding my research.
 {% assign news = site.pages | where: "title", "News" | first%}
 {{ news.excerpt }}
 
-*  <2024-10-09 Mon> I will serve on the program committee of [PKC
-   2024](https://pkc.iacr.org/2024/){:target="_blank"} to be held in
-   Sydney, Australia. Please submit your excellent papers!  
+* I am organizing an NII [Shonan meeting
+NO.198](https://shonan.nii.ac.jp/seminars/198/){:target="_blank"}
+**New Directions in Provable Quantum Advantages** with [François Le
+Gall](http://www.francoislegall.com/){:target="_blank"} and [Penghui
+Yao](http://penghuiyao.info/){:target="_blank"}, December 11 - 15, 2023.
    
 {% endcomment %}
-  
+
+*  <2024-09-28 Thu> I will serve on the program committee of [PKC
+   2024](https://pkc.iacr.org/2024/){:target="_blank"} to be held in
+   Sydney, Australia. Please submit your excellent papers!
+
 * Read [more]({{base}}/news/) ...
 
 

@@ -5,13 +5,10 @@ subtitle: Schedule
 courseid: f23 581
 desc: Schedule
 permalink: /teaching/f23_581_toc/schedule/
-modified: <2023-08-07 Mon>
+modified: <2023-09-28 Thu>
 ---
 
 {% comment %}
-* Zoom link for [office hours](https://pdx.zoom.us/j/88237483669?pwd=LzEveUtKVG96ZXRuVVZTWDY2a0Judz09), F 10 - 11am and by appointment.
-{:toc}
-
 ## General guideline
 * [Zoom link](https://pdx.zoom.us/j/83821477952?pwd=QngyOTdwOXh4anovN3dYUFNvWnJjZz09) to join lectures remotely, TR 14:00 - 15:15. 
 {% endcomment %}
@@ -22,11 +19,11 @@ modified: <2023-08-07 Mon>
 |:-----:| :---------: |:----------:|:-----:|
 |1| T,09/26  | Intro <br> Math Review | **Widgerson** [Chapter 20](https://www.math.ias.edu/files/Book-online-Aug0619.pdf#page=1){:target="_blank"} <br> **S3** Chapter 0|
 | | Th,09/28 | Math proofs | **S3** 0|
+|2| T,10/03 | Finite automata <br> Regular expressions | **S3** 1 |
+| | Th,10/05 | NFA <br> Pushdown automata | **S3** 1.2,2.2|
 {:.mbtablestylef}
 
 {% comment %}
-|2| T,10/04 | Finite automata <br> Regular expressions | **S3** 1 |
-| | Th,10/06 |NFA <br> Pushdown automata | **S3** 1.2,2.2|
 |3| T,10/11 | Turing Machines | **S3** 3.1 |
 | | Th,10/13 |  TM Variants <br> Decidability | **S3** 3.2,4 |
 |4| T,10/18 |  Reducibility <br> Time complexity | **S3** 5.1,5.3,7.1|
