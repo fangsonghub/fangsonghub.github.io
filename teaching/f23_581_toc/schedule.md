@@ -5,7 +5,7 @@ subtitle: Schedule
 courseid: f23 581
 desc: Schedule
 permalink: /teaching/f23_581_toc/schedule/
-modified: <2023-09-28 Thu>
+modified: <2023-10-05 Thu>
 ---
 
 {% comment %}
@@ -21,11 +21,11 @@ modified: <2023-09-28 Thu>
 | | Th,09/28 | Math proofs | **S3** 0|
 |2| T,10/03 | Finite automata <br> Regular expressions | **S3** 1 |
 | | Th,10/05 | NFA <br> Pushdown automata | **S3** 1.2,2.2|
+|3| T,10/10 | Turing Machines | **S3** 3.1 |
+| | Th,10/12 |  TM Variants <br> Decidability | **S3** 3.2,4 |
 {:.mbtablestylef}
 
 {% comment %}
-|3| T,10/11 | Turing Machines | **S3** 3.1 |
-| | Th,10/13 |  TM Variants <br> Decidability | **S3** 3.2,4 |
 |4| T,10/18 |  Reducibility <br> Time complexity | **S3** 5.1,5.3,7.1|
 | | Th,10/20 | P,NP| **S3** 7.2,7.3 |
 |5| T,10/25 | NPC <br> Cook-Levin | **S3** 7.4 |
