@@ -13,3 +13,5 @@ gem "activesupport", ">= 6.1.7.5"
 # gem 'yajl-ruby', '~> 1.3', '>= 1.3.1'
 # gem "kramdown", ">= 2.3.0"
 # gem "nokogiri", ">= 1.11.0.rc4"
+
+gem "webrick", "~> 1.8"
