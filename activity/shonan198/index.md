@@ -16,7 +16,7 @@ modified: <2023-10-09 Mon>
 {:toc}
 
 ## Announcement
-*  <2023-10-08 Mon> Event webpage is up running! Stay tuned for updates. 
+*  <2023-10-09 Mon> Event webpage is up running! Stay tuned for updates. 
 
 ## About
 *   **When**: December 11 - 15, 2023. Check-in on December 10. 
