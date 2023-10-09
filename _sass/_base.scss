@@ -169,7 +169,8 @@ figcaption {
 // Tables
 // --------------------------------------------------
 table {
-  width: 100%;
+    //  width: 100%;
+    width: 95%;
 }
 
 
@@ -241,3 +242,13 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
         border: 1px solid lighten($black, 85);
         }
 }
+
+.mbtablestylerb {
+  border-collapse: collapse;
+  border-style: hidden;
+  tr {
+    border: 1px solid lighten($black, 85);
+  }
+}
+
+

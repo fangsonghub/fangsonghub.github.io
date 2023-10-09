@@ -37,7 +37,7 @@ modified: <2023-10-09 Mon>
 
 ## Schedule
 
-|:--------------------------:|:-------------------------------------------------:|
+|:--------------------------:|---------------------------------------------------|
 | **Sunday, December 10**    |                                                   |
 | 1500-1900                  | <span style="color: red;">Check-in</span>         |
 | 1900-2100                  | <span style="color: blue;">Welcome Banquet</span> |
@@ -95,7 +95,8 @@ modified: <2023-10-09 Mon>
 | 1030-1100                  | <span style="color: blue;">Coffee Break</span>    |
 | 1100-1145                  | Breakout groups                                   |
 | 1200-1330                  | <span style="color: blue;">Lunch</span>           |
-| 1330-                      | <span style="color: red;">Farewell</span>         |
+| 1330                       | <span style="color: red;">Farewell</span>         |
+{:.mbtablestylerb}
 
 ## Participation list
 
@@ -129,6 +130,7 @@ modified: <2023-10-09 Mon>
 | Mingnan Zhao                 | Nanjing University               |
 | TBD                          | TBD                              |
 | TBD                          | TBD                              |
+{:.mbtablestylerb}
 
 ## Acknowledgement
 
