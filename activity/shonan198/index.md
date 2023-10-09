@@ -47,20 +47,20 @@ modified: <2023-10-09 Mon>
 | 0915-1000                  | Talk                                              |
 | 1000-1030                  | Talk                                              |
 | 1030-1100                  | <span style="color: blue;">Coffee Break</span>    |
-| 1100-1145                  | Breakout groups                                   |
+| 1100-1145                  | Breakout groups: open problems                    |
 | 1200-1330                  | <span style="color: blue;">Lunch</span>           |
 | 1330-1400                  | <span style="color: red;">Group Photo</span>      |
 | 1400-1445                  | Talk                                              |
 | 1445-1530                  | Talk                                              |
 | 1530-1600                  | <span style="color: blue;">Coffee Break</span>    |
-| 1600-1730                  | Open discussion                                   |
+| 1600-1730                  | Breakout groups: open problems                    |
 | 1800-1930                  | <span style="color: blue;">Dinner</span>          |
 | **Tuesday, December 12**   |                                                   |
 | 0730-0900                  | <span style="color: blue;">Breakfast</span>       |
 | 0900-0945                  | Talk                                              |
 | 0945-1030                  | Talk                                              |
 | 1030-1100                  | <span style="color: blue;">Coffee Break</span>    |
-| 1100-1145                  | Breakout groups                                   |
+| 1100-1145                  | Breakout groups: open problems                    |
 | 1200-1330                  | <span style="color: blue;">Lunch</span>           |
 | 1400-1445                  | Talk                                              |
 | 1445-1530                  | Talk                                              |
