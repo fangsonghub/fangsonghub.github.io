@@ -98,7 +98,7 @@ modified: <2023-10-09 Mon>
 | 1330                       | <span style="color: red;">Farewell</span>         |
 {:.mbtablestylerb}
 
-## Participation list
+## Participant list
 
 |:----------------------------:|:--------------------------------:|
 | Eunok Bae                    | KIAS                             |
