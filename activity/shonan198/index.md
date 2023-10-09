@@ -35,7 +35,7 @@ modified: <2023-10-09 Mon>
 
 
 
-## Schedule
+## Schedule (Tentative)
 
 |:--------------------------:|---------------------------------------------------|
 | **Sunday, December 10**    |                                                   |
@@ -110,7 +110,7 @@ modified: <2023-10-09 Mon>
 | Rahul Jain                   | National University of Singapore |
 | Zhengfeng Ji                 | Tsinghua University              |
 | Akinori Kawachi              | Mie University                   |
-| Minki Khan                   | KIAS                             |
+| Minki Hhan                   | KIAS                             |
 | François Le Gall (Organizer) | Nagoya University                |
 | Yinan Li                     | Wuhan University                 |
 | Tongyang Li                  | Peking University                |
