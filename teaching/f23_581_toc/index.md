@@ -17,8 +17,9 @@ modified: <2023-09-28 Thu>
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
    with "f23-581". Slack is preferred. 
 *  **Lectures**: TR 14:00 - 15:15 @ FAB 10
-*  **Office hours**: TBD (FAB 120-25). 
-*  **Google classroom**: join with code _sbdybav_. 
+*  **Office hours**: T 15:20 (FAB 120-25). Book additioanal individual
+   slots on _youcanbookme_ (see details in Slack).
+*  **Google classroom**: join with code _sbdybav_.
 *  **Overview**: Computation is a familiar term to all computer
    scientists. But what is computation after all? What problems are
    computable (_Computability_), and how “efficient” can we compute
