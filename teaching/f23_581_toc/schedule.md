@@ -23,8 +23,8 @@ modified: <2023-10-12 Thu>
 | | Th,10/05 | NFA <br> Pushdown automata | **S3** 1.2,2.2|
 |3| T,10/10 | Turing Machines | **S3** 3.1 |
 | | Th,10/12 | TM Variants <br> Decidability | **S3** 3.2,4 |
-|4| T,10/17 | Reducibility <br> Time complexity | **S3** 5.1,5.3,7.1|
-| | Th,10/19 | P,NP| **S3** 7.2,7.3 |
+|4| T,10/17 | Reducibility | **S3** 5.1,5.3|
+| | Th,10/19 |Time complexity <br> P,NP| **S3** 7.1-7.3 |
 {:.mbtablestylef}
 
 {% comment %}
