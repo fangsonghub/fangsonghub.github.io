@@ -25,21 +25,21 @@ modified: <2023-10-19 Thu>
 | | Th,10/12 | TM Variants <br> Decidability | **S3** 3.2,4 |
 |4| T,10/17 | Reducibility | **S3** 5.1,5.3|
 | | Th,10/19 |Time complexity <br> P,NP| **S3** 7.1-7.3 |
-|5| T,10/25 | NPC <br> Cook-Levin | **S3** 7.4 |
-| | Th,10/27 | More NPC <br> Beyond NP | **S3** 7.5 <br> **AB** 2.6 [draft book](https://theory.cs.princeton.edu/complexity/)|
+|5| T,10/24 | NPC <br> Cook-Levin | **S3** 7.4 |
+| | Th,10/26 | More NPC <br> Beyond NP | **S3** 7.5 <br> **AB** 2.6 [draft book](https://theory.cs.princeton.edu/complexity/)|
 {:.mbtablestylef}
 
 {% comment %}
-|6| T,11/01 | Time hierarchy <br> NP-Intermediate | **AB** 3.1 **S3** 9.1 <br> **AB** 3.4,2.7 |
-| | Th,11/03 | Oracle machine <br> Relativization | **S3** 6.3,9.2 <br> **AB** 3.5 |
-|7| T,11/08 | Space complexity | **S3** 8.1-8.3 |
-| | Th,11/10 | L,NL | **S3** 8.4,8.5  |
-|8| T,11/15 | Randomized computation | **S3** 10.2 **AB** 7.1-7.3 <br> Probability review [note](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"} |
-| | Th,11/17 | BPP and friends | **S3** 10.2 **AB** 7.4,7.5|
-|9| T,11/22  | Interactive proofs | **S3** 10.4 |
-| | Th,11/24 |  Thanksgiving |  |
-|10| T,11/29 | IP cont'd | **AB** 8.1-8.4 |
-| | Th,12/01 | Selected topic <br> Review | ZK Note [PDF](https://theory.stanford.edu/~trevisan/cs172-07/notezk.pdf){:target="_blank"}|
+|6| T,10/31 | Time hierarchy <br> NP-Intermediate | **AB** 3.1 **S3** 9.1 <br> **AB** 3.4,2.7 |
+| | Th,11/02 | Oracle machine <br> Relativization | **S3** 6.3,9.2 <br> **AB** 3.5 |
+|7| T,11/07 | Space complexity | **S3** 8.1-8.3 |
+| | Th,11/09 | L,NL | **S3** 8.4,8.5  |
+|8| T,11/14 | Randomized computation | **S3** 10.2 **AB** 7.1-7.3 <br> Probability review [note](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"} |
+| | Th,11/16 | BPP and friends | **S3** 10.2 **AB** 7.4,7.5|
+|9| T,11/21  | Interactive proofs | **S3** 10.4 |
+| | Th,11/23 |  Thanksgiving |  |
+|10| T,11/28 | IP cont'd | **AB** 8.1-8.4 |
+| | Th,11/30 | Selected topic <br> Review | ZK Note [PDF](https://theory.stanford.edu/~trevisan/cs172-07/notezk.pdf){:target="_blank"}|
 
 |11| M,12/05 | Final Exam 10:15 - 12:05| | 
 
