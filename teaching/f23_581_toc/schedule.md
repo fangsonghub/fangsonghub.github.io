@@ -5,7 +5,7 @@ subtitle: Schedule
 courseid: f23 581
 desc: Schedule
 permalink: /teaching/f23_581_toc/schedule/
-modified: <2023-10-12 Thu>
+modified: <2023-10-19 Thu>
 ---
 
 {% comment %}
@@ -25,11 +25,11 @@ modified: <2023-10-12 Thu>
 | | Th,10/12 | TM Variants <br> Decidability | **S3** 3.2,4 |
 |4| T,10/17 | Reducibility | **S3** 5.1,5.3|
 | | Th,10/19 |Time complexity <br> P,NP| **S3** 7.1-7.3 |
+|5| T,10/25 | NPC <br> Cook-Levin | **S3** 7.4 |
+| | Th,10/27 | More NPC <br> Beyond NP | **S3** 7.5 <br> **AB** 2.6 [draft book](https://theory.cs.princeton.edu/complexity/)|
 {:.mbtablestylef}
 
 {% comment %}
-|5| T,10/25 | NPC <br> Cook-Levin | **S3** 7.4 |
-| | Th,10/27 | More NPC <br> Beyond NP | **S3** 7.5 <br> **AB** 2.6 [draft book](https://theory.cs.princeton.edu/complexity/)  |
 |6| T,11/01 | Time hierarchy <br> NP-Intermediate | **AB** 3.1 **S3** 9.1 <br> **AB** 3.4,2.7 |
 | | Th,11/03 | Oracle machine <br> Relativization | **S3** 6.3,9.2 <br> **AB** 3.5 |
 |7| T,11/08 | Space complexity | **S3** 8.1-8.3 |
