@@ -27,7 +27,7 @@ modified: <2023-10-26 Thu>
 | | Th,10/19 |Time complexity <br> P,NP| **S3** 7.1-7.3 |
 |5| T,10/24 | Karp reduction <br> NPC | **S3** 7.4 |
 | | Th,10/26 | Cook-Levin <br> More NPC | **S3** 7.4,7.5 | 
-|6| T,10/31 | <br> Beyond NP <br> Time hierarchy | **AB** 2.6,3.1 [draft book](https://theory.cs.princeton.edu/complexity/) <br> **S3** 9.1 |
+|6| T,10/31 | Beyond NP <br> Time hierarchy | **AB** 2.6,3.1 [draft book](https://theory.cs.princeton.edu/complexity/) <br> **S3** 9.1 |
 | | Th,11/02 | NP-Intermediate <br> Relativization | **S3** 6.3,9.2 <br> **AB** 3.4,3.5 |
 {:.mbtablestylef}
 
