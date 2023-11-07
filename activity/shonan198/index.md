@@ -71,7 +71,7 @@ modified: <2023-11-06 Mon>
 | **Wednesday, December 13** |                                                      |
 | 0730-0900                  | <span style="color: blue;">Breakfast</span>          |
 | 0900-0945                  | Takashi Yamakawa: _Unstructured quantum advantage_   |
-| 1000-1030                  | Rahul Jain: _TBD_                                    |
+| 1000-1030                  | Rahul Jain: _Advantage based on non-local games_     |
 | 1030-1100                  | <span style="color: blue;">Coffee Break</span>       |
 | 1100-1145                  | Breakout groups                                      |
 | 1200-1330                  | <span style="color: blue;">Lunch</span>              |
