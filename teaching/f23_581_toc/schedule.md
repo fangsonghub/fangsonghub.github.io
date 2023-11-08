@@ -5,7 +5,7 @@ subtitle: Schedule
 courseid: f23 581
 desc: Schedule
 permalink: /teaching/f23_581_toc/schedule/
-modified: <2023-11-02 Thu>
+modified: <2023-11-07 Tue>
 ---
 
 {% comment %}
@@ -29,13 +29,13 @@ modified: <2023-11-02 Thu>
 | | Th,10/26 | Cook-Levin <br> More NPC | **S3** 7.4,7.5 | 
 |6| T,10/31 | Beyond NP <br> Time hierarchy | **AB** 2.6,3.1 [draft book](https://theory.cs.princeton.edu/complexity/) <br> **S3** 9.1 |
 | | Th,11/02 | NP-Intermediate <br> Relativization | **S3** 6.3,9.2 <br> **AB** 3.4 |
-|7| T,11/07 | Limits of Diag. <br> Space complexity | **AB**3.5 **S3** 8.1-8.3 |
-| | Th,11/09 | L,NL | **S3** 8.4,8.5  |
+|7| T,11/07 | Limits of Diag. <br> Space complexity | **AB**3.5 **S3** 8.1-8.2 |
+| | Th,11/09 | PSPACE <br> L,NL | **S3** 8.3-8.5  |
+|8| T,11/14 | Randomized computation | **S3** 10.2 **AB** 7.1-7.3 <br> Probability review [note](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"} |
+| | Th,11/16 | BPP and friends | **S3** 10.2 **AB** 7.4,7.5|
 {:.mbtablestylef}
 
 {% comment %}
-|8| T,11/14 | Randomized computation | **S3** 10.2 **AB** 7.1-7.3 <br> Probability review [note](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"} |
-| | Th,11/16 | BPP and friends | **S3** 10.2 **AB** 7.4,7.5|
 |9| T,11/21  | Interactive proofs | **S3** 10.4 |
 | | Th,11/23 |  Thanksgiving |  |
 |10| T,11/28 | IP cont'd | **AB** 8.1-8.4 |
