@@ -85,7 +85,7 @@ modified: <2023-11-06 Mon>
 | 1100-1145                  | Breakout groups                                      |
 | 1200-1330                  | <span style="color: blue;">Lunch</span>              |
 | 1400-1430                  | Shota Yamada: _Secure key release_                   |
-| 1445-1530                  | Talk                                                 |
+| 1445-1530                  | Minki Hhan: _Quantum PKE_                            |
 | 1530-1600                  | <span style="color: blue;">Coffee Break</span>       |
 | 1600-1730                  | Open discussion                                      |
 | 1800-1930                  | <span style="color: blue;">Dinner</span>             |
