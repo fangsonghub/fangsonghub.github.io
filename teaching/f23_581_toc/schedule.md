@@ -5,7 +5,7 @@ subtitle: Schedule
 courseid: f23 581
 desc: Schedule
 permalink: /teaching/f23_581_toc/schedule/
-modified: <2023-11-07 Tue>
+modified: <2023-11-21 Tue>
 ---
 
 {% comment %}
@@ -33,11 +33,11 @@ modified: <2023-11-07 Tue>
 | | Th,11/09 | PSPACE <br> L,NL | **S3** 8.3-8.5  |
 |8| T,11/14 | Randomized computation | **S3** 10.2 **AB** 7.1-7.3 <br> Probability review [note](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"} |
 | | Th,11/16 | BPP and friends | **S3** 10.2 **AB** 7.4,7.5|
-{:.mbtablestylef}
-
-{% comment %}
 |9| T,11/21  | Interactive proofs | **S3** 10.4 |
 | | Th,11/23 |  Thanksgiving |  |
 |10| T,11/28 | IP cont'd | **AB** 8.1-8.4 |
 | | Th,11/30 | Selected topic | ZK Note [PDF](https://theory.stanford.edu/~trevisan/cs172-07/notezk.pdf){:target="_blank"}| 
+{:.mbtablestylef}
+
+{% comment %}
 {% endcomment %}
