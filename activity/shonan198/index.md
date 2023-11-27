@@ -63,7 +63,7 @@ modified: <2023-11-06 Mon>
 | 1030-1100                  | <span style="color: blue;">Coffee Break</span>       |
 | 1100-1145                  | Breakout groups                                      |
 | 1200-1330                  | <span style="color: blue;">Lunch</span>              |
-| 1400-1430                  | Ryo Nishimaki: _Quantum obfuscation_                 |
+| 1400-1430 | Ryo Nishimaki: _Publicly Verifiable Deletion from Minimal Assumptions_ |
 | 1430-1500                  | Mingnan Zhao: _Quantum pseudorandom scrambler_       |
 | 1500-1530                  | <span style="color: blue;">Coffee Break</span>       |
 | 1530-1700                  | Breakout groups                                      |
