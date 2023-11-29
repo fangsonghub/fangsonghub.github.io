@@ -91,7 +91,7 @@ modified: <2023-11-06 Mon>
 | 1800-1930                  | <span style="color: blue;">Dinner</span>             |
 | **Friday, December 15**    |                                                      |
 | 0730-0900                  | <span style="color: blue;">Breakfast</span>          |
-| 0900-0945                  | Akironi Kawachi: _Query lower bounds_                |
+| 0900-0945                  | Akinori Kawachi: _Query lower bounds_                |
 | 1000-1030                  | Talk                                                 |
 | 1030-1100                  | <span style="color: blue;">Coffee Break</span>       |
 | 1100-1145                  | Breakout groups                                      |
