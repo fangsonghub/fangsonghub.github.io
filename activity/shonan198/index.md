@@ -4,7 +4,7 @@ title: NII Shonan Meeting NO.198
 desc: Activities
 subtitle: New Directions in Provable Quantum Advantages
 permalink: /activity/shonan198/
-modified: <2023-11-30 Thu>
+modified: <2023-12-11 Mon>
 ---
 
 {% comment %}
@@ -68,6 +68,7 @@ modified: <2023-11-30 Thu>
 | 1500-1530                  | <span style="color: blue;">Coffee Break</span>                         |
 | 1530-1700                  | Breakout groups                                                        |
 | 1800-1930                  | <span style="color: blue;">Dinner</span>                               |
+| 1930-2100                  | Research party @ Research Wing Lounge                                  |
 | **Wednesday, December 13** |                                                                        |
 | 0730-0900                  | <span style="color: blue;">Breakfast</span>                            |
 | 0900-0945                  | Akinori Kawachi: _Query lower bounds_                                  |
@@ -89,6 +90,7 @@ modified: <2023-11-30 Thu>
 | 1530-1600                  | <span style="color: blue;">Coffee Break</span>                         |
 | 1600-1730                  | Open discussion                                                        |
 | 1800-1930                  | <span style="color: blue;">Dinner</span>                               |
+| 1930-2100                  | Research party @ Research Wing Lounge                                  |
 | **Friday, December 15**    |                                                                        |
 | 0730-0900                  | <span style="color: blue;">Breakfast</span>                            |
 | 0900-0945                  | Takashi Yamakawa: _Unstructured quantum advantage_                     |
@@ -122,7 +124,7 @@ modified: <2023-11-30 Thu>
 | Harumichi Nishimura          | Nagoya University                |
 | Yixin Shen                   | King's College London            |
 | Fang Song (Organizer)        | Portland State University        |
-| Suguru Tamaki                | Hyogo Prefecture University      |
+| Suguru Tamaki                | Universityof Hyogo       |
 | Seiichiro Tani               | NTT                              |
 | Chunhao Wang                 | Pennsylvania State University    |
 | Shota Yamada                 | AIST                             |
