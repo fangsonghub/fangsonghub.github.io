@@ -94,7 +94,7 @@ modified: <2023-12-14 Thu>
 | **Friday, December 15**    |                                                                        |
 | 0730-0900                  | <span style="color: blue;">Breakfast</span>                            |
 | 0900-0945                  | Takashi Yamakawa: _Unstructured quantum advantage_                     |
-| 1000-1030                  | Eunok Bae _Recursive QAOA_                                                                   |
+| 1000-1030                  | Eunok Bae: _Recursive QAOA_                                                                   |
 | 1030-1100                  | <span style="color: blue;">Coffee Break</span>                         |
 | 1100-1145                  | Breakout groups                                                        |
 | 1200-1330                  | <span style="color: blue;">Lunch</span>                                |
