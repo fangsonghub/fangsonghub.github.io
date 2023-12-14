@@ -4,7 +4,7 @@ title: NII Shonan Meeting NO.198
 desc: Activities
 subtitle: New Directions in Provable Quantum Advantages
 permalink: /activity/shonan198/
-modified: <2023-12-11 Mon>
+modified: <2023-12-14 Thu>
 ---
 
 {% comment %}
@@ -94,7 +94,7 @@ modified: <2023-12-11 Mon>
 | **Friday, December 15**    |                                                                        |
 | 0730-0900                  | <span style="color: blue;">Breakfast</span>                            |
 | 0900-0945                  | Takashi Yamakawa: _Unstructured quantum advantage_                     |
-| 1000-1030                  | Talk                                                                   |
+| 1000-1030                  | Eunok Bae _Recursive QAOA_                                                                   |
 | 1030-1100                  | <span style="color: blue;">Coffee Break</span>                         |
 | 1100-1145                  | Breakout groups                                                        |
 | 1200-1330                  | <span style="color: blue;">Lunch</span>                                |
