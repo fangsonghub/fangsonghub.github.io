@@ -1,20 +1,19 @@
 ---
 layout: page
 title: Teaching
-modified: <2023-08-07 Mon>
+modified: <2023-12-15 Fri>
 ---
 {% comment %}
 {% endcomment %}
 
 ## Current course(s)
-*  CS 581 **Theory of computation** [Fall 2023]({{ base }}/teaching/f23_581_toc/)
 
 - - -
 ## Past courses
 
 #### Portland State University
 *  CS 410/510 **Topic: foundations of emerging technologies** [Fall 2021]({{ base }}/teaching/f21_4510_fet/)
-*  CS 581 **Theory of computation** [Fall 2022]({{ base }}/teaching/f22_581_toc/) [Fall 2021]({{ base }}/teaching/f21_581_toc/)
+*  CS 581 **Theory of computation** [Fall 2023]({{ base }}/teaching/f23_581_toc/) [Fall 2022]({{ base }}/teaching/f22_581_toc/) [Fall 2021]({{ base }}/teaching/f21_581_toc/)
 *  CS 584/684 **Algorithm Design And Analysis** [Winter 2021]({{ base }}/teaching/w21_5684_alg/)
 *  CS 510/610 **Topic: probalistic graphical models** [Winter 2021]({{ base }}/teaching/w21_5610_pgm/)
 * CS 485/585 **Introduction to Cryptography** [Winter 2023]({{ base }}/teaching/w23_4585_icrypto/) [Winter 2022]({{ base }}/teaching/w22_4585_icrypto/) [Winter 2018]({{ base }}/teaching/w18_4585_icrypto/) [Winter 2017]({{ base }}/teaching/w17_4585_icrypto/)

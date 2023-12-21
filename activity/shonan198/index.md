@@ -4,7 +4,7 @@ title: NII Shonan Meeting NO.198
 desc: Activities
 subtitle: New Directions in Provable Quantum Advantages
 permalink: /activity/shonan198/
-modified: <2023-12-14 Thu>
+modified: <2023-12-15 Fri>
 ---
 
 {% comment %}
@@ -35,7 +35,7 @@ modified: <2023-12-14 Thu>
 
 
 
-## Schedule (Tentative)
+## Schedule
 
 |:--------------------------:|------------------------------------------------------------------------|
 | **Sunday, December 10**    |                                                                        |
@@ -124,16 +124,17 @@ modified: <2023-12-14 Thu>
 | Harumichi Nishimura          | Nagoya University                |
 | Yixin Shen                   | King's College London            |
 | Fang Song (Organizer)        | Portland State University        |
-| Suguru Tamaki                | Universityof Hyogo       |
+| Suguru Tamaki                | Universityof Hyogo               |
 | Seiichiro Tani               | NTT                              |
 | Chunhao Wang                 | Pennsylvania State University    |
+| Pei Wu                       | Weizmann Institute               |
 | Shota Yamada                 | AIST                             |
 | Takashi Yamakawa             | NTT                              |
 | Penghui Yao (Organizer)      | Nanjing University               |
 | Mingnan Zhao                 | Nanjing University               |
-| TBD                          | TBD                              |
-| TBD                          | TBD                              |
 {:.mbtablestylerb}
 
 ## Acknowledgement
+
+National Institute of Informatics, Japan.
 
