@@ -1,5 +1,37 @@
 # course pages
 
+# W24 ICrypto
+
+- courseid: w24 485/585
+  title: (Winter 2024) CS 485/585 - Intro to Cryptography
+  desc: w24 485/585
+  nav: true
+  url: /teaching/w24_4585_icrypto/
+   
+- courseid: w24 485/585
+  title: (Winter 2024) CS 485/585 - Intro to Cryptography
+  desc: Admin
+  nav: false
+  url: /teaching/w24_4585_icrypto/admin/
+
+- courseid: w24 485/585
+  title: (Winter 2024) CS 485/585 
+  desc: Schedule
+  nav: true
+  url: /teaching/w24_4585_icrypto/schedule/
+
+- courseid: w24 485/585
+  title: (Winter 2024) CS 485/585 
+  desc: Resource
+  nav: true
+  url: /teaching/w24_4585_icrypto/resource/
+
+- courseid: w24 485/585
+  title: (Winter 2024) CS 485/585 
+  desc: Project
+  nav: true
+  url: /teaching/w24_4585_icrypto/project/
+
 # F23 ToC
 
 - courseid: f23 581

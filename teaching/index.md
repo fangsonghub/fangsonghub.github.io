@@ -1,12 +1,13 @@
 ---
 layout: page
 title: Teaching
-modified: <2023-12-15 Fri>
+modified: <2024-01-08 Mon>
 ---
 {% comment %}
 {% endcomment %}
 
-## Current course(s)
+## Current 
+* CS 485/585 **Introduction to Cryptography** [Winter 2024]({{ base }}/teaching/w24_4585_icrypto/)
 
 - - -
 ## Past courses
