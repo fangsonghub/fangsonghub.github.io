@@ -1,6 +1,6 @@
 ---
 layout: course
-title: (Winter 2023) CS 485/585 - Intro to Cryptography
+title: (Winter 2024) CS 485/585 - Intro to Cryptography
 courseid: w24 485/585
 subtitle: Schedule (subject to change)
 desc: Schedule
