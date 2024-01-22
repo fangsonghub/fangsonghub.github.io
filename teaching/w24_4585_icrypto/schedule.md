@@ -5,7 +5,7 @@ courseid: w24 485/585
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/w24_4585_icrypto/schedule/
-modified: <2024-01-08 Mon> 
+modified: <2024-01-19 Fri> 
 ---
 
 {% comment %}
@@ -22,13 +22,13 @@ modified: <2024-01-08 Mon>
 |1| M,01/08| Intro | **KL** 1,A.1-A.3  |
 | |W,01/10|  Perfect secrecy | **KL** 1.4,2.1 <br> Note on probability [PDF](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"}|
 |2|M,01/15| MLK day| |
-| |W,01/17| One-time pad and limits | **KL** 2.2,2.3 | 
+| |W,01/17| One-time pad | **KL** 2.2,2.3 | 
+|3|M,01/22| Limits of perfect secrecy <br> Computational secrecy| **KL** 2.3,3.1,3.2 | 
+| |W,01/24| Pseudorandom generators <br> Proof by reduction | **KL** 3.3 <br> Supplement: **KL** 7.1 |
 {:.mbtablestylef}
 
 {% comment %}
-|3|M,01/23| One-time pad and limits | **KL** 2.2,2.3 | 
-| |W,01/25|Computational secrecy <br> Pseudorandom generators | **KL** 3.1 - 3.3 <br> Supplement: **KL** 7.1 |
-|4|M,01/30|Proof by reduction <br> Block ciphers | **KL** 3.3,3.5.1 <br> Supplement: **KL** 7.2, **BS** 4 |
+|4|M,01/30| Block ciphers | **KL** 3.5.1 <br> Supplement: **KL** 7.2, **BS** 4 |
 | |W,02/01| Chosen-Plaintext-Attacks | **KL** 3.4,3.5.2 <br> Supplement: **BS** 5 |
 |5|M,02/06| CPA-secure encryption <br> Block cipher constructions|**KL** 3.6,7.2 <br> Supplement: **BS** 5.3 |
 ||W,02/08| Message authentication | **KL** 4.1 - 4.4 |
