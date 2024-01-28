@@ -5,7 +5,7 @@ courseid: w24 485/585
 subtitle: Resources
 desc: Resource
 permalink: /teaching/w24_4585_icrypto/resource/
-modified: <2024-01-08 Mon> 
+modified: <2024-01-29 Mon> 
 ---
 
 ## Useful readings
@@ -29,7 +29,7 @@ and Hall/CRC Press, Dec. 2020. Jon Katz is maintaining a
 with errata and other updates about the book.
 * **[BS]**  [A Graduate Course on Applied
 Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/){:target="_blank"}
-by Boneh and Shoup (Version 0.5 posted on Jan. 2020).
+by Boneh and Shoup (Version 0.6 posted on Jan. 2023).
 * **[G]** [Foundations of
   Cryptography](http://www.wisdom.weizmann.ac.il/~oded/foc-book.html){:target="_blank"}
   by Oded Goldreich. Two-volume bible for the advanced and theory-savy
