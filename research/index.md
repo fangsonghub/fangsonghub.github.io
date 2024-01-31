@@ -15,7 +15,7 @@ modified: <2024-01-30 Tue>
     *  Authors: Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, and Mingnan Zhao
     *  Contributed talk at the _27th Conference on Quantum Information
        Processing ([QIP
-       2024](https://www.mcqst.de/qip2021/){:target="_blank"})_.
+       2024](https://qip2024.tw/){:target="_blank"})_.
 	* [[arXiv:2309.08941](https://arxiv.org/abs/2309.08941){:target="_blank"}] 
 *  **A Cryptographic Perspective on the Verifiability of Quantum Advantage** 
     *  Authors: Nai-Hui Chia, Honghao Fu, Fang Song, and Penghui Yao
