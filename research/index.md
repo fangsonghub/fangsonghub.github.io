@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt:
-modified: <2023-09-19 Tue>
+modified: <2024-01-30 Tue>
 ---
 * Table of Contents
 {:toc}
@@ -13,9 +13,13 @@ modified: <2023-09-19 Tue>
 
 *  **Quantum Pseudorandom Scramblers**
     *  Authors: Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, and Mingnan Zhao
-    *  _Preprint arXiv quant-ph_,
-[arXiv:2309.08941](https://arxiv.org/abs/2309.08941){:target="_blank"},
-September 2023.  
+    *  Contributed talk at the _27th Conference on Quantum Information
+       Processing ([QIP
+       2024](https://www.mcqst.de/qip2021/){:target="_blank"})_.
+	* [arXiv:2309.08941](https://arxiv.org/abs/2309.08941){:target="_blank"}. 
+*  **A Cryptographic Perspective on the Verifiability of Quantum Advantage** 
+    *  Authors: 
+	* _Preprint arXiv quant-ph_ [arXiv:2310:14464](https://arxiv.org/abs/2310.14464){:target="_blank"}. 
 *  **Generalized Hybrid Search and Applications** 
     *  Authors: Alexandru Cojocaru, Juan Garay, and Fang Song
 	*  _Preprint Cryptology ePrint Archive_,

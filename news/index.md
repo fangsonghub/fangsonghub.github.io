@@ -1,16 +1,19 @@
 ---
 layout: page
 title: News
-modified: <2023-10-25 Wed>
+modified: <2024-01-30 Tue>
 ---
 ## {{ page.title }}
 
+*  <2024-01-30 Tue> I will serve on the program committee of [TQC
+   2024](https://tqc-conference.org/call-for-submissions/){:target="_blank"}
+   to be held in Okinawa, Japan. Please submit your excellent papers!
 * I am organizing an NII [Shonan meeting
 NO.198](https://shonan.nii.ac.jp/seminars/198/){:target="_blank"}
 **New Directions in Provable Quantum Advantages** with [François Le
 Gall](http://www.francoislegall.com/){:target="_blank"} and [Penghui
 Yao](http://penghuiyao.info/){:target="_blank"}, December 11 - 15, 2023.
-*  <2024-09-28 Thu> I will serve on the program committee of [PKC
+*  <2023-09-28 Thu> I will serve on the program committee of [PKC
    2024](https://pkc.iacr.org/2024/){:target="_blank"} to be held in
    Sydney, Australia. Please submit your excellent papers!
 * <2023-03-27 Mon> I will serve on the program committee of [QCRYPT

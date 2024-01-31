@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Activities
-modified: <2023-09-19 Tue>
+modified: <2024-01-30 Tue>
 ---
 
 ## Conference Program Committee Member
@@ -16,10 +16,10 @@ modified: <2023-09-19 Tue>
 * **Quantum Crypto Workshop** [2022](https://qcw2022.github.io/quantum-cryptography-workshop-2022/){:target="_blank"}, affiliated event of [Asiacrypt 2022](http://asiacrypt.iacr.org/2022/){:target="_blank"}. 
 * **QIP** (Quantum Information Processing) [2017](https://www.stationq.com/qip-2017/){:target="_blank"}
 * **SAC** (Selected Areas in Cryptography) [2019](https://uwaterloo.ca/selected-areas-in-cryptography/){:target="_blank"}
-* **TQC** (Theory of Quantum Computation, Communication and Cryptography) [2018](https://www.tqc2018.org/){:target="_blank"}
+* **TQC** (Theory of Quantum Computation, Communication and Cryptography) [2024](https://tqc-conference.org/call-for-submissions/){:target="_blank"} [2018](https://www.tqc2018.org/){:target="_blank"}
 
 ## Organizer
-* **New Directions in Provable Quantum Advantages** [NII Shonan
+* **[New Directions in Provable Quantum Advantages]({{base}}/activity/shonan198)** [NII Shonan
   Meeting](https://shonan.nii.ac.jp/seminars/198/), with François Le
   Gall and Penghui Yao, NII, Japan. December 11 - 15, 2023.
 *  **The 2nd Quantum Computation and Information** [Workshop](https://iamcs.tamu.edu/the-2nd-quantum-computation-and-information-workshop/){:target="_blank"} at Texas A&M University. May 13 - 15, 2019. 
