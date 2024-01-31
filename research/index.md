@@ -16,7 +16,7 @@ modified: <2024-01-30 Tue>
     *  Contributed talk at the _27th Conference on Quantum Information
        Processing ([QIP
        2024](https://www.mcqst.de/qip2021/){:target="_blank"})_.
-	* [arXiv:2309.08941](https://arxiv.org/abs/2309.08941){:target="_blank"}. 
+	* [[arXiv:2309.08941](https://arxiv.org/abs/2309.08941){:target="_blank"}] 
 *  **A Cryptographic Perspective on the Verifiability of Quantum Advantage** 
     *  Authors: Nai-Hui Chia, Honghao Fu, Fang Song, and Penghui Yao
 	* _Preprint arXiv quant-ph_ [arXiv:2310:14464](https://arxiv.org/abs/2310.14464){:target="_blank"}, October, 2023. 
