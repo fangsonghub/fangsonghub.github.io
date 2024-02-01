@@ -11,7 +11,7 @@ modified: <2024-01-08 Mon>
 *  **Syllabus**: [PDF]({{base}}/teaching/w24_4585_icrypto/w24_4585_icrypto_syllabus.pdf){:target="_blank"}.
 *  **Lectures**: M/W 11:30 - 13:20 @ KMC 590.
 *  **Instructor**: [Fang Song]({{base}}/) (fsong
-   "AT" pdx.edu). **Office hours**: xxx @ FAB 120-25 and by appointment. 
+   "AT" pdx.edu). **Office hours**: M 10:15 - 11:15 @ FAB 120-25 and by appointment. 
 *  **Google classroom**: join with code _po46fcg_. 
 *  **Overview**: Cryptography is usually described as the _art_ of
 secret writing. _Modern_ cryptography has transformed cryptography
