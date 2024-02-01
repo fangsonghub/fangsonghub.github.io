@@ -5,7 +5,7 @@ courseid: w24 485/585
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/w24_4585_icrypto/schedule/
-modified: <2024-01-29 Mon> 
+modified: <2024-01-31 Wed> 
 ---
 
 {% comment %}
@@ -27,11 +27,11 @@ modified: <2024-01-29 Mon>
 | |W,01/24| Pseudorandom generators <br> Proof by reduction | **KL** 3.3 <br> Supplement: **KL** 7.1 |
 |4|M,01/29| Block ciphers | **KL** 3.5.1 <br> Supplement: **KL** 7.2, **BS** 4 |
 | |W,01/31| Chosen-Plaintext-Attacks | **KL** 3.4,3.5.2 <br> Supplement: **BS** 5 |
+|5|M,02/05| Block cipher constructions|**KL** 3.6,7.2 <br> Supplement: **BS** 5.3 |
+||W,02/07| Message authentication | **KL** 4.1 - 4.4 |
 {:.mbtablestylef}
 
 {% comment %}
-|5|M,02/06| CPA-secure encryption <br> Block cipher constructions|**KL** 3.6,7.2 <br> Supplement: **BS** 5.3 |
-||W,02/08| Message authentication | **KL** 4.1 - 4.4 |
 |6|M,02/13| MAC domain extension <br> Hash functions | **KL** 6.1-6.2,6.4 <br> Supplement: **BS** 6.4,6.5 | 
 ||W,02/15| HMAC <br> Authenticated encryption | **KL** 6.3,7.3,5.3 |
 |7|M,02/20| CCA <br> PKC evolution |**KL** 5.1-5.2,11,12.1,12.2 |
