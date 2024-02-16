@@ -28,7 +28,6 @@ modified: <2024-02-14 Wed>
 |4|M,01/29| Block ciphers | **KL** 3.5.1 <br> Supplement: **KL** 7.2, **BS** 4 |
 | |W,01/31| Chosen-Plaintext-Attacks | **KL** 3.4,3.5 <br> Supplement: **BS** 5 |
 |5|M,02/05| CPA security from PRFs <br> Data integrity | **KL** 3.5,4.1,4.2 |
-
 ||W,02/07| MAC construction <br> Block cipher constructions | **KL** 4.3,4.4,7.2 <br> Supplement: **BS** 4.2 |
 |6|M,02/12| Domain extension | **KL** 3.6,4.3,4.4 <br> Supplement: **BS** 6.4,6.5 | 
 ||W,02/14| Hash functions | **KL** 6.1,6.2,6.4,7.3 |
