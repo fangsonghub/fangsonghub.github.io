@@ -37,8 +37,8 @@ modified: <2024-02-14 Wed>
 
 {% comment %}
 |8|M,02/26| TDP & RSA <br> Diffie-Hellman | **KL** 9.1-9.3,12.4,12.5 <br> Note on algebra [PDF](http://theory.stanford.edu/~trevisan/cs276/notesalgebra.pdf){:target="_blank"} |
-||W,02/28| KEM/DEM <br> LWE | **KL** 12.3,14.3 <br> Barak's note [PDF](https://files.boazbarak.org/crypto/lec_12_lattices.pdf){:target="_blank"} <br> Peikert's tutorial [Youtube](https://youtu.be/K_fNK04yG4o){:target="_blank"} |
-|9|M,03/04| Lattices <br> Digital signatures | **KL** 13.1-13.3 |
+||W,02/28| KEM/DEM <br> Topic: ZK | **KL** 12.3,14.3 <br> **BS** 20 Barak's Note [PDF](https://files.boazbarak.org/crypto/lec_14_zero_knowledge.pdf){:target="_blank"}|
+|9|M,03/04| Lattice crypto <br> Digital signatures | **KL** 13.1-13.3 <br> Barak's note [PDF](https://files.boazbarak.org/crypto/lec_12_lattices.pdf){:target="_blank"} <br> Peikert's tutorial [Youtube](https://youtu.be/K_fNK04yG4o){:target="_blank"} |
 ||W,03/06| Random-oracle <br> PKC with RO | **KL** 6.5,12.5.4,13.4|
 |10|W,03/08| Hash-based signature <br> Theoretical foundations | **KL** 14.4, 8 |
 ||W,03/15| Project presentation | | 
