@@ -153,7 +153,7 @@ modified: <2024-01-30 Tue>
 *  10/2022 - 09/2024 NSF [Award #2224131](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2224131). Collaborative Research: FET: Small. 
 *  03/2022 - 02/2023 [Sony Faculty Innovation Award](https://www.sony.com/en/SonyInfo/research-award-program/). 
 *  04/2020 - 03/2025 NSF [CAREER Award
-   #1942706](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2054758).
+   #2054758](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2054758).
    FET: CAREER.
 *  10/2018 - 09/2022 NSF [Award #2041841](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2041841) ([#1816869](https://nsf.gov/awardsearch/showAward?AWD_ID=1816869)). AF:
    Small.
