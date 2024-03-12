@@ -5,7 +5,7 @@ courseid: w24 485/585
 subtitle: Schedule (subject to change)
 desc: Schedule
 permalink: /teaching/w24_4585_icrypto/schedule/
-modified: <2024-02-14 Wed> 
+modified: <2024-03-11 Mon> 
 ---
 
 {% comment %}
@@ -33,15 +33,15 @@ modified: <2024-02-14 Wed>
 ||W,02/14| Hash functions | **KL** 6.1,6.2,6.4,7.3 |
 |7|M,02/19| HMAC <br> CCA & Authenticated encryption | **KL** 6.3,5.1-5.3|
 ||W,02/21| PKC evolution |**KL** 11,12.1,12.2 |
+|8|M,02/26| TDP & RSA <br> Diffie-Hellman | **KL** 9.1-9.3,12.4,12.5 <br> Note on algebra [PDF](http://theory.stanford.edu/~trevisan/cs276/notesalgebra.pdf){:target="_blank"} |
+||W,02/28| KEM/DEM <br> Topic: ZK | **KL** 12.3 <br> **BS** 20 Barak's Note [PDF](https://files.boazbarak.org/crypto/lec_14_zero_knowledge.pdf){:target="_blank"}|
+|9|M,03/04| ElGamal <br> Digital signatures | **KL** 12.,13.1-13.3 |
+||W,03/06| Random-oracle <br> PKC with RO <br> Hash-based signature  | **KL** 6.5,12.5.4,13.4,14.4|
+|10|W,03/11| Lattice crypto | **KL** 14.3 <br> Barak's note [PDF](https://files.boazbarak.org/crypto/lec_12_lattices.pdf){:target="_blank"} <br> Peikert's tutorial [Youtube](https://youtu.be/K_fNK04yG4o){:target="_blank"} |
+||W,03/13| Project presentation | | 
 {:.mbtablestylef}
 
 {% comment %}
-|8|M,02/26| TDP & RSA <br> Diffie-Hellman | **KL** 9.1-9.3,12.4,12.5 <br> Note on algebra [PDF](http://theory.stanford.edu/~trevisan/cs276/notesalgebra.pdf){:target="_blank"} |
-||W,02/28| KEM/DEM <br> Topic: ZK | **KL** 12.3,14.3 <br> **BS** 20 Barak's Note [PDF](https://files.boazbarak.org/crypto/lec_14_zero_knowledge.pdf){:target="_blank"}|
-|9|M,03/04| Lattice crypto <br> Digital signatures | **KL** 13.1-13.3 <br> Barak's note [PDF](https://files.boazbarak.org/crypto/lec_12_lattices.pdf){:target="_blank"} <br> Peikert's tutorial [Youtube](https://youtu.be/K_fNK04yG4o){:target="_blank"} |
-||W,03/06| Random-oracle <br> PKC with RO | **KL** 6.5,12.5.4,13.4|
-|10|W,03/08| Hash-based signature <br> Theoretical foundations | **KL** 14.4, 8 |
-||W,03/15| Project presentation | | 
 {% endcomment %}
 
 
