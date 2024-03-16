@@ -1,5 +1,17 @@
 # course pages
 
+# S24 CCUT
+
+- courseid: s24 ccut
+  desc: s24 ccut
+  url: /teaching/s24_ccut/
+  nav: true
+
+- courseid: s24 ccut
+  desc: Resource
+  url: /teaching/s24_ccut/resource/
+  nav: true
+
 # W24 ICrypto
 
 - courseid: w24 485/585
