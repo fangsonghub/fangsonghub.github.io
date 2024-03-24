@@ -1,10 +1,12 @@
 ---
 layout: page
 title: News
-modified: <2024-01-30 Tue>
+modified: <2024-03-25 Mon>
 ---
 ## {{ page.title }}
-
+*  <2024-03-25 Mon> I will serve on the program committee of [QCrypt
+   2024](https://2024.qcrypt.net/){:target="_blank"}
+   to be held in Vigo, Spain. Please submit your excellent papers!
 *  <2024-01-30 Tue> I will serve on the program committee of [TQC
    2024](https://tqc-conference.org/call-for-submissions/){:target="_blank"}
    to be held in Okinawa, Japan. Please submit your excellent papers!
