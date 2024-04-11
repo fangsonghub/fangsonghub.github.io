@@ -4,7 +4,7 @@ title: (Spring 2024) PSU CS at CCUT
 courseid: s24 ccut
 desc: s24 ccut
 permalink: /teaching/s24_ccut/
-modified: <2024-03-18 Mon> 
+modified: <2024-04-11 Wed> 
 ---
 
 * Table of Contents
@@ -13,6 +13,7 @@ modified: <2024-03-18 Mon>
 {% endcomment %}
 
 ## CS 163
+** April 08 _Intro, trees_ [Note [PDF]({{base}}/teaching/w18_4585_icrypto/s24_163_live1.pdf){:target="_blank"}] 
 
 ## CS 251
 
