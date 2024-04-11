@@ -13,7 +13,7 @@ modified: <2024-04-11 Wed>
 {% endcomment %}
 
 ## CS 163
-** April 08 _Intro, trees_ [Note [PDF]({{base}}/teaching/w18_4585_icrypto/s24_163_live1.pdf){:target="_blank"}] 
+**April 08** _Intro, trees_ [Note [PDF]({{base}}/teaching/s24_ccut/s24_163_live1.pdf){:target="_blank"}] 
 
 ## CS 251
 
