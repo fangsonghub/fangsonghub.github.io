@@ -7,9 +7,9 @@ permalink: /teaching/s24_ccut/
 modified: <2024-04-11 Wed> 
 ---
 
+{% comment %}
 * Table of Contents
 {:toc}
-{% comment %}
 {% endcomment %}
 
 ## CS 163
