@@ -4,7 +4,7 @@ title: (Spring 2024) PSU CS at CCUT
 courseid: s24 ccut
 desc: s24 ccut
 permalink: /teaching/s24_ccut/
-modified: <2024-04-16 Tue> 
+modified: <2024-04-17 Wed> 
 ---
 
 {% comment %}
@@ -23,6 +23,7 @@ modified: <2024-04-16 Tue>
 *  **April 17** _Cyclic groups, discrete log, Diffie Hellman_ [Note [PDF]({{base}}/teaching/s24_ccut/s24_251_live3.pdf){:target="_blank"}] 
 
 ## CS 201 
+*  **April 16** _Memory hierarchy_ [Note [PDF]({{base}}/teaching/s24_ccut/s24_201_live1.pdf){:target="_blank"}] 
 
 {% comment %}
 
