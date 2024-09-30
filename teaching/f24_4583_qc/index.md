@@ -12,7 +12,7 @@ modified: <2024-09-30 Mon>
    [PDF]({{base}}/teaching/f24_4583_qc/f24_4583_qc_syllabus.pdf){:target="_blank"}. 
 *  **Instructor**: Prof. [Fang Song]({{base}}/) 
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
-   with "f24-4583". 
+   with "f24-4583". Slack is preferred. 
 *  **Lectures**: MW 11:30 - 13:20 @ LH 301
 *  **Office hours**: TBD
 *  **Overview**: The law of quantum physics enables quantum computing,
