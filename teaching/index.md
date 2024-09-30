@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Teaching
-modified: <2024-05-14 Tue>
+modified: <2024-07-15 Mon>
 ---
+## Current 
+*  CS 581 **Theory of computation** [Fall 2024]({{ base }}/teaching/f24_581_toc/)
+*  CS 483/583 **Introduction to Quantum Computer Science** [Fall 2024]({{ base
+  }}/teaching/f24_4583_qc/)
 {% comment %}
 {% endcomment %}
-
-## Current 
-
 
 - - -
 ## Past courses

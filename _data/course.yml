@@ -1,5 +1,52 @@
 # course pages
 
+# F24 QC
+- courseid: f24 483/583
+  title: (Fall 2024) CS 483/583 - Intro to Quantum Computer Science
+  desc: f24 483/583
+  nav: true
+  url: /teaching/f24_4583_qc/
+
+- courseid: f24 483/583
+  title: CS 483/583 
+  desc: Schedule
+  nav: true
+  url: /teaching/f24_4583_qc/schedule/
+
+- courseid: f24 483/583
+  title: (Fall 2024) CS 483/583 - Intro to Quantum Computer Science
+  desc: Resource
+  nav: true
+  url: /teaching/f24_4583_qc/resource/
+
+- courseid: f24 483/583
+  title: CS 483/583 
+  desc: Project
+  nav: true
+  url: /teaching/f24_4583_qc/project/
+
+
+# F24 ToC
+
+- courseid: f24 581
+  title: CS 581
+  title: (Fall 2024) CS 581 - Theory of computation
+  desc: f24 581
+  nav: true
+  url: /teaching/f24_581_toc/
+
+- courseid: f24 581
+  title: CS 581
+  desc: Schedule
+  nav: true
+  url: /teaching/f24_581_toc/schedule/
+
+- courseid: f24 581
+  title: CS 581
+  desc: Resource
+  nav: true
+  url: /teaching/f24_581_toc/resource/
+
 # S24 CCUT
 
 - courseid: s24 ccut
