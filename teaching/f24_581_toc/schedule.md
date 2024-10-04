@@ -5,7 +5,7 @@ subtitle: Schedule
 courseid: f24 581
 desc: Schedule
 permalink: /teaching/f24_581_toc/schedule/
-modified: <2024-09-30 Mon>
+modified: <2024-10-03 Thu>
 ---
 
 ## Schedule (subject to change)
@@ -14,11 +14,11 @@ modified: <2024-09-30 Mon>
 |:-----:| :---------: |:----------:|:-----:|
 |1| M,09/30  | Intro | **Widgerson** [Chapter 20](https://www.math.ias.edu/files/Book-online-Aug0619.pdf#page=1){:target="_blank"} <br> **S3** Chapter 0|
 | | W,10/02 | Math proofs | **S3** 0|
+|2| M,10/07 | Finite automata <br> Regular expressions | **S3** 1 |
+| | W,10/09 | NFA <br> Pushdown automata | **S3** 1.2,2.2|
 {:.mbtablestylef}
 
 {% comment %}
-|2| M,10/07 | Finite automata <br> Regular expressions | **S3** 1 |
-| | W,10/09 | NFA <br> Pushdown automata | **S3** 1.2,2.2|
 |3| M,10/14 | Turing Machines | **S3** 3.1 |
 | | W,10/16 | TM Variants <br> Decidability | **S3** 3.2,4 |
 |4| M,10/21 | Reducibility | **S3** 5.1,5.3|
