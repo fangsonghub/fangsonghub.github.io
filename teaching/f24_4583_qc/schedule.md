@@ -5,7 +5,7 @@ courseid: f24 483/583
 subtitle: Schedule 
 desc: Schedule
 permalink: /teaching/f24_4583_qc/schedule/
-modified: <2024-09-30 Mon>
+modified: <2024-10-03 Thu>
 ---
 ## Schedule (subject to change)
 
