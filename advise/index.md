@@ -12,7 +12,7 @@ modified: <2024-10-03 Thu>
 
 
 ### Postdoc
-*  2023.08 - . [Daniel Liang](https://daniel-you-liang.github.io/){:target="_blank"} @ joint postdoc at Portland State U and Rice University. 
+*  2023.08 - . [Daniel Liang](https://daniel-you-liang.github.io/){:target="_blank"} @ Portland State U, jointly with Dr. Nai-Hui Chia @ Rice University. 
 
 ### Ph.D. 
 
