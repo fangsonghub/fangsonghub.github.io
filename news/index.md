@@ -1,9 +1,13 @@
 ---
 layout: page
 title: News
-modified: <2024-03-25 Mon>
+modified: <2024-10-03 Thu>
 ---
 ## {{ page.title }}
+*  <2024-06-24 Mon> I will serve on the program committee of [EUROCRYPT
+   2025](https://eurocrypt.iacr.org/2025/){:target="_blank"}
+   to be held in Madrid, Spain. Please submit your excellent papers! ¡Hala Madrid!
+*  <2024-04-22 Mon> I'm hornored to receive PSU's 2024 [Early Career Research Award](https://www.pdx.edu/research/psus-2024-early-career-research-awardee-fang-song).
 *  <2024-03-25 Mon> I will serve on the program committee of [QCrypt
    2024](https://2024.qcrypt.net/){:target="_blank"}
    to be held in Vigo, Spain. Please submit your excellent papers!
