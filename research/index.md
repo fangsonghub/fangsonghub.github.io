@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt:
-modified: <2024-01-30 Tue>
+modified: <2024-10-03 Thu>
 ---
 * Table of Contents
 {:toc}
@@ -11,19 +11,36 @@ modified: <2024-01-30 Tue>
 
 [arXiv](http://arxiv.org/a/song_f_1){:target="_blank"} [Google Scholar](https://scholar.google.ch/citations?user=A6C3geAAAAAJ&hl=en){:target="_blank"}
 
+*  **Quantum State Learning Implies Circuit Lower Bounds** 
+    *  Authors: Nai-Hui Chia, Daniel Liang, Fang Song
+	*  Contributed talk at the _19th Theory of Quantum Computation, Communication and Cryptography ([TQC
+       2024](https://tqc-conference.org/){:target="_blank"})_.
+	* [[arXiv](https://arxiv.org/abs/2405.10242){:target="_blank"}] [Talk at TQC'24 by Daniel Liang [YouTube](https://www.youtube.com/live/kvKihUsu068?si=ml-G0c9zdNTzW2J3){:target="_blank"}]
+*  **Improved Quantum Lifting by Coherent Measure-and-Reprogram** 
+    *  Authors: Alexandru Cojocaru, Juan Garay, Qipeng Liu, and Fang Song
+	*  In _the 30th International Conference on the Theory and
+       Application of Cryptology and Information Security ([Asiacrypt
+       2024](https://asiacrypt.iacr.org/2024/){:target="_blank"})_.
+	*  [IACR [ePrint](https://www.iacr.org/cryptodb/data/paper.php?pubkey=34670){:target="_blank"}]
+*  **Generalized Hybrid Search and Applications** 
+    *  Authors: Alexandru Cojocaru, Juan Garay, and Fang Song
+	*  In _the 30th International Conference on the Theory and
+       Application of Cryptology and Information Security ([Asiacrypt
+       2024](https://asiacrypt.iacr.org/2024/){:target="_blank"})_.
+	*  [IACR [ePrint](https://eprint.iacr.org/2023/798){:target="_blank"}]
 *  **Quantum Pseudorandom Scramblers**
     *  Authors: Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, and Mingnan Zhao
+	*  In _the 22nd Theory of Cryptography Conference ([TCC
+       2024](https://tcc.iacr.org/2024/){:target="_blank"})_.
     *  Contributed talk at the _27th Conference on Quantum Information
        Processing ([QIP
        2024](https://qip2024.tw/){:target="_blank"})_.
-	* [[arXiv:2309.08941](https://arxiv.org/abs/2309.08941){:target="_blank"}] 
+	* [[arXiv:2309.08941](https://arxiv.org/abs/2309.08941){:target="_blank"}] [IACR [ePrint](https://eprint.iacr.org/2024/1470){:target="_blank"}]
 *  **A Cryptographic Perspective on the Verifiability of Quantum Advantage** 
     *  Authors: Nai-Hui Chia, Honghao Fu, Fang Song, and Penghui Yao
-	* _Preprint arXiv quant-ph_ [arXiv:2310:14464](https://arxiv.org/abs/2310.14464){:target="_blank"}, October, 2023. 
-*  **Generalized Hybrid Search and Applications** 
-    *  Authors: Alexandru Cojocaru, Juan Garay, and Fang Song
-	*  _Preprint Cryptology ePrint Archive_,
-       [2023/798](https://eprint.iacr.org/2023/798){:target="_blank"}, July 2023.
+	*  Contributed talk at the _24th Asian Quantum Information Science Conference ([AQIS
+       2024](http://aqis-conf.org/2024/){:target="_blank"})_.
+	* [[arXiv:2310:14464](https://arxiv.org/abs/2310.14464){:target="_blank"}] 
 * **Quantum Multi-Solution Bernoulli Search with Applications to Bitcoin's Post-Quantum Security**
     *  Authors: Alexandru Cojocaru, Juan Garay, Aggelos Kiayias, Fang Song, and Petros Wallden
     *  In _Quantum_, [volume 7,
