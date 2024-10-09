@@ -17,7 +17,7 @@ modified: <2024-10-09 Thu>
 | | W,10/09  | Multi-qubit <br> Entanglement | W 2 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.02.pdf){:target="_blank"} <br> W-IBM [Multi systems](https://learning.quantum.ibm.com/course/basics-of-quantum-information/multiple-systems){:target="_blank"} |
 {:.mbtablestylef}
 {% comment %}
-|3| M,10/14  | Quantum circuits <br> Superdense coding  | W 3 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.03.pdf){:target="_blank"}  |
-| | W,10/16  | Apps of Entanglement <br> Qiskit Tutorial | W 4 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.04.pdf){:target="_blank"}  |
+|3| M,10/14  | Basic QI tasks  | W-IBM [Quantum Circuits](https://learning.quantum.ibm.com/course/basics-of-quantum-information/quantum-circuits){:target="_blank"}  |
+| | W,10/16  | Apps of Entanglement <br> Qiskit Tutorial | W 3 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.03.pdf){:target="_blank"} W 4 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.04.pdf){:target="_blank"}  |
 
 {% endcomment %}
