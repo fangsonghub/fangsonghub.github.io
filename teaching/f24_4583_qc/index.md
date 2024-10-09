@@ -4,7 +4,7 @@ title: (Fall 2024) CS 483/583 - Intro to Quantum Computer Science
 courseid: f24 483/583
 desc: f24 483/583
 permalink: /teaching/f24_4583_qc/
-modified: <2024-09-30 Mon>
+modified: <2024-10-07 Mon>
 ---
 
 ## About
@@ -14,7 +14,7 @@ modified: <2024-09-30 Mon>
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
    with "f24-4583". Slack is preferred. 
 *  **Lectures**: MW 11:30 - 13:20 @ LH 301
-*  **Office hours**: TBD
+*  **Office hours**: M 10:15 - 11:15 @ FAB 120-25 and by appointment. 
 *  **Overview**: The law of quantum physics enables quantum computing,
    a new paradigm of computation. It enables solving some problems
    that are intractable on classical computers. In this course, we

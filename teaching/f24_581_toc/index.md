@@ -4,7 +4,7 @@ title: (Fall 2024) CS 581 - Theory of computation
 courseid: f24 581
 desc: f24 581
 permalink: /teaching/f24_581_toc/
-modified: <2024-09-30 Mon>
+modified: <2024-10-07 Mon>
 ---
 
 ## About
@@ -14,7 +14,7 @@ modified: <2024-09-30 Mon>
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
    with "f24-581". Slack is preferred. 
 *  **Lectures**: MW 14:00 - 15:15 @ EB 92
-*  **Office hours**: TBD
+*  **Office hours**: W 15:20 - 16:20 @ FAB 120-25, and by appointment. 
 *  **Overview**: Computation is a familiar term to all computer
    scientists. But what is computation after all? What problems are
    computable (_Computability_), and how “efficient” can we compute
