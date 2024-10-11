@@ -5,7 +5,7 @@ courseid: f24 483/583
 subtitle: Schedule 
 desc: Schedule
 permalink: /teaching/f24_4583_qc/schedule/
-modified: <2024-10-09 Thu>
+modified: <2024-10-10 Thu>
 ---
 ## Schedule (subject to change)
 
@@ -15,9 +15,9 @@ modified: <2024-10-09 Thu>
 | | W,10/02 | Qubit | W 1 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.01.pdf){:target="_blank"}|
 |2| M,10/07  | Tensor product <br> Multiple systems  | W 2 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.02.pdf){:target="_blank"} <br> W-IBM [Multi systems](https://learning.quantum.ibm.com/course/basics-of-quantum-information/multiple-systems){:target="_blank"} |
 | | W,10/09  | Multi-qubit <br> Entanglement | W 2 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.02.pdf){:target="_blank"} <br> W-IBM [Multi systems](https://learning.quantum.ibm.com/course/basics-of-quantum-information/multiple-systems){:target="_blank"} |
-{:.mbtablestylef}
-{% comment %}
 |3| M,10/14  | Basic QI tasks  | W-IBM [Quantum Circuits](https://learning.quantum.ibm.com/course/basics-of-quantum-information/quantum-circuits){:target="_blank"}  |
 | | W,10/16  | Apps of Entanglement <br> Qiskit Tutorial | W 3 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.03.pdf){:target="_blank"} W 4 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.04.pdf){:target="_blank"}  |
+{:.mbtablestylef}
+{% comment %}
 
 {% endcomment %}
