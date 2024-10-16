@@ -5,7 +5,7 @@ subtitle: Schedule
 courseid: f24 581
 desc: Schedule
 permalink: /teaching/f24_581_toc/schedule/
-modified: <2024-10-10 Thu>
+modified: <2024-10-16 Wed>
 ---
 
 ## Schedule (subject to change)
@@ -16,13 +16,13 @@ modified: <2024-10-10 Thu>
 | | W,10/02 | Math proofs | **S3** 0|
 |2| M,10/07 | Finite automata | **S3** 1 |
 | | W,10/09 | Regular expressions <br> NFA | **S3** 1|
-|3| M,10/14 | Pushdown automata <br> Turing Machines | **S3** 2.2,3.1 |
-| | W,10/16 | TM Variants <br> Decidability | **S3** 3.2,4 |
+|3| M,10/14 | Pushdown automata  | **S3** 2.2 |
+| | W,10/16 | Turing Machines | **S3** 3.1-3.2 |
+|4| M,10/21 | Decidability <br> Reducibility | **S3** 4,5.1,5.3|
+| | W,10/23 | Time complexity <br> P,NP| **S3** 7.1-7.3 |
 {:.mbtablestylef}
 
 {% comment %}
-|4| M,10/21 | Reducibility | **S3** 5.1,5.3|
-| | W,10/23 |Time complexity <br> P,NP| **S3** 7.1-7.3 |
 |5| M,10/28 | Karp reduction <br> NPC | **S3** 7.4 |
 | | W,10/30 | Cook-Levin <br> More NPC | **S3** 7.4,7.5 | 
 |6| M,11/04 | Beyond NP <br> Time hierarchy | **AB** 2.6,3.1 [draft book](https://theory.cs.princeton.edu/complexity/) <br> **S3** 9.1 |
