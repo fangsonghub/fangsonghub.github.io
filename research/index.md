@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt:
-modified: <2024-10-03 Thu>
+modified: <2024-10-16 Wed>
 ---
 * Table of Contents
 {:toc}
@@ -12,24 +12,24 @@ modified: <2024-10-03 Thu>
 [arXiv](http://arxiv.org/a/song_f_1){:target="_blank"} [Google Scholar](https://scholar.google.ch/citations?user=A6C3geAAAAAJ&hl=en){:target="_blank"}
 
 *  **Quantum State Learning Implies Circuit Lower Bounds** 
-    *  Authors: Nai-Hui Chia, Daniel Liang, Fang Song
+    *  Authors: [Nai-Hui Chia](https://sites.google.com/view/naihuichia), [Daniel Liang](https://daniel-you-liang.github.io/), and Fang Song
 	*  Contributed talk at the _19th Theory of Quantum Computation, Communication and Cryptography ([TQC
        2024](https://tqc-conference.org/){:target="_blank"})_.
 	* [[arXiv](https://arxiv.org/abs/2405.10242){:target="_blank"}] [Talk at TQC'24 by Daniel Liang [YouTube](https://www.youtube.com/live/kvKihUsu068?si=ml-G0c9zdNTzW2J3){:target="_blank"}]
 *  **Improved Quantum Lifting by Coherent Measure-and-Reprogram** 
-    *  Authors: Alexandru Cojocaru, Juan Garay, Qipeng Liu, and Fang Song
+    *  Authors: [Alexandru Cojocaru](https://www.quantumsoftwarelab.com/qsl-board/alexandru-cojocaru), [Juan Garay](https://jagaray.com/), [Qipeng Liu](https://sites.google.com/view/qipengliu/home?authuser=0), and Fang Song
 	*  In _the 30th International Conference on the Theory and
        Application of Cryptology and Information Security ([Asiacrypt
        2024](https://asiacrypt.iacr.org/2024/){:target="_blank"})_.
 	*  [IACR [ePrint](https://www.iacr.org/cryptodb/data/paper.php?pubkey=34670){:target="_blank"}]
 *  **Generalized Hybrid Search and Applications** 
-    *  Authors: Alexandru Cojocaru, Juan Garay, and Fang Song
+    *  Authors: [Alexandru Cojocaru](https://www.quantumsoftwarelab.com/qsl-board/alexandru-cojocaru), [Juan Garay](https://jagaray.com/), and Fang Song
 	*  In _the 30th International Conference on the Theory and
        Application of Cryptology and Information Security ([Asiacrypt
        2024](https://asiacrypt.iacr.org/2024/){:target="_blank"})_.
 	*  [IACR [ePrint](https://eprint.iacr.org/2023/798){:target="_blank"}]
 *  **Quantum Pseudorandom Scramblers**
-    *  Authors: Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, and Mingnan Zhao
+    *  Authors: [Chuhan Lu](https://chuhanlu.github.io/), [Minglong Qin](https://tsdjh.github.io/), Fang Song, [Penghui Yao](http://penghuiyao.info/), and [Mingnan Zhao](https://tsdjh.github.io/)
 	*  In _the 22nd Theory of Cryptography Conference ([TCC
        2024](https://tcc.iacr.org/2024/){:target="_blank"})_.
     *  Contributed talk at the _27th Conference on Quantum Information
@@ -37,16 +37,16 @@ modified: <2024-10-03 Thu>
        2024](https://qip2024.tw/){:target="_blank"})_.
 	* [[arXiv:2309.08941](https://arxiv.org/abs/2309.08941){:target="_blank"}] [IACR [ePrint](https://eprint.iacr.org/2024/1470){:target="_blank"}]
 *  **A Cryptographic Perspective on the Verifiability of Quantum Advantage** 
-    *  Authors: Nai-Hui Chia, Honghao Fu, Fang Song, and Penghui Yao
+    *  Authors: [Nai-Hui Chia](https://sites.google.com/view/naihuichia), [Honghao Fu](https://www.concordia.ca/faculty/honghao-fu.html), Fang Song, and [Penghui Yao](http://penghuiyao.info)
 	*  Contributed talk at the _24th Asian Quantum Information Science Conference ([AQIS
        2024](http://aqis-conf.org/2024/){:target="_blank"})_.
 	* [[arXiv:2310:14464](https://arxiv.org/abs/2310.14464){:target="_blank"}] 
 * **Quantum Multi-Solution Bernoulli Search with Applications to Bitcoin's Post-Quantum Security**
-    *  Authors: Alexandru Cojocaru, Juan Garay, Aggelos Kiayias, Fang Song, and Petros Wallden
+    *  Authors: [Alexandru Cojocaru](https://www.quantumsoftwarelab.com/qsl-board/alexandru-cojocaru), [Juan Garay](https://jagaray.com/), [Aggelos Kiayias](https://kiayias.com/Aggelos_Kiayias/Home_of_Aggelos_Kiayias.html), Fang Song, and [Petros Wallden](http://www.pwallden.gr/)
     *  In _Quantum_, [volume 7,
        944](https://doi.org/10.22331/q-2023-03-09-944){:target="_blank"}, 2023.
 * **Quantum algorithms for attacking hardness assumptions in classical and post-quantum cryptography**
-    *  Authors: J-F Biasse, X. Bonnetain, E Kirshanova,  A. Schrottenloher, and F. Song
+    *  Authors: [J-F Biasse](http://biasse.myweb.usf.edu/), [X. Bonnetain](https://www.bonneta.in/), [E. Kirshanova](https://crypto-kantiana.com/elena.kirshanova/),  [A. Schrottenloher](https://andreschrottenloher.github.io/), and F. Song
     *  In _IET Information Security_, [1-39,
        2022](https://doi.org/10.1049/ise2.12081){:target="_blank"},
        2022.
