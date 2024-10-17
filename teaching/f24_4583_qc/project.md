@@ -68,10 +68,10 @@ here](https://www.quantamagazine.org/computer-scientists-prove-that-heat-destroy
 ### Timeline (Tentative)
 *  **Week 1 - 3**: forming groups.
 *  **Week 4**: discussing project ideas.
-*  **Week 5 xxx**: proposal due, 11:59pm anytime on Earth. 
+*  **Week 5 Fri 11/01**: proposal due, 11:59pm anytime on Earth. 
 *  **Week 8**: progress check-up meetings.
 *  **Week 10**: oral presentations. 
-*  **xxx**: final report due, 11:59pm anytime on Earth. 
+*  **Finals Week Wed 12/11**: final report due, 11:59pm anytime on Earth. 
 
 ------ 
 
@@ -136,10 +136,6 @@ Next Steps in Quantum Computing: Computer Science’s Role.
   computers](https://qiskit.org/textbook/ch-quantum-hardware/randomized-benchmarking.html),
   and a report on benchmarking an [11-qubit quantum
   computer](https://www.nature.com/articles/s41467-019-13534-2).
-*  [[Urmila18](https://arxiv.org/abs/1804.01082)] Implement a protocol
-   for verifying a server's _quantumness_. Optimize the quantum
-   circuit by some tool for circuit synthesis
-   (Cf. [MM16](https://iopscience.iop.org/article/10.1088/2058-9565/1/1/015003/meta)).
 *  [[HM17](https://arxiv.org/abs/1809.07442),[FH16](https://arxiv.org/abs/1602.07674),[CZH+18](https://arxiv.org/abs/1805.01450),[QWE19](https://arxiv.org/abs/1902.02359)]
    Test (on a small scale) proposals for "quantum advantage", and
    compare with simulations on classical computers.
@@ -148,8 +144,8 @@ Next Steps in Quantum Computing: Computer Science’s Role.
    you demonstrate some toy example? 
 *  Extensions to consider for implementation and simulation of quantum
    algorithms: optimize the circuit, estimate the cost, test
-   variations (e.g., robustness against noise), etc.
-*  Tools on optimizing reversible/quantum circuit:
+   variations (e.g., robustness against noise), etc.  Tools on
+   optimizing reversible/quantum circuit:
    [[RevKit](https://msoeken.github.io/revkit.html),[Feynman](https://github.com/meamy/feynman),[ZX-Calculus](https://arxiv.org/abs/1902.03178)]
 *  Develop a **quantum computer game**? Here is an example [quantum
    battleship](https://medium.com/@decodoku/quantum-battleships-the-first-multiplayer-game-for-a-quantum-computer-e4d600ccb3f3).
