@@ -29,7 +29,7 @@ modified: <2024-10-16 Wed>
        2024](https://asiacrypt.iacr.org/2024/){:target="_blank"})_.
 	*  [IACR [ePrint](https://eprint.iacr.org/2023/798){:target="_blank"}]
 *  **Quantum Pseudorandom Scramblers**
-    *  Authors: [Chuhan Lu](https://chuhanlu.github.io/), [Minglong Qin](https://tsdjh.github.io/), Fang Song, [Penghui Yao](http://penghuiyao.info/), and [Mingnan Zhao](https://tsdjh.github.io/)
+    *  Authors: [Chuhan Lu](https://chuhanlu.github.io/), [Minglong Qin](https://tsdjh.github.io/), Fang Song, [Penghui Yao](http://penghuiyao.info/), and [Mingnan Zhao]()
 	*  In _the 22nd Theory of Cryptography Conference ([TCC
        2024](https://tcc.iacr.org/2024/){:target="_blank"})_.
     *  Contributed talk at the _27th Conference on Quantum Information
