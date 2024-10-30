@@ -21,7 +21,7 @@ modified: <2024-10-29 Tue>
 |4| M,10/21 | Decidability  | **S3** 4,5.1,5.3|
 | | W,10/23 | Reducibility  | **S3** 5.1,5.3 |
 |5| M,10/28 | Time Complexity | **S3** 7.1|
-| | W,10/30 | <br> P,NP,NPC | **S3** 7.2-7.4 | 
+| | W,10/30 | P,NP,NPC | **S3** 7.2-7.4 | 
 |6| M,11/04 | More NPC <br> NP-Intermediate  |**S3** 7.5 <br> **AB** 3.4 [draft book](https://theory.cs.princeton.edu/complexity/) |
 | | W,11/06 | Relativization | **S3** 6.3,9.2 <br> **AB** 3.5 | 
 {:.mbtablestylef}
