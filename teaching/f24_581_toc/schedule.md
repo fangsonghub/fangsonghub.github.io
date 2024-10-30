@@ -23,7 +23,8 @@ modified: <2024-10-29 Tue>
 |5| M,10/28 | Time Complexity | **S3** 7.1|
 | | W,10/30 | <br> P,NP,NPC | **S3** 7.2-7.4 | 
 |6| M,11/04 | More NPC <br> NP-Intermediate  |**S3** 7.5 <br> **AB** 3.4 [draft book](https://theory.cs.princeton.edu/complexity/) |
-| | W,11/06 | Relativization | **S3** 6.3,9.2 <br> **AB** 3.5 | {:.mbtablestylef}
+| | W,11/06 | Relativization | **S3** 6.3,9.2 <br> **AB** 3.5 | 
+{:.mbtablestylef}
 
 {% comment %}
 |7| M,11/11 | Veteran's day no Class | |
