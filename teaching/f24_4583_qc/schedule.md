@@ -5,7 +5,7 @@ courseid: f24 483/583
 subtitle: Schedule 
 desc: Schedule
 permalink: /teaching/f24_4583_qc/schedule/
-modified: <2024-10-29 Tue>
+modified: <2024-11-05 Tue>
 ---
 ## Schedule (subject to change)
 
@@ -23,10 +23,10 @@ modified: <2024-10-29 Tue>
 | | W,10/30 | Reversible computation | W 7 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.07.pdf){:target="_blank"} | 
 |6| M,11/04 | Oder finding, intro <br> Integer factorization | W 10 (1st part) [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.10.pdf){:target="_blank"} <br> 11 (2nd part) [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.11.pdf){:target="_blank"}  |
 | | W,11/06 | Phase estimation <br> Order finding | W 8 (1st part) [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.08.pdf){:target="_blank"} <br> 10 (2nd part) [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.10.pdf){:target="_blank"} 11 (1st part) [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.11.pdf){:target="_blank"} |
+|7| M,11/11  |Veteran's day no Class  | | 
+| | W,11/13 | Phase estimation cont'd <br> Quantum Fourier transform | W 9 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.09.pdf){:target="_blank"}    |
 {:.mbtablestylef}
 {% comment %}
-|7| M,11/11 Veteran's day no Class |  |
-| | W,11/13 | Phase estimation cont'd <br> Quantum Fourier transform | W 9 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.09.pdf){:target="_blank"}    |
 |8| M,11/18 | Grover's algorithm | W 12 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.12.pdf){:target="_blank"} |
 | | W,11/20 | General quantum operations <br> POVM |W 15 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.15.pdf){:target="_blank"}| 
 |9| M,11/25 |  Distance measure | Cleve note Section 1 <br> [PDF](http://cleve.iqc.uwaterloo.ca/resources/QIC-710-F21/Qic710QuantumInformationTheoryPart2.pdf){:target="_blank"} | 
