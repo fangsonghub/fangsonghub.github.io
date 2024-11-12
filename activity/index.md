@@ -1,18 +1,20 @@
 ---
 layout: page
 title: Activities
-modified: <2024-01-30 Tue>
+modified: <2024-11-12 Tue>
 ---
 
 ## Conference Program Committee Member
 * **AsiaCCS** [2020](https://asiaccs2020.cs.nthu.edu.tw){:target="_blank"}
 * **Asiacrypt** [2022](http://asiacrypt.iacr.org/2022/){:target="_blank"} [2017](http://asiacrypt.iacr.org/2017/){:target="_blank"}
 * **Crypto** [2021](https://crypto.iacr.org/2021/){:target="_blank"} [2020](https://crypto.iacr.org/2020/callforpapers.html){:target="_blank"}
+* **CT-RSA** (Cryptographers' Track at RSA Conference) [2025](https://ct-rsa-2025.csa.iisc.ac.in/){:target="_blank"} 
+* **Eurocrypto** [2025](https://eurocrypt.iacr.org/2025/){:target="_blank"} 
 *  **ITC** (Information-Theoretic Cryptography) [2021](https://itcrypto.github.io/2021/){:target="_blank"}
 * **Mathcrypt** [2019](http://imdarc.math.snu.ac.kr/MathCrypt2019/){:target="_blank"} [2018](https://crypto.iacr.org/2018/affevents/mathcrypt/page.html){:target="_blank"}
 * **PKC** (Public Key Cryptography) [2024](https://pkc.iacr.org/2024/){:target="_blank"} [2021](https://pkc.iacr.org/2021/){:target="_blank"} [2017](http://www.iacr.org/workshops/pkc2017/index.php){:target="_blank"}
 * **PQCrypto** (Post-Quantum Cryptography) [2019](http://pqcrypto2019.org/){:target="_blank"} [2018](http://www.math.fau.edu/pqcrypto2018/){:target="_blank"} [2017](https://2017.pqcrypto.org/conference/){:target="_blank"}
-* **QCrypt** (Quantum Cryptography) [2023](https://2023.qcrypt.net/){:target="_blank"} [2020](https://2020.qcrypt.net/){:target="_blank"}
+* **QCrypt** (Quantum Cryptography) [2024](https://2024.qcrypt.net/){:target="_blank"} [2023](https://2023.qcrypt.net/){:target="_blank"} [2020](https://2020.qcrypt.net/){:target="_blank"}
 * **Quantum Crypto Workshop** [2022](https://qcw2022.github.io/quantum-cryptography-workshop-2022/){:target="_blank"}, affiliated event of [Asiacrypt 2022](http://asiacrypt.iacr.org/2022/){:target="_blank"}. 
 * **QIP** (Quantum Information Processing) [2017](https://www.stationq.com/qip-2017/){:target="_blank"}
 * **SAC** (Selected Areas in Cryptography) [2019](https://uwaterloo.ca/selected-areas-in-cryptography/){:target="_blank"}
