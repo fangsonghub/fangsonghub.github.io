@@ -9,7 +9,7 @@ modified: <2024-11-12 Tue>
 * **Asiacrypt** [2022](http://asiacrypt.iacr.org/2022/){:target="_blank"} [2017](http://asiacrypt.iacr.org/2017/){:target="_blank"}
 * **Crypto** [2021](https://crypto.iacr.org/2021/){:target="_blank"} [2020](https://crypto.iacr.org/2020/callforpapers.html){:target="_blank"}
 * **CT-RSA** (Cryptographers' Track at RSA Conference) [2025](https://ct-rsa-2025.csa.iisc.ac.in/){:target="_blank"} 
-* **Eurocrypto** [2025](https://eurocrypt.iacr.org/2025/){:target="_blank"} 
+* **Eurocrypt** [2025](https://eurocrypt.iacr.org/2025/){:target="_blank"} 
 *  **ITC** (Information-Theoretic Cryptography) [2021](https://itcrypto.github.io/2021/){:target="_blank"}
 * **Mathcrypt** [2019](http://imdarc.math.snu.ac.kr/MathCrypt2019/){:target="_blank"} [2018](https://crypto.iacr.org/2018/affevents/mathcrypt/page.html){:target="_blank"}
 * **PKC** (Public Key Cryptography) [2024](https://pkc.iacr.org/2024/){:target="_blank"} [2021](https://pkc.iacr.org/2021/){:target="_blank"} [2017](http://www.iacr.org/workshops/pkc2017/index.php){:target="_blank"}
