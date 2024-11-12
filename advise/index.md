@@ -24,7 +24,7 @@ you are interested in TCS and/or working with me.
 *  2021.09 - . [Nikhil Pappu](http://nikhilpappu.info/){:target="_blank"} @ Portland State U. 
 *  2021.09 - . [Mehil Agarwal](https://mehil.info/){:target="_blank"} @ Portland State U. 
 *  2020.06 - . [Chuhan Lu](https://chuhanlu.github.io/){:target="_blank"} @ Portland State U (2019.09 - 2020.05 @ Texas A&M U).
-*  2020.09 - 2024.10. [Ben Hamlin](https://galois.com/team/ben-hamlin/){:target="_blank"} @ Portland State U (&rarr;Researcher and Engineer at Galois, Portland.).
+*  2020.09 - 2024.10. [Ben Hamlin](https://galois.com/team/ben-hamlin/){:target="_blank"} @ Portland State U (&rarr;Researcher and Engineer at [Galois](https://galois.com/), Portland.).
 
 {% comment %}
 *  2019.09 - 2020.05. [Mufeng Xie](){:target="_blank"} @ Texas A&M U.
