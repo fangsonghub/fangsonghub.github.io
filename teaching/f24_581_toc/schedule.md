@@ -5,7 +5,7 @@ subtitle: Schedule
 courseid: f24 581
 desc: Schedule
 permalink: /teaching/f24_581_toc/schedule/
-modified: <2024-10-31 Thu>
+modified: <2024-11-18 Mon>
 ---
 
 ## Schedule (subject to change)
@@ -28,11 +28,11 @@ modified: <2024-10-31 Thu>
 | | W,11/13 | Space complexity <br> PSPACE,L,NL |**AB** 4.1-4.3 <br> **S3** 8.1,8.2  |
 |8| M,11/18 | Relativization | **S3** 6.3,9.2 <br> **AB** 3.5 | 
 | | W,11/20 | EXAM (In-Class) <br> 14:00 - 16:00 EB 92 | | 
+|9| M,11/25 | Randomized computation | **S3** 10.2 **AB** 7.1-7.3 <br> Probability review [note](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"} |
+| | W,11/27 | BPP and friends | **S3** 10.2 **AB** 7.4,7.5|
 {:.mbtablestylef}
 
 {% comment %}
-|9| M,11/25 | Randomized computation | **S3** 10.2 **AB** 7.1-7.3 <br> Probability review [note](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"} |
-| | W,11/27 | BPP and friends | **S3** 10.2 **AB** 7.4,7.5|
 |10| M,12/02 | Interactive proofs | **S3** 10.4 |
 | | W,12/04 | Selected topic | ZK Note [PDF](https://theory.stanford.edu/~trevisan/cs172-07/notezk.pdf){:target="_blank"}| 
 

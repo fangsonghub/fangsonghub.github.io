@@ -5,7 +5,7 @@ courseid: f24 483/583
 subtitle: Schedule 
 desc: Schedule
 permalink: /teaching/f24_4583_qc/schedule/
-modified: <2024-11-12 Tue>
+modified: <2024-11-18 Mon>
 ---
 ## Schedule (subject to change)
 
@@ -27,10 +27,10 @@ modified: <2024-11-12 Tue>
 | | W,11/13 | Phase estimation cont'd <br> Quantum Fourier transform | W 9 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.09.pdf){:target="_blank"}    |
 |8| M,11/18 | Grover's algorithm | W 12 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.12.pdf){:target="_blank"} |
 | | W,11/20 | Density matrix formalism  | W 14 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.14.pdf){:target="_blank"} |
-{:.mbtablestylef}
-{% comment %}
 |9| M,11/25 | General quantum operations <br> POVM |W 15 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.15.pdf){:target="_blank"}| 
 | | W,11/27 |  Distance measure | Cleve note Section 1 <br> [PDF](http://cleve.iqc.uwaterloo.ca/resources/QIC-710-F21/Qic710QuantumInformationTheoryPart2.pdf){:target="_blank"} | 
+{:.mbtablestylef}
+{% comment %}
 |10| M,12/02 | Quantum error correction | W16  [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.16.pdf){:target="_blank"} |
 | | W,12/04 | Project presentation| |
 
