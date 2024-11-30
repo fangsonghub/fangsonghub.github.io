@@ -5,7 +5,7 @@ subtitle: Schedule
 courseid: f24 581
 desc: Schedule
 permalink: /teaching/f24_581_toc/schedule/
-modified: <2024-11-18 Mon>
+modified: <2024-11-27 Wed>
 ---
 
 ## Schedule (subject to change)
@@ -30,10 +30,10 @@ modified: <2024-11-18 Mon>
 | | W,11/20 | EXAM (In-Class) <br> 14:00 - 16:00 EB 92 | | 
 |9| M,11/25 | Randomized computation | **S3** 10.2 **AB** 7.1-7.3 <br> Probability review [note](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"} |
 | | W,11/27 | BPP and friends | **S3** 10.2 **AB** 7.4,7.5|
+|10| M,12/02 | Practice session <br> led by Chuhan Lu | |
+| | W,12/04 |  Interactive proofs <br> Guest lecture by Shravas Rao | **S3** 10.4 |
 {:.mbtablestylef}
 
 {% comment %}
-|10| M,12/02 | Interactive proofs | **S3** 10.4 |
-| | W,12/04 | Selected topic | ZK Note [PDF](https://theory.stanford.edu/~trevisan/cs172-07/notezk.pdf){:target="_blank"}| 
 
 {% endcomment %}
