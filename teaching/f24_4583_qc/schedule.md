@@ -5,7 +5,7 @@ courseid: f24 483/583
 subtitle: Schedule 
 desc: Schedule
 permalink: /teaching/f24_4583_qc/schedule/
-modified: <2024-11-18 Mon>
+modified: <2024-11-27 Wed>
 ---
 ## Schedule (subject to change)
 
@@ -26,12 +26,12 @@ modified: <2024-11-18 Mon>
 |7| M,11/11  |Veteran's day no Class  | | 
 | | W,11/13 | Phase estimation cont'd <br> Quantum Fourier transform | W 9 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.09.pdf){:target="_blank"}    |
 |8| M,11/18 | Grover's algorithm | W 12 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.12.pdf){:target="_blank"} |
-| | W,11/20 | Density matrix formalism  | W 14 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.14.pdf){:target="_blank"} |
-|9| M,11/25 | General quantum operations <br> POVM |W 15 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.15.pdf){:target="_blank"}| 
-| | W,11/27 |  Distance measure | Cleve note Section 1 <br> [PDF](http://cleve.iqc.uwaterloo.ca/resources/QIC-710-F21/Qic710QuantumInformationTheoryPart2.pdf){:target="_blank"} | 
+| | W,11/20 | Grover's cont'd | W 12 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.12.pdf){:target="_blank"} <br> [Note](https://arxiv.org/abs/1709.01236) on Grover's algorithm |
+|9| M,11/25 | Density matrix formalism  | W 14 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.14.pdf){:target="_blank"} |
+| | W,11/27 |  General quantum operations <br> POVM |W 15 [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.15.pdf){:target="_blank"}| 
+|10| M,12/02 | Quantum error correction <br> Guest lecture by Daniel Liang | W16  [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.16.pdf){:target="_blank"} |
+| | W,12/04 | Project presentation| |
 {:.mbtablestylef}
 {% comment %}
-|10| M,12/02 | Quantum error correction | W16  [PDF](https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.16.pdf){:target="_blank"} |
-| | W,12/04 | Project presentation| |
 
 {% endcomment %}
