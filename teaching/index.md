@@ -14,7 +14,7 @@ modified: <2025-03-10 Mon>
 #### Portland State University
 *  CS 581 **Theory of computation** [Fall 2024]({{ base }}/teaching/f24_581_toc/) [Fall 2023]({{ base }}/teaching/f23_581_toc/) [Fall 2022]({{ base }}/teaching/f22_581_toc/) [Fall 2021]({{ base }}/teaching/f21_581_toc/)
 *  CS 584/684 **Algorithm Design And Analysis** [Winter 2021]({{ base }}/teaching/w21_5684_alg/)
-CS 483/583 **Introduction to Quantum Computer Science** [Fall 2024]({{ base
+*  CS 483/583 **Introduction to Quantum Computer Science** [Fall 2024]({{ base
   }}/teaching/f24_4583_qc/)
   * Previous offerings under course # CS 410/510 **Introduction to Quantum Computing** [Fall 2022]({{ base
   }}/teaching/f22_4510_qc/) [Spring 2020]({{ base }}/teaching/s20_4510_qc/) [Spring 2018]({{ base }}/teaching/s18_4510_qc/) [Spring 2017]({{ base }}/teaching/s17_4510_qc/)
