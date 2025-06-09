@@ -1,9 +1,24 @@
 ---
 layout: page
 title: News
-modified: <2024-10-03 Thu>
+modified: <2025-06-09 Mon>
 ---
 ## {{ page.title }}
+* <2025-05-30 Fri> I'm happy to be awarded a 2025—2026 Faculty
+  Development Grant at Portland State University.
+*  <2025-03-05 Wed> I will serve on the program committee of IEEE
+   Quantum Week [QCE
+   2025](https://qce.quantum.ieee.org/2025/){:target="_blank"} Quantum
+   Algorithms (QALG) track to be held in Albuquerque, USA.
+*  <2025-03-11 Tue> I will serve on the program committee of [AQIS
+   2025](http://aqis-conf.org/2025/){:target="_blank"} to be
+   held in Hong Kong, China. Please submit your great papers!
+*  <2025-02-16 Sun> I will serve on the program committee of [TQC
+   2025]https://tqc-conference.org/){:target="_blank"} to be held in
+   Bengaluru, India. Please submit your excellent papers! 
+* <2024-08-12 Mon> I will serve on the program committee of [CT-RSA
+  2025](https://ct-rsa-2025.csa.iisc.ac.in/){:target="_blank"}. Please
+  submit your great papers on cryptography, theory and applied!
 *  <2024-06-24 Mon> I will serve on the program committee of [EUROCRYPT
    2025](https://eurocrypt.iacr.org/2025/){:target="_blank"}
    to be held in Madrid, Spain. Please submit your excellent papers! ¡Hala Madrid!

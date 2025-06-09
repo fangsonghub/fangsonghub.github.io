@@ -46,10 +46,8 @@ funding my research.
 {{ news.excerpt }}
   
 {% endcomment %}
-*  <2024-06-24 Mon> I will serve on the program committee of [EUROCRYPT
-   2025](https://eurocrypt.iacr.org/2025/){:target="_blank"}
-   to be held in Madrid, Spain. Please submit your excellent papers! ¡Hala Madrid!
-*  <2024-04-22 Mon> I'm hornored to receive PSU's 2024 [Early Career Research Award](https://www.pdx.edu/research/psus-2024-early-career-research-awardee-fang-song).
+* <2025-05-30 Fri> I'm happy to be awarded a 2025—2026 Faculty
+  Development Grant at Portland State University.
 
 * Read [more]({{base}}/news/) ...
 

@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt:
-modified: <2024-10-16 Wed>
+modified: <2025-06-09 Mon>
 ---
 * Table of Contents
 {:toc}
@@ -13,6 +13,7 @@ modified: <2024-10-16 Wed>
 
 *  **Quantum State Learning Implies Circuit Lower Bounds** 
     *  Authors: [Nai-Hui Chia](https://sites.google.com/view/naihuichia), [Daniel Liang](https://daniel-you-liang.github.io/), and Fang Song
+	* In _the 38th Annual Conference on Learning Theory ([COLT 2025](https://learningtheory.org/colt2025/index.html){:target="_blank"})_.
 	*  Contributed talk at the _19th Theory of Quantum Computation, Communication and Cryptography ([TQC
        2024](https://tqc-conference.org/){:target="_blank"})_.
 	* [[arXiv](https://arxiv.org/abs/2405.10242){:target="_blank"}] [Talk at TQC'24 by Daniel Liang [YouTube](https://www.youtube.com/live/kvKihUsu068?si=ml-G0c9zdNTzW2J3){:target="_blank"}]
@@ -21,13 +22,13 @@ modified: <2024-10-16 Wed>
 	*  In _the 30th International Conference on the Theory and
        Application of Cryptology and Information Security ([Asiacrypt
        2024](https://asiacrypt.iacr.org/2024/){:target="_blank"})_.
-	*  [IACR [ePrint](https://www.iacr.org/cryptodb/data/paper.php?pubkey=34670){:target="_blank"}]
+	*  [[Springer](https://link.springer.com/chapter/10.1007/978-981-96-0947-5_6){:target="_blank"})] [IACR [ePrint](https://www.iacr.org/cryptodb/data/paper.php?pubkey=34670){:target="_blank"}]
 *  **Generalized Hybrid Search and Applications** 
     *  Authors: [Alexandru Cojocaru](https://www.quantumsoftwarelab.com/qsl-board/alexandru-cojocaru), [Juan Garay](https://jagaray.com/), and Fang Song
 	*  In _the 30th International Conference on the Theory and
        Application of Cryptology and Information Security ([Asiacrypt
        2024](https://asiacrypt.iacr.org/2024/){:target="_blank"})_.
-	*  [IACR [ePrint](https://eprint.iacr.org/2023/798){:target="_blank"}]
+	*  [[Springer](https://link.springer.com/chapter/10.1007/978-981-96-0947-5_3){:target="_blank"})] [IACR [ePrint](https://eprint.iacr.org/2023/798){:target="_blank"}]
 *  **Quantum Pseudorandom Scramblers**
     *  Authors: [Chuhan Lu](https://chuhanlu.github.io/), [Minglong Qin](https://tsdjh.github.io/), Fang Song, [Penghui Yao](http://penghuiyao.info/), and [Mingnan Zhao]()
 	*  In _the 22nd Theory of Cryptography Conference ([TCC
@@ -153,6 +154,10 @@ modified: <2024-10-16 Wed>
     *   [[Springer](http://link.springer.com/chapter/10.1007/978-3-642-22792-9_23){:target="_blank"}] [Slides: [Powerpoint]({{ base }}/files/talks/QSFE_Crypto11.pptx), [PDF]({{base}}/files/talks/QSFE_Crypto11.pdf)] [[Video](http://www.iacr.org/cryptodb/data/paper.php?pubkey=23587){:target="_blank"}] [Full version: [arXiv](http://arxiv.org/abs/1507.01625){:target="_blank"} [ePrint](https://eprint.iacr.org/2015/687){:target="_blank"}]
 
 ### Manuscripts
+*  **Parallel Kac's Walk Generates PRU**
+    *  Authors: Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, and
+   Mingnan Zhao
+    *  [[arXiv:2504.14957](https://arxiv.org/abs/2504.14957)], April 2025.
 *  **Early days following Grover's quantum search algorithm** 
     * Authors: Fang Song
     * A lecture note in Spring'17 summarizing basic results related to Grover's algorithm. 
@@ -166,7 +171,6 @@ modified: <2024-10-16 Wed>
 - - - 
 
 ## Grant awards
-
 *  10/2022 - 09/2024 NSF [Award #2224131](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2224131). Collaborative Research: FET: Small. 
 *  03/2022 - 02/2023 [Sony Faculty Innovation Award](https://www.sony.com/en/SonyInfo/research-award-program/). 
 *  04/2020 - 03/2025 NSF [CAREER Award
@@ -185,8 +189,10 @@ Information about conference talks are typically under the
 publication list. Some recorded talks are collected in this [YouTube
 playlist](https://youtube.com/playlist?list=PLnxx8Tio1lOZUWz0TlsmMGCU-FyK1nHWK){:target="_blank"}. 
 
+* **Introduction to quantum pseudorandomness**, invited talk at BIRS workshop [Frontiers in Quantum
+   Cryptography: New Functionalities, Primitives, and Foundations
+   (25w5445)](https://www.birs.ca/events/2025/5-day-workshops/25w5445){:target="_blank"}, April, 2025. 
 *  Tutorial on Quantum Computing at [IPAM Graduate Summer School on Post-quantum and Quantum Cryptography](http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-post-quantum-and-quantum-cryptography/?tab=schedule), July 25 - 29, 2022. [Hand-written notes [PDF]({{base}}/files/talks/2022_ipam_qc_live.pdf){:target="_blank"}] [Videos: [Part 1](https://youtu.be/62c8Kmg0-HU){:target="_blank"} [Part 2](https://youtu.be/IJYlrjwCeeQ){:target="_blank"} [Part 3](https://youtu.be/xZukLRJ3mW8){:target="_blank"}]
-
 * **Quantum-secure key-length extension**, invited Zoom talk at the
 [EWHA-KMS International Workshop on Cryptography](https://sites.google.com/view/ewha-kms-iwc-2021/home), June 2021.
 *  **Unpredictable Functions and Quantum-secure Authentication**,
