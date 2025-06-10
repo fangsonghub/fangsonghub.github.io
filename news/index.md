@@ -18,7 +18,7 @@ modified: <2025-06-09 Mon>
    2025](http://aqis-conf.org/2025/){:target="_blank"} to be
    held in Hong Kong, China. Please submit your great papers!
 *  <2025-02-16 Sun> I will serve on the program committee of [TQC
-   2025]https://tqc-conference.org/){:target="_blank"} to be held in
+   2025](https://tqc-conference.org/){:target="_blank"} to be held in
    Bengaluru, India. Please submit your excellent papers! 
 * <2024-08-12 Mon> I will serve on the program committee of [CT-RSA
   2025](https://ct-rsa-2025.csa.iisc.ac.in/){:target="_blank"}. Please
