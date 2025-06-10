@@ -48,8 +48,8 @@ funding my research.
 {% endcomment %}
 * <2025-05-30 Fri> I'm happy to be awarded a 2025—2026 Faculty
   Development Grant at Portland State University.
-* <2025-05-03 Sat> Our paper **[Quantum State Learning Implies Circuit
-  Lower Bounds](https://arxiv.org/abs/2405.10242){:target="_blank"}**
+* <2025-05-03 Sat> Our paper [Quantum State Learning Implies Circuit
+  Lower Bounds](https://arxiv.org/abs/2405.10242){:target="_blank"}
   was accepted at
   [COLT'25](https://learningtheory.org/colt2025/){:target="_blank"}.
 
