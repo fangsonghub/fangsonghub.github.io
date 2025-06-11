@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt:
-modified: <2025-06-09 Mon>
+modified: <2025-06-11 Wed>
 ---
 * Table of Contents
 {:toc}
@@ -11,6 +11,10 @@ modified: <2025-06-09 Mon>
 
 [arXiv](http://arxiv.org/a/song_f_1){:target="_blank"} [Google Scholar](https://scholar.google.ch/citations?user=A6C3geAAAAAJ&hl=en){:target="_blank"}
 
+*  **Parallel Kac's Walk Generates PRU**
+    *  Authors: Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, and
+   Mingnan Zhao
+    *  [[arXiv:2504.14957](https://arxiv.org/abs/2504.14957)], April 2025.
 *  **Quantum State Learning Implies Circuit Lower Bounds** 
     *  Authors: [Nai-Hui Chia](https://sites.google.com/view/naihuichia), [Daniel Liang](https://daniel-you-liang.github.io/), and Fang Song
 	* In _the 38th Annual Conference on Learning Theory ([COLT 2025](https://learningtheory.org/colt2025/index.html){:target="_blank"})_.
@@ -153,11 +157,7 @@ modified: <2025-06-09 Mon>
     *   Invited to _International Journal of Quantum Information, Vol. 13, No. 4 (2015)_. [[doi](http://dx.doi.org/10.1142/S0219749915500288)]
     *   [[Springer](http://link.springer.com/chapter/10.1007/978-3-642-22792-9_23){:target="_blank"}] [Slides: [Powerpoint]({{ base }}/files/talks/QSFE_Crypto11.pptx), [PDF]({{base}}/files/talks/QSFE_Crypto11.pdf)] [[Video](http://www.iacr.org/cryptodb/data/paper.php?pubkey=23587){:target="_blank"}] [Full version: [arXiv](http://arxiv.org/abs/1507.01625){:target="_blank"} [ePrint](https://eprint.iacr.org/2015/687){:target="_blank"}]
 
-### Manuscripts
-*  **Parallel Kac's Walk Generates PRU**
-    *  Authors: Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, and
-   Mingnan Zhao
-    *  [[arXiv:2504.14957](https://arxiv.org/abs/2504.14957)], April 2025.
+### Other Manuscripts
 *  **Early days following Grover's quantum search algorithm** 
     * Authors: Fang Song
     * A lecture note in Spring'17 summarizing basic results related to Grover's algorithm. 
@@ -191,8 +191,8 @@ playlist](https://youtube.com/playlist?list=PLnxx8Tio1lOZUWz0TlsmMGCU-FyK1nHWK){
 
 * **Introduction to quantum pseudorandomness**, invited talk at BIRS workshop [Frontiers in Quantum
    Cryptography: New Functionalities, Primitives, and Foundations
-   (25w5445)](https://www.birs.ca/events/2025/5-day-workshops/25w5445){:target="_blank"}, April, 2025. 
-*  Tutorial on Quantum Computing at [IPAM Graduate Summer School on Post-quantum and Quantum Cryptography](http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-post-quantum-and-quantum-cryptography/?tab=schedule), July 25 - 29, 2022. [Hand-written notes [PDF]({{base}}/files/talks/2022_ipam_qc_live.pdf){:target="_blank"}] [Videos: [Part 1](https://youtu.be/62c8Kmg0-HU){:target="_blank"} [Part 2](https://youtu.be/IJYlrjwCeeQ){:target="_blank"} [Part 3](https://youtu.be/xZukLRJ3mW8){:target="_blank"}]
+   (25w5445)](https://www.birs.ca/events/2025/5-day-workshops/25w5445){:target="_blank"}, April, 2025. Check out the recorded [video here](https://www.birs.ca/events/2025/5-day-workshops/25w5445/videos/watch/202504230910-Song.html){:target="_blank"} at the BIRS site and the accompany and-written slides [PDF 24MB]({{base}}/files/talks/202504_birs_qpr.pdf){:target="_blank"}  (caution: the recording was set to cut off automatically and you'll need to deciper the missing part from the slides).
+*  Tutorial on Quantum Computing at [IPAM Graduate Summer School on Post-quantum and Quantum Cryptography](http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-post-quantum-and-quantum-cryptography/?tab=schedule), July 25 - 29, 2022. [Hand-written notes [PDF 10.9MB]({{base}}/files/talks/2022_ipam_qc_live.pdf){:target="_blank"}] [Videos: [Part 1](https://youtu.be/62c8Kmg0-HU){:target="_blank"} [Part 2](https://youtu.be/IJYlrjwCeeQ){:target="_blank"} [Part 3](https://youtu.be/xZukLRJ3mW8){:target="_blank"}]
 * **Quantum-secure key-length extension**, invited Zoom talk at the
 [EWHA-KMS International Workshop on Cryptography](https://sites.google.com/view/ewha-kms-iwc-2021/home), June 2021.
 *  **Unpredictable Functions and Quantum-secure Authentication**,
