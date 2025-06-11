@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Teaching
-modified: <2025-03-10 Mon>
+modified: <2025-06-11 Wed>
 ---
 ## Current 
 
@@ -20,7 +20,7 @@ modified: <2025-03-10 Mon>
 * CS 485/585 **Introduction to Cryptography** [Winter 2024]({{ base }}/teaching/w24_4585_icrypto/) [Winter 2023]({{ base }}/teaching/w23_4585_icrypto/) [Winter 2022]({{ base }}/teaching/w22_4585_icrypto/) [Winter 2018]({{ base }}/teaching/w18_4585_icrypto/) [Winter 2017]({{ base }}/teaching/w17_4585_icrypto/)
 *  CS 510/610 **Topic: probalistic graphical models** [Winter 2021]({{ base }}/teaching/w21_5610_pgm/)
 *  CS 410/510 **Topic: foundations of emerging technologies** [Fall 2021]({{ base }}/teaching/f21_4510_fet/)
-* Selected lectures at CCUT [Spring 2024]({{ base }}/teaching/s24_ccut/) 
+* Selected lectures at CCUT [Spring 2025]({{ base }}/teaching/s25_ccut/) [Spring 2024]({{ base }}/teaching/s24_ccut/) 
 
 #### Texas A&M University
 * CSCE 629 **Analysis of Algorithms** [Fall 2019]({{ base }}/teaching/f19_629_alg/)

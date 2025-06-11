@@ -1,5 +1,12 @@
 # course pages
 
+# S25 CCUT
+
+- courseid: s25 ccut
+  desc: s25 ccut
+  url: /teaching/s25_ccut/
+  nav: true
+
 # F24 QC
 - courseid: f24 483/583
   title: (Fall 2024) CS 483/583 - Intro to Quantum Computer Science
