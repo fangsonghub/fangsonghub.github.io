@@ -4,7 +4,7 @@ title: NII Shonan Meeting NO.198
 desc: Activities
 subtitle: New Directions in Provable Quantum Advantages
 permalink: /activity/shonan198/
-modified: <2023-12-15 Fri>
+modified: <2025-06-11 Wed>
 ---
 
 {% comment %}
@@ -16,13 +16,14 @@ modified: <2023-12-15 Fri>
 {:toc}
 
 ## About
-*   **When**: December 11 - 15, 2023. Check-in on December 10. 
-*   **Where**: [Shonan Village Center](https://www.shonan-village.co.jp/eng/), Kanagawa, Japan. [Directions](https://www.shonan-village.co.jp/eng/access/){:target="_blank"}. 
+*  <b style="color: red;">New!</b> <2025-06-11 Wed> Check out some [pictures]({{base}}/photos/2023_shonan/) at the workshop and the workshop report [PDF]({{base}}/activity/shonan198/shonan198.pdf){:target="_blank"}.
+*  **When**: December 11 - 15, 2023. Check-in on December 10. 
+*  **Where**: [Shonan Village Center](https://www.shonan-village.co.jp/eng/), Kanagawa, Japan. [Directions](https://www.shonan-village.co.jp/eng/access/){:target="_blank"}. 
 *   **Organizers**: 
-    * [François Le Gall](http://www.francoislegall.com/), Nagoya University, Japan
-    * [Fang Song](http://www.fangsong.info), Portland State
+   * [François Le Gall](http://www.francoislegall.com/), Nagoya University, Japan
+   * [Fang Song](http://www.fangsong.info), Portland State
       University, USA.
-    * [Penghui Yao](http://penghuiyao.info/), Nanjing University, China. 
+   * [Penghui Yao](http://penghuiyao.info/), Nanjing University, China. 
 *  **Meeting themes** The meeting is envisaged to concentrate on new
    settings and models where the capacity of quantum information
    processing provides provable advantages over classical means. There

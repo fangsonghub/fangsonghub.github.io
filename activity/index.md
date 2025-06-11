@@ -25,7 +25,7 @@ modified: <2025-06-09 Mon>
 ## Organizer
 * **[New Directions in Provable Quantum Advantages]** [NII Shonan
   Meeting]({{base}}/activity/shonan198), with François Le Gall and
-  Penghui Yao, NII, Japan. December 11 - 15, 2023.
+  Penghui Yao, NII, Japan. December 11 - 15, 2023. 
 *  **The 2nd Quantum Computation and Information** [Workshop](https://iamcs.tamu.edu/the-2nd-quantum-computation-and-information-workshop/){:target="_blank"} at Texas A&M University. May 13 - 15, 2019. 
 *  **Quantum day at Portland** [mini-symposium]({{base}}/activity/w17qpdx) at Portland State University. January 13, 2017.
 *   **Post-quantum crypto** [seminar](https://sites.google.com/site/uwaterloopqcrypto/) at University of Waterloo. April 2015 - August. 2016
