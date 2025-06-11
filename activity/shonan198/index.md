@@ -16,7 +16,7 @@ modified: <2025-06-11 Wed>
 {:toc}
 
 ## About
-*  <b style="color: red;">New!</b> <2025-06-11 Wed> Check out some [pictures]({{base}}/photos/2023_shonan/) at the workshop and the workshop report [PDF]({{base}}/activity/shonan198/shonan198.pdf){:target="_blank"}.
+*  <b style="color: red;">New!</b> <2025-06-11 Wed> Check out some [pictures]({{base}}/photos/23shonan/) at the workshop and the workshop report [PDF]({{base}}/activity/shonan198/shonan198.pdf){:target="_blank"}.
 *  **When**: December 11 - 15, 2023. Check-in on December 10. 
 *  **Where**: [Shonan Village Center](https://www.shonan-village.co.jp/eng/), Kanagawa, Japan. [Directions](https://www.shonan-village.co.jp/eng/access/){:target="_blank"}. 
 *   **Organizers**: 
