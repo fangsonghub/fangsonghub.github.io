@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Photos
-desc: Activities
+desc: misc
 permalink: /photos/
-description: ""
+description: "photo gallery"
 ---
 
 ## Photo Sets 
