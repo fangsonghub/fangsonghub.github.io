@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Activities
-modified: <2025-06-09 Mon>
+modified: <2025-06-16 Mon>
 ---
 
 ## Conference Program Committee Member
@@ -16,9 +16,10 @@ modified: <2025-06-09 Mon>
 * **PKC** (Public Key Cryptography) [2024](https://pkc.iacr.org/2024/){:target="_blank"} [2021](https://pkc.iacr.org/2021/){:target="_blank"} [2017](http://www.iacr.org/workshops/pkc2017/index.php){:target="_blank"}
 * **PQCrypto** (Post-Quantum Cryptography) [2019](http://pqcrypto2019.org/){:target="_blank"} [2018](http://www.math.fau.edu/pqcrypto2018/){:target="_blank"} [2017](https://2017.pqcrypto.org/conference/){:target="_blank"}
 * **QCE** (IEEE Quantum Week) [2025](https://qce.quantum.ieee.org/2025/){:target="_blank"}
+* **QCNC** (Security in the Quantum Age Track) [2025](https://www.ieee-qcnc.org/2025/progcom.php){:target="_blank"} 
 * **QCrypt** (Quantum Cryptography) [2025](https://qcrypt.net/2025/){:target="_blank"} [2024](https://2024.qcrypt.net/){:target="_blank"} [2023](https://2023.qcrypt.net/){:target="_blank"} [2020](https://2020.qcrypt.net/){:target="_blank"}
-* **Quantum Crypto Workshop** [2022](https://qcw2022.github.io/quantum-cryptography-workshop-2022/){:target="_blank"}, affiliated event of [Asiacrypt 2022](http://asiacrypt.iacr.org/2022/){:target="_blank"}. 
 * **QIP** (Quantum Information Processing) [2017](https://www.stationq.com/qip-2017/){:target="_blank"}
+* **Quantum Crypto Workshop** [2022](https://qcw2022.github.io/quantum-cryptography-workshop-2022/){:target="_blank"}, affiliated event of [Asiacrypt 2022](http://asiacrypt.iacr.org/2022/){:target="_blank"}. 
 * **SAC** (Selected Areas in Cryptography) [2019](https://uwaterloo.ca/selected-areas-in-cryptography/){:target="_blank"}
 * **TQC** (Theory of Quantum Computation, Communication and Cryptography) [2025](https://tqc-conference.org/){:target="_blank"} [2024](https://tqc-conference.org/call-for-submissions/){:target="_blank"} [2018](https://www.tqc2018.org/){:target="_blank"}
 
