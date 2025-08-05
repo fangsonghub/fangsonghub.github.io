@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt:
-modified: <2025-06-11 Wed>
+modified: <2025-08-05 Tue>
 ---
 * Table of Contents
 {:toc}
@@ -121,7 +121,7 @@ modified: <2025-06-11 Wed>
         audience)
         ]
 	* [Journal version: [SICOMP](https://doi.org/10.1137/18M1193530)]
-      _SIAM J. Comput., 49(2), 245–283, 2020_.
+      _SIAM J. Computing, 49(2), 245–283, 2020_.
 *   **Mitigating multi-target attacks in hash-based signatures**
     *   Authors: [Andreas Hülsing](https://huelsing.net/wordpress/), Joost Rijneveld, and Fang Song
     *   In _19th International Conference on the Theory and Practice of Public-Key Cryptography ([PKC 2016](http://troll.iis.sinica.edu.tw/pkc16/index.shtml))_.
@@ -129,7 +129,7 @@ modified: <2025-06-11 Wed>
 *   **Efficient quantum algorithms for computing class groups and solving the principal ideal problem in arbitrary degree number fields**
     *   Authors: [Jean-François Biasse](http://biasse.myweb.usf.edu/) and Fang Song
     *   In _27th ACM-SIAM Symposium on Discrete Algorithms ([SODA 2016](http://www.siam.org/meetings/da16/))_.
-    *   To be presented at _20th Annual Conference on Quantum Information Processing ([QIP 2017](https://www.stationq.com/qip-2017/))_.
+    *   Contributed talk at the _20th Annual Conference on Quantum Information Processing ([QIP 2017](https://www.stationq.com/qip-2017/))_.
     *   [Proceedings Version: [Official](http://dx.doi.org/10.1137/1.9781611974331.ch64), [PDF]({{base}}/files/pubs/BS_SODA16.pdf)] [Slides: [PDF]({{base}}/files/talks/sunits_soda16.pdf)]
 *   **Making Existential-Unforgeable Signatures Strongly Unforgeable in the Quantum Random-Oracle Model**
     *   Authors: Edward Eaton and Fang Song

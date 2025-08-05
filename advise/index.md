@@ -2,7 +2,7 @@
 layout: page
 title: Advising
 excerpt: Advising and mentoring
-modified: <2024-11-12 Tue>
+modified: <2025-08-05 Tue>
 ---
 
 {% comment %}
@@ -12,7 +12,7 @@ modified: <2024-11-12 Tue>
 
 
 ### Postdoc
-*  2023.08 - . [Daniel Liang](https://daniel-you-liang.github.io/){:target="_blank"} @ Portland State U, jointly with Dr. Nai-Hui Chia @ Rice University. 
+*  2023.08 - 2025.07. [Daniel Liang](https://daniel-you-liang.github.io/){:target="_blank"} @ Portland State U, jointly with Dr. Nai-Hui Chia @ Rice University. (&rarr;Research staff @ [MIT Lincoln Lab](https://www.ll.mit.edu/))
 
 ### Ph.D. 
 
@@ -23,8 +23,8 @@ you are interested in TCS and/or working with me.
 
 *  2021.09 - . [Nikhil Pappu](http://nikhilpappu.info/){:target="_blank"} @ Portland State U. 
 *  2021.09 - . [Mehil Agarwal](https://mehil.info/){:target="_blank"} @ Portland State U. 
-*  2020.06 - . [Chuhan Lu](https://chuhanlu.github.io/){:target="_blank"} @ Portland State U (2019.09 - 2020.05 @ Texas A&M U).
-*  2020.09 - 2024.10. [Ben Hamlin](https://galois.com/team/ben-hamlin/){:target="_blank"} @ Portland State U (&rarr;Researcher and Engineer at [Galois](https://galois.com/), Portland.).
+*  2020.06 - 2025.07. [Chuhan Lu](https://chuhanlu.github.io/){:target="_blank"} @ Portland State U. (&rarr;Postdoc @ Rice University).
+*  2020.09 - 2024.10. [Ben Hamlin](https://galois.com/team/ben-hamlin/){:target="_blank"} @ Portland State U. (&rarr;Researcher and Engineer at [Galois](https://galois.com/), Portland)
 
 {% comment %}
 *  2019.09 - 2020.05. [Mufeng Xie](){:target="_blank"} @ Texas A&M U.
@@ -35,6 +35,7 @@ you are interested in TCS and/or working with me.
 {% endcomment %}
 
 ### Undergraduate 
+* 2023.07 - 2023.09. Shraya Ramamoorthy. [MCECS URMP](https://www.pdx.edu/engineering/past-urmp-video-presentations) research student, Portland State University.
 * 2022.06 - 2022.09. Felina Kang. NSF REU student (under NSF Award #2042414),  Portland State University.
 * 2022.06 - 2022.09. Grant VanDomelen. NSF REU student (under NSF Award #2042414),
   Portland State University.
