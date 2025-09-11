@@ -1,9 +1,10 @@
 ---
 layout: page
 title: News
-modified: <2025-06-09 Mon>
+modified: <2025-09-10>
 ---
 ## {{ page.title }}
+* <2025-07-> [Chuhan Lu]() successfully defended her Ph.D. dissertation. Congrats Dr. Lu! Thanks all committee members: [](){:target="_blank"}
 * <2025-05-30 Fri> I'm happy to be awarded a 2025—2026 Faculty
   Development Grant at Portland State University.
 * <2025-05-03 Sat> Our paper [Quantum State Learning Implies Circuit

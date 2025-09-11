@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt:
-modified: <2025-08-05 Tue>
+modified: <2025-09-10>
 ---
 * Table of Contents
 {:toc}
@@ -11,10 +11,15 @@ modified: <2025-08-05 Tue>
 
 [arXiv](http://arxiv.org/a/song_f_1){:target="_blank"} [Google Scholar](https://scholar.google.ch/citations?user=A6C3geAAAAAJ&hl=en){:target="_blank"}
 
+*  **NISQ Security and Complexity via Simple Classical Reasoning** 
+    *  Authors: [Alexandru Cojocaru](https://www.quantumsoftwarelab.com/qsl-board/alexandru-cojocaru), [Juan Garay](https://jagaray.com/), [Qipeng Liu](https://sites.google.com/view/qipengliu/home?authuser=0), and Fang Song
+	*  To appear in _the 23rd Theory of Cryptography Conference ([TCC
+       2025](https://tcc.iacr.org/2025/){:target="_blank"})_.
+    * [[arXiv](){:target="_blank"}] 
 *  **Parallel Kac's Walk Generates PRU**
     *  Authors: Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, and
    Mingnan Zhao
-    *  [[arXiv:2504.14957](https://arxiv.org/abs/2504.14957)], April 2025.
+    *  [[arXiv](https://arxiv.org/abs/2504.14957)], April 2025.
 *  **Quantum State Learning Implies Circuit Lower Bounds** 
     *  Authors: [Nai-Hui Chia](https://sites.google.com/view/naihuichia), [Daniel Liang](https://daniel-you-liang.github.io/), and Fang Song
 	* In _the 38th Annual Conference on Learning Theory ([COLT 2025](https://learningtheory.org/colt2025/index.html){:target="_blank"})_.
@@ -26,13 +31,13 @@ modified: <2025-08-05 Tue>
 	*  In _the 30th International Conference on the Theory and
        Application of Cryptology and Information Security ([Asiacrypt
        2024](https://asiacrypt.iacr.org/2024/){:target="_blank"})_.
-	*  [[Springer](https://link.springer.com/chapter/10.1007/978-981-96-0947-5_6){:target="_blank"})] [IACR [ePrint](https://www.iacr.org/cryptodb/data/paper.php?pubkey=34670){:target="_blank"}]
+	*  [[Springer](https://link.springer.com/chapter/10.1007/978-981-96-0947-5_6){:target="_blank"}] [IACR [ePrint](https://www.iacr.org/cryptodb/data/paper.php?pubkey=34670){:target="_blank"}]
 *  **Generalized Hybrid Search and Applications** 
     *  Authors: [Alexandru Cojocaru](https://www.quantumsoftwarelab.com/qsl-board/alexandru-cojocaru), [Juan Garay](https://jagaray.com/), and Fang Song
 	*  In _the 30th International Conference on the Theory and
        Application of Cryptology and Information Security ([Asiacrypt
        2024](https://asiacrypt.iacr.org/2024/){:target="_blank"})_.
-	*  [[Springer](https://link.springer.com/chapter/10.1007/978-981-96-0947-5_3){:target="_blank"})] [IACR [ePrint](https://eprint.iacr.org/2023/798){:target="_blank"}]
+	*  [[Springer](https://link.springer.com/chapter/10.1007/978-981-96-0947-5_3){:target="_blank"}] [IACR [ePrint](https://eprint.iacr.org/2023/798){:target="_blank"}]
 *  **Quantum Pseudorandom Scramblers**
     *  Authors: [Chuhan Lu](https://chuhanlu.github.io/), [Minglong Qin](https://tsdjh.github.io/), Fang Song, [Penghui Yao](http://penghuiyao.info/), and [Mingnan Zhao]()
 	*  In _the 22nd Theory of Cryptography Conference ([TCC
@@ -40,12 +45,12 @@ modified: <2025-08-05 Tue>
     *  Contributed talk at the _27th Conference on Quantum Information
        Processing ([QIP
        2024](https://qip2024.tw/){:target="_blank"})_.
-	* [[arXiv:2309.08941](https://arxiv.org/abs/2309.08941){:target="_blank"}] [IACR [ePrint](https://eprint.iacr.org/2024/1470){:target="_blank"}]
+	* [[arXiv](https://arxiv.org/abs/2309.08941){:target="_blank"}] [IACR [ePrint](https://eprint.iacr.org/2024/1470){:target="_blank"}]
 *  **A Cryptographic Perspective on the Verifiability of Quantum Advantage** 
     *  Authors: [Nai-Hui Chia](https://sites.google.com/view/naihuichia), [Honghao Fu](https://www.concordia.ca/faculty/honghao-fu.html), Fang Song, and [Penghui Yao](http://penghuiyao.info)
 	*  Contributed talk at the _24th Asian Quantum Information Science Conference ([AQIS
        2024](http://aqis-conf.org/2024/){:target="_blank"})_.
-	* [[arXiv:2310:14464](https://arxiv.org/abs/2310.14464){:target="_blank"}] 
+	* [[arXiv](https://arxiv.org/abs/2310.14464){:target="_blank"}] 
 * **Quantum Multi-Solution Bernoulli Search with Applications to Bitcoin's Post-Quantum Security**
     *  Authors: [Alexandru Cojocaru](https://www.quantumsoftwarelab.com/qsl-board/alexandru-cojocaru), [Juan Garay](https://jagaray.com/), [Aggelos Kiayias](https://kiayias.com/Aggelos_Kiayias/Home_of_Aggelos_Kiayias.html), Fang Song, and [Petros Wallden](http://www.pwallden.gr/)
     *  In _Quantum_, [volume 7,
@@ -125,23 +130,23 @@ modified: <2025-08-05 Tue>
 *   **Mitigating multi-target attacks in hash-based signatures**
     *   Authors: [Andreas Hülsing](https://huelsing.net/wordpress/), Joost Rijneveld, and Fang Song
     *   In _19th International Conference on the Theory and Practice of Public-Key Cryptography ([PKC 2016](http://troll.iis.sinica.edu.tw/pkc16/index.shtml))_.
-    *   [Proceedings version: [Official](http://link.springer.com/chapter/10.1007%2F978-3-662-49384-7_15)] [Preliminary full version: [ePrint](http://ia.cr/2015/1256)]
+    *   [Proceedings version: [Springer](http://link.springer.com/chapter/10.1007%2F978-3-662-49384-7_15)] [Preliminary full version: [ePrint](http://ia.cr/2015/1256)]
 *   **Efficient quantum algorithms for computing class groups and solving the principal ideal problem in arbitrary degree number fields**
     *   Authors: [Jean-François Biasse](http://biasse.myweb.usf.edu/) and Fang Song
     *   In _27th ACM-SIAM Symposium on Discrete Algorithms ([SODA 2016](http://www.siam.org/meetings/da16/))_.
     *   Contributed talk at the _20th Annual Conference on Quantum Information Processing ([QIP 2017](https://www.stationq.com/qip-2017/))_.
-    *   [Proceedings Version: [Official](http://dx.doi.org/10.1137/1.9781611974331.ch64), [PDF]({{base}}/files/pubs/BS_SODA16.pdf)] [Slides: [PDF]({{base}}/files/talks/sunits_soda16.pdf)]
+    *   [Proceedings Version: [SIAM](http://dx.doi.org/10.1137/1.9781611974331.ch64), [PDF]({{base}}/files/pubs/BS_SODA16.pdf)] [Slides: [PDF]({{base}}/files/talks/sunits_soda16.pdf)]
 *   **Making Existential-Unforgeable Signatures Strongly Unforgeable in the Quantum Random-Oracle Model**
     *   Authors: Edward Eaton and Fang Song
     *   In _10th Conference on the Theory of Quantum Computation, Communication and Cryptography ([TQC 2015](http://tqc2015.ulb.ac.be))_.
-    *   [[Official](http://dblp.org/rec/html/conf/tqc/EatonS15)] [[arXiv](http://arxiv.org/abs/1509.02944)] [[ePrint](http://eprint.iacr.org/2015/878)]
+    *   [[LIPIcs](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.TQC.2015.147)] [[arXiv](http://arxiv.org/abs/1509.02944)] [[ePrint](http://eprint.iacr.org/2015/878)]
 *   **A Note on Quantum Security for Post-Quantum Cryptography**
     *   Author: Fang Song
-    *   In _6th International Conference on Post-Quantum Cryptography ([PQCrypto 2014](http://pqcrypto2014.uwaterloo.ca/))_. [Proceedings Version: [Official](http://link.springer.com/chapter/10.1007/978-3-319-11659-4_15)] [Slides: [Powerpoint]({{base}}/files/talks/qfred_pqc14.pptx)<a>,</a> [PDF]({{base}}/files/talks/qfred_pqc14.pdf)] [[Video](https://www.youtube.com/watch?v=kYUgmZsSKd0&feature=youtu.be)]
+    *   In _6th International Conference on Post-Quantum Cryptography ([PQCrypto 2014](http://pqcrypto2014.uwaterloo.ca/))_. [Proceedings Version: [Springer](http://link.springer.com/chapter/10.1007/978-3-319-11659-4_15)] [Slides: [Powerpoint]({{base}}/files/talks/qfred_pqc14.pptx)<a>,</a> [PDF]({{base}}/files/talks/qfred_pqc14.pdf)] [[Video](https://www.youtube.com/watch?v=kYUgmZsSKd0&feature=youtu.be)]
     *   [[arXiv](http://arxiv.org/abs/1409.2187)] [[ePrint](http://eprint.iacr.org/2014/709)]
 *   **A Quantum Algorithm for Computing the Unit Group of an Arbitrary Degree Number Field**
     *   Authors: [Kirsten Eisenträger](http://www.personal.psu.edu/kxe8/), [Sean Hallgren](http://www.cse.psu.edu/~hallgren), [Alexei Kitaev](http://www.cms.caltech.edu/people/3083/profile) and Fang Song
-    *   In _[STOC 2014](http://www.columbia.edu/~cs2035/stoc/stoc2014/)_. [Proceedings Version: [Official](http://dl.acm.org/citation.cfm?id=2591860), [PDF]({{base}}/files/pubs/EHKS_STOC14.pdf)]
+    *   In _[STOC 2014](http://www.columbia.edu/~cs2035/stoc/stoc2014/)_. [Proceedings Version: [ACM](http://dl.acm.org/citation.cfm?id=2591860), [PDF]({{base}}/files/pubs/EHKS_STOC14.pdf)]
     *   Plenary talk at [_QIP 2015_](http://www.quantum-lab.org/qip2015/Program.php). [[Video](https://www.youtube.com/watch?v=WiH1SKJvsrU)] [Slides: [PDF]({{base}}/files/talks/units_qip15.pdf)]
     *   Full version: [<a href="">PDF</a>] [<a href="">arXiv</a>]
 *   **Feasibility and Completeness of Cryptographic Tasks in the Quantum World**
@@ -149,7 +154,7 @@ modified: <2025-08-05 Tue>
     *   In _10th Theory of Cryptography Conference ([TCC 2013](http://www.iacr.org/workshops/tcc2013/))_.
     *   Workshop Track at [_ICITS 2012_](http://icits2012.iro.umontreal.ca/), Poster ([PDF]({{base}}/files/talks/2pc_comlexity_poster_stoc12_48.pdf
         			)) at [_STOC 2012_](http://cs.nyu.edu/~stoc2012/default.htm)
-    *   [Proceedings version: [Official](http://link.springer.com/chapter/10.1007/978-3-642-36594-2_16), [ePrint](https://eprint.iacr.org/2015/385.pdf)] [Preliminary full version: [PDF]({{ base }}/files/pubs/FKSZZ13_long_draft.pdf){:target="_blank"}] 
+    *   [Proceedings version: [Springer](http://link.springer.com/chapter/10.1007/978-3-642-36594-2_16), [ePrint](https://eprint.iacr.org/2015/385.pdf)] [Preliminary full version: [PDF]({{ base }}/files/pubs/FKSZZ13_long_draft.pdf){:target="_blank"}] 
 *   **Classical Cryptographic Protocols in a Quantum World**
     *   Authors: [Sean Hallgren](http://www.cse.psu.edu/~hallgren), [Adam Smith](http://www.cse.psu.edu/~asmith) and Fang Song
     *   Featured talk at [_QIP 2011_](http://qip2011.quantumlah.org/scientificprogramme/)
