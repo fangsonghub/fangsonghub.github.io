@@ -9,7 +9,8 @@ modified: <2025-09-10>
 {% endcomment %}
 
 *  CS 581 **Theory of computation** [Fall 2025]({{ base }}/teaching/f25_581_toc/)
-* CS 485/585 **Introduction to Cryptography** [Fall 2025]({{ base }}/teaching/f25_4585_icrypto/)
+*  CS 485/585 **Introduction to Cryptography** [Fall 2025]({{ base }}/teaching/f25_4585_icrypto/)
+
 - - -
 ## Past courses
 
