@@ -9,7 +9,7 @@ modified: <2025-09-10>
 
 ## Publications
 
-[arXiv](http://arxiv.org/a/song_f_1){:target="_blank"} [Google Scholar](https://scholar.google.ch/citations?user=A6C3geAAAAAJ&hl=en){:target="_blank"}
+[arXiv](http://arxiv.org/a/song_f_1){:target="_blank"} [Google Scholar](https://scholar.google.ch/citations?user=A6C3geAAAAAJ&hl=en){:target="_blank"} [ORCiD](https://orcid.org/0000-0002-3098-6451){:target="_blank"}
 
 *  **NISQ Security and Complexity via Simple Classical Reasoning** 
     *  Authors: [Alexandru Cojocaru](https://www.quantumsoftwarelab.com/qsl-board/alexandru-cojocaru), [Juan Garay](https://jagaray.com/), [Qipeng Liu](https://sites.google.com/view/qipengliu/home?authuser=0), and Fang Song
