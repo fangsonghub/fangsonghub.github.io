@@ -46,12 +46,10 @@ funding my research.
 {{ news.excerpt }}
   
 {% endcomment %}
-* <2025-05-30 Fri> I'm happy to be awarded a 2025—2026 Faculty
+* <2025-07-15> [Chuhan Lu](https://chuhanlu.github.io/) successfully defended her Ph.D. dissertation. Congrats Dr. Lu! Big thanks to the great committee: Drs. Ameeta Agrawal(https://web.cecs.pdx.edu/~ameeta/){:target="_blank"}, Shravas Rao(https://web.cecs.pdx.edu/~shravas/){:target="_blank"}, [Penghui Yao](http://penghuiyao.info/){:target="_blank"} and [Henry Yuen](https://www.henryyuen.net/){:target="_blank"}
+
+* <2025-05-30> I'm happy to be awarded a 2025—2026 Faculty
   Development Grant at Portland State University.
-* <2025-05-03 Sat> Our paper [Quantum State Learning Implies Circuit
-  Lower Bounds](https://arxiv.org/abs/2405.10242){:target="_blank"}
-  was accepted at
-  [COLT'25](https://learningtheory.org/colt2025/){:target="_blank"}.
 
 * Read [more]({{base}}/news/) ...
 

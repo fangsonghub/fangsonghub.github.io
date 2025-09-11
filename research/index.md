@@ -17,15 +17,14 @@ modified: <2025-09-10>
        2025](https://tcc.iacr.org/2025/){:target="_blank"})_.
     * [[arXiv](){:target="_blank"}] 
 *  **Parallel Kac's Walk Generates PRU**
-    *  Authors: Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, and
-   Mingnan Zhao
+    *  Authors: [Chuhan Lu](https://chuhanlu.github.io/), [Minglong Qin](https://tsdjh.github.io/), Fang Song, [Penghui Yao](http://penghuiyao.info/), and [Mingnan Zhao]()
     *  [[arXiv](https://arxiv.org/abs/2504.14957)], April 2025.
 *  **Quantum State Learning Implies Circuit Lower Bounds** 
     *  Authors: [Nai-Hui Chia](https://sites.google.com/view/naihuichia), [Daniel Liang](https://daniel-you-liang.github.io/), and Fang Song
 	* In _the 38th Annual Conference on Learning Theory ([COLT 2025](https://learningtheory.org/colt2025/index.html){:target="_blank"})_.
 	*  Contributed talk at the _19th Theory of Quantum Computation, Communication and Cryptography ([TQC
        2024](https://tqc-conference.org/){:target="_blank"})_.
-	* [[arXiv](https://arxiv.org/abs/2405.10242){:target="_blank"}] [Talk at TQC'24 by Daniel Liang [YouTube](https://www.youtube.com/live/kvKihUsu068?si=ml-G0c9zdNTzW2J3){:target="_blank"}]
+	* [[PLMR](https://proceedings.mlr.press/v291/chia25a.html){:target="_blank"}] [[arXiv](https://arxiv.org/abs/2405.10242){:target="_blank"}] [Talk at TQC'24 by Daniel Liang [YouTube](https://www.youtube.com/live/kvKihUsu068?si=ml-G0c9zdNTzW2J3){:target="_blank"}]
 *  **Improved Quantum Lifting by Coherent Measure-and-Reprogram** 
     *  Authors: [Alexandru Cojocaru](https://www.quantumsoftwarelab.com/qsl-board/alexandru-cojocaru), [Juan Garay](https://jagaray.com/), [Qipeng Liu](https://sites.google.com/view/qipengliu/home?authuser=0), and Fang Song
 	*  In _the 30th International Conference on the Theory and

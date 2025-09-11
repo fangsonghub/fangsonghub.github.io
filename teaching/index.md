@@ -1,13 +1,15 @@
 ---
 layout: page
 title: Teaching
-modified: <2025-06-11 Wed>
+modified: <2025-09-10>
 ---
 ## Current 
 
 {% comment %}
 {% endcomment %}
 
+*  CS 581 **Theory of computation** [Fall 2025]({{ base }}/teaching/f25_581_toc/)
+* CS 485/585 **Introduction to Cryptography** [Fall 2025]({{ base }}/teaching/f25_4585_icrypto/)
 - - -
 ## Past courses
 
