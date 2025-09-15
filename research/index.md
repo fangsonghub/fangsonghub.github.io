@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt:
-modified: <2025-09-10>
+modified: <2025-09-15>
 ---
 * Table of Contents
 {:toc}
@@ -15,7 +15,7 @@ modified: <2025-09-10>
     *  Authors: [Alexandru Cojocaru](https://www.quantumsoftwarelab.com/qsl-board/alexandru-cojocaru), [Juan Garay](https://jagaray.com/), [Qipeng Liu](https://sites.google.com/view/qipengliu/home?authuser=0), and Fang Song
 	*  To appear in _the 23rd Theory of Cryptography Conference ([TCC
        2025](https://tcc.iacr.org/2025/){:target="_blank"})_.
-    * [[arXiv](){:target="_blank"}] 
+    * [[arXiv](https://arxiv.org/abs/2509.09900){:target="_blank"}] 
 *  **Parallel Kac's Walk Generates PRU**
     *  Authors: [Chuhan Lu](https://chuhanlu.github.io/), [Minglong Qin](https://tsdjh.github.io/), Fang Song, [Penghui Yao](http://penghuiyao.info/), and [Mingnan Zhao]()
     *  [[arXiv](https://arxiv.org/abs/2504.14957)], April 2025.
@@ -30,7 +30,7 @@ modified: <2025-09-10>
 	*  In _the 30th International Conference on the Theory and
        Application of Cryptology and Information Security ([Asiacrypt
        2024](https://asiacrypt.iacr.org/2024/){:target="_blank"})_.
-	*  [[Springer](https://link.springer.com/chapter/10.1007/978-981-96-0947-5_6){:target="_blank"}] [IACR [ePrint](https://www.iacr.org/cryptodb/data/paper.php?pubkey=34670){:target="_blank"}]
+	*  [[Springer](https://link.springer.com/chapter/10.1007/978-981-96-0947-5_6){:target="_blank"}] [[arXiv](https://arxiv.org/abs/2509.09896){:target="_blank"}]
 *  **Generalized Hybrid Search and Applications** 
     *  Authors: [Alexandru Cojocaru](https://www.quantumsoftwarelab.com/qsl-board/alexandru-cojocaru), [Juan Garay](https://jagaray.com/), and Fang Song
 	*  In _the 30th International Conference on the Theory and
