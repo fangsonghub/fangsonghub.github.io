@@ -4,16 +4,18 @@ title: (Fall 2025) CS 485/585 - Intro to Cryptography
 courseid: f25 485/585
 desc: f25 485/585
 permalink: /teaching/f25_4585_icrypto/
-modified: <2025-09-10> 
+modified: <2025-09-29> 
 ---
 
 ## About
-*  **Syllabus**: [PDF]({{base}}/teaching/w24_4585_icrypto/w24_4585_icrypto_syllabus.pdf){:target="_blank"}.
+*  Course on [Canvas](https://canvas.pdx.edu/courses/106771){:target="_blank"}.
+*  **Syllabus**: [PDF]({{base}}/teaching/w25_4585_icrypto/w25_4585_icrypto_syllabus.pdf){:target="_blank"}.
 *  **Instructor**: [Fang Song]({{base}}/) 
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
-   with "f25-581". Slack is preferred. 
-*  **Lectures**: M/W 13:30 - 15:10 @ xxx.
-*  **Office hours**: xxx @ FAB 120-25 and by appointment. 
+   with "f25-4585". Slack is preferred. 
+*  **Lectures**: M/W 13:30 - 15:10 @ FAB 10.
+*  **Office hours**: W 09:45- 10:45 @ FAB 120-25 and by appointment. 
+*  **TA**: Mehil Agarwal (mehil@pdx.edu). Office hours: TBD.
 *  **Overview**: Cryptography is usually described as the _art_ of
 secret writing. _Modern_ cryptography has transformed cryptography
 into a mathematically rigorous subject. This course will explore the

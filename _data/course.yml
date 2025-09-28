@@ -12,7 +12,7 @@
 - courseid: f25 581
   title: CS 581
   desc: Schedule
-  nav: true
+  nav: false
   url: /teaching/f25_581_toc/schedule/
 
 - courseid: f25 581
@@ -32,7 +32,7 @@
 - courseid: f25 485/585
   title: (Fall 2025) CS 485/585 
   desc: Schedule
-  nav: true
+  nav: false
   url: /teaching/f25_4585_icrypto/schedule/
 
 - courseid: f25 485/585
