@@ -9,7 +9,7 @@ modified: <2025-09-29>
 
 ## About
 *  Course on [Canvas](https://canvas.pdx.edu/courses/106771){:target="_blank"}.
-*  **Syllabus**: [PDF]({{base}}/teaching/w25_4585_icrypto/w25_4585_icrypto_syllabus.pdf){:target="_blank"}.
+*  **Syllabus**: [PDF]({{base}}/teaching/f25_4585_icrypto/f25_4585_icrypto_syllabus.pdf){:target="_blank"}.
 *  **Instructor**: [Fang Song]({{base}}/) 
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
    with "f25-4585". Slack is preferred. 
