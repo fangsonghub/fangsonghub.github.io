@@ -71,7 +71,8 @@ the work.
   pseudorandom functions/permutations. Check out the massive amount of
   further developments recently.
 * (_foundation,quantum_) [CCC+25](https://arxiv.org/abs/2510.07859) What does quantum cryptography need? This work gives a meta-complexity characterization. 
-* (_foundation,cryptanalysis_) [Ran25](https://eprint.iacr.org/2024/1193). Breaking the exponential barrier of a famous public-key encryption scheme McEliece. Best paper at Eurocrypt'25.* (_foundation,cryptanalysis_) [HSMP25](https://eprint.iacr.org/2024/1211). Side channel attack on LWE-based cryptosystems.
+* (_foundation,cryptanalysis_) [Ran25](https://eprint.iacr.org/2024/1193). Breaking the exponential barrier of a famous public-key encryption scheme McEliece. Best paper at Eurocrypt'25 
+* (_foundation,cryptanalysis_) [HSMP25](https://eprint.iacr.org/2024/1211). Side channel attack on LWE-based cryptosystems.
 * (_real-world,foundation_) A lightweight authenticated encryption
   scheme [Ascon](https://ascon.iaik.tugraz.at/) standardized by
   [NIST](https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8454.pdf).
