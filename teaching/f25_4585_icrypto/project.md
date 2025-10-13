@@ -31,7 +31,6 @@ open problems.
  cryptography? Are there ethical issues concerning the technology and
  the workforce development?
 
-## Instructions
 ### Milestones
 
 *  **Literature review and proposal**: 1-2 pages consisting of 1) the
