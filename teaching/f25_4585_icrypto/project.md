@@ -2,9 +2,9 @@
 layout: course
 title: (Fall 2025) CS 485/585 - Intro to Cryptography
 courseid: f25 485/585
-subtitle: Resources
-desc: Resource
-permalink: /teaching/f25_4585_icrypto/resource/
+subtitle: Project
+desc: Project
+permalink: /teaching/f25_4585_icrypto/project/
 modified: <2025-10-13> 
 ---
 

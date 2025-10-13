@@ -15,6 +15,8 @@ modified: <2025-09-15>
     *  Authors: [Alexandru Cojocaru](https://www.quantumsoftwarelab.com/qsl-board/alexandru-cojocaru), [Juan Garay](https://jagaray.com/), [Qipeng Liu](https://sites.google.com/view/qipengliu/home?authuser=0), and Fang Song
 	*  To appear in _the 23rd Theory of Cryptography Conference ([TCC
        2025](https://tcc.iacr.org/2025/){:target="_blank"})_.
+	*. Contributed talk at the _15th International Conference on
+       Quantum Cryptography ([QCrypt 2025](https://qcrypt.net/2025/){:target="_blank"})_.
     * [[arXiv](https://arxiv.org/abs/2509.09900){:target="_blank"}] 
 *  **Parallel Kac's Walk Generates PRU**
     *  Authors: [Chuhan Lu](https://chuhanlu.github.io/), [Minglong Qin](https://tsdjh.github.io/), Fang Song, [Penghui Yao](http://penghuiyao.info/), and [Mingnan Zhao]()
