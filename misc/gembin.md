@@ -23,7 +23,7 @@ science_. My favorites are tagged by :shell:.
    Stacey Jeffery, Christian Majenz, Christian Schaffner, Florian
    Speelman, Ronald de Wolf.
 *  A Guide for **New Referees** in Theoretical Computer Science
-[PDF](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.195.3886&rep=rep1&type=pdf)
+[PDF](https://dl.acm.org/doi/10.1145/74074.74090)
 by Ian Parberry.
 *  A guide for [session chairs](https://emeryblogger.com/2016/06/08/a-guide-for-session-chairs/) by Emery Berger. 
 *  Running a [programm committee meeting](https://homes.cs.washington.edu/~mernst/advice/pc-meeting.html) by [Michael Ernst](https://homes.cs.washington.edu/~mernst/).

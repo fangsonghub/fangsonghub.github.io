@@ -2,7 +2,7 @@
 layout: page
 title: Research
 excerpt:
-modified: <2025-09-15>
+modified: <2025-10-30>
 ---
 * Table of Contents
 {:toc}
@@ -11,9 +11,15 @@ modified: <2025-09-15>
 
 [arXiv](http://arxiv.org/a/song_f_1){:target="_blank"} [Google Scholar](https://scholar.google.ch/citations?user=A6C3geAAAAAJ&hl=en){:target="_blank"} [ORCiD](https://orcid.org/0000-0002-3098-6451){:target="_blank"}
 
+*  **A Cryptographic Perspective on the Verifiability of Quantum Advantage** 
+    *  Authors: [Nai-Hui Chia](https://sites.google.com/view/naihuichia), [Honghao Fu](https://www.concordia.ca/faculty/honghao-fu.html), Fang Song, and [Penghui Yao](http://penghuiyao.info)
+	*  In _ACM Transactions on Quantum Computing_, 2025. 
+	*  Contributed talk at the _24th Asian Quantum Information Science Conference ([AQIS
+       2024](http://aqis-conf.org/2024/){:target="_blank"})_.
+	* [[ACM](https://doi.org/10.1145/3773903)] [[arXiv](https://arxiv.org/abs/2310.14464){:target="_blank"}] 
 *  **NISQ Security and Complexity via Simple Classical Reasoning** 
     *  Authors: [Alexandru Cojocaru](https://www.quantumsoftwarelab.com/qsl-board/alexandru-cojocaru), [Juan Garay](https://jagaray.com/), [Qipeng Liu](https://sites.google.com/view/qipengliu/home?authuser=0), and Fang Song
-	*  To appear in _the 23rd Theory of Cryptography Conference ([TCC
+	*  In _the 23rd Theory of Cryptography Conference ([TCC
        2025](https://tcc.iacr.org/2025/){:target="_blank"})_.
 	*. Contributed talk at the _15th International Conference on
        Quantum Cryptography ([QCrypt 2025](https://qcrypt.net/2025/){:target="_blank"})_.
@@ -47,11 +53,6 @@ modified: <2025-09-15>
        Processing ([QIP
        2024](https://qip2024.tw/){:target="_blank"})_.
 	* [[arXiv](https://arxiv.org/abs/2309.08941){:target="_blank"}] [IACR [ePrint](https://eprint.iacr.org/2024/1470){:target="_blank"}]
-*  **A Cryptographic Perspective on the Verifiability of Quantum Advantage** 
-    *  Authors: [Nai-Hui Chia](https://sites.google.com/view/naihuichia), [Honghao Fu](https://www.concordia.ca/faculty/honghao-fu.html), Fang Song, and [Penghui Yao](http://penghuiyao.info)
-	*  Contributed talk at the _24th Asian Quantum Information Science Conference ([AQIS
-       2024](http://aqis-conf.org/2024/){:target="_blank"})_.
-	* [[arXiv](https://arxiv.org/abs/2310.14464){:target="_blank"}] 
 * **Quantum Multi-Solution Bernoulli Search with Applications to Bitcoin's Post-Quantum Security**
     *  Authors: [Alexandru Cojocaru](https://www.quantumsoftwarelab.com/qsl-board/alexandru-cojocaru), [Juan Garay](https://jagaray.com/), [Aggelos Kiayias](https://kiayias.com/Aggelos_Kiayias/Home_of_Aggelos_Kiayias.html), Fang Song, and [Petros Wallden](http://www.pwallden.gr/)
     *  In _Quantum_, [volume 7,
