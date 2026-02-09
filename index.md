@@ -46,9 +46,9 @@ funding my research.
 {{ news.excerpt }}
   
 {% endcomment %}
-* <2025-07-15> [Chuhan Lu](https://chuhanlu.github.io/) successfully defended her Ph.D. dissertation. Congrats Dr. Lu! Big thanks to the great committee: Drs. [Ameeta Agrawal](https://web.cecs.pdx.edu/~ameeta/){:target="_blank"}, [Shravas Rao](https://web.cecs.pdx.edu/~shravas/){:target="_blank"}, [Penghui Yao](http://penghuiyao.info/){:target="_blank"} and [Henry Yuen](https://www.henryyuen.net/){:target="_blank"}
-* <2025-05-30> I'm happy to be awarded a 2025—2026 Faculty
-  Development Grant at Portland State University.
+
+* <2025-12-05> Happy to serve on the program committee of 
+[SCN'26](https://scn.unisa.it/scn26){:target="_blank"} to be hosted in the historic town of [Amalfi](https://en.wikipedia.org/wiki/Amalfi), Italy. Submit your good work!
 
 * Read [more]({{base}}/news/) ...
 
