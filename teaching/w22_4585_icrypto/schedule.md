@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 title: (Winter 2022) CS 485/585 - Intro to Cryptography
 courseid: w22 485/585
 subtitle: Schedule (subject to change)

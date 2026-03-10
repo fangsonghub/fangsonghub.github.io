@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 title: (Winter 2023) CS 485/585 - Intro to Cryptography
 courseid: w23 485/585
 subtitle: Resources

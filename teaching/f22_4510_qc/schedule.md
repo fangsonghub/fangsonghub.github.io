@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 courseid: f22 410/510
 title: (Fall 2022) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule 

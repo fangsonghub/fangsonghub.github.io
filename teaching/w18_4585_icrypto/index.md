@@ -1,5 +1,7 @@
 ---
 layout: course
+section: teaching
+section: teaching
 title: (Winter 2018) CS 485/585 - Intro to Cryptography
 courseid: w18 485/585
 desc: w18 485/585

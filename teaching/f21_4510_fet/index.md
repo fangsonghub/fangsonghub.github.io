@@ -1,5 +1,7 @@
 ---
 layout: course
+section: teaching
+section: teaching
 title: (Fall 2021) CS 410/510 - Foundations of emerging technologies
 courseid: f21 410/510
 desc: f21 410/510

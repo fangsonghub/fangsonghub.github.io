@@ -1,101 +1,200 @@
-/* ==========================================================================
-   Top navigation
-   ========================================================================== */
+// ============================================================
+// Navigation
+// ============================================================
 
 .navigation-wrapper {
-    text-align: center;
-    /* position: fixed; */
-  @include clearfix;
-  ul {
-    display: inline-block;
-    width: 100%;
-    vertical-align: top;
-    margin: 0 0 20px;
-    padding: 0 20px;
-    /* position: fixed; */
-    @include media($medium) {
-      width: auto;
-    /*     @include rounded(0 0 10px 10px); */
-    }
-  }
-  li {
-    display: block;
-    float: left;
-    list-style: none;
-    text-align: center;
-    @include font-size(16,no); 
-    text-transform: uppercase;
-    background-color: #696969;
-    color: $white;
-    @include media($medium) {
-	@include font-size(16,no);
-    }
-    a.active{
-	background-color: #FF6347;
-    }
-    a:hover:not(.active) {
-	@include box-shadow($shadow: inset 0 0 1px $white);
-    }
-  }
-  a {
-    display: block;
-/*    margin-bottom: 10px; */
-    padding: 6px 12px;
-    @include media($medium) {
-    }
-    color: $white;
-    @include rounded(0px);
-    &:hover {
-      background-color: lighten($black, 20);
-    }
-  }
+    background-color: var(--color-nav-bg);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);  // replaces border
+
+//  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: background-color 0.2s ease;
 }
 
-/*
-   Responsive navigation toggle
-   ========================================================================== */
-
 #site-nav {
-    display: none;
-  z-index: 5;
-  @include media($medium) {
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 1s;
-  }
-  &.closed {
-    @include media($medium) {
-      display: block;
-    }
-  }
-  &.opened {
-    display: block;
-    max-height: 100%;
-    li {
-      float: none;
-      @include media($medium) {
-        float: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+  height: 3rem;
+
+  ul#nav-menu {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+
+    li a {
+      color: var(--color-text);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 0.25rem 0;
+      border-bottom: 2px solid transparent;
+      transition: color 0.2s ease, border-color 0.2s ease;
+
+      &:hover {
+        color: var(--color-accent);
+        border-bottom-color: var(--color-accent);
+      }
+
+      &.active {
+        color: var(--color-accent);
+        border-bottom-color: var(--color-accent);
       }
     }
   }
 }
 
-/* display when JavaScript is disabled */
-.no-js #site-nav {
-  display: block;
+// Hamburger button
+#nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1.5rem;
+  height: 1.125rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-right: var(--spacing-sm);
+
+  span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-text);
+    border-radius: 2px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  &.open span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+  &.open span:nth-child(2) { opacity: 0; }
+  &.open span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 }
 
-#nav-toggle {
-  z-index: 20;
-  display: block;
-  vertical-align: top;
-  margin: 0;
-  padding: 6px 20px;
-  background-color: #696969;
-  height: 40px;
-  @include rounded(0);
-  @include media($medium) {
+// Theme toggle button
+#theme-toggle {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text);
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+  margin-left: var(--spacing-sm);
+  transition: border-color 0.2s ease, color 0.2s ease;
+  flex-shrink: 0;
+
+  &:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+}
+
+// ============================================================
+// Mobile — hamburger menu
+// ============================================================
+@media (max-width: 48em) {
+  #site-nav {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 0.5rem var(--spacing-md);
+
+    #nav-toggle {
+      display: flex;
+      order: 1;
+    }
+
+    #theme-toggle {
+      order: 2;
+      margin-left: auto;
+    }
+
+    ul#nav-menu {
       display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      gap: 0;
+      order: 3;
+      padding: 0.5rem 0;
+      border-top: 1px solid var(--color-border);
+
+      &.open {
+        display: flex;
+      }
+
+      li {
+        width: 100%;
+        a {
+          display: block;
+          padding: 0.5rem 0;
+          border-bottom: none;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+// ============================================================
+// Course sub-navigation
+// ============================================================
+.course-nav-wrapper {
+  background-color: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 3rem;  // sits just below the main nav
+  z-index: 99;  // just below main nav's z-index of 100
+  transition: background-color 0.2s ease;
+}
+
+.course-nav {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: var(--spacing-md);
+  }
+
+  li a {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--color-muted);
+    text-decoration: none;
+    padding: 0.4rem 0;
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s ease, border-color 0.2s ease;
+
+    &:hover {
+      color: var(--color-accent);
+      border-bottom-color: var(--color-accent);
+    }
+
+    &.active {
+      color: var(--color-text);
+      font-weight: 500;
+      border-bottom-color: var(--color-accent);
+    }
+  }
+
+  .course-nav-back a {
+    color: var(--color-accent);
+    font-size: 0.85rem;
+    margin-left: auto;
   }
 }

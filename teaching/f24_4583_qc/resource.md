@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 title: (Fall 2024) CS 483/583 - Intro to Quantum Computer Science
 courseid: f24 483/583
 desc: Resource

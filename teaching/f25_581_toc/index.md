@@ -1,5 +1,7 @@
 ---
 layout: course
+section: teaching
+section: teaching
 title: (Fall 2025) CS 581 - Theory of computation 
 courseid: f25 581
 desc: f25 581

@@ -1,5 +1,7 @@
 ---
 layout: course
+section: teaching
+section: teaching
 courseid: s16uwpqc
 desc: S16-QIC 891
 homeurl: /s16_uw_pqc/

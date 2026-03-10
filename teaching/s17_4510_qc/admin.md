@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 courseid: s17 410/510
 desc: Admin
 permalink: /teaching/s17_4510_qc/admin/

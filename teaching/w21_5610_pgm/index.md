@@ -1,5 +1,7 @@
 ---
 layout: course
+section: teaching
+section: teaching
 title: (Winter 2021) CS 510/610 - Topic on probabilistic graphical models 
 courseid: w21 510/610
 desc: w21 510/610

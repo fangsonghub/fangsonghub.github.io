@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 courseid: s20 410/510
 title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
 subtitle: Schedule (subject to change)

@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 title: (Spring 2020) CS 410/510 - Intro to Quantum Computing
 courseid: s20 410/510
 desc: Resource

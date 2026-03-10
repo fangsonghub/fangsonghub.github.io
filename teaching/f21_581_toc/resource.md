@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 title: (Fall 2021) CS 581 - Theory of computation 
 subtitle: Resource 
 courseid: f21 581

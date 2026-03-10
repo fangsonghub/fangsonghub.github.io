@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 courseid: s18 410/510
 desc: Schedule
 permalink: /teaching/s18_4510_qc/schedule/

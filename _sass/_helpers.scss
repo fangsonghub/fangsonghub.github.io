@@ -48,14 +48,14 @@
 
 .pull-left {
   float: left;
-  padding-right: $gutter;
+  padding-right: 1.5rem;
 }
 
 /* float right */
 
 .pull-right {
   float: right;
-  padding-left: $gutter;
+  padding-left: 1.5rem;
 }
 
 /*
@@ -67,7 +67,7 @@ figure {
   /* 2 images in a row. should be of equal height/width to maintain layout */
 
   &.half {
-    @include media($large) {
+    @media (min-width: 62em) {
       img {
         width: 47.5%;
         float: left;
@@ -83,7 +83,7 @@ figure {
   /* 3 images in a row. should be of equal height/width to maintain layout */
 
   &.third {
-    @include media($large) {
+    @media (min-width: 62em) {
       img {
         width: 30.8%;
         float: left;

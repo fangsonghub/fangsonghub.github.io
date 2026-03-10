@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 title: (Winter 2024) CS 485/585 - Intro to Cryptography
 courseid: w24 485/585
 subtitle: Course Project 

@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 courseid: s19 440/640
 desc: Project
 permalink: /teaching/s19_4640_qc/project/

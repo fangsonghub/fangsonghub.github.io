@@ -41,7 +41,7 @@ button,
 select,
 textarea {
 	font-family: $base-font; 
-	@include box-sizing(border-box); 
+	box-sizing: border-box; 
 }
 label {
 	display: block;
@@ -90,7 +90,7 @@ input[type="radio"] {
 }
 input[type="checkbox"], 
 input[type="radio"] {  
-	@include box-sizing(border-box);
+	box-sizing: border-box;
 	padding: 0; 
 	*width: 13px; 
 	*height: 13px; 
@@ -243,7 +243,7 @@ select:focus {
 
 	/* input field */
 	#goog-wm-qt {
-		@include media($medium) {
+		@media (min-width: 48em) {
 			width: 80%;
 		}
 	}

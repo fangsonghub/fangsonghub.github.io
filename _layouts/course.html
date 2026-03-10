@@ -1,16 +1,11 @@
 <!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<html lang="en">
 <head>
   {% include head.html %}
 </head>
-
 <body id="page">
-
-{% include cnav.html %}
-
+{% include navigation.html %}
+{% include course_nav.html %}
 <div id="main" role="main">
   <article class="entry">
     <div class="entry-wrapper">
@@ -20,17 +15,15 @@
       </header>
       <div class="entry-content">
         {{ content }}
-      </div><!-- /.entry-content -->
-    </div><!-- /.entry-wrapper -->
+      </div>
+    </div>
   </article>
-</div><!-- /#main -->
-
+</div>
 <div class="footer-wrapper">
-  <footer role="contentinfo" class="entry-wrapper">
-    {% include footer.html %}
-  </footer>
-</div><!-- /.footer-wrapper -->
-
+    <footer role="contentinfo" class="entry-wrapper">
+	{% include footer.html %}
+    </footer>
+</div>
 {% include scripts.html %}
-
 </body>
+</html>

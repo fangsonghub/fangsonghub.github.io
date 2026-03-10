@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 courseid: s16uwpqc
 desc: Resource
 homeurl: /teaching/s16_uw_pqc/

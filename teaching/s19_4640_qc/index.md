@@ -1,5 +1,7 @@
 ---
 layout: course
+section: teaching
+section: teaching
 title: (Spring 2019) CS 440/640 - Quantum Algorithms
 courseid: s19 440/640
 desc: s19 440/640

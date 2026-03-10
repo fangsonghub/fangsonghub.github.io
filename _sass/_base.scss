@@ -1,6 +1,40 @@
-/* ==========================================================================
-   Base elements
-   ========================================================================== */
+// Base styles using CSS custom properties
+body {
+// Dark mode overrides
+[data-theme="dark"] {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+
+  a { color: var(--color-accent); }
+  
+  h1, h2, h3, h4, h5, h6 { color: var(--color-text); }
+  
+  code, pre {
+    background-color: var(--color-code-bg);
+    color: var(--color-text);
+  }
+
+  blockquote {
+    border-color: var(--color-border);
+    color: var(--color-muted);
+  }
+
+  table th { background-color: var(--color-nav-bg); }
+  table td { border-color: var(--color-border); }
+}
+
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+a {
+  color: var(--color-accent);
+  &:hover { color: var(--color-accent-hover); }
+}
 
 /*
    Selections
@@ -27,8 +61,8 @@ body {
   padding: 0;
   width: 100%;
   font-family: $base-font;
-  color: $text-color;
-  background-color: $body-color;
+  color: var(--color-text);
+  background-color: var(--color-bg);
   /*  border-top: 5px solid $black;  */
   border-top: 1px solid $white; 
 }
@@ -39,7 +73,7 @@ body {
 
 body {
 	font-family: $base-font;
-	color: $text-color;
+	color: var(--color-text);
 	@include font-size(16);
 }
 
@@ -56,6 +90,7 @@ li {
 h1, h2, h3, h4, h5, h6 {
         font-famliy: $heading-font;
 	text-rendering: optimizeLegibility; // Fix the character spacing for headings
+        scroll-margin-top: 6.5rem; // Offset anchor links to account for sticky nav
 }
 h1 {
     @include font-size(28);
@@ -83,7 +118,7 @@ h6 {
 u,
 ins {
 	text-decoration: none;
-	border-bottom: 1px solid $text-color;
+	border-bottom: 1px solid var(--color-border);
 }
 
 /*
@@ -92,7 +127,7 @@ ins {
 
 a {
 	text-decoration: none;
-	color: $link-color;
+	color: var(--color-accent);
 	&:visited {
 		color: lighten($vlink-color, 0);
 	}
@@ -131,19 +166,19 @@ figure {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  @include clearfix;
+  &::after { content: ""; display: table; clear: both; }
   img {
     margin-bottom: 10px;
   }
   a {
     img {
-      @include transform(translateY(0));
+      transform: translateY(0);
       -webkit-transition-duration: 0.25s;
       -moz-transition-duration: 0.25s;
       -o-transition-duration: 0.25s;
       opacity: 0.7;
       &:hover {
-        @include transform(translateY(-5px));
+        transform: translateY(-5px);
         @include box-shadow(0 0 10px rgba($black, .20));
         opacity: 1;
       }
@@ -221,7 +256,7 @@ pre {
 // ---------------------------------------------------
 
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, .highlight {
-	@include transition(all .2s ease);
+	transition: all .2s ease;
 }
 
 
@@ -251,4 +286,14 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   }
 }
 
+#main {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0.4rem; //var(--spacing-sm);
+}
 
+.entry-wrapper {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}

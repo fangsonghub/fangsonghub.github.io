@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 courseid: f18 689
 desc: Project
 permalink: /teaching/f18_689_pqc/project/

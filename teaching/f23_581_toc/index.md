@@ -1,5 +1,7 @@
 ---
 layout: course
+section: teaching
+section: teaching
 title: (Fall 2023) CS 581 - Theory of computation 
 courseid: f23 581
 desc: f23 581

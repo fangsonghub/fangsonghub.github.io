@@ -1,50 +1,73 @@
-// TYPOGRAPHY ================================================
-//$base-font: 'source-sans-pro', sans-serif;
-$base-font: 'fontin', sans-serif;
-$heading-font: $base-font;
-$caption-font: $base-font;
-$code-font: 'source-code-pro', monospace;
-$alt-font: 'volkhov', serif;
+// ============================================================
+// Color palette — light mode (default)
+// ============================================================
+:root {
+  --color-bg:         #ffffff;
+  --color-text:       #1a1a1a;
+  --color-muted:      #666666;
+  --color-accent:     #2a6496;
+  --color-accent-hover: #1d4a70;
+  --color-border:     #e0e0e0;
+  --color-code-bg:    #f5f5f5;
+  --color-nav-bg:     #f8f8f8;
 
-$doc-font-size: 16;
-$doc-line-height: 20;
+  // Typography
+  --font-sans:        'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono:        'Source Code Pro', 'Courier New', monospace;
+  --font-size-base:   1rem;
+  --line-height-base: 1.7;
 
-$border-radius: 3px;
-
-
-// set-up the body font-size / line-height
-body {
-  margin-top: 0px + $doc-line-height;
-  font-size: 0px + $doc-font-size;  
+  // Layout
+  --content-width:    780px;
+  --spacing-sm:       0.75rem;
+  --spacing-md:       1.5rem;
+  --spacing-lg:       3rem;
 }
 
+// ============================================================
+// Dark mode
+// ============================================================
+[data-theme="dark"] {
+  --color-bg:         #0f1117;
+  --color-text:       #e8e8e8;
+  --color-muted:      #999999;
+  --color-accent:     #5b9bd5;
+  --color-accent-hover: #7db3e0;
+  --color-border:     #2a2a2a;
+  --color-code-bg:    #1a1d27;
+  --color-nav-bg:     #161820;
+}
 
-// COLORS =====================================================
-$body-color         : #fff;
-$text-color         : #222;
-$base-color         : #343434;    
-$comp-color         : spin($base-color, 180); 
-$border-color       : #ddd;
-$white              : #fff;
-$black              : #000;
-$accent-color       : $black;
-// $link-color         : #222;
-$link-color         : #FF6347;//#325C74;//507786;//#2F4F4F;//#5F9F9F;//FF6347;
-$vlink-color        : #3090C7;
-$head2-color        : #FF6347; 
-
-$table-border-color           : $border-color;
-$table-border                 : 1px solid $table-border-color;
-$table-background             : $body-color;
-$table-header-color           : lighten($table-background, 10);
-$table-hover-color            : darken($table-background, 2);
-$table-stripe-color           : darken($table-background, 4);
-$table-stripe-color-hover     : darken($table-stripe-color, 5);
+// ============================================================
+// Legacy SCSS variables (keep for now — used in existing partials)
+// Gradually replace these with var(--color-*) as you edit each file
+// ============================================================
+$base-font-size:    16px;
+$doc-line-height:   1.7;
+$border-radius:     3px;
+$black:             #1a1a1a;
+$white:             #ffffff;
+$light-gray:        #e0e0e0;
+$accent-color:      #2a6496;
 
 
-// MEDIA QUERIES ==============================================
-$micro            : "only screen and (min-width: 30em)";
-$small            : "only screen and (min-width: 37.5em)";
-$medium           : "only screen and (min-width: 48em)";
-$large            : "only screen and (min-width: 62em)";
-$x-large          : "only screen and (min-width: 86.375em)";
+$base-color:        #1a1a1a;
+$text-color:        #1a1a1a;
+$body-color:        #ffffff;
+$link-color:        #2a6496;
+$border-color:      #e0e0e0;
+
+$base-font:       'Inter', system-ui, -apple-system, sans-serif;
+$heading-font:    'Inter', system-ui, -apple-system, sans-serif;
+$alt-font:        'Inter', system-ui, -apple-system, sans-serif;
+$code-font:       'Source Code Pro', 'Courier New', monospace;
+$doc-font-size:   16;
+
+$head2-color:        #2a6496;
+$comp-color:         #2a6496;
+$vlink-color:        #551a8b;
+$shadow:             rgba(0, 0, 0, 0.2);
+$table-border-color: #e0e0e0;
+$table-header-color: #f5f5f5;
+$table-stripe-color: #fafafa;
+$table-hover-color:  #f0f0f0;

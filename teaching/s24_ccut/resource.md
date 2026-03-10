@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 title: (Spring 2024) PSU CS at CCUT
 courseid: s24 ccut
 subtitle: Resources

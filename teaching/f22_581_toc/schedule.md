@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 title: (Fall 2022) CS 581 -- Theory of computation 
 subtitle: Schedule
 courseid: f22 581

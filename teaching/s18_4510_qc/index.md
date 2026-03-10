@@ -1,5 +1,7 @@
 ---
 layout: course
+section: teaching
+section: teaching
 title: (Spring 2018) CS 410/510 - Intro to Quantum Computing
 courseid: s18 410/510
 desc: s18 410/510

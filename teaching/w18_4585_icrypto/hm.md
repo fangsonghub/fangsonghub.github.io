@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 courseid: w17 485/585
 desc: Homework
 permalink: /teaching/w17_4585_icrypto/hm/

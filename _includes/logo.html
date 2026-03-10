@@ -1,21 +1,24 @@
-{% if page.image.feature %}<header class="masthead">
-	{% if site.logo != null %}
-		<div class="wrap">
-			<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
-</div> 
-	{% endif %}
-</header><!-- /.masthead -->
-{% else %}
-<!--
 <header class="masthead">
-	<div class="wrap">
-     {% if site.logo != null %}
-  		<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
-
-{% endif %}
-    <h1 class="site-title animated fadeIn"><a href="{{ site.url }}/">{{ site.title }}</a></h1>
-		<h2 class="site-description animated fadeIn" itemprop="description">{{ site.description }}</h2> 
-	</div>
-</header> --><!-- /.masthead -->
-{% include mylogo.html %}
-{% endif %}
+  <div class="masthead-inner">
+    <div class="masthead-photo">
+      <a href="{{ site.url }}/" rel="home" title="{{ site.title }}">
+        <img src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} photo">
+      </a>
+    </div>
+    <div class="masthead-info">
+      <h1 class="masthead-name">
+        Fang Song <span lang="zh-Hans">宋方</span>
+      </h1>
+      <h3 class="masthead-title">Associate Professor</h3>
+      <p class="masthead-dept">
+        <a href="https://www.pdx.edu/computer-science/">Department of Computer Science</a>,
+        <a href="https://www.pdx.edu/">Portland State University</a>
+      </p>
+      <p class="masthead-contact">
+        <span><b>Office</b>: FAB 120-25</span>
+        <span><b>Phone</b>: +1 (503) 725-4060</span>
+        <span><b>Email</b>: fang.song "at" pdx.edu</span>
+      </p>
+    </div>
+  </div>
+</header>

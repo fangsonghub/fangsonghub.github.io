@@ -1,5 +1,7 @@
 ---
 layout: course
+section: teaching
+section: teaching
 title: (Winter 2021) CS 584/684 - Algorithm Design & Analysis
 courseid: w21 584/684
 desc: w21 584/684

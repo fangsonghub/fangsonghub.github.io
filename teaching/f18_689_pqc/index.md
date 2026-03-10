@@ -1,5 +1,7 @@
 ---
 layout: course
+section: teaching
+section: teaching
 title: (Fall 2018) CSCE 689 - Special Topics 
 subtitle: Foundations of Post-Quantum Cryptography
 courseid: f18 689

@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 courseid: w18 485/585
 desc: Resource
 permalink: /teaching/w18_4585_icrypto/resource/

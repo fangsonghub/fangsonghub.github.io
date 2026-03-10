@@ -1,5 +1,7 @@
 ---
 layout: course
+section: teaching
+section: teaching
 title: (Fall 2025) CS 485/585 - Intro to Cryptography
 courseid: f25 485/585
 desc: f25 485/585

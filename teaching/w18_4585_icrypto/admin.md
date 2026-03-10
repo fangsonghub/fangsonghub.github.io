@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 courseid: w18 485/585
 desc: Admin
 permalink: /teaching/w18_4585_icrypto/admin/

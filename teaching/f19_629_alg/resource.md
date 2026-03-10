@@ -1,5 +1,6 @@
 ---
 layout: course
+section: teaching
 title: (Fall 2019) CSCE 629 - Analysis of Algorithms
 subtitle: Resources
 courseid: f19 629

@@ -1,22 +1,31 @@
 <div class="navigation-wrapper">
-<!--	<nav role="navigation" id="site-nav" class="animated drop"> -->
- <nav role="navigation" id="site-nav">
-     <ul>
-	 {% for link in site.data.navigation %}
-	 {% if link.url contains 'http' %}
-	 {% assign domain = '' %}
-	 {% else %}
-	 {% assign domain = site.url %}
-	 {% endif %}
-	 {% if page.title == link.title or page.desc == link.title %}
-      <li><a class="active" href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-      {% else %}
-      <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-      {% endif %} {% endfor %}
-	    </ul>
-	</nav>
+  <nav role="navigation" id="site-nav">
+    <button id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="nav-menu">
+      {% for link in site.data.navigation %}
+        {% if link.url contains 'http' %}
+          {% assign domain = '' %}
+        {% else %}
+          {% assign domain = site.url %}
+        {% endif %}
+
+        {% assign is_active = false %}
+        {% if page.title == link.title %}{% assign is_active = true %}{% endif %}
+        {% if page.desc == link.title %}{% assign is_active = true %}{% endif %}
+        {% assign link_section = link.title | downcase %}
+        {% if page.section == link_section %}{% assign is_active = true %}{% endif %}
+
+        {% if is_active %}
+          <li><a class="active" href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a></li>
+        {% else %}
+          <li><a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+	<span class="theme-icon">☀︎</span>
+    </button>
+  </nav>
 </div>
-
-{% include browser-upgrade.html %}
-
-<div class="js-menu-screen menu-screen"></div>

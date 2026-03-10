@@ -1,20 +1,12 @@
 ---
 layout: page
 title: Photos
-desc: misc
 permalink: /photos/
-description: "photo gallery"
 ---
 
-## Photo Sets 
-<ul>
-  {% comment %}
-    Get all "photo" pages and display a list with links to them.
-  {% endcomment %}
-  {% assign photo_pages = site.pages | where: "layout", "photo" | sort: 'date' | reverse %}
-  {% for photo_page in photo_pages %}
-    <li>
-      <a href="{{ photo_page.url | prepend: site.baseurl }}">{{ photo_page.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% assign photo_pages = site.pages | where: "layout", "photo" | sort: 'date' | reverse %}
+{% for photo_page in photo_pages %}
+<div class="photo-index-item">
+  <a href="{{ photo_page.url }}">{{ photo_page.title }}</a>
+</div>
+{% endfor %}
