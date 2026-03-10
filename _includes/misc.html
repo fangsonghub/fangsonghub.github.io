@@ -1,0 +1,83 @@
+<!-- Side Projects -->
+<h2 id="side-projects">Side Projects</h2>
+<div class="pc-list">
+    <div class="pc-item">
+	<div class="pc-conf-header">
+	    <a href="http://qcc.fangsong.info/" target="_blank" class="pc-conf-name">Quantized Complex Crypto</a>
+	</div>
+	<p class="pc-conf-full">A blog on quantum computing and cryptography</p>
+    </div>
+    <div class="pc-item">
+	<div class="pc-conf-header">
+	    <a href="http://tcsabib.fangsong.info/" target="_blank" class="pc-conf-name">Annotated Bibliography in TCS</a>
+	</div>
+	<p class="pc-conf-full">Curated reading list in theoretical computer science</p>
+    </div>
+    <div class="pc-item">
+	<div class="pc-conf-header">
+	    <a href="https://drive.google.com/open?id=1Y7gQ-trXyQZHCQ0yWmzQAH_vNF4&usp=sharing" target="_blank" class="pc-conf-name">Hiking Oregon</a>
+	</div>
+	<p class="pc-conf-full">Trail maps and trip notes</p>
+    </div>
+</div>
+
+<!-- Photo Galleries -->
+<h2 id="photo-galleries">Photo Galleries</h2>
+<div class="misc-gallery-grid">
+    {% assign photo_pages = site.pages | where: "layout", "photo" | sort: "date" | reverse %}
+    {% for photo_page in photo_pages %}
+    {% assign dir = photo_page.photos.dir %}
+    {% assign thumb = "" %}
+    {% for file in site.static_files %}
+    {% if thumb == "" and file.path contains dir %}
+    {% assign ext = file.extname %}
+    {% if ext == '.jpg' or ext == '.jpeg' or ext == '.JPG' or ext == '.JPEG' %}
+    {% assign thumb = file.path %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    <a href="{{ photo_page.url }}" class="misc-gallery-item">
+	{% if thumb != "" %}
+	{% if site.url contains 'localhost' %}
+        <img src="{{ thumb | relative_url }}" alt="{{ photo_page.title }}" loading="lazy">
+	{% else %}
+        <img src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ thumb | relative_url }}&w=400&h=300&output=jpg&q=70&t=square" alt="{{ photo_page.title }}" loading="lazy">
+	{% endif %}
+	{% endif %}
+	<div class="misc-gallery-caption">{{ photo_page.title }}</div>
+    </a>
+    {% endfor %}
+</div>
+
+<!-- Gem Bin -->
+<h2 id="gem-bin">Gem Bin</h2>
+<p class="talks-intro">Tips and resources on how to survive (and sometimes succeed) in academia, especially in <em>theoretical computer science</em>. Favorites are marked with ⭐.</p>
+
+{% for section in site.data.gembin %}
+<div class="pub-year-group">
+    <div class="pub-year-label gembin-category-label">
+	{{ section.category }}
+    </div>
+    <div class="gembin-list">
+	{% for item in section.items %}
+	<div class="gembin-item">
+	    <div class="gembin-title">
+		{% if item.favorite %}⭐ {% endif %}
+		<a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+		{% if item.note %}<span class="gembin-note">[{{ item.note }}]</span>{% endif %}
+	    </div>
+	    {% if item.author %}
+	    <div class="gembin-author">
+		{% if item.author_url %}<a href="{{ item.author_url }}" target="_blank">{{ item.author }}</a>{% else %}{{ item.author }}{% endif %}
+	    </div>
+	    {% endif %}
+	    {% if item.extra %}
+	    <div class="gembin-extra">
+		<a href="{{ item.extra.url }}" target="_blank">{{ item.extra.label }}</a>
+	    </div>
+	    {% endif %}
+	</div>
+	{% endfor %}
+    </div>
+</div>
+{% endfor %}

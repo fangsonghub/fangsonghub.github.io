@@ -1,0 +1,38 @@
+{% for grant in site.data.grants %}
+<div class="pub-year-group">
+    <div class="pub-year-label grant-funder-label">
+	{% if grant.funder == "NSF" %}
+	<img src="{{ site.url }}/assets/images/funders/nsf.ico" alt="NSF" class="funder-favicon">
+	{% elsif grant.funder == "Sony" %}
+	<img src="{{ site.url }}/assets/images/funders/sony.ico" alt="Sony" class="funder-favicon">
+	{% endif %}
+	<span class="funder-abbrev">{{ grant.funder }}</span>
+</div>
+<div class="grant-item">
+	<div class="grant-header">
+	    {% if grant.note %}<span class="grant-note">{{ grant.note }}</span>{% endif %}
+	    <span class="grant-title">{{ grant.title }}</span>
+	</div>
+	<div class="grant-meta">
+	    <span class="grant-years">{{ grant.year_start }}–{{ grant.year_end }}</span>
+	    {% if grant.award.number %}
+            · Award <a href="{{ grant.award.url }}" target="_blank">#{{ grant.award.number }}</a>
+	    {% elsif grant.award.url %}
+            · <a href="{{ grant.award.url }}" target="_blank">Award info</a>
+	    {% endif %}
+	    {% if grant.also %}
+            (<a href="{{ grant.also.url }}" target="_blank">#{{ grant.also.number }}</a>)
+	    {% endif %}
+	</div>
+	{% if grant.supplements %}
+	<div class="grant-supplements">
+	    {% for sup in grant.supplements %}
+	    <div class="grant-supplement">
+		{{ sup.title }} ({{ sup.year_start }}–{{ sup.year_end }})
+	    </div>
+	    {% endfor %}
+	</div>
+	{% endif %}
+    </div>
+</div>
+{% endfor %}

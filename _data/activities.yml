@@ -1,0 +1,181 @@
+# ============================================================
+# Program Committee
+# ============================================================
+pc:
+  - name: "AQIS"
+    full: "Asian Quantum Information Science Conference"
+    offerings:
+      - year: 2025
+        url: http://aqis-conf.org/2025/
+      - year: 2024
+        url: http://aqis-conf.org/2024/
+
+  - name: "AsiaCCS"
+    offerings:
+      - year: 2020
+        url: https://asiaccs2020.cs.nthu.edu.tw
+
+  - name: "Asiacrypt"
+    offerings:
+      - year: 2026
+        url: http://asiacrypt.iacr.org/2026/
+      - year: 2022
+        url: http://asiacrypt.iacr.org/2022/
+      - year: 2017
+        url: http://asiacrypt.iacr.org/2017/
+
+  - name: "Crypto"
+    offerings:
+      - year: 2021
+        url: https://crypto.iacr.org/2021/
+      - year: 2020
+        url: https://crypto.iacr.org/2020/callforpapers.html
+
+  - name: "CT-RSA"
+    full: "Cryptographers' Track at RSA Conference"
+    offerings:
+      - year: 2025
+        url: https://ct-rsa-2025.csa.iisc.ac.in/
+
+  - name: "Eurocrypt"
+    offerings:
+      - year: 2025
+        url: https://eurocrypt.iacr.org/2025/
+
+  - name: "ITC"
+    full: "Information-Theoretic Cryptography"
+    offerings:
+      - year: 2021
+        url: https://itcrypto.github.io/2021/
+
+  - name: "Mathcrypt"
+    offerings:
+      - year: 2019
+        url: http://imdarc.math.snu.ac.kr/MathCrypt2019/
+      - year: 2018
+        url: https://crypto.iacr.org/2018/affevents/mathcrypt/page.html
+
+  - name: "PKC"
+    full: "Public Key Cryptography"
+    offerings:
+      - year: 2026
+        url: https://pkc.iacr.org/2026/
+      - year: 2024
+        url: https://pkc.iacr.org/2024/
+      - year: 2021
+        url: https://pkc.iacr.org/2021/
+      - year: 2017
+        url: http://www.iacr.org/workshops/pkc2017/index.php
+
+  - name: "PQCrypto"
+    full: "Post-Quantum Cryptography"
+    offerings:
+      - year: 2019
+        url: http://pqcrypto2019.org/
+      - year: 2018
+        url: http://www.math.fau.edu/pqcrypto2018/
+      - year: 2017
+        url: https://2017.pqcrypto.org/conference/
+
+  - name: "QCE"
+    full: "IEEE Quantum Week"
+    offerings:
+      - year: 2025
+        url: https://qce.quantum.ieee.org/2025/
+
+  - name: "QCNC"
+    offerings:
+      - year: 2026
+        url: https://www.ieee-qcnc.org/2026/
+        note: "QKD and Security Track"
+      - year: 2025
+        url: https://www.ieee-qcnc.org/2025/progcom.php
+        note: "Security in the Quantum Age Track"
+
+  - name: "QCrypt"
+    full: "Quantum Cryptography"
+    offerings:
+      - year: 2025
+        url: https://qcrypt.net/2025/
+      - year: 2024
+        url: https://2024.qcrypt.net/
+      - year: 2023
+        url: https://2023.qcrypt.net/
+      - year: 2020
+        url: https://2020.qcrypt.net/
+
+  - name: "QIP"
+    full: "Quantum Information Processing"
+    offerings:
+      - year: 2017
+        url: https://www.stationq.com/qip-2017/
+
+  - name: "Quantum Crypto Workshop"
+    offerings:
+      - year: 2022
+        url: https://qcw2022.github.io/quantum-cryptography-workshop-2022/
+        note: "affiliated with Asiacrypt 2022"
+
+  - name: "SAC"
+    full: "Selected Areas in Cryptography"
+    offerings:
+      - year: 2019
+        url: https://uwaterloo.ca/selected-areas-in-cryptography/
+
+  - name: "SCN"
+    full: "Security and Cryptography for Networks"
+    offerings:
+      - year: 2026
+        url: https://scn.unisa.it/scn26
+
+  - name: "TQC"
+    full: "Theory of Quantum Computation, Communication and Cryptography"
+    offerings:
+      - year: 2025
+        url: https://tqc-conference.org/
+      - year: 2024
+        url: https://tqc-conference.org/call-for-submissions/
+      - year: 2018
+        url: https://www.tqc2018.org/
+
+# ============================================================
+# Organizer
+# ============================================================
+organizer:
+  - title: "New Directions in Provable Quantum Advantages"
+    event: "NII Shonan Meeting"
+    url: /activity/shonan198
+    date: "December 11–15, 2023"
+    location: "NII, Japan"
+    note: "with François Le Gall and Penghui Yao"
+
+  - title: "The 2nd Quantum Computation and Information Workshop"
+    url: https://iamcs.tamu.edu/the-2nd-quantum-computation-and-information-workshop/
+    date: "May 13–15, 2019"
+    location: "Texas A&M University"
+
+  - title: "Quantum Day at Portland"
+    event: "Mini-symposium"
+    url: /activity/w17qpdx
+    date: "January 13, 2017"
+    location: "Portland State University"
+
+  - title: "Post-quantum Crypto Seminar"
+    url: https://sites.google.com/site/uwaterloopqcrypto/
+    date: "April 2015 – August 2016"
+    location: "University of Waterloo"
+
+# ============================================================
+# Others
+# ============================================================
+others:
+  - title: "Invited lecturer"
+    event: "IPAM Graduate Summer School on Post-quantum and Quantum Cryptography"
+    url: http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-post-quantum-and-quantum-cryptography/
+    date: "July 25–29, 2022"
+
+  - title: "Student Travel Award Committee"
+    event: "QIP 2022"
+    url: https://web.cvent.com/event/8adf8248-432b-499c-91e2-63b83ba3f69e/websitePage:b3f54ea9-bbff-49bb-9678-d3b193c87086
+    date: "2022"
+    note: "with Ángela Capel Cuevas and Penghui Yao"

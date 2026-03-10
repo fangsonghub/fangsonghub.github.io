@@ -1,0 +1,19 @@
+{% if page.section %}
+{% assign links = site.data.subnav[page.section] %}
+{% if links %}
+<div class="course-nav-wrapper">
+    <nav role="navigation" class="course-nav">
+	<ul>
+	    {% for link in links %}
+            {% if link.url contains 'http' %}
+            {% assign domain = '' %}
+            {% else %}
+            {% assign domain = site.url %}
+            {% endif %}
+            <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+	    {% endfor %}
+	</ul>
+    </nav>
+</div>
+{% endif %}
+{% endif %}

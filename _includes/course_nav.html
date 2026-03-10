@@ -1,0 +1,23 @@
+{% assign course_links = site.data.course_nav | where: "courseid", page.courseid %}
+{% if course_links.size > 0 %}
+<div class="course-nav-wrapper">
+    <nav role="navigation" class="course-nav">
+	<ul>
+	    {% for link in site.data.course_nav %}
+            {% if link.courseid == page.courseid and link.nav == true %}
+            {% if link.url contains 'http' %}
+            {% assign domain = '' %}
+            {% else %}
+            {% assign domain = site.url %}
+            {% endif %}
+            {% if link.desc == page.desc %}
+            <li><a class="active" href="{{ domain }}{{ link.url }}">{{ link.desc }}</a></li>
+            {% else %}
+            <li><a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.desc }}</a></li>
+            {% endif %}
+            {% endif %}
+	    {% endfor %}
+	</ul>
+    </nav>
+</div>
+{% endif %}

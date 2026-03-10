@@ -1,0 +1,101 @@
+- date: "2025-12-05"
+  text: "Happy to serve on the program committee of [SCN 2026](https://scn.unisa.it/scn26) to be hosted in the historic town of Amalfi, Italy."
+
+- date: "2025-07-15"
+  text: "[Chuhan Lu](https://chuhanlu.github.io/) successfully defended her Ph.D. dissertation. Congrats Dr. Lu! Big thanks to the great committee: Drs. [Ameeta Agrawal](https://web.cecs.pdx.edu/~ameeta/), [Shravas Rao](https://web.cecs.pdx.edu/~shravas/), [Penghui Yao](http://penghuiyao.info/) and [Henry Yuen](https://www.henryyuen.net/)."
+
+- date: "2025-05-30"
+  text: "Happy to be awarded a 2025–2026 Faculty Development Grant at Portland State University."
+
+- date: "2025-05-03"
+  text: "Our paper [Quantum State Learning Implies Circuit Lower Bounds](https://arxiv.org/abs/2405.10242) was accepted at [COLT 2025](https://learningtheory.org/colt2025/)."
+
+- date: "2025-03-11"
+  text: "Serving on the program committee of [AQIS 2025](http://aqis-conf.org/2025/) to be held in Hong Kong."
+
+- date: "2025-03-05"
+  text: "Serving on the program committee of [QCE 2025](https://qce.quantum.ieee.org/2025/) Quantum Algorithms track, Albuquerque, USA."
+
+- date: "2025-02-16"
+  text: "Serving on the program committee of [TQC 2025](https://tqc-conference.org/) to be held in Bengaluru, India."
+
+- date: "2024-08-12"
+  text: "Serving on the program committee of [CT-RSA 2025](https://ct-rsa-2025.csa.iisc.ac.in/)."
+
+- date: "2024-06-24"
+  text: "Serving on the program committee of [Eurocrypt 2025](https://eurocrypt.iacr.org/2025/) to be held in Madrid, Spain."
+
+- date: "2024-04-22"
+  text: "Honored to receive PSU's 2024 [Early Career Research Award](https://www.pdx.edu/research/psus-2024-early-career-research-awardee-fang-song)."
+
+- date: "2024-03-25"
+  text: "Serving on the program committee of [QCrypt 2024](https://2024.qcrypt.net/) to be held in Vigo, Spain."
+
+- date: "2024-01-30"
+  text: "Serving on the program committee of [TQC 2024](https://tqc-conference.org/call-for-submissions/) to be held in Okinawa, Japan."
+
+- date: "2023-12-11"
+  text: "Organizing NII [Shonan Meeting No. 198](https://shonan.nii.ac.jp/seminars/198/) **New Directions in Provable Quantum Advantages** with [François Le Gall](http://www.francoislegall.com/) and [Penghui Yao](http://penghuiyao.info/), December 11–15, 2023."
+
+- date: "2023-09-28"
+  text: "Serving on the program committee of [PKC 2024](https://pkc.iacr.org/2024/) to be held in Sydney, Australia."
+
+- date: "2023-03-27"
+  text: "Serving on the program committee of [QCrypt 2023](https://2023.qcrypt.net/) at the University of Maryland."
+
+- date: "2023-01-12"
+  text: "Joint postdoc opening with [Nai-Hui Chia](https://sites.google.com/view/naihuichia). Candidates with a strong record on complexity and cryptography are encouraged to apply."
+
+- date: "2022-07-26"
+  text: "Serving on the program committee of the [Quantum Crypto Workshop](https://qcw2022.github.io/quantum-cryptography-workshop-2022/) affiliated with [Asiacrypt 2022](http://asiacrypt.iacr.org/2022/)."
+
+- date: "2022-05-23"
+  text: "Participating in the [Summer Cluster: Lattices and Beyond](https://simons.berkeley.edu/programs/extended-reunion-lattices2022) and [Extended Reunion: The Quantum Wave in Computing](https://simons.berkeley.edu/programs/extended-reunion-quantum2022) at the Simons Institute, May 23 – Jun 24, 2022."
+
+- date: "2022-04-26"
+  text: "Giving a lecture at the [IPAM Graduate Summer School on Post-quantum and Quantum Cryptography](http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-post-quantum-and-quantum-cryptography/), July 25–29, 2022."
+
+- date: "2022-03-21"
+  text: "Received a [Faculty Innovation Award](https://www.sony.com/en/SonyInfo/research-award-program/) via the Sony Research Award program. Thanks Sony Group!"
+
+- date: "2022-03-21"
+  text: "Serving on the program committee of [Asiacrypt 2022](https://asiacrypt.iacr.org/2022/)."
+
+- date: "2021-02-01"
+  text: "Serving on the program committee of [Crypto 2021](https://crypto.iacr.org/2021/)."
+
+- date: "2020-03-17"
+  text: "Honored to receive the NSF [CAREER Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1942706) to explore quantum complexity and cryptography."
+
+- date: "2020-03-10"
+  text: "[QCrypt 2020](https://2020.qcrypt.net/) submission server is open."
+
+- date: "2019-12-21"
+  text: "Serving on the program committee of [Crypto 2020](https://crypto.iacr.org/2020/callforpapers.html)."
+
+- date: "2019-08-28"
+  text: "Slides of the tutorial at [QCrypt 2019](http://2019.qcrypt.net/) now available under Research."
+
+- date: "2017-07-17"
+  text: "Serving on the program committee of [PQCrypto 2018](http://www.math.fau.edu/pqcrypto2018/)."
+
+- date: "2017-07-01"
+  text: "New result on optimal quantum query lower bounds for finding collisions in non-uniform random functions. [Read more](http://ia.cr/2017/688)."
+
+- date: "2017-06-01"
+  text: "**NMAC** and **HMAC** remain quantum-secure, as we prove in our Crypto'17 paper. [Check it out](https://eprint.iacr.org/2017/509)."
+
+- date: "2017-02-01"
+  text: "Talk on **ZK for QMA** at QIP'17 now available on [YouTube](https://www.youtube.com/watch?v=1fXLJBN-KfI&feature=youtu.be)."
+
+- date: "2017-01-20"
+  text: "Happy to serve on the program committee of [Asiacrypt 2017](http://asiacrypt.iacr.org/2017/) in Hong Kong."
+
+- date: "2017-01-13"
+  text: "Organized a one-day event on quantum computing and cryptography at Portland, OR. [Details](/activity/w17qpdx/)."
+
+- date: "2016-09-26"
+  text: "Serving on the program committee of [QIP 2017](https://www.stationq.com/qip-2017/) at Microsoft Research, Redmond, WA."
+
+- date: "2016-09-06"
+  text: "Serving on the program committee of [PKC 2017](http://www.iacr.org/workshops/pkc2017/index.php) in Amsterdam."

@@ -1,0 +1,15 @@
+{% assign news_limit = include.limit | default: 999 %}
+{% assign count = 0 %}
+{% for item in site.data.news %}
+{% if count < news_limit %}
+<div class="pub-year-group news-item-group">
+    <div class="pub-year-label news-date-label">
+	{{ item.date | date: "%b %Y" }}
+    </div>
+    <div class="news-item">
+	{{ item.text | markdownify }}
+    </div>
+</div>
+{% assign count = count | plus: 1 %}
+{% endif %}
+{% endfor %}

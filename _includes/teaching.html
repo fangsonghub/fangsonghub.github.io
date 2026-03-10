@@ -1,0 +1,64 @@
+{% assign current_courses = site.data.course_list | where: "current", true %}
+{% if current_courses.size > 0 %}
+<div class="teaching-current">
+    <span class="teaching-current-label">Current teaching</span>
+    <div class="teaching-current-pills">
+	{% for course in current_courses %}
+	{% assign latest = course.offerings | first %}
+	<a href="{{ site.url }}{{ latest.url }}" class="teaching-current-pill" target="_blank">
+            <span class="teaching-current-pill-number">{{ course.number }}</span>
+            <span class="teaching-current-pill-title">{{ course.title }}</span>
+            <span class="teaching-current-pill-term">{{ latest.term }}</span>
+	</a>
+	{% endfor %}
+    </div>
+</div>
+{% endif %}
+
+{% assign institutions = "psu,tamu,waterloo,psu_ta" | split: "," %}
+{% assign inst_names = "Portland State University,Texas A&M University,University of Waterloo,Penn State University" | split: "," %}
+
+{% for inst in institutions %}
+{% assign inst_courses = site.data.course_list | where: "institution", inst %}
+{% if inst_courses.size > 0 %}
+{% assign inst_index = forloop.index0 %}
+<div class="teaching-group">
+    <div class="teaching-inst-label">
+	{{ inst_names[inst_index] }}
+    </div>
+    <div class="teaching-courses">
+	{% for course in inst_courses %}
+	<div class="course-item">
+	    <div class="course-header">
+		{% if course.number != "" %}
+		<span class="course-number">{{ course.number }}</span>
+		{% endif %}
+		<span class="course-title">{{ course.title }}</span>
+		{% if course.role %}
+		<span class="course-role">({{ course.role }})</span>
+		{% endif %}
+		{% if course.note %}
+		<span class="course-note">
+		    {% if course.note_url %}
+		    {{ course.note | split: "Received " | first }}Received <a href="{{ course.note_url }}" target="_blank">Outstanding Teaching Assistant Award</a>.
+		    {% else %}
+		    {{ course.note }}
+		    {% endif %}
+		</span>
+		{% endif %}
+	    </div>
+	    <div class="course-offerings">
+		{% for offering in course.offerings %}
+		{% if offering.url %}
+		<a href="{{ site.url }}{{ offering.url }}" class="course-term">{{ offering.term }}</a>
+		{% else %}
+		<span class="course-term course-term--no-link">{{ offering.term }}</span>
+		{% endif %}
+		{% endfor %}
+	    </div>
+	</div>
+	{% endfor %}
+    </div>
+</div>
+{% endif %}
+{% endfor %}

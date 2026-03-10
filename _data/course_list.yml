@@ -1,0 +1,130 @@
+- title: "Theory of Computation"
+  number: "CS 581"
+  institution: psu
+  offerings:
+    - term: "Fall 2025"
+      url: /teaching/f25_581_toc/
+    - term: "Fall 2024"
+      url: /teaching/f24_581_toc/
+    - term: "Fall 2023"
+      url: /teaching/f23_581_toc/
+    - term: "Fall 2022"
+      url: /teaching/f22_581_toc/
+    - term: "Fall 2021"
+      url: /teaching/f21_581_toc/
+
+- title: "Introduction to Cryptography"
+  number: "CS 485/585"
+  institution: psu
+  offerings:
+    - term: "Fall 2025"
+      url: /teaching/f25_4585_icrypto/
+    - term: "Winter 2024"
+      url: /teaching/w24_4585_icrypto/
+    - term: "Winter 2023"
+      url: /teaching/w23_4585_icrypto/
+    - term: "Winter 2022"
+      url: /teaching/w22_4585_icrypto/
+    - term: "Winter 2018"
+      url: /teaching/w18_4585_icrypto/
+    - term: "Winter 2017"
+      url: /teaching/w17_4585_icrypto/
+
+- title: "Introduction to Quantum Computer Science"
+  number: "CS 483/583"
+  institution: psu
+  note: "Previously CS 410/510 Topics Course"
+  offerings:
+    - term: "Fall 2024"
+      url: /teaching/f24_4583_qc/
+    - term: "Fall 2022"
+      url: /teaching/f22_4510_qc/
+    - term: "Spring 2020"
+      url: /teaching/s20_4510_qc/
+    - term: "Spring 2018"
+      url: /teaching/s18_4510_qc/
+    - term: "Spring 2017"
+      url: /teaching/s17_4510_qc/
+
+- title: "Algorithm Design and Analysis"
+  number: "CS 584/684"
+  institution: psu
+  offerings:
+    - term: "Winter 2021"
+      url: /teaching/w21_5684_alg/
+
+- title: "Probabilistic Graphical Models"
+  number: "CS 510/610"
+  institution: psu
+  offerings:
+    - term: "Winter 2021"
+      url: /teaching/w21_5610_pgm/
+
+- title: "Foundations of Emerging Technologies"
+  number: "CS 410/510"
+  institution: psu
+  offerings:
+    - term: "Fall 2021"
+      url: /teaching/f21_4510_fet/
+
+- title: "Selected Lectures at CCUT"
+  number: ""
+  institution: psu
+  offerings:
+    - term: "Spring 2025"
+      url: /teaching/s25_ccut/
+    - term: "Spring 2024"
+      url: /teaching/s24_ccut/
+
+- title: "Analysis of Algorithms"
+  number: "CSCE 629"
+  institution: tamu
+  offerings:
+    - term: "Fall 2019"
+      url: /teaching/f19_629_alg/
+
+- title: "Quantum Algorithms"
+  number: "CSCE 440/640"
+  institution: tamu
+  offerings:
+    - term: "Spring 2019"
+      url: /teaching/s19_4640_qc/
+
+- title: "Foundations of Post-Quantum Cryptography"
+  number: "CSCE 689"
+  institution: tamu
+  offerings:
+    - term: "Fall 2018"
+      url: /teaching/f18_689_pqc/
+
+- title: "Topics in Quantum Safe Cryptography"
+  number: "QIC 891"
+  institution: waterloo
+  offerings:
+    - term: "Spring 2016"
+      url: /teaching/s16_uw_pqc/
+
+- title: "Quantum Algorithms for Number Theory Problems"
+  number: "QIC 890/891"
+  institution: waterloo
+  offerings:
+    - term: "Spring 2015"
+      url: /teaching/su15_uw_qalg/
+
+- title: "Introduction to Theory of Computation"
+  number: "CMPSC 464"
+  institution: psu_ta
+  role: "Teaching Assistant"
+  note: "Prof. Sean Hallgren. Received Outstanding Teaching Assistant Award."
+  note_url: /files/docs/2012_ta_award.pdf
+  offerings:
+    - term: "Spring 2011"
+    - term: "Fall 2011"
+
+- title: "Introduction to System Programming"
+  number: "CMPSC 311"
+  institution: psu_ta
+  role: "Teaching Assistant"
+  note: "Prof. Don Heller."
+  offerings:
+    - term: "Fall 2008"

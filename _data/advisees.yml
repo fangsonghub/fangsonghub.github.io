@@ -1,0 +1,140 @@
+- name: "Daniel Liang"
+  url: https://daniel-you-liang.github.io/
+  role: postdoc
+  institution: "Portland State U"
+  note: "jointly with Dr. Nai-Hui Chia @ Rice University"
+  year_start: 2023
+  year_end: 2025
+  placements:
+    - title: "Research staff @ MIT Lincoln Lab"
+      url: https://www.ll.mit.edu/
+      year: 2025
+#    - title: "Assistant Professor @ Some University"
+#      url: https://example.edu
+#      year: 2027
+
+- name: "Nikhil Pappu"
+  url: http://nikhilpappu.info/
+  role: phd
+  institution: "Portland State U"
+  year_start: 2021
+
+- name: "Mehil Agarwal"
+  url: https://mehil.info/
+  role: phd
+  institution: "Portland State U"
+  year_start: 2021
+
+- name: "Chuhan Lu"
+  url: https://chuhanlu.github.io/
+  role: phd
+  institution: "Portland State U"
+  year_start: 2020
+  year_end: 2025
+  placement: "Postdoc @ Rice University"
+
+- name: "Ben Hamlin"
+  url: https://galois.com/team/ben-hamlin/
+  role: phd
+  institution: "Portland State U"
+  year_start: 2020
+  year_end: 2024
+  placement: "Researcher & Engineer @ Galois, Portland"
+  placement_url: https://galois.com/
+
+- name: "Shraya Ramamoorthy"
+  role: undergrad
+  institution: "Portland State U"
+  note: "MCECS URMP"
+  note_url: https://www.pdx.edu/engineering/past-urmp-video-presentations
+  year_start: 2023
+  year_end: 2023
+
+- name: "Felina Kang"
+  role: undergrad
+  institution: "Portland State U"
+  note: "NSF REU"
+  year_start: 2022
+  year_end: 2022
+
+- name: "Grant VanDomelen"
+  role: undergrad
+  institution: "Portland State U"
+  note: "NSF REU"
+  year_start: 2022
+  year_end: 2022
+  placement: "Ph.D. at Portland State U"
+
+- name: "Jackson Morris"
+  url: https://jrexmo.github.io/
+  role: undergrad
+  institution: "UCLA"
+  year_start: 2020
+  year_end: 2021
+  placement: "Ph.D. at UCSD"
+  
+- name: "Davis Beilue"
+  role: undergrad
+  institution: "Texas A&M U"
+  note: "Undergraduate Research Scholar"
+  year_start: 2019
+  year_end: 2020
+
+- name: "Darryl Cherian Jacob"
+  role: undergrad
+  institution: "Texas A&M U"
+  note: "Undergraduate Research Scholar"
+  year_start: 2019
+  year_end: 2020
+
+- name: "Marko Balogh"
+  role: undergrad
+  institution: "Portland State U"
+  note: "Honors Thesis"
+  year_start: 2016
+  year_end: 2017
+
+- name: "Edward Eaton"
+  role: undergrad
+  institution: "University of Waterloo"
+  note: "REU"
+  year_start: 2014
+  year_end: 2014
+  placement: "Ph.D. @ University of Waterloo"
+
+- name: "Stella Wang"
+  role: highschool
+  school: "Jesuit High School"
+  school_url: https://www.jesuitportland.org/
+  program: "Saturday Academy ASE"
+  program_url: https://www.saturdayacademy.org/ase
+  year: 2023
+  placement: "CS & Psychology @ Duke"
+  talk_url: https://youtu.be/fnzCSRMu5OE?si=ZGyMN_v7OJfnfrcE&t=5463
+
+- name: "Jeanette Ca"
+  role: highschool
+  school: "Clackamas High School"
+  school_url: https://chs.nclack.k12.or.us/
+  program: "Saturday Academy ASE"
+  program_url: https://www.saturdayacademy.org/ase
+  year: 2023
+  talk_url: https://youtu.be/6WAUJL9ZgbA?si=RYz_ahHxU1ZWwkid&t=5587
+
+- name: "Sydney Von Arx"
+  role: highschool
+  school: "Lake Oswego High School"
+  school_url: https://www.losdschools.org/site/Default.aspx?PageID=25
+  program: "Saturday Academy ASE"
+  program_url: https://www.saturdayacademy.org/ase
+  year: 2018
+  placement: "CS @ Stanford"
+
+- name: "Marshal Xu"
+  role: highschool
+  school: "Lincoln High School"
+  school_url: https://www.pps.net/Domain/136
+  program: "Saturday Academy ASE"
+  program_url: https://www.saturdayacademy.org/ase
+  year: 2018
+  placement: "CS @ UPenn"

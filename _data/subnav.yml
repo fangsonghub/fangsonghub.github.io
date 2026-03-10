@@ -1,0 +1,25 @@
+research:
+  - title: Publications
+    url: /research/#publications
+  - title: Grants
+    url: /research/#grant-awards
+  - title: Talks
+    url: /research/#selected-talks
+
+teaching:
+#  - title: Courses
+#    url: /teaching/
+
+advising:
+#  - title: Students
+#    url: /advise/
+#  - title: Prospective
+#    url: /advise/re/
+
+activities:
+#  - title: Overview
+#    url: /activity/
+#  - title: Shonan 2023
+#    url: /activity/shonan198/
+#  - title: Quantum Day 2017
+#    url: /activity/w17qpdx/

@@ -1,0 +1,62 @@
+{% assign roles = "postdoc,phd,undergrad,highschool" | split: "," %}
+{% assign role_labels = "Postdoc,Ph.D.,Undergrad,High School" | split: "," %}
+
+{% for role in roles %}
+{% assign role_advisees = site.data.advisees | where: "role", role %}
+{% if role_advisees.size > 0 %}
+{% assign role_index = forloop.index0 %}
+<div class="pub-year-group advising-group">
+    <div class="pub-year-label advising-role-label">
+	{{ role_labels[role_index] }}
+    </div>
+    <div class="advising-list">
+	{% for advisee in role_advisees %}
+	<div class="advisee-item">
+	    <div class="advisee-name">
+		{% if advisee.url %}
+		<a href="{{ advisee.url }}" target="_blank">{{ advisee.name }}</a>
+		{% else %}
+		{{ advisee.name }}
+		{% endif %}
+		{% if advisee.role == "highschool" %}
+		{% if advisee.school_url %}— <a href="{{ advisee.school_url }}" target="_blank">{{ advisee.school }}</a>
+		{% else %}— {{ advisee.school }}{% endif %}
+		{% if advisee.program %}
+		— <a href="{{ advisee.program_url }}" target="_blank">{{ advisee.program }}</a>
+		{% endif %}
+		{% else %}
+		— {{ advisee.institution }}
+		{% if advisee.note %}
+		(<a {% if advisee.note_url %}href="{{ advisee.note_url }}" target="_blank"{% endif %}>{{ advisee.note }}</a>)
+		{% endif %}
+		{% endif %}
+	    </div>
+	    <div class="advisee-meta">
+		{% if advisee.role == "highschool" %}
+		{{ advisee.year }}
+		{% else %}
+		{{ advisee.year_start }}–{% if advisee.year_end %}{{ advisee.year_end }}{% else %}<em>present</em>{% endif %}
+		{% endif %}
+	    </div>
+	    {% if advisee.placements or advisee.placement or advisee.talk_url %}
+	    <div class="advisee-placement">
+		{% if advisee.placements %}
+		{% for p in advisee.placements %}
+		<div class="advisee-trajectory-item">
+		    <span>→{% if p.url %}<a href="{{ p.url }}" target="_blank">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>
+		</div>
+		{% endfor %}
+		{% elsif advisee.placement %}
+		<div>→{% if advisee.placement_url %}<a href="{{ advisee.placement_url }}" target="_blank">{{ advisee.placement }}</a>{% else %}{{ advisee.placement }}{% endif %}</div>
+		{% endif %}
+		{% if advisee.talk_url %}
+		<a href="{{ advisee.talk_url }}" class="pub-link" target="_blank">Talk</a>
+		{% endif %}
+	    </div>
+	    {% endif %}
+	</div>
+	{% endfor %}
+    </div>
+</div>
+{% endif %}
+{% endfor %}

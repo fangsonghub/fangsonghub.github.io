@@ -1,0 +1,347 @@
+# ============================================================
+# Publications
+# ============================================================
+
+- title: "A Cryptographic Perspective on the Verifiability of Quantum Advantage"
+  authors: "Nai-Hui Chia, Honghao Fu, Fang Song, Penghui Yao"
+  year: 2025
+  venue:
+    name: "ACM Transactions on Quantum Computing"
+    url: https://doi.org/10.1145/3773903
+  talks:
+    - name: "AQIS 2024"
+      url: http://aqis-conf.org/2024/
+      type: contributed
+  links:
+    doi: https://doi.org/10.1145/3773903
+    arxiv: https://arxiv.org/abs/2310.14464
+
+- title: "NISQ Security and Complexity via Simple Classical Reasoning"
+  authors: "Alexandru Cojocaru, Juan Garay, Qipeng Liu, Fang Song"
+  year: 2025
+  venue:
+    name: "TCC 2025"
+    url: https://tcc.iacr.org/2025/
+  talks:
+    - name: "QCrypt 2025"
+      url: https://qcrypt.net/2025/
+      type: contributed
+  links:
+    arxiv: https://arxiv.org/abs/2509.09900
+
+- title: "Parallel Kac's Walk Generates PRU"
+  authors: "Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, Mingnan Zhao"
+  year: 2025
+  venue:
+    name: "Preprint"
+  links:
+    arxiv: https://arxiv.org/abs/2504.14957
+
+- title: "Quantum State Learning Implies Circuit Lower Bounds"
+  authors: "Nai-Hui Chia, Daniel Liang, Fang Song"
+  year: 2025
+  venue:
+    name: "COLT 2025"
+    url: https://learningtheory.org/colt2025/index.html
+  talks:
+    - name: "TQC 2024"
+      url: https://tqc-conference.org/
+      type: contributed
+      video: https://www.youtube.com/live/kvKihUsu068
+  links:
+    doi: https://proceedings.mlr.press/v291/chia25a.html
+    arxiv: https://arxiv.org/abs/2405.10242
+
+- title: "Improved Quantum Lifting by Coherent Measure-and-Reprogram"
+  authors: "Alexandru Cojocaru, Juan Garay, Qipeng Liu, Fang Song"
+  year: 2024
+  venue:
+    name: "Asiacrypt 2024"
+    url: https://asiacrypt.iacr.org/2024/
+  links:
+    doi: https://link.springer.com/chapter/10.1007/978-981-96-0947-5_6
+    arxiv: https://arxiv.org/abs/2509.09896
+
+- title: "Generalized Hybrid Search and Applications"
+  authors: "Alexandru Cojocaru, Juan Garay, Fang Song"
+  year: 2024
+  venue:
+    name: "Asiacrypt 2024"
+    url: https://asiacrypt.iacr.org/2024/
+  links:
+    doi: https://link.springer.com/chapter/10.1007/978-981-96-0947-5_3
+    eprint: https://eprint.iacr.org/2023/798
+
+- title: "Quantum Pseudorandom Scramblers"
+  authors: "Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, Mingnan Zhao"
+  year: 2024
+  venue:
+    name: "TCC 2024"
+    url: https://tcc.iacr.org/2024/
+  talks:
+    - name: "QIP 2024"
+      url: https://qip2024.tw/
+      type: contributed
+  links:
+    arxiv: https://arxiv.org/abs/2309.08941
+    eprint: https://eprint.iacr.org/2024/1470
+
+- title: "Quantum Multi-Solution Bernoulli Search with Applications to Bitcoin's Post-Quantum Security"
+  authors: "Alexandru Cojocaru, Juan Garay, Aggelos Kiayias, Fang Song, Petros Wallden"
+  year: 2023
+  venue:
+    name: "Quantum, volume 7, 944"
+    url: https://doi.org/10.22331/q-2023-03-09-944
+  links:
+    doi: https://doi.org/10.22331/q-2023-03-09-944
+
+- title: "Quantum algorithms for attacking hardness assumptions in classical and post-quantum cryptography"
+  authors: "Jean-François Biasse, Xavier Bonnetain, Elena Kirshanova, André Schrottenloher, Fang Song"
+  year: 2022
+  venue:
+    name: "IET Information Security"
+    url: https://doi.org/10.1049/ise2.12081
+  links:
+    doi: https://doi.org/10.1049/ise2.12081
+
+- title: "Quantum Key-length Extension"
+  authors: "Joseph Jaeger, Fang Song, Stefano Tessaro"
+  year: 2021
+  venue:
+    name: "TCC 2021"
+    url: https://tcc.iacr.org/2021/
+  links:
+    doi: https://doi.org/10.1007/978-3-030-90459-3_8
+    arxiv: https://arxiv.org/abs/2105.01242
+    eprint: https://eprint.iacr.org/2021/579
+
+- title: "Oblivious Transfer is in MiniQCrypt"
+  authors: "Alex B. Grilo, Huijia Lin, Fang Song, Vinod Vaikuntanathan"
+  year: 2021
+  venue:
+    name: "EUROCRYPT 2021"
+    url: https://eurocrypt.iacr.org/2021/
+  talks:
+    - name: "QIP 2021"
+      url: https://www.mcqst.de/qip2021/
+      type: plenary
+  links:
+    arxiv: https://arxiv.org/abs/2011.14980
+    eprint: https://ia.cr/2020/1500
+
+- title: "Basing Cryptography on NP-hardness Using Quantum Reductions"
+  authors: "Nai-Hui Chia, Sean Hallgren, Fang Song"
+  year: 2020
+  venue:
+    name: "Quantum, 4, 312"
+    url: https://doi.org/10.22331/q-2020-08-27-312
+  talks:
+    - name: "QCrypt 2018"
+      url: http://2018.qcrypt.net/
+      type: contributed
+  links:
+    doi: https://doi.org/10.22331/q-2020-08-27-312
+    arxiv: https://arxiv.org/abs/1804.10309
+
+- title: "Quantum-secure Message Authentication via Blind-unforgeability"
+  authors: "Gorjan Alagic, Christian Majenz, Alexander Russell, Fang Song"
+  year: 2020
+  venue:
+    name: "EUROCRYPT 2020"
+    url: https://eurocrypt.iacr.org/2020/
+  links:
+    arxiv: https://arxiv.org/abs/1803.03761
+
+- title: "A Note on the Instantiability of the Quantum Random Oracle"
+  authors: "Edward Eaton, Fang Song"
+  year: 2020
+  venue:
+    name: "PQCrypto 2020"
+    url: https://pqcrypto2020.inria.fr/
+  links:
+    eprint: https://eprint.iacr.org/2019/1466
+
+- title: "General Linear Group Action on Tensors: A Candidate for Post-Quantum Cryptography"
+  authors: "Zhengfeng Ji, Youming Qiao, Fang Song, Aaram Yun"
+  year: 2019
+  venue:
+    name: "TCC 2019"
+    url: https://tcc.iacr.org/2019/
+  talks:
+    - name: "QIP 2020"
+      url: http://www.szpclab.com/qip2020
+      type: contributed
+  links:
+    arxiv: https://arxiv.org/abs/1906.04330
+    eprint: https://ia.cr/2019/687
+
+- title: "Quantum Security of Hash Functions and Property-preservation of Iterated Hashing"
+  authors: "Ben Hamlin, Fang Song"
+  year: 2019
+  venue:
+    name: "PQCrypto 2019"
+    url: http://pqcrypto2019.org/
+  links:
+    arxiv: https://arxiv.org/abs/1902.08709
+
+- title: "Pseudorandom Quantum States"
+  authors: "Zhengfeng Ji, Yi-Kai Liu, Fang Song"
+  year: 2018
+  venue:
+    name: "Crypto 2018"
+    url: https://crypto.iacr.org/2018/
+  links:
+    arxiv: https://arxiv.org/abs/1711.00385
+    eprint: https://eprint.iacr.org/2018/544
+  slides: /files/talks/prs-crypto18.pdf
+  video: https://www.youtube.com/watch?v=SuD-OvGKUWw&t=273s
+
+- title: "Quantum Collision-Finding in Non-Uniform Random Functions"
+  authors: "Marko Balogh, Edward Eaton, Fang Song"
+  year: 2018
+  venue:
+    name: "PQCrypto 2018"
+    url: http://www.math.fau.edu/pqcrypto2018/
+  links:
+    doi: https://link.springer.com/chapter/10.1007/978-3-319-79063-3_22
+    eprint: http://ia.cr/2017/688
+
+- title: "Quantum Security of NMAC and Related Constructions"
+  authors: "Fang Song, Aaram Yun"
+  year: 2017
+  venue:
+    name: "Crypto 2017"
+    url: https://www.iacr.org/conferences/crypto2017/
+  links:
+    doi: https://doi.org/10.1007/978-3-319-63715-0_10
+    eprint: https://eprint.iacr.org/2017/509
+
+- title: "Zero-knowledge Proof Systems for QMA"
+  authors: "Anne Broadbent, Zhengfeng Ji, Fang Song, John Watrous"
+  year: 2016
+  venue:
+    name: "FOCS 2016"
+    url: http://www.wisdom.weizmann.ac.il/~dinuri/focs16/CFP.html
+  note: "Journal version in SIAM J. Computing, 49(2), 245–283, 2020"
+  talks:
+    - name: "QIP 2017"
+      url: https://www.stationq.com/qip-2017/
+      type: contributed
+      video: https://www.youtube.com/watch?v=1fXLJBN-KfI
+  links:
+    doi: https://doi.org/10.1137/18M1193530
+    arxiv: http://arxiv.org/abs/1604.02804
+  slides: /files/talks/2016_focs_qzkqma.pdf
+
+- title: "Mitigating Multi-target Attacks in Hash-based Signatures"
+  authors: "Andreas Hülsing, Joost Rijneveld, Fang Song"
+  year: 2016
+  venue:
+    name: "PKC 2016"
+    url: http://troll.iis.sinica.edu.tw/pkc16/index.shtml
+  links:
+    doi: http://link.springer.com/chapter/10.1007/978-3-662-49384-7_15
+    eprint: http://ia.cr/2015/1256
+
+- title: "Efficient Quantum Algorithms for Computing Class Groups and Solving the Principal Ideal Problem in Arbitrary Degree Number Fields"
+  authors: "Jean-François Biasse, Fang Song"
+  year: 2016
+  venue:
+    name: "SODA 2016"
+    url: http://www.siam.org/meetings/da16/
+  talks:
+    - name: "QIP 2017"
+      url: https://www.stationq.com/qip-2017/
+      type: contributed
+  links:
+    doi: http://dx.doi.org/10.1137/1.9781611974331.ch64
+  slides: /files/talks/sunits_soda16.pdf
+
+- title: "Making Existential-Unforgeable Signatures Strongly Unforgeable in the Quantum Random-Oracle Model"
+  authors: "Edward Eaton, Fang Song"
+  year: 2015
+  venue:
+    name: "TQC 2015"
+    url: http://tqc2015.ulb.ac.be
+  links:
+    doi: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.TQC.2015.147
+    arxiv: http://arxiv.org/abs/1509.02944
+    eprint: http://eprint.iacr.org/2015/878
+
+- title: "A Note on Quantum Security for Post-Quantum Cryptography"
+  authors: "Fang Song"
+  year: 2014
+  venue:
+    name: "PQCrypto 2014"
+    url: http://pqcrypto2014.uwaterloo.ca/
+  links:
+    doi: http://link.springer.com/chapter/10.1007/978-3-319-11659-4_15
+    arxiv: http://arxiv.org/abs/1409.2187
+    eprint: http://eprint.iacr.org/2014/709
+  slides: /files/talks/qfred_pqc14.pdf
+  video: https://www.youtube.com/watch?v=kYUgmZsSKd0
+
+- title: "A Quantum Algorithm for Computing the Unit Group of an Arbitrary Degree Number Field"
+  authors: "Kirsten Eisenträger, Sean Hallgren, Alexei Kitaev, Fang Song"
+  year: 2014
+  venue:
+    name: "STOC 2014"
+    url: http://www.columbia.edu/~cs2035/stoc/stoc2014/
+  talks:
+    - name: "QIP 2015"
+      url: http://www.quantum-lab.org/qip2015/Program.php
+      type: plenary
+      video: https://www.youtube.com/watch?v=WiH1SKJvsrU
+  links:
+    doi: http://dl.acm.org/citation.cfm?id=2591860
+  slides: /files/talks/units_qip15.pdf
+
+- title: "Feasibility and Completeness of Cryptographic Tasks in the Quantum World"
+  authors: "Serge Fehr, Jonathan Katz, Fang Song, Hong-Sheng Zhou, Vassilis Zikas"
+  year: 2013
+  venue:
+    name: "TCC 2013"
+    url: http://www.iacr.org/workshops/tcc2013/
+  links:
+    doi: http://link.springer.com/chapter/10.1007/978-3-642-36594-2_16
+    eprint: https://eprint.iacr.org/2015/385.pdf
+
+- title: "Classical Cryptographic Protocols in a Quantum World"
+  authors: "Sean Hallgren, Adam Smith, Fang Song"
+  year: 2011
+  venue:
+    name: "CRYPTO 2011"
+    url: https://www.iacr.org/conferences/crypto2011/
+  note: "Invited to International Journal of Quantum Information, Vol. 13, No. 4 (2015)"
+  talks:
+    - name: "QIP 2011"
+      url: http://qip2011.quantumlah.org/scientificprogramme/
+      type: plenary
+  links:
+    doi: http://link.springer.com/chapter/10.1007/978-3-642-22792-9_23
+    arxiv: http://arxiv.org/abs/1507.01625
+    eprint: https://eprint.iacr.org/2015/687
+  slides: /files/talks/QSFE_Crypto11.pdf
+  video: http://www.iacr.org/cryptodb/data/paper.php?pubkey=23587
+
+# ============================================================
+# Other Manuscripts
+# ============================================================
+- title: "Early Days Following Grover's Quantum Search Algorithm"
+  type: manuscript
+  authors: "Fang Song"
+  year: 2017
+  venue:
+    name: "Lecture note"
+  note: "Summarizing basic results related to Grover's algorithm"
+  links:
+    arxiv: https://arxiv.org/abs/1709.01236
+
+- title: "On the Quantum Attacks Against Schemes Relying on the Hardness of Finding a Short Generator of an Ideal in Q(zeta_{p^n})"
+  type: manuscript
+  authors: "Jean-François Biasse, Fang Song"
+  year: 2015
+  venue:
+    name: "CACR Tech Report, CACR2015-12"
+    url: http://cacr.uwaterloo.ca/techreports/2015/cacr2015-12.pdf
+  note: "Poster at QIP'16. Mentioned in 'A Tricky Path to Quantum-Safe Encryption', Quanta Magazine, Sept 2015."

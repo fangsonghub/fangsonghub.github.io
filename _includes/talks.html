@@ -1,0 +1,36 @@
+{% assign youtube_url = "https://youtube.com/playlist?list=PLnxx8Tio1lOZUWz0TlsmMGCU-FyK1nHWK" %}
+<p class="talks-intro">Conference presentations are typically listed under each publication. Some recorded talks are collected in this <a href="{{ youtube_url }}" target="_blank">YouTube playlist</a>.</p>
+
+{% assign talks_by_year = site.data.talks | group_by: "year" | sort: "name" | reverse %}
+{% for year_group in talks_by_year %}
+<div class="pub-year-group">
+    <div class="pub-year-label">
+	{{ year_group.name }}
+    </div>
+    <div>
+	{% for talk in year_group.items %}
+	<div class="talk-item">
+	    <div class="talk-title">{{ talk.title }}</div>
+	    <div class="talk-venue">
+		{% if talk.venue.url %}
+		<a href="{{ talk.venue.url }}" target="_blank">{{ talk.venue.name }}</a>
+		{% else %}
+		{{ talk.venue.name }}
+		{% endif %}
+	    </div>
+	    <div class="talk-meta">
+		{{ talk.location }} · {{ talk.date }}
+		{% if talk.type == "tutorial" %}<span class="talk-type">(tutorial)</span>{% endif %}
+	    </div>
+	    {% if talk.links %}
+	    <div class="pub-links">
+		{% if talk.links.slides %}<a href="{{ site.url }}{{ talk.links.slides }}" class="pub-link" target="_blank">Slides</a>{% endif %}
+		{% if talk.links.notes %}<a href="{{ site.url }}{{ talk.links.notes }}" class="pub-link" target="_blank">Notes</a>{% endif %}
+		{% if talk.links.video %}<a href="{{ talk.links.video }}" class="pub-link" target="_blank">Video</a>{% endif %}
+	    </div>
+	    {% endif %}
+	</div>
+	{% endfor %}
+    </div>
+</div>
+{% endfor %}

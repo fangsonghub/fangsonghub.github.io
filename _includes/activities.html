@@ -1,0 +1,60 @@
+<!-- Program Committee -->
+<h2 id="program-committee">Program Committee</h2>
+<div class="pc-list">
+{% for conf in site.data.activities.pc %}
+<div class="pc-item">
+  <div class="pc-conf-header">
+    <span class="pc-conf-name">{{ conf.name }}</span>
+    {% if conf.full %}<span class="pc-conf-full">{{ conf.full }}</span>{% endif %}
+  </div>
+  <div class="course-offerings">
+    {% for offering in conf.offerings %}
+      <a href="{{ offering.url }}" class="course-term" target="_blank">{{ offering.year }}</a>
+      {% if offering.note %}<span class="activity-offering-note">{{ offering.note }}</span>{% endif %}
+      {% endfor %}
+  </div>
+</div>
+{% endfor %}
+</div>
+
+<!-- Organizer -->
+<h2 id="organizer">Organizer</h2>
+{% for item in site.data.activities.organizer %}
+<div class="pub-year-group">
+    <div class="pub-year-label activity-year-label">
+	{{ item.date | split: " " | last }}
+    </div>
+    <div class="talk-item">
+	<div class="talk-title">
+	    <a href="{% if item.url contains 'http' %}{{ item.url }}{% else %}{{ site.url }}{{ item.url }}{% endif %}" target="_blank">{{ item.title }}</a>
+	    {% if item.event %}<span class="talk-type">— {{ item.event }}</span>{% endif %}
+	</div>
+	<div class="talk-meta">
+	    {{ item.location }}{% if item.location and item.date %} · {% endif %}{{ item.date }}
+	</div>
+	{% if item.note %}
+	<div class="advisee-placement">{{ item.note }}</div>
+	{% endif %}
+    </div>
+</div>
+{% endfor %}
+
+<!-- Others -->
+<h2 id="others">Others</h2>
+{% for item in site.data.activities.others %}
+<div class="pub-year-group">
+    <div class="pub-year-label activity-year-label">
+	{{ item.date | split: " " | last }}
+    </div>
+    <div class="talk-item">
+	<div class="talk-title">
+	    {% if item.url %}<a href="{{ item.url }}" target="_blank">{{ item.event }}</a>{% else %}{{ item.event }}{% endif %}
+	    {% if item.title %}<span class="talk-type">— {{ item.title }}</span>{% endif %}
+	</div>
+	<div class="talk-meta">{{ item.date }}</div>
+	{% if item.note %}
+	<div class="advisee-placement">{{ item.note }}</div>
+	{% endif %}
+    </div>
+</div>
+{% endfor %}

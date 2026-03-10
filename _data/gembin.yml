@@ -1,0 +1,96 @@
+# ============================================================
+# Gem Bin — tips and resources for surviving academia in TCS
+# ============================================================
+
+- category: "Writing"
+  items:
+    - title: "The Sense of Style"
+      url: https://en.wikipedia.org/wiki/The_Sense_of_Style
+      author: "Steven Pinker"
+      author_url: https://stevenpinker.com/
+      favorite: true
+
+    - title: "Lectures on Mathematical Writing"
+      url: https://www.youtube.com/playlist?list=PLOdeqCXq1tXihn5KmyB2YTOqgxaUkcNYG
+      author: "Donald Knuth"
+      note: "Stanford 1987, YouTube playlist"
+      extra:
+        label: "Lecture notes PDF"
+        url: https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf
+
+    - title: "How to Write a Great Research Paper"
+      url: https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/
+      author: "Simon Peyton Jones"
+
+    - title: "Writing a Research Paper Backwards"
+      url: https://link.springer.com/content/pdf/10.1007/s42995-021-00120-z.pdf?pdf=button
+      note: "PDF"
+
+- category: "Presentation"
+  items:
+    - title: "Tips for Giving Clear Talks"
+      url: http://graphics.stanford.edu/~kayvonf/misc/cleartalktips.pdf
+      author: "Kayvon Fatahalian"
+      note: "PDF"
+      favorite: true
+
+    - title: "How to Present a Paper in TCS: A Speaker's Guide for Students"
+      url: http://ianparberry.com/pubs/speaker.pdf
+      author: "Ian Parberry"
+      note: "PDF"
+
+    - title: "How to Give a Technical Presentation"
+      url: https://homes.cs.washington.edu/~mernst/advice/giving-talk.html#slides
+      author: "Michael Ernst"
+
+    - title: "How to Give a Great Research Talk"
+      url: https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/
+      author: "Simon Peyton Jones, John Launchbury, John Hughes"
+      note: "SIGPLAN Notices 28(11), Nov 1993"
+
+- category: "Service"
+  items:
+    - title: "A Guide for New Program Committee Members at TCS Conferences"
+      url: https://arxiv.org/abs/2105.02773
+      author: "Dulek, Jeffery, Majenz, Schaffner, Speelman, de Wolf"
+      note: "arXiv:2105.02773"
+
+    - title: "A Guide for New Referees in Theoretical Computer Science"
+      url: https://dl.acm.org/doi/10.1145/74074.74090
+      author: "Ian Parberry"
+      note: "PDF"
+
+    - title: "A Guide for Session Chairs"
+      url: https://emeryblogger.com/2016/06/08/a-guide-for-session-chairs/
+      author: "Emery Berger"
+
+    - title: "Running a Program Committee Meeting"
+      url: https://homes.cs.washington.edu/~mernst/advice/pc-meeting.html
+      author: "Michael Ernst"
+
+- category: "Grant"
+  items:
+    - title: "How to Write a Great Research Proposal"
+      url: https://www.microsoft.com/en-us/research/academic-program/how-to-write-a-great-research-proposal/
+      author: "Simon Peyton Jones and Alan Bundy"
+
+    - title: "Funding Opportunities and Tips"
+      url: https://thmatters.wordpress.com/funding-opportunities-and-tips/
+      author: "Theory Matters"
+
+    - title: "CAREER Proposal Examples and Comments"
+      url: https://thmatters.wordpress.com/funding-opportunities-and-tips/career-examples-proposalscomments/
+      author: "Theory Matters"
+
+    - title: "The Art and Science of Reviewing Proposals"
+      url: https://tipsforreviewers.nsf.gov/
+      author: "NSF"
+      note: "Orientation video"
+
+- category: "LaTeX"
+  items:
+    - title: "Overleaf Tutorial"
+      url: https://www.overleaf.com/learn
+
+    - title: "Tikz for Cryptographers"
+      url: https://www.iacr.org/authors/tikz/

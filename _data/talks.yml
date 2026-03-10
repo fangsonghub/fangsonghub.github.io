@@ -1,0 +1,111 @@
+- title: "Introduction to quantum pseudorandomness"
+  year: 2025
+  type: invited
+  venue:
+    name: "BIRS Workshop: Frontiers in Quantum Cryptography (25w5445)"
+    url: https://www.birs.ca/events/2025/5-day-workshops/25w5445
+  location: "Banff, Canada"
+  date: "April 2025"
+  links:
+    video: https://www.birs.ca/events/2025/5-day-workshops/25w5445/videos/watch/202504230910-Song.html
+    slides: /files/talks/202504_birs_qpr.pdf
+
+- title: "Tutorial on Quantum Computing"
+  year: 2022
+  type: tutorial
+  venue:
+    name: "IPAM Graduate Summer School on Post-quantum and Quantum Cryptography"
+    url: http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-post-quantum-and-quantum-cryptography/?tab=schedule
+  location: "Los Angeles, CA"
+  date: "July 2022"
+  links:
+    notes: /files/talks/2022_ipam_qc_live.pdf
+    video: https://youtu.be/62c8Kmg0-HU
+
+- title: "Quantum-secure key-length extension"
+  year: 2021
+  type: invited
+  venue:
+    name: "EWHA-KMS International Workshop on Cryptography"
+    url: https://sites.google.com/view/ewha-kms-iwc-2021/home
+  location: "Virtual"
+  date: "June 2021"
+
+- title: "Unpredictable Functions and Quantum-secure Authentication"
+  year: 2020
+  type: invited
+  venue:
+    name: "International Joint Conference on Theoretical Computer Science (IJTCS)"
+    url: https://econcs.pku.edu.cn/ijtcs2020/IJTCS2020.html
+  location: "Virtual"
+  date: "August 2020"
+
+- title: "Cybersecurity in a quantum world"
+  year: 2020
+  type: invited
+  venue:
+    name: "Portland Quantum Computing Meetup"
+    url: https://www.meetup.com/portland-quantum-computing-meetup-group/events/271106230/
+  location: "Virtual"
+  date: "August 2020"
+
+- title: "Zero-knowledge proofs meet quantum computing"
+  year: 2019
+  type: tutorial
+  venue:
+    name: "9th International Conference on Quantum Cryptography (QCrypt)"
+    url: http://2019.qcrypt.net/
+  location: "Montreal, Canada"
+  date: "August 2019"
+  links:
+    slides: /files/talks/201908_qcrypt_zk.pdf
+
+- title: "Cryptography from NP Hardness: can quantum help?"
+  year: 2019
+  type: invited
+  venue:
+    name: "2nd IAMCS Quantum Computation and Information Workshop"
+    url: https://iamcs.tamu.edu/quantum-computation-and-information-workshop
+  location: "College Station, TX"
+  date: "May 2019"
+  links:
+    slides: /files/talks/2IAMCS-Worst2Avg-Song.pdf
+
+- title: "Pseudorandom quantum states"
+  year: 2019
+  type: invited
+  venue:
+    name: "AMS Spring Central and Western Joint Sectional Meeting"
+    url: http://www.ams.org/meetings/sectional/2251_program.html
+  location: "Honolulu, HI"
+  date: "March 2019"
+
+- title: "Pseudorandom quantum states"
+  year: 2018
+  type: invited
+  venue:
+    name: "IAMCS Quantum Computation and Information Workshop"
+    url: https://iamcs.tamu.edu/quantum-computation-and-information-workshop/
+  location: "College Station, TX"
+  date: "September 2018"
+
+- title: "What are we talking about when we talk about post-quantum cryptography?"
+  year: 2016
+  type: invited
+  venue:
+    name: "Asia Forum on Post-quantum Cryptography"
+    url: http://www.pqcforum.org/
+  location: "Seoul, Korea"
+  date: "November 2016"
+  links:
+    slides: /files/talks/201611_fspqcasia.pdf
+    video: https://www.youtube.com/watch?v=n39-FOmNh5g
+
+- title: "Zero-knowledge proof systems for QMA"
+  year: 2016
+  type: invited
+  venue:
+    name: "QuICS Seminar, University of Maryland"
+    url: http://quics.umd.edu/seminar
+  location: "College Park, MD"
+  date: "October 2016"

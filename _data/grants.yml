@@ -1,0 +1,49 @@
+- funder: NSF
+  title: "Collaborative Research: FET: Small"
+  year_start: 2022
+  year_end: 2024
+  award:
+    number: "2224131"
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2224131
+
+- funder: Sony
+  title: "Sony Faculty Innovation Award"
+  year_start: 2022
+  year_end: 2023
+  award:
+    url: https://www.sony.com/en/SonyInfo/research-award-program/
+
+- funder: NSF
+  title: "FET: CAREER"
+  year_start: 2020
+  year_end: 2025
+  award:
+    number: "2054758"
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2054758
+  note: "CAREER Award"
+
+- funder: NSF
+  title: "AF: Small"
+  year_start: 2018
+  year_end: 2022
+  award:
+    number: "2041841"
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2041841
+  also:
+    number: "1816869"
+    url: https://nsf.gov/awardsearch/showAward?AWD_ID=1816869
+
+- funder: NSF
+  title: "AF: Medium: Collaborative Research"
+  year_start: 2018
+  year_end: 2022
+  award:
+    number: "2042414"
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2042414
+  also:
+    number: "1764042"
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1764042
+  supplements:
+    - title: "REU supplement"
+      year_start: 2021
+      year_end: 2022

@@ -1,0 +1,82 @@
+{% assign pubs = site.data.publications | where_exp: "p", "p.type != 'manuscript'" | sort: "year" | reverse %}
+{% assign manuscripts = site.data.publications | where: "type", "manuscript" | sort: "year" | reverse %}
+{% assign years = pubs | map: "year" | uniq %}
+
+{% for year in years %}
+<div class="pub-year-group">
+    <div class="pub-year-label" id="y{{ year }}">{{ year }}</div>
+    <ul class="pub-list">
+	{% for pub in pubs %}
+	{% if pub.year == year %}
+	<li class="pub-item">
+	    <div class="pub-title">{{ pub.title }}</div>
+	    <div class="pub-authors">{% include author_links.html authors=pub.authors %}</div>
+	    <div class="pub-venue">
+		{% if pub.venue.url %}
+		<a href="{{ pub.venue.url }}" target="_blank"><em>{{ pub.venue.name }}</em></a>
+		{% else %}
+		<em>{{ pub.venue.name }}</em>
+		{% endif %}
+	    </div>
+	    {% if pub.note %}
+	    <div class="pub-note">{{ pub.note }}</div>
+	    {% endif %}
+	    {% if pub.talks %}
+	    {% for talk in pub.talks %}
+	    <div class="pub-venue">
+		{% if talk.url %}<a href="{{ talk.url }}" target="_blank"><em>{{ talk.name }}</em></a>
+		{% else %}<em>{{ talk.name }}</em>{% endif %}
+		{% if talk.type == "plenary" %}<span class="pub-talk-type">(plenary talk)</span>
+		{% elsif talk.type == "invited" %}<span class="pub-talk-type">(invited talk)</span>
+		{% elsif talk.type == "contributed" %}<span class="pub-talk-type">(contributed talk)</span>
+		{% endif %}
+		{% if talk.video %}[<a href="{{ talk.video }}" target="_blank">video</a>]{% endif %}
+	    </div>
+	    {% endfor %}
+	    {% endif %}
+	    <div class="pub-links">
+		{% if pub.links.doi %}<a href="{{ pub.links.doi }}" class="pub-link" target="_blank">DOI</a>{% endif %}
+		{% if pub.links.arxiv %}<a href="{{ pub.links.arxiv }}" class="pub-link" target="_blank">arXiv</a>{% endif %}
+		{% if pub.links.eprint %}<a href="{{ pub.links.eprint }}" class="pub-link" target="_blank">ePrint</a>{% endif %}
+		{% if pub.slides %}<a href="{{ pub.slides }}" class="pub-link" target="_blank">Slides</a>{% endif %}
+		{% if pub.video %}<a href="{{ pub.video }}" class="pub-link" target="_blank">Video</a>{% endif %}
+	    </div>
+	</li>
+	{% endif %}
+	{% endfor %}
+    </ul>
+</div>
+{% endfor %}
+
+{% if manuscripts.size > 0 %}
+<div class="pub-year-group">
+    <div class="pub-year-label pub-year-label--manuscripts" id="manuscripts">
+	Other<br>Manuscripts
+    </div>
+    <ul class="pub-list">
+	{% for pub in manuscripts %}
+	<li class="pub-item">
+	    <div class="pub-title">{{ pub.title }}</div>
+	    <div class="pub-authors">{% include author_links.html authors=pub.authors %}</div>
+	    <div class="pub-venue">
+		{% if pub.venue.url %}
+		<a href="{{ pub.venue.url }}" target="_blank"><em>{{ pub.venue.name }}</em></a>
+		{% else %}
+		<em>{{ pub.venue.name }}</em>
+		{% endif %}
+	    </div>
+	    {% if pub.note %}
+	    <div class="pub-note">{{ pub.note }}</div>
+	    {% endif %}
+	    <div class="pub-links">
+		{% if pub.links.doi %}<a href="{{ pub.links.doi }}" class="pub-link" target="_blank">DOI</a>{% endif %}
+		{% if pub.links.arxiv %}<a href="{{ pub.links.arxiv }}" class="pub-link" target="_blank">arXiv</a>{% endif %}
+		{% if pub.links.eprint %}<a href="{{ pub.links.eprint }}" class="pub-link" target="_blank">ePrint</a>{% endif %}
+		{% if pub.slides %}<a href="{{ pub.slides }}" class="pub-link" target="_blank">Slides</a>{% endif %}
+		{% if pub.video %}<a href="{{ pub.video }}" class="pub-link" target="_blank">Video</a>{% endif %}
+	    </div>
+	</li>
+	{% endfor %}
+    </ul>
+</div>
+{% endif %}
