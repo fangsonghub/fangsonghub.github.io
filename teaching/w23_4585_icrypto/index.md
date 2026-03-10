@@ -12,9 +12,9 @@ modified: <2022-12-19 Mon>
 *  <2022-12-19 Mon> Course page is up and running! Stay tuned ~ 
 
 ## About
-*  **Syllabus**: [PDF]({{base}}/teaching/w23_4585_icrypto/w23_4585_icrypto_syllabus.pdf){:target="_blank"}.
+*  **Syllabus**: [PDF]({{ site.url }}/teaching/w23_4585_icrypto/w23_4585_icrypto_syllabus.pdf){:target="_blank"}.
 *  **Lectures**: M/W 14:00 - 15:50 @ CH (Cramer Hall) 382.
-*  **Instructor**: [Fang Song]({{base}}/) (fsong
+*  **Instructor**: [Fang Song]({{ site.url }}/) (fsong
    "AT" pdx.edu). **Office hours**: W 11:30 - 13:00 @ FAB 120-25 or Zoom (See link in Slack and Google Calendar). Book additional slots available [here](https://w23-pdx-crypto.youcanbook.me/){:target="_blank"}.
 *  **Google classroom**: join with code _biqddg3_. 
 *  **Overview**: Cryptography is usually described as the _art_ of
@@ -43,5 +43,5 @@ Lindell](http://u.cs.biu.ac.il/~lindell/){:target="_blank"}. Chapman
 and Hall/CRC, Dec. 2020. On course reserve at PSU libary.
 [link](https://search.library.pdx.edu/permalink/f/p82vj0/CP71356832000001451).
 * **Useful materials**: see the
-  [RESOURCE]({{base}}/teaching/w23_4585_icrypto/resource/) page.
+  [RESOURCE]({{ site.url }}/teaching/w23_4585_icrypto/resource/) page.
 

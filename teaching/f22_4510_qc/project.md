@@ -59,7 +59,7 @@ including open problems.
    4) further discussion and open questions. (10%)
 *  **Report format**: I recommend you to typeset your reports in
    _LaTeX_, and manage your bibliography using BibTeX. The [resource
-   page]({{base}}/teaching/f22_4510_qc/resource/) has links to
+   page]({{ site.url }}/teaching/f22_4510_qc/resource/) has links to
    materials to pick up LaTeX. You should use single-column,
    single-space (between lines) format on letter-size papers. You will
    earn extra credit if you typeset your final report in LaTeX.

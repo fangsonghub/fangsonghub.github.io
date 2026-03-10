@@ -47,10 +47,10 @@ modified: <2020-03-04 Thu>
 {% endcomment %}
 ## Assignments
 
-Earn extra credit by typing in LaTeX. See [Resource]({{base}}/teaching/w21_5864_alg/resource/) for LaTeX tutorials. Submit on [Google Classroom](https://classroom.google.com/c/MjU1MTE1MjU4MDI3?cjc=ncoc6b2){:target="_blank"} (Classcode: ncoc6b2).
+Earn extra credit by typing in LaTeX. See [Resource]({{ site.url }}/teaching/w21_5864_alg/resource/) for LaTeX tutorials. Submit on [Google Classroom](https://classroom.google.com/c/MjU1MTE1MjU4MDI3?cjc=ncoc6b2){:target="_blank"} (Classcode: ncoc6b2).
 *  Homework 2
-   [[PDF]({{base}}/teaching/w21_5610_pgm/w21_pgm_hw2.pdf){:target="_blank"},[TEX]({{base}}/teaching/w21_5610_alg/w21_pgm_hw2.tex){:target="_blank"}],
+   [[PDF]({{ site.url }}/teaching/w21_5610_pgm/w21_pgm_hw2.pdf){:target="_blank"},[TEX]({{ site.url }}/teaching/w21_5610_alg/w21_pgm_hw2.tex){:target="_blank"}],
    due 12pm, 02/25/2021. 
 *  Homework 1
-   [[PDF]({{base}}/teaching/w21_5610_pgm/w21_pgm_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/w21_5610_alg/w21_pgm_hw1.tex){:target="_blank"}],
+   [[PDF]({{ site.url }}/teaching/w21_5610_pgm/w21_pgm_hw1.pdf){:target="_blank"},[TEX]({{ site.url }}/teaching/w21_5610_alg/w21_pgm_hw1.tex){:target="_blank"}],
    due 12pm, 01/28/2021. 

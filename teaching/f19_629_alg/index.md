@@ -15,14 +15,14 @@ modified: <2019-08-21 Wed>
 
 ## About
 *  **Syllabus**:
-   [PDF]({{base}}/teaching/f19_629_alg/CSCE629_f19_syllabus.pdf){:target="_blank"}. 
+   [PDF]({{ site.url }}/teaching/f19_629_alg/CSCE629_f19_syllabus.pdf){:target="_blank"}. 
 *  **Overview**: This course will cover core techniques for designing
    and analyzing _efficient_ algorithms. Main topics include:
    divide-&-conquer, dynamic programming, greedy algorithms, graph
    algorithms, theory of NP-Completeness, and selected topics that
    reflect recent developments. 
 *  **Prerequisite**: CSCE 411 or equivalent. Talk with me if you are uncertain. 
-*  **Instructor**: Prof. [Fang Song]({{base}}/) @ HRBB 427B 
+*  **Instructor**: Prof. [Fang Song]({{ site.url }}/) @ HRBB 427B 
 *  **Email**: fang.song "AT" tamu.edu. Start your email subject line
    with "f19-629". For quick response, please communicate with Piazza.
 *  **Lectures**: M/W/F 10:20 am-11:10 am @ HRBB 113
@@ -32,7 +32,7 @@ modified: <2019-08-21 Wed>
 E. Leiserson,Ronald L. Rivest and Clifford Stein. _Introduction to
 Algorithms, 3rd edition_, MIT Press, 2009. [Library
 elink](https://libcat.tamu.edu/vwebv/holdingsInfo?bibId=4828649){:target="_blank"}
-*	**Resource** [page]({{base}}/teaching/f19_629_alg/resource/):
+*	**Resource** [page]({{ site.url }}/teaching/f19_629_alg/resource/):
      check constantly for additional materials that are helpful.
 *  **Piazza**: We will use Piazza for discussion and
  communication. Find our [class page

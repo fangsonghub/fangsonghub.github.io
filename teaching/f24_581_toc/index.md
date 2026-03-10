@@ -11,8 +11,8 @@ modified: <2024-10-07 Mon>
 
 ## About
 *  **Syllabus**:
-   [PDF]({{base}}/teaching/f24_581_toc/f24_581_toc_syllabus.pdf){:target="_blank"}.
-*  **Instructor**: Prof. [Fang Song]({{base}}/) 
+   [PDF]({{ site.url }}/teaching/f24_581_toc/f24_581_toc_syllabus.pdf){:target="_blank"}.
+*  **Instructor**: Prof. [Fang Song]({{ site.url }}/) 
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
    with "f24-581". Slack is preferred. 
 *  **Lectures**: MW 14:00 - 15:15 @ EB 92
@@ -28,7 +28,7 @@ modified: <2024-10-07 Mon>
 *  **Text**: [**S3**] Michael Sipser. _Introduction to the Theory of
    Computation_, 3rd ed. Cengage Learning, 2012. Some topics will rely
    on lecture notes and additional readings. See [Resource
-   page]({{base}}/teaching/f24_581_toc/resource/) for useful
+   page]({{ site.url }}/teaching/f24_581_toc/resource/) for useful
    materials.
 
 

@@ -11,8 +11,8 @@ modified: <2024-10-07 Mon>
 
 ## About
 *  **Syllabus**:
-   [PDF]({{base}}/teaching/f24_4583_qc/f24_4583_qc_syllabus.pdf){:target="_blank"}. 
-*  **Instructor**: Prof. [Fang Song]({{base}}/) 
+   [PDF]({{ site.url }}/teaching/f24_4583_qc/f24_4583_qc_syllabus.pdf){:target="_blank"}. 
+*  **Instructor**: Prof. [Fang Song]({{ site.url }}/) 
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
    with "f24-4583". Slack is preferred. 
 *  **Lectures**: MW 11:30 - 13:20 @ LH 301
@@ -33,5 +33,5 @@ modified: <2024-10-07 Mon>
    algebra, and basic probability theory will be essential. Some
    coding proficiency is required (preferably in Python). 
 *  **Text**: The [Resource
-   page]({{base}}/teaching/f24_4583_qc/resource/) contains additional
+   page]({{ site.url }}/teaching/f24_4583_qc/resource/) contains additional
    useful materials.

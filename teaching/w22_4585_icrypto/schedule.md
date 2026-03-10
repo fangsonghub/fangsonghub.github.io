@@ -38,7 +38,7 @@ modified: <2021-02-15 Tue>
 ||R,02/17 | KEM/DEM <br> Lattice-crypto | **KL** 12.3,14.3 <br> Barak's note [PDF](https://files.boazbarak.org/crypto/lec_12_lattices.pdf){:target="_blank"} Peikert's tutorial [Youtube](https://youtu.be/K_fNK04yG4o){:target="_blank"} |
 |8|T,02/22| Digital signatures | **KL** 13.1-13.3 |
 ||R,02/24 | Random-oracle <br> PKC with RO | **KL** 6.5,12.5.4,13.4|
-|9|T,03/01| TLS <br> (Post-)Quantum cryptography | **KL** 13.6,13.7,14 <br> FS's talk [Slides [PDF]({{base}}/files/talks/201611_fspqcasia.pdf){:target="_blank"}] [[Video](https://www.youtube.com/watch?v=n39-FOmNh5g){:target="_blank"}] |
+|9|T,03/01| TLS <br> (Post-)Quantum cryptography | **KL** 13.6,13.7,14 <br> FS's talk [Slides [PDF]({{ site.url }}/files/talks/201611_fspqcasia.pdf){:target="_blank"}] [[Video](https://www.youtube.com/watch?v=n39-FOmNh5g){:target="_blank"}] |
 ||R,03/03 | Ethics | Rogaway's essay: <br> [The Moral Character of Cryptographic Work](https://web.cs.ucdavis.edu/~rogaway/papers/moral.html){:target="_blank"} |
 |10|T,03/08| Selected topics: <br> zero-knowledge proofs <br> Bitcoin | |
 ||R,03/10 | Review |  |

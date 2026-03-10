@@ -12,10 +12,10 @@ modified: <2018-11-12 Mon>
 
 ## Announcement
 *  <2018-09-29 Sat> A LaTeX template for scribe notes
-[[TeX]({{base}}/teaching/f18_689_pqc/f18_scribe.tex) [PDF]({{base}}/teaching/f18_689_pqc/f18_scribe.pdf)]. 
+[[TeX]({{ site.url }}/teaching/f18_689_pqc/f18_scribe.tex) [PDF]({{ site.url }}/teaching/f18_689_pqc/f18_scribe.pdf)]. 
 
 *  <2018-09-29 Sat> Information about project available on
-[Project]({{base}}/teaching/f18_689_pqc/project/) page.
+[Project]({{ site.url }}/teaching/f18_689_pqc/project/) page.
 
 ## About
 
@@ -24,14 +24,14 @@ modified: <2018-11-12 Mon>
    thoery). This course will involve reading and writing lots of
    mathematical proofs. 
 *  **Syllabus**:
-   [PDF]({{base}}/teaching/f18_689_pqc/CSCE689_PQC_F18_syllabus.pdf){:target="_blank"} 
-*  **Instructor**: Prof. [Fang Song]({{base}}/) @ HRBB 427B 
+   [PDF]({{ site.url }}/teaching/f18_689_pqc/CSCE689_PQC_F18_syllabus.pdf){:target="_blank"} 
+*  **Instructor**: Prof. [Fang Song]({{ site.url }}/) @ HRBB 427B 
 *  **Email**: fang.song "AT" tamu.edu. Start your subject line with "F18-PQC"
 *  **Lectures**: T/TR 5:30 – 6:45pm @ HRBB 126
 *  **Office hours**: W 10:30 am - 12pm and by appointment
 *  **Text**: no required ones. We will primarily follow lecture notes
 and read research papers. <!-- See the
-**resource** [page]({{base}}/teaching/f18_689_pqc/resource/) for
+**resource** [page]({{ site.url }}/teaching/f18_689_pqc/resource/) for
 useful materials. --> 
 
 
@@ -72,7 +72,7 @@ useful materials. -->
 
 ## Homwork and Exercise 
 
-* Exercise 1 [[PDF]({{base}}/teaching/f18_689_pqc/f18_pqc_ex1.pdf){:target="_blank"} [TeX]({{base}}/teaching/f18_689_pqc/f18_pqc_ex1.tex){:target="_blank"}]
-* Homework 1 [[PDF]({{base}}/teaching/f18_689_pqc/f18_689_hw1.pdf){:target="_blank"} [TeX]({{base}}/teaching/f18_689_pqc/f18_689_hw1.tex){:target="_blank"}]
+* Exercise 1 [[PDF]({{ site.url }}/teaching/f18_689_pqc/f18_pqc_ex1.pdf){:target="_blank"} [TeX]({{ site.url }}/teaching/f18_689_pqc/f18_pqc_ex1.tex){:target="_blank"}]
+* Homework 1 [[PDF]({{ site.url }}/teaching/f18_689_pqc/f18_689_hw1.pdf){:target="_blank"} [TeX]({{ site.url }}/teaching/f18_689_pqc/f18_689_hw1.tex){:target="_blank"}]
 
 

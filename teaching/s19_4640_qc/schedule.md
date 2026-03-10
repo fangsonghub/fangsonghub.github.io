@@ -12,7 +12,7 @@ modified: <2019-02-18 Mon>
 
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
-|1| M,01/14  | Intro (by Dr. Klappenecker) <br> Review: linear algebra and probability | Read the intro slides [PDF]({{base}}/teaching/s19_4640_qc/s19_qc_lec1_intro.pdf){:target="_blank"} <br> Study materials on [Piazza](https://piazza.com/tamu/spring2019/csce440640) <br> **HW1** out (see below) <br> due 01/28/2019 |
+|1| M,01/14  | Intro (by Dr. Klappenecker) <br> Review: linear algebra and probability | Read the intro slides [PDF]({{ site.url }}/teaching/s19_4640_qc/s19_qc_lec1_intro.pdf){:target="_blank"} <br> Study materials on [Piazza](https://piazza.com/tamu/spring2019/csce440640) <br> **HW1** out (see below) <br> due 01/28/2019 |
 || W,01/16 | *QIP'19, class cancelled* | Suggested: Aaronson [Lecture](http://www.scottaaronson.com/democritus/lec9.html){:target="_blank"} <br> watch [videos](http://michaelnielsen.org/blog/quantum-computing-for-the-determined/){:target="_blank"} by M. Nielsen |
 |2| M,01/21 | *MLK day, no class* || 
 || W,01/23 | Qubit, unitary operation, measurement | Watrous Lec1 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/01.pdf){:target="_blank"} <br> KLM Chapter 1,3.1,3.2 |
@@ -48,11 +48,11 @@ modified: <2019-02-18 Mon>
 
 ## Assignments
 
-*  Homework 1 [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw1.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw1.tex){:target="_blank"}], due 01/28/2019, before class. 
-*  Homework 2 [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw2.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw2.tex){:target="_blank"}], due 02/13/2019, before class. 
+*  Homework 1 [[PDF]({{ site.url }}/teaching/s19_4640_qc/s19_4640_hw1.pdf){:target="_blank"},[TEX]({{ site.url }}/teaching/s19_4640_qc/s19_4640_hw1.tex){:target="_blank"}], due 01/28/2019, before class. 
+*  Homework 2 [[PDF]({{ site.url }}/teaching/s19_4640_qc/s19_4640_hw2.pdf){:target="_blank"},[TEX]({{ site.url }}/teaching/s19_4640_qc/s19_4640_hw2.tex){:target="_blank"}], due 02/13/2019, before class. 
 *  Homework 3
-   [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw3.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw3.tex){:target="_blank"}],
+   [[PDF]({{ site.url }}/teaching/s19_4640_qc/s19_4640_hw3.pdf){:target="_blank"},[TEX]({{ site.url }}/teaching/s19_4640_qc/s19_4640_hw3.tex){:target="_blank"}],
    due 03/06/2019, before class.
-*  Homework 4 [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw4.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw4.tex){:target="_blank"}], due 04/10/2019, before class. 
-*  Homework 5 [[PDF]({{base}}/teaching/s19_4640_qc/s19_4640_hw5.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_4640_hw5.tex){:target="_blank"}], due 04/29/2019, before class. 
-*  Midterm Exam [[PDF]({{base}}/teaching/s19_4640_qc/s19_qc_midterm.pdf){:target="_blank"},[TEX]({{base}}/teaching/s19_4640_qc/s19_qc_midterm.tex){:target="_blank"}], due 03/20/2019, 11:59pm AoE.
+*  Homework 4 [[PDF]({{ site.url }}/teaching/s19_4640_qc/s19_4640_hw4.pdf){:target="_blank"},[TEX]({{ site.url }}/teaching/s19_4640_qc/s19_4640_hw4.tex){:target="_blank"}], due 04/10/2019, before class. 
+*  Homework 5 [[PDF]({{ site.url }}/teaching/s19_4640_qc/s19_4640_hw5.pdf){:target="_blank"},[TEX]({{ site.url }}/teaching/s19_4640_qc/s19_4640_hw5.tex){:target="_blank"}], due 04/29/2019, before class. 
+*  Midterm Exam [[PDF]({{ site.url }}/teaching/s19_4640_qc/s19_qc_midterm.pdf){:target="_blank"},[TEX]({{ site.url }}/teaching/s19_4640_qc/s19_qc_midterm.tex){:target="_blank"}], due 03/20/2019, 11:59pm AoE.

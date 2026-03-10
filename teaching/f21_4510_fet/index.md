@@ -20,8 +20,8 @@ modified: <2021-10-04 Mon>
 
 ## About
 *  **Syllabus**:
-   [PDF]({{base}}/teaching/f21_4510_fet/f21_4510_fet_syllabus.pdf){:target="_blank"}.
-*  **Instructor**: Prof. [Fang Song]({{base}}/) 
+   [PDF]({{ site.url }}/teaching/f21_4510_fet/f21_4510_fet_syllabus.pdf){:target="_blank"}.
+*  **Instructor**: Prof. [Fang Song]({{ site.url }}/) 
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
    with "f21-4510-fet". 
 *  **Lectures**: TR 10:00 - 11:50 @ Hoff 109. 
@@ -41,11 +41,11 @@ modified: <2021-10-04 Mon>
    contains extensive practice on math and analytical problems as well
    as writing mathematical proofs.
 *  **Text**: No required text. See [Resource
-   page]({{base}}/teaching/w21_5610_pgm/resource/) for suggested texts
+   page]({{ site.url }}/teaching/w21_5610_pgm/resource/) for suggested texts
    and additional useful materials.
 {% comment %}
 *  **Zoom links**: Check
-   "[Schedule]({{base}}/teaching/f21_4510_fet/schedule/)" page. Also
+   "[Schedule]({{ site.url }}/teaching/f21_4510_fet/schedule/)" page. Also
    check "PSU Classes" calendar under your PSU Google Suite.
 {% endcomment %}
   

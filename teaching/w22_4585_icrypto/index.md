@@ -13,9 +13,9 @@ modified: <2021-02-08 Tue>
 *  <2021-12-13 Mon> Course page is up and running! Stay tuned~ 
 
 ## About
-*  **Syllabus**: [PDF]({{base}}/teaching/w22_4585_icrypto/w22_4585_icrypto_syllabus.pdf){:target="_blank"}.
+*  **Syllabus**: [PDF]({{ site.url }}/teaching/w22_4585_icrypto/w22_4585_icrypto_syllabus.pdf){:target="_blank"}.
 *  **Lectures**: Tu/Th 14:00 - 15:50 @ KMC (Karl Miller Center) 480.
-*  **Instructor**: [Fang Song]({{base}}/) (fsong
+*  **Instructor**: [Fang Song]({{ site.url }}/) (fsong
    "AT" pdx.edu). **Office hours**: W, 13:00 - 14:30 @ Zoom (See link in Slack and Google Calendar).
 *  **Teaching assistant**:  Nikhil Pappu (nikpappu "AT"
    pdx.edu). **Office hours**: M/F, 10 - 11:30 @ Zoom (See link in Slack and Google Calendar). 
@@ -53,5 +53,5 @@ Lindell](http://u.cs.biu.ac.il/~lindell/){:target="_blank"}. Chapman
 and Hall/CRC, Dec. 2020. On course reserve at PSU libary.
 [link](https://search.library.pdx.edu/permalink/f/p82vj0/CP71356832000001451).
 * **Useful materials**: see the
-  [RESOURCE]({{base}}/teaching/w22_4585_icrypto/resource/) page.
+  [RESOURCE]({{ site.url }}/teaching/w22_4585_icrypto/resource/) page.
 

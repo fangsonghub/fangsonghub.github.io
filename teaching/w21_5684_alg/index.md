@@ -17,22 +17,22 @@ modified: <2020-01-04 Mon>
 
 ## About
 *  **Syllabus**:
-   [PDF]({{base}}/teaching/w21_5684_alg/w21_5684_alg_syllabus.pdf){:target="_blank"}. 
-*  **Instructor**: Prof. [Fang Song]({{base}}/) 
+   [PDF]({{ site.url }}/teaching/w21_5684_alg/w21_5684_alg_syllabus.pdf){:target="_blank"}. 
+*  **Instructor**: Prof. [Fang Song]({{ site.url }}/) 
 *  **Email**: fsong "AT" pdx.edu. Please start your email subject line
    with "w21-5684-alg". 
 *  **Lectures**: TR 16:40 - 18:15, remotely via Zoom. Please check D2L for
    instructions. 
 *  **Office hours**: F 8:30 - 10 am, remotely via zoom. 
 *  **TA**: Steven Libby, slibby@pdx.edu. Office hours: TBD.
-*  **Zoom links**: Check "[Schedule]({{base}}/teaching/w21_5684_alg/schedule/)" page. Also check "PSU Classes" calendar under your PSU Google Suite. 
+*  **Zoom links**: Check "[Schedule]({{ site.url }}/teaching/w21_5684_alg/schedule/)" page. Also check "PSU Classes" calendar under your PSU Google Suite. 
 *  **Overview**: An advanced in-depth study of the design and analysis
    of algorithms. 
 *  **Prerequisite**: CS 350 or equivalent. You must be comfortable
    with reading and writing mathematical proofs. 
 *  **Text**: No required text (to save cost). A few recommended texts
    below. The [Resource
-   page]({{base}}/teaching/w21_5684_alg/resource/) contains additional
+   page]({{ site.url }}/teaching/w21_5684_alg/resource/) contains additional
    useful materials.
     *  [**CLRS**] Thomas H. Cormen, Charles E. Leiserson,Ronald
 L. Rivest and Clifford Stein. _Introduction to Algorithms, 3rd

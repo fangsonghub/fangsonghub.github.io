@@ -8,14 +8,13 @@ modified: <2025-06-11 Wed>
 ---
 
 {% comment %}
-{% include page_showtitle.html %}
-<p style="text-align: center;"><a href="{{base}}/activity/shonan198/">Web</a>  &nbsp; &nbsp; <a href="{{base}}/activity/w17qpdx/qpdxposter.pdf">PDF</a></p> 
+<p style="text-align: center;"><a href="{{ site.url }}/activity/shonan198/">Web</a>  &nbsp; &nbsp; <a href="{{ site.url }}/activity/w17qpdx/qpdxposter.pdf">PDF</a></p> 
 {% endcomment %}
 
 * Table of Contents
 {:toc}
 
-<b style="color: red;">New!</b> <2025-06-11 Wed> Check out some [pictures]({{base}}/photos/23shonan/) at the workshop and the workshop report [PDF]({{base}}/activity/shonan198/shonan198.pdf){:target="_blank"}.
+<b style="color: red;">New!</b> <2025-06-11 Wed> Check out some [pictures]({{ site.url }}/photos/23shonan/) at the workshop and the workshop report [PDF]({{ site.url }}/activity/shonan198/shonan198.pdf){:target="_blank"}.
 
 ## About
 *  **When**: December 11 - 15, 2023. Check-in on December 10. 

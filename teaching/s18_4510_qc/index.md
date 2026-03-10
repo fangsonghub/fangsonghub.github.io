@@ -48,14 +48,14 @@ in cryptography.
    please email me to set an appoinment, and I'd be happy to discuss
    with you.
 *  **Syllabus**:
-   [PDF]({{base}}/teaching/s18_4510_qc/s18_qc_syllabus.pdf){:target="_blank"},
-   and also on the [ADMIN]({{base}}/teaching/s18_4510_qc/admin/) page.
-*  **Instructor**: Prof. [Fang Song]({{base}}/) @ FAB 120-07. Email: fsong "AT" pdx.edu.
+   [PDF]({{ site.url }}/teaching/s18_4510_qc/s18_qc_syllabus.pdf){:target="_blank"},
+   and also on the [ADMIN]({{ site.url }}/teaching/s18_4510_qc/admin/) page.
+*  **Instructor**: Prof. [Fang Song]({{ site.url }}/) @ FAB 120-07. Email: fsong "AT" pdx.edu.
 *  **Lectures**: MW 2:00 - 3:50 pm @ FAB 10
 *  **Office hours**: M 4 - 5pm, Th 1 - 2pm, and by appointment. 
 *  **Text**: no required ones. We will primarily follow lecture notes
 and read research papers. See the
-**resource** [page]({{base}}/teaching/s18_4510_qc/resource/) for
+**resource** [page]({{ site.url }}/teaching/s18_4510_qc/resource/) for
 recommended books and other useful materials related to the course.
 *  **Piazza**: This term we will be using Piazza for class
  discussion. Find

@@ -11,14 +11,14 @@ modified: <2017-10-09 Mon>
 ## <b style="color: red;">New!</b>  Showroom
 Most students did a great job, especially considering some are undergraduates. 
 
-*  Abidalrekab,Inan: Quantum Walks [[PDF]({{base}}/teaching/s17_4510_qc/proj_AI_QW.pdf){:target="_blank"}]
-* Balogh,Cakebread: Quantum neural networks [[PDF]({{base}}/teaching/s17_4510_qc/proj_BC_QNN.pdf){:target="_blank"}]
-* Cooney,Toback: Quantum secure computation [[PDF]({{base}}/teaching/s17_4510_qc/proj_CT_MPC.pdf){:target="_blank"}]
-* Donahue,Patecky,Spriggs: Quantum error correcting [[PDF]({{base}}/teaching/s17_4510_qc/proj_DPS_QECC.pdf){:target="_blank"}]
-* Garcia,Hanna,Tran: Quantum programming languages [[PDF]({{base}}/teaching/s17_4510_qc/proj_GHT_QPL.pdf){:target="_blank"}]
-* Hamlin,Libby,Launchbury: Quantum homomorphic encryption [[PDF]({{base}}/teaching/s17_4510_qc/proj_HLL_QHE.pdf){:target="_blank"}]
-* Le,Weakly: Quantum speedup characteristics [[PDF]({{base}}/teaching/s17_4510_qc/proj_LW_QA.pdf){:target="_blank"}]
-* Sharma: Linear system quantum algorithm [[PDF]({{base}}/teaching/s17_4510_qc/proj_S_QLS.pdf){:target="_blank"}]
+*  Abidalrekab,Inan: Quantum Walks [[PDF]({{ site.url }}/teaching/s17_4510_qc/proj_AI_QW.pdf){:target="_blank"}]
+* Balogh,Cakebread: Quantum neural networks [[PDF]({{ site.url }}/teaching/s17_4510_qc/proj_BC_QNN.pdf){:target="_blank"}]
+* Cooney,Toback: Quantum secure computation [[PDF]({{ site.url }}/teaching/s17_4510_qc/proj_CT_MPC.pdf){:target="_blank"}]
+* Donahue,Patecky,Spriggs: Quantum error correcting [[PDF]({{ site.url }}/teaching/s17_4510_qc/proj_DPS_QECC.pdf){:target="_blank"}]
+* Garcia,Hanna,Tran: Quantum programming languages [[PDF]({{ site.url }}/teaching/s17_4510_qc/proj_GHT_QPL.pdf){:target="_blank"}]
+* Hamlin,Libby,Launchbury: Quantum homomorphic encryption [[PDF]({{ site.url }}/teaching/s17_4510_qc/proj_HLL_QHE.pdf){:target="_blank"}]
+* Le,Weakly: Quantum speedup characteristics [[PDF]({{ site.url }}/teaching/s17_4510_qc/proj_LW_QA.pdf){:target="_blank"}]
+* Sharma: Linear system quantum algorithm [[PDF]({{ site.url }}/teaching/s17_4510_qc/proj_S_QLS.pdf){:target="_blank"}]
 
 ## Instructions
 2-3 people group projects. You may choose to do a _literature review_
@@ -45,7 +45,7 @@ problem (big congrats if you do!).
    including proper preliminary materials (e.g., notations &
    defintions), explaning some main technical results; and finally 4)
    further discussion and open questions.
-*  **Report format**: single-column, single-space (between lines) format on letter-size paper. LaTeX and BibTeX are highly recommended. Here is a simple [[TeX]({{base}}/teaching/s17_4510_qc/sample-quantum.tex){:target="_blank"} [PDF]({{base}}/teaching/s17_4510_qc/sample-quantum.pdf){:target="_blank"}] template. You may follow a suitable 2017 [ACM Article Template](https://www.acm.org/publications/proceedings-template){:target="_blank"} (e.g., _ACM Small_ format). Many LaTeX and MS word templates are availabe there. <!-- Here is a sample [TeX]({{base}}/teaching/s17_4510_qc/sample-acmsmall.tex){:target="_blank"} and its [PDF]({{base}}/teaching/s17_4510_qc/sample-acmsmall.pdf){:target="_blank"}.MS Word templates and samples are available on [ACM's website](https://www.acm.org/publications/proceedings-template){:target="_blank"}. --> 
+*  **Report format**: single-column, single-space (between lines) format on letter-size paper. LaTeX and BibTeX are highly recommended. Here is a simple [[TeX]({{ site.url }}/teaching/s17_4510_qc/sample-quantum.tex){:target="_blank"} [PDF]({{ site.url }}/teaching/s17_4510_qc/sample-quantum.pdf){:target="_blank"}] template. You may follow a suitable 2017 [ACM Article Template](https://www.acm.org/publications/proceedings-template){:target="_blank"} (e.g., _ACM Small_ format). Many LaTeX and MS word templates are availabe there. <!-- Here is a sample [TeX]({{ site.url }}/teaching/s17_4510_qc/sample-acmsmall.tex){:target="_blank"} and its [PDF]({{ site.url }}/teaching/s17_4510_qc/sample-acmsmall.pdf){:target="_blank"}.MS Word templates and samples are available on [ACM's website](https://www.acm.org/publications/proceedings-template){:target="_blank"}. --> 
 
 ### Timeline 
 *  **Week 1 & 2**: forming groups.  
@@ -59,7 +59,7 @@ problem (big congrats if you do!).
 
 ## Suggested Topics 
 
-Also available in ([PDF]({{base}}/teaching/s17_4510_qc/project.pdf){:target="_blank"}). Feel free to pursue a project not on this list. Good venues to look for inspirations: [QIP](https://qipconference.org/), [Qcrypt](http://2016.qcrypt.net/previous-conferences/) and more general TCS conferences (e.g., [STOC](http://acm-stoc.org/), [FOCS](http://ieee-focs.org/), [Crypto](http://www.iacr.org/meetings/crypto/)). 
+Also available in ([PDF]({{ site.url }}/teaching/s17_4510_qc/project.pdf){:target="_blank"}). Feel free to pursue a project not on this list. Good venues to look for inspirations: [QIP](https://qipconference.org/), [Qcrypt](http://2016.qcrypt.net/previous-conferences/) and more general TCS conferences (e.g., [STOC](http://acm-stoc.org/), [FOCS](http://ieee-focs.org/), [Crypto](http://www.iacr.org/meetings/crypto/)). 
 
 ### Quantum Algorithms
 *  **General survey** [[CvD10](https://arxiv.org/abs/0812.0380)]

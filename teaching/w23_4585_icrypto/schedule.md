@@ -21,7 +21,7 @@ modified: <2022-03-06 Mon>
 
 | Week | Date  | Topic | Reading & Note |
 |:-----:| :---------: |:----------:|:-----:|
-|1| M,01/09| Intro <br> Intro slides [PDF]({{base}}/teaching/w23_4585_icrypto/w23_4585_intro.pdf){:target="_blank"} | **KL** 1,A.1-A.3  |
+|1| M,01/09| Intro <br> Intro slides [PDF]({{ site.url }}/teaching/w23_4585_icrypto/w23_4585_intro.pdf){:target="_blank"} | **KL** 1,A.1-A.3  |
 | |W,01/11|  Perfect secrecy | **KL** 1.4,2.1 <br> Note on probability [PDF](http://theory.stanford.edu/~trevisan/cs276/notesprob.pdf){:target="_blank"}|
 |2|M,01/16| MLK day| |
 | |W,01/18| Recitation <br > Probability and Perfect secrecy | |

@@ -11,8 +11,8 @@ modified: <2025-09-29>
 
 ## About
 *  Course on [Canvas](https://canvas.pdx.edu/courses/106771){:target="_blank"}.
-*  **Syllabus**: [PDF]({{base}}/teaching/f25_4585_icrypto/f25_4585_icrypto_syllabus.pdf){:target="_blank"}.
-*  **Instructor**: [Fang Song]({{base}}/) 
+*  **Syllabus**: [PDF]({{ site.url }}/teaching/f25_4585_icrypto/f25_4585_icrypto_syllabus.pdf){:target="_blank"}.
+*  **Instructor**: [Fang Song]({{ site.url }}/) 
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
    with "f25-4585". Slack is preferred. 
 *  **Lectures**: M/W 13:30 - 15:10 @ FAB 10.
@@ -44,5 +44,5 @@ Lindell](http://u.cs.biu.ac.il/~lindell/){:target="_blank"}. Chapman
 and Hall/CRC, Dec. 2020. On course reserve at PSU libary.
 [link](https://search.library.pdx.edu/permalink/f/p82vj0/CP71356832000001451).
 * **Useful materials**: see the
-  [RESOURCE]({{base}}/teaching/f25_4585_icrypto/resource/) page.
+  [RESOURCE]({{ site.url }}/teaching/f25_4585_icrypto/resource/) page.
 

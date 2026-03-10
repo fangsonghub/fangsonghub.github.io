@@ -52,7 +52,7 @@ including open problems.
    further discussion and open questions.
 *  **Report format**: I recommend you to typeset your reports in
    **LaTeX**, and manage your bibliography using BibTeX. The [resource
-   page]({{base}}/teaching/s19_4640_qc/resource/) has links to
+   page]({{ site.url }}/teaching/s19_4640_qc/resource/) has links to
    materials to pick up LaTeX. You should use single-column,
    single-space (between lines) format on letter-size papers.
 

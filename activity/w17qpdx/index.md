@@ -7,13 +7,12 @@ permalink: /activity/w17qpdx/
 modified: <2017-01-05 Thu>
 ---
 
-{% include page_showtitle.html %}
 
-<p style="text-align: center;"><a href="{{base}}/activity/w17qpdx/">Web</a>  &nbsp; &nbsp; <a href="{{base}}/activity/w17qpdx/qpdxposter.pdf">PDF</a></p> 
+<p style="text-align: center;"><a href="{{ site.url }}/activity/w17qpdx/">Web</a>  &nbsp; &nbsp; <a href="{{ site.url }}/activity/w17qpdx/qpdxposter.pdf">PDF</a></p> 
 
 ## Announcement
 *  <2019-12-121 Sat> Almost three years later, I have the pictures
-   from this event ready for your entertainment. [Check it out]({{base}}/photos/17qpdx/)!
+   from this event ready for your entertainment. [Check it out]({{ site.url }}/photos/17qpdx/)!
 *  <2017-01-14 Sat> Slides of the talks available for download. 
 *  <2017-01-12 Thu> The event will run **as scheduled**! Let the science talks warm you up in extreme weather. Plenty of food provided!
 
@@ -33,13 +32,13 @@ modified: <2017-01-05 Thu>
 | :---------: |:----------:|:-----:|
 |8:30 - 9:15 | Welcome and light breakfast||
 |9:15 - 9:30| Opening Remarks||
-| 9:30 - 10:20  | **Quantum algorithms and applications to Cryptography** [[Abstract](#ga)] [Slides: [PPT]({{base}}/activity/w17qpdx/GAlagic.pptx) 7.3MB]| [Gorjan Alagic](http://www.alagic.org/) <br> QMATH @ U of Copenhagen |
+| 9:30 - 10:20  | **Quantum algorithms and applications to Cryptography** [[Abstract](#ga)] [Slides: [PPT]({{ site.url }}/activity/w17qpdx/GAlagic.pptx) 7.3MB]| [Gorjan Alagic](http://www.alagic.org/) <br> QMATH @ U of Copenhagen |
 | 10:25 - 10:45 | Coffee Break      |  |
-| 10:45 - 11:35 | **Quantum Cryptography** <br> [[Abstract](#cs)] [Slides: [PDF]({{base}}/activity/w17qpdx/CSchaffnerPDF.pdf) 4.5MB, [LINKtoPPT](http://homepages.cwi.nl/~schaffne/talks.php)]    | [Christian Schaffner](http://homepages.cwi.nl/~schaffne/) <br> ILLC @ U of Amsterdam & CWI |
+| 10:45 - 11:35 | **Quantum Cryptography** <br> [[Abstract](#cs)] [Slides: [PDF]({{ site.url }}/activity/w17qpdx/CSchaffnerPDF.pdf) 4.5MB, [LINKtoPPT](http://homepages.cwi.nl/~schaffne/talks.php)]    | [Christian Schaffner](http://homepages.cwi.nl/~schaffne/) <br> ILLC @ U of Amsterdam & CWI |
 | 11:40 - 12:00 | Free discussion |
 | 12:00 - 13:15 | Lunch <br>(Enjoy the fabulous food carts on Fourth Avenue) |  |
-| 13:15 - 14:05 | **Non-local Games** <br>[[Abstract](#zj)] [Slides: [PDF]({{base}}/activity/w17qpdx/ZJi.pdf){:target="_blank"}]| [Zhengfeng Ji](https://scholar.google.ca/citations?user=2uXdu7AAAAAJ) <br> QCIS @ U of Technology Sydney|
-| 14:10 - 15:00 | **General Randomness Amplification with Non-signaling Security** <br>[[Abstract](#kc)] [Slides: [PPT]({{base}}/activity/w17qpdx/KMChung.pptx) 1.6MB] | [Kai-Min Chung](http://www.iis.sinica.edu.tw/~kmchung/) <br> IIS @ Academia Sinica |
+| 13:15 - 14:05 | **Non-local Games** <br>[[Abstract](#zj)] [Slides: [PDF]({{ site.url }}/activity/w17qpdx/ZJi.pdf){:target="_blank"}]| [Zhengfeng Ji](https://scholar.google.ca/citations?user=2uXdu7AAAAAJ) <br> QCIS @ U of Technology Sydney|
+| 14:10 - 15:00 | **General Randomness Amplification with Non-signaling Security** <br>[[Abstract](#kc)] [Slides: [PPT]({{ site.url }}/activity/w17qpdx/KMChung.pptx) 1.6MB] | [Kai-Min Chung](http://www.iis.sinica.edu.tw/~kmchung/) <br> IIS @ Academia Sinica |
 | 15:00 - 15:30 | Free discussion, closing remarks and farewell| |
 {:.mbtablestyle}
 
@@ -89,7 +88,7 @@ applications.
     at
     [Portland State University](https://www.pdx.edu){:target="blank"}.
 	
-*  **Organizing team**: [Fang Song]({{base}}/), with great support from: Kristine-Anne Ronquillo Sarreal, Evan Punongbayan, and Wu-chi Feng. CS @ PSU.
+*  **Organizing team**: [Fang Song]({{ site.url }}/), with great support from: Kristine-Anne Ronquillo Sarreal, Evan Punongbayan, and Wu-chi Feng. CS @ PSU.
 
 *  **Special thanks** to
    Prof. [Xiaodi Wu](https://ix.cs.uoregon.edu/~xiaodiwu/) at

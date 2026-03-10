@@ -4,7 +4,6 @@ permalink: /recruit/rec/
 modified: <2017-10-31 Tue>
 ---
 
-{% include rtlogo.html %}
 
 I am inviting PhD applications in _cryptography, quantum computing,
 and general areas of theoretical computer science_ (TCS) starting
@@ -25,7 +24,7 @@ apply. It is advised that you reach me to discuss your
 individual case. 
 
 Find **More Information** at
-[http://www.fangsong.info/recruit/]({{base}}/recruit/). Please do not
+[http://www.fangsong.info/recruit/]({{ site.url }}/recruit/). Please do not
 hesitate to inquire me for any questions.
 
 *  **Email**: [fang.song at pdx.edu](mailto:fsong@pdx.edu)

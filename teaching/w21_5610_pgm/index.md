@@ -17,14 +17,14 @@ modified: <2020-01-04 Mon>
 
 ## About
 *  **Syllabus**:
-   [PDF]({{base}}/teaching/w21_5610_pgm/w21_5610_pgm_syllabus.pdf){:target="_blank"}. 
-*  **Instructor**: Prof. [Fang Song]({{base}}/) 
+   [PDF]({{ site.url }}/teaching/w21_5610_pgm/w21_5610_pgm_syllabus.pdf){:target="_blank"}. 
+*  **Instructor**: Prof. [Fang Song]({{ site.url }}/) 
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
    with "w21-5610-pgm". 
 *  **Lectures**: TR 12:00 - 13:15, remotely via Zoom. 
 *  **Office hours**: F 10 - 11am, remotely via zoom. 
 *  **Zoom links**: Check
-   "[Schedule]({{base}}/teaching/w21_5684_alg/schedule/)" page. Also
+   "[Schedule]({{ site.url }}/teaching/w21_5684_alg/schedule/)" page. Also
    check "PSU Classes" calendar under your PSU Google Suite.
 *  **Overview**: This course will introduce probabilistic graphical
    models and investigate emerging applications. Graphical models
@@ -37,6 +37,6 @@ modified: <2020-01-04 Mon>
    mathematical proofs. Familiarity with algorithm analysis, linear
    algebra, and basic probability theory is essential.
 *  **Text**: No required text. See [Resource
-   page]({{base}}/teaching/w21_5610_pgm/resource/) for suggested texts
+   page]({{ site.url }}/teaching/w21_5610_pgm/resource/) for suggested texts
    and additional useful materials.
   

@@ -11,7 +11,7 @@ modified: <2018-09-29 Sat>
 
 ## Instructions
 (Also in
-[PDF]({{base}}/teaching/f18_689_pqc/f18_689_proj.pdf){:target="_blank"})
+[PDF]({{ site.url }}/teaching/f18_689_pqc/f18_689_proj.pdf){:target="_blank"})
 Individual project. The goal is to go beyond what we can cover in
 class in two possible ways: 1) some of the results in class are given
 without careful discussion, and the literature may not be precise or
@@ -44,8 +44,8 @@ not have to completely solve a problem (big congrats should you do!).
    some main technical results; and finally 4) further discussion
    (e.g., open questions).
 *  **Report format**: single-column, single-space (between lines) format on letter-size paper. LaTeX and BibTeX are highly recommended. Here is a simple
-   [[TeX]({{base}}/teaching/f18_689_pqc/sample-pqc.tex){:target="_blank"}
-   [PDF]({{base}}/teaching/f18_689_pqc/sample-pqc.pdf){:target="_blank"}]
+   [[TeX]({{ site.url }}/teaching/f18_689_pqc/sample-pqc.tex){:target="_blank"}
+   [PDF]({{ site.url }}/teaching/f18_689_pqc/sample-pqc.pdf){:target="_blank"}]
    template. You may follow a suitable 2017 [ACM Article
    Template](https://www.acm.org/publications/proceedings-template){:target="_blank"}
    (e.g., _ACM Small_ format). Many LaTeX and MS word templates are
@@ -151,7 +151,7 @@ Quantum and TCS conferences (e.g., [STOC](http://acm-stoc.org/),
    *  **Multivariate-based**. [[DP18](https://ieeexplore.ieee.org/document/8012305)]
       _Current State of Multivariate Cryptography_ by Jintai Ding and
       Albrecht Petzoldt. (Available via TAMU library or download
-      [PDF]({{base}}/teaching/f18_689_pqc/DP18_MVC.pdf) here.)
+      [PDF]({{ site.url }}/teaching/f18_689_pqc/DP18_MVC.pdf) here.)
 
 
 

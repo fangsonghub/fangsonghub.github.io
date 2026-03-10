@@ -21,8 +21,8 @@ modified: <2021-09-27 Mon>
 
 ## About
 *  **Syllabus**:
-   [PDF]({{base}}/teaching/f21_581_toc/f21_581_toc_syllabus.pdf){:target="_blank"}.
-*  **Instructor**: Prof. [Fang Song]({{base}}/) 
+   [PDF]({{ site.url }}/teaching/f21_581_toc/f21_581_toc_syllabus.pdf){:target="_blank"}.
+*  **Instructor**: Prof. [Fang Song]({{ site.url }}/) 
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
    with "f21-581-toc". 
 *  **Lectures**: TR 14:00 - 15:15 @ CH 449
@@ -42,12 +42,12 @@ modified: <2021-09-27 Mon>
    with the basics of computability theory, and be comfortable with
    reading and writing mathematical proofs.
 *  **Text**: No required text. See [Resource
-   page]({{base}}/teaching/f21_581_toc/resource/) for suggested texts
+   page]({{ site.url }}/teaching/f21_581_toc/resource/) for suggested texts
    and additional useful materials.
 
 {% comment %}
 *  **Zoom links**: Check
-   "[Schedule]({{base}}/teaching/f21_581_toc/schedule/)" page. Also
+   "[Schedule]({{ site.url }}/teaching/f21_581_toc/schedule/)" page. Also
    check "PSU Classes" calendar under your PSU Google Suite.
 {% endcomment %}
   

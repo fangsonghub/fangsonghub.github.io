@@ -15,7 +15,7 @@ modified: <2018-05-16 Tue>
 
 * **April 04** tensor product, quantum circuit model
     *  **Reading**: Watrous Lec2 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/02.pdf){:target="_blank"}, Lec3 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/03.pdf){:target="_blank"}
-    *  **HW 1 Out** [[PDF]({{base}}/teaching/s18_4510_qc/s18_qc_hw1.pdf){:target="_blank"} [TeX]({{base}}/teaching/s18_4510_qc/s18_qc_hw1.tex){:target="_blank"}], due April 18, 2018 before class.
+    *  **HW 1 Out** [[PDF]({{ site.url }}/teaching/s18_4510_qc/s18_qc_hw1.pdf){:target="_blank"} [TeX]({{ site.url }}/teaching/s18_4510_qc/s18_qc_hw1.tex){:target="_blank"}], due April 18, 2018 before class.
 	
 ## Week 2 
 (Lectures canceled due to [PQCrypto 2018](http://www.math.fau.edu/pqcrypto2018/){:target="_blank"}. Watch the video lectures and study the lecture notes.)
@@ -34,7 +34,7 @@ modified: <2018-05-16 Tue>
    *  Watrous Lec6 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/06.pdf){:target="_blank"}
 *  **April 18** Simon's algorithm Cont'd, Phase estimation
     * Watrous Lec8 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/08.pdf){:target="_blank"}; Vazirani Lec12 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/phase.pdf){:target="_blank"}  
-    * HW 1 due.  **HW 2 Out** [[PDF]({{base}}/teaching/s18_4510_qc/s18_qc_hw2.pdf){:target="_blank"} [TeX]({{base}}/teaching/s18_4510_qc/s18_qc_hw2.tex){:target="_blank"}], due May 02 before class.
+    * HW 1 due.  **HW 2 Out** [[PDF]({{ site.url }}/teaching/s18_4510_qc/s18_qc_hw2.pdf){:target="_blank"} [TeX]({{ site.url }}/teaching/s18_4510_qc/s18_qc_hw2.tex){:target="_blank"}], due May 02 before class.
 
 ## Week 4
 *  **April 23** Quantum Fourier Transform, Order finding, Kitaev's algorithm
@@ -48,7 +48,7 @@ modified: <2018-05-16 Tue>
    *  **Reading**: Vazirani Lec11 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/grover.pdf){:target="_blank"}; Watrous Lec12 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/12.pdf){:target="_blank"}, Lec13 [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/13.pdf){:target="_blank"}
 *  **May 02** Optimalilty of Grover's algorithm
     *  **Reading**: Vazirani Lec10 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec10.pdf){:target="_blank"}; [[BBBV97](https://arxiv.org/pdf/quant-ph/9701001.pdf){:target="_blank"}]
-    * HW 2 due.  **HW 3 Out** [[PDF]({{base}}/teaching/s18_4510_qc/s18_qc_hw3.pdf){:target="_blank"} [TeX]({{base}}/teaching/s18_4510_qc/s18_qc_hw3.tex){:target="_blank"}], due May 16 before class.
+    * HW 2 due.  **HW 3 Out** [[PDF]({{ site.url }}/teaching/s18_4510_qc/s18_qc_hw3.pdf){:target="_blank"} [TeX]({{ site.url }}/teaching/s18_4510_qc/s18_qc_hw3.tex){:target="_blank"}], due May 16 before class.
 
 ## Week 6
 *  **May 7** Grover's lower bound cont'd, Quantum information theory intro
@@ -61,7 +61,7 @@ modified: <2018-05-16 Tue>
 
 *  **May 16** POVM, Entropy, Holevo's theorem
    * Vazirani Lec13 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/qinfo.pdf){:target="_blank"}, Lec17 [PDF](https://people.eecs.berkeley.edu/~vazirani/s07quantum/notes/lec17/lec17.pdf){:target="_blank"}
-   * HW 3 extended dealine: Friday May 18 5pm PDT. **HW 4 Out** [[PDF]({{base}}/teaching/s18_4510_qc/s18_qc_hw4.pdf){:target="_blank"} [TeX]({{base}}/teaching/s18_4510_qc/s18_qc_hw4.tex){:target="_blank"}], due May 30 before class.
+   * HW 3 extended dealine: Friday May 18 5pm PDT. **HW 4 Out** [[PDF]({{ site.url }}/teaching/s18_4510_qc/s18_qc_hw4.pdf){:target="_blank"} [TeX]({{ site.url }}/teaching/s18_4510_qc/s18_qc_hw4.tex){:target="_blank"}], due May 30 before class.
 
 ## Week 8
 *  **May 21** Quantum Error correcting and Fault tolerance

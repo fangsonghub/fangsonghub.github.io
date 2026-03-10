@@ -21,8 +21,8 @@ modified: <2017-10-09 Mon>
 *  <2017-05-08 Mon> Solutions to HW1 and HW2 available on D2L.
 *  <2017-05-02 Tue> HW 3 out, due on May 16 before class. 
 *  <2017-04-25 Tue> Correction to HW2: 2 (c) should be  $$\|\tilde F_N - F_N\|\leq \varepsilon$$. 
-*  <2017-04-04 Tue> Grad students please sign up for scirbe [here](https://docs.google.com/a/pdx.edu/spreadsheets/d/1KJ9amYylo2acxsylG8aIvFElpx3DPeAPtSjsnne4c_c/edit?usp=sharing){:targte="_blank"}. (PSU account needed for access). See [Admin]({{base}}/teaching/s17_4510_qc/admin/) page for a Latex template.
-*  <2017-04-04 Tue> HW 1 is out (on [Schedule]({{base}}/teaching/s17_4510_qc/schedule/) page). TeX source file is provided too as a
+*  <2017-04-04 Tue> Grad students please sign up for scirbe [here](https://docs.google.com/a/pdx.edu/spreadsheets/d/1KJ9amYylo2acxsylG8aIvFElpx3DPeAPtSjsnne4c_c/edit?usp=sharing){:targte="_blank"}. (PSU account needed for access). See [Admin]({{ site.url }}/teaching/s17_4510_qc/admin/) page for a Latex template.
+*  <2017-04-04 Tue> HW 1 is out (on [Schedule]({{ site.url }}/teaching/s17_4510_qc/schedule/) page). TeX source file is provided too as a
    template for you to typeset your solutions.
 *  <2017-03-31 Fri> <b style="color: red;">Room changed to Cramer Hall 449!</b> 
 *  <2017-03-03 Fri> Schedule updated, course project page ongoing.
@@ -55,14 +55,14 @@ applications in cryptography.
    course will be theory-oriented involving reading and writing lots
    of mathematical proofs. I **strongly** recommend you skimming through the first few lectures of these notes by Watrous [PDF](https://cs.uwaterloo.ca/~watrous/CPSC519/LectureNotes/all.pdf){:target="_blank"} and by Vazirani [link](https://people.eecs.berkeley.edu/~vazirani/quantum.html){:target="_blank"} to get a sense what we will be dealing with. If you feel uncertain, please email me to
    set an appoinment, and I'd be happy to discuss with you. 
-*  **Syllabus**: [PDF]({{base}}/teaching/s17_4510_qc/s17_qc_syllabus.pdf){:target="_blank"}, and also on the [administratives]({{base}}/teaching/s17_4510_qc/admin/) page.
-*  **Instructor**: Prof. [Fang Song]({{base}}/) @ FAB 120-07. Email: fsong "AT" pdx.edu.
+*  **Syllabus**: [PDF]({{ site.url }}/teaching/s17_4510_qc/s17_qc_syllabus.pdf){:target="_blank"}, and also on the [administratives]({{ site.url }}/teaching/s17_4510_qc/admin/) page.
+*  **Instructor**: Prof. [Fang Song]({{ site.url }}/) @ FAB 120-07. Email: fsong "AT" pdx.edu.
 *  **Lectures**: Tu/Th 2:00 - 3:50 pm @ <strike>FAB 47</strike> <b style="color: red;">Cramer Hall 449<b>.
 *  **Office hours**: Tu/W 4 - 5pm, or by appointment. 
 *  **Course mailing list**: s17qc@cs.pdx.edu. Follow this [link](https://mailhost.cecs.pdx.edu/mailman/listinfo/s17qc){:target="_blank"} to subscribe. 
 *  **Text**: no required ones. We will primarily follow lecture notes
 and read research papers. See the
-**resource** [page]({{base}}/teaching/s17_4510_qc/resource/) for
+**resource** [page]({{ site.url }}/teaching/s17_4510_qc/resource/) for
 recommended books and other useful materials related to the course.
 
 ## Fun stuff 
@@ -80,7 +80,7 @@ Cryptography](http://www.cs.umd.edu/~jkatz/imc.html){:target="_blank"}
 <!--
 | Date  | Topic | Homework and Reading |
 | :---------: |:----------:|:-----:|
-| Tue Jan. 10  | | **Reading**: [KL] Chapter 1, Sect. 2.1, Appendix A. <br>[**Homework 1** [PDF]({{base}}/teaching/w17_4585_icrypto/w17_cs4585_hw1.pdf){:target="_blank"}] out (due Tuesday, Jan. 24)<br> <i style="color:red;">HW1 updated due to cancellation on Jan. 12</i> |
+| Tue Jan. 10  | | **Reading**: [KL] Chapter 1, Sect. 2.1, Appendix A. <br>[**Homework 1** [PDF]({{ site.url }}/teaching/w17_4585_icrypto/w17_cs4585_hw1.pdf){:target="_blank"}] out (due Tuesday, Jan. 24)<br> <i style="color:red;">HW1 updated due to cancellation on Jan. 12</i> |
 {:.mbtablestylef}
 -->
 

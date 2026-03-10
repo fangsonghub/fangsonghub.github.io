@@ -9,7 +9,6 @@ modified: <2019-12-17 Tue>
 
 * Check out some photos during this summer program!
 
-{% include image-gallery.html folder='/images/2018_ase_pic' %}
 
 ## About
 

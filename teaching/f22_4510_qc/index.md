@@ -15,8 +15,8 @@ modified: <2022-10-06 Thu>
 
 ## About
 *  **Syllabus**:
-   [PDF]({{base}}/teaching/f22_4510_qc/f22_4510_qc_syllabus.pdf){:target="_blank"}. 
-*  **Instructor**: Prof. [Fang Song]({{base}}/) 
+   [PDF]({{ site.url }}/teaching/f22_4510_qc/f22_4510_qc_syllabus.pdf){:target="_blank"}. 
+*  **Instructor**: Prof. [Fang Song]({{ site.url }}/) 
 *  **Email**: fsong "AT" pdx.edu. Please start your email subject line
    with "f22-4510-qc". 
 *  **Lectures**: TR 10:00 - 11:50 @ EB 92
@@ -38,5 +38,5 @@ modified: <2022-10-06 Thu>
    algebra, and basic probability theory will be essential. Some
    coding proficiency is required (preferably in Python). 
 *  **Text**: The [Resource
-   page]({{base}}/teaching/f22_4510_qc/resource/) contains additional
+   page]({{ site.url }}/teaching/f22_4510_qc/resource/) contains additional
    useful materials.

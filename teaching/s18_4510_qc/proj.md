@@ -34,7 +34,7 @@ problem (big congrats if you do!).
    including proper preliminary materials (e.g., notations &
    defintions), explaning some main technical results; and finally 4)
    further discussion and open questions. 
-*  **Report format**: you are recommended to typeset your reports in **LaTeX**, and manage your bibliography using BibTeX. The [resource page]({{base}}/teaching/s18_4510_qc/resource/) has links to materials to pick up LaTeX. You should use single-column, single-space (between lines) format on letter-size papers. Here is a barebone [[TeX]({{base}}/teaching/s17_4510_qc/sample-quantum.tex){:target="_blank"} [PDF]({{base}}/teaching/s17_4510_qc/sample-quantum.pdf){:target="_blank"}] template. You may also follow a suitable [ACM Article Template](https://www.acm.org/publications/proceedings-template){:target="_blank"} (e.g., _ACM Small_ format). Many LaTeX templates are availabe there. There are online TeX editors available if you don't want to install a local engine, e.g., [Overleaf](https://www.overleaf.com/){:target="_blank"}. 
+*  **Report format**: you are recommended to typeset your reports in **LaTeX**, and manage your bibliography using BibTeX. The [resource page]({{ site.url }}/teaching/s18_4510_qc/resource/) has links to materials to pick up LaTeX. You should use single-column, single-space (between lines) format on letter-size papers. Here is a barebone [[TeX]({{ site.url }}/teaching/s17_4510_qc/sample-quantum.tex){:target="_blank"} [PDF]({{ site.url }}/teaching/s17_4510_qc/sample-quantum.pdf){:target="_blank"}] template. You may also follow a suitable [ACM Article Template](https://www.acm.org/publications/proceedings-template){:target="_blank"} (e.g., _ACM Small_ format). Many LaTeX templates are availabe there. There are online TeX editors available if you don't want to install a local engine, e.g., [Overleaf](https://www.overleaf.com/){:target="_blank"}. 
 
 ### Timeline (Tentative)
 *  **Week 1 & 2**: forming groups.
@@ -48,7 +48,7 @@ problem (big congrats if you do!).
 
 ## Suggested Topics 
 
-<!--Also available in ([PDF]({{base}}/teaching/s18_4510_qc/project.pdf){:target="_blank"}). --> Feel free to pursue a project not on this list. I'm happy to meet with your group and discuss about your ideas. 
+<!--Also available in ([PDF]({{ site.url }}/teaching/s18_4510_qc/project.pdf){:target="_blank"}). --> Feel free to pursue a project not on this list. I'm happy to meet with your group and discuss about your ideas. 
 
 A few venues to look for inspirations: 
 

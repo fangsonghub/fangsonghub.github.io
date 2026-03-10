@@ -5,9 +5,8 @@ permalink: /recruit/
 modified: <2017-10-31 Tue>
 ---
 
-<p style="text-align: center;"><a href="{{base}}/recruit/">Web</a>  &nbsp; &nbsp; <a href="{{base}}/files/docs/phdrecf18.pdf">PDF</a></p> 
+<p style="text-align: center;"><a href="{{ site.url }}/recruit/">Web</a>  &nbsp; &nbsp; <a href="{{ site.url }}/files/docs/phdrecf18.pdf">PDF</a></p> 
 
-{% include rtlogo.html %}
 
 I am inviting Ph.D. applications in _cryptography, quantum computing,
 and general areas of theoretical computer science_ (TCS) starting
@@ -53,7 +52,7 @@ Please refer to the application guideline
 here
 [https://www.pdx.edu/computer-science/graduate-admission][gradapplink]. Check
 out more about the [**Master's Program**][mslink]{:target="_blank"}
-(a [poster]({{base}}/files/docs/mscs.pdf){:target="_blank"}), and
+(a [poster]({{ site.url }}/files/docs/mscs.pdf){:target="_blank"}), and
 the
 [**PhD program**](https://www.pdx.edu/computer-science/doctor-of-philosophy-in-computer-science){:target="_blank"}.
 
@@ -86,7 +85,7 @@ schemes to protect classical as well as quantum information.
    classical and quantum cryptographic tasks), quantum computational
    complexity.
 
-Feel free to scan through my [papers]({{base}}/research/) to get some idea. 
+Feel free to scan through my [papers]({{ site.url }}/research/) to get some idea. 
 
 ## What am I expecting?
 
@@ -116,7 +115,7 @@ think again before you apply.
 
 *  Want to reboost your career in Computer Science? Check out the post-bac and New Beginnings program here [https://www.pdx.edu/computer-science/program-preparation][postbac].
 
-* December 2016, China Recuit Tour: @[Hunan University]({{base}}/recruit/hnu/); @[Central South University]({{base}}/recruit/csu/); @[Xidian University]({{base}}/recruit/xdu/).
+* December 2016, China Recuit Tour: @[Hunan University]({{ site.url }}/recruit/hnu/); @[Central South University]({{ site.url }}/recruit/csu/); @[Xidian University]({{ site.url }}/recruit/xdu/).
 
 [gradapplink]: https://www.pdx.edu/computer-science/graduate-admission
 [mslink]: https://www.pdx.edu/computer-science/master-of-science-in-computer-science

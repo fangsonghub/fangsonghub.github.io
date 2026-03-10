@@ -12,8 +12,8 @@ modified: <2024-09-29>
 ## About
 *  Course on [Canvas](https://canvas.pdx.edu/courses/104596){:target="_blank"}.
 *  **Syllabus**:
-   [PDF]({{base}}/teaching/f25_581_toc/f25_581_toc_syllabus.pdf){:target="_blank"}. 
-*  **Instructor**: Prof. [Fang Song]({{base}}/) 
+   [PDF]({{ site.url }}/teaching/f25_581_toc/f25_581_toc_syllabus.pdf){:target="_blank"}. 
+*  **Instructor**: Prof. [Fang Song]({{ site.url }}/) 
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
    with "f25-581". Slack is preferred. 
 *  **Lectures**: MW 11:00 - 12:15 @ Shattuck Hall 210.
@@ -30,7 +30,7 @@ modified: <2024-09-29>
 *  **Text**: [**S3**] Michael Sipser. _Introduction to the Theory of
    Computation_, 3rd ed. Cengage Learning, 2012. Some topics will rely
    on lecture notes and additional readings. See [Resource
-   page]({{base}}/teaching/f25_581_toc/resource/) for useful
+   page]({{ site.url }}/teaching/f25_581_toc/resource/) for useful
    materials.
 
 

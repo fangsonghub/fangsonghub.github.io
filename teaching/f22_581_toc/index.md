@@ -15,8 +15,8 @@ modified: <2022-10-16 Thu>
 
 ## About
 *  **Syllabus**:
-   [PDF]({{base}}/teaching/f22_581_toc/f22_581_toc_syllabus.pdf){:target="_blank"}.
-*  **Instructor**: Prof. [Fang Song]({{base}}/) 
+   [PDF]({{ site.url }}/teaching/f22_581_toc/f22_581_toc_syllabus.pdf){:target="_blank"}.
+*  **Instructor**: Prof. [Fang Song]({{ site.url }}/) 
 *  **Email**: fsong "AT" pdx.edu. Start your email subject line
    with "f22-581-toc". Slack is preferred. 
 *  **Lectures**: TR 14:00 - 15:15 @ FAB 46
@@ -38,7 +38,7 @@ modified: <2022-10-16 Thu>
    reading and writing mathematical proofs.
 *  **Text**: [**S3**] Michael Sipser. _Introduction to the Theory of
    Computation_, 3rd ed. Cengage Learning, 2012. See [Resource
-   page]({{base}}/teaching/f22_581_toc/resource/) for additional
+   page]({{ site.url }}/teaching/f22_581_toc/resource/) for additional
    useful materials.
 
 
