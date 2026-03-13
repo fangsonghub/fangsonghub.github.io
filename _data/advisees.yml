@@ -39,8 +39,27 @@
   institution: "Portland State U"
   year_start: 2020
   year_end: 2024
-  placement: "Researcher & Engineer @ Galois, Portland"
+  placement: "Research Engineer @ Galois, Portland"
   placement_url: https://galois.com/
+
+
+- name: "Ben Hamlin"
+  url: https://galois.com/team/ben-hamlin/
+  role: phd
+  institution: "Portland State U"
+  year_start: 2020
+  year_end: 2024
+  placement: "Research Engineer @ Galois, Portland"
+  placement_url: https://galois.com/
+
+- name: "Lydia Doza"
+  role: ms
+  institution: "Portland State U"
+  note: 
+  note_url: 
+  year_start: 2024
+  year_end: 2024
+  placement: Engineer @ Intel
 
 - name: "Shraya Ramamoorthy"
   role: undergrad
@@ -49,6 +68,15 @@
   note_url: https://www.pdx.edu/engineering/past-urmp-video-presentations
   year_start: 2023
   year_end: 2023
+
+- name: "Mallory Hawke"
+  role: undergrad
+  institution: "Portland State U"
+  note: "Undergrad Thesis"
+  note_url: 
+  year_start: 2023
+  year_end: 2023
+  placement: Associate Staff @ Applied Physics Laboratory at Johns Hopkins University
 
 - name: "Felina Kang"
   role: undergrad

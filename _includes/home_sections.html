@@ -1,0 +1,54 @@
+<!-- Bio -->
+<div class="home-section">
+  <button class="home-section-toggle is-open" aria-expanded="true" data-target="bio">
+    <span class="home-section-toggle-label">Bio</span>
+    <span class="home-section-toggle-icon">▼</span>
+  </button>
+  <div class="home-section-content" id="bio">
+    {% include bio_thirdperson.html %}
+  </div>
+</div>
+
+<!-- Research Highlights -->
+<div class="home-section">
+  <button class="home-section-toggle" aria-expanded="false" data-target="highlights">
+    <span class="home-section-toggle-label">Research Highlights</span>
+    <span class="home-section-toggle-icon">▶</span>
+  </button>
+  <div class="home-section-content is-hidden" id="highlights">
+    {% include home_highlights.html %}
+  </div>
+</div>
+
+<!-- Selected Honors -->
+<div class="home-section">
+  <button class="home-section-toggle" aria-expanded="false" data-target="honors">
+    <span class="home-section-toggle-label">Selected Honors</span>
+    <span class="home-section-toggle-icon">▶</span>
+  </button>
+  <div class="home-section-content is-hidden" id="honors">
+      <ul class="honors-list">
+	  {% for honor in site.data.honors %}
+	  <li class="honors-item">
+	      <span class="honors-date">{{ honor.date }}</span>
+	      <span class="honors-award">
+		  {% if honor.url %}<a href="{{ honor.url }}" target="_blank">{{ honor.award }}</a>
+		  {% else %}{{ honor.award }}{% endif %}
+	      </span>
+	  </li>
+	  {% endfor %}
+      </ul>
+  </div>
+</div>
+
+<!-- News -->
+<div class="home-section">
+  <button class="home-section-toggle" aria-expanded="false" data-target="news">
+    <span class="home-section-toggle-label">News</span>
+    <span class="home-section-toggle-icon">▶</span>
+  </button>
+  <div class="home-section-content is-hidden" id="news">
+    {% include news.html limit=2 %}
+    <p class="home-section-more"><a href="{{ site.url }}/news/">More news →</a></p>
+  </div>
+</div>

@@ -1,0 +1,65 @@
+<div class="course-about">
+
+  {% if page.syllabus or page.lectures or page.office_hours or page.instructor %}
+  <div class="course-meta-grid">
+
+    {% if page.instructor %}
+    <div class="course-meta-item">
+      <span class="course-meta-label">Instructor</span>
+      <span class="course-meta-value">{{ page.instructor | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+    </div>
+    {% endif %}
+
+    {% if page.lectures %}
+    <div class="course-meta-item">
+      <span class="course-meta-label">Lectures</span>
+      <span class="course-meta-value">{{ page.lectures }}</span>
+    </div>
+    {% endif %}
+
+    {% if page.office_hours %}
+    <div class="course-meta-item">
+      <span class="course-meta-label">Office hours</span>
+      <span class="course-meta-value">{{ page.office_hours }}</span>
+    </div>
+    {% endif %}
+
+    {% if page.email %}
+    <div class="course-meta-item">
+      <span class="course-meta-label">Email</span>
+      <span class="course-meta-value"><a href="mailto:{{ page.email }}">{{ page.email }}</a> — use subject prefix <code>{{ page.email_prefix }}</code></span>
+    </div>
+    {% endif %}
+
+    {% if page.syllabus %}
+    <div class="course-meta-item">
+      <span class="course-meta-label">Syllabus</span>
+      <span class="course-meta-value"><a href="{{ page.syllabus }}" target="_blank">PDF ↗</a></span>
+    </div>
+    {% endif %}
+
+  </div>
+  {% endif %}
+
+  {% if page.overview %}
+  <div class="course-section">
+    <h2 class="course-section-label">Overview</h2>
+    <div class="course-section-body">{{ page.overview | markdownify }}</div>
+  </div>
+  {% endif %}
+
+  {% if page.prereq %}
+  <div class="course-section">
+    <h2 class="course-section-label">Prerequisites</h2>
+    <div class="course-section-body">{{ page.prereq | markdownify }}</div>
+  </div>
+  {% endif %}
+
+  {% if page.textbook %}
+  <div class="course-section">
+    <h2 class="course-section-label">Textbook</h2>
+    <div class="course-section-body">{{ page.textbook | markdownify }}</div>
+  </div>
+  {% endif %}
+
+</div>

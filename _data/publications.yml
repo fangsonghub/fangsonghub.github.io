@@ -32,6 +32,9 @@
 - title: "Parallel Kac's Walk Generates PRU"
   authors: "Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, Mingnan Zhao"
   year: 2025
+  highlight: true
+  topic: "Quantum Pseudorandomness"
+  blurb: "Proved that the parallel Kac's walk construction generates pseudorandom unitaries, giving a conceptually distinct route to PRUs."
   venue:
     name: "Preprint"
   links:
@@ -73,6 +76,9 @@
     eprint: https://eprint.iacr.org/2023/798
 
 - title: "Quantum Pseudorandom Scramblers"
+  highlight: false
+  topic: "Quantum Pseudorandomness"
+  blurb: "Unitarily scrambing an arbitrary input state to a pseudorandom state. Strengthening pseudorandom states and a leap towards pseudorandom unitaries."
   authors: "Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, Mingnan Zhao"
   year: 2024
   venue:
@@ -116,6 +122,9 @@
     eprint: https://eprint.iacr.org/2021/579
 
 - title: "Oblivious Transfer is in MiniQCrypt"
+  topic: "Quantum Cryptographic Protocols"
+  blurb: "Constructed oblivious transfer from one-way functions in a quantum world, bypassing a classical impossibility barrier."
+  highlight: true
   authors: "Alex B. Grilo, Huijia Lin, Fang Song, Vinod Vaikuntanathan"
   year: 2021
   venue:
@@ -144,6 +153,9 @@
     arxiv: https://arxiv.org/abs/1804.10309
 
 - title: "Quantum-secure Message Authentication via Blind-unforgeability"
+  highlight: true
+  topic: "Provably-Secure Post-Quantum Cryptography"
+  blurb: "Introduced blind-unforgeability and developed new tools to reason about unpredictability against quantum-superposition attacks."
   authors: "Gorjan Alagic, Christian Majenz, Alexander Russell, Fang Song"
   year: 2020
   venue:
@@ -185,6 +197,9 @@
     arxiv: https://arxiv.org/abs/1902.08709
 
 - title: "Pseudorandom Quantum States"
+  topic: "Quantum Pseudorandomness"
+  blurb: "Introduced pseudorandom quantum states and gave the first construction. Inspired the pursuit of a new landscape of quantum cryptography and new approahes to quantum gravity."
+  highlight: true
   authors: "Zhengfeng Ji, Yi-Kai Liu, Fang Song"
   year: 2018
   venue:
@@ -217,6 +232,9 @@
     eprint: https://eprint.iacr.org/2017/509
 
 - title: "Zero-knowledge Proof Systems for QMA"
+  topic: "Quantum Cryptographic Protocols"
+  blurb: "Constructed the first zero-knowledge proof system for QMA, the quantum analogue of NP."
+  highlight: true
   authors: "Anne Broadbent, Zhengfeng Ji, Fang Song, John Watrous"
   year: 2016
   venue:
@@ -244,6 +262,9 @@
     eprint: http://ia.cr/2015/1256
 
 - title: "Efficient Quantum Algorithms for Computing Class Groups and Solving the Principal Ideal Problem in Arbitrary Degree Number Fields"
+  highlight: true
+  topic: "Quantum Algorithms"
+  blurb: "Gave efficient quantum algorithms for computing class groups and solving the principal ideal problem, with implications for cryptanalysis of ideal-lattice cryptosystems."
   authors: "Jean-François Biasse, Fang Song"
   year: 2016
   venue:
@@ -282,6 +303,9 @@
   video: https://www.youtube.com/watch?v=kYUgmZsSKd0
 
 - title: "A Quantum Algorithm for Computing the Unit Group of an Arbitrary Degree Number Field"
+  highlight: true
+  topic: "Quantum Algorithms"
+  blurb: "Gave the first efficient quantum algorithm for unit groups of arbitrary degree number fields, achieving exponential speedup over best known classical algorithms."
   authors: "Kirsten Eisenträger, Sean Hallgren, Alexei Kitaev, Fang Song"
   year: 2014
   venue:
@@ -307,6 +331,9 @@
     eprint: https://eprint.iacr.org/2015/385.pdf
 
 - title: "Classical Cryptographic Protocols in a Quantum World"
+  topic: "Provably-Secure Post-Quantum Cryptography"
+  blurb: "Established feasibility of quantum-secure two-party computation for the first time."
+  highlight: true
   authors: "Sean Hallgren, Adam Smith, Fang Song"
   year: 2011
   venue:

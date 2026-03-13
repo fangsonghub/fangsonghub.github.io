@@ -1,5 +1,5 @@
-{% assign roles = "postdoc,phd,undergrad,highschool" | split: "," %}
-{% assign role_labels = "Postdoc,Ph.D.,Undergrad,High School" | split: "," %}
+{% assign roles = "postdoc,phd,ms,undergrad,highschool" | split: "," %}
+{% assign role_labels = "Postdoc,Ph.D.,M.S,Undergrad,High School" | split: "," %}
 
 {% for role in roles %}
 {% assign role_advisees = site.data.advisees | where: "role", role %}

@@ -6,6 +6,10 @@ section: research
 modified: <2026-03-09>
 ---
 
+{% comment %}
+{% include pub_highlights.html %}
+{% endcomment %}
+
 ## Publications
 
 {% include pub_profiles.html %}

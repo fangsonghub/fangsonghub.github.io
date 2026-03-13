@@ -33,8 +33,11 @@
 - title: "Introduction to Quantum Computer Science"
   number: "CS 483/583"
   institution: psu
+  current: false
   note: "Previously CS 410/510 Topics Course"
   offerings:
+    - term: "Winter 2027"
+      url: /teaching/w27_4583_qc/
     - term: "Fall 2024"
       url: /teaching/f24_4583_qc/
     - term: "Fall 2022"

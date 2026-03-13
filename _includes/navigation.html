@@ -18,9 +18,9 @@
         {% if page.section == link_section %}{% assign is_active = true %}{% endif %}
 
         {% if is_active %}
-          <li><a class="active" href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a></li>
+          <li><a class="active" href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' or link.external %} target="_blank"{% endif %}>{{ link.title }}</a></li>
         {% else %}
-          <li><a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a></li>
+          <li><a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' or link.external %} target="_blank"{% endif %}>{{ link.title }}</a></li>
         {% endif %}
       {% endfor %}
     </ul>

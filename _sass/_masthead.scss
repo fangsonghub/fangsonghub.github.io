@@ -9,12 +9,13 @@
 }
 
 .masthead-inner {
+  border-bottom: 1px solid var(--color-border);
   display: flex;
   align-items: center;
   gap: var(--spacing-lg);
   max-width: var(--content-width);
   margin: 0 auto;
-  padding: 0 var(--spacing-md);
+  padding: 0 var(--spacing-md) var(--spacing-sm);
 
   @media (max-width: 48em) {
     flex-direction: column;

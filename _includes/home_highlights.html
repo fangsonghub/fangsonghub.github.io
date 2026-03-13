@@ -1,0 +1,29 @@
+{% assign topics = "Quantum Pseudorandomness,Provably-Secure Post-Quantum Cryptography,Quantum Algorithms,Quantum Cryptographic Protocols" | split: "," %}
+{% assign highlights = site.data.publications | where: "highlight", true %}
+<div class="home-highlights-topics">
+  {% for topic in topics %}
+  {% assign topic_pubs = highlights | where: "topic", topic %}
+  {% if topic_pubs.size > 0 %}
+  <div class="home-highlights-topic">
+    <div class="home-highlights-topic-label">{{ topic }}</div>
+    <ul class="home-highlights-list">
+      {% for pub in topic_pubs limit:2 %}
+      <li class="home-highlights-item">
+        <div class="home-highlights-title">
+          {% if pub.links.arxiv %}<a href="{{ pub.links.arxiv }}" target="_blank">{{ pub.title }}</a>
+          {% elsif pub.links.doi %}<a href="{{ pub.links.doi }}" target="_blank">{{ pub.title }}</a>
+          {% else %}{{ pub.title }}{% endif %}
+            <span class="home-highlights-venue">
+		{% if pub.venue.url %}<a href="{{ pub.venue.url }}" target="_blank">{{ pub.venue.name }}</a>
+		{% else %}{{ pub.venue.name }}{% endif %}
+            </span>
+        </div>
+        {% if pub.blurb %}<div class="home-highlights-blurb">{{ pub.blurb }}</div>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
+<p class="home-section-more"><a href="{{ site.url }}/research/">More on research →</a></p>

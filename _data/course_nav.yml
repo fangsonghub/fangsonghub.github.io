@@ -1,5 +1,31 @@
 # course pages
 
+# W27 QC
+- courseid: w27 483/583
+  title: (Winter 2027) CS 483/583 - Intro to Quantum Computer Science
+  desc: w27 483/583
+  nav: true
+  url: /teaching/w27_4583_qc/
+
+- courseid: w27 483/583
+  title: CS 483/583 
+  desc: Schedule
+  nav: false
+  url: /teaching/w27_4583_qc/schedule/
+
+- courseid: w27 483/583
+  title: (Winter 2027) CS 483/583 - Intro to Quantum Computer Science
+  desc: Resource
+  nav: true
+  url: /teaching/w27_4583_qc/resource/
+
+- courseid: w27 483/583
+  title: CS 483/583 
+  desc: Project
+  nav: false
+  url: /teaching/w27_4583_qc/project/
+
+
 # F25 ToC
 
 - courseid: f25 581

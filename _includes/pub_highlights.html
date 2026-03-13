@@ -1,0 +1,38 @@
+<div class="pub-highlights">
+  <h2 class="pub-section">Representative Works</h2>
+  <div class="pub-highlight-grid">
+    {% assign highlights = site.data.publications | where: "highlight", true %}
+    {% for pub in highlights %}
+    <div class="pub-highlight-card">
+      <div class="pub-highlight-year">{{ pub.year }}</div>
+      <div class="pub-highlight-body">
+        <div class="pub-highlight-title">
+          {% if pub.links.arxiv %}<a href="{{ pub.links.arxiv }}" target="_blank">{{ pub.title }}</a>
+          {% elsif pub.links.doi %}<a href="{{ pub.links.doi }}" target="_blank">{{ pub.title }}</a>
+          {% else %}{{ pub.title }}{% endif %}
+        </div>
+        <div class="pub-highlight-authors">
+          {% include author_links.html authors=pub.authors %}
+        </div>
+        <div class="pub-highlight-venue">
+          {% if pub.venue.url %}<a href="{{ pub.venue.url }}" target="_blank">{{ pub.venue.name }}</a>
+          {% else %}{{ pub.venue.name }}{% endif %}
+          {% if pub.note %} · <span class="pub-note">{{ pub.note }}</span>{% endif %}
+        </div>
+        {% if pub.blurb %}
+        <div class="pub-highlight-blurb">{{ pub.blurb }}</div>
+        {% endif %}
+        {% if pub.links %}
+        <div class="pub-links">
+          {% if pub.links.arxiv %}<a class="pub-link" href="{{ pub.links.arxiv }}" target="_blank">arXiv</a>{% endif %}
+          {% if pub.links.doi %}<a class="pub-link" href="{{ pub.links.doi }}" target="_blank">DOI</a>{% endif %}
+          {% if pub.links.eprint %}<a class="pub-link" href="{{ pub.links.eprint }}" target="_blank">ePrint</a>{% endif %}
+          {% if pub.slides %}<a class="pub-link" href="{{ pub.slides }}" target="_blank">Slides</a>{% endif %}
+          {% if pub.video %}<a class="pub-link" href="{{ pub.video }}" target="_blank">Video</a>{% endif %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

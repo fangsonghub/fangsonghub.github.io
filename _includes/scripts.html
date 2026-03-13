@@ -91,3 +91,26 @@
      });
  })();
 </script>
+<!-- Home section toggles -->
+<script>
+(function() {
+  document.querySelectorAll('.home-section-toggle').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var target = document.getElementById(this.dataset.target);
+      var icon = this.querySelector('.home-section-toggle-icon');
+      var isOpen = this.getAttribute('aria-expanded') === 'true';
+      if (isOpen) {
+        target.classList.add('is-hidden');
+        icon.textContent = '▶';
+        this.setAttribute('aria-expanded', 'false');
+        this.classList.remove('is-open');
+      } else {
+        target.classList.remove('is-hidden');
+        icon.textContent = '▼';
+        this.setAttribute('aria-expanded', 'true');
+        this.classList.add('is-open');
+      }
+    });
+  });
+})();
+</script>
