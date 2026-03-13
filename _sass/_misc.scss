@@ -1,0 +1,155 @@
+// ============================================================
+// Photo gallery
+// ============================================================
+.photos-back {
+  font-size: 0.85rem;
+  margin-bottom: var(--spacing-md);
+
+  a {
+    color: var(--color-muted);
+    text-decoration: none;
+    &:hover { color: var(--color-accent); }
+  }
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.5rem;
+  margin-top: var(--spacing-md);
+
+  a {
+    display: block;
+    overflow: hidden;
+    border-radius: 4px;
+    aspect-ratio: 1;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    &:hover img {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+  }
+
+  @media (max-width: 48em) {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  }
+}
+
+.photo-index-item {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.95rem;
+
+
+  a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-weight: 500;
+    &:hover { color: var(--color-accent); }
+  }
+}
+
+
+// ============================================================
+// Misc page
+// ============================================================
+.misc-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: var(--spacing-lg);
+}
+
+.misc-gallery-item {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+
+  img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+}
+
+.misc-gallery-caption {
+  padding: 0.4rem 0.6rem;
+  font-size: 0.82rem;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+// Gem bin
+.gembin-list {
+  border-left: 1px solid var(--color-border);
+  padding-left: var(--spacing-md);
+}
+
+.gembin-item {
+  padding: 0.5rem 0 0.6rem;
+  border-bottom: 1px solid var(--color-border);
+
+  &:first-child { padding-top: 0; }
+}
+
+.gembin-title {
+  font-size: 0.9rem;
+  color: var(--color-text);
+
+  a {
+    color: var(--color-text);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    &:hover { color: var(--color-accent); }
+  }
+}
+
+.gembin-note {
+  font-size: 0.78rem;
+  color: var(--color-muted);
+  margin-left: 0.2rem;
+}
+
+.gembin-author {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  margin-top: 0.1rem;
+
+  a {
+    color: var(--color-muted);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    &:hover { color: var(--color-accent); }
+  }
+}
+
+.gembin-extra {
+  font-size: 0.78rem;
+  margin-top: 0.15rem;
+
+  a { color: var(--color-accent); }
+}
+
+.gembin-category-label {
+  font-size: 0.78rem;
+  padding-top: 0.6rem;
+}
+
+
