@@ -6,7 +6,7 @@
   authors: "Nai-Hui Chia, Honghao Fu, Fang Song, Penghui Yao"
   year: 2025
   venue:
-    name: "ACM Transactions on Quantum Computing"
+    name: "ACM Transactions on Quantum Computing, Volume 7, Issue 1"
     url: https://doi.org/10.1145/3773903
   talks:
     - name: "AQIS 2024"
@@ -32,7 +32,7 @@
 - title: "Parallel Kac's Walk Generates PRU"
   authors: "Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, Mingnan Zhao"
   year: 2025
-  highlight: true
+  highlight: false
   topic: "Quantum Pseudorandomness"
   blurb: "Proved that the parallel Kac's walk construction generates pseudorandom unitaries, giving a conceptually distinct route to PRUs."
   venue:
@@ -76,9 +76,9 @@
     eprint: https://eprint.iacr.org/2023/798
 
 - title: "Quantum Pseudorandom Scramblers"
-  highlight: false
+  highlight: true
   topic: "Quantum Pseudorandomness"
-  blurb: "Unitarily scrambing an arbitrary input state to a pseudorandom state. Strengthening pseudorandom states and a leap towards pseudorandom unitaries."
+  blurb: "Introduced a parallel version of Kac's Walk with expoentially faster mixing. It enables scrambling an arbitrary input state to a pseudorandom state, which strengthens pseudorandom states and [later proven](https://arxiv.org/abs/2504.14957){:target='_blank'} to generate pseudorandom unitaries."
   authors: "Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, Mingnan Zhao"
   year: 2024
   venue:

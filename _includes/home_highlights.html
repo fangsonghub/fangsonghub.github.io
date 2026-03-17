@@ -18,7 +18,7 @@
 		{% else %}{{ pub.venue.name }}{% endif %}
             </span>
         </div>
-        {% if pub.blurb %}<div class="home-highlights-blurb">{{ pub.blurb }}</div>{% endif %}
+	{% if pub.blurb %}<div class="home-highlights-blurb">{{ pub.blurb | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>{% endif %}
       </li>
       {% endfor %}
     </ul>
