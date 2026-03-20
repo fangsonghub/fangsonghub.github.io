@@ -48,16 +48,6 @@
   placement: "Research Engineer @ Galois, Portland"
   placement_url: https://galois.com/
 
-
-- name: "Ben Hamlin"
-  url: https://galois.com/team/ben-hamlin/
-  role: phd
-  institution: "Portland State U"
-  year_start: 2020
-  year_end: 2024
-  placement: "Research Engineer @ Galois, Portland"
-  placement_url: https://galois.com/
-
 - name: "Lydia Doza"
   role: ms
   institution: "Portland State U"
