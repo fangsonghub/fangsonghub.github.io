@@ -13,6 +13,12 @@
 #      url: https://example.edu
 #      year: 2027
 
+- name: "Callie Reimann"
+  url: 
+  role: phd
+  institution: "Portland State U"
+  year_start: 2025
+
 - name: "Nikhil Pappu"
   url: http://nikhilpappu.info/
   role: phd
