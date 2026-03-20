@@ -51,6 +51,7 @@
       url: https://tqc-conference.org/
       type: contributed
       video: https://www.youtube.com/live/kvKihUsu068
+      video_note: "talk by Daniel Liang"
   links:
     doi: https://proceedings.mlr.press/v291/chia25a.html
     arxiv: https://arxiv.org/abs/2405.10242

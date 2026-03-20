@@ -30,7 +30,7 @@
 		{% elsif talk.type == "invited" %}<span class="pub-talk-type">(invited talk)</span>
 		{% elsif talk.type == "contributed" %}<span class="pub-talk-type">(contributed talk)</span>
 		{% endif %}
-		{% if talk.video %}[<a href="{{ talk.video }}" target="_blank">video</a>]{% endif %}
+		{% if talk.video %}[<a href="{{ talk.video }}" target="_blank">video</a>{% if talk.video_note %} {{ talk.video_note }}{% endif %}]{% endif %}
 	    </div>
 	    {% endfor %}
 	    {% endif %}
