@@ -27,6 +27,7 @@
       url: https://qcrypt.net/2025/
       type: contributed
   links:
+    doi: https://doi.org/10.1007/978-3-032-12296-4_15
     arxiv: https://arxiv.org/abs/2509.09900
 
 - title: "Parallel Kac's Walk Generates PRU"
@@ -90,6 +91,7 @@
       url: https://qip2024.tw/
       type: contributed
   links:
+    doi: https://doi.org/10.1007/978-3-031-78017-2_1
     arxiv: https://arxiv.org/abs/2309.08941
     eprint: https://eprint.iacr.org/2024/1470
 
@@ -136,6 +138,7 @@
       url: https://www.mcqst.de/qip2021/
       type: plenary
   links:
+    doi: https://doi.org/10.1007/978-3-030-77886-6_18
     arxiv: https://arxiv.org/abs/2011.14980
     eprint: https://ia.cr/2020/1500
 
@@ -163,6 +166,7 @@
     name: "EUROCRYPT 2020"
     url: https://eurocrypt.iacr.org/2020/
   links:
+    doi: https://doi.org/10.1007/978-3-030-45727-3_27
     arxiv: https://arxiv.org/abs/1803.03761
 
 - title: "A Note on the Instantiability of the Quantum Random Oracle"
@@ -172,6 +176,7 @@
     name: "PQCrypto 2020"
     url: https://pqcrypto2020.inria.fr/
   links:
+    doi: https://doi.org/10.1007/978-3-030-44223-1_27
     eprint: https://eprint.iacr.org/2019/1466
 
 - title: "General Linear Group Action on Tensors: A Candidate for Post-Quantum Cryptography"
@@ -185,6 +190,7 @@
       url: http://www.szpclab.com/qip2020
       type: contributed
   links:
+    doi: https://doi.org/10.1007/978-3-030-36030-6_11
     arxiv: https://arxiv.org/abs/1906.04330
     eprint: https://ia.cr/2019/687
 
@@ -195,6 +201,7 @@
     name: "PQCrypto 2019"
     url: http://pqcrypto2019.org/
   links:
+    doi: https://doi.org/10.1007/978-3-030-25510-7_18
     arxiv: https://arxiv.org/abs/1902.08709
 
 - title: "Pseudorandom Quantum States"
@@ -207,6 +214,7 @@
     name: "Crypto 2018"
     url: https://crypto.iacr.org/2018/
   links:
+    doi: https://doi.org/10.1007/978-3-319-96878-0_5
     arxiv: https://arxiv.org/abs/1711.00385
     eprint: https://eprint.iacr.org/2018/544
   slides: /files/talks/prs-crypto18.pdf
