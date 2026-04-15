@@ -74,6 +74,8 @@
   number: ""
   institution: psu
   offerings:
+    - term: "Spring 2026"
+      url: /teaching/s26_ccut/
     - term: "Spring 2025"
       url: /teaching/s25_ccut/
     - term: "Spring 2024"
