@@ -1,7 +1,6 @@
 ---
 layout: course
 section: teaching
-section: teaching
 title: (Spring 2025) PSU CS at CCUT
 courseid: s25 ccut
 desc: s25 ccut
