@@ -5,7 +5,7 @@ title: (Spring 2026) PSU CS at CCUT
 courseid: s26 ccut
 desc: s26 ccut
 permalink: /teaching/s26_ccut/
-modified: <2026-04-15> 
+modified: <2026-04-20> 
 ---
 
 
