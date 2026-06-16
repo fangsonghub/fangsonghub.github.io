@@ -10,11 +10,11 @@ modified: <2026-06-15>
 
 *   **When**: 2026.06 - 2016.08
 *   **Where**: [Computer Science Department](http://www.pdx.edu/computer-science/){:target="_blank"}, Portland State University
-*   **What**: PSU MCECS [URMP[(https://www.pdx.edu/engineering/undergraduate-research-and-mentoring-program-urmp){:target="_blank"} and [ASE internship](https://www.saturdayacademy.org/ase){:target="_blank"} 
-*   **URMP Student**: *Lokesh Repaka*, Senior in Computer Science.
-*   **ASE Interns**: *Isabella Ellers* [](){:target="_blank"}; *Hannah Ho* [Sunset High School](https://sunset.beaverton.k12.or.us/){:target="_blank"}
+*   **What**: PSU MCECS [URMP](https://www.pdx.edu/engineering/undergraduate-research-and-mentoring-program-urmp){:target="_blank"} and [ASE internship](https://www.saturdayacademy.org/ase){:target="_blank"} 
+*   **URMP** Student: *Lokesh Repaka*, Senior in Computer Science.
+*   **ASE** Interns: *Isabella Ellers* [](){:target="_blank"}; *Hannah Ho* [Sunset High School](https://sunset.beaverton.k12.or.us/){:target="_blank"}
 *   **Mentor**: Fang Song, Associate Professor, CS@PSU. Office: FAB 120-07. Phone: 503-725-4060 
-*   **Slack**: Channel [su28-re](https://qcc-giu6889.slack.com/archives/C0BAX7SJWVB) for communications. 
+*   **Slack**: Channel [su26-re](https://qcc-giu6889.slack.com/archives/C0BAX7SJWVB) for communications. 
 *   **Useful Contacts**
     *  ASE advisor: Noa Ver (noaver123@gmail.com). Phone: (503) 830-5292. 
     *  CS Department @ PSU: 503-725-4036
@@ -36,11 +36,11 @@ modified: <2026-06-15>
     - *URMP lunch and learn series*: Noon, Wednesdays @ EB 510. Check the [schedule here](https://www.pdx.edu/engineering/MSURE). 
     - *Theory Seminars*: Fridays @ xx. See announcements on Slack and mailing list. 
 
-## Tentative Schedule
+## Tentative schedule
 
 | Dates  | Topic | Note  |
 | :---------: |:----------:|:-----:|
-| June 15 - June 19   | Welcome and Registration| |
+| June 15 - June 19   | Welcome | |
 | June 22 - July 26 | Quantum Basics: Qubits, Quantum Gates, and Entanglement  | |
 | June 29 - July 3  | Quantum Teleportation and Superdense coding <br> Setting up QISKIT  | |
 | July 6 - July 10  | Implement simple QAlgs |  |
