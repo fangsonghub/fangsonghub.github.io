@@ -44,14 +44,23 @@ jobs:
           script: |
             const runId = context.runId;
             const artifactName = 'github-pages';
-            const { data } = await github.rest.actions.listWorkflowRunArtifacts({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              run_id: runId,
-              per_page: 100,
-            });
+            const allArtifacts = [];
+            const perPage = 100;
+            for (let page = 1; ; page++) {
+              const { data } = await github.rest.actions.listWorkflowRunArtifacts({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                run_id: runId,
+                per_page: perPage,
+                page,
+              });
+              allArtifacts.push(...data.artifacts);
+              if (data.artifacts.length < perPage) {
+                break;
+              }
+            }
 
-            const artifacts = data.artifacts
+            const artifacts = allArtifacts
               .filter((artifact) => artifact.name === artifactName)
               .sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
 
