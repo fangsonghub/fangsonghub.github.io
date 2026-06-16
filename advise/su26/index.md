@@ -8,7 +8,7 @@ modified: <2026-06-15>
 
 ## About
 
-*   **When**: 2026.06 - 2016.08
+*   **When**: 2026.06 - 2026.08
 *   **Where**: [Computer Science Department](http://www.pdx.edu/computer-science/){:target="_blank"}, Portland State University
 *   **What**: PSU MCECS [URMP](https://www.pdx.edu/engineering/undergraduate-research-and-mentoring-program-urmp){:target="_blank"} and [ASE internship](https://www.saturdayacademy.org/ase){:target="_blank"} 
 *   **URMP** Student: *Lokesh Repaka*, Senior in Computer Science.
