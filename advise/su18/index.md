@@ -2,12 +2,12 @@
 layout: plain
 title: Saturday Academy Apprenticeships in Science & Engineering (ASE) 
 subtitle: Summer 2018
-permalink: /teaching/su18ase/
+permalink: /advise/su18ase/
 modified: <2019-12-17 Tue>
 ---
 ## News
 
-* Check out some photos during this summer program!
+* Check out some [photos]({{ site.url }}/photos/18ase/){:target="_blank"} during this summer program!
 
 
 ## About
