@@ -19,18 +19,20 @@
   institution: "Portland State U"
   year_start: 2025
 
-- name: "Nikhil Pappu"
-  url: http://nikhilpappu.info/
-  role: phd
-  institution: "Portland State U"
-  year_start: 2021
-
 - name: "Mehil Agarwal"
   url: https://mehil.info/
   role: phd
   institution: "Portland State U"
   year_start: 2021
 
+- name: "Nikhil Pappu"
+  url: http://nikhilpappu.info/
+  role: phd
+  institution: "Portland State U"
+  year_start: 2021
+  year_end: 2026
+  placement: "Postdoc @ UCSB"
+  
 - name: "Chuhan Lu"
   url: https://chuhanlu.github.io/
   role: phd
