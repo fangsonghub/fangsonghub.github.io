@@ -34,7 +34,7 @@ modified: <2026-06-15>
 *  **Regular activities**:
     - *Peer presentations*: (below)
     - *URMP lunch and learn series*: Noon, Wednesdays @ EB 510. Check the [schedule here](https://www.pdx.edu/engineering/MSURE). 
-    - *Theory Seminars*: Fridays @ xx. See announcements on Slack and mailing list. 
+    - *Theory Seminars*: xx @ xx. See announcements on Slack and mailing list. 
 
 ## Tentative schedule
 
@@ -55,9 +55,9 @@ modified: <2026-06-15>
 
 ## Peer lectures
 
-Interns are expected to give regular lectures to the peers on their work, typically on Wednesdays. @ FAB xx, time xxx. 
+Interns are expected to lead discussions on the learning materials and their work. xx @ FAB xx, time xxx. 
 
-|Date| Presentor| Topic|
+|Date| Lead | Topic|
 | :---------: |:----------:|:-----:|
 |xxxx | xxxx | xxxx |
 {:.mbtablestyle}
