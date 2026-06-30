@@ -3,7 +3,7 @@ layout: plain
 title:  Summer 2026 Research Experience 
 subtitle: PSU URMP and Saturday Academy ASE
 permalink: /advise/su26re/
-modified: <2026-06-15>
+modified: <2026-06-30>
 ---
 
 ## About
@@ -32,9 +32,9 @@ modified: <2026-06-15>
 *  Quantum Algorithm Implementations for Beginners [arXiv](https://arxiv.org/abs/1804.03719)
 *  Scott Aaronson's lectures on theory of computation and QC [Democritus](https://www.scottaaronson.com/democritus/)
 *  **Regular activities**:
-    - *Peer presentations*: (below)
+    - *Peer discussions*: (below)
     - *URMP lunch and learn series*: Noon, Wednesdays @ EB 510. Check the [schedule here](https://www.pdx.edu/engineering/MSURE). 
-    - *Theory Seminars*: xx @ xx. See announcements on Slack and mailing list. 
+    - *Theory Seminars*: See announcements on Slack and mailing list. 
 
 ## Tentative schedule
 
@@ -53,13 +53,15 @@ modified: <2026-06-15>
 | xxxx |Wrap up |  |
 {:.mbtablestyle}
 
-## Peer lectures
+## Peer discussions 
 
-Interns are expected to lead discussions on the learning materials and their work. xx @ FAB xx, time xxx. 
+Interns are expected to lead discussions on the learning materials and their work. 
 
 |Date| Lead | Topic|
 | :---------: |:----------:|:-----:|
-|xxxx | xxxx | xxxx |
+| June 26 | Lokesh | qubits |
+| June 29 | Isabella | linear algebra |
+| June 26 | Lokesh | qubits |
 {:.mbtablestyle}
 
 
