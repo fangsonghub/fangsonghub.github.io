@@ -61,7 +61,7 @@ Interns are expected to lead discussions on the learning materials and their wor
 | :---------: |:----------:|:-----:|
 | June 26 | Lokesh | qubits |
 | June 29 | Isabella | linear algebra |
-| June 26 | Lokesh | qubits |
+|  |  |  |
 {:.mbtablestyle}
 
 
