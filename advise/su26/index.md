@@ -3,7 +3,7 @@ layout: plain
 title:  Summer 2026 Research Experience 
 subtitle: PSU URMP and Saturday Academy ASE
 permalink: /advise/su26re/
-modified: <2026-06-30>
+modified: <2026-07-01>
 ---
 
 ## About
@@ -12,7 +12,7 @@ modified: <2026-06-30>
 *   **Where**: [Computer Science Department](http://www.pdx.edu/computer-science/){:target="_blank"}, Portland State University
 *   **What**: PSU MCECS [URMP](https://www.pdx.edu/engineering/undergraduate-research-and-mentoring-program-urmp){:target="_blank"} and [ASE internship](https://www.saturdayacademy.org/ase){:target="_blank"} 
 *   **URMP** Student: *Lokesh Repaka*, Senior in Computer Science.
-*   **ASE** Interns: *Isabella Ellers* [](){:target="_blank"}; *Hannah Ho* [Sunset High School](https://sunset.beaverton.k12.or.us/){:target="_blank"}
+*   **ASE** Interns: *Isabella Ellers* [Memoria Academy](https://www.memoriaacademy.com/){:target="_blank"}; *Hannah Ho* [Sunset High School](https://sunset.beaverton.k12.or.us/){:target="_blank"}
 *   **Mentor**: Fang Song. Office: FAB 120-25. Phone: 503-725-4060 
 *   **Slack**: Channel [su26-re](https://qcc-giu6889.slack.com/archives/C0BAX7SJWVB) for communications. 
 *   **Useful Contacts**
@@ -61,6 +61,7 @@ Interns are expected to lead discussions on the learning materials and their wor
 | :---------: |:----------:|:-----:|
 | June 26 | Lokesh | qubits |
 | June 29 | Isabella | linear algebra |
+| June 29 | Hannah | teleportation |
 |  |  |  |
 {:.mbtablestyle}
 
