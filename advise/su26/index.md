@@ -3,7 +3,7 @@ layout: plain
 title:  Summer 2026 Research Experience 
 subtitle: PSU URMP and Saturday Academy ASE
 permalink: /advise/su26re/
-modified: <2026-07-01>
+modified: <2026-07-14>
 ---
 
 ## About
@@ -62,6 +62,8 @@ Interns are expected to lead discussions on the learning materials and their wor
 | June 26 | Lokesh | qubits |
 | June 29 | Isabella | linear algebra |
 | July 01 | Hannah | teleportation |
+| July 10 |  | Phase kick-back |
+| July 13 |  | Deutsch algorithm |
 |  |  |  |
 {:.mbtablestyle}
 
