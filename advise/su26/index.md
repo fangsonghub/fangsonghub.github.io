@@ -3,7 +3,7 @@ layout: plain
 title:  Summer 2026 Research Experience 
 subtitle: PSU URMP and Saturday Academy ASE
 permalink: /advise/su26re/
-modified: <2026-07-14>
+modified: <2026-07-15>
 ---
 
 ## About
@@ -45,7 +45,7 @@ modified: <2026-07-14>
 | June 29 - July 3  | Quantum Teleportation and Superdense coding <br> Setting up QISKIT  | |
 | July 6 - July 10  | Implement simple QAlgs |  |
 | July 13 - July 17| Advanced Quantum Algorithms <br> Bernstein-Vazirani, Grover |  |
-| July 20 - July 24 | Implement Advanced Quantum Algorithms | |
+| July 20 - July 24 | Implement Advanced Quantum Algorithms <br> Converting classical circuits to quantum | Watrous lecture note 6.3 |
 | July 27 - July 31 | Implement Advanced Quantum Algorithms | | 
 | August 3 - August 7 | Analysis and Optimization || 
 | August xx |[ASE Symposium](https://www.saturdayacademy.org/ase) |  |
@@ -64,6 +64,7 @@ Interns are expected to lead discussions on the learning materials and their wor
 | July 01 | Hannah | teleportation |
 | July 10 |  | Phase kick-back |
 | July 13 |  | Deutsch algorithm |
+| July 15 |  | Unitary oracle for a function |
 |  |  |  |
 {:.mbtablestyle}
 
