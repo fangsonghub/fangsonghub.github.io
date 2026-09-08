@@ -9,7 +9,7 @@
   topic: "Quantum Pseudorandomness"
   blurb: "Proved that the parallel Kac's walk construction generates pseudorandom unitaries, giving a conceptually distinct route to PRUs."
   venue:
-    name "Asiacrypt 2026"
+    name: "Asiacrypt 2026"
     url: https://asiacrypt.iacr.org/2026/  
   links:
     arxiv: https://arxiv.org/abs/2504.14957
