@@ -2,6 +2,18 @@
 # Publications
 # ============================================================
 
+- title: "Parallel Kac's Walk Generates PRU"
+  authors: "Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, Mingnan Zhao"
+  year: 2025
+  highlight: false
+  topic: "Quantum Pseudorandomness"
+  blurb: "Proved that the parallel Kac's walk construction generates pseudorandom unitaries, giving a conceptually distinct route to PRUs."
+  venue:
+    name "Asiacrypt 2026"
+    url: https://asiacrypt.iacr.org/2026/  
+  links:
+    arxiv: https://arxiv.org/abs/2504.14957
+
 - title: "A Cryptographic Perspective on the Verifiability of Quantum Advantage"
   authors: "Nai-Hui Chia, Honghao Fu, Fang Song, Penghui Yao"
   year: 2025
@@ -30,17 +42,6 @@
     doi: https://doi.org/10.1007/978-3-032-12296-4_15
     arxiv: https://arxiv.org/abs/2509.09900
 
-- title: "Parallel Kac's Walk Generates PRU"
-  authors: "Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, Mingnan Zhao"
-  year: 2025
-  highlight: false
-  topic: "Quantum Pseudorandomness"
-  blurb: "Proved that the parallel Kac's walk construction generates pseudorandom unitaries, giving a conceptually distinct route to PRUs."
-  venue:
-    name: "Preprint"
-  links:
-    arxiv: https://arxiv.org/abs/2504.14957
-
 - title: "Quantum State Learning Implies Circuit Lower Bounds"
   authors: "Nai-Hui Chia, Daniel Liang, Fang Song"
   year: 2025
@@ -55,7 +56,7 @@
       video_note: "talk by Daniel Liang"
   links:
     doi: https://proceedings.mlr.press/v291/chia25a.html
-    arxiv: https://arxiv.org/abs/2405.10242
+    arxiv: phttps://arxiv.org/abs/2405.10242
 
 - title: "Improved Quantum Lifting by Coherent Measure-and-Reprogram"
   authors: "Alexandru Cojocaru, Juan Garay, Qipeng Liu, Fang Song"
@@ -86,6 +87,7 @@
   venue:
     name: "TCC 2024"
     url: https://tcc.iacr.org/2024/
+  note: "Journal version in SIAM J. Computing, 55(4), 787-850, 2026"    
   talks:
     - name: "QIP 2024"
       url: https://qip2024.tw/
