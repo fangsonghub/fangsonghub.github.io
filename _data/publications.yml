@@ -18,7 +18,7 @@
   year: 2026
   conference_titles:
     - title: "Quantum Pseudorandom Scramblers"
-    - ref: "quantum-pseudorandom-scramblers"
+      ref: "quantum-pseudorandom-scramblers"
   venue:
     name: "SIAM J. Computing"
     volume: 55
