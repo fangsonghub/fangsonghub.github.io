@@ -1,7 +1,6 @@
 {% assign pubs = site.data.publications | where_exp: "p", "p.type != 'manuscript'" | sort: "year" | reverse %}
 {% assign manuscripts = site.data.publications | where: "type", "manuscript" | sort: "year" | reverse %}
 {% assign years = pubs | map: "year" | uniq %}
-
 {% for year in years %}
 <div class="pub-year-group">
     <div class="pub-year-label" id="y{{ year }}">{{ year }}</div>
@@ -9,7 +8,18 @@
 	{% for pub in pubs %}
 	{% if pub.year == year %}
 	<li class="pub-item">
-	    <div class="pub-title">{{ pub.title }}</div>
+	    {% if pub.type == "journal-version" %}
+	    <div class="pub-title">{{ pub.venue.name }}{% if pub.venue.volume %}, {{ pub.venue.volume }}{% endif %}{% if pub.venue.issue %}({{ pub.venue.issue }}){% endif %}{% if pub.venue.pages %}, {{ pub.venue.pages }}{% endif %}</div>
+	    <div class="pub-note">Journal version of
+		{% for ct in pub.conference_titles %}
+		<a href="#{{ ct.ref }}">{{ ct.title }}</a>{% unless forloop.last %} and {% endunless %}
+		{% endfor %}
+	    </div>
+	    <div class="pub-links">
+		{% if pub.links.doi %}<a href="{{ pub.links.doi }}" class="pub-link" target="_blank">DOI</a>{% endif %}
+	    </div>
+	    {% else %}
+	    <div class="pub-title" id="{{ pub.title | slugify }}">{{ pub.title }}</div>
 	    <div class="pub-authors">{% include author_links.html authors=pub.authors %}</div>
 	    <div class="pub-venue">
 		{% if pub.venue.url %}
@@ -37,10 +47,11 @@
 	    <div class="pub-links">
 		{% if pub.links.doi %}<a href="{{ pub.links.doi }}" class="pub-link" target="_blank">DOI</a>{% endif %}
 		{% if pub.links.arxiv %}<a href="{{ pub.links.arxiv }}" class="pub-link" target="_blank">arXiv</a>{% endif %}
-		{% if pub.links.eprint %}<a href="{{ pub.links.eprint }}" class="pub-link" target="_blank">ePrint</a>{% endif %}
+		{% if pub.links.eprint %}`<a href="{{ pub.links.eprint }}" class="pub-link" target="_blank">ePrint</a>{% endif %}
 		{% if pub.slides %}<a href="{{ pub.slides }}" class="pub-link" target="_blank">Slides</a>{% endif %}
 		{% if pub.video %}<a href="{{ pub.video }}" class="pub-link" target="_blank">Video</a>{% endif %}
 	    </div>
+	    {% endif %}
 	</li>
 	{% endif %}
 	{% endfor %}
@@ -50,9 +61,7 @@
 
 {% if manuscripts.size > 0 %}
 <div class="pub-year-group">
-    <div class="pub-year-label pub-year-label--manuscripts" id="manuscripts">
-	Other<br>Manuscripts
-    </div>
+    <div class="pub-year-label pub-year-label--manuscripts" id="manuscripts">Manuscripts</div>
     <ul class="pub-list">
 	{% for pub in manuscripts %}
 	<li class="pub-item">
@@ -66,7 +75,7 @@
 		{% endif %}
 	    </div>
 	    {% if pub.note %}
-	    <div class="pub-note">{% if pub.note_url %}<a href="{{ pub.note_url }}" target="_blank">{{ pub.note }}</a>{% else %}{{ pub.note }}{% endif %}</div>
+	    <div class="pub-note">{{ pub.note }}</div>
 	    {% endif %}
 	    <div class="pub-links">
 		{% if pub.links.doi %}<a href="{{ pub.links.doi }}" class="pub-link" target="_blank">DOI</a>{% endif %}
