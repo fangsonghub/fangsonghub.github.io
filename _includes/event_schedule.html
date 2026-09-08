@@ -1,0 +1,33 @@
+{% assign ev = site.data[page.event_data] %}
+
+{% assign filled = 0 %}
+{% for day in ev.schedule %}{% for item in day.items %}{% if item.speaker and item.speaker != '' %}{% assign filled = filled | plus: 1 %}{% endif %}{% endfor %}{% endfor %}
+{% if filled == 0 %}
+<p class="event-note">The program is not final. Speakers and talk titles will be posted here once confirmed.</p>
+{% endif %}
+
+<table class="event-schedule">
+  <tbody>
+    {% for day in ev.schedule %}
+    <tr class="sched-day-row">
+      <th colspan="2" class="sched-day">{{ day.day }}</th>
+    </tr>
+    {% for item in day.items %}
+    <tr>
+      <td class="sched-time">{{ item.time }}</td>
+      <td class="sched-what{% if item.kind and item.kind != 'talk' %} sched-{{ item.kind }}{% endif %}">
+        {%- if item.kind == 'talk' -%}
+          {%- if item.speaker and item.speaker != '' -%}
+            <span class="sched-speaker">{{ item.speaker }}</span>{% if item.title and item.title != '' %}: <em>{{ item.title }}</em>{% endif %}
+          {%- else -%}
+            <span class="sched-tba">Talk &mdash; TBA</span>
+            {%- endif -%}
+            {%- else -%}
+            {{ item.what }}
+            {%- endif -%}
+      </td>
+    </tr>
+    {% endfor %}
+    {% endfor %}
+  </tbody>
+</table>

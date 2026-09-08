@@ -1,0 +1,339 @@
+# ============================================================
+# NII Shonan Meeting NO.247
+# Rendered by _includes/event_*.html via `event_data: shonan247`
+# in activity/shonan247/index.md
+# ============================================================
+
+meta:
+  dates: "November 30 – December 4, 2026"
+  checkin: "Sunday, November 29"
+  venue: "Shonan Village Center"
+  venue_url: https://www.shonan-village.co.jp/eng/
+  directions_url: https://www.shonan-village.co.jp/eng/access/
+  location: "Kanagawa, Japan"
+  format: "Invitation-only residential seminar"
+  format_note: "28 participants"
+  official_url: https://shonan.nii.ac.jp/seminars/247/
+  official_label: "shonan.nii.ac.jp/seminars/247"
+  official_note: "Hosted by NII"
+  predecessor:
+    url: /activity/shonan198/
+    label: "NII Shonan Meeting NO.198"
+    note: "New Directions in Provable Quantum Advantages, December 2023"
+
+# ============================================================
+# Organizers
+# ============================================================
+organizers:
+  - name: François Le Gall
+    url: http://www.francoislegall.com/
+    affiliation: "Nagoya University, Japan"
+  - name: Fang Song
+    url: http://www.fangsong.info
+    affiliation: "Portland State University, USA"
+  - name: Penghui Yao
+    url: http://penghuiyao.info/
+    affiliation: "Nanjing University, China"
+
+# ============================================================
+# Intro paragraph (markdown allowed)
+# ============================================================
+intro: >
+  Quantum computing has moved quickly since our first Shonan meeting in 2023.
+  This reunion meeting takes stock of what has happened in the intervening
+  years and pushes on three fronts. We bring together leading researchers
+  alongside rising junior researchers, with the aim of seeding collaborations
+  across communities — and in particular between Asian and non-Asian
+  researchers.
+
+# ============================================================
+# Meeting themes (markdown allowed in `body`)
+# ============================================================
+themes:
+  - title: "Quantum distributed computing"
+    body: >
+      Since the first evidence that quantum distributed algorithms can beat
+      classical ones, the area has grown quickly, with recent results
+      demonstrating their potential in the fundamental LOCAL model. We aim to
+      survey these developments, look for further separations, and clarify the
+      limits of quantum distributed computing through its connections to
+      two-party quantum communication complexity.
+
+  - title: "Quantum learning algorithms"
+    body: >
+      Learning the properties of a quantum system is among the most fundamental
+      problems in the field, and the last few years have brought a surge of
+      progress on shallow circuits, Pauli channels, stabilizer states, and more.
+      New mathematical tools have come with it, notably Pauli analysis. We will
+      lay out the fundamentals and the open directions, drawing on computer
+      science, mathematics, information theory, and physics.
+
+  - title: "Quantum cryptography"
+    body: >
+      Two developments anchor this thread: the first provably secure
+      construction of pseudorandom unitaries, and a way of turning quantum
+      advantage experiments on NISQ devices into a basis for cryptographic
+      primitives. We will look for pseudorandom unitaries with new properties
+      and further applications, and examine the new advantage-based assumptions
+      from both a cryptanalytic and a constructive angle.
+
+# ============================================================
+# Schedule
+#
+# kind:  talk    -> speaker + title; renders "TBA" while both are blank
+#        key     -> accent colour (check-in, photo, excursion, farewell)
+#        social  -> muted (meals, breaks, banquets)
+#        (omit)  -> plain text
+# ============================================================
+schedule:
+  - day: "Sunday, November 29"
+    items:
+      - time: "1500-1900"
+        what: "Check-in"
+        kind: key
+      - time: "1900-2100"
+        what: "Welcome Banquet"
+        kind: social
+
+  - day: "Monday, November 30"
+    items:
+      - time: "0730-0900"
+        what: "Breakfast"
+        kind: social
+      - time: "0900-0915"
+        what: "Opening Remarks"
+      - time: "0915-1000"
+        kind: talk
+        speaker:
+        title:
+      - time: "1000-1030"
+        what: "Discussion"
+      - time: "1030-1100"
+        what: "Coffee Break"
+        kind: social
+      - time: "1100-1200"
+        kind: talk
+        speaker:
+        title:
+      - time: "1200-1330"
+        what: "Lunch"
+        kind: social
+      - time: "1330-1400"
+        what: "Group Photo"
+        kind: key
+      - time: "1400-1500"
+        kind: talk
+        speaker:
+        title:
+      - time: "1500-1530"
+        what: "Coffee Break"
+        kind: social
+      - time: "1530-1700"
+        what: "Breakout groups: open problems"
+      - time: "1800-1930"
+        what: "Dinner"
+        kind: social
+
+  - day: "Tuesday, December 1"
+    items:
+      - time: "0730-0900"
+        what: "Breakfast"
+        kind: social
+      - time: "0900-1030"
+        kind: talk
+        speaker:
+        title:
+      - time: "1030-1100"
+        what: "Coffee Break"
+        kind: social
+      - time: "1100-1200"
+        what: "Breakout groups"
+      - time: "1200-1330"
+        what: "Lunch"
+        kind: social
+      - time: "1400-1530"
+        kind: talk
+        speaker:
+        title:
+      - time: "1530-1600"
+        what: "Coffee Break"
+        kind: social
+      - time: "1600-1730"
+        what: "Breakout groups"
+      - time: "1800-1930"
+        what: "Dinner"
+        kind: social
+      - time: "1930-2100"
+        what: "Research party @ Research Wing Lounge"
+
+  - day: "Wednesday, December 2"
+    items:
+      - time: "0730-0900"
+        what: "Breakfast"
+        kind: social
+      - time: "0900-1030"
+        kind: talk
+        speaker:
+        title:
+      - time: "1030-1100"
+        what: "Coffee Break"
+        kind: social
+      - time: "1100-1200"
+        what: "Breakout groups"
+      - time: "1200-1330"
+        what: "Lunch"
+        kind: social
+      - time: "1330-1800"
+        what: "Excursion"
+        kind: key
+      - time: "1815-2100"
+        what: "Main Banquet"
+        kind: social
+
+  - day: "Thursday, December 3"
+    items:
+      - time: "0730-0900"
+        what: "Breakfast"
+        kind: social
+      - time: "0900-1030"
+        kind: talk
+        speaker:
+        title:
+      - time: "1030-1100"
+        what: "Coffee Break"
+        kind: social
+      - time: "1100-1200"
+        what: "Breakout groups"
+      - time: "1200-1330"
+        what: "Lunch"
+        kind: social
+      - time: "1400-1530"
+        kind: talk
+        speaker:
+        title:
+      - time: "1530-1600"
+        what: "Coffee Break"
+        kind: social
+      - time: "1600-1730"
+        what: "Open discussion"
+      - time: "1800-1930"
+        what: "Dinner"
+        kind: social
+      - time: "1930-2100"
+        what: "Research party @ Research Wing Lounge"
+
+  - day: "Friday, December 4"
+    items:
+      - time: "0730-0900"
+        what: "Breakfast"
+        kind: social
+      - time: "0900-1030"
+        kind: talk
+        speaker:
+        title:
+      - time: "1030-1100"
+        what: "Coffee Break"
+        kind: social
+      - time: "1100-1200"
+        what: "Wrap-up and open problems"
+      - time: "1200-1330"
+        what: "Lunch"
+        kind: social
+      - time: "1330"
+        what: "Farewell"
+        kind: key
+
+# ============================================================
+# Participants
+#
+# Listed in display order (surname); the include does NOT sort,
+# so ordering here is what renders. Add `url:` to link a name.
+# ============================================================
+participants:
+  - name: Anurag Anshu
+    affiliation: "Harvard University"
+    url:
+  - name: Nai-Hui Chia
+    affiliation: "Rice University"
+    url:
+  - name: Kai-Min Chung
+    affiliation: "Academia Sinica"
+    url:
+  - name: Zijing Di
+    affiliation: "EPFL"
+    url:
+  - name: Yangjing Dong
+    affiliation: "Nanjing University"
+    url:
+  - name: Ziyi Guan
+    affiliation: "EPFL / MIT"
+    url:
+  - name: Aparna Gupte
+    affiliation: "MIT"
+    url:
+  - name: Atsuya Hasegawa
+    affiliation: "Nagoya University"
+    url:
+  - name: Ryu Hayakawa
+    affiliation: "Kyoto University"
+    url:
+  - name: Minki Hhan
+    affiliation: "KAIST"
+    url:
+  - name: Min-Hsiu Hsieh
+    affiliation: "Hon Hai Quantum Computing Research Center"
+    url:
+  - name: Rahul Jain
+    affiliation: "National University of Singapore"
+    url:
+  - name: Akinori Kawachi
+    affiliation: "Mie University"
+    url:
+  - name: Dakshita Khurana
+    affiliation: "NTT Research / UIUC"
+    url:
+  - name: Srijita Kundu
+    affiliation: "Foxconn Research"
+    url:
+  - name: François Le Gall
+    affiliation: "Nagoya University"
+    role: Organizer
+    url: http://www.francoislegall.com/
+  - name: Yinan Li
+    affiliation: "Wuhan University"
+    url:
+  - name: Frédéric Magniez
+    affiliation: "CNRS, Université Paris Cité"
+    url:
+  - name: Masayuki Miyamoto
+    affiliation: "University of Tsukuba"
+    url:
+  - name: Tomoyuki Morimae
+    affiliation: "Kyoto University"
+    url:
+  - name: Harumichi Nishimura
+    affiliation: "Nagoya University"
+    url:
+  - name: Yixin Shen
+    affiliation: "INRIA Rennes"
+    url:
+  - name: Fang Song
+    affiliation: "Portland State University"
+    role: Organizer
+    url: http://www.fangsong.info
+  - name: Suguru Tamaki
+    affiliation: "University of Hyogo"
+    url:
+  - name: Chunhao Wang
+    affiliation: "Pennsylvania State University"
+    url:
+  - name: Shota Yamada
+    affiliation: "AIST"
+    url:
+  - name: Takashi Yamakawa
+    affiliation: "NTT"
+    url:
+  - name: Penghui Yao
+    affiliation: "Nanjing University"
+    role: Organizer
+    url: http://penghuiyao.info/

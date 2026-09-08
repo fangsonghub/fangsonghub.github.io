@@ -142,6 +142,13 @@ pc:
 # Organizer
 # ============================================================
 organizer:
+  - title: "Advances in Distributed Quantum Computing, Quantum Learning and Cryptography"
+    event: "NII Shonan Meeting NO.247"
+    url: /activity/shonan247
+    date: "November 30 – December 4, 2026"
+    location: "Shonan Village Center, Japan"
+    note: "with François Le Gall and Penghui Yao"
+
   - title: "New Directions in Provable Quantum Advantages"
     event: "NII Shonan Meeting"
     url: /activity/shonan198

@@ -1,0 +1,30 @@
+{% assign ev = site.data[page.event_data] %}
+
+{% if ev.organizers %}
+<div class="event-organizers">
+    <span class="event-fact-label">Organizers</span>
+    <ul class="event-organizer-list">
+        {% for o in ev.organizers %}
+        <li>{% if o.url %}<a href="{{ o.url }}" target="_blank">{{ o.name }}</a>{% else %}{{ o.name }}{% endif %}<span class="event-organizer-affil">{{ o.affiliation }}</span></li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+{% if ev.intro %}
+<div class="event-intro">{{ ev.intro | markdownify }}</div>
+{% endif %}
+
+{% if ev.themes %}
+<div class="event-themes">
+    {% for theme in ev.themes %}
+    <div class="event-theme">
+        <div class="event-theme-num">{{ forloop.index }}</div>
+        <div class="event-theme-body">
+            <h4>{{ theme.title }}</h4>
+            {{ theme.body | markdownify }}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}

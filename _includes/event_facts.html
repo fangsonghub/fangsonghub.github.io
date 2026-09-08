@@ -1,0 +1,39 @@
+{% assign ev = site.data[page.event_data] %}
+{% assign m = ev.meta %}
+<div class="event-facts">
+    {% if m.dates %}
+    <div class="event-fact">
+        <span class="event-fact-label">When</span>
+        <span class="event-fact-value">{{ m.dates }}</span>
+        {% if m.checkin %}<span class="event-fact-note">Check-in: {{ m.checkin }}</span>{% endif %}
+    </div>
+    {% endif %}
+
+    {% if m.venue %}
+    <div class="event-fact">
+        <span class="event-fact-label">Where</span>
+        <span class="event-fact-value">{% if m.venue_url %}<a href="{{ m.venue_url }}" target="_blank">{{ m.venue }}</a>{% else %}{{ m.venue }}{% endif %}{% if m.location %}, {{ m.location }}{% endif %}</span>
+        {% if m.directions_url %}<span class="event-fact-note"><a href="{{ m.directions_url }}" target="_blank">Directions</a></span>{% endif %}
+    </div>
+    {% endif %}
+
+    {% if m.format %}
+    <div class="event-fact">
+        <span class="event-fact-label">Format</span>
+        <span class="event-fact-value">{{ m.format }}</span>
+        {% if m.format_note %}<span class="event-fact-note">{{ m.format_note }}</span>{% endif %}
+    </div>
+    {% endif %}
+
+    {% if m.official_url %}
+    <div class="event-fact">
+        <span class="event-fact-label">Official page</span>
+        <span class="event-fact-value"><a href="{{ m.official_url }}" target="_blank">{{ m.official_label | default: m.official_url }}</a></span>
+        {% if m.official_note %}<span class="event-fact-note">{{ m.official_note }}</span>{% endif %}
+    </div>
+    {% endif %}
+</div>
+
+{% if m.predecessor %}
+<p class="event-lineage">Sequel to <a href="{{ site.url }}{{ m.predecessor.url }}">{{ m.predecessor.label }}</a>{% if m.predecessor.note %}, <em>{{ m.predecessor.note }}</em>{% endif %}.</p>
+{% endif %}

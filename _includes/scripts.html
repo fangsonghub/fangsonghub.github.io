@@ -6,9 +6,10 @@
 (function() {
   var btn = document.getElementById('theme-toggle');
   var root = document.documentElement;
+  if (!btn) return;                    
 
-  function updateIcon() {
-    var isDark = root.getAttribute('data-theme') === 'dark';
+     function updateIcon() {
+         var isDark = root.getAttribute('data-theme') === 'dark';
     btn.querySelector('.theme-icon').textContent = isDark ? '☽' : '☀︎';
   }
 

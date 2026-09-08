@@ -1,5 +1,5 @@
 ---
-layout: plain
+layout: event
 title: NII Shonan Meeting NO.198 
 desc: Activities
 subtitle: New Directions in Provable Quantum Advantages
