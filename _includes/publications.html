@@ -19,7 +19,7 @@
 		{% endif %}
 	    </div>
 	    {% if pub.note %}
-	    <div class="pub-note">{{ pub.note }}</div>
+	    <div class="pub-note">{% if pub.note_url %}<a href="{{ pub.note_url }}" target="_blank">{{ pub.note }}</a>{% else %}{{ pub.note }}{% endif %}</div>
 	    {% endif %}
 	    {% if pub.talks %}
 	    {% for talk in pub.talks %}
@@ -66,7 +66,7 @@
 		{% endif %}
 	    </div>
 	    {% if pub.note %}
-	    <div class="pub-note">{{ pub.note }}</div>
+	    <div class="pub-note">{% if pub.note_url %}<a href="{{ pub.note_url }}" target="_blank">{{ pub.note }}</a>{% else %}{{ pub.note }}{% endif %}</div>
 	    {% endif %}
 	    <div class="pub-links">
 		{% if pub.links.doi %}<a href="{{ pub.links.doi }}" class="pub-link" target="_blank">DOI</a>{% endif %}

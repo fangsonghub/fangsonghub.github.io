@@ -87,7 +87,8 @@
   venue:
     name: "TCC 2024"
     url: https://tcc.iacr.org/2024/
-  note: "Journal version in SIAM J. Computing, 55(4), 787-850, 2026"    
+  note: "Journal version in SIAM J. Computing, 55(4), 787-850, 2026"
+  note_url: https://doi.org/10.1137/24M170990X    
   talks:
     - name: "QIP 2024"
       url: https://qip2024.tw/
