@@ -14,6 +14,18 @@
   links:
     arxiv: https://arxiv.org/abs/2504.14957
 
+- type: "journal-version"
+  year: 2026
+  conference_title: "Quantum Pseudorandom Scramblers"
+  conference_ref: "quantum-pseudorandom-scramblers"
+  venue:
+    name: "SIAM J. Computing"
+    volume: 55
+    issue: 4
+    pages: "787-850"
+  links:
+    doi: https://doi.org/10.1137/24M170990X
+    
 - title: "A Cryptographic Perspective on the Verifiability of Quantum Advantage"
   authors: "Nai-Hui Chia, Honghao Fu, Fang Song, Penghui Yao"
   year: 2025
