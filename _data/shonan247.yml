@@ -43,39 +43,38 @@ intro: >
   This reunion meeting takes stock of what has happened in the intervening
   years and pushes on three fronts. We bring together leading researchers
   alongside rising junior researchers, with the aim of seeding collaborations
-  across communities — and in particular between Asian and non-Asian
-  researchers.
+  across communities. There are three focused topics: 1. _Quantum distributed computing_;   2. _Quantum games and quantum proof systems_; and 3. _Quantum cryptography_.
 
 # ============================================================
 # Meeting themes (markdown allowed in `body`)
 # ============================================================
-themes:
-  - title: "Quantum distributed computing"
-    body: >
-      Since the first evidence that quantum distributed algorithms can beat
-      classical ones, the area has grown quickly, with recent results
-      demonstrating their potential in the fundamental LOCAL model. We aim to
-      survey these developments, look for further separations, and clarify the
-      limits of quantum distributed computing through its connections to
-      two-party quantum communication complexity.
-
-  - title: "Quantum learning algorithms"
-    body: >
-      Learning the properties of a quantum system is among the most fundamental
-      problems in the field, and the last few years have brought a surge of
-      progress on shallow circuits, Pauli channels, stabilizer states, and more.
-      New mathematical tools have come with it, notably Pauli analysis. We will
-      lay out the fundamentals and the open directions, drawing on computer
-      science, mathematics, information theory, and physics.
-
-  - title: "Quantum cryptography"
-    body: >
-      Two developments anchor this thread: the first provably secure
-      construction of pseudorandom unitaries, and a way of turning quantum
-      advantage experiments on NISQ devices into a basis for cryptographic
-      primitives. We will look for pseudorandom unitaries with new properties
-      and further applications, and examine the new advantage-based assumptions
-      from both a cryptanalytic and a constructive angle.
+#themes:
+#  - title: "Quantum distributed computing"
+#    body: >
+#      Since the first evidence that quantum distributed algorithms can beat
+#      classical ones, the area has grown quickly, with recent results
+#      demonstrating their potential in the fundamental LOCAL model. We aim to
+#      survey these developments, look for further separations, and clarify the
+#      limits of quantum distributed computing through its connections to
+#      two-party quantum communication complexity.
+#
+#  - title: "Quantum learning algorithms"
+#    body: >
+#      Learning the properties of a quantum system is among the most fundamental
+#      problems in the field, and the last few years have brought a surge of
+#      progress on shallow circuits, Pauli channels, stabilizer states, and more.
+#      New mathematical tools have come with it, notably Pauli analysis. We will
+#      lay out the fundamentals and the open directions, drawing on computer
+#      science, mathematics, information theory, and physics.
+#
+#  - title: "Quantum cryptography"
+#    body: >
+#      Two developments anchor this thread: the first provably secure
+#      construction of pseudorandom unitaries, and a way of turning quantum
+#      advantage experiments on NISQ devices into a basis for cryptographic
+#      primitives. We will look for pseudorandom unitaries with new properties
+#      and further applications, and examine the new advantage-based assumptions
+#      from both a cryptanalytic and a constructive angle.
 
 # ============================================================
 # Schedule

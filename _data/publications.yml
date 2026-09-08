@@ -4,7 +4,7 @@
 
 - title: "Parallel Kac's Walk Generates PRU"
   authors: "Chuhan Lu, Minglong Qin, Fang Song, Penghui Yao, Mingnan Zhao"
-  year: 2025
+  year: 2026
   highlight: false
   topic: "Quantum Pseudorandomness"
   blurb: "Proved that the parallel Kac's walk construction generates pseudorandom unitaries, giving a conceptually distinct route to PRUs."
@@ -16,8 +16,9 @@
 
 - type: "journal-version"
   year: 2026
-  conference_title: "Quantum Pseudorandom Scramblers"
-  conference_ref: "quantum-pseudorandom-scramblers"
+  conference_titles:
+    - title: "Quantum Pseudorandom Scramblers"
+    - ref: "quantum-pseudorandom-scramblers"
   venue:
     name: "SIAM J. Computing"
     volume: 55

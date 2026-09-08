@@ -5,7 +5,7 @@
     <span class="event-fact-label">Organizers</span>
     <ul class="event-organizer-list">
         {% for o in ev.organizers %}
-        <li>{% if o.url %}<a href="{{ o.url }}" target="_blank">{{ o.name }}</a>{% else %}{{ o.name }}{% endif %}<span class="event-organizer-affil">{{ o.affiliation }}</span></li>
+        <li>{% if o.url %}<a href="{{ o.url }}" target="_blank">{{ o.name }}</a>{% else %}{{ o.name }}{% endif %}, <span class="event-organizer-affil">{{ o.affiliation }}</span></li>
         {% endfor %}
     </ul>
 </div>
