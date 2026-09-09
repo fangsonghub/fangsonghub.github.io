@@ -24,6 +24,12 @@ pc:
       - year: 2017
         url: http://asiacrypt.iacr.org/2017/
 
+  - name: "CANS"
+    full: "Cryptology and Network Security"
+    offerings:
+      - year: 2026
+      - url: https://uow-ic2.github.io/cans2026/index.html
+      
   - name: "Crypto"
     offerings:
       - year: 2021
@@ -77,6 +83,12 @@ pc:
       - year: 2017
         url: https://2017.pqcrypto.org/conference/
 
+  - name: "PQQS"
+    full: "ACM Post-Quantum and Quantum-based Security"
+    offerings:
+      - year: 2026
+      - url: https://acm-pqqs.github.io/pqqs2026/
+      
   - name: "QCE"
     full: "IEEE Quantum Week"
     offerings:

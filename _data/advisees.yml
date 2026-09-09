@@ -59,6 +59,14 @@
   year_end: 2024
   placement: Engineer @ Intel
 
+- name: ""
+  role: undergrad
+  institution: "Portland State U"
+  note: "MCECS URMP"
+#  note_url: https://www.pdx.edu/engineering/past-urmp-video-presentations
+  year_start: 2026
+  year_end: 2026
+  
 - name: "Shraya Ramamoorthy"
   role: undergrad
   institution: "Portland State U"
@@ -128,6 +136,26 @@
   year_start: 2014
   year_end: 2014
   placement: "Ph.D. @ University of Waterloo"
+
+- name: "Isabella Ellers"
+  role: highschool
+  school: "Memoria Academy"
+  school_url: https://www.memoriaacademy.com/
+  program: "Saturday Academy ASE"
+  program_url: https://www.saturdayacademy.org/ase
+  year: 2026
+#  placement: "CS & Psychology @ Duke"
+#  talk_url: https://youtu.be/fnzCSRMu5OE?si=ZGyMN_v7OJfnfrcE&t=5463
+
+- name: "Hannah Ho"
+  role: highschool
+  school: "Sunset High School"
+  school_url: https://sunset.beaverton.k12.or.us/
+  program: "Saturday Academy ASE"
+  program_url: https://www.saturdayacademy.org/ase
+  year: 2026
+#  placement: "CS & Psychology @ Duke"
+#  talk_url: https://youtu.be/fnzCSRMu5OE?si=ZGyMN_v7OJfnfrcE&t=5463
 
 - name: "Stella Wang"
   role: highschool
