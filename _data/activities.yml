@@ -89,6 +89,12 @@ pc:
       - year: 2026
         url: https://acm-pqqs.github.io/pqqs2026/
 
+  - name: "PST"
+    full: "IEEE Privacy, Security, and Trust"
+    offerings:
+      - year: 2026
+        url: https://pstnet.ca/pst2026/
+
   - name: "QCE"
     full: "IEEE Quantum Week"
     offerings:
