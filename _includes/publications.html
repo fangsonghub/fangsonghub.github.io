@@ -1,4 +1,4 @@
-{% assign pubs = site.data.publications | where_exp: "p", "p.type != 'manuscript'" | sort: "year" | reverse %}
+{% assign pubs = site.data.publications | where_exp: "p", "p.type != 'manuscript'" | sort: "title" | sort: "year" | reverse %}
 {% assign manuscripts = site.data.publications | where: "type", "manuscript" | sort: "year" | reverse %}
 {% assign years = pubs | map: "year" | uniq %}
 {% for year in years %}
