@@ -13,7 +13,8 @@
     url: https://asiacrypt.iacr.org/2026/  
   links:
     arxiv: https://arxiv.org/abs/2504.14957
-
+    eprint: https://eprint.iacr.org/2026/1945
+    
 #- type: "journal-version"
 #  year: 2026
 #  conference_titles:
