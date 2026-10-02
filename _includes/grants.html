@@ -14,7 +14,7 @@
 	    <span class="grant-title">{{ grant.title }}</span>
 	</div>
 	<div class="grant-meta">
-	    <span class="grant-years">{{ grant.year_start }}–{{ grant.year_end }}</span>
+            <span class="grant-years">{{ grant.year_start }}</span>
 	    {% if grant.award.number %}
             · Award <a href="{{ grant.award.url }}" target="_blank">#{{ grant.award.number }}</a>
 	    {% elsif grant.award.url %}
