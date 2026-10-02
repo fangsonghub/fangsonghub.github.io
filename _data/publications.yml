@@ -70,7 +70,7 @@
       video_note: "talk by Daniel Liang"
   links:
     doi: https://proceedings.mlr.press/v291/chia25a.html
-    arxiv: phttps://arxiv.org/abs/2405.10242
+    arxiv: https://arxiv.org/abs/2405.10242
 
 - title: "Improved Quantum Lifting by Coherent Measure-and-Reprogram"
   authors: "Alexandru Cojocaru, Juan Garay, Qipeng Liu, Fang Song"
