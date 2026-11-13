@@ -213,7 +213,7 @@ talks:
   magniez:
     speaker: Frédéric Magniez
     affiliation: "CNRS, Université Paris Cité"
-    label: Tutorial
+    label: Overview
     title: "Distributed Quantum Computing"
     abstract:
 
