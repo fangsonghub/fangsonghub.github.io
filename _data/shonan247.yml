@@ -206,7 +206,7 @@ talks:
   morimae:
     speaker: Tomoyuki Morimae
     affiliation: Kyoto University
-    label: Tutorial
+    label: Overview
     title: "Quantum Cryptography"
     abstract:
       - >-
