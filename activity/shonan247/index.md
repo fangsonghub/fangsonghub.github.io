@@ -13,19 +13,20 @@ modified: <2026-09-07>
 * Table of Contents
 {:toc}
 
-{% include event_facts.html %}
+{% include shonan247_facts.html %}
 
 ## About
 
-{% include event_about.html %}
+{% include shonan247_about.html %}
 
 ## Schedule
 
-{% include event_schedule.html %}
+{% include shonan247_schedule.html %}
+{% include shonan247_abstracts.html %}
 
 ## Participant list
 
-{% include event_participants.html %}
+{% include shonan247_participants.html %}
 
 ## Acknowledgement
 

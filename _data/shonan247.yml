@@ -77,170 +77,274 @@ intro: >
 #      from both a cryptanalytic and a constructive angle.
 
 # ============================================================
-# Schedule
+# Schedule — a grid, one column per day (rendered by
+# _includes/event_schedule.html)
 #
-# kind:  talk    -> speaker + title; renders "TBA" while both are blank
-#        key     -> accent colour (check-in, photo, excursion, farewell)
-#        social  -> muted (meals, breaks, banquets)
-#        (omit)  -> plain text
+# Each row has a time and exactly one entry per day column,
+# left to right, Mon..Fri. An entry is one of:
+#
+#   { talk: <id>, part: "I" }   a talk from `talks:` below; `part` optional
+#   { text: "...", kind: K }    fixed item. K = social (meals, breaks),
+#                               key (photo, excursion, farewell), plain
+#   {}                          empty cell
+#   skip                        covered by a cell above that has `rows:`
+#
+# Add `span: N` to cover N day columns, `rows: N` to cover N rows.
+# A row whose entries don't add up to 5 columns will misalign.
 # ============================================================
 schedule:
-  - day: "Sunday, November 29"
-    items:
-      - time: "1500-1900"
-        what: "Check-in"
-        kind: key
-      - time: "1900-2100"
-        what: "Welcome Banquet"
-        kind: social
+  status: "Tentative program — last updated 11 November 2026."
+  days: ["Mon, Nov 30", "Tue, Dec 1", "Wed, Dec 2", "Thu, Dec 3", "Fri, Dec 4"]
+  rows:
+    - time: "07:30–09:00"
+      cells:
+        - { text: "Breakfast", kind: social, span: 5 }
 
-  - day: "Monday, November 30"
-    items:
-      - time: "0730-0900"
-        what: "Breakfast"
-        kind: social
-      - time: "0900-0915"
-        what: "Opening Remarks"
-      - time: "0915-1000"
-        kind: talk
-        speaker:
-        title:
-      - time: "1000-1030"
-        what: "Discussion"
-      - time: "1030-1100"
-        what: "Coffee Break"
-        kind: social
-      - time: "1100-1200"
-        kind: talk
-        speaker:
-        title:
-      - time: "1200-1330"
-        what: "Lunch"
-        kind: social
-      - time: "1330-1400"
-        what: "Group Photo"
-        kind: key
-      - time: "1400-1500"
-        kind: talk
-        speaker:
-        title:
-      - time: "1500-1530"
-        what: "Coffee Break"
-        kind: social
-      - time: "1530-1700"
-        what: "Breakout groups: open problems"
-      - time: "1800-1930"
-        what: "Dinner"
-        kind: social
+    - time: "08:45–09:00"
+      cells:
+        - { text: "Opening remarks", kind: key }
+        - {}
+        - {}
+        - {}
+        - {}
 
-  - day: "Tuesday, December 1"
-    items:
-      - time: "0730-0900"
-        what: "Breakfast"
-        kind: social
-      - time: "0900-1030"
-        kind: talk
-        speaker:
-        title:
-      - time: "1030-1100"
-        what: "Coffee Break"
-        kind: social
-      - time: "1100-1200"
-        what: "Breakout groups"
-      - time: "1200-1330"
-        what: "Lunch"
-        kind: social
-      - time: "1400-1530"
-        kind: talk
-        speaker:
-        title:
-      - time: "1530-1600"
-        what: "Coffee Break"
-        kind: social
-      - time: "1600-1730"
-        what: "Breakout groups"
-      - time: "1800-1930"
-        what: "Dinner"
-        kind: social
-      - time: "1930-2100"
-        what: "Research party @ Research Wing Lounge"
+    - time: "09:00–09:40"
+      cells:
+        - { talk: morimae, part: "I" }
+        - { talk: magniez, part: "I" }
+        - { talk: gupte }
+        - { talk: jain }
+        - { talk: di }
 
-  - day: "Wednesday, December 2"
-    items:
-      - time: "0730-0900"
-        what: "Breakfast"
-        kind: social
-      - time: "0900-1030"
-        kind: talk
-        speaker:
-        title:
-      - time: "1030-1100"
-        what: "Coffee Break"
-        kind: social
-      - time: "1100-1200"
-        what: "Breakout groups"
-      - time: "1200-1330"
-        what: "Lunch"
-        kind: social
-      - time: "1330-1800"
-        what: "Excursion"
-        kind: key
-      - time: "1815-2100"
-        what: "Main Banquet"
-        kind: social
+    - time: "09:45–10:25"
+      cells:
+        - { talk: morimae, part: "II" }
+        - { talk: magniez, part: "II" }
+        - { talk: chia }
+        - { talk: yamada }
+        - { text: "Ad hoc talks", kind: plain }
 
-  - day: "Thursday, December 3"
-    items:
-      - time: "0730-0900"
-        what: "Breakfast"
-        kind: social
-      - time: "0900-1030"
-        kind: talk
-        speaker:
-        title:
-      - time: "1030-1100"
-        what: "Coffee Break"
-        kind: social
-      - time: "1100-1200"
-        what: "Breakout groups"
-      - time: "1200-1330"
-        what: "Lunch"
-        kind: social
-      - time: "1400-1530"
-        kind: talk
-        speaker:
-        title:
-      - time: "1530-1600"
-        what: "Coffee Break"
-        kind: social
-      - time: "1600-1730"
-        what: "Open discussion"
-      - time: "1800-1930"
-        what: "Dinner"
-        kind: social
-      - time: "1930-2100"
-        what: "Research party @ Research Wing Lounge"
+    - time: "10:30–11:00"
+      cells:
+        - { text: "Coffee break", kind: social, span: 5 }
 
-  - day: "Friday, December 4"
-    items:
-      - time: "0730-0900"
-        what: "Breakfast"
-        kind: social
-      - time: "0900-1030"
-        kind: talk
-        speaker:
-        title:
-      - time: "1030-1100"
-        what: "Coffee Break"
-        kind: social
-      - time: "1100-1200"
-        what: "Wrap-up and open problems"
-      - time: "1200-1330"
-        what: "Lunch"
-        kind: social
-      - time: "1330"
-        what: "Farewell"
-        kind: key
+    - time: "11:00–11:40"
+      cells:
+        - { talk: kundu }
+        - { talk: guan }
+        - { talk: shen }
+        - { talk: dong }
+        - { text: "Wrap-up &amp; free discussion", kind: plain }
+
+    - time: "12:00–14:00"
+      cells:
+        - { text: "Lunch<br>(group photo)", kind: social }
+        - { text: "Lunch", kind: social }
+        - { text: "Lunch", kind: social }
+        - { text: "Lunch", kind: social }
+        - { text: "Lunch<br>(farewell / departure)", kind: social }
+
+    - time: "14:00–14:40"
+      cells:
+        - { talk: hsieh, part: "I" }
+        - { talk: yamakawa }
+        - { text: "Excursion", kind: key, rows: 4 }
+        - { talk: wang }
+        - { rows: 6 }
+
+    - time: "14:45–15:25"
+      cells:
+        - { talk: hsieh, part: "II" }
+        - { talk: hhan }
+        - skip
+        - { talk: hayakawa }
+        - skip
+
+    - time: "15:30–16:00"
+      cells:
+        - { text: "Coffee break", kind: social }
+        - { text: "Coffee break", kind: social }
+        - skip
+        - { text: "Coffee break", kind: social }
+        - skip
+
+    - time: "16:00–17:30"
+      cells:
+        - { text: "Breakout sessions", kind: key }
+        - { text: "Breakout sessions", kind: key }
+        - skip
+        - { text: "Breakout sessions", kind: key }
+        - skip
+
+    - time: "18:00–19:30"
+      cells:
+        - { text: "Dinner", kind: social }
+        - { text: "Dinner", kind: social }
+        - { text: "Main banquet<br>(18:15–21:00)", kind: social, rows: 2 }
+        - { text: "Dinner", kind: social }
+        - skip
+
+    - time: "19:30–21:00"
+      cells:
+        - { text: "Research party<br>@ Research Wing Lounge", kind: plain }
+        - { text: "Research party<br>@ Research Wing Lounge", kind: plain }
+        - skip
+        - { text: "Research party<br>@ Research Wing Lounge", kind: plain }
+        - skip
+
+# ============================================================
+# Talks — keyed by id, used by the grid above and listed in this
+# order under "Titles and abstracts".
+#
+# Abstracts: a list, one `- >-` item per paragraph; line breaks
+# inside an item are joined with spaces. Math uses MathJax:
+# \( ... \) inline, \[ ... \] display.
+# Plain text only — HTML is escaped. Add `slides: <url>` after the
+# meeting to show a slides link.
+# ============================================================
+talks:
+  morimae:
+    speaker: Tomoyuki Morimae
+    affiliation: Kyoto University
+    label: Tutorial
+    title: "Quantum Cryptography"
+    abstract:
+
+  magniez:
+    speaker: Frédéric Magniez
+    affiliation: "CNRS, Université Paris Cité"
+    label: Tutorial
+    title: "Distributed Quantum Computing"
+    abstract:
+
+  hsieh:
+    speaker: Min-Hsiu Hsieh
+    affiliation: Hon Hai Quantum Computing Research Center
+    label: Overview
+    title: "Quantum Error Correction"
+    abstract:
+
+  kundu:
+    speaker: Srijita Kundu
+    affiliation: Foxconn Research
+    title: "An exponential separation between entanglement-assisted and unassisted one-way quantum communication"
+    abstract:
+      - >-
+        A longstanding question in quantum communication complexity is whether some task can be accomplished with a small amount of communication in the presence of entanglement, yet require much more quantum communication in the absence of entanglement. Separations of this nature were previously known for relational problems and, in the simultaneous message passing model, for partial functions. But it has remained unresolved whether any such separation exists for a total Boolean function. We resolve this question with an exponential separation in the one-way setting: we exhibit a family of total Boolean functions \(f_n:\{0,1\}^n\times\{0,1\}^n\to\{0,1\}\) that can be computed with \(O(\log n)\) bits of one-way classical communication given prior entanglement, but that require \(\Omega(n^{1/3})\) qubits of one-way quantum communication without entanglement. Our function is a special case of the subgroup membership problem, first studied in the communication setting by Aaronson, Le Gall, Russell, and Tani.
+
+  guan:
+    speaker: Ziyi Guan
+    affiliation: "EPFL / MIT"
+    title: "Succinctness Requires Probabilistic Checking in the Quantum World"
+    abstract:
+      - >-
+        Succinct arguments are cryptographic proofs with small communication complexity (and sometimes small verifier size). Quantum succinct arguments extend this notion by allowing the prover and verifier to be quantum algorithms that exchange quantum messages. In this talk I will discuss our result showing that quantum succinct arguments in the random oracle model (ROM) is as hard as constructing quantum interactive oracle proofs (QIOPs). The proof gives an efficient transformation from quantum succinct arguments to QIOPs, showing that quantum succinctness implies quantum probabilistic checking. Along the way, we introduce a new proximity test for compressed oracles and adapt locality properties of perfect hash functions to the quantum setting. This talk is based on joint work with Alessandro Chiesa, Ignacio Manzur, and Thomas Vidick.
+
+  yamakawa:
+    speaker: Takashi Yamakawa
+    affiliation: NTT
+    title: "Worst-Case Quantum Algorithm for Optimal Polynomial Intersection Beyond Decoded Quantum Interferometry"
+    abstract:
+      - >-
+        The Optimal Polynomial Intersection (OPI) problem asks us to find a low-degree polynomial over a finite field whose values lie in prescribed subsets on as many given inputs as possible. Decoded quantum interferometry (DQI) gives a quantum algorithm for OPI in parameter regimes beyond those achieved by the best known classical heuristics. Follow-up works improve the parameter regimes, but their analyses are limited to average-case settings. Recently, Sun and Wootters showed that, even in the worst case, OPI has a solution in a larger parameter regime than the one covered by DQI. However, they left open whether one can design a quantum algorithm that solves OPI in the worst-case beyond the DQI regime.
+      - >-
+        We give such a quantum algorithm. As a byproduct, we also improve the existential bound of Sun and Wootters in certain parameter regimes. In particular, when each subset contains roughly half of the field elements, our algorithm finds a solution with satisfaction rate \(s = 1\) whenever the rate satisfies \(R > 0.75\). This matches the previous average-case bound, whereas DQI cannot achieve \(s = 1\) unless \(R = 1\). Our existential bound guarantees the existence of a solution when \(R > 0.7158\), improving over the previous threshold \(R > 0.7495\). More generally, our existential results extend to the Max-LINSAT problem with respect to arbitrary maximum distance separable (MDS) codes. The corresponding algorithmic results apply only to MDS codes whose dual admits an efficient list decoder. Our results are obtained through a novel application of a Brascamp–Lieb-type inequality in the MDS setting, which may have further applications.
+      - >-
+        This is a joint work with Shuji Horinaga.
+
+  hhan:
+    speaker: Minki Hhan
+    affiliation: KAIST
+    title: "PRU oracle separation"
+    abstract:
+
+  gupte:
+    speaker: Aparna Gupte
+    affiliation: MIT
+    title: "Quantum lattice algorithms"
+    abstract:
+
+  chia:
+    speaker: Nai-Hui Chia
+    affiliation: Rice University
+    title: "Complexity theory for quantum promise problems"
+    abstract:
+      - >-
+        We begin by establishing structural results for several fundamental quantum complexity classes: p/mBQP, p/mQ(C)MA, p/mQSZKhv, p/mQIP, p/mBQP/qpoly, p/mBQP/poly, and p/mPSPACE. This includes identifying complete problems, as well as proving containment and separation results among these classes. Here, p/mC denotes the corresponding quantum promise complexity class with pure (p) or mixed (m) quantum input states for any classical complexity class C. Surprisingly, our findings uncover relationships that diverge from their classical analogues — specifically, we show unconditionally that p/mQIP ≠ p/mPSPACE and p/mBQP/qpoly ≠ p/mBQP/poly. This starkly contrasts the classical setting, where QIP = PSPACE and separations such as BQP/qpoly ≠ BQP/poly are only known relative to oracles. More interestingly, these separation results further connected to the topic of for both quantum property testing and unitary synthesis.
+      - >-
+        This new framework has numerous applications in quantum cryptography, particularly in the contexts of Microcrypt. We provide a better characterization of its primitives; for example, we show that OWSG and PRS can be broken by a p/mQCMA oracle, leading to a natural quantum analogue of Impagliazzo's five worlds by substituting the classical complexity classes in Pessiland, Heuristica, and Algorithmica with mBQP and mQCMA. Moreover, we establish the relativization barrier for proving the existence of EFI, noting that no such barrier currently exists within traditional complexity theory.
+
+  shen:
+    speaker: Yixin Shen
+    affiliation: INRIA Rennes
+    title: "Cyclotomic Cosets: Hidden Subgroup and Quantum Sieving Algorithm for Prime-Power Moduli"
+    abstract:
+      - >-
+        The Learning With Errors (LWE) problem is a fundamental assumption in post-quantum cryptography. Regev established a quantum reduction from LWE to the Dihedral Coset Problem (DCP). Later, Brakerski et al. introduced the Extrapolated Dihedral Coset Problem (EDCP), proving its equivalence to LWE. However, unlike DCP, EDCP no longer admits a coset structure. This limits the direct application of techniques for hidden subgroup problems.
+      - >-
+        In this work, we introduce the Cyclotomic Coset Problem (CCP), a cyclotomic generalization of DCP that preserves an exact hidden-subgroup structure. Let \(\zeta_p\) be a primitive \(p\)-th root of unity, let \(\pi=\zeta_p-1\), and write \(q=p^t\) and \(L=t(p-1)\). We work over \(R_q=\mathbb{Z}_q[\zeta_p]\cong\mathbb{Z}[\zeta_p]/(\pi^L)\), where the isomorphism follows from the total ramification identity \((p)=(\pi)^{p-1}\). We exploit the resulting \(\pi\)-adic ideal chain to construct a quantum sieve that successively reduces phase states modulo \(\pi^L,\pi^{L-1},\ldots,\pi\). For every fixed prime \(p\) and modulus \(q=p^t\), our algorithm solves the CCP in time and sample complexity \(2^{O_p(\log n\log q)}\), using polynomial quantum space. The sieve also applies to uniform EDCP and Gaussian \(\mathrm{S}|\mathrm{LWE}\rangle\), yielding quasi-polynomial time algorithms for all the above problems when \(q=\mathrm{poly}(n)\). This extends the power-of-two EDCP sieve of Bai et al. (CRYPTO 2025) to a cyclotomic setting.
+      - >-
+        However, we emphasize that our result does not, by itself, yield a quasi-polynomial-time algorithm for standard LWE, because the currently known reduction produces only a limited number of approximate CCP states.
+
+  jain:
+    speaker: Rahul Jain
+    affiliation: National University of Singapore
+    title: "Parallel Repetition for Entangled Games via Conditional Relative Entropy"
+    abstract:
+      - >-
+        We give a proof of the cubic parallel-repetition bound for finite two-player entangled games using quantum conditional relative entropy. For a game with entangled value \(1-\varepsilon<1\) and answer alphabets \(A,B\), its \(n\)-fold repeated value is at most
+        \[\exp\!\left[-\Omega\!\left(\varepsilon^3 n/L\right)\right],\qquad L:=\max\{1,\log(|A||B|)\},\]
+        for every \(n\ge 1\). This recovers Song's cubic rate. We also prove a threshold bound: the probability of winning a fraction at least \(1-\varepsilon+\delta\) is at most \(\exp[-\Omega(\delta^5 n/(\varepsilon^2 L))]\) for \(0<\delta\le\varepsilon\).
+      - >-
+        Our information charge is the decrease in relative entropy when a question reference is discarded. Our comparison states preserve the original conditional question law. A chain rule bounds the coordinate charges using the cost of conditioning on checked wins and retaining checked answers. Our main lemma converts small charges into nearby pure-state descriptions and local corrections, each depending only on one player's question. Together with Song's sampler, these enable approximate local preparation of the conditioned workspace.
+
+  yamada:
+    speaker: Shota Yamada
+    affiliation: AIST
+    title: "Constant-Rate Certified Deletion"
+    abstract:
+      - >-
+        We present a unified framework for upgrading a broad class of cryptographic primitives to support constant-rate certified deletion. Previous constructions require a linear number of qubits per encrypted bit of certified-deletable plaintext. In contrast, we obtain the first constant-rate constructions in the plain model that achieve certified deletion while preserving everlasting security.
+      - >-
+        Our approach applies to a wide range of “all-or-nothing”–type primitives based on BB84-style encodings, including commitment schemes, public-key encryption, attribute-based encryption, and fully homomorphic encryption. Beyond this class, we further extend our techniques to primitives built from subspace coset states, such as CCA-PKE and blind delegation. Importantly, our framework does not introduce any additional assumptions beyond those required by the underlying certified deletion primitives.
+      - >-
+        Finally, under the hardness of SIS, we show that public verifiability can be incorporated into BB84- and coset-based certified deletion. In combination with our constant-rate constructions, this yields publicly verifiable certified deletion schemes with constant rate.
+
+  dong:
+    speaker: Yangjing Dong
+    affiliation: Aalto University
+    title: "On the Computational Complexity of Geometrically Local QAC\\(^0\\) Circuits"
+    abstract:
+
+  wang:
+    speaker: Chunhao Wang
+    affiliation: Pennsylvania State University
+    title: "Sparse Hamiltonian simulation with optimal dependence on the spectral norm and applications to optimal linear system solvers"
+    abstract:
+      - >-
+        We give a quantum algorithm for simulating a \(d\)-sparse Hermitian Hamiltonian \(H\), assuming a known upper bound \(\Lambda\) on its maximum column Euclidean norm \(\|H\|_{1\to 2}\). For \(t\Lambda\ge 1/2\), simulation with operator-norm error \(\epsilon\) uses
+        \[O\big(t\Lambda\sqrt{d}+\sqrt{d}\,\log(2/\epsilon)\big)\]
+        sparse-oracle queries. This removes the subpolynomial overhead in Low's algorithm [STOC 2019], replacing it with an additive logarithmic precision term. For \(d>1\) and \(t\Lambda\ge\log(2/\epsilon)\), the bound matches the worst-case lower bound. A known spectral-norm upper bound may also be used in place of \(\Lambda\). The number of 1- and 2-qubit gates is linear in the query scale, up to oracle costs and polynomial overhead in the input bit lengths and logarithmic precision parameters.
+      - >-
+        As applications, we obtain \(O(\kappa\sqrt{d}\,\mathrm{polylog}(\kappa/\epsilon))\) queries for solving \(d\)-sparse quantum linear systems with \(\|A\|\le 1\) and \(\|A^{-1}\|\le\kappa\), under standard sparse and state-preparation access. We also give a gate-efficient implementation of black-box unitaries with at most \(d\) nonzero entries per row and column using \(O(\sqrt{d}\,\log(2/\epsilon))\) queries, given sparse access to the unitary and its adjoint. At constant error, the query bound is optimal and yields \(\Theta(\sqrt{N})\) queries for arbitrary \(N\times N\) unitaries, resolving the open question on black-box unitary implementation posed by Berry and Childs [QIC 2012].
+
+  hayakawa:
+    speaker: Ryu Hayakawa
+    affiliation: Kyoto University
+    title: "HDE approach to quantum spectral problems"
+    abstract:
+      - >-
+        Motivated by advances in classical sampling through high-dimensional expansion, I introduce Recursive Operator Localization (ROL), a framework for local quadratic energies on Hilbert spaces. For nested subspaces indexed by a weighted simplicial complex, classical link-walk gaps propagate geometric estimates upward, turning local energy bounds into a global operator gap.
+      - >-
+        ROL recovers total-variance decompositions and classical link-expansion gap bounds (Alev–Lau, STOC 2020). For positive binary spin distributions, conditional influence encodes subspace overlap, recovering heat-bath gap bounds from spectral independence (Anari–Liu–Oveis Gharan, FOCS 2020).
+
+  di:
+    speaker: Zijing Di
+    affiliation: EPFL
+    title: "Cryptography from Sampling Oracles and LOCC Primitives in the Bounded CRQS Model"
+    abstract:
+      - >-
+        This chapter explores the common reference distribution (CRD) model, a fully classical framework that bridges the gap between traditional cryptographic models and their quantum counterparts like the CRQS and CHRS models. The CRD model introduces a secret key to generate efficiently preparable classical mixed states, which are distributed to all parties. By restricting adversaries to a bounded number of samples, the model achieves information-theoretic security for foundational cryptographic primitives such as bit commitments, one-time signatures, non-interactive zero-knowledge (NIZK) proofs, and key agreement protocols. The chapter presents two variants of the CRD model: the bounded CRD (bCRD) model, where security holds against adversaries with limited samples, and the unbounded CRD (ubCRD) model, which requires security against adversaries with polynomial access. The text details constructions for these primitives, highlighting their statistical security guarantees and efficiency trade-offs. Notably, the chapter demonstrates that while the bCRD model enables unconditional security, the communication complexity of certain primitives, such as bit commitments and signatures, grows linearly with the sample bound. This contrasts with quantum models like the CRQS, where similar primitives can achieve security with constant communication complexity. The chapter also explores the relationship between the CRD and CRQS models, showing that CRD-based protocols can be generically lifted to the CRQS model, further bridging classical and quantum cryptographic techniques. Additionally, the text discusses the limitations of the CRD model, including the necessity of one-way functions for certain constructions in the unbounded setting. The chapter concludes with open questions and future research directions, such as the feasibility of other cryptographic primitives in the CRD model and the potential for separations between classical and quantum cryptographic models. Through a detailed analysis of linear-algebraic techniques and security proofs, the chapter provides a comprehensive overview of the CRD model's capabilities and its role in advancing classical cryptography.
 
 # ============================================================
 # Participants
@@ -249,9 +353,6 @@ schedule:
 # so ordering here is what renders. Add `url:` to link a name.
 # ============================================================
 participants:
-  - name: Anurag Anshu
-    affiliation: "Harvard University"
-    url:
   - name: Nai-Hui Chia
     affiliation: "Rice University"
     url:
@@ -262,7 +363,7 @@ participants:
     affiliation: "EPFL"
     url:
   - name: Yangjing Dong
-    affiliation: "Nanjing University"
+    affiliation: "Aalto University"
     url:
   - name: Ziyi Guan
     affiliation: "EPFL / MIT"
@@ -298,9 +399,6 @@ participants:
     affiliation: "Nagoya University"
     role: Organizer
     url: http://www.francoislegall.com/
-  - name: Yinan Li
-    affiliation: "Wuhan University"
-    url:
   - name: Frédéric Magniez
     affiliation: "CNRS, Université Paris Cité"
     url:
