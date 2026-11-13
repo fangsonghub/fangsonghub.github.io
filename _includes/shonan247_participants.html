@@ -1,0 +1,19 @@
+{% assign ev = site.data[page.event_data] %}
+
+<table class="event-participants">
+  <tbody>
+    {% for p in ev.participants %}
+    <tr>
+      <td class="participant-name">
+        {%- if p.url and p.url != '' -%}
+          <a href="{{ p.url }}" target="_blank">{{ p.name }}</a>
+        {%- else -%}
+          {{ p.name }}
+        {%- endif -%}
+        {%- if p.role %} <span class="participant-role">{{ p.role }}</span>{% endif -%}
+      </td>
+      <td class="participant-affil">{{ p.affiliation }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

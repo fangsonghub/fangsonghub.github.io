@@ -7,7 +7,7 @@ headline: Advances in Distributed Quantum Computing, Quantum Learning and Crypto
 subtitle: November 30 – December 4, 2026 &middot Shonan Village Center, Japan
 event_data: shonan247
 permalink: /activity/shonan247/
-modified: <2026-09-07>
+modified: <2026-11-13>
 ---
 
 * Table of Contents
@@ -22,6 +22,8 @@ modified: <2026-09-07>
 ## Schedule
 
 {% include shonan247_schedule.html %}
+
+### Titles and abstracts
 {% include shonan247_abstracts.html %}
 
 ## Participant list

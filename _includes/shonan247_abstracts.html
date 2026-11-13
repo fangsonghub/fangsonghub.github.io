@@ -1,0 +1,26 @@
+{% assign ev = include.data | default: site.data[page.event_data] %}
+{%- comment -%}
+  Talks render in the order they appear under `talks:` in the data file.
+  `abstract` is a list of paragraphs. Text is escaped, so MathJax
+  delimiters pass through but HTML does not.
+{%- endcomment -%}
+
+<div class="talk-list">
+  {% for pair in ev.talks %}
+  {% assign id = pair[0] %}
+  {% assign t = pair[1] %}
+  <section class="talk" id="talk-{{ id }}">
+    {% if t.label %}<div class="talk-label">{{ t.label }}</div>{% endif %}
+    <h4 class="talk-title">{{ t.title }}</h4>
+    <div class="talk-speaker">{{ t.speaker }}{% if t.affiliation %}, <span class="talk-affil">{{ t.affiliation }}</span>{% endif %}</div>
+    {% if t.abstract and t.abstract.size > 0 %}
+    <div class="talk-abstract">
+      {% for p in t.abstract %}<p>{{ p | escape }}</p>{% endfor %}
+    </div>
+    {% else %}
+    <p class="talk-pending">Abstract to come.</p>
+    {% endif %}
+    {% if t.slides %}<a class="talk-slides" href="{{ t.slides }}" target="_blank">Slides</a>{% endif %}
+  </section>
+  {% endfor %}
+</div>

@@ -1,0 +1,38 @@
+{% assign ev = include.data | default: site.data[page.event_data] %}
+{% assign s = ev.schedule %}
+
+{% if s.status %}<p class="event-note">{{ s.status }}</p>{% endif %}
+
+<div class="sched-grid-wrap">
+<table class="sched-grid">
+  <thead>
+    <tr>
+      <th class="sg-time" scope="col"><span class="sg-sr">Time</span></th>
+      {% for d in s.days %}<th scope="col">{{ d }}</th>{% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in s.rows %}
+    <tr>
+      <th class="sg-time" scope="row">{{ row.time }}</th>
+      {% for cell in row.cells %}
+        {% if cell == 'skip' %}{% continue %}{% endif %}
+        {% capture attrs %}{% if cell.span %} colspan="{{ cell.span }}"{% endif %}{% if cell.rows %} rowspan="{{ cell.rows }}"{% endif %}{% endcapture %}
+        {% if cell.talk %}
+          {% assign t = ev.talks[cell.talk] %}
+      <td class="sg-talk{% if t.label %} sg-tutorial{% endif %}"{{ attrs }}>
+        <a class="sg-speaker" href="#talk-{{ cell.talk }}">{{ t.speaker }}</a>
+        <span class="sg-title">{% if t.label %}<span class="sg-label">{{ t.label }}{% if cell.part %} · {{ cell.part }}{% endif %}</span>{% endif %}{{ t.title }}</span>
+      </td>
+        {% elsif cell.text %}
+      <td class="sg-{{ cell.kind | default: 'plain' }}{% if cell.span %} sg-span{% endif %}"{{ attrs }}>{% if cell.span %}<span class="sg-stick">{{ cell.text }}</span>{% else %}{{ cell.text }}{% endif %}</td>
+        {% else %}
+      <td class="sg-empty"{{ attrs }}></td>
+      {% endif %}
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+<p class="sched-hint">Click a speaker's name for the title and abstract.</p>
