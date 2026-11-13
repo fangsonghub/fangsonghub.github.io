@@ -210,7 +210,7 @@ talks:
     title: "Quantum Cryptography"
     abstract:
       - >-
-In this tutorial talk, I explain basics and recent open problems in quantum
+        In this tutorial talk, I explain basics and recent open problems in quantum
 cryptography. In classical cryptography, one-way functions are the minimal
 assumption. However, in the quantum setting where we can use quantum computer
 and quantum channel, one-way functions are not necessarily the minimal
