@@ -210,10 +210,18 @@ talks:
     title: "Quantum Cryptography"
     abstract:
       - >-
-In this tutorial talk, I explain basics and recent open problems in quantum cryptography. In classical cryptography, one-way functions are the
-minimal assumption. However, in the quantum setting where we can use quantum computer and quantum channel, one-way functions are not necessarily
-the minimal assumption. There are several new quantum cryptographic primitives, such as pseudorandom state generators, pseudorandom unitaries, one-way state generators, etc. They could be weaker than one-way functions, but still they imply many useful applications such as commitment, multiparty computations, digital signatures, etc. In this talk I will overview definitions of these primitives and relations among these primitives. I also explain remaining open problems
-for these primitives. I also present some recent interesting results on relations between quantum cryptography and quantum advantage. 
+In this tutorial talk, I explain basics and recent open problems in quantum
+cryptography. In classical cryptography, one-way functions are the minimal
+assumption. However, in the quantum setting where we can use quantum computer
+and quantum channel, one-way functions are not necessarily the minimal
+assumption. There are several new quantum cryptographic primitives, such as
+pseudorandom state generators, pseudorandom unitaries, one-way state generators,
+etc. They could be weaker than one-way functions, but still they imply many
+useful applications such as commitment, multiparty computations, digital
+signatures, etc. In this talk I will overview definitions of these primitives
+and relations among these primitives. I also explain remaining open problems for
+these primitives. I also present some recent interesting results on relations
+between quantum cryptography and quantum advantage.
     
 
   magniez:
