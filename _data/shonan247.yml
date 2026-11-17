@@ -263,8 +263,16 @@ talks:
   gupte:
     speaker: Aparna Gupte
     affiliation: MIT
-    title: "Quantum lattice algorithms"
+    title: "Why We Don’t Have Quantum Algorithms for LWE (yet)"
     abstract:
+      - >-
+        Learning With Errors (LWE) is a cornerstone of modern post-quantum cryptography. It has a remarkable combination of properties: it has enough structure to enable powerful cryptographic primitives such as fully homomorphic encryption, it enjoys worst-case-to-average-case reductions, and, despite several attempts over the years, it is believed to be exponentially hard, even against quantum algorithms.
+      - >-
+        A natural approach to developing quantum algorithms for LWE is through Regev's reduction from LWE to the dihedral coset problem (DCP). In the same work, Regev also gave a reduction from DCP to subset sum. We describe a barrier showing that algorithms following this template cannot discard too much information from their Fourier labels. In particular, this rules out a recent proposed polynomial-time algorithm for DCP.
+      - >-
+        On the positive side, Kuperberg's sieve solves DCP in subexponential time, but requires too many samples to yield an improved algorithm for LWE via known reductions. We describe more recent improvements to Kuperberg's algorithm that give quasipolynomial-time algorithms for certain structured variants of DCP, although these do not currently yield improved algorithms for LWE.
+      - >-
+        This talk includes joint work with Seyoon Ragavan and Mark Zhandry.
 
   chia:
     speaker: Nai-Hui Chia
