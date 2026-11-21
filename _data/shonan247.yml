@@ -237,10 +237,10 @@ talks:
   guan:
     speaker: Ziyi Guan
     affiliation: "EPFL / MIT"
-    title: "Succinctness Requires Probabilistic Checking in the Quantum World"
+    title: "Cryptographic Proof Systems for Scalable AI Oversight"
     abstract:
       - >-
-        Succinct arguments are cryptographic proofs with small communication complexity (and sometimes small verifier size). Quantum succinct arguments extend this notion by allowing the prover and verifier to be quantum algorithms that exchange quantum messages. In this talk I will discuss our result showing that quantum succinct arguments in the random oracle model (ROM) is as hard as constructing quantum interactive oracle proofs (QIOPs). The proof gives an efficient transformation from quantum succinct arguments to QIOPs, showing that quantum succinctness implies quantum probabilistic checking. Along the way, we introduce a new proximity test for compressed oracles and adapt locality properties of perfect hash functions to the quantum setting. This talk is based on joint work with Alessandro Chiesa, Ignacio Manzur, and Thomas Vidick.
+        As AI systems become more capable, we need ways to make sure they do the right thing. This gives rise to a natural verification problem: can we check an AI system’s work much more efficiently than doing the work ourselves? Cryptography has developed proof systems for exactly this kind of succinct verification. In this talk, I will discuss proof systems that have been proposed for scalable AI verification, including SNARGs and MIPs, and compare their advantages and limitations. Based on joint works with Alessandro Chiesa, Yael Tauman Kalai, Ron Rothblum, Zoe Xi, and Burcu Yıldız.
 
   yamakawa:
     speaker: Takashi Yamakawa
